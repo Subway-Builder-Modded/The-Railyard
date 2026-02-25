@@ -8,15 +8,17 @@ body:
       value: |
         ## Update Mod Metadata
 
-        Only fill in the fields you want to change. Leave everything else blank.
+        Only fill in the fields you want to change — leave everything else blank.
         Your GitHub account must match the original publisher of this mod.
+
+        If validation fails, you can edit this issue and comment **revalidate** to retry.
 
   - type: input
     id: mod-id
     attributes:
       label: Mod ID
-      description: The ID of the mod you want to update (must already exist in the registry).
-      placeholder: my-awesome-mod
+      description: The ID of the mod you want to update. Must already exist in the registry.
+      placeholder: better-trains
     validations:
       required: true
 
@@ -37,7 +39,7 @@ body:
     attributes:
       label: Tags
       description: >
-        If you check any tags below, they will REPLACE the current tags.
+        If you check any tags below, they will REPLACE all current tags.
         Leave all unchecked to keep current tags.
       options:
         - label: vehicles
@@ -59,7 +61,7 @@ body:
     id: update-type
     attributes:
       label: Update Type
-      description: Change the update type (select "No change" to keep current).
+      description: Change the update type, or select "No change" to keep current.
       options:
         - No change
         - GitHub Releases
@@ -69,18 +71,22 @@ body:
     id: github-repo
     attributes:
       label: GitHub Repository
-      description: New `owner/repo` path (leave blank to keep current).
+      description: >
+        New `owner/repo` path. The repo must exist and have at least one release with a .zip asset.
+        Leave blank to keep current.
 
   - type: input
     id: custom-update-url
     attributes:
       label: Custom Update URL
-      description: New custom update URL (leave blank to keep current).
+      description: >
+        New custom update.json URL. Must follow The Railyard update.json schema.
+        Leave blank to keep current.
 
   - type: textarea
     id: gallery
     attributes:
       label: Gallery Images
       description: >
-        Drag and drop new screenshot images here, or paste image URLs (one per line).
-        If provided, these will REPLACE the current gallery.
+        Drag and drop new screenshots here, or paste image URLs (one per line).
+        If provided, these will REPLACE the current gallery. Leave blank to keep current.

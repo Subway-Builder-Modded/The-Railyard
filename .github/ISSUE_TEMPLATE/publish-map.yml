@@ -8,16 +8,20 @@ body:
       value: |
         ## Publish a New Map
 
-        Fill out the form below to submit your custom map. A pull request will be automatically created for review.
+        Fill out the form below to submit your custom map to The Railyard. A pull request will be automatically created for review.
+
+        If validation fails, you can edit this issue and comment **revalidate** to retry.
 
   - type: input
     id: map-id
     attributes:
       label: Map ID
       description: >
-        A unique kebab-case identifier for your map (e.g. `raleigh`).
-        This will be the directory name in the registry. Only lowercase letters, numbers, and hyphens.
-      placeholder: my-city
+        A unique identifier for your map in kebab-case. This is the permanent directory name in the registry
+        and cannot be changed later. Must be unique across all maps — if another map of the same city already
+        exists, use a distinct ID (e.g. `london-detailed`, `london-mini`).
+        Only lowercase letters, numbers, and hyphens allowed.
+      placeholder: raleigh
     validations:
       required: true
 
@@ -25,7 +29,7 @@ body:
     id: name
     attributes:
       label: City Name
-      description: The human-readable name for your map.
+      description: The human-readable city name shown in the mod manager.
       placeholder: Raleigh
     validations:
       required: true
@@ -35,7 +39,9 @@ body:
     attributes:
       label: City Code
       description: >
-        2-4 letter IATA/ICAO city code used by the game. Must not clash with vanilla city codes.
+        2-4 letter IATA/ICAO-style city code used by the game internally. Must be uppercase letters/numbers.
+        Must not clash with vanilla city codes or other registered maps.
+        Check existing maps before choosing a code.
       placeholder: RDU
     validations:
       required: true
@@ -44,7 +50,9 @@ body:
     id: country
     attributes:
       label: Country Code
-      description: ISO 3166-1 alpha-2 country code (e.g. US, GB, CA, DE).
+      description: >
+        ISO 3166-1 alpha-2 country code — two uppercase letters (e.g. US, GB, CA, DE, JP).
+        Used to group maps by country in the mod manager.
       placeholder: US
     validations:
       required: true
@@ -53,7 +61,9 @@ body:
     id: population
     attributes:
       label: Population
-      description: Metropolitan area population (number only, no commas).
+      description: >
+        Approximate metropolitan area population. Number only, no commas or separators.
+        Used for display and sorting in the mod manager — doesn't need to be exact.
       placeholder: "1500000"
     validations:
       required: true
@@ -62,8 +72,8 @@ body:
     id: description
     attributes:
       label: Description
-      description: A short description of your map.
-      placeholder: Custom map of the Raleigh metropolitan area with good demand data quality.
+      description: A short description of your map. Mention data quality, notable features, or coverage area.
+      placeholder: Custom map of the Raleigh-Durham metropolitan area with good demand data quality.
     validations:
       required: true
 
@@ -71,7 +81,7 @@ body:
     id: tags
     attributes:
       label: Tags
-      description: Select all tags that apply to your map.
+      description: Select all tags that apply to your map. These help users find your map in the browser.
       options:
         - label: north-america
         - label: south-america
@@ -91,7 +101,7 @@ body:
     attributes:
       label: Source URL
       description: URL to your map's source code repository or download page.
-      placeholder: https://github.com/username/my-map
+      placeholder: https://github.com/username/sb-raleigh
     validations:
       required: true
 
@@ -99,7 +109,9 @@ body:
     id: update-type
     attributes:
       label: Update Type
-      description: How should the mod manager fetch updates?
+      description: >
+        How should the mod manager fetch updates for your map?
+        Most maps should use GitHub Releases. Use Custom URL only if you host your own update.json file.
       options:
         - GitHub Releases
         - Custom URL
@@ -111,26 +123,28 @@ body:
     attributes:
       label: GitHub Repository
       description: >
-        If using GitHub Releases, provide the `owner/repo` path.
+        Required if using GitHub Releases. The `owner/repo` path (e.g. `username/sb-raleigh`).
+        The repo must exist, have at least one release, and the latest release must contain a .zip asset.
         Leave blank if using Custom URL.
-      placeholder: username/my-map
+      placeholder: username/sb-raleigh
 
   - type: input
     id: custom-update-url
     attributes:
       label: Custom Update URL
       description: >
-        If using Custom URL, provide the full URL to your update.json file.
+        Required if using Custom URL. The full URL to your self-hosted update.json file.
+        The file must follow The Railyard update.json schema (see docs).
         Leave blank if using GitHub Releases.
-      placeholder: https://example.com/my-map/update.json
+      placeholder: https://example.com/sb-raleigh/update.json
 
   - type: textarea
     id: gallery
     attributes:
       label: Gallery Images
       description: >
-        Drag and drop screenshot images here, or paste image URLs (one per line).
-        These will be displayed in the map browser.
+        Drag and drop screenshots here, or paste image URLs (one per line).
+        These will be displayed in the map browser. At least one image is recommended.
 
   - type: checkboxes
     id: terms

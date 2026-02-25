@@ -8,16 +8,19 @@ body:
       value: |
         ## Publish a New Mod
 
-        Fill out the form below to submit your mod. A pull request will be automatically created for review.
+        Fill out the form below to submit your mod to The Railyard. A pull request will be automatically created for review.
+
+        If validation fails, you can edit this issue and comment **revalidate** to retry.
 
   - type: input
     id: mod-id
     attributes:
       label: Mod ID
       description: >
-        A unique kebab-case identifier for your mod (e.g. `better-trains`).
-        This will be the directory name in the registry. Only lowercase letters, numbers, and hyphens.
-      placeholder: my-awesome-mod
+        A unique identifier for your mod in kebab-case. This is the permanent directory name in the registry
+        and cannot be changed later. Must be unique across all mods — check existing listings before submitting.
+        Only lowercase letters, numbers, and hyphens allowed.
+      placeholder: better-trains
     validations:
       required: true
 
@@ -25,8 +28,8 @@ body:
     id: name
     attributes:
       label: Display Name
-      description: The human-readable name for your mod.
-      placeholder: My Awesome Mod
+      description: The human-readable name shown in the mod manager.
+      placeholder: Better Trains
     validations:
       required: true
 
@@ -34,8 +37,8 @@ body:
     id: description
     attributes:
       label: Description
-      description: A short description of what your mod does.
-      placeholder: Adds new train models with realistic sounds and animations.
+      description: A short description of what your mod does. This is shown in the mod browser.
+      placeholder: Adds realistic train models with improved sounds and animations.
     validations:
       required: true
 
@@ -43,7 +46,7 @@ body:
     id: tags
     attributes:
       label: Tags
-      description: Select all tags that apply to your mod.
+      description: Select all tags that apply to your mod. These help users find your mod in the browser.
       options:
         - label: vehicles
         - label: cosmetic
@@ -59,7 +62,7 @@ body:
     attributes:
       label: Source URL
       description: URL to your mod's source code repository or homepage.
-      placeholder: https://github.com/username/my-mod
+      placeholder: https://github.com/username/better-trains
     validations:
       required: true
 
@@ -67,7 +70,9 @@ body:
     id: update-type
     attributes:
       label: Update Type
-      description: How should the mod manager fetch updates?
+      description: >
+        How should the mod manager fetch updates for your mod?
+        Most mods should use GitHub Releases. Use Custom URL only if you host your own update.json file.
       options:
         - GitHub Releases
         - Custom URL
@@ -79,26 +84,28 @@ body:
     attributes:
       label: GitHub Repository
       description: >
-        If using GitHub Releases, provide the `owner/repo` path.
+        Required if using GitHub Releases. The `owner/repo` path (e.g. `username/better-trains`).
+        The repo must exist, have at least one release, and the latest release must contain a .zip asset.
         Leave blank if using Custom URL.
-      placeholder: username/my-mod
+      placeholder: username/better-trains
 
   - type: input
     id: custom-update-url
     attributes:
       label: Custom Update URL
       description: >
-        If using Custom URL, provide the full URL to your update.json file.
+        Required if using Custom URL. The full URL to your self-hosted update.json file.
+        The file must follow The Railyard update.json schema (see docs).
         Leave blank if using GitHub Releases.
-      placeholder: https://example.com/my-mod/update.json
+      placeholder: https://example.com/better-trains/update.json
 
   - type: textarea
     id: gallery
     attributes:
       label: Gallery Images
       description: >
-        Drag and drop screenshot images here, or paste image URLs (one per line).
-        These will be displayed in the mod browser.
+        Drag and drop screenshots here, or paste image URLs (one per line).
+        These will be displayed in the mod browser. At least one image is recommended.
 
   - type: checkboxes
     id: terms
