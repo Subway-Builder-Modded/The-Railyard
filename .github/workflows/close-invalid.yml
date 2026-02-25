@@ -9,45 +9,38 @@ permissions:
 
 jobs:
   close-invalid:
+    if: >-
+      !contains(github.event.issue.labels.*.name, 'publish-mod') &&
+      !contains(github.event.issue.labels.*.name, 'publish-map') &&
+      !contains(github.event.issue.labels.*.name, 'update-mod') &&
+      !contains(github.event.issue.labels.*.name, 'update-map') &&
+      !contains(github.event.issue.labels.*.name, 'report')
     runs-on: ubuntu-latest
     steps:
-      - name: Check for valid labels
+      - name: Close invalid issue
         uses: actions/github-script@v7
         with:
           script: |
-            const validLabels = [
-              'publish-mod',
-              'publish-map',
-              'update-mod',
-              'update-map',
-              'report'
-            ];
+            await github.rest.issues.createComment({
+              owner: context.repo.owner,
+              repo: context.repo.repo,
+              issue_number: context.issue.number,
+              body: [
+                'This issue was not created using a valid issue template and has been automatically closed.',
+                '',
+                'Please use one of the available issue templates to submit your request:',
+                '- **[Publish New Mod](../../issues/new?template=publish-mod.yml)** - Submit a new mod to the registry',
+                '- **[Publish New Map](../../issues/new?template=publish-map.yml)** - Submit a new custom map to the registry',
+                '- **[Update Existing Mod Metadata](../../issues/new?template=update-mod.yml)** - Update metadata for a mod you own',
+                '- **[Update Existing Map Metadata](../../issues/new?template=update-map.yml)** - Update metadata for a map you own',
+                '- **[Report a Mod or Map](../../issues/new?template=report.yml)** - Report an issue with a listing',
+              ].join('\n')
+            });
 
-            const issueLabels = context.payload.issue.labels.map(l => l.name);
-            const hasValidLabel = issueLabels.some(l => validLabels.includes(l));
-
-            if (!hasValidLabel) {
-              await github.rest.issues.createComment({
-                owner: context.repo.owner,
-                repo: context.repo.repo,
-                issue_number: context.issue.number,
-                body: [
-                  'This issue was not created using a valid issue template and has been automatically closed.',
-                  '',
-                  'Please use one of the available issue templates to submit your request:',
-                  '- **Publish New Mod** - Submit a new mod to the registry',
-                  '- **Publish New Map** - Submit a new custom map to the registry',
-                  '- **Update Existing Mod Metadata** - Update metadata for a mod you own',
-                  '- **Update Existing Map Metadata** - Update metadata for a map you own',
-                  '- **Report a Mod or Map** - Report an issue with a listing',
-                ].join('\n')
-              });
-
-              await github.rest.issues.update({
-                owner: context.repo.owner,
-                repo: context.repo.repo,
-                issue_number: context.issue.number,
-                state: 'closed',
-                state_reason: 'not_planned'
-              });
-            }
+            await github.rest.issues.update({
+              owner: context.repo.owner,
+              repo: context.repo.repo,
+              issue_number: context.issue.number,
+              state: 'closed',
+              state_reason: 'not_planned'
+            });
