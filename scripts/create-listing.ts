@@ -33,17 +33,22 @@ function parseCheckedBoxes(raw: string | undefined): string[] {
 
 function parseGalleryImages(raw: string | undefined): string[] {
   if (!raw || raw === "_No response_") return [];
-  // Extract markdown image URLs: ![alt](url) or plain URLs
+  // Extract image URLs from: ![alt](url), <img src="url">, or plain URLs
   const urls: string[] = [];
   for (const line of raw.split("\n")) {
     const mdMatch = line.match(/!\[.*?\]\((.*?)\)/);
     if (mdMatch) {
       urls.push(mdMatch[1]);
-    } else {
-      const trimmed = line.trim();
-      if (trimmed.startsWith("http")) {
-        urls.push(trimmed);
-      }
+      continue;
+    }
+    const imgMatch = line.match(/<img\s[^>]*src=["']([^"']+)["'][^>]*>/i);
+    if (imgMatch) {
+      urls.push(imgMatch[1]);
+      continue;
+    }
+    const trimmed = line.trim();
+    if (trimmed.startsWith("http")) {
+      urls.push(trimmed);
     }
   }
   return urls;
