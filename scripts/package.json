@@ -2,6 +2,7 @@
   "name": "@the-railyard/scripts",
   "private": true,
   "type": "module",
+  "packageManager": "pnpm@10.19.0",
   "scripts": {
     "validate-publish": "tsx validate-publish.ts",
     "validate-update": "tsx validate-update.ts",
