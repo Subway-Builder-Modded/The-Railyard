@@ -1,0 +1,21 @@
+{
+  "schema_version": 1,
+  "id": "tel-aviv",
+  "name": "Tel Aviv",
+  "author": "BarKuperman",
+  "github_id": 102868699,
+  "description": "Custom map of the Tel Aviv area. \nMade with low resolution data from the Israeli transport ministry.\nHas Map Labels for cities and neighborhoods.",
+  "tags": [
+    "asia",
+    "limited-data"
+  ],
+  "gallery": [],
+  "source": "http://github.com/BarKuperman/TLV-mod/releases/latest",
+  "update": {
+    "type": "github",
+    "repo": "BarKuperman/TLV-mod"
+  },
+  "city_code": "TLV",
+  "country": "IL",
+  "population": 4500000
+}
