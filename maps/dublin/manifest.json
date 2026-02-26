@@ -1,0 +1,28 @@
+{
+  "schema_version": 1,
+  "id": "dublin",
+  "name": "Dublin",
+  "author": "Kronifer",
+  "github_id": 44979306,
+  "description": "Custom map of Dublin with high-resolution data pulled and processed from the 2022 Census.",
+  "tags": [
+    "europe",
+    "high-detail",
+    "airports",
+    "highways",
+    "universities"
+  ],
+  "gallery": [
+    "gallery/screenshot1.png",
+    "gallery/screenshot2.png",
+    "gallery/screenshot3.png"
+  ],
+  "source": "https://github.com/Kronifer/sb-dublin-map",
+  "update": {
+    "type": "github",
+    "repo": "kronifer/sb-dublin-map"
+  },
+  "city_code": "DUB",
+  "country": "IE",
+  "population": 1170000
+}
