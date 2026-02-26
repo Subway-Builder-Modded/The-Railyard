@@ -1,0 +1,29 @@
+{
+  "schema_version": 1,
+  "id": "louisville",
+  "name": "Louisville",
+  "author": "soccerjonj",
+  "github_id": 222296520,
+  "description": "Custom map of the Louisville, KY area and surrounding towns. Generated using 2023 LODES Census Data and added demand for the following:\n\nUniversities: University of Louisville, Bellarmine University, Spalding University, Indiana University-Southeast, Sullivan University, Jefferson Community and Technical College, The Southern Baptist Theological Seminary, Ivy Tech Community College-South Central\n\nEntertainment: Louisville Zoo, Lynn Family Stadium, Louisville Slugger Field, Churchill Downs, L&N Federal Credit Union Stadium, KFC Yum! Center, Kentucky Derby Museum, Muhammad Ali Center, Louisville Slugger Museum & Factory, Lousville Exposition Center",
+  "tags": [
+    "north-america",
+    "high-detail",
+    "airports",
+    "entertainment",
+    "universities"
+  ],
+  "gallery": [
+    "gallery/screenshot1.png",
+    "gallery/screenshot2.png",
+    "gallery/screenshot3.png",
+    "gallery/screenshot4.png"
+  ],
+  "source": "https://github.com/soccerjonj/Louisville",
+  "update": {
+    "type": "github",
+    "repo": "soccerjonj/Louisville"
+  },
+  "city_code": "SDF",
+  "country": "US",
+  "population": 530833
+}
