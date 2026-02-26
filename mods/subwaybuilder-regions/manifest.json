@@ -1,0 +1,21 @@
+{
+  "schema_version": 1,
+  "id": "subwaybuilder-regions",
+  "name": "Regions",
+  "author": "ahkimn",
+  "github_id": 19807509,
+  "description": "Import real-world regions (e.g. Counties / Provinces) into Subway Builder and view region boundaries & region-level statistics in real time.",
+  "tags": [
+    "ui",
+    "maps"
+  ],
+  "gallery": [
+    "gallery/screenshot1.png",
+    "gallery/screenshot2.png"
+  ],
+  "source": "https://github.com/ahkimn/subwaybuilder-regions",
+  "update": {
+    "type": "github",
+    "repo": "ahkimn/subwaybuilder-regions"
+  }
+}
