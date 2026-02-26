@@ -1,0 +1,27 @@
+{
+  "schema_version": 1,
+  "id": "colorado-ski-country",
+  "name": "Colorado Ski Country",
+  "author": "soccerjonj",
+  "github_id": 222296520,
+  "description": "Custom map of Eagle/Vail and many of its surrounding areas (Colorado Ski Country) such as Steamboat Springs, Aspen, Breckenridge, Keystone, etc. Generated using 2023 LODES Census Data and added demand for the following:\n\nUniversities: Colorado Mountain College Campuses: Steamboat Springs, Vail Valley, Dillon, Breckenridge, Leadville, Aspen, Carbondale, Glenwood Springs, Spring Valley at Glenwood Springs\n\nEntertainment/Tourism: Breckenridge Ski Resort, Vail Ski Resort, Keystone Resort, Copper Mountain, Steamboat Ski Resort, Beavercreek Resort, Aspen Ski Resort, Sunlight Mountain Resort, Arapahoe Basin, Loveland Ski Area, Granby Ranch",
+  "tags": [
+    "north-america",
+    "medium-detail",
+    "airports",
+    "entertainment",
+    "universities"
+  ],
+  "gallery": [
+    "gallery/screenshot1.png",
+    "gallery/screenshot2.png"
+  ],
+  "source": "https://github.com/soccerjonj/Colorado-Ski-Country",
+  "update": {
+    "type": "github",
+    "repo": "soccerjonj/Colorado-Ski-Country"
+  },
+  "city_code": "EGE",
+  "country": "US",
+  "population": 167071
+}
