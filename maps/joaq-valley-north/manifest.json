@@ -1,0 +1,22 @@
+{
+  "schema_version": 1,
+  "id": "joaq-valley-north",
+  "name": "San Joaquin Valley North",
+  "author": "DanielD1909",
+  "github_id": 112905459,
+  "description": "Who asked for this?",
+  "tags": [
+    "north-america",
+    "full-detail",
+    "universities"
+  ],
+  "gallery": [],
+  "source": "https://github.com/DanielD1909/DanMaps/releases/tag/SCK",
+  "update": {
+    "type": "github",
+    "repo": "DanielD1909/DanMaps"
+  },
+  "city_code": "SCK",
+  "country": "US",
+  "population": 2650000
+}
