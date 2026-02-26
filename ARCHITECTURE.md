@@ -83,18 +83,18 @@ Top-level registry listing every mod by ID.
 }
 ```
 
-| Field            | Type       | Description                                                          |
-| ---------------- | ---------- | -------------------------------------------------------------------- |
-| `schema_version` | `number`   | Schema version for forward compatibility. Currently `1`.             |
-| `id`             | `string`   | Unique mod identifier. Must match the directory name.                |
-| `name`           | `string`   | Human-readable display name.                                         |
-| `author`         | `string`   | Mod author's name or handle.                                         |
+| Field            | Type       | Description                                                           |
+| ---------------- | ---------- | --------------------------------------------------------------------- |
+| `schema_version` | `number`   | Schema version for forward compatibility. Currently `1`.              |
+| `id`             | `string`   | Unique mod identifier. Must match the directory name.                 |
+| `name`           | `string`   | Human-readable display name.                                          |
+| `author`         | `string`   | Mod author's name or handle.                                          |
 | `github_id`      | `number`   | Immutable GitHub user ID of the publisher. Used for ownership checks. |
-| `description`    | `string`   | Short description of what the mod does.                              |
-| `tags`           | `string[]` | Categorization tags (e.g. `"vehicles"`, `"cosmetic"`, `"gameplay"`). |
-| `gallery`        | `string[]` | Relative paths to gallery images within the mod directory.           |
-| `source`         | `string`   | URL to the mod's source code or homepage.                            |
-| `update`         | `object`   | Update source configuration (see below).                             |
+| `description`    | `string`   | Short description of what the mod does.                               |
+| `tags`           | `string[]` | Categorization tags (e.g. `"vehicles"`, `"cosmetic"`, `"gameplay"`).  |
+| `gallery`        | `string[]` | Relative paths to gallery images within the mod directory.            |
+| `source`         | `string`   | URL to the mod's source code or homepage.                             |
+| `update`         | `object`   | Update source configuration (see below).                              |
 
 ### Update Types
 
@@ -262,13 +262,29 @@ Each manifest stores `github_id` -- the immutable numeric GitHub user ID of the 
 
 TypeScript scripts handle the complex logic, keeping workflow YAML thin:
 
-| Script | Purpose |
-|---|---|
-| `validate-publish.ts` | Validates new submissions (ID format, uniqueness, URLs, vanilla code clashes) |
-| `validate-update.ts` | Validates updates (existence check, ownership verification) |
-| `create-listing.ts` | Creates `manifest.json` and downloads gallery images |
-| `update-listing.ts` | Patches existing `manifest.json` with changed fields |
-| `regenerate-indexes.ts` | Scans filesystem and rebuilds `index.json` files |
+| Script                  | Purpose                                                                       |
+| ----------------------- | ----------------------------------------------------------------------------- |
+| `validate-publish.ts`   | Validates new submissions (ID format, uniqueness, URLs, vanilla code clashes) |
+| `validate-update.ts`    | Validates updates (existence check, ownership verification)                   |
+| `create-listing.ts`     | Creates `manifest.json` and downloads gallery images                          |
+| `update-listing.ts`     | Patches existing `manifest.json` with changed fields                          |
+| `regenerate-indexes.ts` | Scans filesystem and rebuilds `index.json` files                              |
+
+---
+
+## Dependencies
+
+Mods and maps can declare dependencies on other mods. Dependencies are specified **inside the mod's own `manifest.json` (or `config.json` for maps)** (the one shipped in the mod's download ZIP), not in this repository. The Railyard registry does not track dependencies -- they are resolved at install time by the mod manager.
+
+The `dependencies` field is a simple array of `mod-id@version` strings:
+
+```json
+{
+  "dependencies": ["some-library@1.0.0", "another-mod@2.3.1"]
+}
+```
+
+Each entry references a mod ID from this registry and the minimum required version. The mod manager will ensure dependencies are installed before the dependent mod is loaded.
 
 ---
 
