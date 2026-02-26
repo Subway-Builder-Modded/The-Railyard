@@ -56,7 +56,7 @@ async function validateMod(data: Record<string, string>): Promise<ValidationResu
     if (!parsed.data["github-repo"] || !/^[^/]+\/[^/]+$/.test(parsed.data["github-repo"])) {
       errors.push("**github-repo**: Must provide a valid `owner/repo` when using GitHub Releases.");
     } else {
-      const ghErrors = await validateGitHubRepo(parsed.data["github-repo"]);
+      const ghErrors = await validateGitHubRepo(parsed.data["github-repo"], parsed.data.source);
       errors.push(...ghErrors);
     }
   } else {
@@ -103,7 +103,7 @@ async function validateMap(data: Record<string, string>): Promise<ValidationResu
     if (!parsed.data["github-repo"] || !/^[^/]+\/[^/]+$/.test(parsed.data["github-repo"])) {
       errors.push("**github-repo**: Must provide a valid `owner/repo` when using GitHub Releases.");
     } else {
-      const ghErrors = await validateGitHubRepo(parsed.data["github-repo"]);
+      const ghErrors = await validateGitHubRepo(parsed.data["github-repo"], parsed.data.source);
       errors.push(...ghErrors);
     }
   } else {

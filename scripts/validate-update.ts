@@ -46,11 +46,18 @@ async function main() {
   const customUpdateUrl = data["custom-update-url"];
   const updateType = data["update-type"];
 
+  // Resolve source URL for monorepo detection: use updated source if provided, otherwise fall back to existing manifest
+  const sourceUrl = data.source || (id ? (() => {
+    const dir = type === "map" ? "maps" : "mods";
+    const mp = resolve(REPO_ROOT, dir, id, "manifest.json");
+    try { return JSON.parse(readFileSync(mp, "utf-8")).source; } catch { return undefined; }
+  })() : undefined);
+
   if (updateType === "GitHub Releases" && githubRepo) {
     if (!/^[^/]+\/[^/]+$/.test(githubRepo)) {
       errors.push("**github-repo**: Must provide a valid `owner/repo` when using GitHub Releases.");
     } else {
-      const ghErrors = await validateGitHubRepo(githubRepo);
+      const ghErrors = await validateGitHubRepo(githubRepo, sourceUrl);
       errors.push(...ghErrors);
     }
   } else if (!updateType && githubRepo && githubRepo.trim() !== "") {
@@ -58,7 +65,7 @@ async function main() {
     if (!/^[^/]+\/[^/]+$/.test(githubRepo)) {
       errors.push("**github-repo**: Must provide a valid `owner/repo` when using GitHub Releases.");
     } else {
-      const ghErrors = await validateGitHubRepo(githubRepo);
+      const ghErrors = await validateGitHubRepo(githubRepo, sourceUrl);
       errors.push(...ghErrors);
     }
   }
