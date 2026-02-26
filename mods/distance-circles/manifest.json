@@ -1,0 +1,22 @@
+{
+  "schema_version": 1,
+  "id": "distance-circles",
+  "name": "Station Catchment Viewer",
+  "author": "crumpetime",
+  "github_id": 121749023,
+  "description": "Adds a simple map layer that shows the catchment radius around train stations when active. Also supports displaying custom radii around stations.",
+  "tags": [
+    "cosmetic",
+    "qol",
+    "ui"
+  ],
+  "gallery": [
+    "gallery/screenshot1.png",
+    "gallery/screenshot2.png"
+  ],
+  "source": "https://github.com/crumpetime/subway_builder_distance_circles",
+  "update": {
+    "type": "github",
+    "repo": "crumpetime/subway_builder_distance_circles"
+  }
+}
