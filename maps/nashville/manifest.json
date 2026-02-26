@@ -1,0 +1,28 @@
+{
+  "schema_version": 1,
+  "id": "nashville",
+  "name": "Nashville",
+  "author": "soccerjonj",
+  "github_id": 222296520,
+  "description": "Custom map of the Nashville, TN area and surrounding towns such as Brentwood, Franklin, Mt. Juliet and Murfreesboro, Hendersonville etc. Generated using 2023 LODES Census Data and added demand for the following:\n\nUniversities: Vanderbilt University, Belmont University, Middle Tennessee State University, Fisk University, Lipscomb University, Meharry Medical College, Tennessee State University, Trevecca Nazarene University, Nashville State Community College, and Tennessee College of Applied Technology Nashville, Cumberland University, Volunteer State Community College\n\nEntertainment: Lower Broadway (Split into two demand points), Nashville Zoo, Ascend Amphitheater, Ryman Auditorium, Bridgestone Arena, Nissan Stadium, First Horizon Park, Geodis Park, Firstbank Stadium, Opry Mills Mall, Andrew Jackson's Hermitage, Cheekwood, and the Grand Ole Opry",
+  "tags": [
+    "north-america",
+    "high-detail",
+    "airports",
+    "entertainment",
+    "universities"
+  ],
+  "gallery": [
+    "gallery/screenshot1.png",
+    "gallery/screenshot2.png",
+    "gallery/screenshot3.png"
+  ],
+  "source": "https://github.com/soccerjonj/Nashville",
+  "update": {
+    "type": "github",
+    "repo": "soccerjonj/Nashville"
+  },
+  "city_code": "BNA",
+  "country": "US",
+  "population": 838863
+}
