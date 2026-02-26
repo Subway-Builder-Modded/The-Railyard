@@ -3,9 +3,6 @@ name: Regenerate Indexes
 on:
   push:
     branches: [main]
-    paths:
-      - "mods/*/manifest.json"
-      - "maps/*/manifest.json"
 
 permissions:
   contents: write
@@ -37,6 +34,6 @@ jobs:
         run: |
           git config user.name "github-actions[bot]"
           git config user.email "github-actions[bot]@users.noreply.github.com"
-          git add --ignore-missing mods/index.json maps/index.json
+          git add mods/index.json maps/index.json 2>/dev/null || true
           git diff --cached --quiet || git commit -m "chore: regenerate index files"
           git push
