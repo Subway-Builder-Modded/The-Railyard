@@ -37,3 +37,32 @@ jobs:
           git add mods/index.json maps/index.json 2>/dev/null || true
           git diff --cached --quiet || git commit -m "chore: regenerate index files"
           git push
+
+      - name: Delete stale branches
+        uses: actions/github-script@v7
+        with:
+          script: |
+            const prefixes = ['publish/mod/', 'publish/map/', 'update/mod/', 'update/map/'];
+            const { data: branches } = await github.rest.repos.listBranches({
+              owner: context.repo.owner,
+              repo: context.repo.repo,
+              per_page: 100
+            });
+            for (const branch of branches) {
+              if (!prefixes.some(p => branch.name.startsWith(p))) continue;
+              // Only delete if there's no open PR for this branch
+              const { data: prs } = await github.rest.pulls.list({
+                owner: context.repo.owner,
+                repo: context.repo.repo,
+                head: `${context.repo.owner}:${branch.name}`,
+                state: 'open'
+              });
+              if (prs.length === 0) {
+                console.log(`Deleting stale branch: ${branch.name}`);
+                await github.rest.git.deleteRef({
+                  owner: context.repo.owner,
+                  repo: context.repo.repo,
+                  ref: `heads/${branch.name}`
+                });
+              }
+            }

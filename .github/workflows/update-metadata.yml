@@ -74,26 +74,6 @@ jobs:
           ISSUE_JSON: ${{ steps.parser.outputs.jsonString }}
         run: pnpm --dir scripts run update-listing
 
-      - name: Close existing PR if present
-        uses: actions/github-script@v7
-        with:
-          script: |
-            const branch = 'update/mod/${{ fromJson(steps.parser.outputs.jsonString).mod-id }}';
-            const { data: prs } = await github.rest.pulls.list({
-              owner: context.repo.owner,
-              repo: context.repo.repo,
-              head: `${context.repo.owner}:${branch}`,
-              state: 'open'
-            });
-            for (const pr of prs) {
-              await github.rest.pulls.update({
-                owner: context.repo.owner,
-                repo: context.repo.repo,
-                pull_number: pr.number,
-                state: 'closed'
-              });
-            }
-
       - name: Commit and push changes
         run: |
           git config user.name "github-actions[bot]"
@@ -103,10 +83,21 @@ jobs:
           git commit -m "fix(mod): update ${{ fromJson(steps.parser.outputs.jsonString).mod-id }} metadata"
           git push --force origin "update/mod/${{ fromJson(steps.parser.outputs.jsonString).mod-id }}"
 
-      - name: Create pull request
+      - name: Create or update pull request
         uses: actions/github-script@v7
         with:
           script: |
+            const branch = 'update/mod/${{ fromJson(steps.parser.outputs.jsonString).mod-id }}';
+            const { data: existing } = await github.rest.pulls.list({
+              owner: context.repo.owner,
+              repo: context.repo.repo,
+              head: `${context.repo.owner}:${branch}`,
+              state: 'open'
+            });
+            if (existing.length > 0) {
+              console.log(`PR #${existing[0].number} already exists — updated via force push`);
+              return;
+            }
             const { data: pr } = await github.rest.pulls.create({
               owner: context.repo.owner,
               repo: context.repo.repo,
@@ -118,7 +109,7 @@ jobs:
                 '',
                 'Submitted by @${{ github.event.issue.user.login }}'
               ].join('\n'),
-              head: 'update/mod/${{ fromJson(steps.parser.outputs.jsonString).mod-id }}',
+              head: branch,
               base: 'main'
             });
             await github.rest.issues.addLabels({
@@ -239,26 +230,6 @@ jobs:
           ISSUE_JSON: ${{ steps.parser.outputs.jsonString }}
         run: pnpm --dir scripts run update-listing
 
-      - name: Close existing PR if present
-        uses: actions/github-script@v7
-        with:
-          script: |
-            const branch = 'update/map/${{ fromJson(steps.parser.outputs.jsonString).map-id }}';
-            const { data: prs } = await github.rest.pulls.list({
-              owner: context.repo.owner,
-              repo: context.repo.repo,
-              head: `${context.repo.owner}:${branch}`,
-              state: 'open'
-            });
-            for (const pr of prs) {
-              await github.rest.pulls.update({
-                owner: context.repo.owner,
-                repo: context.repo.repo,
-                pull_number: pr.number,
-                state: 'closed'
-              });
-            }
-
       - name: Commit and push changes
         run: |
           git config user.name "github-actions[bot]"
@@ -268,10 +239,21 @@ jobs:
           git commit -m "fix(map): update ${{ fromJson(steps.parser.outputs.jsonString).map-id }} metadata"
           git push --force origin "update/map/${{ fromJson(steps.parser.outputs.jsonString).map-id }}"
 
-      - name: Create pull request
+      - name: Create or update pull request
         uses: actions/github-script@v7
         with:
           script: |
+            const branch = 'update/map/${{ fromJson(steps.parser.outputs.jsonString).map-id }}';
+            const { data: existing } = await github.rest.pulls.list({
+              owner: context.repo.owner,
+              repo: context.repo.repo,
+              head: `${context.repo.owner}:${branch}`,
+              state: 'open'
+            });
+            if (existing.length > 0) {
+              console.log(`PR #${existing[0].number} already exists — updated via force push`);
+              return;
+            }
             const { data: pr } = await github.rest.pulls.create({
               owner: context.repo.owner,
               repo: context.repo.repo,
@@ -283,7 +265,7 @@ jobs:
                 '',
                 'Submitted by @${{ github.event.issue.user.login }}'
               ].join('\n'),
-              head: 'update/map/${{ fromJson(steps.parser.outputs.jsonString).map-id }}',
+              head: branch,
               base: 'main'
             });
             await github.rest.issues.addLabels({
