@@ -69,6 +69,32 @@ function buildUpdate(data: Record<string, string>): ModManifest["update"] {
   return { type: "custom", url: data["custom-update-url"]! };
 }
 
+async function fetchWithAuth(url: string, token: string | undefined): Promise<Response> {
+  const isGitHub = url.includes("github.com") || url.includes("githubusercontent.com");
+  const headers: Record<string, string> = {};
+  if (token && isGitHub) {
+    headers["Authorization"] = `Bearer ${token}`;
+  }
+
+  // Use manual redirects for GitHub URLs — the Authorization header gets
+  // stripped on cross-origin redirects (github.com → githubusercontent.com),
+  // but the redirect URL contains a JWT in the query string so we can
+  // follow it without auth.
+  const response = await fetch(url, {
+    headers,
+    redirect: isGitHub ? "manual" : "follow",
+  });
+
+  if (response.status >= 300 && response.status < 400) {
+    const location = response.headers.get("location");
+    if (location) {
+      return fetch(location);
+    }
+  }
+
+  return response;
+}
+
 async function downloadGalleryImages(urls: string[], galleryDir: string): Promise<string[]> {
   const paths: string[] = [];
   const token = process.env.GITHUB_TOKEN;
@@ -80,11 +106,7 @@ async function downloadGalleryImages(urls: string[], galleryDir: string): Promis
     const filePath = resolve(galleryDir, filename);
 
     try {
-      const headers: Record<string, string> = {};
-      if (token && url.includes("github.com")) {
-        headers["Authorization"] = `Bearer ${token}`;
-      }
-      const response = await fetch(url, { headers });
+      const response = await fetchWithAuth(url, token);
       if (!response.ok) {
         console.warn(`Failed to download ${url}: ${response.status}`);
         continue;
