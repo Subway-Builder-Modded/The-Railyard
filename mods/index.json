@@ -3,6 +3,7 @@
   "mods": [
     "dan-trains",
     "distance-circles",
-    "subwaybuilder-regions"
+    "subwaybuilder-regions",
+    "transit-overlay"
   ]
 }
