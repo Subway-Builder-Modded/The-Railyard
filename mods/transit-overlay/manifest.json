@@ -1,0 +1,22 @@
+{
+  "schema_version": 1,
+  "id": "transit-overlay",
+  "name": "Transit Overlay",
+  "author": "BarKuperman",
+  "github_id": 102868699,
+  "description": "Adds real public transit lines directly onto the in-game map, so you can compare your layout to real systems at a glance. Use simple filters for transit types, networks, and individual lines to focus on exactly what you want, then hover over lines or stations to see quick details.",
+  "tags": [
+    "cosmetic",
+    "ui"
+  ],
+  "gallery": [
+    "gallery/screenshot1.png",
+    "gallery/screenshot2.png",
+    "gallery/screenshot3.png"
+  ],
+  "source": "https://github.com/BarKuperman/transit-overlay-subway-builder-mod",
+  "update": {
+    "type": "github",
+    "repo": "BarKuperman/transit-overlay-subway-builder-mod"
+  }
+}
