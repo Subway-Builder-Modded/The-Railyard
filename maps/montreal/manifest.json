@@ -1,0 +1,24 @@
+{
+  "schema_version": 1,
+  "id": "montreal",
+  "name": "Montreal",
+  "author": "devenperez",
+  "github_id": 63876261,
+  "description": "Custom map of Montreal and its surrounding metro area. (Credit to @expedtadam for making original maps)",
+  "tags": [
+    "north-america",
+    "high-detail",
+    "airports",
+    "highways",
+    "universities"
+  ],
+  "gallery": [],
+  "source": "https://github.com/devenperez/subway-builder-canadian-maps",
+  "update": {
+    "type": "custom",
+    "url": "https://raw.githubusercontent.com/devenperez/subway-builder-canadian-maps/refs/heads/main/railyard/YUL-update.json"
+  },
+  "city_code": "YUL",
+  "country": "CA",
+  "population": 4291732
+}
