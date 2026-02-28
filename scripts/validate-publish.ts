@@ -138,12 +138,6 @@ async function main() {
   const result = type === "map" ? await validateMap(data) : await validateMod(data);
 
   if (!result.success) {
-    const errorMessage = [
-      "Validation failed with the following errors:\n",
-      ...result.errors.map((e) => `- ${e}`),
-      "\nPlease open a new issue with the corrected information.",
-    ].join("\n");
-
     // Write error for the workflow to pick up
     const { writeFileSync } = await import("node:fs");
     writeFileSync(resolve(REPO_ROOT, "validation-error.md"), errorMessage);

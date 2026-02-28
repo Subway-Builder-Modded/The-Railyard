@@ -29,7 +29,9 @@ body:
     id: name
     attributes:
       label: City Name
-      description: The human-readable city name shown in the mod manager.
+      description: >
+        The human-readable city name shown in Railyard. This is the title of the map that people will see when
+        downloading it.
       placeholder: Raleigh
     validations:
       required: true
@@ -51,8 +53,9 @@ body:
     attributes:
       label: Country Code
       description: >
-        ISO 3166-1 alpha-2 country code — two uppercase letters (e.g. US, GB, CA, DE, JP).
-        Used to group maps by country in the mod manager.
+        ISO 3166-1 alpha-2 country code — two uppercase letters (e.g. US, GB, CA, DE, JP). Used to group maps
+        by country in Railyard. It is REQUIRED that you use ISO codes according to this list:
+        https://en.wikipedia.org/wiki/List_of_ISO_3166_country_codes.
       placeholder: US
     validations:
       required: true
@@ -63,7 +66,7 @@ body:
       label: Population
       description: >
         Approximate metropolitan area population. Number only, no commas or separators.
-        Used for display and sorting in the mod manager — doesn't need to be exact.
+        Used for display and sorting in Railyard — doesn't need to be exact.
       placeholder: "1500000"
     validations:
       required: true
@@ -72,7 +75,9 @@ body:
     id: description
     attributes:
       label: Description
-      description: A short description of your map. Mention data quality, notable features, or coverage area.
+      description: >
+        A short description of what your map does. This is shown in the map browser. Mention data quality,
+        notable features, or coverage area.
       placeholder: Custom map of the Raleigh-Durham metropolitan area with good demand data quality.
     validations:
       required: true
@@ -122,8 +127,8 @@ body:
     attributes:
       label: Update Type
       description: >
-        How should the mod manager fetch updates for your map?
-        Most maps should use GitHub Releases. Use Custom URL only if you host your own update.json file.
+        The method used by Railyard to fetch updates for your map. Most maps should use GitHub Releases. Use
+        Custom URL only if you host your own update.json file.
       options:
         - GitHub Releases
         - Custom URL
@@ -135,7 +140,7 @@ body:
     attributes:
       label: GitHub Repository
       description: >
-        Required if using GitHub Releases. The `owner/repo` path (e.g. `username/sb-raleigh`).
+        Required ONLY if you selected GitHub Releases. The `owner/repo` path (e.g. `username/sb-raleigh`).
         The repo must exist, have at least one release, and the latest release must contain a .zip asset.
         Leave blank if using Custom URL.
       placeholder: username/sb-raleigh
@@ -145,9 +150,8 @@ body:
     attributes:
       label: Custom Update URL
       description: >
-        Required if using Custom URL. The full URL to your self-hosted update.json file.
-        The file must follow The Railyard update.json schema (see docs).
-        Leave blank if using GitHub Releases.
+        Required ONLY if you selected Custom URL. The full URL to your self-hosted update.json file. The file
+        must follow the Railyard update.json schema. Leave blank if using GitHub Releases.
       placeholder: https://example.com/sb-raleigh/update.json
 
   - type: textarea

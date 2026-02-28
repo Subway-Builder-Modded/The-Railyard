@@ -28,7 +28,9 @@ body:
     id: name
     attributes:
       label: Display Name
-      description: The human-readable name shown in the mod manager.
+      description: >
+        The human-readable mod name shown in Railyard. This is the title of the map that people will see when
+        downloading it.
       placeholder: Better Trains
     validations:
       required: true
@@ -72,8 +74,8 @@ body:
     attributes:
       label: Update Type
       description: >
-        How should the mod manager fetch updates for your mod?
-        Most mods should use GitHub Releases. Use Custom URL only if you host your own update.json file.
+        The method used by Railyard to fetch updates for your mod. Most mods should use GitHub Releases. Use
+        Custom URL only if you host your own update.json file.
       options:
         - GitHub Releases
         - Custom URL
@@ -85,9 +87,9 @@ body:
     attributes:
       label: GitHub Repository
       description: >
-        Required if using GitHub Releases. The `owner/repo` path (e.g. `username/better-trains`).
-        The repo must exist, have at least one release, and the latest release must contain a .zip asset.
-        Leave blank if using Custom URL.
+        Required ONLY if using GitHub Releases. The owner/repo path (e.g. username/better-trains). The repo must
+        exist, have at least one release, and the latest release must contain a .zip asset. Leave blank if you
+        are using Custom URL.
       placeholder: username/better-trains
 
   - type: input
@@ -95,9 +97,8 @@ body:
     attributes:
       label: Custom Update URL
       description: >
-        Required if using Custom URL. The full URL to your self-hosted update.json file.
-        The file must follow The Railyard update.json schema (see docs).
-        Leave blank if using GitHub Releases.
+        Required ONLY if you selected Custom URL. The full URL to your self-hosted update.json file. The file
+        must follow the Railyard update.json schema. Leave blank if using GitHub Releases.
       placeholder: https://example.com/better-trains/update.json
 
   - type: textarea

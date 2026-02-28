@@ -100,7 +100,7 @@ Top-level registry listing every mod by ID.
 
 #### GitHub Releases
 
-The mod manager fetches directly from `https://api.github.com/repos/{repo}/releases` and picks the first `.zip` asset from the latest release. No filename convention is enforced -- any `.zip` asset will be used.
+Railyard fetches directly from `https://api.github.com/repos/{repo}/releases` and picks the first `.zip` asset from the latest release. No filename convention is enforced -- any `.zip` asset will be used.
 
 Publish validation verifies the repo exists and has at least one release with a `.zip` asset.
 
@@ -200,7 +200,7 @@ Maps share all fields from the mod manifest, plus three map-specific fields:
 | Field        | Type     | Description                                                                                         |
 | ------------ | -------- | --------------------------------------------------------------------------------------------------- |
 | `city_code`  | `string` | 2-4 letter IATA/ICAO city code used by the game internally. Must not clash with vanilla city codes. |
-| `country`    | `string` | ISO 3166-1 alpha-2 country code. Used to sort maps into country tabs in the mod manager UI.         |
+| `country`    | `string` | ISO 3166-1 alpha-2 country code. Used to sort maps into country tabs in Railyard's UI.              |
 | `population` | `number` | Metropolitan area population. Used for display and sorting without needing to download the map.     |
 
 ### Update Types
@@ -288,7 +288,7 @@ TypeScript scripts handle the complex logic, keeping workflow YAML thin:
 
 ## Dependencies
 
-Mods and maps can declare dependencies on other mods. Dependencies are specified **inside the mod's own `manifest.json` (or `config.json` for maps)** (the one shipped in the mod's download ZIP), not in this repository. The Railyard registry does not track dependencies -- they are resolved at install time by the mod manager.
+Mods and maps can declare dependencies on other mods. Dependencies are specified **inside the mod's own `manifest.json` (or `config.json` for maps)** (the one shipped in the mod's download ZIP), not in this repository. The Railyard registry does not track dependencies -- they are resolved at install time by Railyard.
 
 The `dependencies` field is a simple array of `mod-id@version` strings:
 
@@ -298,14 +298,14 @@ The `dependencies` field is a simple array of `mod-id@version` strings:
 }
 ```
 
-Each entry references a mod ID from this registry and the minimum required version. The mod manager will ensure dependencies are installed before the dependent mod is loaded.
+Each entry references a mod ID from this registry and the minimum required version. Railyard will ensure dependencies are installed before the dependent mod is loaded.
 
 ---
 
 ## Design Principles
 
 - **Metadata only in this repo.** Actual mod/map binaries live on GitHub Releases, CDNs, or other file hosts. This keeps the repo lightweight.
-- **Unified schema.** Mods and maps share the same update mechanism (`github` or `custom`), so the mod manager uses one code path for fetching and updating both.
-- **Manifest = storefront, ZIP = runtime.** The manifest contains browsing/discovery metadata. The ZIP's internal `config.json` is the source of truth for game-facing configuration. Some fields (like `population`, `country`) are intentionally duplicated so the mod manager can display information before download.
-- **Integrity verification.** `sha256` hashes in custom update files allow the mod manager to verify downloads. GitHub releases rely on GitHub's own integrity guarantees.
-- **Compatibility filtering.** `game_version` semver ranges let the mod manager hide incompatible versions from users.
+- **Unified schema.** Mods and maps share the same update mechanism (`github` or `custom`), so Railyard uses one code path for fetching and updating both.
+- **Manifest = storefront, ZIP = runtime.** The manifest contains browsing/discovery metadata. The ZIP's internal `config.json` is the source of truth for game-facing configuration. Some fields (like `population`, `country`) are intentionally duplicated so Railyard can display information before download.
+- **Integrity verification.** `sha256` hashes in custom update files allow Railyard to verify downloads. GitHub releases rely on GitHub's own integrity guarantees.
+- **Compatibility filtering.** `game_version` semver ranges let Railyard hide incompatible versions from users.
