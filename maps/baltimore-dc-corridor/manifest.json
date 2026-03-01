@@ -1,0 +1,26 @@
+{
+  "schema_version": 1,
+  "id": "baltimore-dc-corridor",
+  "name": "Baltimore-DC Corridor",
+  "author": "rslurry",
+  "github_id": 112521174,
+  "description": "Uses 2023 LODES data.  Coverage spans from Mount Vernon in the south, Germantown in the west, Timonium in the north, and Martin State Airport/Annapolis in the east.\nIncludes demand for DCA, BWI, and MTN airports; 5 JHU campuses, MSU, UMB, UMBC, UMD College Park, Loyola, Towson, American U, George Washington U, Georgetown, Howard, Catholic U, and Bowie State universities; the National Aquarium and Zoo, Camden Yards, M&T Bank Stadium, Library of Congress, Capital, Supreme Court, White House, and the National Mall (split up between the Lincoln, Washington, Jefferson, MLK, FDR, Vietnam War, Korean War, and WW2 memorials + the Smithsonian Air & Space, Natural History, and American History museums).",
+  "tags": [
+    "north-america",
+    "full-detail",
+    "airports",
+    "entertainment",
+    "universities"
+  ],
+  "gallery": [
+    "gallery/screenshot1.png"
+  ],
+  "source": "https://github.com/rslurry/subwaybuilder-maps",
+  "update": {
+    "type": "custom",
+    "url": "https://raw.githubusercontent.com/rslurry/subwaybuilder-maps/refs/heads/main/DCA.json"
+  },
+  "city_code": "DCA",
+  "country": "US",
+  "population": 2001562
+}
