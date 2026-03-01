@@ -1,0 +1,21 @@
+{
+  "schema_version": 1,
+  "id": "valdotoriums-trains",
+  "name": "Valdotoriums S-Bahn and Trams",
+  "author": "Valdotorium",
+  "github_id": 116170877,
+  "description": "This mod adds simple S-Bahn commuter trains and Trams to the game (basically as its done in the Subwaybuilder modding documentation). S-Bahns are flexible in capacity, fast, and can cross roads. Trams are rather low capacity, slow, but can cross roads and are far more affordable to build than Light/Heavy Metro.",
+  "tags": [
+    "stations",
+    "tracks",
+    "trains"
+  ],
+  "gallery": [
+    "gallery/screenshot1.jpg"
+  ],
+  "source": "https://github.com/Valdotorium/Valdotoriums_Trains",
+  "update": {
+    "type": "github",
+    "repo": "Valdotorium/Valdotoriums_Trains"
+  }
+}
