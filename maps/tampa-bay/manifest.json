@@ -1,0 +1,26 @@
+{
+  "schema_version": 1,
+  "id": "tampa-bay",
+  "name": "Tampa Bay",
+  "author": "rslurry",
+  "github_id": 112521174,
+  "description": "Uses 2023 LODES data. Coverage spans from St. Petersburg/Ruskin in the south, the Gulf in the west, Plant City in the east, and Wesley Chapel/New Port Richey in the north.\nIncludes demand for TPA and PIE airports; USF Tampa and St. Pete campuses, U Tampa, Stetson Law in St. Pete, and HCC (5 main campuses) universities; the Benchmark International Arena, Raymond James Stadium, Tropicana Field, Busch Gardens, Adventure Island, Florida Aquarium, Lowry Park Zoo, and the Dali Museum.",
+  "tags": [
+    "north-america",
+    "full-detail",
+    "airports",
+    "entertainment",
+    "universities"
+  ],
+  "gallery": [
+    "gallery/screenshot1.png"
+  ],
+  "source": "https://github.com/rslurry/subwaybuilder-maps",
+  "update": {
+    "type": "custom",
+    "url": "https://raw.githubusercontent.com/rslurry/subwaybuilder-maps/refs/heads/main/TPA.json"
+  },
+  "city_code": "TPA",
+  "country": "US",
+  "population": 1041220
+}
