@@ -1,0 +1,26 @@
+{
+  "schema_version": 1,
+  "id": "richmond",
+  "name": "Richmond",
+  "author": "rslurry",
+  "github_id": 112521174,
+  "description": "Uses 2023 LODES data. Coverage spans from Petersburg in the south, Midlothian in the west, Hopewell in the east, and Ashland in the north.\nIncludes demand for RIC airport; VCU and UR universities; Maymont, Lewis Ginter Botanical Garden, Virginia Museum of Fine Arts, and the James River Park System (split across Belle Isle, Pony Pasture, the Wetlands, Brown's Island+Potterfield Bridge, Buttermilk Trail, North Bank Trail, Texas Beach, and Ancarrow's Landing).",
+  "tags": [
+    "north-america",
+    "full-detail",
+    "airports",
+    "entertainment",
+    "universities"
+  ],
+  "gallery": [
+    "gallery/screenshot1.png"
+  ],
+  "source": "https://github.com/rslurry/subwaybuilder-maps",
+  "update": {
+    "type": "custom",
+    "url": "https://raw.githubusercontent.com/rslurry/subwaybuilder-maps/refs/heads/main/RIC.json"
+  },
+  "city_code": "RIC",
+  "country": "US",
+  "population": 452742
+}
