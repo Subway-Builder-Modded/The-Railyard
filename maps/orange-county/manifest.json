@@ -1,0 +1,27 @@
+{
+  "schema_version": 1,
+  "id": "orange-county",
+  "name": "Orange County",
+  "author": "rslurry",
+  "github_id": 112521174,
+  "description": "Uses 2023 LODES data. Coverage spans the entirety of Orange County, CA.\nIncludes demand for SNA and FUL airports; UC Irvine, Concordia, Westcliff, Santa Ana College, Irvine Valley College, Chapman, Vanguard, Fullerton College, Orange Coast College, and CSUF universities; Disneyland, California Adventure, Knott's Berry Farm, Huntington Beach, Laguna Beach, Newport Beach, Dana Point, Crystal Cove State Park (split between Historic District, Moro Beach, Reef Point, and Pelican Point), Irvine Regional Park, Mission San Juan Capistrano, the Orange County Museum of Art, Honda Center, Angel Stadium, the Great Park, Irvine Spectrum Center, South Coast Plaza, and Fashion Island.",
+  "tags": [
+    "north-america",
+    "full-detail",
+    "airports",
+    "entertainment",
+    "universities"
+  ],
+  "gallery": [
+    "gallery/screenshot1.png",
+    "gallery/screenshot2.png"
+  ],
+  "source": "https://github.com/rslurry/subwaybuilder-maps",
+  "update": {
+    "type": "custom",
+    "url": "https://raw.githubusercontent.com/rslurry/subwaybuilder-maps/refs/heads/main/OC.json"
+  },
+  "city_code": "OC",
+  "country": "US",
+  "population": 1429155
+}
