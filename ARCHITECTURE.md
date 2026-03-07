@@ -96,13 +96,24 @@ Top-level registry listing every mod by ID.
 | `source`         | `string`   | URL to the mod's source code or homepage.                             |
 | `update`         | `object`   | Update source configuration (see below).                              |
 
+### Mod `manifest.json` Validation (Mods Only)
+
+Mods must expose their `manifest.json` (the same file already inside the ZIP) outside the archive so The Railyard can validate it without downloading the full ZIP. The `dependencies` field is required and must include a `subway-builder` semver range.
+
+#### How `manifest.json` is exposed per update type
+
+- **GitHub Releases:** Upload `manifest.json` as a **separate release asset** alongside the `.zip`.
+- **Custom URL:** Provide a **Manifest URL** in the issue form pointing to the `manifest.json` for the current release.
+
+Publish validation fetches the manifest and checks that `dependencies` is present and includes `subway-builder`. This requirement applies to **mods only** — maps are exempt.
+
 ### Update Types
 
 #### GitHub Releases
 
 The mod manager fetches directly from `https://api.github.com/repos/{repo}/releases` and picks the first `.zip` asset from the latest release. No filename convention is enforced -- any `.zip` asset will be used.
 
-Publish validation verifies the repo exists and has at least one release with a `.zip` asset.
+Publish validation verifies the repo exists and has at least one release with a `.zip` asset. **For mods**, it also verifies the latest release has a `manifest.json` asset and that it passes schema validation (see above).
 
 ```json
 "update": {
@@ -114,6 +125,8 @@ Publish validation verifies the repo exists and has at least one release with a 
 #### Custom URL
 
 Points to a self-hosted `update.json` file maintained by the mod author. Publish validation fetches the URL and verifies it returns valid JSON matching the `update.json` schema (has `schema_version`, a non-empty `versions` array, and required fields on the first entry).
+
+**For mods**, a separate manifest URL must also be provided. Publish validation fetches it and verifies it passes schema validation (see above).
 
 ```json
 "update": {
@@ -134,7 +147,8 @@ Points to a self-hosted `update.json` file maintained by the mod author. Publish
       "date": "2026-02-20",
       "changelog": "Added new express train model.",
       "download": "https://example.com/better-trains/releases/v1.2.0.zip",
-      "sha256": "a1b2c3d4..."
+      "sha256": "a1b2c3d4...",
+      "manifest": "https://example.com/better-trains/releases/v1.2.0/manifest.json"
     },
     {
       "version": "1.1.0",
@@ -142,20 +156,22 @@ Points to a self-hosted `update.json` file maintained by the mod author. Publish
       "date": "2026-01-15",
       "changelog": "Initial public release.",
       "download": "https://example.com/better-trains/releases/v1.1.0.zip",
-      "sha256": "e5f6a7b8..."
+      "sha256": "e5f6a7b8...",
+      "manifest": "https://example.com/better-trains/releases/v1.1.0/manifest.json"
     }
   ]
 }
 ```
 
-| Field          | Type     | Description                                         |
-| -------------- | -------- | --------------------------------------------------- |
-| `version`      | `string` | Semver version string.                              |
-| `game_version` | `string` | Semver range for game compatibility filtering.      |
-| `date`         | `string` | Release date (ISO 8601).                            |
-| `changelog`    | `string` | Human-readable changelog entry.                     |
-| `download`     | `string` | Direct download URL for the release ZIP.            |
-| `sha256`       | `string` | SHA-256 hash of the ZIP for integrity verification. |
+| Field          | Type     | Description                                                              |
+| -------------- | -------- | ------------------------------------------------------------------------ |
+| `version`      | `string` | Semver version string.                                                   |
+| `game_version` | `string` | Semver range for game compatibility filtering.                           |
+| `date`         | `string` | Release date (ISO 8601).                                                 |
+| `changelog`    | `string` | Human-readable changelog entry.                                          |
+| `download`     | `string` | Direct download URL for the release ZIP.                                 |
+| `sha256`       | `string` | SHA-256 hash of the ZIP for integrity verification.                      |
+| `manifest`     | `string` | Direct URL to the mod's `manifest.json` (mods only, see validation above). |
 
 ---
 
@@ -290,15 +306,19 @@ TypeScript scripts handle the complex logic, keeping workflow YAML thin:
 
 Mods and maps can declare dependencies on other mods. Dependencies are specified **inside the mod's own `manifest.json` (or `config.json` for maps)** (the one shipped in the mod's download ZIP), not in this repository. The Railyard registry does not track dependencies -- they are resolved at install time by the mod manager.
 
-The `dependencies` field is a simple array of `mod-id@version` strings:
+The `dependencies` field is an object mapping mod IDs to semver ranges. The `subway-builder` key is always required:
 
 ```json
 {
-  "dependencies": ["some-library@1.0.0", "another-mod@2.3.1"]
+  "dependencies": {
+    "subway-builder": ">=1.0.0",
+    "some-library": ">=2.0.0",
+    "another-mod": ">=3.2.1"
+  }
 }
 ```
 
-Each entry references a mod ID from this registry and the minimum required version. The mod manager will ensure dependencies are installed before the dependent mod is loaded.
+Each key is a mod ID from this registry (or `subway-builder` for the base game) and the value is a semver range for the minimum required version. The mod manager will ensure dependencies are installed before the dependent mod is loaded.
 
 ---
 

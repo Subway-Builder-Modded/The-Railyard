@@ -8,7 +8,9 @@ function parseGitHubReleaseTagUrl(url: string): { repo: string; tag: string } | 
   return { repo: match[1], tag: decodeURIComponent(match[2]) };
 }
 
-export async function validateGitHubRepo(repo: string, sourceUrl?: string): Promise<string[]> {
+import { validateModManifest } from "./mod-manifest.js";
+
+export async function validateGitHubRepo(repo: string, sourceUrl?: string, listingType?: string, modId?: string): Promise<string[]> {
   const errors: string[] = [];
   const token = process.env.GITHUB_TOKEN;
   const headers: Record<string, string> = { Accept: "application/vnd.github.v3+json" };
@@ -23,7 +25,7 @@ export async function validateGitHubRepo(repo: string, sourceUrl?: string): Prom
 
   // 2. Check releases exist
   const releasesRes = await fetch(`https://api.github.com/repos/${repo}/releases?per_page=1`, { headers });
-  const releases: { tag_name: string; assets: { name: string }[] }[] = await releasesRes.json();
+  const releases: { tag_name: string; assets: { name: string; browser_download_url: string }[] }[] = await releasesRes.json();
   if (!Array.isArray(releases) || releases.length === 0) {
     errors.push(`**github-repo**: Repository \`${repo}\` has no releases. Create at least one release with a .zip asset.`);
     return errors;
@@ -34,6 +36,30 @@ export async function validateGitHubRepo(repo: string, sourceUrl?: string): Prom
   const hasZip = assets.some((a) => a.name.endsWith(".zip"));
   if (!hasZip) {
     errors.push(`**github-repo**: Latest release in \`${repo}\` has no .zip asset. Upload a .zip file to your release.`);
+  }
+
+  // 3b. (Mods only) Check latest release has a manifest.json asset
+  if (listingType === "mod") {
+    const manifestAsset = assets.find((a) => a.name === "manifest.json");
+    if (!manifestAsset) {
+      errors.push(
+        `**github-repo**: Latest release in \`${repo}\` has no \`manifest.json\` asset. ` +
+        `Upload a manifest.json file to your release alongside the .zip.`
+      );
+    } else {
+      const manifestRes = await fetch(manifestAsset.browser_download_url, { headers });
+      if (!manifestRes.ok) {
+        errors.push(`**github-repo**: Could not fetch \`manifest.json\` from release (HTTP ${manifestRes.status}).`);
+      } else {
+        try {
+          const manifestData = await manifestRes.json();
+          const manifestErrors = validateModManifest(manifestData, modId);
+          errors.push(...manifestErrors);
+        } catch {
+          errors.push("**github-repo**: `manifest.json` in release is not valid JSON.");
+        }
+      }
+    }
   }
 
   // 4. Monorepo detection — check if the source URL points to a specific

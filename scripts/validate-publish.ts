@@ -4,6 +4,7 @@ import { z } from "zod";
 import { validateCustomUpdateUrl } from "./lib/custom-url.js";
 import { validateGitHubRepo } from "./lib/github.js";
 
+
 const REPO_ROOT = resolve(import.meta.dirname, "..");
 
 const VANILLA_CITY_CODES = new Set([
@@ -56,7 +57,7 @@ async function validateMod(data: Record<string, string>): Promise<ValidationResu
     if (!parsed.data["github-repo"] || !/^[^/]+\/[^/]+$/.test(parsed.data["github-repo"])) {
       errors.push("**github-repo**: Must provide a valid `owner/repo` when using GitHub Releases.");
     } else {
-      const ghErrors = await validateGitHubRepo(parsed.data["github-repo"], parsed.data.source);
+      const ghErrors = await validateGitHubRepo(parsed.data["github-repo"], parsed.data.source, "mod", id);
       errors.push(...ghErrors);
     }
   } else {
@@ -69,7 +70,7 @@ async function validateMod(data: Record<string, string>): Promise<ValidationResu
         errors.push("**custom-update-url**: Must be a valid URL.");
       }
       if (!errors.some((e) => e.includes("custom-update-url"))) {
-        const urlErrors = await validateCustomUpdateUrl(parsed.data["custom-update-url"]);
+        const urlErrors = await validateCustomUpdateUrl(parsed.data["custom-update-url"], "mod", id);
         errors.push(...urlErrors);
       }
     }
@@ -103,7 +104,7 @@ async function validateMap(data: Record<string, string>): Promise<ValidationResu
     if (!parsed.data["github-repo"] || !/^[^/]+\/[^/]+$/.test(parsed.data["github-repo"])) {
       errors.push("**github-repo**: Must provide a valid `owner/repo` when using GitHub Releases.");
     } else {
-      const ghErrors = await validateGitHubRepo(parsed.data["github-repo"], parsed.data.source);
+      const ghErrors = await validateGitHubRepo(parsed.data["github-repo"], parsed.data.source, "map");
       errors.push(...ghErrors);
     }
   } else {

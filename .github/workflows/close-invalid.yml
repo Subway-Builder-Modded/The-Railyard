@@ -14,7 +14,10 @@ jobs:
       !contains(github.event.issue.labels.*.name, 'publish-map') &&
       !contains(github.event.issue.labels.*.name, 'update-mod') &&
       !contains(github.event.issue.labels.*.name, 'update-map') &&
-      !contains(github.event.issue.labels.*.name, 'report')
+      !contains(github.event.issue.labels.*.name, 'report') &&
+      github.event.issue.author_association != 'MEMBER' &&
+      github.event.issue.author_association != 'OWNER' &&
+      github.event.issue.author_association != 'COLLABORATOR'
     runs-on: ubuntu-latest
     steps:
       - name: Close invalid issue

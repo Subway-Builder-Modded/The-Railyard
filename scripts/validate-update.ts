@@ -57,7 +57,7 @@ async function main() {
     if (!/^[^/]+\/[^/]+$/.test(githubRepo)) {
       errors.push("**github-repo**: Must provide a valid `owner/repo` when using GitHub Releases.");
     } else {
-      const ghErrors = await validateGitHubRepo(githubRepo, sourceUrl);
+      const ghErrors = await validateGitHubRepo(githubRepo, sourceUrl, type);
       errors.push(...ghErrors);
     }
   } else if (!updateType && githubRepo && githubRepo.trim() !== "") {
@@ -65,7 +65,7 @@ async function main() {
     if (!/^[^/]+\/[^/]+$/.test(githubRepo)) {
       errors.push("**github-repo**: Must provide a valid `owner/repo` when using GitHub Releases.");
     } else {
-      const ghErrors = await validateGitHubRepo(githubRepo, sourceUrl);
+      const ghErrors = await validateGitHubRepo(githubRepo, sourceUrl, type);
       errors.push(...ghErrors);
     }
   }
@@ -74,7 +74,7 @@ async function main() {
   if (updateType === "Custom URL" && customUpdateUrl) {
     try {
       new URL(customUpdateUrl);
-      const urlErrors = await validateCustomUpdateUrl(customUpdateUrl);
+      const urlErrors = await validateCustomUpdateUrl(customUpdateUrl, type);
       errors.push(...urlErrors);
     } catch {
       errors.push("**custom-update-url**: Must be a valid URL.");
@@ -82,7 +82,7 @@ async function main() {
   } else if (!updateType && customUpdateUrl && customUpdateUrl.trim() !== "") {
     try {
       new URL(customUpdateUrl);
-      const urlErrors = await validateCustomUpdateUrl(customUpdateUrl);
+      const urlErrors = await validateCustomUpdateUrl(customUpdateUrl, type);
       errors.push(...urlErrors);
     } catch {
       errors.push("**custom-update-url**: Must be a valid URL.");

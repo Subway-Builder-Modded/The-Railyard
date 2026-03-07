@@ -1,4 +1,6 @@
-export async function validateCustomUpdateUrl(url: string): Promise<string[]> {
+import { validateModManifest } from "./mod-manifest.js";
+
+export async function validateCustomUpdateUrl(url: string, listingType?: string, modId?: string): Promise<string[]> {
   const errors: string[] = [];
 
   // 1. Fetch the URL
@@ -53,6 +55,30 @@ export async function validateCustomUpdateUrl(url: string): Promise<string[]> {
   for (const field of required) {
     if (typeof first[field] !== "string" || first[field] === "") {
       errors.push(`**custom-update-url**: First version entry is missing required field \`${field}\`.`);
+    }
+  }
+
+  // 6. (Mods only) Check first version entry has a manifest URL, fetch and validate it
+  if (listingType === "mod") {
+    if (typeof first.manifest !== "string" || first.manifest === "") {
+      errors.push(`**custom-update-url**: First version entry is missing required field \`manifest\`. Mods must provide a URL to their manifest.json.`);
+    } else {
+      try {
+        const manifestRes = await fetch(first.manifest as string, { headers: { Accept: "application/json" } });
+        if (!manifestRes.ok) {
+          errors.push(`**custom-update-url**: Could not fetch manifest from \`${first.manifest}\` (HTTP ${manifestRes.status}).`);
+        } else {
+          try {
+            const manifestData = await manifestRes.json();
+            const manifestErrors = validateModManifest(manifestData, modId);
+            errors.push(...manifestErrors);
+          } catch {
+            errors.push(`**custom-update-url**: Manifest at \`${first.manifest}\` is not valid JSON.`);
+          }
+        }
+      } catch (err) {
+        errors.push(`**custom-update-url**: Could not reach manifest URL \`${first.manifest}\` (${(err as Error).message}).`);
+      }
     }
   }
 
