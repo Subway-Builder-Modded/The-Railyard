@@ -1,0 +1,27 @@
+{
+  "schema_version": 1,
+  "id": "yukina-kagoshima-kirishima",
+  "name": "鹿児島 (Kagoshima)",
+  "author": "ahkimn",
+  "github_id": 19807509,
+  "description": "Highly-detailed map of the 鹿児島 (Kagoshima) metropolitan region using 2020/2021 Japanese census data. Includes the city of 霧島 (Kirishima)",
+  "tags": [
+    "east-asia",
+    "high-detail",
+    "airports",
+    "universities"
+  ],
+  "gallery": [
+    "gallery/screenshot1.png",
+    "gallery/screenshot2.png",
+    "gallery/screenshot3.png"
+  ],
+  "source": "https://github.com/ahkimn/subwaybuilder-jp-maps/releases/download/0.1.1/KOJ.zip",
+  "update": {
+    "type": "custom",
+    "url": "https://ahkimn.github.io/subwaybuilder-jp-maps/KOJ.json"
+  },
+  "city_code": "KOJ",
+  "country": "JP",
+  "population": 845866
+}
