@@ -1,0 +1,27 @@
+{
+  "schema_version": 1,
+  "id": "yukina-kobe-akashi",
+  "name": "神戸 (Kobe)",
+  "author": "ahkimn",
+  "github_id": 19807509,
+  "description": "Highly-detailed map of the 神戸 (Kagoshima) metropolitan region using 2020/2021 Japanese census data. Includes the city of 明石 (Akashi) and some mountainous inner regions of 兵庫県 (Hyogo prefecture).",
+  "tags": [
+    "east-asia",
+    "high-detail",
+    "airports",
+    "universities"
+  ],
+  "gallery": [
+    "gallery/screenshot1.png",
+    "gallery/screenshot2.png",
+    "gallery/screenshot3.png"
+  ],
+  "source": "https://github.com/ahkimn/subwaybuilder-jp-maps/releases/download/0.1.1/UKB.zip",
+  "update": {
+    "type": "custom",
+    "url": "https://ahkimn.github.io/subwaybuilder-jp-maps/UKB.json"
+  },
+  "city_code": "UKB",
+  "country": "JP",
+  "population": 2402652
+}
