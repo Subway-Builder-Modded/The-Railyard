@@ -1,0 +1,27 @@
+{
+  "schema_version": 1,
+  "id": "yukina-sapporo-chitose",
+  "name": "札幌 (Sapporo)",
+  "author": "ahkimn",
+  "github_id": 19807509,
+  "description": "Highly-detailed map of the 札幌 (Sapporo) metropolitan region using 2020/2021 Japanese census data. Includes the city of 千歳 (Chitose)",
+  "tags": [
+    "east-asia",
+    "high-detail",
+    "airports",
+    "universities"
+  ],
+  "gallery": [
+    "gallery/screenshot1.png",
+    "gallery/screenshot2.png",
+    "gallery/screenshot3.png"
+  ],
+  "source": "https://github.com/ahkimn/subwaybuilder-jp-maps/releases/download/0.1.1/SPK.zip",
+  "update": {
+    "type": "custom",
+    "url": "https://ahkimn.github.io/subwaybuilder-jp-maps/SPK.json"
+  },
+  "city_code": "SPK",
+  "country": "JP",
+  "population": 2543295
+}
