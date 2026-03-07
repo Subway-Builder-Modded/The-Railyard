@@ -1,0 +1,26 @@
+{
+  "schema_version": 1,
+  "id": "jerusalem",
+  "name": "Jerusalem",
+  "author": "BarKuperman",
+  "github_id": 102868699,
+  "description": "Custom map of Jerusalem with good real demand data",
+  "tags": [
+    "middle-east",
+    "high-detail"
+  ],
+  "gallery": [
+    "gallery/screenshot1.png",
+    "gallery/screenshot2.png",
+    "gallery/screenshot3.png",
+    "gallery/screenshot4.png"
+  ],
+  "source": "https://github.com/BarKuperman/jerusalem-sb-map",
+  "update": {
+    "type": "github",
+    "repo": "BarKuperman/jerusalem-sb-map"
+  },
+  "city_code": "JER",
+  "country": "IL",
+  "population": 1400000
+}
