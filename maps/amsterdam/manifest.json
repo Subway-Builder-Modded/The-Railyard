@@ -1,0 +1,24 @@
+{
+  "schema_version": 1,
+  "id": "amsterdam",
+  "name": "Amsterdam",
+  "author": "ryandicicco",
+  "github_id": 215120742,
+  "description": "```markdown\nReal CBS (Statistics Netherlands) neighborhood data for population and jobs. Commute routes pre-calculated. Coverage includes Amsterdam, Amsterdam-Noord, Zuidoost/Bijlmer, Zuidas, Westpoort, Zaandam, Purmerend, Diemen, Amstelveen, Haarlemmermeer, and Schiphol (EHAM) with all piers.\n```",
+  "tags": [
+    "europe",
+    "airports",
+    "universities"
+  ],
+  "gallery": [
+    "gallery/screenshot1.png"
+  ],
+  "source": "https://github.com/ryandicicco/Subway-Builder-Maps",
+  "update": {
+    "type": "custom",
+    "url": "https://ryandicicco.github.io/Subway-Builder-Maps/AMS.json"
+  },
+  "city_code": "AMS",
+  "country": "NL",
+  "population": 2500000
+}
