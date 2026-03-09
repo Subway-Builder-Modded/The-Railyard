@@ -7,14 +7,12 @@
   "description": "Uses 2023 LODES data. Coverage spans from Jourdanton in the south, Hondo in the west, Seguin in the east, and Boerne in the north.\nIncludes demand for SAT airport; UTSA, TAMUSA, OLLU, StMU, TU, and UIW universities; the Alamo, San Antonio Missions National Historic Park, San Fernando Cathedral, Six Flags, SeaWorld, San Antonio Zoo, Natural Bridge Caverns, the Witte Museum, the DoSeum, and the Pearl.",
   "tags": [
     "north-america",
-    "full-detail",
+    "high-detail",
     "airports",
     "entertainment",
     "universities"
   ],
-  "gallery": [
-    "gallery/screenshot1.png"
-  ],
+  "gallery": ["gallery/screenshot1.png"],
   "source": "https://github.com/rslurry/subwaybuilder-maps",
   "update": {
     "type": "custom",

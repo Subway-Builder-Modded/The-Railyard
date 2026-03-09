@@ -5,13 +5,7 @@
   "author": "Kronifer",
   "github_id": 44979306,
   "description": "A map generated from highly detailed Switzerland census data containing the Zurich metro region, including enrolment data for most large universities. Includes the cities of Zurich, Zug, Winterthur, Lucerne, among other smaller cities and towns.",
-  "tags": [
-    "europe",
-    "full-detail",
-    "airports",
-    "highways",
-    "universities"
-  ],
+  "tags": ["europe", "high-detail", "airports", "highways", "universities"],
   "gallery": [
     "gallery/screenshot1.png",
     "gallery/screenshot2.png",

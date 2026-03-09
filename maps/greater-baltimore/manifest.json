@@ -7,15 +7,12 @@
   "description": "```markdown\nUses 2023 LODES data for the greater Baltimore area.\nIncludes demand for BWI and MTN airports; JHU's various campuses, Morgan State, UMB, UMBC, UMCP, Loyola, US Naval Academy, Bowie State, and Towson universities; the National Aquarium, Camden Yards, and M&T Bank Stadium.\n```",
   "tags": [
     "north-america",
-    "full-detail",
+    "high-detail",
     "airports",
     "entertainment",
     "universities"
   ],
-  "gallery": [
-    "gallery/screenshot1.png",
-    "gallery/screenshot2.png"
-  ],
+  "gallery": ["gallery/screenshot1.png", "gallery/screenshot2.png"],
   "source": "https://github.com/rslurry/subwaybuilder-maps",
   "update": {
     "type": "custom",
