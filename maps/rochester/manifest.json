@@ -1,0 +1,25 @@
+{
+  "schema_version": 1,
+  "id": "rochester",
+  "name": "Rochester",
+  "author": "rslurry",
+  "github_id": 112521174,
+  "description": "```markdown\nUses 2022 LODES data for the Rochester area.\nIncludes demand for ROC airport; UR, RIT, Nazareth, St. John Fisher, and Roberts Wesleyan universities.\n```",
+  "tags": [
+    "north-america",
+    "high-detail",
+    "airports",
+    "universities"
+  ],
+  "gallery": [
+    "gallery/screenshot1.png"
+  ],
+  "source": "https://github.com/rslurry/subwaybuilder-maps",
+  "update": {
+    "type": "custom",
+    "url": "https://raw.githubusercontent.com/rslurry/subwaybuilder-maps/refs/heads/main/ROC.json"
+  },
+  "city_code": "ROC",
+  "country": "US",
+  "population": 270140
+}
