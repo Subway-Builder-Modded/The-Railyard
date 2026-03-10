@@ -6,6 +6,13 @@ import type { ManifestType } from "./lib/manifests.js";
 
 const FALLBACK_REPO_ROOT = resolve(import.meta.dirname, "..");
 
+function getNonEmptyEnv(name: string): string | undefined {
+  const value = process.env[name];
+  if (typeof value !== "string") return undefined;
+  const trimmed = value.trim();
+  return trimmed === "" ? undefined : trimmed;
+}
+
 function getArgValue(name: string): string | undefined {
   const exact = `--${name}=`;
   for (const arg of process.argv.slice(2)) {
@@ -35,7 +42,12 @@ async function run(): Promise<void> {
     getArgValue("type") ?? process.env.LISTING_TYPE,
   );
   const repoRoot = process.env.RAILYARD_REPO_ROOT ?? FALLBACK_REPO_ROOT;
-  const token = process.env.GH_DOWNLOADS_TOKEN ?? process.env.GITHUB_TOKEN;
+  const token = getNonEmptyEnv("GH_DOWNLOADS_TOKEN") ?? getNonEmptyEnv("GITHUB_TOKEN");
+  if (!token) {
+    console.warn(
+      "[downloads] No non-empty GitHub token configured (GH_DOWNLOADS_TOKEN/GITHUB_TOKEN). GraphQL requests are likely to fail with 401.",
+    );
+  }
 
   const { downloads, warnings, rateLimit } = await generateDownloadsData({
     repoRoot,

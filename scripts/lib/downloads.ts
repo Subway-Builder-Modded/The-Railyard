@@ -206,6 +206,12 @@ async function requestRepoReleasesPage(
   }
 
   if (!response.ok) {
+    if (response.status === 401) {
+      const authHint = token
+        ? "token is set but appears invalid or lacks access"
+        : "token is missing/empty";
+      return { ok: false, error: `repo=${repo}: GraphQL returned HTTP 401 (${authHint})` };
+    }
     return { ok: false, error: `repo=${repo}: GraphQL returned HTTP ${response.status}` };
   }
 
