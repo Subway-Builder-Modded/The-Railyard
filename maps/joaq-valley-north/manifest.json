@@ -7,7 +7,6 @@
   "description": "Who asked for this?",
   "tags": [
     "north-america",
-    "high-detail",
     "universities"
   ],
   "gallery": [],
@@ -18,5 +17,12 @@
   },
   "city_code": "SCK",
   "country": "US",
-  "population": 2650000
+  "population": 2650000,
+  "level_of_detail": "high-detail",
+  "source_quality": "low-quality",
+  "data_source": "OSM",
+  "location": "north-america",
+  "special_demand": [
+    "universities"
+  ]
 }

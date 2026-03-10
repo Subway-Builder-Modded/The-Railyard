@@ -7,7 +7,6 @@
   "description": "Highly-detailed map of the 札幌 (Sapporo) metropolitan region using 2020/2021 Japanese census data. Includes the city of 千歳 (Chitose) as well as special demand for primary/secondary/post-secondary education + airports",
   "tags": [
     "east-asia",
-    "high-detail",
     "airports",
     "universities",
     "schools"
@@ -24,5 +23,14 @@
   },
   "city_code": "SPK",
   "country": "JP",
-  "population": 2543295
+  "population": 2543295,
+  "level_of_detail": "high-detail",
+  "source_quality": "high-quality",
+  "data_source": "統計局・令和２年国勢調査・令和3年経済センサス",
+  "location": "east-asia",
+  "special_demand": [
+    "airports",
+    "universities",
+    "schools"
+  ]
 }

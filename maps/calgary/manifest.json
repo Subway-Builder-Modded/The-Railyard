@@ -7,9 +7,7 @@
   "description": "Custom map of Calgary and its surrounding metro area. (Credit to @expedtadam for making original maps)",
   "tags": [
     "north-america",
-    "high-detail",
     "airports",
-    "highways",
     "universities"
   ],
   "gallery": [],
@@ -20,5 +18,13 @@
   },
   "city_code": "YYC",
   "country": "CA",
-  "population": 1481806
+  "population": 1481806,
+  "level_of_detail": "high-detail",
+  "source_quality": "low-quality",
+  "data_source": "OSM",
+  "location": "north-america",
+  "special_demand": [
+    "airports",
+    "universities"
+  ]
 }

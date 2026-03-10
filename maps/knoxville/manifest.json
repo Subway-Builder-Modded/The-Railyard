@@ -7,7 +7,6 @@
   "description": "```markdown\nUses 2023 LODES data for the Knoxville area.\nIncludes demand for TYS airport; UT Knoxville, South College, Maryville College, and Pellissippi State universities; Dollywood, the Knoxville Zoo, Ijams Nature Center, Neyland Stadium, and the Knoxville Raceway.\n```",
   "tags": [
     "north-america",
-    "high-detail",
     "airports",
     "entertainment",
     "universities"
@@ -23,5 +22,14 @@
   },
   "city_code": "KNOX",
   "country": "US",
-  "population": 323445
+  "population": 323445,
+  "level_of_detail": "high-detail",
+  "source_quality": "high-quality",
+  "data_source": "LODES",
+  "location": "north-america",
+  "special_demand": [
+    "airports",
+    "entertainment",
+    "universities"
+  ]
 }

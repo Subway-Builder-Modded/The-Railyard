@@ -19,4 +19,13 @@ All submissions are handled through GitHub Issues. Pick a template to get starte
 
 The Railyard stores metadata only - manifests, gallery images, and pointers to where your mod or map is actually hosted (GitHub Releases, CDNs, etc.). When you submit through an issue template, CI validates your submission and opens a PR automatically. Once merged, your listing goes live.
 
+## Map Issue Templates
+
+`publish-map.yml` and `update-map.yml` are generated from a shared script:
+
+- Generate both templates:
+  - `pnpm --dir scripts run generate:map-templates`
+- Verify templates are up to date:
+  - `pnpm --dir scripts run check:map-templates`
+
 For technical details, see [ARCHITECTURE.md](ARCHITECTURE.md).

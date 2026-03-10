@@ -7,9 +7,7 @@
   "description": "Custom map of the Region of Waterloo in Ontario. Includes the cities of Waterloo, Kitchener, Cambridge, and Guelph, including accurate university demand sourced from student enrolment figures from each university in the region. Might be a bit difficult, jobs are decently centralized in universities simply due to their enrollment numbers (25-30000).",
   "tags": [
     "north-america",
-    "high-detail",
     "airports",
-    "highways",
     "universities"
   ],
   "gallery": [
@@ -25,5 +23,13 @@
   },
   "city_code": "YKF",
   "country": "CA",
-  "population": 450000
+  "population": 450000,
+  "level_of_detail": "high-detail",
+  "source_quality": "low-quality",
+  "data_source": "OSM",
+  "location": "north-america",
+  "special_demand": [
+    "airports",
+    "universities"
+  ]
 }

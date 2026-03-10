@@ -7,9 +7,7 @@
   "description": "Custom map of Vancouver and its surrounding metro area. (Credit to @expedtadam for making original maps)",
   "tags": [
     "north-america",
-    "high-detail",
     "airports",
-    "highways",
     "universities"
   ],
   "gallery": [],
@@ -20,5 +18,13 @@
   },
   "city_code": "YVR",
   "country": "CA",
-  "population": 2642825
+  "population": 2642825,
+  "level_of_detail": "high-detail",
+  "source_quality": "low-quality",
+  "data_source": "OSM",
+  "location": "north-america",
+  "special_demand": [
+    "airports",
+    "universities"
+  ]
 }

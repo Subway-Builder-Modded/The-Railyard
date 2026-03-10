@@ -7,7 +7,6 @@
   "description": "A map of the entirety of the Hong Kong Special Administrative Region. Population data is sourced from the 2021 Hong Kong Census, and employment/ O/D data is generated using gravity modelling based on the data available in the 2021 Census.",
   "tags": [
     "southeast-asia",
-    "medium-detail",
     "airports",
     "entertainment",
     "universities"
@@ -22,5 +21,14 @@
   },
   "city_code": "HKG",
   "country": "HK",
-  "population": 4000000
+  "population": 4000000,
+  "level_of_detail": "medium-detail",
+  "source_quality": "medium-quality",
+  "data_source": "CENS",
+  "location": "southeast-asia",
+  "special_demand": [
+    "airports",
+    "entertainment",
+    "universities"
+  ]
 }

@@ -7,7 +7,6 @@
   "description": "Uses 2023 LODES data. Coverage spans from Celebration in the south, Four Corners/Mount Dora in the west, UCF in the east, and Sanford in the north.\nIncludes demand for MCO and SFB airports; UCF, Full Sail, Rollins, Valencia, and Seminole State universities; Disney Magic Kingdom, Animal Kingdom, EPCOT, Hollywood Studios, Typhoon Lagoon, Blizzard Beach, Disney Springs, Universal Studios, Islands of Adventure, Volcano Bay, Epic Universe, the Kia Center, and Inter & Co Stadium.",
   "tags": [
     "north-america",
-    "high-detail",
     "airports",
     "entertainment",
     "universities"
@@ -22,5 +21,14 @@
   },
   "city_code": "MCO",
   "country": "US",
-  "population": 1178184
+  "population": 1178184,
+  "level_of_detail": "high-detail",
+  "source_quality": "low-quality",
+  "data_source": "OSM",
+  "location": "north-america",
+  "special_demand": [
+    "airports",
+    "entertainment",
+    "universities"
+  ]
 }

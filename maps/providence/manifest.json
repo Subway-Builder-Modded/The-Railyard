@@ -7,7 +7,6 @@
   "description": "Custom map of the Providence, RI area and surrounding towns such as Pawtucket, Barrington, Bristol and Warwick. Generated using 2023 LODES Census Data and added demand for the following:\n\nUniversities: Brown University, Bryant University, Providence College, Johnson & Wales University, Rhode Island College, Rhode Island School of Design, Roger Williams University, Community College of Rhode Island: Flannigan Campus, Liston Campus, Knight Campus\n\nEntertainment: Amica Mutual Pavillion, Centreville Bank Stadium, Roger Williams Park Zoo",
   "tags": [
     "north-america",
-    "high-detail",
     "airports",
     "entertainment",
     "universities"
@@ -24,5 +23,14 @@
   },
   "city_code": "PVD",
   "country": "US",
-  "population": 233115
+  "population": 233115,
+  "level_of_detail": "high-detail",
+  "source_quality": "low-quality",
+  "data_source": "OSM",
+  "location": "north-america",
+  "special_demand": [
+    "airports",
+    "entertainment",
+    "universities"
+  ]
 }

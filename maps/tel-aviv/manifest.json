@@ -6,8 +6,7 @@
   "github_id": 102868699,
   "description": "Custom map of the Tel Aviv area. \nMade with low resolution data from the Israeli transport ministry.\nHas Map Labels for cities and neighborhoods.",
   "tags": [
-    "middle-east",
-    "low-detail"
+    "middle-east"
   ],
   "gallery": [],
   "source": "http://github.com/BarKuperman/TLV-mod/releases/latest",
@@ -17,5 +16,10 @@
   },
   "city_code": "TLV",
   "country": "IL",
-  "population": 4500000
+  "population": 4500000,
+  "level_of_detail": "low-detail",
+  "source_quality": "low-quality",
+  "data_source": "OSM",
+  "location": "middle-east",
+  "special_demand": []
 }

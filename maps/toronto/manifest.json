@@ -7,9 +7,7 @@
   "description": "Custom map of Toronto and its surrounding metro area. (Credit to @expedtadam for making original maps)",
   "tags": [
     "north-america",
-    "high-detail",
     "airports",
-    "highways",
     "universities"
   ],
   "gallery": [],
@@ -20,5 +18,13 @@
   },
   "city_code": "YYZ",
   "country": "CA",
-  "population": 6202225
+  "population": 6202225,
+  "level_of_detail": "high-detail",
+  "source_quality": "low-quality",
+  "data_source": "OSM",
+  "location": "north-america",
+  "special_demand": [
+    "airports",
+    "universities"
+  ]
 }

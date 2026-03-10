@@ -7,7 +7,6 @@
   "description": "```markdown\nCustom map of the Rome metropolitan area with fully realistic, procedurally generated demand data.\n```",
   "tags": [
     "europe",
-    "medium-detail",
     "airports",
     "hospitals",
     "schools",
@@ -25,5 +24,15 @@
   },
   "city_code": "ROM",
   "country": "IT",
-  "population": 3853000
+  "population": 3853000,
+  "level_of_detail": "medium-detail",
+  "source_quality": "medium-quality",
+  "data_source": "OSM",
+  "location": "europe",
+  "special_demand": [
+    "airports",
+    "hospitals",
+    "schools",
+    "universities"
+  ]
 }

@@ -7,7 +7,6 @@
   "description": "```markdown\nUses 2023 LODES data for the greater Baltimore area.\nIncludes demand for BWI and MTN airports; JHU's various campuses, Morgan State, UMB, UMBC, UMCP, Loyola, US Naval Academy, Bowie State, and Towson universities; the National Aquarium, Camden Yards, and M&T Bank Stadium.\n```",
   "tags": [
     "north-america",
-    "high-detail",
     "airports",
     "entertainment",
     "universities"
@@ -23,5 +22,14 @@
   },
   "city_code": "BWI",
   "country": "US",
-  "population": 972032
+  "population": 972032,
+  "level_of_detail": "high-detail",
+  "source_quality": "high-quality",
+  "data_source": "LODES",
+  "location": "north-america",
+  "special_demand": [
+    "airports",
+    "entertainment",
+    "universities"
+  ]
 }

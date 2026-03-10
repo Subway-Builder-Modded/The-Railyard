@@ -6,8 +6,7 @@
   "github_id": 102868699,
   "description": "Custom map of Jerusalem with good real demand data",
   "tags": [
-    "middle-east",
-    "high-detail"
+    "middle-east"
   ],
   "gallery": [
     "gallery/screenshot1.png",
@@ -22,5 +21,10 @@
   },
   "city_code": "JER",
   "country": "IL",
-  "population": 1400000
+  "population": 1400000,
+  "level_of_detail": "high-detail",
+  "source_quality": "low-quality",
+  "data_source": "OSM",
+  "location": "middle-east",
+  "special_demand": []
 }

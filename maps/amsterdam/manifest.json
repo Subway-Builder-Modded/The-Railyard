@@ -20,5 +20,13 @@
   },
   "city_code": "AMS",
   "country": "NL",
-  "population": 2500000
+  "population": 2500000,
+  "level_of_detail": "low-detail",
+  "source_quality": "low-quality",
+  "data_source": "CBS/OSM",
+  "location": "europe",
+  "special_demand": [
+    "airports",
+    "universities"
+  ]
 }

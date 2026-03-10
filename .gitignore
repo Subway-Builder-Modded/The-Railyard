@@ -1,3 +1,5 @@
 tmp/**
 scripts/node_modules/**
+scripts/.test-dist/**
 .claude/**
+.pnpm-store/**

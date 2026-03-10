@@ -7,7 +7,6 @@
   "description": "```markdown\nUses 2023 LODES data for the Memphis area.\nIncludes demand for MEM airport; the University of Memphis; FedExForum Arena, Southland Casino, Beale Street (split into 4 spots; average of annual tourism data), and the South Main Arts District (split into 3 spots; a guesstimate of demand based on tourism data).\n```",
   "tags": [
     "north-america",
-    "high-detail",
     "airports",
     "entertainment",
     "universities"
@@ -22,5 +21,14 @@
   },
   "city_code": "MEM",
   "country": "US",
-  "population": 739736
+  "population": 739736,
+  "level_of_detail": "high-detail",
+  "source_quality": "high-quality",
+  "data_source": "LODES",
+  "location": "north-america",
+  "special_demand": [
+    "airports",
+    "entertainment",
+    "universities"
+  ]
 }

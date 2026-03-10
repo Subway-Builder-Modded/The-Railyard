@@ -1,194 +1,90 @@
 # The Railyard - Architecture
 
-The Railyard is the central registry for **Subway Builder** community mods and custom maps. It stores metadata (manifests, gallery images) and points to external sources (GitHub releases, CDNs) for actual downloads and updates.
+The Railyard is the central metadata registry for **Subway Builder** community mods and maps.
+This repository stores manifests, gallery assets, and update pointers. It does not store mod/map binaries.
 
-## Directory Structure
+## Repository Layout
 
-```
+```text
 The-Railyard/
-├── .github/
-│   ├── ISSUE_TEMPLATE/         # Issue form templates
-│   │   ├── config.yml          # Disables blank issues
-│   │   ├── publish-mod.yml
-│   │   ├── publish-map.yml
-│   │   ├── update-mod.yml
-│   │   ├── update-map.yml
-│   │   └── report.yml
-│   └── workflows/              # CI automation
-│       ├── publish.yml         # Creates PRs from publish issues
-│       ├── update-metadata.yml # Creates PRs from update issues
-│       ├── regenerate-index.yml# Rebuilds index.json on merge
-│       ├── close-invalid.yml   # Auto-closes non-template issues
-│       └── report.yml          # Acknowledges reports
-├── scripts/                    # TypeScript CI scripts
-│   ├── lib/
-│   │   ├── custom-url.ts      # Custom update URL validation helpers
-│   │   └── github.ts          # GitHub API validation helpers
-│   ├── package.json
-│   ├── validate-publish.ts
-│   ├── validate-update.ts
-│   ├── create-listing.ts
-│   ├── update-listing.ts
-│   └── regenerate-indexes.ts
-├── mods/
-│   ├── index.json              # Registry of all mod IDs (auto-generated)
-│   └── <mod-id>/
-│       ├── manifest.json       # Mod metadata + update pointer
-│       └── gallery/
-│           ├── screenshot1.png
-│           └── screenshot2.png
-├── maps/
-│   ├── index.json              # Registry of all map IDs (auto-generated)
-│   └── <map-id>/
-│       ├── manifest.json       # Map metadata + update pointer
-│       └── gallery/
-│           ├── thumbnail.png
-│           └── screenshot1.png
-├── ARCHITECTURE.md
-└── README.md
+|-- .github/
+|   |-- ISSUE_TEMPLATE/
+|   |   |-- config.yml
+|   |   |-- publish-mod.yml
+|   |   |-- publish-map.yml        # auto-generated
+|   |   |-- update-mod.yml
+|   |   |-- update-map.yml         # auto-generated
+|   |   `-- report.yml
+|   `-- workflows/
+|       |-- publish.yml
+|       |-- update-metadata.yml
+|       |-- regenerate-index.yml
+|       |-- close-invalid.yml
+|       `-- report.yml
+|-- scripts/
+|   |-- lib/
+|   |   |-- manifests.ts
+|   |   |-- map-constants.ts
+|   |   |-- map-field-utils.ts
+|   |   |-- map-update-logic.ts
+|   |   |-- registry-manifest.ts
+|   |   |-- mod-manifest.ts
+|   |   |-- gallery.ts
+|   |   |-- github.ts
+|   |   `-- custom-url.ts
+|   |-- tests/
+|   |-- generate-map-templates.ts
+|   |-- validate-publish.ts
+|   |-- validate-update.ts
+|   |-- create-listing.ts
+|   |-- update-listing.ts
+|   `-- regenerate-indexes.ts
+|-- mods/
+|   |-- index.json
+|   `-- <mod-id>/
+|       |-- manifest.json
+|       `-- gallery/
+|-- maps/
+|   |-- index.json
+|   `-- <map-id>/
+|       |-- manifest.json
+|       `-- gallery/
+|-- README.md
+`-- ARCHITECTURE.md
 ```
 
----
+## Data Model
 
-## Mods
+### Index files
 
-### `mods/index.json`
+- `mods/index.json`
+- `maps/index.json`
 
-Top-level registry listing every mod by ID.
+Both are generated from existing listing directories after merges.
+
+### Mod manifest (`mods/<mod-id>/manifest.json`)
 
 ```json
 {
   "schema_version": 1,
-  "mods": ["mod-id", "another-mod"]
-}
-```
-
-### `mods/<mod-id>/manifest.json`
-
-```json
-{
-  "schema_version": 1,
-  "id": "mod-id",
+  "id": "better-trains",
   "name": "Better Trains",
-  "author": "SomeModder",
-  "github_id": 12345678,
-  "description": "Adds realistic train models and sounds.",
-  "tags": ["vehicles", "cosmetic"],
-  "gallery": ["gallery/screenshot1.png", "gallery/screenshot2.png"],
-  "source": "https://github.com/somemodder/better-trains",
+  "author": "someuser",
+  "github_id": 123456,
+  "description": "Adds new train models.",
+  "tags": ["trains", "cosmetic"],
+  "gallery": ["gallery/screenshot1.png"],
+  "source": "https://github.com/someuser/better-trains",
   "update": {
     "type": "github",
-    "repo": "somemodder/better-trains"
+    "repo": "someuser/better-trains"
   }
 }
 ```
 
-| Field            | Type       | Description                                                           |
-| ---------------- | ---------- | --------------------------------------------------------------------- |
-| `schema_version` | `number`   | Schema version for forward compatibility. Currently `1`.              |
-| `id`             | `string`   | Unique mod identifier. Must match the directory name.                 |
-| `name`           | `string`   | Human-readable display name.                                          |
-| `author`         | `string`   | Mod author's name or handle.                                          |
-| `github_id`      | `number`   | Immutable GitHub user ID of the publisher. Used for ownership checks. |
-| `description`    | `string`   | Short description of what the mod does.                               |
-| `tags`           | `string[]` | Categorization tags (e.g. `"vehicles"`, `"cosmetic"`, `"gameplay"`).  |
-| `gallery`        | `string[]` | Relative paths to gallery images within the mod directory.            |
-| `source`         | `string`   | URL to the mod's source code or homepage.                             |
-| `update`         | `object`   | Update source configuration (see below).                              |
+### Map manifest (`maps/<map-id>/manifest.json`)
 
-### Mod `manifest.json` Validation (Mods Only)
-
-Mods must expose their `manifest.json` (the same file already inside the ZIP) outside the archive so The Railyard can validate it without downloading the full ZIP. The `dependencies` field is required and must include a `subway-builder` semver range.
-
-#### How `manifest.json` is exposed per update type
-
-- **GitHub Releases:** Upload `manifest.json` as a **separate release asset** alongside the `.zip`.
-- **Custom URL:** Provide a **Manifest URL** in the issue form pointing to the `manifest.json` for the current release.
-
-Publish validation fetches the manifest and checks that `dependencies` is present and includes `subway-builder`. This requirement applies to **mods only** — maps are exempt.
-
-### Update Types
-
-#### GitHub Releases
-
-Railyard fetches directly from `https://api.github.com/repos/{repo}/releases` and picks the first `.zip` asset from the latest release. No filename convention is enforced -- any `.zip` asset will be used.
-
-Publish validation verifies the repo exists and has at least one release with a `.zip` asset. **For mods**, it also verifies the latest release has a `manifest.json` asset and that it passes schema validation (see above).
-
-```json
-"update": {
-  "type": "github",
-  "repo": "somemodder/better-trains"
-}
-```
-
-#### Custom URL
-
-Points to a self-hosted `update.json` file maintained by the mod author. Publish validation fetches the URL and verifies it returns valid JSON matching the `update.json` schema (has `schema_version`, a non-empty `versions` array, and required fields on the first entry).
-
-**For mods**, a separate manifest URL must also be provided. Publish validation fetches it and verifies it passes schema validation (see above).
-
-```json
-"update": {
-  "type": "custom",
-  "url": "https://example.com/better-trains/update.json"
-}
-```
-
-### Custom `update.json` Format
-
-```json
-{
-  "schema_version": 1,
-  "versions": [
-    {
-      "version": "1.2.0",
-      "game_version": ">=2.1.0",
-      "date": "2026-02-20",
-      "changelog": "Added new express train model.",
-      "download": "https://example.com/better-trains/releases/v1.2.0.zip",
-      "sha256": "a1b2c3d4...",
-      "manifest": "https://example.com/better-trains/releases/v1.2.0/manifest.json"
-    },
-    {
-      "version": "1.1.0",
-      "game_version": ">=2.0.0",
-      "date": "2026-01-15",
-      "changelog": "Initial public release.",
-      "download": "https://example.com/better-trains/releases/v1.1.0.zip",
-      "sha256": "e5f6a7b8...",
-      "manifest": "https://example.com/better-trains/releases/v1.1.0/manifest.json"
-    }
-  ]
-}
-```
-
-| Field          | Type     | Description                                                                |
-| -------------- | -------- | -------------------------------------------------------------------------- |
-| `version`      | `string` | Semver version string.                                                     |
-| `game_version` | `string` | Semver range for game compatibility filtering.                             |
-| `date`         | `string` | Release date (ISO 8601).                                                   |
-| `changelog`    | `string` | Human-readable changelog entry.                                            |
-| `download`     | `string` | Direct download URL for the release ZIP.                                   |
-| `sha256`       | `string` | SHA-256 hash of the ZIP for integrity verification.                        |
-| `manifest`     | `string` | Direct URL to the mod's `manifest.json` (mods only, see validation above). |
-
----
-
-## Maps
-
-### `maps/index.json`
-
-Top-level registry listing every map by ID.
-
-```json
-{
-  "schema_version": 1,
-  "maps": ["raleigh", "dublin", "toronto"]
-}
-```
-
-### `maps/<map-id>/manifest.json`
+Maps include all mod fields plus map-specific metadata:
 
 ```json
 {
@@ -197,135 +93,131 @@ Top-level registry listing every map by ID.
   "name": "Raleigh",
   "author": "muffintime",
   "github_id": 87654321,
-  "city_code": "RDU",
-  "country": "US",
-  "population": 1500000,
-  "description": "Custom map of the Raleigh metropolitan area.",
-  "tags": ["north-america", "medium-city"],
-  "gallery": ["gallery/thumbnail.png", "gallery/screenshot1.png"],
+  "description": "Custom map of the Raleigh metro area.",
+  "tags": ["north-america", "airports"],
+  "gallery": ["gallery/screenshot1.png"],
   "source": "https://github.com/muffintime/sb-raleigh",
   "update": {
     "type": "github",
     "repo": "muffintime/sb-raleigh"
-  }
+  },
+  "city_code": "RDU",
+  "country": "US",
+  "population": 1500000,
+  "data_source": "LODES",
+  "source_quality": "high-quality",
+  "level_of_detail": "medium-detail",
+  "location": "north-america",
+  "special_demand": ["airports"]
 }
 ```
 
-Maps share all fields from the mod manifest, plus three map-specific fields:
+Map-specific fields:
 
-| Field        | Type     | Description                                                                                         |
-| ------------ | -------- | --------------------------------------------------------------------------------------------------- |
-| `city_code`  | `string` | 2-4 letter IATA/ICAO city code used by the game internally. Must not clash with vanilla city codes. |
-| `country`    | `string` | ISO 3166-1 alpha-2 country code. Used to sort maps into country tabs in Railyard's UI.              |
-| `population` | `number` | Metropolitan area population. Used for display and sorting without needing to download the map.     |
+- `city_code`: `^[A-Z0-9]{2,4}$`
+- `country`: ISO-3166-1 alpha-2 code
+- `population`: integer >= 0
+- `data_source`: non-empty string
+- `source_quality`: `low-quality | medium-quality | high-quality`
+- `level_of_detail`: `low-detail | medium-detail | high-detail`
+- `location`: exactly one location tag
+- `special_demand`: array of feature tags
 
-### Update Types
+Backward compatibility rule:
 
-Identical to mods. Both `github` and `custom` types work the same way.
+- For map manifests, `tags` is still maintained as the union of `location` and `special_demand`.
 
-### Map Download ZIP Format
+OSM quality rule:
 
-The download ZIP must follow [Kronifer's Map Manager](https://github.com/Subway-Builder-Modded/subwaybuilder-patcher/releases) format. Files must be at the root of the ZIP, not nested in a subfolder:
+- OSM-based data sources cannot be `high-quality`.
+- Create/update logic caps OSM-derived `high-quality` to `medium-quality`.
+- Update validation rejects OSM + `high-quality` combinations.
 
-```
-map-name.zip
-├── config.json
-├── demand_data.json
-├── buildings_index.json
-├── roads.geojson
-├── runways_taxiways.geojson
-└── XXX.pmtiles              (XXX = city code)
-```
+## Tags and Taxonomy
 
-### Tags
+### Mod tags
 
-#### Shared Tags (Mods & Maps)
+Category tags from issue templates:
+`cosmetic`, `gameplay`, `library`, `misc`, `qol`, `stations`, `tracks`, `trains`, `ui`.
 
-**Region:**
-`caribbean`, `central-america`, `central-asia`, `east-africa`, `east-asia`, `europe`, `middle-east`, `north-africa`, `north-america`, `oceania`, `south-america`, `south-asia`, `southeast-asia`, `southern-africa`, `west-africa`
+### Map location tags (exactly one)
 
-#### Map-Only Tags
+`caribbean`, `central-america`, `central-asia`, `east-africa`, `east-asia`, `europe`, `middle-east`, `north-africa`, `north-america`, `oceania`, `south-america`, `south-asia`, `southeast-asia`, `southern-africa`, `west-africa`.
 
-**Size:**
-`small-city` (<500K), `medium-city` (500K-2M), `large-city` (2M+), `mega-city` (10M+)
+### Map special-demand tags (zero or more)
 
-**Detail:**
-`high-detail`, `medium-detail`, `low-detail`
+`airports`, `entertainment`, `ferries`, `hospitals`, `parks`, `schools`, `universities`.
 
-**Features:**
-`airports`, `entertainment`, `ferries`, `highways`, `hospitals`, `parks`, `schools`, `universities`
+## Update Sources
 
-#### Mod-Only Tags
-
-**Category:**
-`cosmetic`, `gameplay`, `library`, `misc`, `qol`, `stations`, `tracks`, `trains`, `ui`
-
-## Issue-Driven CI Workflow
-
-All submissions and updates are managed through GitHub Issues. Blank issues are disabled -- users must pick a template.
-
-### Submission Flow
-
-1. Author opens a **Publish New Mod/Map** issue using the structured form
-2. CI parses the issue body, validates the data, and creates the listing files
-3. A PR is automatically opened (e.g. `feat(mod): add \`better-trains\``)
-4. Human reviewers merge the PR
-5. Merging the PR auto-closes the issue (via `Fixes #N` in the PR body)
-6. A post-merge workflow regenerates `index.json` from the filesystem
-
-### Update Flow
-
-1. Author opens an **Update Existing Mod/Map Metadata** issue
-2. CI verifies the issue author's `github_id` matches the manifest's `github_id`
-3. If ownership check fails, the issue is auto-closed with an explanation
-4. Otherwise, a PR is created with the updated manifest fields
-
-### Ownership Verification
-
-Each manifest stores `github_id` -- the immutable numeric GitHub user ID of the original publisher. This is checked on update requests via `github.event.issue.user.id`. Usernames can change; IDs cannot.
-
-### Index Regeneration
-
-`mods/index.json` and `maps/index.json` are **never edited directly by PRs**. They are regenerated from the filesystem (scanning `*/manifest.json`) after merges to `main`. This eliminates merge conflicts when multiple PRs are open.
-
-### Scripts (`scripts/`)
-
-TypeScript scripts handle the complex logic, keeping workflow YAML thin:
-
-| Script                  | Purpose                                                                       |
-| ----------------------- | ----------------------------------------------------------------------------- |
-| `validate-publish.ts`   | Validates new submissions (ID format, uniqueness, URLs, vanilla code clashes) |
-| `validate-update.ts`    | Validates updates (existence check, ownership verification)                   |
-| `create-listing.ts`     | Creates `manifest.json` and downloads gallery images                          |
-| `update-listing.ts`     | Patches existing `manifest.json` with changed fields                          |
-| `regenerate-indexes.ts` | Scans filesystem and rebuilds `index.json` files                              |
-
----
-
-## Dependencies
-
-Mods and maps can declare dependencies on other mods. Dependencies are specified **inside the mod's own `manifest.json` (or `config.json` for maps)** (the one shipped in the mod's download ZIP), not in this repository. The Railyard registry does not track dependencies -- they are resolved at install time by Railyard.
-
-The `dependencies` field is an object mapping mod IDs to semver ranges. The `subway-builder` key is always required:
+`update` supports two formats:
 
 ```json
-{
-  "dependencies": {
-    "subway-builder": ">=1.0.0",
-    "some-library": ">=2.0.0",
-    "another-mod": ">=3.2.1"
-  }
-}
+{ "type": "github", "repo": "owner/repo" }
 ```
 
-Each key is a mod ID from this registry (or `subway-builder` for the base game) and the value is a semver range for the minimum required version. The mod manager will ensure dependencies are installed before the dependent mod is loaded.
+```json
+{ "type": "custom", "url": "https://example.com/update.json" }
+```
 
----
+Validation checks reachable/updateable endpoints at publish/update time.
 
-## Design Principles
+## Map ZIP Format
 
-- **Metadata only in this repo.** Actual mod/map binaries live on GitHub Releases, CDNs, or other file hosts. This keeps the repo lightweight.
-- **Unified schema.** Mods and maps share the same update mechanism (`github` or `custom`), so Railyard uses one code path for fetching and updating both.
-- **Manifest = storefront, ZIP = runtime.** The manifest contains browsing/discovery metadata. The ZIP's internal `config.json` is the source of truth for game-facing configuration. Some fields (like `population`, `country`) are intentionally duplicated so Railyard can display information before download.
-- **Integrity verification.** `sha256` hashes in custom update files allow Railyard to verify downloads. GitHub releases rely on GitHub's own integrity guarantees.
-- **Compatibility filtering.** `game_version` semver ranges let Railyard hide incompatible versions from users.
+Map ZIPs follow the patcher/map-manager expectations and place files at archive root:
+
+```text
+map-name.zip
+|-- config.json
+|-- demand_data.json
+|-- buildings_index.json
+|-- roads.geojson
+|-- runways_taxiways.geojson
+`-- XXX.pmtiles
+```
+
+## Issue Templates and Generation
+
+- `publish-map.yml` and `update-map.yml` are generated by `scripts/generate-map-templates.ts`.
+- The generator uses a shared field definition after `map-id` and enforces identical template tails.
+- Generation/check uses YAML + AJV schema validation.
+- Templates should not be edited manually.
+
+## CI Workflow
+
+### Publish flow
+
+1. User opens publish issue (`publish-mod` or `publish-map`).
+2. Workflow parses issue form values.
+3. `validate-publish.ts` validates payload and external references.
+4. `create-listing.ts` writes listing files and downloads gallery images.
+5. Workflow opens a PR for maintainers.
+
+### Update flow
+
+1. User opens update issue (`update-mod` or `update-map`).
+2. `validate-update.ts` checks listing existence and ownership (`github_id`).
+3. Map updates additionally validate map field constraints via shared map update logic.
+4. `update-listing.ts` applies only requested field changes.
+5. Workflow opens a PR.
+
+### Post-merge flow
+
+- `regenerate-indexes.ts` rebuilds `mods/index.json` and `maps/index.json`.
+
+## Script Responsibilities
+
+- `validate-publish.ts`: publish-time validation for maps/mods.
+- `validate-update.ts`: update-time validation and ownership checks.
+- `create-listing.ts`: creates new manifests and gallery files.
+- `update-listing.ts`: applies manifest metadata updates.
+- `regenerate-indexes.ts`: reindexes listings.
+- `generate-map-templates.ts`: generates and verifies map issue templates.
+
+## Testing
+
+Script-level tests live under `scripts/tests` and currently cover:
+
+- map field utility behavior/defaults
+- map template generation invariants
+- map update integration behavior (changed-fields-only + invalid existing-state failure)

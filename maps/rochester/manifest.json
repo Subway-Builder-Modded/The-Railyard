@@ -7,7 +7,6 @@
   "description": "```markdown\nUses 2022 LODES data for the Rochester area.\nIncludes demand for ROC airport; UR, RIT, Nazareth, St. John Fisher, and Roberts Wesleyan universities.\n```",
   "tags": [
     "north-america",
-    "high-detail",
     "airports",
     "universities"
   ],
@@ -21,5 +20,13 @@
   },
   "city_code": "ROC",
   "country": "US",
-  "population": 270140
+  "population": 270140,
+  "level_of_detail": "high-detail",
+  "source_quality": "high-quality",
+  "data_source": "LODES",
+  "location": "north-america",
+  "special_demand": [
+    "airports",
+    "universities"
+  ]
 }

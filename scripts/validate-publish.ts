@@ -3,16 +3,19 @@ import { resolve } from "node:path";
 import { z } from "zod";
 import { validateCustomUpdateUrl } from "./lib/custom-url.js";
 import { validateGitHubRepo } from "./lib/github.js";
+import { parseGalleryImages } from "./lib/gallery.js";
+import {
+  DEFAULT_MAP_DATA_SOURCE,
+  LEVEL_OF_DETAIL_VALUES,
+  LOCATION_TAGS,
+  SOURCE_QUALITY_VALUES,
+  SPECIAL_DEMAND_TAG_SET,
+  VANILLA_CITY_CODE_SET,
+  isOsmDataSource,
+} from "./lib/map-constants.js";
 
 
 const REPO_ROOT = resolve(import.meta.dirname, "..");
-
-const VANILLA_CITY_CODES = new Set([
-  "NYC", "DAL", "CHI", "SFO", "WAS", "PHX", "HOU", "ATL", "MIA", "SEA",
-  "PHL", "DEN", "DET", "SAN", "MSP", "BOS", "AUS", "PDX", "STL", "SLC",
-  "IND", "CMH", "CLE", "CIN", "MKE", "BAL", "PIT", "CLT", "HNL",
-  "LON", "BHM", "MAN", "LIV", "NCL",
-]);
 
 const PublishModInput = z.object({
   "mod-id": z.string().regex(/^[a-z0-9]+(-[a-z0-9]+)*$/, "Mod ID must be kebab-case (lowercase letters, numbers, hyphens)"),
@@ -29,11 +32,33 @@ const PublishMapInput = PublishModInput.omit({ "mod-id": true }).extend({
   "city-code": z.string().min(2).max(4).regex(/^[A-Z0-9]+$/, "City code must be 2-4 uppercase letters/numbers"),
   country: z.string().length(2).regex(/^[A-Z]{2}$/, "Country must be a 2-letter ISO 3166-1 alpha-2 code"),
   population: z.string().regex(/^\d+$/, "Population must be a number"),
+  gallery: z.string().min(1, "At least one gallery image is required"),
+  data_source: z.string().optional(),
+  source_quality: z.enum(SOURCE_QUALITY_VALUES),
+  level_of_detail: z.enum(LEVEL_OF_DETAIL_VALUES),
+  location: z.enum(LOCATION_TAGS),
+  special_demand: z.union([z.string(), z.array(z.string())]).optional(),
 });
 
 interface ValidationResult {
   success: boolean;
   errors: string[];
+}
+
+function isPresent(value: string | undefined): value is string {
+  return !!value && value !== "_No response_" && value !== "None" && value !== "No change";
+}
+
+function parseCheckedBoxes(raw: unknown): string[] {
+  if (Array.isArray(raw)) {
+    return raw.map((tag) => String(tag).trim()).filter(Boolean);
+  }
+  if (typeof raw !== "string" || !raw || raw === "_No response_") return [];
+  return raw
+    .split("\n")
+    .filter((line) => line.startsWith("- [X]") || line.startsWith("- [x]"))
+    .map((line) => line.replace(/^- \[[Xx]\]\s*/, "").trim())
+    .filter(Boolean);
 }
 
 async function validateMod(data: Record<string, string>): Promise<ValidationResult> {
@@ -96,8 +121,22 @@ async function validateMap(data: Record<string, string>): Promise<ValidationResu
     errors.push(`**map-id**: A map with ID \`${id}\` already exists.`);
   }
 
-  if (VANILLA_CITY_CODES.has(parsed.data["city-code"])) {
+  if (VANILLA_CITY_CODE_SET.has(parsed.data["city-code"])) {
     errors.push(`**city-code**: \`${parsed.data["city-code"]}\` clashes with a vanilla city code.`);
+  }
+
+  if (parseGalleryImages(data.gallery).length === 0) {
+    errors.push("**gallery**: At least one gallery image is required.");
+  }
+  const specialDemand = parseCheckedBoxes(data.special_demand);
+  const invalidSpecialDemand = specialDemand.filter((tag) => !SPECIAL_DEMAND_TAG_SET.has(tag));
+  if (invalidSpecialDemand.length > 0) {
+    errors.push(`**special_demand**: Invalid tag(s): ${invalidSpecialDemand.join(", ")}`);
+  }
+
+  const dataSource = isPresent(parsed.data.data_source) ? parsed.data.data_source : DEFAULT_MAP_DATA_SOURCE;
+  if (isOsmDataSource(dataSource) && parsed.data.source_quality === "high-quality") {
+    errors.push("**source_quality**: OSM-based data sources cannot be marked `high-quality`.");
   }
 
   if (parsed.data["update-type"] === "GitHub Releases") {
@@ -155,3 +194,4 @@ async function main() {
 }
 
 main();
+

@@ -7,7 +7,6 @@
   "description": "Custom map of the Sacramento, CA area and surrounding towns such as Davis, Roseville, Folsom, Woodland, Vacaville, Elk Grove etc. Generated using 2023 LODES Census Data and added demand for the following:\n\nUniversities: University of California-Davis, American River College, Sacramento City College, Sierra College, California State University-Sacramento, Carrington College-Sacramento, Folsom Lake College, Cosumnes River College, William Jessup University, and Woodland Community College.\n\nEntertainment: Golden 1 Center, Sutter Health Park (New Temporary Home of MLB team Oakland A’s), Heart Health Park, Old Sacramento Waterfront Visitor/Tourist Demand, and The Sacramento Zoo",
   "tags": [
     "north-america",
-    "high-detail",
     "airports",
     "entertainment",
     "universities"
@@ -24,5 +23,14 @@
   },
   "city_code": "SMF",
   "country": "US",
-  "population": 755810
+  "population": 755810,
+  "level_of_detail": "high-detail",
+  "source_quality": "low-quality",
+  "data_source": "OSM",
+  "location": "north-america",
+  "special_demand": [
+    "airports",
+    "entertainment",
+    "universities"
+  ]
 }
