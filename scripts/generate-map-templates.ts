@@ -139,10 +139,13 @@ type FieldOptions = {
 };
 type CheckboxOption = string | { label: string; required?: boolean };
 
-function markdown(value: string): TemplateValue {
+function markdown(
+  value: string,
+  opts: { leadingSpacer?: boolean } = {},
+): TemplateValue {
   return {
     type: "markdown",
-    attributes: { value },
+    attributes: { value: opts.leadingSpacer ? `\n\n${value}` : value },
   };
 }
 
@@ -233,9 +236,6 @@ function mapIdField(description: string): TemplateValue {
 
 const SHARED_FIELDS_AFTER_MAP_ID = [
   // ===== Data Validation ===== //
-  markdown(
-    "## Identifiers\n\nProvide details about the city/metropolitan area your map models. These data will be used to import your map into the game and to give Railyard users context abour your map",
-  ),
   input(
     "name",
     "City Name",
@@ -274,6 +274,7 @@ const SHARED_FIELDS_AFTER_MAP_ID = [
   // ===== Data Validation ===== //
   markdown(
     "## Data Attestation\n\nProvide details about your map's data source, data source quality, and level of detail. Be honest and transparent in your descriptions and please include the methodology you used to generate the map's data.",
+    { leadingSpacer: true },
   ),
   input(
     "data_source",
@@ -304,6 +305,7 @@ const SHARED_FIELDS_AFTER_MAP_ID = [
   // ===== Map Tagging / Images  ===== //
   markdown(
     "## Tagging & Image Preview\n\nRailyard allows users to search for maps based on tags and presents a preview image for discovery. Please check whichever tags best represent your map. Note that `Location` is required.",
+    { leadingSpacer: true },
   ),
   dropdown(
     "location",
@@ -314,6 +316,7 @@ const SHARED_FIELDS_AFTER_MAP_ID = [
   ),
   markdown(
     "### Special Demand Tag Guide\n\nUse these tags only when the map models a meaningful amount of demand related to the feature.\n\n- `airports`: passenger (non-worker) demand from major airports\n- `entertainment`: leisure/tourist demand at stadiums/venues/nightlife\n- `ferries`: passenger (non-worker) demand from ferry terminals\n- `hospitals`: visitation demand for major medical centers\n- `parks`: leisure/tourist demand from large local or national parks\n- `schools`: demand from primary/secondary school students\n- `universities`: demand from university school students",
+    { leadingSpacer: true },
   ),
   checkboxes(
     "special_demand",
@@ -330,6 +333,7 @@ const SHARED_FIELDS_AFTER_MAP_ID = [
   // ===== Source Code Validation ===== //
   markdown(
     "## Source Code Information\n\nProvide information on where your map is hosted so that Railyard will be able to check your repository for updates and allow users to install the map on demand.",
+    { leadingSpacer: true },
   ),
   input(
     "source",
@@ -379,7 +383,11 @@ const publishTemplateDoc = {
   labels: ["publish-map"],
   body: [
     markdown(
-      "## Publish a New Map\n\nFill out the form below to submit your custom map to The Railyard. A pull request will be automatically created for review.\n\nIf validation fails, you can edit this issue and comment **revalidate** to retry.",
+      "# Publish a New Map\n\nFill out the form below to submit your custom map to The Railyard. A pull request will be automatically created for review.\n\nIf validation fails, you can edit this issue and comment **revalidate** to retry.",
+    ),
+    markdown(
+      "## Identifiers\n\nProvide details about the city/metropolitan area your map models. These data will be used to import your map into the game and to give Railyard users context abour your map",
+      { leadingSpacer: true },
     ),
     mapIdField(
       "A unique identifier for your map in kebab-case. This is the permanent directory name in the registry and cannot be changed later. Must be unique across all maps - if another map of the same city already exists, use a distinct ID (e.g. `london-detailed`, `london-mini`). Only lowercase letters, numbers, and hyphens allowed.",
@@ -395,7 +403,11 @@ const updateTemplateDoc = {
   labels: ["update-map"],
   body: [
     markdown(
-      "## Update Map Metadata\n\nOnly fill in the fields you want to change - leave everything else blank.\nYour GitHub account must match the original publisher of this map.\n\nIf validation fails, you can edit this issue and comment **revalidate** to retry.",
+      "# Update Map Metadata\n\nOnly fill in the fields you want to change - leave everything else blank.\nYour GitHub account must match the original publisher of this map.\n\nIf validation fails, you can edit this issue and comment **revalidate** to retry.",
+    ),
+    markdown(
+      "## Identifiers\n\nProvide details about the city/metropolitan area your map models. These data will be used to import your map into the game and to give Railyard users context abour your map",
+      { leadingSpacer: true },
     ),
     mapIdField(
       "The ID of the map you want to update. Must already exist in the registry.",
@@ -443,9 +455,26 @@ function parseTemplateFile(path: string): TemplateValue {
   return parsed as TemplateValue;
 }
 
+function getFieldId(item: unknown): string | undefined {
+  if (!item || typeof item !== "object") return undefined;
+  const candidate = item as { id?: unknown };
+  return typeof candidate.id === "string" ? candidate.id : undefined;
+}
+
 function verifySharedTail() {
-  const publishTail = JSON.stringify(publishTemplateDoc.body.slice(2));
-  const updateTail = JSON.stringify(updateTemplateDoc.body.slice(2));
+  const publishMapIdIndex = publishTemplateDoc.body.findIndex(
+    (item) => getFieldId(item) === "map-id",
+  );
+  const updateMapIdIndex = updateTemplateDoc.body.findIndex(
+    (item) => getFieldId(item) === "map-id",
+  );
+
+  if (publishMapIdIndex === -1 || updateMapIdIndex === -1) {
+    throw new Error("Template bodies must include a `map-id` field.");
+  }
+
+  const publishTail = JSON.stringify(publishTemplateDoc.body.slice(publishMapIdIndex + 1));
+  const updateTail = JSON.stringify(updateTemplateDoc.body.slice(updateMapIdIndex + 1));
   if (publishTail !== updateTail) {
     throw new Error("Template bodies after map-id must remain identical.");
   }

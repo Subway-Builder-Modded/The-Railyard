@@ -7,7 +7,7 @@
 "body":
   - "type": "markdown"
     "attributes":
-      "value": "## Publish a New Map
+      "value": "# Publish a New Map
 
 
         Fill out the form below to submit your custom map to The Railyard. A pull request
@@ -15,6 +15,17 @@
 
 
         If validation fails, you can edit this issue and comment **revalidate** to retry."
+  - "type": "markdown"
+    "attributes":
+      "value": "
+
+
+        ## Identifiers
+
+
+        Provide details about the city/metropolitan area your map models. These data will be
+        used to import your map into the game and to give Railyard users context abour your
+        map"
   - "type": "input"
     "id": "map-id"
     "attributes":
@@ -27,14 +38,6 @@
       "placeholder": "raleigh"
     "validations":
       "required": true
-  - "type": "markdown"
-    "attributes":
-      "value": "## Identifiers
-
-
-        Provide details about the city/metropolitan area your map models. These data will be
-        used to import your map into the game and to give Railyard users context abour your
-        map"
   - "type": "input"
     "id": "name"
     "attributes":
@@ -86,7 +89,10 @@
       "required": true
   - "type": "markdown"
     "attributes":
-      "value": "## Data Attestation
+      "value": "
+
+
+        ## Data Attestation
 
 
         Provide details about your map's data source, data source quality, and level of
@@ -141,7 +147,10 @@
       "required": true
   - "type": "markdown"
     "attributes":
-      "value": "## Tagging & Image Preview
+      "value": "
+
+
+        ## Tagging & Image Preview
 
 
         Railyard allows users to search for maps based on tags and presents a preview image
@@ -173,7 +182,10 @@
       "required": true
   - "type": "markdown"
     "attributes":
-      "value": "### Special Demand Tag Guide
+      "value": "
+
+
+        ### Special Demand Tag Guide
 
 
         Use these tags only when the map models a meaningful amount of demand related to the
@@ -217,7 +229,10 @@
       "required": true
   - "type": "markdown"
     "attributes":
-      "value": "## Source Code Information
+      "value": "
+
+
+        ## Source Code Information
 
 
         Provide information on where your map is hosted so that Railyard will be able to
