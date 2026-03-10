@@ -33,8 +33,9 @@ function getField(body: unknown[], id: string): IssueTemplateField {
 }
 
 test("update-map.yml enforces expected map metadata fields/options", () => {
+  const scriptsRoot = resolve(import.meta.dirname, "..", "..");
   const updateTemplatePath = resolve(
-    process.cwd(),
+    scriptsRoot,
     "..",
     ".github",
     "ISSUE_TEMPLATE",

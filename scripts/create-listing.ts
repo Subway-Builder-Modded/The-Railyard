@@ -10,33 +10,15 @@ import {
   getRequiredIssueValue,
   normalizeSourceQualityForDataSource,
 } from "./lib/map-field-utils.js";
+import {
+  type MapManifest,
+  type ModManifest,
+  resolveListingIdAndDir,
+  resolveListingKind,
+} from "./lib/manifests.js";
 import { assertValidRegistryManifest } from "./lib/registry-manifest.js";
 
 const REPO_ROOT = resolve(import.meta.dirname, "..");
-
-interface ModManifest {
-  schema_version: number;
-  id: string;
-  name: string;
-  author: string;
-  github_id: number;
-  description: string;
-  tags: string[];
-  gallery: string[];
-  source: string;
-  update: { type: "github"; repo: string } | { type: "custom"; url: string };
-}
-
-interface MapManifest extends ModManifest {
-  city_code: string;
-  country: string;
-  population: number;
-  data_source: string;
-  source_quality: string;
-  level_of_detail: string;
-  location: string;
-  special_demand: string[];
-}
 
 function parseTags(raw: unknown): string[] {
   if (!raw) return [];
@@ -55,19 +37,50 @@ function parseTags(raw: unknown): string[] {
   return raw.split(",").map((t) => t.trim()).filter(Boolean);
 }
 
-function buildUpdate(data: Record<string, string>): ModManifest["update"] {
+function buildUpdate(data: Record<string, unknown>): ModManifest["update"] {
   if (data["update-type"] === "GitHub Releases") {
-    return { type: "github", repo: data["github-repo"]! };
+    return { type: "github", repo: String(data["github-repo"]) };
   }
-  return { type: "custom", url: data["custom-update-url"]! };
+  return { type: "custom", url: String(data["custom-update-url"]) };
 }
 
 function combineMapTags(location: string, specialDemand: string[]): string[] {
   return Array.from(new Set([location, ...specialDemand]));
 }
 
+function buildMapManifestData(data: Record<string, unknown>): {
+  tags: string[];
+  mapFields: Omit<MapManifest, keyof ModManifest>;
+} {
+  const levelOfDetail = getRequiredIssueValue(
+    "level_of_detail",
+    data.level_of_detail,
+  );
+  const dataSource = getMapDataSource(data.data_source);
+  const location = getRequiredIssueValue("location", data.location);
+  const specialDemand = parseTags(data.special_demand);
+  const sourceQuality = normalizeSourceQualityForDataSource(
+    dataSource,
+    getRequiredIssueValue("source_quality", data.source_quality),
+  );
+
+  return {
+    tags: combineMapTags(location, specialDemand),
+    mapFields: {
+      city_code: String(data["city-code"]),
+      country: String(data.country),
+      population: parseInt(String(data.population), 10),
+      data_source: dataSource,
+      source_quality: sourceQuality,
+      level_of_detail: levelOfDetail,
+      location,
+      special_demand: specialDemand,
+    },
+  };
+}
+
 async function main() {
-  const type = process.env.LISTING_TYPE; // "mod" or "map"
+  const listingKind = resolveListingKind(process.env.LISTING_TYPE);
   const issueJson = process.env.ISSUE_JSON;
   const issueAuthorId = process.env.ISSUE_AUTHOR_ID;
   const issueAuthorLogin = process.env.ISSUE_AUTHOR_LOGIN;
@@ -77,9 +90,8 @@ async function main() {
     process.exit(1);
   }
 
-  const data = JSON.parse(issueJson);
-  const id = type === "map" ? data["map-id"] : data["mod-id"];
-  const dir = type === "map" ? "maps" : "mods";
+  const data = JSON.parse(issueJson) as Record<string, unknown>;
+  const { id, dir } = resolveListingIdAndDir(listingKind, data);
   const listingDir = resolve(REPO_ROOT, dir, id);
   const galleryDir = resolve(listingDir, "gallery");
 
@@ -87,52 +99,28 @@ async function main() {
 
   // Download gallery images — resolve markdown URLs to JWT-signed URLs
   // via the GitHub API HTML body (required for private repo attachments)
-  const imageUrls = parseGalleryImages(data.gallery);
+  const imageUrls = parseGalleryImages(
+    typeof data.gallery === "string" ? data.gallery : undefined,
+  );
   const resolvedUrls = await resolveGalleryUrls(imageUrls);
   const galleryPaths = await downloadGalleryImages(resolvedUrls, galleryDir);
 
   const rawTags = parseTags(data.tags);
-  const levelOfDetail = type === "map"
-    ? getRequiredIssueValue("level_of_detail", data.level_of_detail)
-    : "";
-  let sourceQuality = type === "map"
-    ? getRequiredIssueValue("source_quality", data.source_quality)
-    : "";
-  const dataSource = type === "map"
-    ? getMapDataSource(data.data_source)
-    : "";
-  const location = type === "map" ? getRequiredIssueValue("location", data.location) : "";
-  const specialDemand = type === "map" ? parseTags(data.special_demand) : [];
-  const tags = type === "map"
-    ? combineMapTags(location, specialDemand)
-    : rawTags;
-  if (type === "map") {
-    sourceQuality = normalizeSourceQualityForDataSource(dataSource, sourceQuality);
-  }
+  const mapData = listingKind === "map" ? buildMapManifestData(data) : undefined;
+  const tags = mapData ? mapData.tags : rawTags;
 
   const manifest: ModManifest | MapManifest = {
     schema_version: 1,
     id,
-    name: data.name,
+    name: String(data.name),
     author: issueAuthorLogin,
     github_id: parseInt(issueAuthorId, 10),
-    description: data.description,
+    description: String(data.description),
     tags,
     gallery: galleryPaths,
-    source: data.source,
+    source: String(data.source),
     update: buildUpdate(data),
-    ...(type === "map"
-      ? {
-          city_code: data["city-code"],
-          country: data.country,
-          population: parseInt(data.population, 10),
-          data_source: dataSource,
-          source_quality: sourceQuality,
-          level_of_detail: levelOfDetail,
-          location,
-          special_demand: specialDemand,
-        }
-      : {}),
+    ...(mapData ? mapData.mapFields : {}),
   };
 
   assertValidRegistryManifest(

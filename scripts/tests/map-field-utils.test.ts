@@ -43,7 +43,7 @@ test("OSM source cannot remain high-quality", () => {
   );
   assert.equal(
     normalizeSourceQualityForDataSource(
-      "統計局・令和２年国勢調査・令和3年経済センサス",
+      "INSEE",
       "high-quality",
     ),
     "high-quality",
