@@ -6,7 +6,7 @@
   "scripts": {
     "test": "pnpm run test:build && pnpm run test:run",
     "test:build": "tsc -p tsconfig.test.json",
-    "test:run": "node .test-dist/tests/map-field-utils.test.js && node .test-dist/tests/update-map-template.integration.test.js && node .test-dist/tests/update-map-listing.integration.test.js",
+    "test:run": "node .test-dist/tests/map-field-utils.test.js && node .test-dist/tests/update-map-template.integration.test.js && node .test-dist/tests/update-map-listing.integration.test.js && node .test-dist/tests/validation-rules.integration.test.js",
     "validate-publish": "tsx validate-publish.ts",
     "validate-update": "tsx validate-update.ts",
     "create-listing": "tsx create-listing.ts",

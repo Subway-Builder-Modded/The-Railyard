@@ -5,5 +5,5 @@
     "rootDir": ".",
     "noEmit": false
   },
-  "include": ["lib/**/*.ts", "tests/**/*.ts"]
+  "include": ["lib/**/*.ts", "tests/**/*.ts", "validate-publish.ts", "validate-update.ts"]
 }

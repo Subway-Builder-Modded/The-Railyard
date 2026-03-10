@@ -11,7 +11,9 @@ import {
 } from "./lib/manifests.js";
 import { validateMapUpdateFields } from "./lib/map-update-logic.js";
 
-const REPO_ROOT = resolve(import.meta.dirname, "..");
+const REPO_ROOT = process.env.RAILYARD_REPO_ROOT
+  ? resolve(process.env.RAILYARD_REPO_ROOT)
+  : resolve(import.meta.dirname, "..");
 
 function isPresent(value: unknown): value is string {
   return typeof value === "string"

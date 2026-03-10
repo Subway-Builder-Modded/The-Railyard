@@ -15,7 +15,9 @@ import {
 } from "./lib/map-constants.js";
 
 
-const REPO_ROOT = resolve(import.meta.dirname, "..");
+const REPO_ROOT = process.env.RAILYARD_REPO_ROOT
+  ? resolve(process.env.RAILYARD_REPO_ROOT)
+  : resolve(import.meta.dirname, "..");
 
 const PublishModInput = z.object({
   "mod-id": z.string().regex(/^[a-z0-9]+(-[a-z0-9]+)*$/, "Mod ID must be kebab-case (lowercase letters, numbers, hyphens)"),

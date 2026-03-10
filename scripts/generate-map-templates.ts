@@ -360,6 +360,11 @@ const SHARED_FIELDS_AFTER_MAP_ID = [
     "Required ONLY if you selected Custom URL. The full URL to your self-hosted update.json file. The file must follow the Railyard update.json schema. Leave blank if using GitHub Releases.",
     { placeholder: "https://example.com/sb-raleigh/update.json" },
   ),
+  // ===== Authorization ===== //
+  markdown(
+    "## Authorization.",
+    { leadingSpacer: true },
+  ),
   {
     type: "checkboxes",
     id: "terms",
@@ -368,7 +373,7 @@ const SHARED_FIELDS_AFTER_MAP_ID = [
       options: [
         {
           label:
-            "I confirm I am the author or have permission to publish this map.",
+            "I attest that I am the author or this map or have been granted permission by the author to publish this map to Railyard.",
           required: true,
         },
       ],
