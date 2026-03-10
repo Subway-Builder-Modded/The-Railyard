@@ -1,0 +1,34 @@
+{
+  "schema_version": 1,
+  "id": "asdfasdfasdfasdfa",
+  "name": "ASDFASDFASDF",
+  "author": "ahkimn",
+  "github_id": 19807509,
+  "description": "```markdown\nasdfasdfasdfasdasdfsadfasfads\n```",
+  "tags": [
+    "middle-east",
+    "ferries",
+    "parks",
+    "universities"
+  ],
+  "gallery": [
+    "gallery/screenshot1.png"
+  ],
+  "source": "https://github.com/ahkimn/subwaybuilder-jp-maps",
+  "update": {
+    "type": "custom",
+    "url": "https://ahkimn.github.io/subwaybuilder-jp-maps/KIJ.json"
+  },
+  "city_code": "ASDF",
+  "country": "XX",
+  "population": 234234242424,
+  "data_source": "OSM",
+  "source_quality": "low-quality",
+  "level_of_detail": "medium-detail",
+  "location": "middle-east",
+  "special_demand": [
+    "ferries",
+    "parks",
+    "universities"
+  ]
+}
