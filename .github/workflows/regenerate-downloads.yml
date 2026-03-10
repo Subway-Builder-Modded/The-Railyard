@@ -98,5 +98,5 @@ jobs:
           git config user.name "github-actions[bot]"
           git config user.email "github-actions[bot]@users.noreply.github.com"
           git add maps/downloads.json mods/downloads.json 2>/dev/null || true
-          git diff --cached --quiet || git commit -m "chore: regenerate download counts"
+          git commit --allow-empty -m "chore: regenerate download counts"
           git push
