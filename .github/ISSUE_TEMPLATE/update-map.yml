@@ -200,8 +200,8 @@
     "id": "special_demand"
     "attributes":
       "label": "Special Demand"
-      "description": "Select all tags that apply to your map. These help users find your map in
-        the browser."
+      "description": "Select tags only if you want to replace current special demand tags. Leave
+        all unchecked to keep current tags."
       "options":
         - "label": "airports"
         - "label": "entertainment"

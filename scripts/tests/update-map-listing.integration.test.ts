@@ -64,6 +64,18 @@ test("map update ignores non-registry methodology field", () => {
   assert.equal(Object.hasOwn(manifest, "methodology"), false);
 });
 
+test("map update keeps special_demand when update payload has no checked special demand tags", () => {
+  const manifest = makeBaseManifest();
+  const before = makeBaseManifest();
+
+  applyMapManifestUpdates(manifest, {
+    special_demand: "- [ ] airports\n- [ ] ferries\n- [ ] parks",
+  });
+
+  assert.deepEqual(manifest.special_demand, before.special_demand);
+  assert.deepEqual(manifest.tags, before.tags);
+});
+
 test("map update validation fails when existing manifest is invalid", () => {
   const invalidManifest = {
     ...makeBaseManifest(),

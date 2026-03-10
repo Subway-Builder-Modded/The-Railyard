@@ -91,7 +91,10 @@ export function applyMapManifestUpdates(
     && data.special_demand !== "_No response_"
     && data.special_demand !== "None"
   ) {
-    manifest.special_demand = parseCheckedBoxes(data.special_demand);
+    const selectedSpecialDemand = parseCheckedBoxes(data.special_demand);
+    if (selectedSpecialDemand.length > 0) {
+      manifest.special_demand = selectedSpecialDemand;
+    }
   }
 
   // Cap OSM quality to be medium quality since high-quality OSM data is generally not available
@@ -160,10 +163,17 @@ export function validateMapUpdateFields(
     ? data.level_of_detail
     : currentLevelOfDetail;
   const nextLocation = isPresentIssueValue(data.location) ? data.location : currentLocation;
-  const nextSpecialDemand =
-    data.special_demand !== undefined && data.special_demand !== "_No response_" && data.special_demand !== "None"
-      ? parseCheckedBoxes(data.special_demand)
-      : currentSpecialDemand;
+  const nextSpecialDemand = (() => {
+    if (
+      data.special_demand !== undefined
+      && data.special_demand !== "_No response_"
+      && data.special_demand !== "None"
+    ) {
+      const selectedSpecialDemand = parseCheckedBoxes(data.special_demand);
+      return selectedSpecialDemand.length > 0 ? selectedSpecialDemand : currentSpecialDemand;
+    }
+    return currentSpecialDemand;
+  })();
 
   if (!SOURCE_QUALITY_SET.has(nextSourceQuality)) {
     errors.push("**source_quality**: Must be one of `low-quality`, `medium-quality`, `high-quality`.");

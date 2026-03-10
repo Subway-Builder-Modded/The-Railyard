@@ -260,6 +260,7 @@ function withTemplatePolicy(baseDoc: TemplateDoc, mode: TemplateMode): TemplateD
     const type = typeof field.type === "string" ? field.type : undefined;
     const id = typeof field.id === "string" ? field.id : undefined;
 
+    // For dropdown fields, ensure there is a blank option at the top to allow users to leave it unchanged (for update) or to force them to make an active choice (for publish)
     if (type === "dropdown") {
       const attributes = field.attributes;
       if (attributes && Array.isArray(attributes.options) && attributes.options[0] !== "") {
@@ -267,16 +268,24 @@ function withTemplatePolicy(baseDoc: TemplateDoc, mode: TemplateMode): TemplateD
       }
     }
 
+    // For update template, remove placeholder and default value hints since they may no longer be accurate and could mislead users into thinking they need to fill in every field
     if (mode === "update" && type !== "markdown" && id !== "map-id" && field.attributes) {
       delete field.attributes.placeholder;
       delete field.attributes.value;
     }
 
+    // For update template, make all non-markdown fields optional since users only need to fill in the fields they want to change. The only required field is the map-id to identify which map to update.
     if (mode === "update" && type !== "markdown" && id !== "map-id") {
       const validations = field.validations;
       if (validations && typeof validations === "object" && "required" in validations) {
         validations.required = false;
       }
+    }
+
+    // Without this guard, selecting no special demand tags on update form would wipe all existing special demand tags since it is a zero-tolerant multiple choice checkbox
+    if (mode === "update" && id === "special_demand" && field.attributes) {
+      field.attributes.description =
+        "Select tags only if you want to replace current special demand tags. Leave all unchecked to keep current tags.";
     }
   }
 

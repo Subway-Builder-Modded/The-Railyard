@@ -156,6 +156,12 @@ test("update-map.yml keeps map-id/terms required and makes other fields optional
   const termsRequired = typeof firstOption === "string" ? undefined : firstOption?.required;
   assert.equal(termsRequired, true);
 
+  const specialDemand = getField(parsed.body, "special_demand");
+  assert.equal(
+    (specialDemand.attributes as { description?: string } | undefined)?.description,
+    "Select tags only if you want to replace current special demand tags. Leave all unchecked to keep current tags.",
+  );
+
   const updateFieldsWithoutInheritedHints = [
     "name",
     "city-code",
