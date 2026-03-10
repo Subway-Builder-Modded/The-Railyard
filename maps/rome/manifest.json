@@ -1,0 +1,29 @@
+{
+  "schema_version": 1,
+  "id": "rome",
+  "name": "Rome",
+  "author": "Maximilian284",
+  "github_id": 61289731,
+  "description": "```markdown\nCustom map of the Rome metropolitan area with fully realistic, procedurally generated demand data.\n```",
+  "tags": [
+    "europe",
+    "medium-detail",
+    "airports",
+    "hospitals",
+    "schools",
+    "universities"
+  ],
+  "gallery": [
+    "gallery/screenshot1.png",
+    "gallery/screenshot2.png",
+    "gallery/screenshot3.png"
+  ],
+  "source": "https://github.com/Maximilian284/subwaybuilder-it-maps",
+  "update": {
+    "type": "custom",
+    "url": "https://maximilian284.github.io/subwaybuilder-it-maps/ROM.json"
+  },
+  "city_code": "ROM",
+  "country": "IT",
+  "population": 3853000
+}
