@@ -1,0 +1,104 @@
+name: Regenerate Download Counts
+
+on:
+  schedule:
+    - cron: "0 * * * *"
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+concurrency:
+  group: regenerate-download-counts
+  cancel-in-progress: false
+
+jobs:
+  generate-maps:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: pnpm/action-setup@v4
+        with:
+          version: 10
+
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 22
+          cache: pnpm
+          cache-dependency-path: scripts/pnpm-lock.yaml
+
+      - name: Install script dependencies
+        run: pnpm install --frozen-lockfile
+        working-directory: scripts
+
+      - name: Generate map download counts
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          GH_DOWNLOADS_TOKEN: ${{ secrets.RAILYARD_GH_DOWNLOADS_TOKEN }}
+        run: pnpm --dir scripts run generate-downloads:maps
+
+      - name: Upload map downloads artifact
+        uses: actions/upload-artifact@v4
+        with:
+          name: maps-downloads
+          path: maps/downloads.json
+          if-no-files-found: error
+
+  generate-mods:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: pnpm/action-setup@v4
+        with:
+          version: 10
+
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 22
+          cache: pnpm
+          cache-dependency-path: scripts/pnpm-lock.yaml
+
+      - name: Install script dependencies
+        run: pnpm install --frozen-lockfile
+        working-directory: scripts
+
+      - name: Generate mod download counts
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          GH_DOWNLOADS_TOKEN: ${{ secrets.RAILYARD_GH_DOWNLOADS_TOKEN }}
+        run: pnpm --dir scripts run generate-downloads:mods
+
+      - name: Upload mod downloads artifact
+        uses: actions/upload-artifact@v4
+        with:
+          name: mods-downloads
+          path: mods/downloads.json
+          if-no-files-found: error
+
+  commit:
+    needs: [generate-maps, generate-mods]
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - name: Download map downloads artifact
+        uses: actions/download-artifact@v4
+        with:
+          name: maps-downloads
+          path: .
+
+      - name: Download mod downloads artifact
+        uses: actions/download-artifact@v4
+        with:
+          name: mods-downloads
+          path: .
+
+      - name: Commit changes
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "github-actions[bot]@users.noreply.github.com"
+          git add maps/downloads.json mods/downloads.json 2>/dev/null || true
+          git diff --cached --quiet || git commit -m "chore: regenerate download counts"
+          git push

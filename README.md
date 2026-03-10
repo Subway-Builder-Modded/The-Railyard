@@ -28,4 +28,20 @@ The Railyard stores metadata only - manifests, gallery images, and pointers to w
 - Verify templates are up to date:
   - `pnpm --dir scripts run check:map-templates`
 
+## Download Counts
+
+Hourly download count snapshots are generated into:
+
+- `maps/downloads.json`
+- `mods/downloads.json`
+
+Local commands:
+
+- Generate both:
+  - `pnpm --dir scripts run generate-downloads`
+- Generate maps only:
+  - `pnpm --dir scripts run generate-downloads:maps`
+- Generate mods only:
+  - `pnpm --dir scripts run generate-downloads:mods`
+
 For technical details, see [ARCHITECTURE.md](ARCHITECTURE.md).

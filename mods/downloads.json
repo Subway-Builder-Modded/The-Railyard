@@ -1,0 +1,25 @@
+{
+  "advanced-analytics": {
+    "v0.9.1": 1,
+    "v0.9.2": 8,
+    "v1.0.0": 236,
+    "v1.0.1": 80,
+    "v1.1.0": 133
+  },
+  "dan-trains": {},
+  "distance-circles": {
+    "railyard": 9
+  },
+  "subwaybuilder-regions": {
+    "v0.4.5": 64
+  },
+  "transit-overlay": {
+    "1.5.0": 50,
+    "v1.3": 37,
+    "v1.4": 44
+  },
+  "valdotoriums-trains": {
+    "v1.0": 12,
+    "v1.1": 10
+  }
+}
