@@ -49,7 +49,7 @@ const ISSUE_FORM_SCHEMA = {
   $defs: {
     optionItem: {
       anyOf: [
-        { type: "string", minLength: 1 },
+        { type: "string", minLength: 0 },
         {
           type: "object",
           required: ["label"],
@@ -138,6 +138,14 @@ type FieldOptions = {
   required?: boolean;
 };
 type CheckboxOption = string | { label: string; required?: boolean };
+type TemplateMode = "publish" | "update";
+type TemplateDoc = {
+  name: string;
+  description: string;
+  title: string;
+  labels: string[];
+  body: TemplateValue[];
+};
 
 function markdown(value: string): TemplateValue {
   return {
@@ -233,6 +241,42 @@ function mapIdField(description: string): TemplateValue {
     placeholder: "raleigh",
     required: true,
   });
+}
+
+function cloneTemplateDoc<T>(doc: T): T {
+  return JSON.parse(JSON.stringify(doc)) as T;
+}
+
+function withTemplatePolicy(baseDoc: TemplateDoc, mode: TemplateMode): TemplateDoc {
+  const doc = cloneTemplateDoc(baseDoc);
+
+  for (const item of doc.body) {
+    if (!item || typeof item !== "object") continue;
+    const field = item as {
+      type?: unknown;
+      id?: unknown;
+      attributes?: Record<string, unknown>;
+      validations?: Record<string, unknown>;
+    };
+    const type = typeof field.type === "string" ? field.type : undefined;
+    const id = typeof field.id === "string" ? field.id : undefined;
+
+    if (type === "dropdown") {
+      const attributes = field.attributes;
+      if (attributes && Array.isArray(attributes.options) && attributes.options[0] !== "") {
+        attributes.options = ["", ...attributes.options];
+      }
+    }
+
+    if (mode === "update" && type !== "markdown" && id !== "map-id") {
+      const validations = field.validations;
+      if (validations && typeof validations === "object" && "required" in validations) {
+        validations.required = false;
+      }
+    }
+  }
+
+  return doc;
 }
 
 const SHARED_FIELDS_AFTER_MAP_ID = [
@@ -382,7 +426,7 @@ const SHARED_FIELDS_AFTER_MAP_ID = [
   },
 ];
 
-const publishTemplateDoc = {
+const publishTemplateBaseDoc: TemplateDoc = {
   name: "Publish New Map",
   description: "Submit a new custom map to The Railyard registry.",
   title: "[Publish Map]: ",
@@ -402,7 +446,7 @@ const publishTemplateDoc = {
   ],
 };
 
-const updateTemplateDoc = {
+const updateTemplateBaseDoc: TemplateDoc = {
   name: "Update Existing Map Metadata",
   description: "Update metadata for a map you own in The Railyard registry.",
   title: "[Update Map]: ",
@@ -421,6 +465,9 @@ const updateTemplateDoc = {
     ...SHARED_FIELDS_AFTER_MAP_ID,
   ],
 };
+
+const publishTemplateDoc = withTemplatePolicy(publishTemplateBaseDoc, "publish");
+const updateTemplateDoc = withTemplatePolicy(updateTemplateBaseDoc, "update");
 
 function normalizeNewlines(content: string): string {
   return content.replace(/\r\n/g, "\n");
@@ -468,10 +515,10 @@ function getFieldId(item: unknown): string | undefined {
 }
 
 function verifySharedTail() {
-  const publishMapIdIndex = publishTemplateDoc.body.findIndex(
+  const publishMapIdIndex = publishTemplateBaseDoc.body.findIndex(
     (item) => getFieldId(item) === "map-id",
   );
-  const updateMapIdIndex = updateTemplateDoc.body.findIndex(
+  const updateMapIdIndex = updateTemplateBaseDoc.body.findIndex(
     (item) => getFieldId(item) === "map-id",
   );
 
@@ -479,8 +526,8 @@ function verifySharedTail() {
     throw new Error("Template bodies must include a `map-id` field.");
   }
 
-  const publishTail = JSON.stringify(publishTemplateDoc.body.slice(publishMapIdIndex + 1));
-  const updateTail = JSON.stringify(updateTemplateDoc.body.slice(updateMapIdIndex + 1));
+  const publishTail = JSON.stringify(publishTemplateBaseDoc.body.slice(publishMapIdIndex + 1));
+  const updateTail = JSON.stringify(updateTemplateBaseDoc.body.slice(updateMapIdIndex + 1));
   if (publishTail !== updateTail) {
     throw new Error("Template bodies after map-id must remain identical.");
   }

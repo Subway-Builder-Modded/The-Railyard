@@ -15,7 +15,7 @@ type IssueTemplateField = {
   id?: string;
   type: string;
   attributes?: {
-    options?: Array<{ label: string }> | string[];
+    options?: Array<{ label: string; required?: boolean }> | string[];
     value?: string;
     placeholder?: string;
   };
@@ -33,35 +33,52 @@ function getField(body: unknown[], id: string): IssueTemplateField {
   return field as IssueTemplateField;
 }
 
-test("update-map.yml enforces expected map metadata fields/options", () => {
+function parseTemplate(templateName: "publish-map.yml" | "update-map.yml"): {
+  body: unknown[];
+} {
   const scriptsRoot = resolve(import.meta.dirname, "..", "..");
-  const updateTemplatePath = resolve(
+  const templatePath = resolve(
     scriptsRoot,
     "..",
     ".github",
     "ISSUE_TEMPLATE",
-    "update-map.yml",
+    templateName,
   );
-  const parsed = YAML.parse(readFileSync(updateTemplatePath, "utf-8")) as {
+  return YAML.parse(readFileSync(templatePath, "utf-8")) as {
     body: unknown[];
   };
+}
+
+function getDropdownOptions(field: IssueTemplateField): string[] {
+  const options = field.attributes?.options;
+  assert.ok(Array.isArray(options), `Expected options array for '${field.id}'`);
+  return options.map((entry) => (typeof entry === "string" ? entry : entry.label));
+}
+
+test("publish-map.yml enforces required publish fields with blank dropdown defaults", () => {
+  const parsed = parseTemplate("publish-map.yml");
 
   assert.ok(Array.isArray(parsed.body), "Template body should be an array");
 
   const sourceQuality = getField(parsed.body, "source_quality");
   assert.equal(sourceQuality.type, "dropdown");
-  assert.deepEqual(sourceQuality.attributes?.options, SOURCE_QUALITY_VALUES);
+  assert.deepEqual(getDropdownOptions(sourceQuality), ["", ...SOURCE_QUALITY_VALUES]);
   assert.equal(sourceQuality.validations?.required, true);
 
   const levelOfDetail = getField(parsed.body, "level_of_detail");
   assert.equal(levelOfDetail.type, "dropdown");
-  assert.deepEqual(levelOfDetail.attributes?.options, LEVEL_OF_DETAIL_VALUES);
+  assert.deepEqual(getDropdownOptions(levelOfDetail), ["", ...LEVEL_OF_DETAIL_VALUES]);
   assert.equal(levelOfDetail.validations?.required, true);
 
   const location = getField(parsed.body, "location");
   assert.equal(location.type, "dropdown");
-  assert.deepEqual(location.attributes?.options, LOCATION_TAGS);
+  assert.deepEqual(getDropdownOptions(location), ["", ...LOCATION_TAGS]);
   assert.equal(location.validations?.required, true);
+
+  const updateType = getField(parsed.body, "update-type");
+  assert.equal(updateType.type, "dropdown");
+  assert.deepEqual(getDropdownOptions(updateType), ["", "GitHub Releases", "Custom URL"]);
+  assert.equal(updateType.validations?.required, true);
 
   const specialDemand = getField(parsed.body, "special_demand");
   assert.equal(specialDemand.type, "checkboxes");
@@ -85,4 +102,57 @@ test("update-map.yml enforces expected map metadata fields/options", () => {
       && methodology.attributes.placeholder.length > 0,
     "Methodology field should provide a non-empty placeholder",
   );
+
+  const publishMapId = getField(parsed.body, "map-id");
+  assert.equal(publishMapId.validations?.required, true);
+});
+
+test("update-map.yml keeps map-id/terms required and makes other fields optional", () => {
+  const parsed = parseTemplate("update-map.yml");
+
+  assert.ok(Array.isArray(parsed.body), "Template body should be an array");
+
+  const mapId = getField(parsed.body, "map-id");
+  assert.equal(mapId.validations?.required, true);
+
+  const optionalUpdateFields = [
+    "name",
+    "city-code",
+    "country",
+    "population",
+    "description",
+    "source_quality",
+    "level_of_detail",
+    "methodology",
+    "location",
+    "gallery",
+    "source",
+    "update-type",
+  ];
+  for (const id of optionalUpdateFields) {
+    const field = getField(parsed.body, id);
+    assert.equal(
+      field.validations?.required,
+      false,
+      `Expected '${id}' to be optional in update-map.yml`,
+    );
+  }
+
+  const sourceQuality = getField(parsed.body, "source_quality");
+  assert.deepEqual(getDropdownOptions(sourceQuality), ["", ...SOURCE_QUALITY_VALUES]);
+
+  const levelOfDetail = getField(parsed.body, "level_of_detail");
+  assert.deepEqual(getDropdownOptions(levelOfDetail), ["", ...LEVEL_OF_DETAIL_VALUES]);
+
+  const location = getField(parsed.body, "location");
+  assert.deepEqual(getDropdownOptions(location), ["", ...LOCATION_TAGS]);
+
+  const updateType = getField(parsed.body, "update-type");
+  assert.deepEqual(getDropdownOptions(updateType), ["", "GitHub Releases", "Custom URL"]);
+
+  const terms = getField(parsed.body, "terms");
+  assert.equal(terms.type, "checkboxes");
+  const firstOption = terms.attributes?.options?.[0];
+  const termsRequired = typeof firstOption === "string" ? undefined : firstOption?.required;
+  assert.equal(termsRequired, true);
 });

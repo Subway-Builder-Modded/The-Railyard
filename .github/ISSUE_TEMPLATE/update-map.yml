@@ -43,7 +43,7 @@
         that people will see when downloading it."
       "placeholder": "Raleigh"
     "validations":
-      "required": true
+      "required": false
   - "type": "input"
     "id": "city-code"
     "attributes":
@@ -53,7 +53,7 @@
         registered maps. Check existing maps before choosing a code."
       "placeholder": "RDU"
     "validations":
-      "required": true
+      "required": false
   - "type": "input"
     "id": "country"
     "attributes":
@@ -64,7 +64,7 @@
         https://en.wikipedia.org/wiki/List_of_ISO_3166_country_codes."
       "placeholder": "US"
     "validations":
-      "required": true
+      "required": false
   - "type": "input"
     "id": "population"
     "attributes":
@@ -73,7 +73,7 @@
         separators. Used for display and sorting in Railyard and does not need to be exact."
       "placeholder": "1500000"
     "validations":
-      "required": true
+      "required": false
   - "type": "textarea"
     "id": "description"
     "attributes":
@@ -83,7 +83,7 @@
       "render": "markdown"
       "placeholder": "Custom map of the Raleigh-Durham metropolitan area with good demand data quality."
     "validations":
-      "required": true
+      "required": false
   - "type": "markdown"
     "attributes":
       "value": "<br>"
@@ -114,11 +114,12 @@
         low-quality. If your data source includes OSM, we will not consider that
         high-quality data."
       "options":
+        - ""
         - "low-quality"
         - "medium-quality"
         - "high-quality"
     "validations":
-      "required": true
+      "required": false
   - "type": "dropdown"
     "id": "level_of_detail"
     "attributes":
@@ -127,11 +128,12 @@
         census blocks is considered high-detail, while neighborhood/city resolutions are
         considered low-detail."
       "options":
+        - ""
         - "low-detail"
         - "medium-detail"
         - "high-detail"
     "validations":
-      "required": true
+      "required": false
   - "type": "input"
     "id": "methodology"
     "attributes":
@@ -141,7 +143,7 @@
         real-world data."
       "placeholder": "Transcribed raw OSM data"
     "validations":
-      "required": true
+      "required": false
   - "type": "markdown"
     "attributes":
       "value": "<br>"
@@ -160,6 +162,7 @@
       "description": "Select all tags that apply to your map. These help users find your map in
         the browser."
       "options":
+        - ""
         - "caribbean"
         - "central-america"
         - "central-asia"
@@ -176,7 +179,7 @@
         - "southern-africa"
         - "west-africa"
     "validations":
-      "required": true
+      "required": false
   - "type": "markdown"
     "attributes":
       "value": "<br>"
@@ -223,7 +226,7 @@
       "description": "Drag and drop screenshots here, or paste image URLs (one per line). These
         will be displayed in the map browser. At least one image is required."
     "validations":
-      "required": true
+      "required": false
   - "type": "markdown"
     "attributes":
       "value": "<br>"
@@ -241,7 +244,7 @@
       "description": "URL to your map's source code repository or download page."
       "placeholder": "https://github.com/username/sb-raleigh"
     "validations":
-      "required": true
+      "required": false
   - "type": "dropdown"
     "id": "update-type"
     "attributes":
@@ -249,10 +252,11 @@
       "description": "The method used by Railyard to fetch updates for your map. Most maps should
         use GitHub Releases. Use Custom URL only if you host your own update.json file."
       "options":
+        - ""
         - "GitHub Releases"
         - "Custom URL"
     "validations":
-      "required": true
+      "required": false
   - "type": "input"
     "id": "github-repo"
     "attributes":

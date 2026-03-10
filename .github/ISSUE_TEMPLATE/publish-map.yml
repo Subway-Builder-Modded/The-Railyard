@@ -117,6 +117,7 @@
         low-quality. If your data source includes OSM, we will not consider that
         high-quality data."
       "options":
+        - ""
         - "low-quality"
         - "medium-quality"
         - "high-quality"
@@ -130,6 +131,7 @@
         census blocks is considered high-detail, while neighborhood/city resolutions are
         considered low-detail."
       "options":
+        - ""
         - "low-detail"
         - "medium-detail"
         - "high-detail"
@@ -163,6 +165,7 @@
       "description": "Select all tags that apply to your map. These help users find your map in
         the browser."
       "options":
+        - ""
         - "caribbean"
         - "central-america"
         - "central-asia"
@@ -252,6 +255,7 @@
       "description": "The method used by Railyard to fetch updates for your map. Most maps should
         use GitHub Releases. Use Custom URL only if you host your own update.json file."
       "options":
+        - ""
         - "GitHub Releases"
         - "Custom URL"
     "validations":
