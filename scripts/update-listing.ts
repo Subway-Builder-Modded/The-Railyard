@@ -7,7 +7,6 @@ import {
 } from "./lib/gallery.js";
 
 const REPO_ROOT = resolve(import.meta.dirname, "..");
-const DETAIL_TAGS = new Set(["high-detail", "medium-detail", "low-detail"]);
 
 function parseCheckedBoxes(raw: string | undefined): string[] | null {
   if (!raw) return null;
@@ -22,11 +21,6 @@ function parseCheckedBoxes(raw: string | undefined): string[] | null {
 
 function isPresent(value: string | undefined): value is string {
   return !!value && value !== "_No response_" && value !== "None" && value !== "No change";
-}
-
-function getDetailTag(tags: unknown): string | undefined {
-  if (!Array.isArray(tags)) return undefined;
-  return tags.find((tag) => DETAIL_TAGS.has(tag));
 }
 
 function isOsmDataSource(value: string): boolean {
@@ -76,26 +70,20 @@ async function main() {
 
   // Map-specific fields
   if (type === "map") {
-    const detailFromCurrentTags = getDetailTag(manifest.tags);
     if (isPresent(data["city-code"])) manifest.city_code = data["city-code"];
     if (isPresent(data.country)) manifest.country = data.country;
     if (isPresent(data.population)) manifest.population = parseInt(data.population, 10);
-    if (Array.isArray(manifest.tags)) {
-      manifest.tags = manifest.tags.filter((tag: string) => !DETAIL_TAGS.has(tag));
-    }
-
-    const detailFromTags = getDetailTag(newTags) ?? detailFromCurrentTags;
 
     if (isPresent(data.level_of_detail)) {
       manifest.level_of_detail = data.level_of_detail;
-    } else if (!isPresent(manifest.level_of_detail) && detailFromTags) {
-      manifest.level_of_detail = detailFromTags;
+    } else if (!isPresent(manifest.level_of_detail)) {
+      manifest.level_of_detail = "low-detail";
     }
 
     if (isPresent(data.source_quality)) {
       manifest.source_quality = data.source_quality;
-    } else if (!isPresent(manifest.source_quality) && detailFromTags) {
-      manifest.source_quality = detailFromTags.replace("-detail", "-quality");
+    } else if (!isPresent(manifest.source_quality)) {
+      manifest.source_quality = "low-quality";
     }
 
     if (isPresent(data.data_source)) {

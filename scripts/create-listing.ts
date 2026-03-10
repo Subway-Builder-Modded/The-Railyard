@@ -89,15 +89,8 @@ async function main() {
   const galleryPaths = await downloadGalleryImages(resolvedUrls, galleryDir);
 
   const tags = parseTags(data.tags);
-  const detailTag = tags.find((tag) =>
-    tag === "high-detail" || tag === "medium-detail" || tag === "low-detail"
-  );
-  const normalizedTags = type === "map"
-    ? tags.filter((tag) => tag !== "high-detail" && tag !== "medium-detail" && tag !== "low-detail")
-    : tags;
-  const levelOfDetail = getIssueValue(data.level_of_detail) ?? detailTag ?? "low-detail";
-  const sourceQualityRaw = getIssueValue(data.source_quality) ??
-    (detailTag ? detailTag.replace("-detail", "-quality") : "low-quality");
+  const levelOfDetail = getIssueValue(data.level_of_detail) ?? "low-detail";
+  const sourceQualityRaw = getIssueValue(data.source_quality) ?? "low-quality";
   const dataSource = getIssueValue(data.data_source) ?? "OSM";
   const sourceQuality =
     /osm/i.test(dataSource) && sourceQualityRaw === "high-quality"
@@ -111,7 +104,7 @@ async function main() {
     author: issueAuthorLogin,
     github_id: parseInt(issueAuthorId, 10),
     description: data.description,
-    tags: normalizedTags,
+    tags,
     gallery: galleryPaths,
     source: data.source,
     update: buildUpdate(data),
