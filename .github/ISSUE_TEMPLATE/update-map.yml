@@ -269,10 +269,14 @@
         update.json file. The file must follow the Railyard update.json schema. Leave blank
         if using GitHub Releases."
       "placeholder": "https://example.com/sb-raleigh/update.json"
+  - "type": "markdown"
+    "attributes":
+      "value": "\n\n## Authorization."
   - "type": "checkboxes"
     "id": "terms"
     "attributes":
       "label": "Terms"
       "options":
-        - "label": "I confirm I am the author or have permission to publish this map."
+        - "label": "I attest that I am the author or this map or have been granted permission by the
+            author to publish this map to Railyard."
           "required": true
