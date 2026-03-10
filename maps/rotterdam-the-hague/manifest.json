@@ -1,0 +1,24 @@
+{
+  "schema_version": 1,
+  "id": "rotterdam-the-hague",
+  "name": "Rotterdam-The Hague",
+  "author": "ryandicicco",
+  "github_id": 215120742,
+  "description": "```markdown\nOriginal map by Lawrencelot. Covers the Rotterdam-The Hague metro corridor in the Netherlands' Randstad region — the port city and the seat of government, connected by rail. Includes Rotterdam Centrum, The Hague, Delft, Schiedam, Vlaardingen, and Rotterdam The Hague Airport (RTM).\n```",
+  "tags": [
+    "europe",
+    "medium-detail",
+    "airports"
+  ],
+  "gallery": [
+    "gallery/screenshot1.png"
+  ],
+  "source": "https://github.com/ryandicicco/Subway-Builder-Maps",
+  "update": {
+    "type": "custom",
+    "url": "https://ryandicicco.github.io/Subway-Builder-Maps/RTM.json"
+  },
+  "city_code": "RTM",
+  "country": "NL",
+  "population": 1500000
+}
