@@ -24,8 +24,8 @@
   "country": "IE",
   "population": 1170000,
   "level_of_detail": "high-detail",
-  "source_quality": "low-quality",
-  "data_source": "OSM",
+  "source_quality": "high-quality",
+  "data_source": "Ireland Central Statistics Office",
   "location": "europe",
   "special_demand": [
     "airports",

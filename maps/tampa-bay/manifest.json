@@ -22,7 +22,7 @@
   "city_code": "TPA",
   "country": "US",
   "population": 1041220,
-  "level_of_detail": "high-detail",
+  "level_of_detail": "low-detail",
   "source_quality": "low-quality",
   "data_source": "OSM",
   "location": "north-america",

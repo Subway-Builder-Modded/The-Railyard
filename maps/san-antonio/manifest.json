@@ -23,8 +23,8 @@
   "country": "US",
   "population": 946870,
   "level_of_detail": "high-detail",
-  "source_quality": "low-quality",
-  "data_source": "OSM",
+  "source_quality": "high-quality",
+  "data_source": "LODES",
   "location": "north-america",
   "special_demand": [
     "airports",

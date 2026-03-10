@@ -22,8 +22,8 @@
   "city_code": "JER",
   "country": "IL",
   "population": 1400000,
-  "level_of_detail": "high-detail",
-  "source_quality": "low-quality",
+  "level_of_detail": "medium-detail",
+  "source_quality": "medium-quality",
   "data_source": "OSM",
   "location": "middle-east",
   "special_demand": []

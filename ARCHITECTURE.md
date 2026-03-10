@@ -19,6 +19,7 @@ The-Railyard/
 |       |-- publish.yml
 |       |-- update-metadata.yml
 |       |-- regenerate-index.yml
+|       |-- regenerate-downloads.yml
 |       |-- close-invalid.yml
 |       `-- report.yml
 |-- scripts/
@@ -27,6 +28,7 @@ The-Railyard/
 |   |   |-- map-constants.ts
 |   |   |-- map-field-utils.ts
 |   |   |-- map-update-logic.ts
+|   |   |-- downloads.ts
 |   |   |-- registry-manifest.ts
 |   |   |-- mod-manifest.ts
 |   |   |-- gallery.ts
@@ -38,14 +40,17 @@ The-Railyard/
 |   |-- validate-update.ts
 |   |-- create-listing.ts
 |   |-- update-listing.ts
+|   |-- generate-downloads.ts
 |   `-- regenerate-indexes.ts
 |-- mods/
 |   |-- index.json
+|   |-- downloads.json
 |   `-- <mod-id>/
 |       |-- manifest.json
 |       `-- gallery/
 |-- maps/
 |   |-- index.json
+|   |-- downloads.json
 |   `-- <map-id>/
 |       |-- manifest.json
 |       `-- gallery/
@@ -61,6 +66,27 @@ The-Railyard/
 - `maps/index.json`
 
 Both are generated from existing listing directories after merges.
+
+### Download count snapshots
+
+- `mods/downloads.json`
+- `maps/downloads.json`
+
+Each file maps listing IDs to versioned cumulative download counts:
+
+```json
+{
+  "some-listing-id": {
+    "v1.0.0": 120,
+    "v1.1.0": 237
+  }
+}
+```
+
+Count policy:
+
+- zip assets only
+- for unresolved custom versions (non-GitHub URL, missing tag/asset), version is skipped and warning is emitted in workflow logs
 
 ### Mod manifest (`mods/<mod-id>/manifest.json`)
 
@@ -205,6 +231,12 @@ map-name.zip
 
 - `regenerate-indexes.ts` rebuilds `mods/index.json` and `maps/index.json`.
 
+### Scheduled analytics flow
+
+- `regenerate-downloads.yml` runs hourly and on manual dispatch.
+- It runs map and mod download generation in separate jobs and then commits updated `downloads.json` files if changed.
+- Uses GitHub GraphQL `ReleaseAsset.downloadCount` with `GITHUB_TOKEN` by default (`GH_DOWNLOADS_TOKEN` optional override).
+
 ## Script Responsibilities
 
 - `validate-publish.ts`: publish-time validation for maps/mods.
@@ -212,6 +244,7 @@ map-name.zip
 - `create-listing.ts`: creates new manifests and gallery files.
 - `update-listing.ts`: applies manifest metadata updates.
 - `regenerate-indexes.ts`: reindexes listings.
+- `generate-downloads.ts`: generates `maps/downloads.json` and `mods/downloads.json`.
 - `generate-map-templates.ts`: generates and verifies map issue templates.
 
 ## Testing

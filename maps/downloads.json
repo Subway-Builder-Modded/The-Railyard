@@ -1,0 +1,180 @@
+{
+  "amsterdam": {
+    "1.0.0": 35
+  },
+  "baltimore-dc-corridor": {
+    "1.1.0": 30
+  },
+  "bari": {
+    "1.1.0": 2
+  },
+  "bologna": {
+    "1.0.0": 1
+  },
+  "calgary": {
+    "1.0.1": 62,
+    "1.1.3": 57
+  },
+  "catania": {
+    "1.1.0": 0
+  },
+  "colorado-ski-country": {
+    "1.0.0": 13
+  },
+  "dublin": {
+    "v1.0.0": 71
+  },
+  "edmonton": {
+    "1.0.1": 50,
+    "1.1.3": 54
+  },
+  "florence": {
+    "1.0.0": 0
+  },
+  "genoa": {
+    "1.1.0": 0
+  },
+  "greater-baltimore": {
+    "1.1.0": 5
+  },
+  "jacksonville": {
+    "1.0.0": 12
+  },
+  "jerusalem": {
+    "v0.2.0": 1,
+    "v0.3.0": 5,
+    "v0.3.1": 18
+  },
+  "knoxville": {
+    "1.1.0": 3
+  },
+  "louisville": {
+    "1.0.0": 13
+  },
+  "memphis": {
+    "1.1.0": 3
+  },
+  "mfn-hong-kong": {
+    "0.3.0": 3,
+    "0.4.0": 59
+  },
+  "milan": {
+    "1.1.0": 1
+  },
+  "montreal": {
+    "1.0.1": 82,
+    "1.1.3": 128
+  },
+  "naples": {
+    "1.1.0": 0
+  },
+  "nashville": {
+    "2.0.0": 7
+  },
+  "orange-county": {
+    "1.0.3": 11
+  },
+  "orlando": {
+    "1.1.0": 7
+  },
+  "ottawa": {
+    "1.0.1": 55,
+    "1.1.3": 56
+  },
+  "palermo": {
+    "1.0.0": 0
+  },
+  "providence": {
+    "1.0.0": 7
+  },
+  "quebec-city": {
+    "1.0.1": 49,
+    "1.1.3": 46
+  },
+  "richmond": {
+    "1.1.0": 11
+  },
+  "rochester": {
+    "1.1.0": 7
+  },
+  "rome": {
+    "1.0.0": 11
+  },
+  "rotterdam-the-hague": {},
+  "sacramento": {
+    "1.0.0": 8
+  },
+  "san-antonio": {
+    "1.1.0": 8
+  },
+  "tampa-bay": {
+    "1.1.0": 9
+  },
+  "tel-aviv": {
+    "v1.2.0": 4,
+    "v1.3.0": 27,
+    "v2.0.0": 6
+  },
+  "toronto": {
+    "1.0.1": 124,
+    "1.1.3": 155
+  },
+  "turin": {
+    "1.0.0": 0
+  },
+  "vancouver": {
+    "1.0.1": 88,
+    "1.1.3": 81
+  },
+  "waterloo": {
+    "1.0.0": 2,
+    "1.0.1": 26
+  },
+  "winnipeg": {
+    "1.0.1": 50,
+    "1.1.3": 43
+  },
+  "yukina-fukuoka": {
+    "0.2.0": 28
+  },
+  "yukina-hiroshima-kure": {
+    "0.2.0": 22
+  },
+  "yukina-kagoshima-kirishima": {
+    "0.2.0": 13
+  },
+  "yukina-kitakyushu-shimonoseki": {
+    "0.2.0": 18
+  },
+  "yukina-kobe-akashi": {
+    "0.2.0": 19
+  },
+  "yukina-kochi": {
+    "0.2.0": 12
+  },
+  "yukina-kyoto": {
+    "0.2.0": 48
+  },
+  "yukina-matsuyama": {
+    "0.2.0": 15
+  },
+  "yukina-niigata": {
+    "0.2.0": 17
+  },
+  "yukina-okinawa": {
+    "0.2.0": 25
+  },
+  "yukina-sapporo-chitose": {
+    "0.2.0": 26
+  },
+  "yukina-sendai": {
+    "0.2.0": 17
+  },
+  "yukina-yamagata": {
+    "0.2.0": 13
+  },
+  "zurich": {
+    "v1.0.0": 26,
+    "v1.1.0": 65
+  }
+}

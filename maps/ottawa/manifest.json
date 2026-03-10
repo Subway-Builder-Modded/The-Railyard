@@ -20,8 +20,8 @@
   "country": "CA",
   "population": 1488307,
   "level_of_detail": "high-detail",
-  "source_quality": "low-quality",
-  "data_source": "OSM",
+  "source_quality": "medium-quality",
+  "data_source": "STATCAN",
   "location": "north-america",
   "special_demand": [
     "airports",
