@@ -24,9 +24,9 @@
   "city_code": "SMF",
   "country": "US",
   "population": 755810,
-  "level_of_detail": "low-detail",
-  "source_quality": "low-quality",
-  "data_source": "OSM",
+  "level_of_detail": "high-detail",
+  "source_quality": "high-quality",
+  "data_source": "LODES",
   "location": "north-america",
   "special_demand": [
     "airports",

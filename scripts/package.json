@@ -11,6 +11,7 @@
     "validate-update": "tsx validate-update.ts",
     "create-listing": "tsx create-listing.ts",
     "update-listing": "tsx update-listing.ts",
+    "format-manifests": "tsx format-manifests.ts",
     "regenerate-indexes": "tsx regenerate-indexes.ts",
     "generate-downloads": "pnpm run generate-downloads:maps && pnpm run generate-downloads:mods",
     "generate-downloads:maps": "tsx generate-downloads.ts --type map",

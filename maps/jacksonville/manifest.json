@@ -5,8 +5,15 @@
   "author": "rslurry",
   "github_id": 112521174,
   "description": "Uses 2023 LODES data. Coverage spans St. Augustine in the south, Fernandina Beach in the north, and Baldwin in the west.\nIncludes demand for JAX airport; FSCJ, UNF, SJR State, JU, Flagler, and EWU universities; the Jacksonville Public Library, EverBank Stadium, James Weldon Johnson Park, Vystar Arena, the Cummer Museum of Art, and the Jacksonville Zoo and Botanical Gardens.",
-  "tags": ["north-america", "airports", "entertainment", "universities"],
-  "gallery": ["gallery/screenshot1.png"],
+  "tags": [
+    "north-america",
+    "airports",
+    "entertainment",
+    "universities"
+  ],
+  "gallery": [
+    "gallery/screenshot1.png"
+  ],
   "source": "https://github.com/rslurry/subwaybuilder-maps",
   "update": {
     "type": "custom",
@@ -19,5 +26,9 @@
   "source_quality": "high-quality",
   "data_source": "LODES",
   "location": "north-america",
-  "special_demand": ["airports", "entertainment", "universities"]
+  "special_demand": [
+    "airports",
+    "entertainment",
+    "universities"
+  ]
 }

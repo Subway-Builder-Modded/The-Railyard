@@ -19,9 +19,9 @@
   "city_code": "YWG",
   "country": "CA",
   "population": 783099,
-  "level_of_detail": "low-detail",
-  "source_quality": "low-quality",
-  "data_source": "OSM",
+  "level_of_detail": "high-detail",
+  "source_quality": "medium-quality",
+  "data_source": "STATCAN",
   "location": "north-america",
   "special_demand": [
     "airports",
