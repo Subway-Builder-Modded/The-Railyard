@@ -1,0 +1,38 @@
+{
+  "schema_version": 1,
+  "id": "catania",
+  "name": "Catania",
+  "author": "Maximilian284",
+  "github_id": 61289731,
+  "description": "Custom map of the Catania metropolitan area with fully realistic, procedurally generated demand data.",
+  "tags": [
+    "europe",
+    "airports",
+    "hospitals",
+    "schools",
+    "universities"
+  ],
+  "gallery": [
+    "gallery/screenshot1.png",
+    "gallery/screenshot2.png",
+    "gallery/screenshot3.png"
+  ],
+  "source": "https://github.com/Maximilian284/subwaybuilder-it-maps",
+  "update": {
+    "type": "custom",
+    "url": "https://maximilian284.github.io/subwaybuilder-it-maps/CAT.json"
+  },
+  "city_code": "CAT",
+  "country": "IT",
+  "population": 1060361,
+  "data_source": "OSM",
+  "source_quality": "medium-quality",
+  "level_of_detail": "high-detail",
+  "location": "europe",
+  "special_demand": [
+    "airports",
+    "hospitals",
+    "schools",
+    "universities"
+  ]
+}
