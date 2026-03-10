@@ -95,7 +95,7 @@ body:
       value: "OSM"
     validations:
       required: false
-  - type: "input"
+  - type: "dropdown"
     id: "source_quality"
     attributes:
       label: "Source Quality"
@@ -103,10 +103,13 @@ body:
         Approximate quality of the data source used for your map. Official gov't sources are
         considered high-quality while raw open-source data is considered low-quality. If
         your data source is OSM, this must not be high-quality.
-      placeholder: "low-quality"
+      options:
+        - "low-quality"
+        - "medium-quality"
+        - "high-quality"
     validations:
       required: true
-  - type: "input"
+  - type: "dropdown"
     id: "level_of_detail"
     attributes:
       label: "Level of Detail"
@@ -114,7 +117,10 @@ body:
         Approximate level of detail of your map. Demand resolution at the level of census
         blocks is considered high-detail, while neighborhood/city resolutions are considered
         low-detail.
-      placeholder: "low-detail"
+      options:
+        - "low-detail"
+        - "medium-detail"
+        - "high-detail"
     validations:
       required: true
   - type: "checkboxes"

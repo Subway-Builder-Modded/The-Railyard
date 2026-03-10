@@ -57,10 +57,16 @@ function buildUpdate(data: Record<string, string>): ModManifest["update"] {
 function getIssueValue(value: unknown): string | undefined {
   if (typeof value !== "string") return undefined;
   const trimmed = value.trim();
-  if (!trimmed || trimmed === "_No response_" || trimmed === "None" || trimmed === "No change") {
-    return undefined;
-  }
+  if (!trimmed) return undefined;
   return trimmed;
+}
+
+function getRequiredIssueValue(fieldName: string, value: unknown): string {
+  const resolved = getIssueValue(value);
+  if (!resolved) {
+    throw new Error(`${fieldName} is required`);
+  }
+  return resolved;
 }
 
 async function main() {
@@ -89,13 +95,12 @@ async function main() {
   const galleryPaths = await downloadGalleryImages(resolvedUrls, galleryDir);
 
   const tags = parseTags(data.tags);
-  const levelOfDetail = getIssueValue(data.level_of_detail) ?? "low-detail";
-  const sourceQualityRaw = getIssueValue(data.source_quality) ?? "low-quality";
+  const levelOfDetail = getRequiredIssueValue("level_of_detail", data.level_of_detail);
+  let sourceQuality = getRequiredIssueValue("source_quality", data.source_quality);
   const dataSource = getIssueValue(data.data_source) ?? "OSM";
-  const sourceQuality =
-    /osm/i.test(dataSource) && sourceQualityRaw === "high-quality"
-      ? "medium-quality"
-      : sourceQualityRaw;
+  if (/osm/i.test(dataSource) && sourceQuality === "high-quality") {
+    sourceQuality = "medium-quality";
+  }
 
   const manifest: ModManifest | MapManifest = {
     schema_version: 1,

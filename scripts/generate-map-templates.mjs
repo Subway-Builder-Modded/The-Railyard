@@ -146,17 +146,19 @@ const SHARED_FIELDS_AFTER_MAP_ID = [
     "Enter the data source used to generate the demand data for your map. The source name should use common abbreviations like LODES/INSEE/ONS etc.",
     { placeholder: "LODES, etc.", value: "OSM", required: false }
   ),
-  input(
+  dropdown(
     "source_quality",
     "Source Quality",
     "Approximate quality of the data source used for your map. Official gov't sources are considered high-quality while raw open-source data is considered low-quality. If your data source is OSM, this must not be high-quality.",
-    { placeholder: "low-quality", required: true }
+    ["low-quality", "medium-quality", "high-quality"],
+    true
   ),
-  input(
+  dropdown(
     "level_of_detail",
     "Level of Detail",
     "Approximate level of detail of your map. Demand resolution at the level of census blocks is considered high-detail, while neighborhood/city resolutions are considered low-detail.",
-    { placeholder: "low-detail", required: true }
+    ["low-detail", "medium-detail", "high-detail"],
+    true
   ),
   checkboxes(
     "tags",

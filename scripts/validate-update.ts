@@ -4,6 +4,8 @@ import { validateCustomUpdateUrl } from "./lib/custom-url.js";
 import { validateGitHubRepo } from "./lib/github.js";
 
 const REPO_ROOT = resolve(import.meta.dirname, "..");
+const MAP_SOURCE_QUALITY_VALUES = new Set(["low-quality", "medium-quality", "high-quality"]);
+const MAP_LEVEL_OF_DETAIL_VALUES = new Set(["low-detail", "medium-detail", "high-detail"]);
 
 function isPresent(value: string | undefined): value is string {
   return !!value && value !== "_No response_" && value !== "None" && value !== "No change";
@@ -51,10 +53,21 @@ async function main() {
       if (type === "map") {
         const currentDataSource = String(existingManifest.data_source ?? "OSM");
         const currentSourceQuality = String(existingManifest.source_quality ?? "");
+        const currentLevelOfDetail = String(existingManifest.level_of_detail ?? "");
         const nextDataSource = isPresent(data.data_source) ? data.data_source : currentDataSource;
         const nextSourceQuality = isPresent(data.source_quality)
           ? data.source_quality
           : currentSourceQuality;
+        const nextLevelOfDetail = isPresent(data.level_of_detail)
+          ? data.level_of_detail
+          : currentLevelOfDetail;
+
+        if (!MAP_SOURCE_QUALITY_VALUES.has(nextSourceQuality)) {
+          errors.push("**source_quality**: Must be one of `low-quality`, `medium-quality`, `high-quality`.");
+        }
+        if (!MAP_LEVEL_OF_DETAIL_VALUES.has(nextLevelOfDetail)) {
+          errors.push("**level_of_detail**: Must be one of `low-detail`, `medium-detail`, `high-detail`.");
+        }
 
         if (isOsmDataSource(nextDataSource) && nextSourceQuality === "high-quality") {
           errors.push("**source_quality**: OSM-based data sources cannot be marked `high-quality`.");

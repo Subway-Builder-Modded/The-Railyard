@@ -30,12 +30,8 @@ const PublishMapInput = PublishModInput.omit({ "mod-id": true }).extend({
   country: z.string().length(2).regex(/^[A-Z]{2}$/, "Country must be a 2-letter ISO 3166-1 alpha-2 code"),
   population: z.string().regex(/^\d+$/, "Population must be a number"),
   data_source: z.string().optional(),
-  source_quality: z.string()
-    .min(1, "Source Quality is required")
-    .refine((value: string) => value !== "_No response_", "Source Quality is required"),
-  level_of_detail: z.string()
-    .min(1, "Level of Detail is required")
-    .refine((value: string) => value !== "_No response_", "Level of Detail is required"),
+  source_quality: z.enum(["low-quality", "medium-quality", "high-quality"]),
+  level_of_detail: z.enum(["low-detail", "medium-detail", "high-detail"]),
 });
 
 interface ValidationResult {
