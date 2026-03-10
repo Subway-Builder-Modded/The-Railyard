@@ -1,0 +1,38 @@
+{
+  "schema_version": 1,
+  "id": "milan",
+  "name": "Milan",
+  "author": "Maximilian284",
+  "github_id": 61289731,
+  "description": "Custom map of the Milan metropolitan area including Como, Varese and Lecco with fully realistic, procedurally generated demand data.",
+  "tags": [
+    "europe",
+    "airports",
+    "hospitals",
+    "schools",
+    "universities"
+  ],
+  "gallery": [
+    "gallery/screenshot1.png",
+    "gallery/screenshot2.png",
+    "gallery/screenshot3.png"
+  ],
+  "source": "https://github.com/Maximilian284/subwaybuilder-it-maps",
+  "update": {
+    "type": "custom",
+    "url": "https://maximilian284.github.io/subwaybuilder-it-maps/MIL.json"
+  },
+  "city_code": "MIL",
+  "country": "IT",
+  "population": 5354395,
+  "data_source": "OSM",
+  "source_quality": "medium-quality",
+  "level_of_detail": "high-detail",
+  "location": "europe",
+  "special_demand": [
+    "airports",
+    "hospitals",
+    "schools",
+    "universities"
+  ]
+}
