@@ -1,0 +1,38 @@
+{
+  "schema_version": 1,
+  "id": "palermo",
+  "name": "Palermo",
+  "author": "Maximilian284",
+  "github_id": 61289731,
+  "description": "Custom map of Palermo metropolitan area with fully realistic, procedurally generated demand data.",
+  "tags": [
+    "europe",
+    "airports",
+    "hospitals",
+    "schools",
+    "universities"
+  ],
+  "gallery": [
+    "gallery/screenshot1.png",
+    "gallery/screenshot2.png",
+    "gallery/screenshot3.png"
+  ],
+  "source": "https://github.com/Maximilian284/subwaybuilder-it-maps",
+  "update": {
+    "type": "custom",
+    "url": "https://maximilian284.github.io/subwaybuilder-it-maps/PAL.json"
+  },
+  "city_code": "PAL",
+  "country": "IT",
+  "population": 1133830,
+  "data_source": "OSM",
+  "source_quality": "medium-quality",
+  "level_of_detail": "high-detail",
+  "location": "europe",
+  "special_demand": [
+    "airports",
+    "hospitals",
+    "schools",
+    "universities"
+  ]
+}
