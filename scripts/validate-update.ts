@@ -2,17 +2,31 @@ import { existsSync, readFileSync, writeFileSync } from "node:fs";
 import { resolve } from "node:path";
 import { validateCustomUpdateUrl } from "./lib/custom-url.js";
 import { validateGitHubRepo } from "./lib/github.js";
+import {
+  DEFAULT_MAP_DATA_SOURCE,
+  LEVEL_OF_DETAIL_SET,
+  LOCATION_TAG_SET,
+  SOURCE_QUALITY_SET,
+  SPECIAL_DEMAND_TAG_SET,
+  isOsmDataSource,
+} from "./lib/map-constants.js";
 
 const REPO_ROOT = resolve(import.meta.dirname, "..");
-const MAP_SOURCE_QUALITY_VALUES = new Set(["low-quality", "medium-quality", "high-quality"]);
-const MAP_LEVEL_OF_DETAIL_VALUES = new Set(["low-detail", "medium-detail", "high-detail"]);
 
 function isPresent(value: string | undefined): value is string {
   return !!value && value !== "_No response_" && value !== "None" && value !== "No change";
 }
 
-function isOsmDataSource(value: string): boolean {
-  return /osm/i.test(value);
+function parseCheckedBoxes(raw: unknown): string[] {
+  if (Array.isArray(raw)) {
+    return raw.map((tag) => String(tag).trim()).filter(Boolean);
+  }
+  if (typeof raw !== "string" || !raw || raw === "_No response_") return [];
+  return raw
+    .split("\n")
+    .filter((line) => line.startsWith("- [X]") || line.startsWith("- [x]"))
+    .map((line) => line.replace(/^- \[[Xx]\]\s*/, "").trim())
+    .filter(Boolean);
 }
 
 async function main() {
@@ -39,8 +53,9 @@ async function main() {
     if (!existsSync(manifestPath)) {
       errors.push(`**${type}-id**: No ${type} with ID \`${id}\` exists in the registry.`);
     } else {
-      existingManifest = JSON.parse(readFileSync(manifestPath, "utf-8"));
-      const ownerId = String(existingManifest.github_id);
+      const manifest = JSON.parse(readFileSync(manifestPath, "utf-8")) as Record<string, unknown>;
+      existingManifest = manifest;
+      const ownerId = String(manifest.github_id);
       const authorId = String(issueAuthorId);
 
       if (ownerId !== authorId) {
@@ -51,9 +66,13 @@ async function main() {
       }
 
       if (type === "map") {
-        const currentDataSource = String(existingManifest.data_source ?? "OSM");
-        const currentSourceQuality = String(existingManifest.source_quality ?? "");
-        const currentLevelOfDetail = String(existingManifest.level_of_detail ?? "");
+        const currentDataSource = String(manifest.data_source ?? DEFAULT_MAP_DATA_SOURCE);
+        const currentSourceQuality = String(manifest.source_quality ?? "");
+        const currentLevelOfDetail = String(manifest.level_of_detail ?? "");
+        const currentLocation = String(manifest.location ?? "");
+        const currentSpecialDemand = Array.isArray(manifest.special_demand)
+          ? manifest.special_demand.filter((tag): tag is string => typeof tag === "string")
+          : [];
         const nextDataSource = isPresent(data.data_source) ? data.data_source : currentDataSource;
         const nextSourceQuality = isPresent(data.source_quality)
           ? data.source_quality
@@ -61,12 +80,24 @@ async function main() {
         const nextLevelOfDetail = isPresent(data.level_of_detail)
           ? data.level_of_detail
           : currentLevelOfDetail;
+        const nextLocation = isPresent(data.location) ? data.location : currentLocation;
+        const nextSpecialDemand =
+          data.special_demand !== undefined && data.special_demand !== "_No response_" && data.special_demand !== "None"
+            ? parseCheckedBoxes(data.special_demand)
+            : currentSpecialDemand;
 
-        if (!MAP_SOURCE_QUALITY_VALUES.has(nextSourceQuality)) {
+        if (!SOURCE_QUALITY_SET.has(nextSourceQuality)) {
           errors.push("**source_quality**: Must be one of `low-quality`, `medium-quality`, `high-quality`.");
         }
-        if (!MAP_LEVEL_OF_DETAIL_VALUES.has(nextLevelOfDetail)) {
+        if (!LEVEL_OF_DETAIL_SET.has(nextLevelOfDetail)) {
           errors.push("**level_of_detail**: Must be one of `low-detail`, `medium-detail`, `high-detail`.");
+        }
+        if (!LOCATION_TAG_SET.has(nextLocation)) {
+          errors.push("**location**: Must be one of the supported location tags.");
+        }
+        const invalidSpecialDemand = nextSpecialDemand.filter((tag) => !SPECIAL_DEMAND_TAG_SET.has(tag));
+        if (invalidSpecialDemand.length > 0) {
+          errors.push(`**special_demand**: Invalid tag(s): ${invalidSpecialDemand.join(", ")}`);
         }
 
         if (isOsmDataSource(nextDataSource) && nextSourceQuality === "high-quality") {
@@ -140,3 +171,4 @@ async function main() {
 }
 
 main();
+

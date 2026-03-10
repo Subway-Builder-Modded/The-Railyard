@@ -26,5 +26,11 @@
   "population": 2147370,
   "level_of_detail": "high-detail",
   "source_quality": "high-quality",
-  "data_source": "Switzerland Federal Statistical Office Datasets"
+  "data_source": "Switzerland Federal Statistical Office Datasets",
+  "location": "europe",
+  "special_demand": [
+    "airports",
+    "highways",
+    "universities"
+  ]
 }

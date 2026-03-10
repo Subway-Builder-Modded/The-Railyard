@@ -4,15 +4,23 @@
   "type": "module",
   "packageManager": "pnpm@10.19.0",
   "scripts": {
+    "test": "pnpm run test:build && pnpm run test:run",
+    "test:build": "tsc -p tsconfig.test.json",
+    "test:run": "node --test .test-dist/tests",
     "validate-publish": "tsx validate-publish.ts",
     "validate-update": "tsx validate-update.ts",
     "create-listing": "tsx create-listing.ts",
     "update-listing": "tsx update-listing.ts",
     "regenerate-indexes": "tsx regenerate-indexes.ts",
-    "generate:map-templates": "node generate-map-templates.mjs",
-    "check:map-templates": "node generate-map-templates.mjs --check"
+    "generate-map-templates": "tsx generate-map-templates.ts",
+    "check-map-templates": "tsx generate-map-templates.ts --check",
+    "generate:map-templates": "tsx generate-map-templates.ts",
+    "check:map-templates": "tsx generate-map-templates.ts --check"
   },
   "dependencies": {
+    "ajv": "^8.17.1",
+    "ajv-formats": "^3.0.1",
+    "yaml": "^2.8.1",
     "zod": "^3.24.0"
   },
   "devDependencies": {

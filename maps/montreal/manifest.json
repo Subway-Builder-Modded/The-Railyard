@@ -22,5 +22,11 @@
   "population": 4291732,
   "level_of_detail": "high-detail",
   "source_quality": "low-quality",
-  "data_source": "OSM"
+  "data_source": "OSM",
+  "location": "north-america",
+  "special_demand": [
+    "airports",
+    "highways",
+    "universities"
+  ]
 }

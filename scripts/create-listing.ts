@@ -5,6 +5,12 @@ import {
   resolveGalleryUrls,
   downloadGalleryImages,
 } from "./lib/gallery.js";
+import {
+  getMapDataSource,
+  getRequiredIssueValue,
+  normalizeSourceQualityForDataSource,
+} from "./lib/map-field-utils.js";
+import { assertValidRegistryManifest } from "./lib/registry-manifest.js";
 
 const REPO_ROOT = resolve(import.meta.dirname, "..");
 
@@ -28,6 +34,8 @@ interface MapManifest extends ModManifest {
   data_source: string;
   source_quality: string;
   level_of_detail: string;
+  location: string;
+  special_demand: string[];
 }
 
 function parseTags(raw: unknown): string[] {
@@ -54,19 +62,8 @@ function buildUpdate(data: Record<string, string>): ModManifest["update"] {
   return { type: "custom", url: data["custom-update-url"]! };
 }
 
-function getIssueValue(value: unknown): string | undefined {
-  if (typeof value !== "string") return undefined;
-  const trimmed = value.trim();
-  if (!trimmed) return undefined;
-  return trimmed;
-}
-
-function getRequiredIssueValue(fieldName: string, value: unknown): string {
-  const resolved = getIssueValue(value);
-  if (!resolved) {
-    throw new Error(`${fieldName} is required`);
-  }
-  return resolved;
+function combineMapTags(location: string, specialDemand: string[]): string[] {
+  return Array.from(new Set([location, ...specialDemand]));
 }
 
 async function main() {
@@ -94,12 +91,23 @@ async function main() {
   const resolvedUrls = await resolveGalleryUrls(imageUrls);
   const galleryPaths = await downloadGalleryImages(resolvedUrls, galleryDir);
 
-  const tags = parseTags(data.tags);
-  const levelOfDetail = getRequiredIssueValue("level_of_detail", data.level_of_detail);
-  let sourceQuality = getRequiredIssueValue("source_quality", data.source_quality);
-  const dataSource = getIssueValue(data.data_source) ?? "OSM";
-  if (/osm/i.test(dataSource) && sourceQuality === "high-quality") {
-    sourceQuality = "medium-quality";
+  const rawTags = parseTags(data.tags);
+  const levelOfDetail = type === "map"
+    ? getRequiredIssueValue("level_of_detail", data.level_of_detail)
+    : "";
+  let sourceQuality = type === "map"
+    ? getRequiredIssueValue("source_quality", data.source_quality)
+    : "";
+  const dataSource = type === "map"
+    ? getMapDataSource(data.data_source)
+    : "";
+  const location = type === "map" ? getRequiredIssueValue("location", data.location) : "";
+  const specialDemand = type === "map" ? parseTags(data.special_demand) : [];
+  const tags = type === "map"
+    ? combineMapTags(location, specialDemand)
+    : rawTags;
+  if (type === "map") {
+    sourceQuality = normalizeSourceQualityForDataSource(dataSource, sourceQuality);
   }
 
   const manifest: ModManifest | MapManifest = {
@@ -121,9 +129,16 @@ async function main() {
           data_source: dataSource,
           source_quality: sourceQuality,
           level_of_detail: levelOfDetail,
+          location,
+          special_demand: specialDemand,
         }
       : {}),
   };
+
+  assertValidRegistryManifest(
+    manifest,
+    `Generated ${dir}/${id}/manifest.json`,
+  );
 
   writeFileSync(
     resolve(listingDir, "manifest.json"),
@@ -134,3 +149,4 @@ async function main() {
 }
 
 main();
+

@@ -23,5 +23,10 @@
   "population": 2500000,
   "level_of_detail": "low-detail",
   "source_quality": "low-quality",
-  "data_source": "CBS/OSM"
+  "data_source": "CBS/OSM",
+  "location": "europe",
+  "special_demand": [
+    "airports",
+    "universities"
+  ]
 }

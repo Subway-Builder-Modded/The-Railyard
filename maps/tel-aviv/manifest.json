@@ -19,5 +19,7 @@
   "population": 4500000,
   "level_of_detail": "low-detail",
   "source_quality": "low-quality",
-  "data_source": "OSM"
+  "data_source": "OSM",
+  "location": "middle-east",
+  "special_demand": []
 }

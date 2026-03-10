@@ -26,5 +26,11 @@
   "population": 2543295,
   "level_of_detail": "high-detail",
   "source_quality": "high-quality",
-  "data_source": "統計局・令和２年国勢調査・令和3年経済センサス"
+  "data_source": "統計局・令和２年国勢調査・令和3年経済センサス",
+  "location": "east-asia",
+  "special_demand": [
+    "airports",
+    "universities",
+    "schools"
+  ]
 }

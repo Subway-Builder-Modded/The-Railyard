@@ -25,5 +25,11 @@
   "population": 1429155,
   "level_of_detail": "high-detail",
   "source_quality": "high-quality",
-  "data_source": "LODES"
+  "data_source": "LODES",
+  "location": "north-america",
+  "special_demand": [
+    "airports",
+    "entertainment",
+    "universities"
+  ]
 }

@@ -24,5 +24,11 @@
   "population": 4000000,
   "level_of_detail": "medium-detail",
   "source_quality": "medium-quality",
-  "data_source": "CENS"
+  "data_source": "CENS",
+  "location": "southeast-asia",
+  "special_demand": [
+    "airports",
+    "entertainment",
+    "universities"
+  ]
 }

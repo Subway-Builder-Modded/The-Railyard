@@ -25,5 +25,11 @@
   "population": 167071,
   "level_of_detail": "medium-detail",
   "source_quality": "low-quality",
-  "data_source": "OSM"
+  "data_source": "OSM",
+  "location": "north-america",
+  "special_demand": [
+    "airports",
+    "entertainment",
+    "universities"
+  ]
 }
