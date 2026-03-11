@@ -44,6 +44,29 @@ Local commands:
 - Generate mods only:
   - `pnpm --dir scripts run generate-downloads:mods`
 
+## Download History
+
+Daily combined download snapshots are cached under:
+
+- `history/snapshot_YYYY_MM_DD.json`
+
+Each snapshot includes:
+
+- `maps` and `mods` sections
+- embedded current `downloads` and `index` payloads
+- `total_downloads`
+- `net_downloads` versus the previous snapshot (or total on first snapshot)
+- `entries` count from the corresponding `index.json`
+
+Local command:
+
+- Generate/update today’s history snapshot:
+  - `pnpm --dir scripts run generate-download-history`
+
+Automation:
+
+- `cache-download-history.yml` runs daily (and on manual dispatch), commits `history/snapshot_YYYY_MM_DD.json`, and posts summary stats to Discord.
+
 ## Map Demand Stats
 
 Map manifests now support auto-derived demand metrics from map ZIPs:

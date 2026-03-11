@@ -20,6 +20,7 @@ The-Railyard/
 |       |-- update-metadata.yml
 |       |-- regenerate-index.yml
 |       |-- regenerate-downloads.yml
+|       |-- cache-download-history.yml
 |       |-- regenerate-map-demand-stats.yml
 |       |-- close-invalid.yml
 |       `-- report.yml
@@ -30,6 +31,7 @@ The-Railyard/
 |   |   |-- map-field-utils.ts
 |   |   |-- map-update-logic.ts
 |   |   |-- downloads.ts
+|   |   |-- download-history.ts
 |   |   |-- map-demand-stats.ts
 |   |   |-- release-resolution.ts
 |   |   |-- discord-webhook.ts
@@ -45,6 +47,7 @@ The-Railyard/
 |   |-- create-listing.ts
 |   |-- update-listing.ts
 |   |-- generate-downloads.ts
+|   |-- generate-download-history.ts
 |   |-- generate-map-demand-stats.ts
 |   |-- notify-discord.ts
 |   `-- regenerate-indexes.ts
@@ -61,6 +64,8 @@ The-Railyard/
 |   `-- <map-id>/
 |       |-- manifest.json
 |       `-- gallery/
+|-- history/
+|   `-- snapshot_YYYY_MM_DD.json
 |-- README.md
 `-- ARCHITECTURE.md
 ```
@@ -94,6 +99,18 @@ Count policy:
 
 - zip assets only
 - for unresolved custom versions (non-GitHub URL, missing tag/asset), version is skipped and warning is emitted in workflow logs
+
+### Download history snapshots
+
+- `history/snapshot_YYYY_MM_DD.json`
+
+Each daily snapshot includes:
+
+- `maps.downloads` and `mods.downloads`
+- `maps.index` and `mods.index`
+- `total_downloads` (sum of all version counts in `downloads`)
+- `net_downloads` (delta versus previous snapshot; falls back to total if first snapshot)
+- `entries` (cardinality of `index.json` listing array)
 
 ### Mod manifest (`mods/<mod-id>/manifest.json`)
 
@@ -249,6 +266,9 @@ map-name.zip
 - `regenerate-downloads.yml` runs hourly and on manual dispatch.
 - It runs map and mod download generation in separate jobs and then commits updated `downloads.json` files if changed.
 - Uses GitHub GraphQL `ReleaseAsset.downloadCount` with `GITHUB_TOKEN` by default (`GH_DOWNLOADS_TOKEN` optional override).
+- `cache-download-history.yml` runs daily and on manual dispatch.
+- It snapshots current `maps/downloads.json` + `mods/downloads.json` with indexes into `history/snapshot_YYYY_MM_DD.json`.
+- It computes `net_downloads` against the previous snapshot for trend and popularity analysis.
 - `regenerate-map-demand-stats.yml` runs every 8 hours and on manual dispatch.
 - It refreshes map demand-derived metadata in manifests and updates `maps/demand-stats-cache.json`.
 - Skips ZIP extraction when source fingerprints are unchanged:
@@ -265,6 +285,7 @@ map-name.zip
 - `update-listing.ts`: applies manifest metadata updates.
 - `regenerate-indexes.ts`: reindexes listings.
 - `generate-downloads.ts`: generates `maps/downloads.json` and `mods/downloads.json`.
+- `generate-download-history.ts`: caches daily combined download snapshots in `history/`.
 - `generate-map-demand-stats.ts`: updates map `population`/`residents_total`/`points_count`/`population_count`.
 - `generate-map-templates.ts`: generates and verifies map issue templates.
 - `notify-discord.ts`: shared Discord webhook notifier for workflow summaries.
