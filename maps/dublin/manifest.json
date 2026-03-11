@@ -22,7 +22,7 @@
   },
   "city_code": "DUB",
   "country": "IE",
-  "population": 1170000,
+  "population": 1380138,
   "level_of_detail": "high-detail",
   "source_quality": "high-quality",
   "data_source": "Ireland Central Statistics Office",
@@ -31,7 +31,7 @@
     "airports",
     "universities"
   ],
-  "residents_total": 1170000,
-  "points_count": 0,
-  "population_count": 0
+  "residents_total": 1380138,
+  "points_count": 3265,
+  "population_count": 3391
 }
