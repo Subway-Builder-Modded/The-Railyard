@@ -18,7 +18,7 @@
   },
   "city_code": "YWG",
   "country": "CA",
-  "population": 783099,
+  "population": 502477,
   "level_of_detail": "high-detail",
   "source_quality": "medium-quality",
   "data_source": "STATCAN",
@@ -26,5 +26,8 @@
   "special_demand": [
     "airports",
     "universities"
-  ]
+  ],
+  "residents_total": 502477,
+  "points_count": 2137,
+  "population_count": 4154
 }

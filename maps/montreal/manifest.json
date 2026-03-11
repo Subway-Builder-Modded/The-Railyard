@@ -18,7 +18,7 @@
   },
   "city_code": "YUL",
   "country": "CA",
-  "population": 4291732,
+  "population": 2523330,
   "level_of_detail": "high-detail",
   "source_quality": "medium-quality",
   "data_source": "STATCAN",
@@ -26,5 +26,8 @@
   "special_demand": [
     "airports",
     "universities"
-  ]
+  ],
+  "residents_total": 2523330,
+  "points_count": 8282,
+  "population_count": 21051
 }

@@ -24,7 +24,7 @@
   },
   "city_code": "TOR",
   "country": "IT",
-  "population": 1820406,
+  "population": 1431630,
   "data_source": "OSM",
   "source_quality": "medium-quality",
   "level_of_detail": "high-detail",
@@ -34,5 +34,8 @@
     "hospitals",
     "schools",
     "universities"
-  ]
+  ],
+  "residents_total": 1431630,
+  "points_count": 5885,
+  "population_count": 14127
 }

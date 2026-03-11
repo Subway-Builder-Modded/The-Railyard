@@ -24,7 +24,7 @@
   },
   "city_code": "PAL",
   "country": "IT",
-  "population": 1133830,
+  "population": 806252,
   "data_source": "OSM",
   "source_quality": "medium-quality",
   "level_of_detail": "high-detail",
@@ -34,5 +34,8 @@
     "hospitals",
     "schools",
     "universities"
-  ]
+  ],
+  "residents_total": 806252,
+  "points_count": 3264,
+  "population_count": 8946
 }

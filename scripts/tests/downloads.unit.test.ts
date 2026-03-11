@@ -54,8 +54,8 @@ test("aggregateZipDownloadCountsByTag includes zip totals and all asset lookup c
   const release = byTag.get("v1.0.0");
   assert.ok(release, "Expected v1.0.0 release data");
   assert.equal(release.zipTotal, 14);
-  assert.equal(release.assets.get("map.zip"), 11);
-  assert.equal(release.assets.get("manifest.json"), 50);
-  assert.equal(release.assets.get("extras.ZIP"), 3);
+  assert.equal(release.assets.get("map.zip")?.downloadCount, 11);
+  assert.equal(release.assets.get("manifest.json")?.downloadCount, 50);
+  assert.equal(release.assets.get("extras.ZIP")?.downloadCount, 3);
 });
 

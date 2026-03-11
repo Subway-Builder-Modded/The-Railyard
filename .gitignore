@@ -1,6 +1,7 @@
 tmp/**
 scripts/node_modules/**
 scripts/.test-dist/**
+scripts/dist/**
 .claude/**
 .pnpm-store/**
-validation-error.md
+scripts/validation-error.md

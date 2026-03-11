@@ -5,11 +5,7 @@
   "author": "Kronifer",
   "github_id": 44979306,
   "description": "Custom map of Dublin with high-resolution data pulled and processed from the 2022 Census.",
-  "tags": [
-    "europe",
-    "airports",
-    "universities"
-  ],
+  "tags": ["europe", "airports", "universities"],
   "gallery": [
     "gallery/screenshot1.png",
     "gallery/screenshot2.png",
@@ -27,8 +23,8 @@
   "source_quality": "high-quality",
   "data_source": "Ireland Central Statistics Office",
   "location": "europe",
-  "special_demand": [
-    "airports",
-    "universities"
-  ]
+  "special_demand": ["airports", "universities"],
+  "residents_total": 1170000,
+  "points_count": 0,
+  "population_count": 0
 }

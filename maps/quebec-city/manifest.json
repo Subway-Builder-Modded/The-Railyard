@@ -18,7 +18,7 @@
   },
   "city_code": "YQB",
   "country": "CA",
-  "population": 839311,
+  "population": 497019,
   "level_of_detail": "high-detail",
   "source_quality": "medium-quality",
   "data_source": "STATCAN",
@@ -26,5 +26,8 @@
   "special_demand": [
     "airports",
     "universities"
-  ]
+  ],
+  "residents_total": 497019,
+  "points_count": 2176,
+  "population_count": 4131
 }

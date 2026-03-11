@@ -17,6 +17,7 @@ import {
   resolveListingIdAndDir,
   resolveManifestType,
 } from "./lib/manifests.js";
+import { resolveAndExtractDemandStatsForMapSource } from "./lib/map-demand-stats.js";
 import { assertValidRegistryManifest } from "./lib/registry-manifest.js";
 
 const REPO_ROOT = resolve(import.meta.dirname, "..");
@@ -49,10 +50,10 @@ function combineMapTags(location: string, specialDemand: string[]): string[] {
   return Array.from(new Set([location, ...specialDemand]));
 }
 
-function buildMapManifestData(data: Record<string, unknown>): {
+async function buildMapManifestData(data: Record<string, unknown>): Promise<{
   tags: string[];
   mapFields: Omit<MapManifest, keyof ModManifest>;
-} {
+}> {
   const levelOfDetail = getRequiredIssueValue(
     "level_of_detail",
     data.level_of_detail,
@@ -64,13 +65,22 @@ function buildMapManifestData(data: Record<string, unknown>): {
     dataSource,
     getRequiredIssueValue("source_quality", data.source_quality),
   );
+  const update = buildUpdate(data);
+  const demandStats = await resolveAndExtractDemandStatsForMapSource(
+    String(data["map-id"]),
+    update,
+    { token: process.env.GH_DOWNLOADS_TOKEN ?? process.env.GITHUB_TOKEN },
+  );
 
   return {
     tags: combineMapTags(location, specialDemand),
     mapFields: {
       city_code: String(data["city-code"]),
       country: String(data.country),
-      population: parseInt(String(data.population), 10),
+      population: demandStats.residents_total,
+      residents_total: demandStats.residents_total,
+      points_count: demandStats.points_count,
+      population_count: demandStats.population_count,
       data_source: dataSource,
       source_quality: sourceQuality,
       level_of_detail: levelOfDetail,
@@ -112,7 +122,7 @@ async function main() {
   const galleryPaths = await downloadGalleryImages(resolvedUrls, galleryDir);
 
   const rawTags = parseTags(data.tags);
-  const mapData = manifestType === "map" ? buildMapManifestData(data) : undefined;
+  const mapData = manifestType === "map" ? await buildMapManifestData(data) : undefined;
   const tags = mapData ? mapData.tags : rawTags;
 
   const manifest: ModManifest | MapManifest = {

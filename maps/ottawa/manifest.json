@@ -18,7 +18,7 @@
   },
   "city_code": "YOW",
   "country": "CA",
-  "population": 1488307,
+  "population": 739120,
   "level_of_detail": "high-detail",
   "source_quality": "medium-quality",
   "data_source": "STATCAN",
@@ -26,5 +26,8 @@
   "special_demand": [
     "airports",
     "universities"
-  ]
+  ],
+  "residents_total": 739120,
+  "points_count": 3373,
+  "population_count": 6237
 }

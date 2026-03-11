@@ -23,7 +23,7 @@
   },
   "city_code": "KIJ",
   "country": "JP",
-  "population": 1060013,
+  "population": 639347,
   "level_of_detail": "high-detail",
   "source_quality": "high-quality",
   "data_source": "統計局・令和２年国勢調査・令和3年経済センサス",
@@ -32,5 +32,8 @@
     "airports",
     "universities",
     "schools"
-  ]
+  ],
+  "residents_total": 639347,
+  "points_count": 4451,
+  "population_count": 9888
 }

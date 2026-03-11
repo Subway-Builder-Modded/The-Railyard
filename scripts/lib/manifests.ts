@@ -22,6 +22,9 @@ export interface MapManifest extends ModManifest {
   city_code: string;
   country: string;
   population: number;
+  residents_total: number;
+  points_count: number;
+  population_count: number;
   data_source: string;
   source_quality: string;
   level_of_detail: string;

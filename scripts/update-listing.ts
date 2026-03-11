@@ -16,6 +16,7 @@ import {
   isPresentIssueValue,
 } from "./lib/map-field-utils.js";
 import { applyMapManifestUpdates } from "./lib/map-update-logic.js";
+import { resolveAndExtractDemandStatsForMapSource } from "./lib/map-demand-stats.js";
 import { assertValidRegistryManifest } from "./lib/registry-manifest.js";
 
 const REPO_ROOT = resolve(import.meta.dirname, "..");
@@ -106,6 +107,16 @@ async function main() {
 
   if (manifestType === "map") {
     applyMapManifestUpdates(manifest as MapManifest, data);
+    const mapManifest = manifest as MapManifest;
+    const demandStats = await resolveAndExtractDemandStatsForMapSource(
+      mapManifest.id,
+      mapManifest.update,
+      { token: process.env.GH_DOWNLOADS_TOKEN ?? process.env.GITHUB_TOKEN },
+    );
+    mapManifest.population = demandStats.residents_total;
+    mapManifest.residents_total = demandStats.residents_total;
+    mapManifest.points_count = demandStats.points_count;
+    mapManifest.population_count = demandStats.population_count;
   }
 
   // Gallery images — resolve URLs via GitHub API (same as create-listing)

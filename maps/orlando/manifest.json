@@ -21,7 +21,7 @@
   },
   "city_code": "MCO",
   "country": "US",
-  "population": 1178184,
+  "population": 1178384,
   "level_of_detail": "high-detail",
   "source_quality": "high-quality",
   "data_source": "LODES",
@@ -30,5 +30,8 @@
     "airports",
     "entertainment",
     "universities"
-  ]
+  ],
+  "residents_total": 1178384,
+  "points_count": 2356,
+  "population_count": 100400
 }

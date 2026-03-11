@@ -72,6 +72,7 @@ jobs:
         env:
           LISTING_TYPE: mod
           ISSUE_JSON: ${{ steps.parser.outputs.jsonString }}
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
         run: pnpm --dir scripts run update-listing
 
       - name: Commit and push changes
@@ -148,7 +149,7 @@ jobs:
             const fs = require('fs');
             let errorMsg;
             try {
-              errorMsg = fs.readFileSync('validation-error.md', 'utf-8');
+              errorMsg = fs.readFileSync('scripts/validation-error.md', 'utf-8');
             } catch {
               errorMsg = 'Something went wrong while processing your update request. Please check the [workflow logs](' +
                 `${context.serverUrl}/${context.repo.owner}/${context.repo.repo}/actions/runs/${context.runId}) for details.`;
@@ -228,6 +229,7 @@ jobs:
         env:
           LISTING_TYPE: map
           ISSUE_JSON: ${{ steps.parser.outputs.jsonString }}
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
         run: pnpm --dir scripts run update-listing
 
       - name: Commit and push changes
@@ -304,7 +306,7 @@ jobs:
             const fs = require('fs');
             let errorMsg;
             try {
-              errorMsg = fs.readFileSync('validation-error.md', 'utf-8');
+              errorMsg = fs.readFileSync('scripts/validation-error.md', 'utf-8');
             } catch {
               errorMsg = 'Something went wrong while processing your update request. Please check the [workflow logs](' +
                 `${context.serverUrl}/${context.repo.owner}/${context.repo.repo}/actions/runs/${context.runId}) for details.`;

@@ -61,14 +61,6 @@
         https://en.wikipedia.org/wiki/List_of_ISO_3166_country_codes."
     "validations":
       "required": false
-  - "type": "input"
-    "id": "population"
-    "attributes":
-      "label": "Population"
-      "description": "Approximate metropolitan area population. Number only, no commas or
-        separators. Used for display and sorting in Railyard and does not need to be exact."
-    "validations":
-      "required": false
   - "type": "textarea"
     "id": "description"
     "attributes":

@@ -24,7 +24,7 @@
   },
   "city_code": "MIL",
   "country": "IT",
-  "population": 5354395,
+  "population": 4410544,
   "data_source": "OSM",
   "source_quality": "medium-quality",
   "level_of_detail": "high-detail",
@@ -34,5 +34,8 @@
     "hospitals",
     "schools",
     "universities"
-  ]
+  ],
+  "residents_total": 4410544,
+  "points_count": 10146,
+  "population_count": 23484
 }

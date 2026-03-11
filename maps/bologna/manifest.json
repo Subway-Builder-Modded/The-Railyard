@@ -24,7 +24,7 @@
   },
   "city_code": "BOL",
   "country": "IT",
-  "population": 908358,
+  "population": 797568,
   "data_source": "OSM",
   "source_quality": "medium-quality",
   "level_of_detail": "high-detail",
@@ -34,5 +34,8 @@
     "hospitals",
     "schools",
     "universities"
-  ]
+  ],
+  "residents_total": 797568,
+  "points_count": 2714,
+  "population_count": 5584
 }

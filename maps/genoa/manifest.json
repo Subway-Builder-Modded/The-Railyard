@@ -24,7 +24,7 @@
   },
   "city_code": "GEN",
   "country": "IT",
-  "population": 912114,
+  "population": 727467,
   "data_source": "OSM",
   "source_quality": "medium-quality",
   "level_of_detail": "high-detail",
@@ -34,5 +34,8 @@
     "hospitals",
     "schools",
     "universities"
-  ]
+  ],
+  "residents_total": 727467,
+  "points_count": 1881,
+  "population_count": 6547
 }

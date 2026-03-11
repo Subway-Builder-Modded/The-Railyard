@@ -24,7 +24,7 @@
   },
   "city_code": "ROM",
   "country": "IT",
-  "population": 3853000,
+  "population": 3370218,
   "level_of_detail": "medium-detail",
   "source_quality": "medium-quality",
   "data_source": "OSM",
@@ -34,5 +34,8 @@
     "hospitals",
     "schools",
     "universities"
-  ]
+  ],
+  "residents_total": 3370218,
+  "points_count": 10725,
+  "population_count": 28808
 }

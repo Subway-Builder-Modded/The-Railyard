@@ -21,7 +21,7 @@
   },
   "city_code": "DCA",
   "country": "US",
-  "population": 2001562,
+  "population": 2001962,
   "level_of_detail": "high-detail",
   "source_quality": "high-quality",
   "data_source": "LODES",
@@ -30,5 +30,8 @@
     "airports",
     "entertainment",
     "universities"
-  ]
+  ],
+  "residents_total": 2001962,
+  "points_count": 5534,
+  "population_count": 145898
 }

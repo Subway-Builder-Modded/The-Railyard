@@ -142,7 +142,7 @@ async function main() {
       "\nIf you believe this is an error, please contact a maintainer.",
     ].join("\n");
 
-    writeFileSync(resolve(REPO_ROOT, "validation-error.md"), errorMessage);
+    writeFileSync(resolve(REPO_ROOT, "scripts", "validation-error.md"), errorMessage);
     console.error(errorMessage);
     process.exit(1);
   }

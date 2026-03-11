@@ -63,7 +63,6 @@ export function applyMapManifestUpdates(
 
   if (isPresentIssueValue(data["city-code"])) manifest.city_code = data["city-code"];
   if (isPresentIssueValue(data.country)) manifest.country = data.country;
-  if (isPresentIssueValue(data.population)) manifest.population = parseInt(data.population, 10);
 
   if (isPresentIssueValue(data.level_of_detail)) {
     manifest.level_of_detail = data.level_of_detail;

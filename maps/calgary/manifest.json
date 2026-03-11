@@ -18,7 +18,7 @@
   },
   "city_code": "YYC",
   "country": "CA",
-  "population": 1481806,
+  "population": 890139,
   "level_of_detail": "high-detail",
   "source_quality": "medium-quality",
   "data_source": "STATCAN",
@@ -26,5 +26,8 @@
   "special_demand": [
     "airports",
     "universities"
-  ]
+  ],
+  "residents_total": 890139,
+  "points_count": 3571,
+  "population_count": 7422
 }

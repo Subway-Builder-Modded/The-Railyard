@@ -21,7 +21,7 @@
   },
   "city_code": "HKG",
   "country": "HK",
-  "population": 4000000,
+  "population": 4038323,
   "level_of_detail": "medium-detail",
   "source_quality": "medium-quality",
   "data_source": "CENS",
@@ -30,5 +30,8 @@
     "airports",
     "entertainment",
     "universities"
-  ]
+  ],
+  "residents_total": 4038323,
+  "points_count": 1968,
+  "population_count": 236084
 }

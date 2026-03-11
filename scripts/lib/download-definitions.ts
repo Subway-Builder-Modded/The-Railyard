@@ -11,6 +11,7 @@ export interface ParsedReleaseAssetUrl {
 export interface GraphqlReleaseAssetNode {
   name: string;
   downloadCount: number;
+  downloadUrl: string;
 }
 
 export interface GraphqlReleaseNode {
@@ -48,7 +49,10 @@ export interface GraphqlReleasesResponse {
 
 export interface RepoReleaseTagData {
   zipTotal: number;
-  assets: Map<string, number>;
+  assets: Map<string, {
+    downloadCount: number;
+    downloadUrl: string | null;
+  }>;
 }
 
 export interface RepoReleaseIndex {
@@ -129,6 +133,7 @@ export const REPO_RELEASES_QUERY = `
             nodes {
               name
               downloadCount
+              downloadUrl
             }
             pageInfo {
               hasNextPage

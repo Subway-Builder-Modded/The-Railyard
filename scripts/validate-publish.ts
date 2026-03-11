@@ -17,6 +17,7 @@ import {
   getOptionalIssueValue,
   isPresentIssueValue,
 } from "./lib/map-field-utils.js";
+import { resolveAndExtractDemandStatsForMapSource } from "./lib/map-demand-stats.js";
 
 
 const REPO_ROOT = process.env.RAILYARD_REPO_ROOT
@@ -37,7 +38,6 @@ const PublishMapInput = PublishModInput.omit({ "mod-id": true }).extend({
   "map-id": z.string().regex(/^[a-z0-9]+(-[a-z0-9]+)*$/, "Map ID must be kebab-case (lowercase letters, numbers, hyphens)"),
   "city-code": z.string().min(2).max(4).regex(/^[A-Z0-9]+$/, "City code must be 2-4 uppercase letters/numbers"),
   country: z.string().length(2).regex(/^[A-Z]{2}$/, "Country must be a 2-letter ISO 3166-1 alpha-2 code"),
-  population: z.string().regex(/^\d+$/, "Population must be a number"),
   gallery: z.string().min(1, "At least one gallery image is required"),
   data_source: z.string().optional(),
   source_quality: z.enum(SOURCE_QUALITY_VALUES),
@@ -172,6 +172,24 @@ async function validateMap(data: Record<string, string>): Promise<ValidationResu
     }
   }
 
+  const hasUpdateFieldErrors = errors.some((error) =>
+    error.startsWith("**github-repo**") || error.startsWith("**custom-update-url**")
+  );
+  if (!hasUpdateFieldErrors) {
+    try {
+      await resolveAndExtractDemandStatsForMapSource(
+        id,
+        parsed.data["update-type"] === "GitHub Releases"
+          ? { type: "github", repo: parsed.data["github-repo"] as string }
+          : { type: "custom", url: parsed.data["custom-update-url"] as string },
+        { token: process.env.GH_DOWNLOADS_TOKEN ?? process.env.GITHUB_TOKEN },
+      );
+    } catch (error) {
+      const message = error instanceof Error ? error.message : String(error);
+      errors.push(`**demand_data**: ${message}`);
+    }
+  }
+
   return { success: errors.length === 0, errors };
 }
 
@@ -195,7 +213,7 @@ async function main() {
 
     // Write error for the workflow to pick up
     const { writeFileSync } = await import("node:fs");
-    writeFileSync(resolve(REPO_ROOT, "validation-error.md"), errorMessage);
+    writeFileSync(resolve(REPO_ROOT, "scripts", "validation-error.md"), errorMessage);
     console.error(errorMessage);
     process.exit(1);
   }

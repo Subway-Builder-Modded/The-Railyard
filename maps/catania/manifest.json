@@ -24,7 +24,7 @@
   },
   "city_code": "CAT",
   "country": "IT",
-  "population": 1060361,
+  "population": 888399,
   "data_source": "OSM",
   "source_quality": "medium-quality",
   "level_of_detail": "high-detail",
@@ -34,5 +34,8 @@
     "hospitals",
     "schools",
     "universities"
-  ]
+  ],
+  "residents_total": 888399,
+  "points_count": 3552,
+  "population_count": 7992
 }

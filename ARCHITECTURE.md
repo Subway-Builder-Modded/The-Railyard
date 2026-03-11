@@ -20,6 +20,7 @@ The-Railyard/
 |       |-- update-metadata.yml
 |       |-- regenerate-index.yml
 |       |-- regenerate-downloads.yml
+|       |-- regenerate-map-demand-stats.yml
 |       |-- close-invalid.yml
 |       `-- report.yml
 |-- scripts/
@@ -29,6 +30,9 @@ The-Railyard/
 |   |   |-- map-field-utils.ts
 |   |   |-- map-update-logic.ts
 |   |   |-- downloads.ts
+|   |   |-- map-demand-stats.ts
+|   |   |-- release-resolution.ts
+|   |   |-- discord-webhook.ts
 |   |   |-- registry-manifest.ts
 |   |   |-- mod-manifest.ts
 |   |   |-- gallery.ts
@@ -41,6 +45,8 @@ The-Railyard/
 |   |-- create-listing.ts
 |   |-- update-listing.ts
 |   |-- generate-downloads.ts
+|   |-- generate-map-demand-stats.ts
+|   |-- notify-discord.ts
 |   `-- regenerate-indexes.ts
 |-- mods/
 |   |-- index.json
@@ -51,6 +57,7 @@ The-Railyard/
 |-- maps/
 |   |-- index.json
 |   |-- downloads.json
+|   |-- demand-stats-cache.json
 |   `-- <map-id>/
 |       |-- manifest.json
 |       `-- gallery/
@@ -130,6 +137,9 @@ Maps include all mod fields plus map-specific metadata:
   "city_code": "RDU",
   "country": "US",
   "population": 1500000,
+  "residents_total": 1500000,
+  "points_count": 4242,
+  "population_count": 1500000,
   "data_source": "LODES",
   "source_quality": "high-quality",
   "level_of_detail": "medium-detail",
@@ -142,7 +152,10 @@ Map-specific fields:
 
 - `city_code`: `^[A-Z0-9]{2,4}$`
 - `country`: ISO-3166-1 alpha-2 code
-- `population`: integer >= 0
+- `population`: integer >= 0 (auto-derived from demand data)
+- `residents_total`: integer >= 0 (sum of demand point residents)
+- `points_count`: integer >= 0 (number of demand points)
+- `population_count`: integer >= 0 (number of population entries)
 - `data_source`: non-empty string
 - `source_quality`: `low-quality | medium-quality | high-quality`
 - `level_of_detail`: `low-detail | medium-detail | high-detail`
@@ -236,6 +249,9 @@ map-name.zip
 - `regenerate-downloads.yml` runs hourly and on manual dispatch.
 - It runs map and mod download generation in separate jobs and then commits updated `downloads.json` files if changed.
 - Uses GitHub GraphQL `ReleaseAsset.downloadCount` with `GITHUB_TOKEN` by default (`GH_DOWNLOADS_TOKEN` optional override).
+- `regenerate-map-demand-stats.yml` runs daily and on manual dispatch.
+- It refreshes map demand-derived metadata in manifests and updates `maps/demand-stats-cache.json`.
+- Skips ZIP extraction for unchanged source fingerprints within 25 hours.
 
 ## Script Responsibilities
 
@@ -245,7 +261,9 @@ map-name.zip
 - `update-listing.ts`: applies manifest metadata updates.
 - `regenerate-indexes.ts`: reindexes listings.
 - `generate-downloads.ts`: generates `maps/downloads.json` and `mods/downloads.json`.
+- `generate-map-demand-stats.ts`: updates map `population`/`residents_total`/`points_count`/`population_count`.
 - `generate-map-templates.ts`: generates and verifies map issue templates.
+- `notify-discord.ts`: shared Discord webhook notifier for workflow summaries.
 
 ## Testing
 

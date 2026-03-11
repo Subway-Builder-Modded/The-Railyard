@@ -21,10 +21,13 @@
   },
   "city_code": "JER",
   "country": "IL",
-  "population": 1400000,
+  "population": 473200,
   "level_of_detail": "medium-detail",
   "source_quality": "medium-quality",
   "data_source": "OSM",
   "location": "middle-east",
-  "special_demand": []
+  "special_demand": [],
+  "residents_total": 473200,
+  "points_count": 650,
+  "population_count": 2366
 }

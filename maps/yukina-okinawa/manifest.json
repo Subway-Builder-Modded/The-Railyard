@@ -23,7 +23,7 @@
   },
   "city_code": "OKA",
   "country": "JP",
-  "population": 1466870,
+  "population": 813877,
   "level_of_detail": "high-detail",
   "source_quality": "high-quality",
   "data_source": "統計局・令和２年国勢調査・令和3年経済センサス",
@@ -32,5 +32,8 @@
     "airports",
     "universities",
     "schools"
-  ]
+  ],
+  "residents_total": 813877,
+  "points_count": 3405,
+  "population_count": 10514
 }

@@ -1,0 +1,230 @@
+{
+  "amsterdam": {
+    "source_fingerprint": "sha256:f3ce3c41fa2e1e3c4d02f7f53a07362ae0f3a85b968782a989cddb1cc0fc0f96",
+    "last_checked_at": "2026-03-11T09:10:24.746Z"
+  },
+  "baltimore-dc-corridor": {
+    "source_fingerprint": "sha256:d153a2fd8469ec820082f13a4891030872e3656dd6f5b4bbaa0d30e6874632aa",
+    "last_checked_at": "2026-03-11T09:10:24.746Z"
+  },
+  "bari": {
+    "source_fingerprint": "sha256:fbe628e9901eb82cfb0a97c595e00ef02631951e2d9cb1d19947ab23a20a69c9",
+    "last_checked_at": "2026-03-11T09:21:13.086Z"
+  },
+  "bologna": {
+    "source_fingerprint": "sha256:01780884c4c890ebfbaee6bd1395baa93bc35553c65ee1c0c002c9f740d010b1",
+    "last_checked_at": "2026-03-11T09:21:13.086Z"
+  },
+  "calgary": {
+    "source_fingerprint": "sha256:147f4a279196a0b4d325335fa17644ca4a5612c581e7ccacb6ba1f33d0209cde",
+    "last_checked_at": "2026-03-11T09:10:24.746Z"
+  },
+  "catania": {
+    "source_fingerprint": "sha256:1225725bebdbd10d01fe58ec72c7ab734f576d2df5da7753789ed8d386bfadf1",
+    "last_checked_at": "2026-03-11T09:21:13.086Z"
+  },
+  "colorado-ski-country": {
+    "source_fingerprint": "github:1.0.0|Colorado-Ski-Country-Railway.zip",
+    "last_checked_at": "2026-03-11T16:16:01.107Z"
+  },
+  "dublin": {
+    "source_fingerprint": "github:v1.0.0|dublin.zip",
+    "last_checked_at": "2026-03-11T15:57:40.017Z"
+  },
+  "edmonton": {
+    "source_fingerprint": "sha256:eb0f18d3e3241f40a99bb2d26e5bcb5ea2d4ac43c86a0dd91f237b53658085f2",
+    "last_checked_at": "2026-03-11T09:10:24.746Z"
+  },
+  "florence": {
+    "source_fingerprint": "sha256:158a6bd6aa81804632bddaf1e9a50b82d4ab4bb62bab724bb6a306e2f4c82871",
+    "last_checked_at": "2026-03-11T09:21:13.086Z"
+  },
+  "genoa": {
+    "source_fingerprint": "sha256:326e921c811647ae6bce1c7a6aefef2a1e7f1df4ebb56b5eb568a5eefca0b951",
+    "last_checked_at": "2026-03-11T09:21:13.086Z"
+  },
+  "greater-baltimore": {
+    "source_fingerprint": "sha256:83309c193d6a7782a38a280d51aab996bfecd9665fe1d358c80e1b0e3d8ad5e2",
+    "last_checked_at": "2026-03-11T09:10:24.746Z"
+  },
+  "jacksonville": {
+    "source_fingerprint": "sha256:a2dcc37a08f5a857ed92f45f8e45332d7c30e052cead007299cc2b8ddca83795",
+    "last_checked_at": "2026-03-11T09:10:24.746Z"
+  },
+  "jerusalem": {
+    "source_fingerprint": "github:v0.3.1|JER.zip",
+    "last_checked_at": "2026-03-11T16:18:17.579Z"
+  },
+  "knoxville": {
+    "source_fingerprint": "sha256:31d89963dfb04413e548b493ff0fb4a326215071832077e7c2cb96d8978ef59c",
+    "last_checked_at": "2026-03-11T09:10:24.746Z"
+  },
+  "louisville": {
+    "source_fingerprint": "github:1.0.0|Louisville-Railyard.zip",
+    "last_checked_at": "2026-03-11T16:15:07.809Z"
+  },
+  "memphis": {
+    "source_fingerprint": "sha256:87d8f1440c45def305cb017f6c7f4875d15f00014c5bb4700f16ede557162bed",
+    "last_checked_at": "2026-03-11T09:10:24.746Z"
+  },
+  "mfn-hong-kong": {
+    "source_fingerprint": "github:0.4.0|HKG.zip",
+    "last_checked_at": "2026-03-11T16:14:42.787Z"
+  },
+  "mfn-northwestar": {
+    "source_fingerprint": "github:1.0.0|XNA.zip",
+    "last_checked_at": "2026-03-11T16:14:04.837Z"
+  },
+  "milan": {
+    "source_fingerprint": "sha256:4efc7f7986a0a1e920e479e956170ba0015fe50934c061bebbfe10a0a31b1026",
+    "last_checked_at": "2026-03-11T09:21:13.086Z"
+  },
+  "montreal": {
+    "source_fingerprint": "sha256:97a0f08ea48b9c1109b59a736212217593117c21486627bf997fc4575b9aac05",
+    "last_checked_at": "2026-03-11T09:10:24.746Z"
+  },
+  "naples": {
+    "source_fingerprint": "sha256:ba32780d4a528a87132ea8b8f7d0dcb8ff495b10e12a7398cfcaad6088358518",
+    "last_checked_at": "2026-03-11T09:21:13.086Z"
+  },
+  "nashville": {
+    "source_fingerprint": "github:2.0.0|Nashville-Railway.zip",
+    "last_checked_at": "2026-03-11T16:13:48.314Z"
+  },
+  "orange-county": {
+    "source_fingerprint": "sha256:a0a71a638c41799b47f58471cbf6b2571bccda2d84ffd79f5ed55d2bedff63d5",
+    "last_checked_at": "2026-03-11T09:10:24.746Z"
+  },
+  "orlando": {
+    "source_fingerprint": "sha256:a3e6897d1d89a1ef38a7d71b9e373bac3ee9a3f0c6f9e2e19bc6067c227d2275",
+    "last_checked_at": "2026-03-11T09:10:24.746Z"
+  },
+  "ottawa": {
+    "source_fingerprint": "sha256:1ad349318afe26e27eefcec044e4376cc6e72411730805781f08f5c8ea7180c5",
+    "last_checked_at": "2026-03-11T09:10:24.746Z"
+  },
+  "palermo": {
+    "source_fingerprint": "sha256:802eb96c23ec0b7de0dd6a1e6f0172c38d075ddac462592465a8e7ac2757d397",
+    "last_checked_at": "2026-03-11T09:21:13.086Z"
+  },
+  "providence": {
+    "source_fingerprint": "github:1.0.0|Providence-Railyard.zip",
+    "last_checked_at": "2026-03-11T16:13:39.587Z"
+  },
+  "quebec-city": {
+    "source_fingerprint": "sha256:5da6b99b25f7c33abc130963f89441b5b6c60d2a75a4e7552b0fe9759efac2fc",
+    "last_checked_at": "2026-03-11T09:10:24.746Z"
+  },
+  "richmond": {
+    "source_fingerprint": "sha256:740281654ca081db1b326d2d7335c4069ed428d81e796db7fe3adaba3b9128ce",
+    "last_checked_at": "2026-03-11T09:10:24.746Z"
+  },
+  "rochester": {
+    "source_fingerprint": "sha256:09f0d2f40418f60af2eea9c26935d83e9403f35d32fd99a22de49cab8d913ba2",
+    "last_checked_at": "2026-03-11T09:10:24.746Z"
+  },
+  "rome": {
+    "source_fingerprint": "sha256:f31ea397cc04e9104e6331a10e8a396e75a6f5f9ef87f1dd018f796d4087e7f4",
+    "last_checked_at": "2026-03-11T09:21:13.086Z"
+  },
+  "rotterdam-the-hague": {
+    "source_fingerprint": "sha256:881b595ea72c64aa42316aadb08f1d432b99af7c222eadb7e8fa92e7ad302333",
+    "last_checked_at": "2026-03-11T09:10:24.746Z"
+  },
+  "sacramento": {
+    "source_fingerprint": "github:1.0.0|Sacramento-Railyard.zip",
+    "last_checked_at": "2026-03-11T16:13:18.641Z"
+  },
+  "san-antonio": {
+    "source_fingerprint": "sha256:78aeb78a801abaf5c9d6fcd7851d911539f946e82472bc3aee438be63e3b4b3e",
+    "last_checked_at": "2026-03-11T09:10:24.746Z"
+  },
+  "santa-barbara": {
+    "source_fingerprint": "sha256:245bc8ecd9bd3eb30a530b60f6e9730e468716e1ed2a0219a65159f7f2ac3d6a",
+    "last_checked_at": "2026-03-11T09:10:24.746Z"
+  },
+  "tampa-bay": {
+    "source_fingerprint": "sha256:c5bdc340edfa2f4127d5911951c61e0d8a1bbeb365bec161c9ca0edf11608fcc",
+    "last_checked_at": "2026-03-11T09:10:24.746Z"
+  },
+  "tel-aviv": {
+    "source_fingerprint": "github:v2.0.0|TLV.zip",
+    "last_checked_at": "2026-03-11T16:13:00.700Z"
+  },
+  "toronto": {
+    "source_fingerprint": "sha256:3d5c457b599b4ee0565fdadb94ffe2ee4116eb6373159c15cc77d2add77a11a2",
+    "last_checked_at": "2026-03-11T09:10:24.746Z"
+  },
+  "turin": {
+    "source_fingerprint": "sha256:22560682f5ae014c05dc26c33d38092eb39c49c19aa09c09aed3f1a271761b95",
+    "last_checked_at": "2026-03-11T09:21:13.086Z"
+  },
+  "vancouver": {
+    "source_fingerprint": "sha256:47b36073c8dee7bca75d90358e17579db4664a33bd7928b4c3b5bd1abdfd0a1c",
+    "last_checked_at": "2026-03-11T09:10:24.746Z"
+  },
+  "waterloo": {
+    "source_fingerprint": "github:1.0.1|YKF.zip",
+    "last_checked_at": "2026-03-11T16:11:55.205Z"
+  },
+  "winnipeg": {
+    "source_fingerprint": "sha256:aac872d7cd8a65ab69687e446b2be911e388e8fe89faf7a9601631eff19a0b29",
+    "last_checked_at": "2026-03-11T09:10:24.746Z"
+  },
+  "yukina-fukuoka": {
+    "source_fingerprint": "sha256:67e9e47cb35100e00659c66ddba6b7fef86edf750f33ceaa5f7a1e21b7ddd717",
+    "last_checked_at": "2026-03-11T09:10:24.746Z"
+  },
+  "yukina-hiroshima-kure": {
+    "source_fingerprint": "sha256:108d0672fc073ec9fe070df48797ad76589ca5482e1ca8e5d40f246b4c72c9aa",
+    "last_checked_at": "2026-03-11T09:10:24.746Z"
+  },
+  "yukina-kagoshima-kirishima": {
+    "source_fingerprint": "sha256:718b1ce8fef18dfff9536fff34aaee2e35d63352644fdc176e9c300316172a29",
+    "last_checked_at": "2026-03-11T09:10:24.746Z"
+  },
+  "yukina-kitakyushu-shimonoseki": {
+    "source_fingerprint": "sha256:9bf190c32dee18a46ec201a0bb06a75a7b81faaa5909572747dd544551770bac",
+    "last_checked_at": "2026-03-11T09:10:24.746Z"
+  },
+  "yukina-kobe-akashi": {
+    "source_fingerprint": "sha256:12e4453bbe40190125dab98375bf9818609175b232c0e1a9e7f428aeb3a4d862",
+    "last_checked_at": "2026-03-11T09:10:24.746Z"
+  },
+  "yukina-kochi": {
+    "source_fingerprint": "sha256:ee3397e2e3bf21419646f8a85f04e057f9351a7f9a9c0bb8ff5615d21d0e5dac",
+    "last_checked_at": "2026-03-11T09:10:24.746Z"
+  },
+  "yukina-kyoto": {
+    "source_fingerprint": "sha256:9830c63800f79e518257275e7f0a35e8f09f406b36a73a5afe367751bbc18a3f",
+    "last_checked_at": "2026-03-11T09:10:24.746Z"
+  },
+  "yukina-matsuyama": {
+    "source_fingerprint": "sha256:d847f0d09982da320b2f61e737d85ad7ea8110ac36fe5cb1e42a0a463e2b79fe",
+    "last_checked_at": "2026-03-11T09:10:24.746Z"
+  },
+  "yukina-niigata": {
+    "source_fingerprint": "sha256:e537364b616ab7c3a4d8036956362dd5ac876173d33e9b2d6f61e1d9687e387b",
+    "last_checked_at": "2026-03-11T09:10:24.746Z"
+  },
+  "yukina-okinawa": {
+    "source_fingerprint": "sha256:35e465e6ed9554625402695093b9d26b90a656704043d9fdedca430f4956bb8e",
+    "last_checked_at": "2026-03-11T09:10:24.746Z"
+  },
+  "yukina-sapporo-chitose": {
+    "source_fingerprint": "sha256:be3813fa292cfd15df7f31fde978dca42cae7ce2e2401b440606e9e553dad0c3",
+    "last_checked_at": "2026-03-11T09:10:24.746Z"
+  },
+  "yukina-sendai": {
+    "source_fingerprint": "sha256:8010b55827ec67a977cf283c9f0b72ab8a3ec7ea66c5505f4e216e3883f5b64c",
+    "last_checked_at": "2026-03-11T09:10:24.746Z"
+  },
+  "yukina-yamagata": {
+    "source_fingerprint": "sha256:2fab1ca359670027c891f4da32bed938c8e2e928f25a7d83c5cec10788d2a728",
+    "last_checked_at": "2026-03-11T09:10:24.746Z"
+  },
+  "zurich": {
+    "source_fingerprint": "github:v1.1.0|ZRH.zip",
+    "last_checked_at": "2026-03-11T16:17:46.587Z"
+  }
+}

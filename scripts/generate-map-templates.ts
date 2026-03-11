@@ -312,12 +312,6 @@ const SHARED_FIELDS_AFTER_MAP_ID = [
     "ISO 3166-1 alpha-2 country code - two uppercase letters (e.g. US, GB, CA, DE, JP). Used to group maps by country in Railyard. It is REQUIRED that you use ISO codes according to this list: https://en.wikipedia.org/wiki/List_of_ISO_3166_country_codes.",
     { placeholder: "US", required: true },
   ),
-  input(
-    "population",
-    "Population",
-    "Approximate metropolitan area population. Number only, no commas or separators. Used for display and sorting in Railyard and does not need to be exact.",
-    { placeholder: "1500000", required: true },
-  ),
   textarea(
     "description",
     "Description",

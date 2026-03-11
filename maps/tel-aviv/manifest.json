@@ -24,7 +24,7 @@
   },
   "city_code": "TLV",
   "country": "IL",
-  "population": 4500000,
+  "population": 2497200,
   "level_of_detail": "high-detail",
   "source_quality": "high-quality",
   "data_source": "Tel Aviv Transport Model",
@@ -34,5 +34,8 @@
     "entertainment",
     "hospitals",
     "universities"
-  ]
+  ],
+  "residents_total": 2497200,
+  "points_count": 1301,
+  "population_count": 12486
 }

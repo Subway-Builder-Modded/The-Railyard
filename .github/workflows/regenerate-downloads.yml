@@ -81,6 +81,20 @@ jobs:
     steps:
       - uses: actions/checkout@v4
 
+      - uses: pnpm/action-setup@v4
+        with:
+          version: 10
+
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 22
+          cache: pnpm
+          cache-dependency-path: scripts/pnpm-lock.yaml
+
+      - name: Install script dependencies
+        run: pnpm install --frozen-lockfile
+        working-directory: scripts
+
       - name: Capture baseline download snapshots
         run: |
           mkdir -p /tmp/download-baseline
@@ -253,8 +267,9 @@ jobs:
         if: always()
         env:
           DISCORD_WEBHOOK_URL: ${{ secrets.DISCORD_WEBHOOK_URL }}
-          STATUS: ${{ job.status }}
-          RUN_URL: ${{ github.server_url }}/${{ github.repository }}/actions/runs/${{ github.run_id }}
+          DISCORD_TITLE: Regenerate Download Counts
+          DISCORD_STATUS: ${{ job.status }}
+          DISCORD_RUN_URL: ${{ github.server_url }}/${{ github.repository }}/actions/runs/${{ github.run_id }}
           UPDATED_RECORDS_TOTAL: ${{ steps.download_stats.outputs.updated_records_total }}
           UPDATED_LISTINGS_TOTAL: ${{ steps.download_stats.outputs.updated_listings_total }}
           NEW_DOWNLOADS_TOTAL: ${{ steps.download_stats.outputs.new_downloads_total }}
@@ -284,20 +299,34 @@ jobs:
             COMMIT_DISPLAY="\`${COMMIT_SHA}\`"
           fi
 
-          CONTENT="$(printf '%s\n' \
-            "**Regenerate Download Counts** (\`${STATUS}\`)" \
-            "- **Updated records:** ${UPDATED_RECORDS_TOTAL}" \
-            "- **Listings touched:** ${UPDATED_LISTINGS_TOTAL}" \
-            "- **Tracked listings:** ${TRACKED_LISTINGS_TOTAL} (maps ${TRACKED_LISTINGS_MAPS}, mods ${TRACKED_LISTINGS_MODS})" \
-            "- **Tracked versions:** ${TRACKED_VERSIONS_TOTAL} (maps ${TRACKED_VERSIONS_MAPS}, mods ${TRACKED_VERSIONS_MODS})" \
-            "- **New downloads:** +${NEW_DOWNLOADS_TOTAL}" \
-            "- **Net delta:** ${NET_DELTA_TOTAL}" \
-            "- **Maps:** ${UPDATED_RECORDS_MAPS} updated records, +${NEW_DOWNLOADS_MAPS} (net ${NET_DELTA_MAPS})" \
-            "- **Mods:** ${UPDATED_RECORDS_MODS} updated records, +${NEW_DOWNLOADS_MODS} (net ${NET_DELTA_MODS})" \
-            "- **Commit:** ${COMMIT_DISPLAY}" \
-            "[View workflow run](${RUN_URL})")"
+          export DISCORD_LINES_JSON="$(jq -nc \
+            --arg updated_records_total "${UPDATED_RECORDS_TOTAL}" \
+            --arg updated_listings_total "${UPDATED_LISTINGS_TOTAL}" \
+            --arg tracked_listings_total "${TRACKED_LISTINGS_TOTAL}" \
+            --arg tracked_listings_maps "${TRACKED_LISTINGS_MAPS}" \
+            --arg tracked_listings_mods "${TRACKED_LISTINGS_MODS}" \
+            --arg tracked_versions_total "${TRACKED_VERSIONS_TOTAL}" \
+            --arg tracked_versions_maps "${TRACKED_VERSIONS_MAPS}" \
+            --arg tracked_versions_mods "${TRACKED_VERSIONS_MODS}" \
+            --arg new_downloads_total "${NEW_DOWNLOADS_TOTAL}" \
+            --arg net_delta_total "${NET_DELTA_TOTAL}" \
+            --arg updated_records_maps "${UPDATED_RECORDS_MAPS}" \
+            --arg new_downloads_maps "${NEW_DOWNLOADS_MAPS}" \
+            --arg net_delta_maps "${NET_DELTA_MAPS}" \
+            --arg updated_records_mods "${UPDATED_RECORDS_MODS}" \
+            --arg new_downloads_mods "${NEW_DOWNLOADS_MODS}" \
+            --arg net_delta_mods "${NET_DELTA_MODS}" \
+            --arg commit_display "${COMMIT_DISPLAY}" \
+            '[
+              "- **Updated records:** \($updated_records_total)",
+              "- **Listings touched:** \($updated_listings_total)",
+              "- **Tracked listings:** \($tracked_listings_total) (maps \($tracked_listings_maps), mods \($tracked_listings_mods))",
+              "- **Tracked versions:** \($tracked_versions_total) (maps \($tracked_versions_maps), mods \($tracked_versions_mods))",
+              "- **New downloads:** +\($new_downloads_total)",
+              "- **Net delta:** \($net_delta_total)",
+              "- **Maps:** \($updated_records_maps) updated records, +\($new_downloads_maps) (net \($net_delta_maps))",
+              "- **Mods:** \($updated_records_mods) updated records, +\($new_downloads_mods) (net \($net_delta_mods))",
+              "- **Commit:** \($commit_display)"
+            ]')"
 
-          jq -n --arg content "$CONTENT" '{content: $content}' \
-            | curl -sS -X POST "$DISCORD_WEBHOOK_URL" \
-                -H "Content-Type: application/json" \
-                -d @-
+          pnpm --dir scripts run notify-discord

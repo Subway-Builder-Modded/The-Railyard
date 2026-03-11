@@ -22,7 +22,7 @@
   },
   "city_code": "XNA",
   "country": "US",
-  "population": 260000,
+  "population": 261959,
   "data_source": "LODES",
   "source_quality": "high-quality",
   "level_of_detail": "high-detail",
@@ -31,5 +31,8 @@
     "airports",
     "entertainment",
     "universities"
-  ]
+  ],
+  "residents_total": 261959,
+  "points_count": 3064,
+  "population_count": 38101
 }

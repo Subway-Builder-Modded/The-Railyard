@@ -24,7 +24,7 @@
   },
   "city_code": "FIR",
   "country": "IT",
-  "population": 1253616,
+  "population": 1137643,
   "data_source": "OSM",
   "source_quality": "medium-quality",
   "level_of_detail": "high-detail",
@@ -34,5 +34,8 @@
     "hospitals",
     "schools",
     "universities"
-  ]
+  ],
+  "residents_total": 1137643,
+  "points_count": 3697,
+  "population_count": 8434
 }

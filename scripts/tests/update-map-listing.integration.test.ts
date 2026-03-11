@@ -21,6 +21,9 @@ function makeBaseManifest(): MapManifest {
     city_code: "NYC",
     country: "United States",
     population: 1000000,
+    residents_total: 1000000,
+    points_count: 1000,
+    population_count: 1000000,
     data_source: "Census",
     source_quality: "medium-quality",
     level_of_detail: "medium-detail",
@@ -35,6 +38,7 @@ test("map update applies only provided fields", () => {
 
   applyMapManifestUpdates(manifest, {
     source_quality: "low-quality",
+    population: "5000000",
     data_source: "No change",
     level_of_detail: "_No response_",
     location: "None",

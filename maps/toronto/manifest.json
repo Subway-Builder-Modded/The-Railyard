@@ -18,7 +18,7 @@
   },
   "city_code": "YYZ",
   "country": "CA",
-  "population": 6202225,
+  "population": 4039647,
   "level_of_detail": "high-detail",
   "source_quality": "medium-quality",
   "data_source": "STATCAN",
@@ -26,5 +26,8 @@
   "special_demand": [
     "airports",
     "universities"
-  ]
+  ],
+  "residents_total": 4039647,
+  "points_count": 11458,
+  "population_count": 33646
 }

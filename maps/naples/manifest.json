@@ -24,7 +24,7 @@
   },
   "city_code": "NAP",
   "country": "IT",
-  "population": 3391962,
+  "population": 2586729,
   "data_source": "OSM",
   "source_quality": "medium-quality",
   "level_of_detail": "high-detail",
@@ -34,5 +34,8 @@
     "hospitals",
     "schools",
     "universities"
-  ]
+  ],
+  "residents_total": 2586729,
+  "points_count": 10998,
+  "population_count": 21250
 }

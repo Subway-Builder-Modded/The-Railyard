@@ -1,10 +1,12 @@
 import { writeFileSync } from "node:fs";
-import { resolve } from "node:path";
+import { basename, resolve } from "node:path";
 import { pathToFileURL } from "node:url";
 import { generateDownloadsData } from "./lib/downloads.js";
 import type { ManifestType } from "./lib/manifests.js";
 
-const FALLBACK_REPO_ROOT = resolve(import.meta.dirname, "..");
+const FALLBACK_REPO_ROOT = basename(import.meta.dirname) === "dist"
+  ? resolve(import.meta.dirname, "..", "..")
+  : resolve(import.meta.dirname, "..");
 
 function getNonEmptyEnv(name: string): string | undefined {
   const value = process.env[name];

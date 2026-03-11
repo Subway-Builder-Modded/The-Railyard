@@ -19,12 +19,15 @@
   },
   "city_code": "RTM",
   "country": "NL",
-  "population": 1500000,
+  "population": 2386688,
   "level_of_detail": "high-detail",
   "source_quality": "high-quality",
   "data_source": "LODES",
   "location": "europe",
   "special_demand": [
     "airports"
-  ]
+  ],
+  "residents_total": 2386688,
+  "points_count": 854,
+  "population_count": 6740
 }

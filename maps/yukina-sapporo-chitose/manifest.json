@@ -23,7 +23,7 @@
   },
   "city_code": "SPK",
   "country": "JP",
-  "population": 2543295,
+  "population": 1502096,
   "level_of_detail": "high-detail",
   "source_quality": "high-quality",
   "data_source": "統計局・令和２年国勢調査・令和3年経済センサス",
@@ -32,5 +32,8 @@
     "airports",
     "universities",
     "schools"
-  ]
+  ],
+  "residents_total": 1502096,
+  "points_count": 8628,
+  "population_count": 22222
 }

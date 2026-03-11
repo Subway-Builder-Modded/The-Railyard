@@ -67,15 +67,6 @@
       "placeholder": "US"
     "validations":
       "required": true
-  - "type": "input"
-    "id": "population"
-    "attributes":
-      "label": "Population"
-      "description": "Approximate metropolitan area population. Number only, no commas or
-        separators. Used for display and sorting in Railyard and does not need to be exact."
-      "placeholder": "1500000"
-    "validations":
-      "required": true
   - "type": "textarea"
     "id": "description"
     "attributes":
