@@ -45,6 +45,7 @@ type MapUpdateSource =
 interface DemandStatsCacheEntry {
   source_fingerprint: string;
   last_checked_at: string;
+  stats?: DemandStats;
 }
 
 type DemandStatsCache = Record<string, DemandStatsCacheEntry>;
@@ -279,6 +280,11 @@ function parseDemandDataPayload(payload: unknown): DemandStats {
   const pointEntries = Array.isArray(points)
     ? points.map((pointValue, index) => [`index ${index}`, pointValue] as const)
     : Object.entries(points);
+  const hasAnyExplicitResidents = pointEntries.some(([, pointValue]) => (
+    isObject(pointValue)
+    && typeof pointValue.residents === "number"
+    && Number.isFinite(pointValue.residents)
+  ));
   for (const [pointKeyOrIndex, pointValue] of pointEntries) {
     const pointRef = getDemandPointRef(pointValue, pointKeyOrIndex);
     if (!isObject(pointValue)) {
@@ -288,6 +294,10 @@ function parseDemandDataPayload(payload: unknown): DemandStats {
     let residents: number | null = null;
     if (typeof pointValue.residents === "number" && Number.isFinite(pointValue.residents)) {
       residents = pointValue.residents;
+    } else if (hasAnyExplicitResidents) {
+      // Mixed payloads may include non-residential points with popIds references.
+      // In explicit-residents mode, missing residents should count as zero.
+      residents = 0;
     } else {
       const popIdsRaw = Array.isArray(pointValue.popIds)
         ? pointValue.popIds
@@ -334,10 +344,27 @@ function loadDemandStatsCache(repoRoot: string): DemandStatsCache {
       const lastCheckedAt = typeof entry.last_checked_at === "string"
         ? entry.last_checked_at
         : undefined;
+      const stats = isObject(entry.stats)
+        && typeof entry.stats.residents_total === "number"
+        && Number.isFinite(entry.stats.residents_total)
+        && entry.stats.residents_total >= 0
+        && typeof entry.stats.points_count === "number"
+        && Number.isFinite(entry.stats.points_count)
+        && entry.stats.points_count >= 0
+        && typeof entry.stats.population_count === "number"
+        && Number.isFinite(entry.stats.population_count)
+        && entry.stats.population_count >= 0
+        ? {
+          residents_total: entry.stats.residents_total,
+          points_count: entry.stats.points_count,
+          population_count: entry.stats.population_count,
+        }
+        : undefined;
       if (!sourceFingerprint || !lastCheckedAt) continue;
       entries[id] = {
         source_fingerprint: sourceFingerprint,
         last_checked_at: lastCheckedAt,
+        stats,
       };
     }
     return entries;
@@ -386,6 +413,7 @@ function shouldSkipUnchanged(
   now: Date,
 ): boolean {
   if (!cacheEntry) return false;
+  if (!cacheEntry.stats) return false;
   if (cacheEntry.source_fingerprint !== resolvedSource.sourceFingerprint) return false;
   if (resolvedSource.sourceFingerprint.startsWith("sha256:")) {
     return true;
@@ -565,6 +593,31 @@ export async function generateMapDemandStats(
     if (!force && shouldSkipUnchanged(cache[id], resolvedSource, now)) {
       skippedMaps += 1;
       skippedUnchanged += 1;
+      const cachedStats = cache[id]?.stats;
+      if (cachedStats) {
+        const oldResidents = Number.isFinite(manifest.residents_total)
+          ? manifest.residents_total
+          : (Number.isFinite(manifest.population) ? manifest.population : 0);
+        const changed = (
+          manifest.population !== cachedStats.residents_total
+          || manifest.residents_total !== cachedStats.residents_total
+          || manifest.points_count !== cachedStats.points_count
+          || manifest.population_count !== cachedStats.population_count
+        );
+        if (changed) {
+          manifest.population = cachedStats.residents_total;
+          manifest.residents_total = cachedStats.residents_total;
+          manifest.points_count = cachedStats.points_count;
+          manifest.population_count = cachedStats.population_count;
+          writeFileSync(
+            resolve(repoRoot, "maps", id, "manifest.json"),
+            `${JSON.stringify(manifest, null, 2)}\n`,
+            "utf-8",
+          );
+          updatedMaps += 1;
+          residentsDeltaTotal += cachedStats.residents_total - oldResidents;
+        }
+      }
       continue;
     }
 
@@ -619,6 +672,7 @@ export async function generateMapDemandStats(
     cache[id] = {
       source_fingerprint: resolvedSource.sourceFingerprint,
       last_checked_at: now.toISOString(),
+      stats,
     };
 
     if (changed) {

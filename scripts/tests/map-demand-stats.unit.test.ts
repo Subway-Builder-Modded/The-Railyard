@@ -79,6 +79,28 @@ test("extractDemandStatsFromZipBuffer derives residents from popIds when residen
   });
 });
 
+test("extractDemandStatsFromZipBuffer does not mix residents fallback with explicit residents values", async () => {
+  const payload = {
+    points: [
+      { id: "p1", residents: 10, popIds: ["a"] },
+      { id: "p2", popIds: ["b"] },
+    ],
+    pops: [
+      { id: "a", size: 10 },
+      { id: "b", size: 50 },
+    ],
+  };
+
+  const zipBuffer = await makeZipBuffer("demand_data.json", JSON.stringify(payload));
+  const stats = await extractDemandStatsFromZipBuffer("sample-map", zipBuffer);
+
+  assert.deepEqual(stats, {
+    residents_total: 10,
+    points_count: 2,
+    population_count: 2,
+  });
+});
+
 test("extractDemandStatsFromZipBuffer rejects negative residents values", async () => {
   const payload = {
     points: {

@@ -288,6 +288,11 @@ test("generateMapDemandStats skips unchanged sha fingerprint regardless of cache
     "cached-map": {
       source_fingerprint: "sha256:abc123",
       last_checked_at: new Date(Date.now() - (48 * 60 * 60 * 1000)).toISOString(),
+      stats: {
+        residents_total: 12,
+        points_count: 3,
+        population_count: 12,
+      },
     },
   });
 
@@ -318,6 +323,88 @@ test("generateMapDemandStats skips unchanged sha fingerprint regardless of cache
     assert.equal(result.skippedMaps, 1);
     assert.equal(result.skippedUnchanged, 1);
     assert.equal(result.extractionFailures, 0);
+  } finally {
+    rmSync(repoRoot, { recursive: true, force: true });
+  }
+});
+
+test("generateMapDemandStats recomputes unchanged sha fingerprint when cache has no stats", async () => {
+  const repoRoot = mkdtempSync(join(tmpdir(), "railyard-map-demand-legacy-cache-"));
+  mkdirSync(join(repoRoot, "maps"), { recursive: true });
+  mkdirSync(join(repoRoot, "maps", "legacy-map"), { recursive: true });
+
+  writeJson(join(repoRoot, "maps", "index.json"), {
+    schema_version: 1,
+    maps: ["legacy-map"],
+  });
+  writeJson(join(repoRoot, "maps", "legacy-map", "manifest.json"), {
+    schema_version: 1,
+    id: "legacy-map",
+    name: "Legacy",
+    author: "test",
+    github_id: 1,
+    description: "desc",
+    tags: ["europe"],
+    gallery: ["gallery/a.png"],
+    source: "https://example.com/source",
+    update: { type: "custom", url: "https://example.com/legacy-update.json" },
+    city_code: "LEGC",
+    country: "US",
+    population: 100,
+    residents_total: 100,
+    points_count: 1,
+    population_count: 1,
+    data_source: "LODES",
+    source_quality: "medium-quality",
+    level_of_detail: "medium-detail",
+    location: "europe",
+    special_demand: [],
+  });
+  writeJson(join(repoRoot, "maps", "demand-stats-cache.json"), {
+    "legacy-map": {
+      source_fingerprint: "sha256:abc123",
+      last_checked_at: new Date().toISOString(),
+    },
+  });
+
+  const legacyZip = await makeDemandZip([7, 8, 9]);
+  const fetchMock = makeFetchRouter([
+    {
+      match: (url) => url === "https://example.com/legacy-update.json",
+      handle: () => new Response(JSON.stringify({
+        schema_version: 1,
+        versions: [
+          {
+            version: "1.0.0",
+            sha256: "abc123",
+            download: "https://downloads.example.com/legacy-map.zip",
+          },
+        ],
+      })),
+    },
+    {
+      match: (url) => url === "https://downloads.example.com/legacy-map.zip",
+      handle: () => new Response(new Uint8Array(legacyZip)),
+    },
+  ]);
+
+  try {
+    const result = await generateMapDemandStats({
+      repoRoot,
+      fetchImpl: fetchMock,
+    });
+
+    assert.equal(result.processedMaps, 1);
+    assert.equal(result.updatedMaps, 1);
+    assert.equal(result.skippedMaps, 0);
+    assert.equal(result.skippedUnchanged, 0);
+    assert.equal(result.extractionFailures, 0);
+
+    const manifest = JSON.parse(readFileSync(join(repoRoot, "maps", "legacy-map", "manifest.json"), "utf-8"));
+    assert.equal(manifest.population, 24);
+    assert.equal(manifest.residents_total, 24);
+    assert.equal(manifest.points_count, 3);
+    assert.equal(manifest.population_count, 3);
   } finally {
     rmSync(repoRoot, { recursive: true, force: true });
   }

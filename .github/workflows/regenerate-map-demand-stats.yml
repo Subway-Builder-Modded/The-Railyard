@@ -4,6 +4,12 @@ on:
   schedule:
     - cron: "0 */8 * * *"
   workflow_dispatch:
+    inputs:
+      force:
+        description: Force refresh all maps (ignore cache)
+        required: false
+        type: boolean
+        default: true
 
 permissions:
   contents: write
@@ -36,7 +42,12 @@ jobs:
         id: regenerate_stats
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
-        run: pnpm --dir scripts run generate-map-demand-stats
+        run: |
+          if [ "${{ github.event_name }}" = "workflow_dispatch" ] && [ "${{ inputs.force }}" = "true" ]; then
+            pnpm --dir scripts run generate-map-demand-stats -- --force
+          else
+            pnpm --dir scripts run generate-map-demand-stats
+          fi
 
       - name: Commit changes
         id: commit_changes
