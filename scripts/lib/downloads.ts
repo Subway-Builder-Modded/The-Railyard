@@ -540,9 +540,12 @@ export async function generateDownloadsData(
         warnListing(warnings, listing.id, `skipped non-semver release tag '${tag}'`);
         continue;
       }
-      if (data.zipTotal > 0) {
-        releaseCounts[tag] = data.zipTotal;
+      const hasZipAsset = Array.from(data.assets.keys())
+        .some((assetName) => assetName.toLowerCase().endsWith(".zip"));
+      if (!hasZipAsset) {
+        continue;
       }
+      releaseCounts[tag] = data.zipTotal;
     }
     downloadsByListing[listing.id] = sortObjectByKeys(releaseCounts);
   }

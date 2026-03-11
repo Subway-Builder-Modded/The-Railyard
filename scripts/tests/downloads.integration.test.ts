@@ -218,21 +218,30 @@ test("partial failures continue and emit warnings while preserving valid counts"
               repository: {
                 releases: {
                   nodes: [
-                    {
-                      tagName: "v1.0.0",
-                      releaseAssets: {
-                        nodes: [
-                          { name: "good.zip", downloadCount: 15 },
-                          { name: "readme.txt", downloadCount: 200 },
-                        ],
-                        pageInfo: { hasNextPage: false, endCursor: null },
-                      },
+                  {
+                    tagName: "v1.0.0",
+                    releaseAssets: {
+                      nodes: [
+                        { name: "good.zip", downloadCount: 15 },
+                        { name: "readme.txt", downloadCount: 200 },
+                      ],
+                      pageInfo: { hasNextPage: false, endCursor: null },
                     },
-                    {
-                      tagName: "latest",
-                      releaseAssets: {
-                        nodes: [
-                          { name: "good.zip", downloadCount: 999 },
+                  },
+                  {
+                    tagName: "v2.0.0",
+                    releaseAssets: {
+                      nodes: [
+                        { name: "good-v2.zip", downloadCount: 0 },
+                      ],
+                      pageInfo: { hasNextPage: false, endCursor: null },
+                    },
+                  },
+                  {
+                    tagName: "latest",
+                    releaseAssets: {
+                      nodes: [
+                        { name: "good.zip", downloadCount: 999 },
                         ],
                         pageInfo: { hasNextPage: false, endCursor: null },
                       },
@@ -261,7 +270,7 @@ test("partial failures continue and emit warnings while preserving valid counts"
     });
 
     assert.deepEqual(Object.keys(downloads), ["a-github", "b-custom", "c-github-unavailable"]);
-    assert.deepEqual(downloads["a-github"], { "v1.0.0": 15 });
+    assert.deepEqual(downloads["a-github"], { "v1.0.0": 15, "v2.0.0": 0 });
     assert.deepEqual(downloads["b-custom"], { "1.0.0": 15 });
     assert.deepEqual(downloads["c-github-unavailable"], {});
     assert.ok(
