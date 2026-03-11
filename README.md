@@ -48,7 +48,7 @@ Local commands:
 
 Map manifests now support auto-derived demand metrics from map ZIPs:
 
-- `population` (auto-derived from residents total)
+- `population` (auto-derived from residents total, kept for backwards compatibility)
 - `residents_total`
 - `points_count`
 - `population_count`
@@ -61,14 +61,5 @@ Local command:
     - `pnpm --dir scripts run generate-map-demand-stats -- --force`
   - Refresh one map by id:
     - `pnpm --dir scripts run generate-map-demand-stats -- --id <map-id>`
-  - Force refresh one map by id:
-    - `pnpm --dir scripts run generate-map-demand-stats -- --id <map-id> --force`
-
-Automation:
-
-- `regenerate-map-demand-stats.yml` runs every 8 hours and can also be triggered manually.
-- Skip behavior:
-  - `sha256:*` source fingerprints skip regardless of age.
-  - Non-`sha256` fingerprints skip only if checked within the last 9 hours (periodic recheck guards against mutable assets behind unchanged tag/URL metadata).
 
 For technical details, see [ARCHITECTURE.md](ARCHITECTURE.md).
