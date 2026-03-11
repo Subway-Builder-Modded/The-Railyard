@@ -331,7 +331,7 @@ const SHARED_FIELDS_AFTER_MAP_ID = [
   spacer(),
   // ===== Data Validation ===== //
   markdown(
-    "## Data Attestation\n\nProvide details about your map's data source, data source quality, and level of detail. Be honest and transparent in your descriptions and please include the methodology you used to generate the map's data.",
+    "## Data Attestation\n\nProvide details about your map's data source, data source quality, and level of detail. Be honest and transparent in your descriptions and please include the methodology you used to generate the map's data. See the [Data Quality](https://subwaybuildermodded.com/wiki/railyard/latest/developers/data-quality) guide for more information.",
   ),
   input(
     "data_source",
