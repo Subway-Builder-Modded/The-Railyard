@@ -4,7 +4,7 @@
   "name": "Santa Barbara",
   "author": "rslurry",
   "github_id": 112521174,
-  "description": "Uses 2023 LODES data for the Santa Barbara area.  Spans from Santa Maria to Camarillo.\nIncludes demand for SBA, OXR, SZP, IZA, LPC, and SMX airports; UCSB (split into 5 points) and SBCC (split into 2 points); Santa Barbara Harbor, Santa Barbara Zoo, MOXI Wolf Museum of Exploration + Innovation, Stearns Wharf, Old Mission Santa Barbara, Santa Barbara Botanic Garden, Santa Barbara Museum of Natural History, Arroyo Burro Beach County Park, Shoreline Park, Goleta Beach Park, More Mesa Beach, Leadbetter Beach, Santa Barbara Bowl, Lower State Street, Upper State Street, Funk Zone, La Cumbre Plaza, Camino Real Marketplace, Downtown Isla Vista, Downtown Ventura, Montecito Coast Village, Solvang, Fairview Plaza, Calle Real Shopping Center, Old Town, Turnpike Shopping Center, and Mesa Shopping Center; Vandenberg Space Force Base, Naval Base Ventura County at Point Hueneme and Point Mugu.",
+  "description": "Uses 2023 LODES data for the Santa Barbara area, multiplied by 1.5x to better model unemployed people (e.g., retirees, children). Spans from Santa Maria to Camarillo.\nIncludes demand for SBA, OXR, SZP, IZA, LPC, and SMX airports; UCSB (split into 5 points) and SBCC (split into 2 points); Santa Barbara Harbor, Santa Barbara Zoo, MOXI Wolf Museum of Exploration + Innovation, Stearns Wharf, Old Mission Santa Barbara, Santa Barbara Botanic Garden, Santa Barbara Museum of Natural History, Arroyo Burro Beach County Park, Shoreline Park, Goleta Beach Park, More Mesa Beach, Leadbetter Beach, Santa Barbara Bowl, Lower State Street, Upper State Street, Funk Zone, La Cumbre Plaza, Camino Real Marketplace, Downtown Isla Vista, Downtown Ventura, Montecito Coast Village, Solvang, Fairview Plaza, Calle Real Shopping Center, Old Town, Turnpike Shopping Center, and Mesa Shopping Center; Vandenberg Space Force Base, Naval Base Ventura County at Point Hueneme and Point Mugu.",
   "tags": [
     "north-america",
     "airports",
@@ -23,7 +23,7 @@
   },
   "city_code": "SBA",
   "country": "US",
-  "population": 368303,
+  "population": 475304,
   "data_source": "LODES",
   "source_quality": "high-quality",
   "level_of_detail": "high-detail",
@@ -33,7 +33,7 @@
     "entertainment",
     "universities"
   ],
-  "residents_total": 368303,
-  "points_count": 1433,
-  "population_count": 30024
+  "residents_total": 475304,
+  "points_count": 1431,
+  "population_count": 30058
 }
