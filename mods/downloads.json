@@ -8,7 +8,7 @@
   },
   "distance-circles": {
     "0.3.1": 4,
-    "0.3.2": 86
+    "0.3.2": 92
   },
   "subwaybuilder-regions": {
     "v0.4.5": 136
@@ -17,6 +17,6 @@
     "1.5.0": 111
   },
   "valdotoriums-trains": {
-    "v0.1.2": 229
+    "v0.1.2": 236
   }
 }
