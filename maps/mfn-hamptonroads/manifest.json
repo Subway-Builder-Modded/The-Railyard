@@ -1,0 +1,38 @@
+{
+  "schema_version": 1,
+  "id": "mfn-hamptonroads",
+  "name": "Norfolk",
+  "author": "crumpetime",
+  "github_id": 121749023,
+  "description": "A custom map containing the Hampton Roads area with LODES demand data.",
+  "tags": [
+    "north-america",
+    "airports",
+    "entertainment",
+    "universities"
+  ],
+  "gallery": [
+    "gallery/screenshot1.png"
+  ],
+  "source": "https://github.com/crumpetime/sb-maps-orf",
+  "update": {
+    "type": "github",
+    "repo": "crumpetime/sb-maps-orf"
+  },
+  "city_code": "ORF",
+  "country": "US",
+  "population": 760585,
+  "residents_total": 760585,
+  "points_count": 2332,
+  "population_count": 61472,
+  "data_source": "LODES",
+  "source_quality": "high-quality",
+  "level_of_detail": "high-detail",
+  "location": "north-america",
+  "special_demand": [
+    "airports",
+    "entertainment",
+    "parks",
+    "universities"
+  ]
+}
