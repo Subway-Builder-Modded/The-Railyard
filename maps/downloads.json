@@ -1,6 +1,6 @@
 {
   "amsterdam": {
-    "1.0.0": 103
+    "1.0.0": 104
   },
   "baltimore-dc-corridor": {
     "1.1.0": 81
@@ -17,13 +17,8 @@
   "catania": {
     "1.1.0": 21
   },
-  "colorado-ski-country": {
-    "1.0.0": 30
-  },
-  "dublin": {
-    "v1.0.0": 99,
-    "v1.1.0": 33
-  },
+  "colorado-ski-country": {},
+  "dublin": {},
   "edmonton": {
     "1.1.3": 76
   },
@@ -43,32 +38,19 @@
   "jacksonville": {
     "1.0.0": 26
   },
-  "jerusalem": {
-    "v0.3.1": 34
-  },
+  "jerusalem": {},
   "knoxville": {
     "1.1.0": 16
   },
   "los-angeles-county": {},
-  "louisville": {
-    "1.0.0": 24
-  },
+  "louisville": {},
   "memphis": {
     "1.1.0": 17
   },
-  "mfn-hamptonroads": {
-    "1.0.0": 18
-  },
-  "mfn-hong-kong": {
-    "0.3.0": 7,
-    "0.4.0": 123
-  },
-  "mfn-madisonwi": {
-    "3.0.0": 6
-  },
-  "mfn-northwestar": {
-    "1.0.0": 20
-  },
+  "mfn-hamptonroads": {},
+  "mfn-hong-kong": {},
+  "mfn-madisonwi": {},
+  "mfn-northwestar": {},
   "milan": {
     "1.1.0": 59
   },
@@ -78,9 +60,7 @@
   "naples": {
     "1.1.0": 17
   },
-  "nashville": {
-    "2.0.0": 7
-  },
+  "nashville": {},
   "orange-county": {
     "1.0.3": 37
   },
@@ -93,9 +73,7 @@
   "palermo": {
     "1.0.0": 12
   },
-  "providence": {
-    "1.0.0": 25
-  },
+  "providence": {},
   "quebec-city": {
     "1.1.3": 73
   },
@@ -109,11 +87,9 @@
     "1.0.0": 46
   },
   "rotterdam-the-hague": {
-    "1.0.0": 24
+    "1.0.0": 25
   },
-  "sacramento": {
-    "1.0.0": 21
-  },
+  "sacramento": {},
   "san-antonio": {
     "1.1.0": 23
   },
@@ -123,11 +99,7 @@
   "tampa-bay": {
     "1.1.0": 25
   },
-  "tel-aviv": {
-    "v1.2.0": 5,
-    "v1.3.0": 28,
-    "v2.0.0": 28
-  },
+  "tel-aviv": {},
   "toronto": {
     "1.1.3": 220
   },
@@ -137,10 +109,7 @@
   "vancouver": {
     "1.1.3": 118
   },
-  "waterloo": {
-    "1.0.0": 3,
-    "1.0.1": 50
-  },
+  "waterloo": {},
   "winnipeg": {
     "1.1.3": 65
   },
@@ -183,8 +152,5 @@
   "yukina-yamagata": {
     "0.2.0": 37
   },
-  "zurich": {
-    "v1.0.0": 27,
-    "v1.1.0": 104
-  }
+  "zurich": {}
 }

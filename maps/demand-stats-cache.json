@@ -55,7 +55,7 @@
   },
   "colorado-ski-country": {
     "source_fingerprint": "github:1.0.0|Colorado-Ski-Country-Railway.zip",
-    "last_checked_at": "2026-03-14T02:01:25.799Z",
+    "last_checked_at": "2026-03-14T16:30:57.115Z",
     "stats": {
       "residents_total": 167071,
       "points_count": 2140,
@@ -64,7 +64,7 @@
   },
   "dublin": {
     "source_fingerprint": "github:v1.1.0|DUB.zip",
-    "last_checked_at": "2026-03-14T02:01:25.799Z",
+    "last_checked_at": "2026-03-14T16:30:57.115Z",
     "stats": {
       "residents_total": 1380138,
       "points_count": 3265,
@@ -136,7 +136,7 @@
   },
   "jerusalem": {
     "source_fingerprint": "github:v0.3.1|JER.zip",
-    "last_checked_at": "2026-03-14T02:01:25.799Z",
+    "last_checked_at": "2026-03-14T16:30:57.115Z",
     "stats": {
       "residents_total": 473200,
       "points_count": 650,
@@ -163,7 +163,7 @@
   },
   "louisville": {
     "source_fingerprint": "github:1.0.0|Louisville-Railyard.zip",
-    "last_checked_at": "2026-03-14T02:01:25.799Z",
+    "last_checked_at": "2026-03-14T16:30:57.115Z",
     "stats": {
       "residents_total": 530833,
       "points_count": 3488,
@@ -181,7 +181,7 @@
   },
   "mfn-hamptonroads": {
     "source_fingerprint": "github:1.0.0|ORF.zip",
-    "last_checked_at": "2026-03-14T02:01:25.799Z",
+    "last_checked_at": "2026-03-14T16:30:57.115Z",
     "stats": {
       "residents_total": 760585,
       "points_count": 2332,
@@ -190,7 +190,7 @@
   },
   "mfn-hong-kong": {
     "source_fingerprint": "github:0.4.0|HKG.zip",
-    "last_checked_at": "2026-03-14T02:01:25.799Z",
+    "last_checked_at": "2026-03-14T16:30:57.115Z",
     "stats": {
       "residents_total": 4038323,
       "points_count": 1968,
@@ -199,7 +199,7 @@
   },
   "mfn-madisonwi": {
     "source_fingerprint": "github:3.0.0|MSN.zip",
-    "last_checked_at": "2026-03-14T02:01:25.799Z",
+    "last_checked_at": "2026-03-14T16:30:57.115Z",
     "stats": {
       "residents_total": 327350,
       "points_count": 2101,
@@ -208,7 +208,7 @@
   },
   "mfn-northwestar": {
     "source_fingerprint": "github:1.0.0|XNA.zip",
-    "last_checked_at": "2026-03-14T02:01:25.799Z",
+    "last_checked_at": "2026-03-14T16:30:57.115Z",
     "stats": {
       "residents_total": 261959,
       "points_count": 3064,
@@ -244,7 +244,7 @@
   },
   "nashville": {
     "source_fingerprint": "github:2.0.0|Nashville-Railway.zip",
-    "last_checked_at": "2026-03-14T02:01:25.799Z",
+    "last_checked_at": "2026-03-14T16:30:57.115Z",
     "stats": {
       "residents_total": 838863,
       "points_count": 2807,
@@ -289,7 +289,7 @@
   },
   "providence": {
     "source_fingerprint": "github:1.0.0|Providence-Railyard.zip",
-    "last_checked_at": "2026-03-14T02:01:25.799Z",
+    "last_checked_at": "2026-03-14T16:30:57.115Z",
     "stats": {
       "residents_total": 233115,
       "points_count": 683,
@@ -343,7 +343,7 @@
   },
   "sacramento": {
     "source_fingerprint": "github:1.0.0|Sacramento-Railyard.zip",
-    "last_checked_at": "2026-03-14T02:01:25.799Z",
+    "last_checked_at": "2026-03-14T16:30:57.115Z",
     "stats": {
       "residents_total": 755810,
       "points_count": 2539,
@@ -379,7 +379,7 @@
   },
   "tel-aviv": {
     "source_fingerprint": "github:v2.0.0|TLV.zip",
-    "last_checked_at": "2026-03-14T02:01:25.799Z",
+    "last_checked_at": "2026-03-14T16:30:57.115Z",
     "stats": {
       "residents_total": 2497200,
       "points_count": 1301,
@@ -415,7 +415,7 @@
   },
   "waterloo": {
     "source_fingerprint": "github:1.0.1|YKF.zip",
-    "last_checked_at": "2026-03-14T02:01:25.799Z",
+    "last_checked_at": "2026-03-14T16:30:57.115Z",
     "stats": {
       "residents_total": 481442,
       "points_count": 881,
@@ -550,7 +550,7 @@
   },
   "zurich": {
     "source_fingerprint": "github:v1.1.0|ZRH.zip",
-    "last_checked_at": "2026-03-14T02:01:25.799Z",
+    "last_checked_at": "2026-03-14T16:30:57.115Z",
     "stats": {
       "residents_total": 2147370,
       "points_count": 39672,
