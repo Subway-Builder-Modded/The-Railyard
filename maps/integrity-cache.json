@@ -559,6 +559,27 @@
         }
       }
     },
+    "greatertwincities": {
+      "v1.0.0": {
+        "fingerprint": "github:danield1909/improvedtwincities:v1.0.0:KMSP.zip",
+        "last_checked_at": "2026-03-14T08:35:06.931Z",
+        "result": {
+          "is_complete": false,
+          "errors": [
+            "asset 'KMSP.zip': missing city_code in config.json for PMTiles validation (registry city_code 'KMSP')"
+          ],
+          "required_checks": {},
+          "matched_files": {},
+          "source": {
+            "update_type": "github",
+            "repo": "danield1909/improvedtwincities",
+            "tag": "v1.0.0"
+          },
+          "fingerprint": "github:danield1909/improvedtwincities:v1.0.0:KMSP.zip",
+          "checked_at": "2026-03-14T08:35:06.931Z"
+        }
+      }
+    },
     "jacksonville": {
       "1.0.0": {
         "fingerprint": "sha256:a2dcc37a08f5a857ed92f45f8e45332d7c30e052cead007299cc2b8ddca83795",

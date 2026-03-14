@@ -116,6 +116,15 @@
       "population_count": 485829
     }
   },
+  "greatertwincities": {
+    "source_fingerprint": "github:v1.0.0|KMSP.zip",
+    "last_checked_at": "2026-03-14T08:35:09.188Z",
+    "stats": {
+      "residents_total": 2003945,
+      "points_count": 5866,
+      "population_count": 304108
+    }
+  },
   "jacksonville": {
     "source_fingerprint": "sha256:a2dcc37a08f5a857ed92f45f8e45332d7c30e052cead007299cc2b8ddca83795",
     "last_checked_at": "2026-03-11T19:09:56.520Z",

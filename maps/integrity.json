@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "generated_at": "2026-03-14T03:11:03.788Z",
+  "generated_at": "2026-03-14T08:35:06.931Z",
   "listings": {
     "amsterdam": {
       "has_complete_version": true,
@@ -615,6 +615,32 @@
           },
           "fingerprint": "sha256:c50d68b569eb0edade342fd17d96f6e636be93e0697dee8de39601836a67719a",
           "checked_at": "2026-03-14T02:01:19.963Z"
+        }
+      }
+    },
+    "greatertwincities": {
+      "has_complete_version": false,
+      "latest_semver_version": "v1.0.0",
+      "latest_semver_complete": false,
+      "complete_versions": [],
+      "incomplete_versions": [
+        "v1.0.0"
+      ],
+      "versions": {
+        "v1.0.0": {
+          "is_complete": false,
+          "errors": [
+            "asset 'KMSP.zip': missing city_code in config.json for PMTiles validation (registry city_code 'KMSP')"
+          ],
+          "required_checks": {},
+          "matched_files": {},
+          "source": {
+            "update_type": "github",
+            "repo": "danield1909/improvedtwincities",
+            "tag": "v1.0.0"
+          },
+          "fingerprint": "github:danield1909/improvedtwincities:v1.0.0:KMSP.zip",
+          "checked_at": "2026-03-14T08:35:06.931Z"
         }
       }
     },
