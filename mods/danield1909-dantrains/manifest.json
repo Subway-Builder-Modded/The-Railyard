@@ -1,0 +1,25 @@
+{
+  "schema_version": 1,
+  "id": "danield1909-dantrains",
+  "name": "danTrains (Version 1.0.0 Phoenix)",
+  "author": "DanielD1909",
+  "github_id": 112905459,
+  "description": "danTrains is a train pack mod which allows you to add new train types to your game. Currently has 312 models to choose from. See the attached README for more.",
+  "tags": [
+    "gameplay",
+    "qol",
+    "tracks",
+    "trains"
+  ],
+  "gallery": [
+    "gallery/screenshot1.png",
+    "gallery/screenshot2.png",
+    "gallery/screenshot3.png",
+    "gallery/screenshot4.png"
+  ],
+  "source": "https://github.com/DanielD1909/danTrains",
+  "update": {
+    "type": "github",
+    "repo": "DanielD1909/danTrains"
+  }
+}
