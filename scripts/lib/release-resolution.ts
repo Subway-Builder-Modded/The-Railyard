@@ -4,6 +4,22 @@ const GRAPHQL_RATE_LIMIT_WARN_THRESHOLD = D.GRAPHQL_RATE_LIMIT_WARN_THRESHOLD;
 const GRAPHQL_ENDPOINT = D.GRAPHQL_ENDPOINT;
 const REPO_RELEASES_QUERY = D.REPO_RELEASES_QUERY;
 const SEMVER_RELEASE_TAG_REGEX = /^v?(0|[1-9]\d*)\.(0|[1-9]\d*)\.(0|[1-9]\d*)$/;
+const DEFAULT_GRAPHQL_REQUEST_TIMEOUT_MS = 45_000;
+const GRAPHQL_HEARTBEAT_PREFIX = "[graphql]";
+
+function parsePositiveInteger(value: string | undefined): number | null {
+  if (typeof value !== "string") return null;
+  const parsed = Number.parseInt(value, 10);
+  if (!Number.isFinite(parsed) || parsed <= 0) return null;
+  return parsed;
+}
+
+function resolveGraphqlRequestTimeoutMs(): number {
+  const fromEnv = parsePositiveInteger(process.env.GRAPHQL_REQUEST_TIMEOUT_MS);
+  return fromEnv ?? DEFAULT_GRAPHQL_REQUEST_TIMEOUT_MS;
+}
+
+const GRAPHQL_REQUEST_TIMEOUT_MS = resolveGraphqlRequestTimeoutMs();
 
 export interface ParsedReleaseAssetUrl extends D.ParsedReleaseAssetUrl {}
 
@@ -84,11 +100,21 @@ async function requestRepoReleasesPage(
   fetchImpl: typeof fetch,
   token: string | undefined,
 ): Promise<D.RepoReleasesPageResult> {
+  const startedAt = Date.now();
+  const cursorLabel = cursor ?? "start";
+  console.log(`${GRAPHQL_HEARTBEAT_PREFIX} heartbeat:start repo=${repo} cursor=${cursorLabel}`);
+
+  const controller = new AbortController();
+  const timeoutHandle = setTimeout(() => {
+    controller.abort();
+  }, GRAPHQL_REQUEST_TIMEOUT_MS);
+
   let response: Response;
   try {
     response = await fetchImpl(GRAPHQL_ENDPOINT, {
       method: "POST",
       headers: buildGraphqlHeaders(token),
+      signal: controller.signal,
       body: JSON.stringify({
         query: REPO_RELEASES_QUERY,
         variables: {
@@ -99,8 +125,23 @@ async function requestRepoReleasesPage(
       }),
     });
   } catch (error) {
-    return { ok: false, error: `repo=${repo}: GraphQL request failed (${(error as Error).message})` };
+    const durationMs = Date.now() - startedAt;
+    const errorMessage = (error as Error).message;
+    const timeoutHint = (error as Error).name === "AbortError"
+      ? `timed out after ${GRAPHQL_REQUEST_TIMEOUT_MS}ms`
+      : errorMessage;
+    console.warn(
+      `${GRAPHQL_HEARTBEAT_PREFIX} heartbeat:error repo=${repo} cursor=${cursorLabel} durationMs=${durationMs} error=${timeoutHint}`,
+    );
+    return { ok: false, error: `repo=${repo}: GraphQL request failed (${timeoutHint})` };
+  } finally {
+    clearTimeout(timeoutHandle);
   }
+
+  const durationMs = Date.now() - startedAt;
+  console.log(
+    `${GRAPHQL_HEARTBEAT_PREFIX} heartbeat:end repo=${repo} cursor=${cursorLabel} status=${response.status} durationMs=${durationMs}`,
+  );
 
   if (!response.ok) {
     if (response.status === 401) {

@@ -1,4 +1,4 @@
-name: Regenerate Download Counts
+name: Regenerate Download Counts (Hourly)
 
 on:
   schedule:
@@ -9,7 +9,7 @@ permissions:
   contents: write
 
 concurrency:
-  group: regenerate-download-counts
+  group: regenerate-registry-analytics
   cancel-in-progress: false
 
 jobs:
@@ -35,16 +35,16 @@ jobs:
         run: pnpm install --frozen-lockfile
         working-directory: scripts
 
-      - name: Generate map download counts
+      - name: Generate map download counts (download-only mode)
         id: generate_map_downloads
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
-        run: pnpm --dir scripts run generate-downloads:maps
+        run: pnpm --dir scripts run generate-downloads:maps:download-only
 
       - name: Upload map downloads artifact
         uses: actions/upload-artifact@v4
         with:
-          name: maps-downloads
+          name: maps-downloads-hourly
           path: maps/downloads.json
           if-no-files-found: error
 
@@ -70,16 +70,16 @@ jobs:
         run: pnpm install --frozen-lockfile
         working-directory: scripts
 
-      - name: Generate mod download counts
+      - name: Generate mod download counts (download-only mode)
         id: generate_mod_downloads
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
-        run: pnpm --dir scripts run generate-downloads:mods
+        run: pnpm --dir scripts run generate-downloads:mods:download-only
 
       - name: Upload mod downloads artifact
         uses: actions/upload-artifact@v4
         with:
-          name: mods-downloads
+          name: mods-downloads-hourly
           path: mods/downloads.json
           if-no-files-found: error
 
@@ -120,13 +120,13 @@ jobs:
       - name: Download map downloads artifact
         uses: actions/download-artifact@v4
         with:
-          name: maps-downloads
+          name: maps-downloads-hourly
           path: /tmp/download-artifacts/maps
 
       - name: Download mod downloads artifact
         uses: actions/download-artifact@v4
         with:
-          name: mods-downloads
+          name: mods-downloads-hourly
           path: /tmp/download-artifacts/mods
 
       - name: Restore downloads files from artifacts
@@ -148,9 +148,6 @@ jobs:
 
           cp "${MAP_ARTIFACT_FILE}" maps/downloads.json
           cp "${MOD_ARTIFACT_FILE}" mods/downloads.json
-
-          echo "Restored map artifact from: ${MAP_ARTIFACT_FILE}"
-          echo "Restored mod artifact from: ${MOD_ARTIFACT_FILE}"
 
       - name: Compute download change stats
         id: download_stats
@@ -261,12 +258,12 @@ jobs:
           git config user.email "github-actions[bot]@users.noreply.github.com"
           git add maps/downloads.json mods/downloads.json 2>/dev/null || true
           if git diff --cached --quiet; then
-            echo "No download count changes detected; skipping commit."
+            echo "No download changes detected; skipping commit."
             echo "committed=false" >> "$GITHUB_OUTPUT"
             echo "commit_sha=" >> "$GITHUB_OUTPUT"
             exit 0
           fi
-          git commit -m "chore: regenerate download counts"
+          git commit -m "chore: regenerate download counts (hourly)"
           git push
           echo "committed=true" >> "$GITHUB_OUTPUT"
           echo "commit_sha=$(git rev-parse --short HEAD)" >> "$GITHUB_OUTPUT"
@@ -275,7 +272,7 @@ jobs:
         if: always()
         env:
           DISCORD_WEBHOOK_URL: ${{ secrets.DISCORD_WEBHOOK_URL }}
-          DISCORD_TITLE: Regenerate Download Counts
+          DISCORD_TITLE: Regenerate Download Counts (Hourly)
           DISCORD_STATUS: ${{ job.status }}
           DISCORD_RUN_URL: ${{ github.server_url }}/${{ github.repository }}/actions/runs/${{ github.run_id }}
           UPDATED_RECORDS_TOTAL: ${{ steps.download_stats.outputs.updated_records_total }}

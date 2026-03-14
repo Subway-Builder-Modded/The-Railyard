@@ -39,6 +39,14 @@ function resolveListingType(rawValue: string | undefined): ManifestType {
   throw new Error("Missing or invalid --type. Expected one of: map, mod");
 }
 
+function resolveMode(rawValue: string | undefined): "full" | "download-only" {
+  if (!rawValue || rawValue.trim() === "") return "full";
+  if (rawValue === "full" || rawValue === "download-only") {
+    return rawValue;
+  }
+  throw new Error("Missing or invalid --mode. Expected one of: full, download-only");
+}
+
 function toWarningsOutputJson(listingType: ManifestType, warnings: string[]): string {
   const MAX_WARNINGS = 30;
   const normalized = warnings
@@ -56,6 +64,7 @@ async function run(): Promise<void> {
   const listingType = resolveListingType(
     getArgValue("type") ?? process.env.LISTING_TYPE,
   );
+  const mode = resolveMode(getArgValue("mode") ?? process.env.DOWNLOADS_MODE);
   const repoRoot = process.env.RAILYARD_REPO_ROOT ?? FALLBACK_REPO_ROOT;
   const ghDownloadsToken = getNonEmptyEnv("GH_DOWNLOADS_TOKEN");
   const githubToken = getNonEmptyEnv("GITHUB_TOKEN");
@@ -70,22 +79,42 @@ async function run(): Promise<void> {
     );
   }
 
-  const { downloads, warnings, rateLimit } = await generateDownloadsData({
+  const {
+    downloads,
+    integrity,
+    integrityCache,
+    stats,
+    warnings,
+    rateLimit,
+  } = await generateDownloadsData({
     repoRoot,
     listingType,
+    mode,
     token,
   });
 
   const outputDir = listingType === "map" ? "maps" : "mods";
   const outputPath = resolve(repoRoot, outputDir, "downloads.json");
+  const integrityPath = resolve(repoRoot, outputDir, "integrity.json");
+  const integrityCachePath = resolve(repoRoot, outputDir, "integrity-cache.json");
   writeFileSync(outputPath, `${JSON.stringify(downloads, null, 2)}\n`, "utf-8");
+  if (mode === "full") {
+    writeFileSync(integrityPath, `${JSON.stringify(integrity, null, 2)}\n`, "utf-8");
+    writeFileSync(integrityCachePath, `${JSON.stringify(integrityCache, null, 2)}\n`, "utf-8");
+  }
 
   for (const warning of warnings) {
     console.warn(`[downloads] ${warning}`);
   }
 
   console.log(
+    `[downloads] Mode: ${mode}`,
+  );
+  console.log(
     `[downloads] GraphQL usage: queries=${rateLimit.queries}, totalCost=${rateLimit.totalCost}, firstRemaining=${rateLimit.firstRemaining ?? "n/a"}, lastRemaining=${rateLimit.lastRemaining ?? "n/a"}, estimatedConsumed=${rateLimit.estimatedConsumed ?? "n/a"}, resetAt=${rateLimit.resetAt ?? "n/a"}`,
+  );
+  console.log(
+    `[downloads] Integrity stats: listings=${stats.listings}, versionsChecked=${stats.versions_checked}, completeVersions=${stats.complete_versions}, incompleteVersions=${stats.incomplete_versions}, filteredVersions=${stats.filtered_versions}, cacheHits=${stats.cache_hits}`,
   );
 
   const zeroValidSemverListings = Object.entries(downloads)
@@ -101,7 +130,9 @@ async function run(): Promise<void> {
   }
 
   console.log(
-    `Generated ${outputDir}/downloads.json for ${Object.keys(downloads).length} listings`,
+    mode === "full"
+      ? `Generated ${outputDir}/downloads.json and ${outputDir}/integrity.json for ${Object.keys(downloads).length} listings`
+      : `Generated ${outputDir}/downloads.json for ${Object.keys(downloads).length} listings (download-only mode)`,
   );
 
   if (process.env.GITHUB_OUTPUT) {
@@ -109,6 +140,12 @@ async function run(): Promise<void> {
     const outputLines = [
       `warning_count=${warnings.length}`,
       `warnings_json=${toWarningsOutputJson(listingType, warnings)}`,
+      `integrity_listings=${stats.listings}`,
+      `integrity_versions_checked=${stats.versions_checked}`,
+      `integrity_complete_versions=${stats.complete_versions}`,
+      `integrity_incomplete_versions=${stats.incomplete_versions}`,
+      `integrity_filtered_versions=${stats.filtered_versions}`,
+      `integrity_cache_hits=${stats.cache_hits}`,
     ];
     appendFileSync(process.env.GITHUB_OUTPUT, `${outputLines.join("\n")}\n`);
   }

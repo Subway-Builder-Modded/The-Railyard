@@ -1,0 +1,541 @@
+name: Regenerate Registry Analytics (Full)
+
+on:
+  schedule:
+    - cron: "0 */8 * * *"
+  workflow_dispatch:
+    inputs:
+      force_demand_stats:
+        description: Force refresh all map demand stats (ignore cache)
+        required: false
+        type: boolean
+        default: false
+
+permissions:
+  contents: write
+
+concurrency:
+  group: regenerate-registry-analytics
+  cancel-in-progress: false
+
+jobs:
+  generate-maps:
+    runs-on: ubuntu-latest
+    outputs:
+      warnings_json: ${{ steps.generate_map_analytics.outputs.warnings_json }}
+      warning_count: ${{ steps.generate_map_analytics.outputs.warning_count }}
+      integrity_listings: ${{ steps.generate_map_analytics.outputs.integrity_listings }}
+      integrity_versions_checked: ${{ steps.generate_map_analytics.outputs.integrity_versions_checked }}
+      integrity_complete_versions: ${{ steps.generate_map_analytics.outputs.integrity_complete_versions }}
+      integrity_incomplete_versions: ${{ steps.generate_map_analytics.outputs.integrity_incomplete_versions }}
+      integrity_filtered_versions: ${{ steps.generate_map_analytics.outputs.integrity_filtered_versions }}
+      integrity_cache_hits: ${{ steps.generate_map_analytics.outputs.integrity_cache_hits }}
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: pnpm/action-setup@v4
+        with:
+          version: 10
+
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 22
+          cache: pnpm
+          cache-dependency-path: scripts/pnpm-lock.yaml
+
+      - name: Install script dependencies
+        run: pnpm install --frozen-lockfile
+        working-directory: scripts
+
+      - name: Generate map registry analytics
+        id: generate_map_analytics
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        run: pnpm --dir scripts run generate-registry-analytics:maps
+
+      - name: Upload map downloads artifact
+        uses: actions/upload-artifact@v4
+        with:
+          name: maps-downloads
+          path: |
+            maps/downloads.json
+            maps/integrity.json
+            maps/integrity-cache.json
+          if-no-files-found: error
+
+  generate-mods:
+    runs-on: ubuntu-latest
+    outputs:
+      warnings_json: ${{ steps.generate_mod_analytics.outputs.warnings_json }}
+      warning_count: ${{ steps.generate_mod_analytics.outputs.warning_count }}
+      integrity_listings: ${{ steps.generate_mod_analytics.outputs.integrity_listings }}
+      integrity_versions_checked: ${{ steps.generate_mod_analytics.outputs.integrity_versions_checked }}
+      integrity_complete_versions: ${{ steps.generate_mod_analytics.outputs.integrity_complete_versions }}
+      integrity_incomplete_versions: ${{ steps.generate_mod_analytics.outputs.integrity_incomplete_versions }}
+      integrity_filtered_versions: ${{ steps.generate_mod_analytics.outputs.integrity_filtered_versions }}
+      integrity_cache_hits: ${{ steps.generate_mod_analytics.outputs.integrity_cache_hits }}
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: pnpm/action-setup@v4
+        with:
+          version: 10
+
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 22
+          cache: pnpm
+          cache-dependency-path: scripts/pnpm-lock.yaml
+
+      - name: Install script dependencies
+        run: pnpm install --frozen-lockfile
+        working-directory: scripts
+
+      - name: Generate mod registry analytics
+        id: generate_mod_analytics
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        run: pnpm --dir scripts run generate-registry-analytics:mods
+
+      - name: Upload mod downloads artifact
+        uses: actions/upload-artifact@v4
+        with:
+          name: mods-downloads
+          path: |
+            mods/downloads.json
+            mods/integrity.json
+            mods/integrity-cache.json
+          if-no-files-found: error
+
+  generate-map-demand-stats:
+    runs-on: ubuntu-latest
+    outputs:
+      processed_maps: ${{ steps.generate_map_demand_stats.outputs.processed_maps }}
+      updated_maps: ${{ steps.generate_map_demand_stats.outputs.updated_maps }}
+      skipped_maps: ${{ steps.generate_map_demand_stats.outputs.skipped_maps }}
+      skipped_unchanged: ${{ steps.generate_map_demand_stats.outputs.skipped_unchanged }}
+      extraction_failures: ${{ steps.generate_map_demand_stats.outputs.extraction_failures }}
+      residents_delta_total: ${{ steps.generate_map_demand_stats.outputs.residents_delta_total }}
+      graphql_queries: ${{ steps.generate_map_demand_stats.outputs.graphql_queries }}
+      graphql_total_cost: ${{ steps.generate_map_demand_stats.outputs.graphql_total_cost }}
+      warnings_json: ${{ steps.generate_map_demand_stats.outputs.warnings_json }}
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: pnpm/action-setup@v4
+        with:
+          version: 10
+
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 22
+          cache: pnpm
+          cache-dependency-path: scripts/pnpm-lock.yaml
+
+      - name: Install script dependencies
+        run: pnpm install --frozen-lockfile
+        working-directory: scripts
+
+      - name: Generate map demand stats
+        id: generate_map_demand_stats
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        run: |
+          if [ "${{ github.event_name }}" = "workflow_dispatch" ] && [ "${{ inputs.force_demand_stats }}" = "true" ]; then
+            pnpm --dir scripts run generate-registry-demand-stats -- --force
+          else
+            pnpm --dir scripts run generate-registry-demand-stats
+          fi
+
+      - name: Build map demand stats artifact
+        run: |
+          set -euo pipefail
+          tar -cf /tmp/maps-demand-stats.tar maps/demand-stats-cache.json maps/*/manifest.json
+
+      - name: Upload map demand stats artifact
+        uses: actions/upload-artifact@v4
+        with:
+          name: maps-demand-stats
+          path: /tmp/maps-demand-stats.tar
+          if-no-files-found: error
+
+  commit:
+    needs: [generate-maps, generate-mods, generate-map-demand-stats]
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: pnpm/action-setup@v4
+        with:
+          version: 10
+
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 22
+          cache: pnpm
+          cache-dependency-path: scripts/pnpm-lock.yaml
+
+      - name: Install script dependencies
+        run: pnpm install --frozen-lockfile
+        working-directory: scripts
+
+      - name: Capture baseline download snapshots
+        run: |
+          mkdir -p /tmp/download-baseline
+          if [ -f maps/downloads.json ]; then
+            cp maps/downloads.json /tmp/download-baseline/maps-downloads.json
+          else
+            echo '{}' > /tmp/download-baseline/maps-downloads.json
+          fi
+          if [ -f mods/downloads.json ]; then
+            cp mods/downloads.json /tmp/download-baseline/mods-downloads.json
+          else
+            echo '{}' > /tmp/download-baseline/mods-downloads.json
+          fi
+
+      - name: Download map downloads artifact
+        uses: actions/download-artifact@v4
+        with:
+          name: maps-downloads
+          path: /tmp/download-artifacts/maps
+
+      - name: Download mod downloads artifact
+        uses: actions/download-artifact@v4
+        with:
+          name: mods-downloads
+          path: /tmp/download-artifacts/mods
+
+      - name: Download map demand stats artifact
+        uses: actions/download-artifact@v4
+        with:
+          name: maps-demand-stats
+          path: /tmp/download-artifacts/demand
+
+      - name: Restore generated artifacts
+        run: |
+          set -euo pipefail
+          mkdir -p maps mods
+
+          MAP_ARTIFACT_FILE="$(find /tmp/download-artifacts/maps -type f -name downloads.json | head -n 1 || true)"
+          MOD_ARTIFACT_FILE="$(find /tmp/download-artifacts/mods -type f -name downloads.json | head -n 1 || true)"
+          MAP_INTEGRITY_FILE="$(find /tmp/download-artifacts/maps -type f -name integrity.json | head -n 1 || true)"
+          MOD_INTEGRITY_FILE="$(find /tmp/download-artifacts/mods -type f -name integrity.json | head -n 1 || true)"
+          MAP_INTEGRITY_CACHE_FILE="$(find /tmp/download-artifacts/maps -type f -name integrity-cache.json | head -n 1 || true)"
+          MOD_INTEGRITY_CACHE_FILE="$(find /tmp/download-artifacts/mods -type f -name integrity-cache.json | head -n 1 || true)"
+          DEMAND_ARTIFACT_FILE="$(find /tmp/download-artifacts/demand -type f -name maps-demand-stats.tar | head -n 1 || true)"
+
+          if [ -z "${MAP_ARTIFACT_FILE}" ]; then
+            echo "Failed to locate map downloads.json in downloaded artifact."
+            exit 1
+          fi
+          if [ -z "${MOD_ARTIFACT_FILE}" ]; then
+            echo "Failed to locate mod downloads.json in downloaded artifact."
+            exit 1
+          fi
+          if [ -z "${MAP_INTEGRITY_FILE}" ]; then
+            echo "Failed to locate map integrity.json in downloaded artifact."
+            exit 1
+          fi
+          if [ -z "${MOD_INTEGRITY_FILE}" ]; then
+            echo "Failed to locate mod integrity.json in downloaded artifact."
+            exit 1
+          fi
+          if [ -z "${MAP_INTEGRITY_CACHE_FILE}" ]; then
+            echo "Failed to locate map integrity-cache.json in downloaded artifact."
+            exit 1
+          fi
+          if [ -z "${MOD_INTEGRITY_CACHE_FILE}" ]; then
+            echo "Failed to locate mod integrity-cache.json in downloaded artifact."
+            exit 1
+          fi
+          if [ -z "${DEMAND_ARTIFACT_FILE}" ]; then
+            echo "Failed to locate map demand stats tar artifact."
+            exit 1
+          fi
+
+          cp "${MAP_ARTIFACT_FILE}" maps/downloads.json
+          cp "${MOD_ARTIFACT_FILE}" mods/downloads.json
+          cp "${MAP_INTEGRITY_FILE}" maps/integrity.json
+          cp "${MOD_INTEGRITY_FILE}" mods/integrity.json
+          cp "${MAP_INTEGRITY_CACHE_FILE}" maps/integrity-cache.json
+          cp "${MOD_INTEGRITY_CACHE_FILE}" mods/integrity-cache.json
+          tar -xf "${DEMAND_ARTIFACT_FILE}" -C .
+
+      - name: Compute download change stats
+        id: download_stats
+        run: |
+          node -e '
+            const fs = require("node:fs");
+
+            function readJson(path) {
+              try {
+                return JSON.parse(fs.readFileSync(path, "utf8"));
+              } catch {
+                return {};
+              }
+            }
+
+            function toRecordMap(value) {
+              const records = new Map();
+              if (!value || typeof value !== "object") {
+                return records;
+              }
+              for (const [listingId, versions] of Object.entries(value)) {
+                if (!versions || typeof versions !== "object") {
+                  continue;
+                }
+                for (const [version, count] of Object.entries(versions)) {
+                  if (typeof count !== "number" || Number.isNaN(count)) {
+                    continue;
+                  }
+                  records.set(`${listingId}@@${version}`, count);
+                }
+              }
+              return records;
+            }
+
+            function computeDiff(oldMap, nextMap) {
+              const allKeys = new Set([...oldMap.keys(), ...nextMap.keys()]);
+              let updatedRecords = 0;
+              let newDownloads = 0;
+              let netDelta = 0;
+              const touchedListings = new Set();
+
+              for (const key of allKeys) {
+                const previous = oldMap.get(key) ?? 0;
+                const current = nextMap.get(key) ?? 0;
+                if (previous === current) {
+                  continue;
+                }
+
+                updatedRecords += 1;
+                const [listingId] = key.split("@@");
+                touchedListings.add(listingId);
+
+                const delta = current - previous;
+                if (delta > 0) {
+                  newDownloads += delta;
+                }
+                netDelta += delta;
+              }
+
+              return {
+                updatedRecords,
+                newDownloads,
+                netDelta,
+                touchedListings: touchedListings.size,
+              };
+            }
+
+            const mapsJson = readJson("maps/downloads.json");
+            const modsJson = readJson("mods/downloads.json");
+            const oldMaps = toRecordMap(readJson("/tmp/download-baseline/maps-downloads.json"));
+            const newMaps = toRecordMap(mapsJson);
+            const oldMods = toRecordMap(readJson("/tmp/download-baseline/mods-downloads.json"));
+            const newMods = toRecordMap(modsJson);
+
+            const mapStats = computeDiff(oldMaps, newMaps);
+            const modStats = computeDiff(oldMods, newMods);
+            const trackedListingsMaps = Object.keys(mapsJson).length;
+            const trackedListingsMods = Object.keys(modsJson).length;
+
+            const output = [
+              `updated_records_maps=${mapStats.updatedRecords}`,
+              `updated_records_mods=${modStats.updatedRecords}`,
+              `updated_records_total=${mapStats.updatedRecords + modStats.updatedRecords}`,
+              `new_downloads_maps=${mapStats.newDownloads}`,
+              `new_downloads_mods=${modStats.newDownloads}`,
+              `new_downloads_total=${mapStats.newDownloads + modStats.newDownloads}`,
+              `net_delta_maps=${mapStats.netDelta}`,
+              `net_delta_mods=${modStats.netDelta}`,
+              `net_delta_total=${mapStats.netDelta + modStats.netDelta}`,
+              `updated_listings_maps=${mapStats.touchedListings}`,
+              `updated_listings_mods=${modStats.touchedListings}`,
+              `updated_listings_total=${mapStats.touchedListings + modStats.touchedListings}`,
+              `tracked_listings_maps=${trackedListingsMaps}`,
+              `tracked_listings_mods=${trackedListingsMods}`,
+              `tracked_listings_total=${trackedListingsMaps + trackedListingsMods}`,
+              `tracked_versions_maps=${newMaps.size}`,
+              `tracked_versions_mods=${newMods.size}`,
+              `tracked_versions_total=${newMaps.size + newMods.size}`,
+            ].join("\n");
+
+            fs.appendFileSync(process.env.GITHUB_OUTPUT, `${output}\n`);
+          '
+
+      - name: Commit changes
+        id: commit_changes
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "github-actions[bot]@users.noreply.github.com"
+          git add maps/downloads.json mods/downloads.json maps/integrity.json mods/integrity.json maps/integrity-cache.json mods/integrity-cache.json maps/*/manifest.json maps/demand-stats-cache.json 2>/dev/null || true
+          if git diff --cached --quiet; then
+            echo "No registry analytics changes detected; skipping commit."
+            echo "committed=false" >> "$GITHUB_OUTPUT"
+            echo "commit_sha=" >> "$GITHUB_OUTPUT"
+            exit 0
+          fi
+          git commit -m "chore: regenerate registry analytics"
+          git push
+          echo "committed=true" >> "$GITHUB_OUTPUT"
+          echo "commit_sha=$(git rev-parse --short HEAD)" >> "$GITHUB_OUTPUT"
+
+      - name: Notify Discord (Downloads + Integrity)
+        if: always()
+        env:
+          DISCORD_WEBHOOK_URL: ${{ secrets.DISCORD_WEBHOOK_URL }}
+          DISCORD_TITLE: Regenerate Registry Analytics (Downloads + Integrity)
+          DISCORD_STATUS: ${{ job.status }}
+          DISCORD_RUN_URL: ${{ github.server_url }}/${{ github.repository }}/actions/runs/${{ github.run_id }}
+          UPDATED_RECORDS_TOTAL: ${{ steps.download_stats.outputs.updated_records_total }}
+          UPDATED_LISTINGS_TOTAL: ${{ steps.download_stats.outputs.updated_listings_total }}
+          NEW_DOWNLOADS_TOTAL: ${{ steps.download_stats.outputs.new_downloads_total }}
+          NET_DELTA_TOTAL: ${{ steps.download_stats.outputs.net_delta_total }}
+          UPDATED_RECORDS_MAPS: ${{ steps.download_stats.outputs.updated_records_maps }}
+          NEW_DOWNLOADS_MAPS: ${{ steps.download_stats.outputs.new_downloads_maps }}
+          NET_DELTA_MAPS: ${{ steps.download_stats.outputs.net_delta_maps }}
+          UPDATED_RECORDS_MODS: ${{ steps.download_stats.outputs.updated_records_mods }}
+          NEW_DOWNLOADS_MODS: ${{ steps.download_stats.outputs.new_downloads_mods }}
+          NET_DELTA_MODS: ${{ steps.download_stats.outputs.net_delta_mods }}
+          TRACKED_LISTINGS_TOTAL: ${{ steps.download_stats.outputs.tracked_listings_total }}
+          TRACKED_LISTINGS_MAPS: ${{ steps.download_stats.outputs.tracked_listings_maps }}
+          TRACKED_LISTINGS_MODS: ${{ steps.download_stats.outputs.tracked_listings_mods }}
+          TRACKED_VERSIONS_TOTAL: ${{ steps.download_stats.outputs.tracked_versions_total }}
+          TRACKED_VERSIONS_MAPS: ${{ steps.download_stats.outputs.tracked_versions_maps }}
+          TRACKED_VERSIONS_MODS: ${{ steps.download_stats.outputs.tracked_versions_mods }}
+          INTEGRITY_LISTINGS_MAPS: ${{ needs.generate-maps.outputs.integrity_listings }}
+          INTEGRITY_LISTINGS_MODS: ${{ needs.generate-mods.outputs.integrity_listings }}
+          INTEGRITY_VERSIONS_CHECKED_MAPS: ${{ needs.generate-maps.outputs.integrity_versions_checked }}
+          INTEGRITY_VERSIONS_CHECKED_MODS: ${{ needs.generate-mods.outputs.integrity_versions_checked }}
+          INTEGRITY_COMPLETE_VERSIONS_MAPS: ${{ needs.generate-maps.outputs.integrity_complete_versions }}
+          INTEGRITY_COMPLETE_VERSIONS_MODS: ${{ needs.generate-mods.outputs.integrity_complete_versions }}
+          INTEGRITY_INCOMPLETE_VERSIONS_MAPS: ${{ needs.generate-maps.outputs.integrity_incomplete_versions }}
+          INTEGRITY_INCOMPLETE_VERSIONS_MODS: ${{ needs.generate-mods.outputs.integrity_incomplete_versions }}
+          INTEGRITY_FILTERED_VERSIONS_MAPS: ${{ needs.generate-maps.outputs.integrity_filtered_versions }}
+          INTEGRITY_FILTERED_VERSIONS_MODS: ${{ needs.generate-mods.outputs.integrity_filtered_versions }}
+          INTEGRITY_CACHE_HITS_MAPS: ${{ needs.generate-maps.outputs.integrity_cache_hits }}
+          INTEGRITY_CACHE_HITS_MODS: ${{ needs.generate-mods.outputs.integrity_cache_hits }}
+          MAP_WARNINGS_JSON: ${{ needs.generate-maps.outputs.warnings_json }}
+          MOD_WARNINGS_JSON: ${{ needs.generate-mods.outputs.warnings_json }}
+          COMMITTED: ${{ steps.commit_changes.outputs.committed }}
+          COMMIT_SHA: ${{ steps.commit_changes.outputs.commit_sha }}
+        run: |
+          if [ -z "${DISCORD_WEBHOOK_URL}" ]; then
+            echo "DISCORD_WEBHOOK_URL not set; skipping Discord notification."
+            exit 0
+          fi
+
+          COMMIT_DISPLAY="none (no file changes)"
+          if [ "${COMMITTED}" = "true" ] && [ -n "${COMMIT_SHA}" ]; then
+            COMMIT_DISPLAY="\`${COMMIT_SHA}\`"
+          fi
+
+          MAP_WARNINGS_JSON_SAFE="${MAP_WARNINGS_JSON:-[]}"
+          MOD_WARNINGS_JSON_SAFE="${MOD_WARNINGS_JSON:-[]}"
+          export DISCORD_WARNINGS_JSON="$(jq -nc \
+            --arg maps "${MAP_WARNINGS_JSON_SAFE}" \
+            --arg mods "${MOD_WARNINGS_JSON_SAFE}" \
+            '($maps | fromjson) + ($mods | fromjson)')"
+
+          export DISCORD_LINES_JSON="$(jq -nc \
+            --arg updated_records_total "${UPDATED_RECORDS_TOTAL}" \
+            --arg updated_listings_total "${UPDATED_LISTINGS_TOTAL}" \
+            --arg tracked_listings_total "${TRACKED_LISTINGS_TOTAL}" \
+            --arg tracked_listings_maps "${TRACKED_LISTINGS_MAPS}" \
+            --arg tracked_listings_mods "${TRACKED_LISTINGS_MODS}" \
+            --arg tracked_versions_total "${TRACKED_VERSIONS_TOTAL}" \
+            --arg tracked_versions_maps "${TRACKED_VERSIONS_MAPS}" \
+            --arg tracked_versions_mods "${TRACKED_VERSIONS_MODS}" \
+            --arg integrity_listings_maps "${INTEGRITY_LISTINGS_MAPS}" \
+            --arg integrity_listings_mods "${INTEGRITY_LISTINGS_MODS}" \
+            --arg integrity_versions_checked_maps "${INTEGRITY_VERSIONS_CHECKED_MAPS}" \
+            --arg integrity_versions_checked_mods "${INTEGRITY_VERSIONS_CHECKED_MODS}" \
+            --arg integrity_complete_versions_maps "${INTEGRITY_COMPLETE_VERSIONS_MAPS}" \
+            --arg integrity_complete_versions_mods "${INTEGRITY_COMPLETE_VERSIONS_MODS}" \
+            --arg integrity_incomplete_versions_maps "${INTEGRITY_INCOMPLETE_VERSIONS_MAPS}" \
+            --arg integrity_incomplete_versions_mods "${INTEGRITY_INCOMPLETE_VERSIONS_MODS}" \
+            --arg integrity_filtered_versions_maps "${INTEGRITY_FILTERED_VERSIONS_MAPS}" \
+            --arg integrity_filtered_versions_mods "${INTEGRITY_FILTERED_VERSIONS_MODS}" \
+            --arg integrity_cache_hits_maps "${INTEGRITY_CACHE_HITS_MAPS}" \
+            --arg integrity_cache_hits_mods "${INTEGRITY_CACHE_HITS_MODS}" \
+            --arg new_downloads_total "${NEW_DOWNLOADS_TOTAL}" \
+            --arg net_delta_total "${NET_DELTA_TOTAL}" \
+            --arg updated_records_maps "${UPDATED_RECORDS_MAPS}" \
+            --arg new_downloads_maps "${NEW_DOWNLOADS_MAPS}" \
+            --arg net_delta_maps "${NET_DELTA_MAPS}" \
+            --arg updated_records_mods "${UPDATED_RECORDS_MODS}" \
+            --arg new_downloads_mods "${NEW_DOWNLOADS_MODS}" \
+            --arg net_delta_mods "${NET_DELTA_MODS}" \
+            --arg commit_display "${COMMIT_DISPLAY}" \
+            '[
+              "- **Updated records:** \($updated_records_total)",
+              "- **Listings touched:** \($updated_listings_total)",
+              "- **Tracked listings:** \($tracked_listings_total) (maps \($tracked_listings_maps), mods \($tracked_listings_mods))",
+              "- **Tracked versions:** \($tracked_versions_total) (maps \($tracked_versions_maps), mods \($tracked_versions_mods))",
+              "- **Integrity listings:** maps \($integrity_listings_maps), mods \($integrity_listings_mods)",
+              "- **Integrity versions checked:** maps \($integrity_versions_checked_maps), mods \($integrity_versions_checked_mods)",
+              "- **Integrity complete/incomplete:** maps \($integrity_complete_versions_maps)/\($integrity_incomplete_versions_maps), mods \($integrity_complete_versions_mods)/\($integrity_incomplete_versions_mods)",
+              "- **Integrity filtered versions:** maps \($integrity_filtered_versions_maps), mods \($integrity_filtered_versions_mods)",
+              "- **Integrity cache hits:** maps \($integrity_cache_hits_maps), mods \($integrity_cache_hits_mods)",
+              "- **New downloads:** +\($new_downloads_total)",
+              "- **Net delta:** \($net_delta_total)",
+              "- **Maps:** \($updated_records_maps) updated records, +\($new_downloads_maps) (net \($net_delta_maps))",
+              "- **Mods:** \($updated_records_mods) updated records, +\($new_downloads_mods) (net \($net_delta_mods))",
+              "- **Commit:** \($commit_display)"
+            ]')"
+
+          pnpm --dir scripts run notify-discord
+
+      - name: Notify Discord (Map Demand Stats)
+        if: always()
+        env:
+          DISCORD_WEBHOOK_URL: ${{ secrets.DISCORD_WEBHOOK_URL }}
+          DISCORD_TITLE: Regenerate Registry Analytics (Map Demand Stats)
+          DISCORD_STATUS: ${{ job.status }}
+          DISCORD_RUN_URL: ${{ github.server_url }}/${{ github.repository }}/actions/runs/${{ github.run_id }}
+          PROCESSED_MAPS: ${{ needs.generate-map-demand-stats.outputs.processed_maps }}
+          UPDATED_MAPS: ${{ needs.generate-map-demand-stats.outputs.updated_maps }}
+          SKIPPED_MAPS: ${{ needs.generate-map-demand-stats.outputs.skipped_maps }}
+          SKIPPED_UNCHANGED: ${{ needs.generate-map-demand-stats.outputs.skipped_unchanged }}
+          EXTRACTION_FAILURES: ${{ needs.generate-map-demand-stats.outputs.extraction_failures }}
+          RESIDENTS_DELTA_TOTAL: ${{ needs.generate-map-demand-stats.outputs.residents_delta_total }}
+          GRAPHQL_QUERIES: ${{ needs.generate-map-demand-stats.outputs.graphql_queries }}
+          GRAPHQL_TOTAL_COST: ${{ needs.generate-map-demand-stats.outputs.graphql_total_cost }}
+          WARNINGS_JSON: ${{ needs.generate-map-demand-stats.outputs.warnings_json }}
+          COMMITTED: ${{ steps.commit_changes.outputs.committed }}
+          COMMIT_SHA: ${{ steps.commit_changes.outputs.commit_sha }}
+        run: |
+          if [ -z "${DISCORD_WEBHOOK_URL}" ]; then
+            echo "DISCORD_WEBHOOK_URL not set; skipping Discord notification."
+            exit 0
+          fi
+
+          COMMIT_DISPLAY="none (no file changes)"
+          if [ "${COMMITTED}" = "true" ] && [ -n "${COMMIT_SHA}" ]; then
+            COMMIT_DISPLAY="\`${COMMIT_SHA}\`"
+          fi
+
+          export DISCORD_WARNINGS_JSON="${WARNINGS_JSON:-[]}"
+
+          export DISCORD_LINES_JSON="$(jq -nc \
+            --arg processed_maps "${PROCESSED_MAPS}" \
+            --arg updated_maps "${UPDATED_MAPS}" \
+            --arg skipped_maps "${SKIPPED_MAPS}" \
+            --arg skipped_unchanged "${SKIPPED_UNCHANGED}" \
+            --arg extraction_failures "${EXTRACTION_FAILURES}" \
+            --arg residents_delta_total "${RESIDENTS_DELTA_TOTAL}" \
+            --arg graphql_queries "${GRAPHQL_QUERIES}" \
+            --arg graphql_total_cost "${GRAPHQL_TOTAL_COST}" \
+            --arg commit_display "${COMMIT_DISPLAY}" \
+            '[
+              "- **Processed maps:** \($processed_maps)",
+              "- **Manifests updated:** \($updated_maps)",
+              "- **Skipped maps:** \($skipped_maps)",
+              "- **Skipped unchanged (sha match or <9h):** \($skipped_unchanged)",
+              "- **Extraction failures:** \($extraction_failures)",
+              "- **Residents total delta:** \($residents_delta_total)",
+              "- **GraphQL usage:** queries=\($graphql_queries), totalCost=\($graphql_total_cost)",
+              "- **Commit:** \($commit_display)"
+            ]')"
+
+          pnpm --dir scripts run notify-discord

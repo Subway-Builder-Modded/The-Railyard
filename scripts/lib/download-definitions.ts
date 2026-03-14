@@ -1,4 +1,5 @@
 import type { ManifestType } from "./manifests.js";
+import type { IntegrityOutput, IntegrityCache } from "./integrity.js";
 
 export interface ParsedReleaseAssetUrl {
   repo: string;
@@ -88,12 +89,23 @@ export interface DownloadsByListing {
 export interface GenerateDownloadsOptions {
   repoRoot: string;
   listingType: ManifestType;
+  mode?: "full" | "download-only";
   token?: string;
   fetchImpl?: typeof fetch;
 }
 
 export interface GenerateDownloadsResult {
   downloads: DownloadsByListing;
+  integrity: IntegrityOutput;
+  integrityCache: IntegrityCache;
+  stats: {
+    listings: number;
+    versions_checked: number;
+    complete_versions: number;
+    incomplete_versions: number;
+    filtered_versions: number;
+    cache_hits: number;
+  };
   warnings: string[];
   rateLimit: {
     queries: number;

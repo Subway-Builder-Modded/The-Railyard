@@ -19,9 +19,9 @@ The-Railyard/
 |       |-- publish.yml
 |       |-- update-metadata.yml
 |       |-- regenerate-index.yml
-|       |-- regenerate-downloads.yml
+|       |-- regenerate-downloads-hourly.yml
+|       |-- regenerate-registry-analytics.yml
 |       |-- cache-download-history.yml
-|       |-- regenerate-map-demand-stats.yml
 |       |-- close-invalid.yml
 |       `-- report.yml
 |-- scripts/
@@ -54,12 +54,16 @@ The-Railyard/
 |-- mods/
 |   |-- index.json
 |   |-- downloads.json
+|   |-- integrity.json
+|   |-- integrity-cache.json
 |   `-- <mod-id>/
 |       |-- manifest.json
 |       `-- gallery/
 |-- maps/
 |   |-- index.json
 |   |-- downloads.json
+|   |-- integrity.json
+|   |-- integrity-cache.json
 |   |-- demand-stats-cache.json
 |   `-- <map-id>/
 |       |-- manifest.json
@@ -99,6 +103,31 @@ Count policy:
 
 - zip assets only
 - for unresolved custom versions (non-GitHub URL, missing tag/asset), version is skipped and warning is emitted in workflow logs
+- semver versions that fail integrity checks are hard-filtered from `downloads.json`
+
+### Release integrity snapshots
+
+- `mods/integrity.json`
+- `maps/integrity.json`
+
+Each file includes:
+
+- `schema_version`
+- `generated_at`
+- `listings.<id>` with:
+- `has_complete_version`, `latest_semver_version`, `latest_semver_complete`
+- `complete_versions`, `incomplete_versions`
+- `versions.<version>` entries containing:
+- `is_complete`, `errors`
+- `required_checks`, `matched_files`
+- `source`, `fingerprint`, `checked_at`
+
+Integrity cache files:
+
+- `mods/integrity-cache.json`
+- `maps/integrity-cache.json`
+
+Caches are fingerprint-based to avoid repeated ZIP extraction for unchanged versions.
 
 ### Download history snapshots
 
@@ -263,15 +292,17 @@ map-name.zip
 
 ### Scheduled analytics flow
 
-- `regenerate-downloads.yml` runs hourly and on manual dispatch.
-- It runs map and mod download generation in separate jobs and then commits updated `downloads.json` files if changed.
+- `regenerate-downloads-hourly.yml` runs hourly and on manual dispatch.
+- It runs map/mod generation in download-only mode (no ZIP integrity pass) and commits updated `downloads.json` files if changed.
+- `regenerate-registry-analytics.yml` runs every 8 hours and on manual dispatch.
+- It runs map/mod generation in full mode and map demand stats generation, then commits updated `downloads.json` + `integrity.json` (+ integrity cache files), map manifests, and `maps/demand-stats-cache.json` if changed.
+- It emits two Discord summaries in a single run (downloads/integrity and map demand stats).
 - Uses GitHub GraphQL `ReleaseAsset.downloadCount` with `GITHUB_TOKEN` by default (`GH_DOWNLOADS_TOKEN` optional override).
 - `cache-download-history.yml` runs daily and on manual dispatch.
 - It snapshots current `maps/downloads.json` + `mods/downloads.json` with indexes into `history/snapshot_YYYY_MM_DD.json`.
 - It computes `net_downloads` against the previous snapshot for trend and popularity analysis.
-- `regenerate-map-demand-stats.yml` runs every 8 hours and on manual dispatch.
-- It refreshes map demand-derived metadata in manifests and updates `maps/demand-stats-cache.json`.
-- Skips ZIP extraction when source fingerprints are unchanged:
+- Map demand stats subflow (inside `regenerate-registry-analytics.yml`) refreshes demand-derived metadata in manifests and updates `maps/demand-stats-cache.json`.
+- It skips ZIP extraction when source fingerprints are unchanged:
 - For `sha256:*` fingerprints, skip regardless of age.
 - For other fingerprints, skip when last checked within 9 hours.
 - Reason for non-`sha256` fallback:
@@ -284,7 +315,7 @@ map-name.zip
 - `create-listing.ts`: creates new manifests and gallery files.
 - `update-listing.ts`: applies manifest metadata updates.
 - `regenerate-indexes.ts`: reindexes listings.
-- `generate-downloads.ts`: generates `maps/downloads.json` and `mods/downloads.json`.
+- `generate-downloads.ts`: generates downloads in `full` or `download-only` mode.
 - `generate-download-history.ts`: caches daily combined download snapshots in `history/`.
 - `generate-map-demand-stats.ts`: updates map `population`/`residents_total`/`points_count`/`population_count`.
 - `generate-map-templates.ts`: generates and verifies map issue templates.

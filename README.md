@@ -28,21 +28,41 @@ The Railyard stores metadata only - manifests, gallery images, and pointers to w
 - Verify templates are up to date:
   - `pnpm --dir scripts run check:map-templates`
 
-## Download Counts
+## Registry Analytics
 
-Hourly download count snapshots are generated into:
+Download and release-integrity snapshots are generated into:
 
 - `maps/downloads.json`
 - `mods/downloads.json`
+- `maps/integrity.json`
+- `mods/integrity.json`
 
 Local commands:
 
-- Generate both:
-  - `pnpm --dir scripts run generate-downloads`
+- Generate full registry analytics (downloads + integrity):
+  - `pnpm --dir scripts run generate-registry-analytics`
 - Generate maps only:
-  - `pnpm --dir scripts run generate-downloads:maps`
+  - `pnpm --dir scripts run generate-registry-analytics:maps`
 - Generate mods only:
-  - `pnpm --dir scripts run generate-downloads:mods`
+  - `pnpm --dir scripts run generate-registry-analytics:mods`
+- Generate maps only (download-only mode):
+  - `pnpm --dir scripts run generate-downloads:maps:download-only`
+- Generate mods only (download-only mode):
+  - `pnpm --dir scripts run generate-downloads:mods:download-only`
+- Generate map demand stats only:
+  - `pnpm --dir scripts run generate-registry-demand-stats`
+
+Integrity behavior:
+
+- Only semver versions (`vX.Y.Z` or `X.Y.Z`) are eligible for download counting.
+- Versions that fail integrity checks are excluded from `downloads.json`.
+- Non-semver versions are still recorded in `integrity.json` as incomplete.
+
+Automation:
+
+- `regenerate-downloads-hourly.yml` runs hourly in download-only mode (updates downloads only; no ZIP integrity pass).
+- `regenerate-registry-analytics.yml` runs every 8 hours in full mode (refreshes downloads + integrity + integrity cache, and map demand stats).
+- Full mode posts two Discord summaries (downloads/integrity and map demand stats) to the same webhook secret: `DISCORD_WEBHOOK_URL`.
 
 ## Download History
 
@@ -79,10 +99,11 @@ Map manifests now support auto-derived demand metrics from map ZIPs:
 Local command:
 
 - Generate/refresh map demand stats:
-  - `pnpm --dir scripts run generate-map-demand-stats`
+  - `pnpm --dir scripts run generate-registry-demand-stats`
+  - (alias) `pnpm --dir scripts run generate-map-demand-stats`
   - Force refresh all maps (ignore SHA/cache skip):
-    - `pnpm --dir scripts run generate-map-demand-stats -- --force`
+    - `pnpm --dir scripts run generate-registry-demand-stats -- --force`
   - Refresh one map by id:
-    - `pnpm --dir scripts run generate-map-demand-stats -- --id <map-id>`
+    - `pnpm --dir scripts run generate-registry-demand-stats -- --id <map-id>`
 
 For technical details, see [ARCHITECTURE.md](ARCHITECTURE.md).

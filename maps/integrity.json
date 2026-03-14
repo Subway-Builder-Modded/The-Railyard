@@ -1,0 +1,2833 @@
+{
+  "schema_version": 1,
+  "generated_at": "2026-03-14T01:35:26.089Z",
+  "listings": {
+    "amsterdam": {
+      "has_complete_version": true,
+      "latest_semver_version": "1.0.0",
+      "latest_semver_complete": true,
+      "complete_versions": [
+        "1.0.0"
+      ],
+      "incomplete_versions": [],
+      "versions": {
+        "1.0.0": {
+          "is_complete": true,
+          "errors": [],
+          "required_checks": {
+            "config_json": true,
+            "demand_data": true,
+            "buildings_index": true,
+            "roads_geojson": true,
+            "runways_taxiways_geojson": true,
+            "city_pmtiles": true
+          },
+          "matched_files": {
+            "config_json": "config.json",
+            "demand_data": "demand_data.json",
+            "buildings_index": "buildings_index.json",
+            "roads_geojson": "roads.geojson",
+            "runways_taxiways_geojson": "runways_taxiways.geojson",
+            "city_pmtiles": "AMS.pmtiles"
+          },
+          "source": {
+            "update_type": "custom",
+            "repo": "ryandicicco/subway-builder-maps",
+            "tag": "v1.0.0",
+            "asset_name": "AMS.zip",
+            "download_url": "https://github.com/ryandicicco/Subway-Builder-Maps/releases/download/v1.0.0/AMS.zip"
+          },
+          "fingerprint": "sha256:f3ce3c41fa2e1e3c4d02f7f53a07362ae0f3a85b968782a989cddb1cc0fc0f96",
+          "checked_at": "2026-03-13T23:54:03.975Z"
+        }
+      }
+    },
+    "baltimore-dc-corridor": {
+      "has_complete_version": true,
+      "latest_semver_version": "1.1.0",
+      "latest_semver_complete": true,
+      "complete_versions": [
+        "1.1.0"
+      ],
+      "incomplete_versions": [],
+      "versions": {
+        "1.1.0": {
+          "is_complete": true,
+          "errors": [],
+          "required_checks": {
+            "config_json": true,
+            "demand_data": true,
+            "buildings_index": true,
+            "roads_geojson": true,
+            "runways_taxiways_geojson": true,
+            "city_pmtiles": true
+          },
+          "matched_files": {
+            "config_json": "config.json",
+            "demand_data": "demand_data.json",
+            "buildings_index": "buildings_index.json",
+            "roads_geojson": "roads.geojson",
+            "runways_taxiways_geojson": "runways_taxiways.geojson",
+            "city_pmtiles": "DCA.pmtiles"
+          },
+          "source": {
+            "update_type": "custom",
+            "repo": "rslurry/subwaybuilder-maps",
+            "tag": "1.1.0",
+            "asset_name": "DCA.zip",
+            "download_url": "https://github.com/rslurry/subwaybuilder-maps/releases/download/1.1.0/DCA.zip"
+          },
+          "fingerprint": "sha256:d153a2fd8469ec820082f13a4891030872e3656dd6f5b4bbaa0d30e6874632aa",
+          "checked_at": "2026-03-13T23:54:03.975Z"
+        }
+      }
+    },
+    "bari": {
+      "has_complete_version": true,
+      "latest_semver_version": "1.1.0",
+      "latest_semver_complete": true,
+      "complete_versions": [
+        "1.1.0"
+      ],
+      "incomplete_versions": [],
+      "versions": {
+        "1.1.0": {
+          "is_complete": true,
+          "errors": [],
+          "required_checks": {
+            "config_json": true,
+            "demand_data": true,
+            "buildings_index": true,
+            "roads_geojson": true,
+            "runways_taxiways_geojson": true,
+            "city_pmtiles": true
+          },
+          "matched_files": {
+            "config_json": "config.json",
+            "demand_data": "demand_data.json",
+            "buildings_index": "buildings_index.json",
+            "roads_geojson": "roads.geojson",
+            "runways_taxiways_geojson": "runways_taxiways.geojson",
+            "city_pmtiles": "BAR.pmtiles"
+          },
+          "source": {
+            "update_type": "custom",
+            "repo": "maximilian284/subwaybuilder-it-maps",
+            "tag": "1.1.0",
+            "asset_name": "BAR.zip",
+            "download_url": "https://github.com/Maximilian284/subwaybuilder-it-maps/releases/download/1.1.0/BAR.zip"
+          },
+          "fingerprint": "sha256:fbe628e9901eb82cfb0a97c595e00ef02631951e2d9cb1d19947ab23a20a69c9",
+          "checked_at": "2026-03-13T23:54:03.975Z"
+        }
+      }
+    },
+    "bologna": {
+      "has_complete_version": true,
+      "latest_semver_version": "1.0.0",
+      "latest_semver_complete": true,
+      "complete_versions": [
+        "1.0.0"
+      ],
+      "incomplete_versions": [],
+      "versions": {
+        "1.0.0": {
+          "is_complete": true,
+          "errors": [],
+          "required_checks": {
+            "config_json": true,
+            "demand_data": true,
+            "buildings_index": true,
+            "roads_geojson": true,
+            "runways_taxiways_geojson": true,
+            "city_pmtiles": true
+          },
+          "matched_files": {
+            "config_json": "config.json",
+            "demand_data": "demand_data.json",
+            "buildings_index": "buildings_index.json",
+            "roads_geojson": "roads.geojson",
+            "runways_taxiways_geojson": "runways_taxiways.geojson",
+            "city_pmtiles": "BOL.pmtiles"
+          },
+          "source": {
+            "update_type": "custom",
+            "repo": "maximilian284/subwaybuilder-it-maps",
+            "tag": "1.0.0",
+            "asset_name": "BOL.zip",
+            "download_url": "https://github.com/Maximilian284/subwaybuilder-it-maps/releases/download/1.0.0/BOL.zip"
+          },
+          "fingerprint": "sha256:01780884c4c890ebfbaee6bd1395baa93bc35553c65ee1c0c002c9f740d010b1",
+          "checked_at": "2026-03-13T23:54:03.975Z"
+        }
+      }
+    },
+    "calgary": {
+      "has_complete_version": true,
+      "latest_semver_version": "1.1.3",
+      "latest_semver_complete": true,
+      "complete_versions": [
+        "1.1.3"
+      ],
+      "incomplete_versions": [
+        "1.0.1"
+      ],
+      "versions": {
+        "1.0.1": {
+          "is_complete": false,
+          "errors": [
+            "missing top-level YYC.pmtiles"
+          ],
+          "required_checks": {
+            "config_json": true,
+            "demand_data": true,
+            "buildings_index": true,
+            "roads_geojson": true,
+            "runways_taxiways_geojson": true,
+            "city_pmtiles": false
+          },
+          "matched_files": {
+            "config_json": "config.json",
+            "demand_data": "demand_data.json",
+            "buildings_index": "buildings_index.json",
+            "roads_geojson": "roads.geojson",
+            "runways_taxiways_geojson": "runways_taxiways.geojson",
+            "city_pmtiles": null
+          },
+          "source": {
+            "update_type": "custom",
+            "repo": "devenperez/subway-builder-canadian-maps",
+            "tag": "v1.0.1",
+            "asset_name": "CGY.zip",
+            "download_url": "https://github.com/devenperez/subway-builder-canadian-maps/releases/download/v1.0.1/CGY.zip"
+          },
+          "fingerprint": "sha256:e7e99a91478887748b873cf4b2a5780b076e6dff136883dbbc1224fd2bf124df",
+          "checked_at": "2026-03-13T23:54:03.975Z"
+        },
+        "1.1.3": {
+          "is_complete": true,
+          "errors": [],
+          "required_checks": {
+            "config_json": true,
+            "demand_data": true,
+            "buildings_index": true,
+            "roads_geojson": true,
+            "runways_taxiways_geojson": true,
+            "city_pmtiles": true
+          },
+          "matched_files": {
+            "config_json": "config.json",
+            "demand_data": "demand_data.json",
+            "buildings_index": "buildings_index.json",
+            "roads_geojson": "roads.geojson",
+            "runways_taxiways_geojson": "runways_taxiways.geojson",
+            "city_pmtiles": "YYC.pmtiles"
+          },
+          "source": {
+            "update_type": "custom",
+            "repo": "devenperez/subway-builder-canadian-maps",
+            "tag": "v1.1.3",
+            "asset_name": "YYC.zip",
+            "download_url": "https://github.com/devenperez/subway-builder-canadian-maps/releases/download/v1.1.3/YYC.zip"
+          },
+          "fingerprint": "sha256:147f4a279196a0b4d325335fa17644ca4a5612c581e7ccacb6ba1f33d0209cde",
+          "checked_at": "2026-03-13T23:54:03.975Z"
+        }
+      }
+    },
+    "catania": {
+      "has_complete_version": true,
+      "latest_semver_version": "1.1.0",
+      "latest_semver_complete": true,
+      "complete_versions": [
+        "1.1.0"
+      ],
+      "incomplete_versions": [],
+      "versions": {
+        "1.1.0": {
+          "is_complete": true,
+          "errors": [],
+          "required_checks": {
+            "config_json": true,
+            "demand_data": true,
+            "buildings_index": true,
+            "roads_geojson": true,
+            "runways_taxiways_geojson": true,
+            "city_pmtiles": true
+          },
+          "matched_files": {
+            "config_json": "config.json",
+            "demand_data": "demand_data.json",
+            "buildings_index": "buildings_index.json",
+            "roads_geojson": "roads.geojson",
+            "runways_taxiways_geojson": "runways_taxiways.geojson",
+            "city_pmtiles": "CAT.pmtiles"
+          },
+          "source": {
+            "update_type": "custom",
+            "repo": "maximilian284/subwaybuilder-it-maps",
+            "tag": "1.1.0",
+            "asset_name": "CAT.zip",
+            "download_url": "https://github.com/Maximilian284/subwaybuilder-it-maps/releases/download/1.1.0/CAT.zip"
+          },
+          "fingerprint": "sha256:1225725bebdbd10d01fe58ec72c7ab734f576d2df5da7753789ed8d386bfadf1",
+          "checked_at": "2026-03-13T23:54:03.975Z"
+        }
+      }
+    },
+    "colorado-ski-country": {
+      "has_complete_version": true,
+      "latest_semver_version": "1.0.0",
+      "latest_semver_complete": true,
+      "complete_versions": [
+        "1.0.0"
+      ],
+      "incomplete_versions": [],
+      "versions": {
+        "1.0.0": {
+          "is_complete": true,
+          "errors": [],
+          "required_checks": {
+            "config_json": true,
+            "demand_data": true,
+            "buildings_index": true,
+            "roads_geojson": true,
+            "runways_taxiways_geojson": true,
+            "city_pmtiles": true
+          },
+          "matched_files": {
+            "config_json": "config.json",
+            "demand_data": "demand_data.json",
+            "buildings_index": "buildings_index.json",
+            "roads_geojson": "roads.geojson",
+            "runways_taxiways_geojson": "runways_taxiways.geojson",
+            "city_pmtiles": "EGE.pmtiles"
+          },
+          "source": {
+            "update_type": "github",
+            "repo": "soccerjonj/colorado-ski-country",
+            "tag": "1.0.0",
+            "asset_name": "Colorado-Ski-Country-Railway.zip",
+            "download_url": "https://github.com/soccerjonj/Colorado-Ski-Country/releases/download/1.0.0/Colorado-Ski-Country-Railway.zip"
+          },
+          "fingerprint": "github:soccerjonj/colorado-ski-country:1.0.0:Colorado-Ski-Country-Railway.zip",
+          "checked_at": "2026-03-13T23:54:03.975Z"
+        }
+      }
+    },
+    "dublin": {
+      "has_complete_version": true,
+      "latest_semver_version": "v1.1.0",
+      "latest_semver_complete": true,
+      "complete_versions": [
+        "v1.1.0",
+        "v1.0.0"
+      ],
+      "incomplete_versions": [],
+      "versions": {
+        "v1.0.0": {
+          "is_complete": true,
+          "errors": [],
+          "required_checks": {
+            "config_json": true,
+            "demand_data": true,
+            "buildings_index": true,
+            "roads_geojson": true,
+            "runways_taxiways_geojson": true,
+            "city_pmtiles": true
+          },
+          "matched_files": {
+            "config_json": "config.json",
+            "demand_data": "demand_data.json",
+            "buildings_index": "buildings_index.json",
+            "roads_geojson": "roads.geojson",
+            "runways_taxiways_geojson": "runways_taxiways.geojson",
+            "city_pmtiles": "DUB.pmtiles"
+          },
+          "source": {
+            "update_type": "github",
+            "repo": "kronifer/sb-dublin-map",
+            "tag": "v1.0.0",
+            "asset_name": "dublin.zip",
+            "download_url": "https://github.com/Kronifer/sb-dublin-map/releases/download/v1.0.0/dublin.zip"
+          },
+          "fingerprint": "github:kronifer/sb-dublin-map:v1.0.0:dublin.zip",
+          "checked_at": "2026-03-13T23:54:03.975Z"
+        },
+        "v1.1.0": {
+          "is_complete": true,
+          "errors": [],
+          "required_checks": {
+            "config_json": true,
+            "demand_data": true,
+            "buildings_index": true,
+            "roads_geojson": true,
+            "runways_taxiways_geojson": true,
+            "city_pmtiles": true
+          },
+          "matched_files": {
+            "config_json": "config.json",
+            "demand_data": "demand_data.json",
+            "buildings_index": "buildings_index.json",
+            "roads_geojson": "roads.geojson",
+            "runways_taxiways_geojson": "runways_taxiways.geojson",
+            "city_pmtiles": "DUB.pmtiles"
+          },
+          "source": {
+            "update_type": "github",
+            "repo": "kronifer/sb-dublin-map",
+            "tag": "v1.1.0",
+            "asset_name": "DUB.zip",
+            "download_url": "https://github.com/Kronifer/sb-dublin-map/releases/download/v1.1.0/DUB.zip"
+          },
+          "fingerprint": "github:kronifer/sb-dublin-map:v1.1.0:DUB.zip",
+          "checked_at": "2026-03-13T23:54:03.975Z"
+        }
+      }
+    },
+    "edmonton": {
+      "has_complete_version": true,
+      "latest_semver_version": "1.1.3",
+      "latest_semver_complete": true,
+      "complete_versions": [
+        "1.1.3"
+      ],
+      "incomplete_versions": [
+        "1.0.1"
+      ],
+      "versions": {
+        "1.0.1": {
+          "is_complete": false,
+          "errors": [
+            "missing top-level YEG.pmtiles"
+          ],
+          "required_checks": {
+            "config_json": true,
+            "demand_data": true,
+            "buildings_index": true,
+            "roads_geojson": true,
+            "runways_taxiways_geojson": true,
+            "city_pmtiles": false
+          },
+          "matched_files": {
+            "config_json": "config.json",
+            "demand_data": "demand_data.json",
+            "buildings_index": "buildings_index.json",
+            "roads_geojson": "roads.geojson",
+            "runways_taxiways_geojson": "runways_taxiways.geojson",
+            "city_pmtiles": null
+          },
+          "source": {
+            "update_type": "custom",
+            "repo": "devenperez/subway-builder-canadian-maps",
+            "tag": "v1.0.1",
+            "asset_name": "EDM.zip",
+            "download_url": "https://github.com/devenperez/subway-builder-canadian-maps/releases/download/v1.0.1/EDM.zip"
+          },
+          "fingerprint": "sha256:149b449642ecd453598be4cf9bbe7268e09545d58ab025de08bbac42c9e5d8c3",
+          "checked_at": "2026-03-13T23:54:03.975Z"
+        },
+        "1.1.3": {
+          "is_complete": true,
+          "errors": [],
+          "required_checks": {
+            "config_json": true,
+            "demand_data": true,
+            "buildings_index": true,
+            "roads_geojson": true,
+            "runways_taxiways_geojson": true,
+            "city_pmtiles": true
+          },
+          "matched_files": {
+            "config_json": "config.json",
+            "demand_data": "demand_data.json",
+            "buildings_index": "buildings_index.json",
+            "roads_geojson": "roads.geojson",
+            "runways_taxiways_geojson": "runways_taxiways.geojson",
+            "city_pmtiles": "YEG.pmtiles"
+          },
+          "source": {
+            "update_type": "custom",
+            "repo": "devenperez/subway-builder-canadian-maps",
+            "tag": "v1.1.3",
+            "asset_name": "YEG.zip",
+            "download_url": "https://github.com/devenperez/subway-builder-canadian-maps/releases/download/v1.1.3/YEG.zip"
+          },
+          "fingerprint": "sha256:eb0f18d3e3241f40a99bb2d26e5bcb5ea2d4ac43c86a0dd91f237b53658085f2",
+          "checked_at": "2026-03-13T23:54:03.975Z"
+        }
+      }
+    },
+    "florence": {
+      "has_complete_version": true,
+      "latest_semver_version": "1.0.0",
+      "latest_semver_complete": true,
+      "complete_versions": [
+        "1.0.0"
+      ],
+      "incomplete_versions": [],
+      "versions": {
+        "1.0.0": {
+          "is_complete": true,
+          "errors": [],
+          "required_checks": {
+            "config_json": true,
+            "demand_data": true,
+            "buildings_index": true,
+            "roads_geojson": true,
+            "runways_taxiways_geojson": true,
+            "city_pmtiles": true
+          },
+          "matched_files": {
+            "config_json": "config.json",
+            "demand_data": "demand_data.json",
+            "buildings_index": "buildings_index.json",
+            "roads_geojson": "roads.geojson",
+            "runways_taxiways_geojson": "runways_taxiways.geojson",
+            "city_pmtiles": "FIR.pmtiles"
+          },
+          "source": {
+            "update_type": "custom",
+            "repo": "maximilian284/subwaybuilder-it-maps",
+            "tag": "1.0.0",
+            "asset_name": "FIR.zip",
+            "download_url": "https://github.com/Maximilian284/subwaybuilder-it-maps/releases/download/1.0.0/FIR.zip"
+          },
+          "fingerprint": "sha256:158a6bd6aa81804632bddaf1e9a50b82d4ab4bb62bab724bb6a306e2f4c82871",
+          "checked_at": "2026-03-13T23:54:03.975Z"
+        }
+      }
+    },
+    "genoa": {
+      "has_complete_version": true,
+      "latest_semver_version": "1.1.0",
+      "latest_semver_complete": true,
+      "complete_versions": [
+        "1.1.0"
+      ],
+      "incomplete_versions": [],
+      "versions": {
+        "1.1.0": {
+          "is_complete": true,
+          "errors": [],
+          "required_checks": {
+            "config_json": true,
+            "demand_data": true,
+            "buildings_index": true,
+            "roads_geojson": true,
+            "runways_taxiways_geojson": true,
+            "city_pmtiles": true
+          },
+          "matched_files": {
+            "config_json": "config.json",
+            "demand_data": "demand_data.json",
+            "buildings_index": "buildings_index.json",
+            "roads_geojson": "roads.geojson",
+            "runways_taxiways_geojson": "runways_taxiways.geojson",
+            "city_pmtiles": "GEN.pmtiles"
+          },
+          "source": {
+            "update_type": "custom",
+            "repo": "maximilian284/subwaybuilder-it-maps",
+            "tag": "1.1.0",
+            "asset_name": "GEN.zip",
+            "download_url": "https://github.com/Maximilian284/subwaybuilder-it-maps/releases/download/1.1.0/GEN.zip"
+          },
+          "fingerprint": "sha256:326e921c811647ae6bce1c7a6aefef2a1e7f1df4ebb56b5eb568a5eefca0b951",
+          "checked_at": "2026-03-13T23:54:03.975Z"
+        }
+      }
+    },
+    "greater-baltimore": {
+      "has_complete_version": true,
+      "latest_semver_version": "1.1.0",
+      "latest_semver_complete": true,
+      "complete_versions": [
+        "1.1.0"
+      ],
+      "incomplete_versions": [],
+      "versions": {
+        "1.1.0": {
+          "is_complete": true,
+          "errors": [],
+          "required_checks": {
+            "config_json": true,
+            "demand_data": true,
+            "buildings_index": true,
+            "roads_geojson": true,
+            "runways_taxiways_geojson": true,
+            "city_pmtiles": true
+          },
+          "matched_files": {
+            "config_json": "config.json",
+            "demand_data": "demand_data.json",
+            "buildings_index": "buildings_index.json",
+            "roads_geojson": "roads.geojson",
+            "runways_taxiways_geojson": "runways_taxiways.geojson",
+            "city_pmtiles": "BWI.pmtiles"
+          },
+          "source": {
+            "update_type": "custom",
+            "repo": "rslurry/subwaybuilder-maps",
+            "tag": "1.1.0",
+            "asset_name": "BWI.zip",
+            "download_url": "https://github.com/rslurry/subwaybuilder-maps/releases/download/1.1.0/BWI.zip"
+          },
+          "fingerprint": "sha256:83309c193d6a7782a38a280d51aab996bfecd9665fe1d358c80e1b0e3d8ad5e2",
+          "checked_at": "2026-03-13T23:54:03.975Z"
+        }
+      }
+    },
+    "jacksonville": {
+      "has_complete_version": true,
+      "latest_semver_version": "1.0.0",
+      "latest_semver_complete": true,
+      "complete_versions": [
+        "1.0.0"
+      ],
+      "incomplete_versions": [],
+      "versions": {
+        "1.0.0": {
+          "is_complete": true,
+          "errors": [],
+          "required_checks": {
+            "config_json": true,
+            "demand_data": true,
+            "buildings_index": true,
+            "roads_geojson": true,
+            "runways_taxiways_geojson": true,
+            "city_pmtiles": true
+          },
+          "matched_files": {
+            "config_json": "config.json",
+            "demand_data": "demand_data.json",
+            "buildings_index": "buildings_index.json",
+            "roads_geojson": "roads.geojson",
+            "runways_taxiways_geojson": "runways_taxiways.geojson",
+            "city_pmtiles": "JAX.pmtiles"
+          },
+          "source": {
+            "update_type": "custom",
+            "repo": "rslurry/subwaybuilder-maps",
+            "tag": "1.1.0",
+            "asset_name": "JAX.zip",
+            "download_url": "https://github.com/rslurry/subwaybuilder-maps/releases/download/1.1.0/JAX.zip"
+          },
+          "fingerprint": "sha256:a2dcc37a08f5a857ed92f45f8e45332d7c30e052cead007299cc2b8ddca83795",
+          "checked_at": "2026-03-13T23:54:03.975Z"
+        }
+      }
+    },
+    "jerusalem": {
+      "has_complete_version": true,
+      "latest_semver_version": "v0.3.1",
+      "latest_semver_complete": true,
+      "complete_versions": [
+        "v0.3.1"
+      ],
+      "incomplete_versions": [
+        "v0.3.0",
+        "v0.2.0"
+      ],
+      "versions": {
+        "v0.2.0": {
+          "is_complete": false,
+          "errors": [
+            "asset 'JLM.zip': missing top-level JER.pmtiles"
+          ],
+          "required_checks": {},
+          "matched_files": {},
+          "source": {
+            "update_type": "github",
+            "repo": "barkuperman/jerusalem-sb-map",
+            "tag": "v0.2.0"
+          },
+          "fingerprint": "github:barkuperman/jerusalem-sb-map:v0.2.0:JLM.zip",
+          "checked_at": "2026-03-13T23:54:03.975Z"
+        },
+        "v0.3.0": {
+          "is_complete": false,
+          "errors": [
+            "asset 'JLM.zip': missing top-level JER.pmtiles"
+          ],
+          "required_checks": {},
+          "matched_files": {},
+          "source": {
+            "update_type": "github",
+            "repo": "barkuperman/jerusalem-sb-map",
+            "tag": "v0.3.0"
+          },
+          "fingerprint": "github:barkuperman/jerusalem-sb-map:v0.3.0:JLM.zip",
+          "checked_at": "2026-03-13T23:54:03.975Z"
+        },
+        "v0.3.1": {
+          "is_complete": true,
+          "errors": [],
+          "required_checks": {
+            "config_json": true,
+            "demand_data": true,
+            "buildings_index": true,
+            "roads_geojson": true,
+            "runways_taxiways_geojson": true,
+            "city_pmtiles": true
+          },
+          "matched_files": {
+            "config_json": "config.json",
+            "demand_data": "demand_data.json",
+            "buildings_index": "buildings_index.json",
+            "roads_geojson": "roads.geojson",
+            "runways_taxiways_geojson": "runways_taxiways.geojson",
+            "city_pmtiles": "JER.pmtiles"
+          },
+          "source": {
+            "update_type": "github",
+            "repo": "barkuperman/jerusalem-sb-map",
+            "tag": "v0.3.1",
+            "asset_name": "JER.zip",
+            "download_url": "https://github.com/BarKuperman/jerusalem-sb-map/releases/download/v0.3.1/JER.zip"
+          },
+          "fingerprint": "github:barkuperman/jerusalem-sb-map:v0.3.1:JER.zip",
+          "checked_at": "2026-03-13T23:54:03.975Z"
+        }
+      }
+    },
+    "knoxville": {
+      "has_complete_version": true,
+      "latest_semver_version": "1.1.0",
+      "latest_semver_complete": true,
+      "complete_versions": [
+        "1.1.0"
+      ],
+      "incomplete_versions": [],
+      "versions": {
+        "1.1.0": {
+          "is_complete": true,
+          "errors": [],
+          "required_checks": {
+            "config_json": true,
+            "demand_data": true,
+            "buildings_index": true,
+            "roads_geojson": true,
+            "runways_taxiways_geojson": true,
+            "city_pmtiles": true
+          },
+          "matched_files": {
+            "config_json": "config.json",
+            "demand_data": "demand_data.json",
+            "buildings_index": "buildings_index.json",
+            "roads_geojson": "roads.geojson",
+            "runways_taxiways_geojson": "runways_taxiways.geojson",
+            "city_pmtiles": "KNOX.pmtiles"
+          },
+          "source": {
+            "update_type": "custom",
+            "repo": "rslurry/subwaybuilder-maps",
+            "tag": "1.1.0",
+            "asset_name": "KNOX.zip",
+            "download_url": "https://github.com/rslurry/subwaybuilder-maps/releases/download/1.1.0/KNOX.zip"
+          },
+          "fingerprint": "sha256:31d89963dfb04413e548b493ff0fb4a326215071832077e7c2cb96d8978ef59c",
+          "checked_at": "2026-03-13T23:54:03.975Z"
+        }
+      }
+    },
+    "louisville": {
+      "has_complete_version": true,
+      "latest_semver_version": "1.0.0",
+      "latest_semver_complete": true,
+      "complete_versions": [
+        "1.0.0"
+      ],
+      "incomplete_versions": [],
+      "versions": {
+        "1.0.0": {
+          "is_complete": true,
+          "errors": [],
+          "required_checks": {
+            "config_json": true,
+            "demand_data": true,
+            "buildings_index": true,
+            "roads_geojson": true,
+            "runways_taxiways_geojson": true,
+            "city_pmtiles": true
+          },
+          "matched_files": {
+            "config_json": "config.json",
+            "demand_data": "demand_data.json",
+            "buildings_index": "buildings_index.json",
+            "roads_geojson": "roads.geojson",
+            "runways_taxiways_geojson": "runways_taxiways.geojson",
+            "city_pmtiles": "SDF.pmtiles"
+          },
+          "source": {
+            "update_type": "github",
+            "repo": "soccerjonj/louisville",
+            "tag": "1.0.0",
+            "asset_name": "Louisville-Railyard.zip",
+            "download_url": "https://github.com/soccerjonj/Louisville/releases/download/1.0.0/Louisville-Railyard.zip"
+          },
+          "fingerprint": "github:soccerjonj/louisville:1.0.0:Louisville-Railyard.zip",
+          "checked_at": "2026-03-13T23:54:03.975Z"
+        }
+      }
+    },
+    "memphis": {
+      "has_complete_version": true,
+      "latest_semver_version": "1.1.0",
+      "latest_semver_complete": true,
+      "complete_versions": [
+        "1.1.0"
+      ],
+      "incomplete_versions": [],
+      "versions": {
+        "1.1.0": {
+          "is_complete": true,
+          "errors": [],
+          "required_checks": {
+            "config_json": true,
+            "demand_data": true,
+            "buildings_index": true,
+            "roads_geojson": true,
+            "runways_taxiways_geojson": true,
+            "city_pmtiles": true
+          },
+          "matched_files": {
+            "config_json": "config.json",
+            "demand_data": "demand_data.json",
+            "buildings_index": "buildings_index.json",
+            "roads_geojson": "roads.geojson",
+            "runways_taxiways_geojson": "runways_taxiways.geojson",
+            "city_pmtiles": "MEM.pmtiles"
+          },
+          "source": {
+            "update_type": "custom",
+            "repo": "rslurry/subwaybuilder-maps",
+            "tag": "1.1.0",
+            "asset_name": "MEM.zip",
+            "download_url": "https://github.com/rslurry/subwaybuilder-maps/releases/download/1.1.0/MEM.zip"
+          },
+          "fingerprint": "sha256:87d8f1440c45def305cb017f6c7f4875d15f00014c5bb4700f16ede557162bed",
+          "checked_at": "2026-03-13T23:54:03.975Z"
+        }
+      }
+    },
+    "mfn-hamptonroads": {
+      "has_complete_version": true,
+      "latest_semver_version": "1.0.0",
+      "latest_semver_complete": true,
+      "complete_versions": [
+        "1.0.0"
+      ],
+      "incomplete_versions": [],
+      "versions": {
+        "1.0.0": {
+          "is_complete": true,
+          "errors": [],
+          "required_checks": {
+            "config_json": true,
+            "demand_data": true,
+            "buildings_index": true,
+            "roads_geojson": true,
+            "runways_taxiways_geojson": true,
+            "city_pmtiles": true
+          },
+          "matched_files": {
+            "config_json": "config.json",
+            "demand_data": "demand_data.json",
+            "buildings_index": "buildings_index.json",
+            "roads_geojson": "roads.geojson",
+            "runways_taxiways_geojson": "runways_taxiways.geojson",
+            "city_pmtiles": "ORF.pmtiles"
+          },
+          "source": {
+            "update_type": "github",
+            "repo": "crumpetime/sb-maps-orf",
+            "tag": "1.0.0",
+            "asset_name": "ORF.zip",
+            "download_url": "https://github.com/crumpetime/sb-maps-orf/releases/download/1.0.0/ORF.zip"
+          },
+          "fingerprint": "github:crumpetime/sb-maps-orf:1.0.0:ORF.zip",
+          "checked_at": "2026-03-13T23:54:03.975Z"
+        }
+      }
+    },
+    "mfn-hong-kong": {
+      "has_complete_version": true,
+      "latest_semver_version": "0.4.0",
+      "latest_semver_complete": true,
+      "complete_versions": [
+        "0.4.0",
+        "0.3.0"
+      ],
+      "incomplete_versions": [],
+      "versions": {
+        "0.3.0": {
+          "is_complete": true,
+          "errors": [],
+          "required_checks": {
+            "config_json": true,
+            "demand_data": true,
+            "buildings_index": true,
+            "roads_geojson": true,
+            "runways_taxiways_geojson": true,
+            "city_pmtiles": true
+          },
+          "matched_files": {
+            "config_json": "config.json",
+            "demand_data": "demand_data.json",
+            "buildings_index": "buildings_index.json",
+            "roads_geojson": "roads.geojson",
+            "runways_taxiways_geojson": "runways_taxiways.geojson",
+            "city_pmtiles": "HKG.pmtiles"
+          },
+          "source": {
+            "update_type": "github",
+            "repo": "crumpetime/sb-maps-hkg",
+            "tag": "0.3.0",
+            "asset_name": "HKG.zip",
+            "download_url": "https://github.com/crumpetime/sb-maps-hkg/releases/download/0.3.0/HKG.zip"
+          },
+          "fingerprint": "github:crumpetime/sb-maps-hkg:0.3.0:HKG.zip",
+          "checked_at": "2026-03-13T23:54:03.975Z"
+        },
+        "0.4.0": {
+          "is_complete": true,
+          "errors": [],
+          "required_checks": {
+            "config_json": true,
+            "demand_data": true,
+            "buildings_index": true,
+            "roads_geojson": true,
+            "runways_taxiways_geojson": true,
+            "city_pmtiles": true
+          },
+          "matched_files": {
+            "config_json": "config.json",
+            "demand_data": "demand_data.json",
+            "buildings_index": "buildings_index.json",
+            "roads_geojson": "roads.geojson",
+            "runways_taxiways_geojson": "runways_taxiways.geojson",
+            "city_pmtiles": "HKG.pmtiles"
+          },
+          "source": {
+            "update_type": "github",
+            "repo": "crumpetime/sb-maps-hkg",
+            "tag": "0.4.0",
+            "asset_name": "HKG.zip",
+            "download_url": "https://github.com/crumpetime/sb-maps-hkg/releases/download/0.4.0/HKG.zip"
+          },
+          "fingerprint": "github:crumpetime/sb-maps-hkg:0.4.0:HKG.zip",
+          "checked_at": "2026-03-13T23:54:03.975Z"
+        },
+        "railyard": {
+          "is_complete": false,
+          "errors": [
+            "non-semver release tag 'railyard'"
+          ],
+          "required_checks": {},
+          "matched_files": {},
+          "source": {
+            "update_type": "github",
+            "repo": "crumpetime/sb-maps-hkg",
+            "tag": "railyard"
+          },
+          "fingerprint": "github:crumpetime/sb-maps-hkg:railyard:HKG.zip",
+          "checked_at": "2026-03-13T23:54:03.975Z"
+        }
+      }
+    },
+    "mfn-northwestar": {
+      "has_complete_version": true,
+      "latest_semver_version": "1.0.0",
+      "latest_semver_complete": true,
+      "complete_versions": [
+        "1.0.0"
+      ],
+      "incomplete_versions": [],
+      "versions": {
+        "1.0.0": {
+          "is_complete": true,
+          "errors": [],
+          "required_checks": {
+            "config_json": true,
+            "demand_data": true,
+            "buildings_index": true,
+            "roads_geojson": true,
+            "runways_taxiways_geojson": true,
+            "city_pmtiles": true
+          },
+          "matched_files": {
+            "config_json": "config.json",
+            "demand_data": "demand_data.json",
+            "buildings_index": "buildings_index.json",
+            "roads_geojson": "roads.geojson",
+            "runways_taxiways_geojson": "runways_taxiways.geojson",
+            "city_pmtiles": "XNA.pmtiles"
+          },
+          "source": {
+            "update_type": "github",
+            "repo": "crumpetime/sb-maps-xna",
+            "tag": "1.0.0",
+            "asset_name": "XNA.zip",
+            "download_url": "https://github.com/crumpetime/sb-maps-xna/releases/download/1.0.0/XNA.zip"
+          },
+          "fingerprint": "github:crumpetime/sb-maps-xna:1.0.0:XNA.zip",
+          "checked_at": "2026-03-13T23:54:03.975Z"
+        }
+      }
+    },
+    "milan": {
+      "has_complete_version": true,
+      "latest_semver_version": "1.1.0",
+      "latest_semver_complete": true,
+      "complete_versions": [
+        "1.1.0"
+      ],
+      "incomplete_versions": [],
+      "versions": {
+        "1.1.0": {
+          "is_complete": true,
+          "errors": [],
+          "required_checks": {
+            "config_json": true,
+            "demand_data": true,
+            "buildings_index": true,
+            "roads_geojson": true,
+            "runways_taxiways_geojson": true,
+            "city_pmtiles": true
+          },
+          "matched_files": {
+            "config_json": "config.json",
+            "demand_data": "demand_data.json",
+            "buildings_index": "buildings_index.json",
+            "roads_geojson": "roads.geojson",
+            "runways_taxiways_geojson": "runways_taxiways.geojson",
+            "city_pmtiles": "MIL.pmtiles"
+          },
+          "source": {
+            "update_type": "custom",
+            "repo": "maximilian284/subwaybuilder-it-maps",
+            "tag": "1.1.0",
+            "asset_name": "MIL.zip",
+            "download_url": "https://github.com/Maximilian284/subwaybuilder-it-maps/releases/download/1.1.0/MIL.zip"
+          },
+          "fingerprint": "sha256:4efc7f7986a0a1e920e479e956170ba0015fe50934c061bebbfe10a0a31b1026",
+          "checked_at": "2026-03-13T23:54:03.975Z"
+        }
+      }
+    },
+    "montreal": {
+      "has_complete_version": true,
+      "latest_semver_version": "1.1.3",
+      "latest_semver_complete": true,
+      "complete_versions": [
+        "1.1.3"
+      ],
+      "incomplete_versions": [
+        "1.0.1"
+      ],
+      "versions": {
+        "1.0.1": {
+          "is_complete": false,
+          "errors": [
+            "missing top-level YUL.pmtiles"
+          ],
+          "required_checks": {
+            "config_json": true,
+            "demand_data": true,
+            "buildings_index": true,
+            "roads_geojson": true,
+            "runways_taxiways_geojson": true,
+            "city_pmtiles": false
+          },
+          "matched_files": {
+            "config_json": "config.json",
+            "demand_data": "demand_data.json",
+            "buildings_index": "buildings_index.json",
+            "roads_geojson": "roads.geojson",
+            "runways_taxiways_geojson": "runways_taxiways.geojson",
+            "city_pmtiles": null
+          },
+          "source": {
+            "update_type": "custom",
+            "repo": "devenperez/subway-builder-canadian-maps",
+            "tag": "v1.0.1",
+            "asset_name": "MON.zip",
+            "download_url": "https://github.com/devenperez/subway-builder-canadian-maps/releases/download/v1.0.1/MON.zip"
+          },
+          "fingerprint": "sha256:86c47eb58306f8fe7eb5a55198ca7f8e2e69a20b61e441d18e93a2ec15b0979c",
+          "checked_at": "2026-03-13T23:54:03.975Z"
+        },
+        "1.1.3": {
+          "is_complete": true,
+          "errors": [],
+          "required_checks": {
+            "config_json": true,
+            "demand_data": true,
+            "buildings_index": true,
+            "roads_geojson": true,
+            "runways_taxiways_geojson": true,
+            "city_pmtiles": true
+          },
+          "matched_files": {
+            "config_json": "config.json",
+            "demand_data": "demand_data.json",
+            "buildings_index": "buildings_index.json",
+            "roads_geojson": "roads.geojson",
+            "runways_taxiways_geojson": "runways_taxiways.geojson",
+            "city_pmtiles": "YUL.pmtiles"
+          },
+          "source": {
+            "update_type": "custom",
+            "repo": "devenperez/subway-builder-canadian-maps",
+            "tag": "v1.1.3",
+            "asset_name": "YUL.zip",
+            "download_url": "https://github.com/devenperez/subway-builder-canadian-maps/releases/download/v1.1.3/YUL.zip"
+          },
+          "fingerprint": "sha256:97a0f08ea48b9c1109b59a736212217593117c21486627bf997fc4575b9aac05",
+          "checked_at": "2026-03-13T23:54:03.975Z"
+        }
+      }
+    },
+    "naples": {
+      "has_complete_version": true,
+      "latest_semver_version": "1.1.0",
+      "latest_semver_complete": true,
+      "complete_versions": [
+        "1.1.0"
+      ],
+      "incomplete_versions": [],
+      "versions": {
+        "1.1.0": {
+          "is_complete": true,
+          "errors": [],
+          "required_checks": {
+            "config_json": true,
+            "demand_data": true,
+            "buildings_index": true,
+            "roads_geojson": true,
+            "runways_taxiways_geojson": true,
+            "city_pmtiles": true
+          },
+          "matched_files": {
+            "config_json": "config.json",
+            "demand_data": "demand_data.json",
+            "buildings_index": "buildings_index.json",
+            "roads_geojson": "roads.geojson",
+            "runways_taxiways_geojson": "runways_taxiways.geojson",
+            "city_pmtiles": "NAP.pmtiles"
+          },
+          "source": {
+            "update_type": "custom",
+            "repo": "maximilian284/subwaybuilder-it-maps",
+            "tag": "1.1.0",
+            "asset_name": "NAP.zip",
+            "download_url": "https://github.com/Maximilian284/subwaybuilder-it-maps/releases/download/1.1.0/NAP.zip"
+          },
+          "fingerprint": "sha256:ba32780d4a528a87132ea8b8f7d0dcb8ff495b10e12a7398cfcaad6088358518",
+          "checked_at": "2026-03-13T23:54:03.975Z"
+        }
+      }
+    },
+    "nashville": {
+      "has_complete_version": true,
+      "latest_semver_version": "2.0.0",
+      "latest_semver_complete": true,
+      "complete_versions": [
+        "2.0.0"
+      ],
+      "incomplete_versions": [],
+      "versions": {
+        "1.0": {
+          "is_complete": false,
+          "errors": [
+            "non-semver release tag '1.0'"
+          ],
+          "required_checks": {},
+          "matched_files": {},
+          "source": {
+            "update_type": "github",
+            "repo": "soccerjonj/nashville",
+            "tag": "1.0"
+          },
+          "fingerprint": "github:soccerjonj/nashville:1.0:no-zip",
+          "checked_at": "2026-03-13T23:54:03.975Z"
+        },
+        "2.0.0": {
+          "is_complete": true,
+          "errors": [],
+          "required_checks": {
+            "config_json": true,
+            "demand_data": true,
+            "buildings_index": true,
+            "roads_geojson": true,
+            "runways_taxiways_geojson": true,
+            "city_pmtiles": true
+          },
+          "matched_files": {
+            "config_json": "config.json",
+            "demand_data": "demand_data.json",
+            "buildings_index": "buildings_index.json",
+            "roads_geojson": "roads.geojson",
+            "runways_taxiways_geojson": "runways_taxiways.geojson",
+            "city_pmtiles": "BNA.pmtiles"
+          },
+          "source": {
+            "update_type": "github",
+            "repo": "soccerjonj/nashville",
+            "tag": "2.0.0",
+            "asset_name": "Nashville-Railway.zip",
+            "download_url": "https://github.com/soccerjonj/Nashville/releases/download/2.0.0/Nashville-Railway.zip"
+          },
+          "fingerprint": "github:soccerjonj/nashville:2.0.0:Nashville-Railway.zip",
+          "checked_at": "2026-03-13T23:54:03.975Z"
+        }
+      }
+    },
+    "orange-county": {
+      "has_complete_version": true,
+      "latest_semver_version": "1.0.3",
+      "latest_semver_complete": true,
+      "complete_versions": [
+        "1.0.3"
+      ],
+      "incomplete_versions": [],
+      "versions": {
+        "1.0.3": {
+          "is_complete": true,
+          "errors": [],
+          "required_checks": {
+            "config_json": true,
+            "demand_data": true,
+            "buildings_index": true,
+            "roads_geojson": true,
+            "runways_taxiways_geojson": true,
+            "city_pmtiles": true
+          },
+          "matched_files": {
+            "config_json": "config.json",
+            "demand_data": "demand_data.json",
+            "buildings_index": "buildings_index.json",
+            "roads_geojson": "roads.geojson",
+            "runways_taxiways_geojson": "runways_taxiways.geojson",
+            "city_pmtiles": "OC.pmtiles"
+          },
+          "source": {
+            "update_type": "custom",
+            "repo": "rslurry/subwaybuilder-maps",
+            "tag": "1.1.0",
+            "asset_name": "OC.zip",
+            "download_url": "https://github.com/rslurry/subwaybuilder-maps/releases/download/1.1.0/OC.zip"
+          },
+          "fingerprint": "sha256:a0a71a638c41799b47f58471cbf6b2571bccda2d84ffd79f5ed55d2bedff63d5",
+          "checked_at": "2026-03-13T23:54:03.975Z"
+        }
+      }
+    },
+    "orlando": {
+      "has_complete_version": true,
+      "latest_semver_version": "1.1.0",
+      "latest_semver_complete": true,
+      "complete_versions": [
+        "1.1.0"
+      ],
+      "incomplete_versions": [],
+      "versions": {
+        "1.1.0": {
+          "is_complete": true,
+          "errors": [],
+          "required_checks": {
+            "config_json": true,
+            "demand_data": true,
+            "buildings_index": true,
+            "roads_geojson": true,
+            "runways_taxiways_geojson": true,
+            "city_pmtiles": true
+          },
+          "matched_files": {
+            "config_json": "config.json",
+            "demand_data": "demand_data.json",
+            "buildings_index": "buildings_index.json",
+            "roads_geojson": "roads.geojson",
+            "runways_taxiways_geojson": "runways_taxiways.geojson",
+            "city_pmtiles": "MCO.pmtiles"
+          },
+          "source": {
+            "update_type": "custom",
+            "repo": "rslurry/subwaybuilder-maps",
+            "tag": "1.1.0",
+            "asset_name": "MCO.zip",
+            "download_url": "https://github.com/rslurry/subwaybuilder-maps/releases/download/1.1.0/MCO.zip"
+          },
+          "fingerprint": "sha256:a3e6897d1d89a1ef38a7d71b9e373bac3ee9a3f0c6f9e2e19bc6067c227d2275",
+          "checked_at": "2026-03-13T23:54:03.975Z"
+        }
+      }
+    },
+    "ottawa": {
+      "has_complete_version": true,
+      "latest_semver_version": "1.1.3",
+      "latest_semver_complete": true,
+      "complete_versions": [
+        "1.1.3"
+      ],
+      "incomplete_versions": [
+        "1.0.1"
+      ],
+      "versions": {
+        "1.0.1": {
+          "is_complete": false,
+          "errors": [
+            "missing top-level YOW.pmtiles"
+          ],
+          "required_checks": {
+            "config_json": true,
+            "demand_data": true,
+            "buildings_index": true,
+            "roads_geojson": true,
+            "runways_taxiways_geojson": true,
+            "city_pmtiles": false
+          },
+          "matched_files": {
+            "config_json": "config.json",
+            "demand_data": "demand_data.json",
+            "buildings_index": "buildings_index.json",
+            "roads_geojson": "roads.geojson",
+            "runways_taxiways_geojson": "runways_taxiways.geojson",
+            "city_pmtiles": null
+          },
+          "source": {
+            "update_type": "custom",
+            "repo": "devenperez/subway-builder-canadian-maps",
+            "tag": "v1.0.1",
+            "asset_name": "OTT.zip",
+            "download_url": "https://github.com/devenperez/subway-builder-canadian-maps/releases/download/v1.0.1/OTT.zip"
+          },
+          "fingerprint": "sha256:58860a472fd840be1edb8aea229955e04f71a807fa7f15fc43b356c2a37da60d",
+          "checked_at": "2026-03-13T23:54:03.975Z"
+        },
+        "1.1.3": {
+          "is_complete": true,
+          "errors": [],
+          "required_checks": {
+            "config_json": true,
+            "demand_data": true,
+            "buildings_index": true,
+            "roads_geojson": true,
+            "runways_taxiways_geojson": true,
+            "city_pmtiles": true
+          },
+          "matched_files": {
+            "config_json": "config.json",
+            "demand_data": "demand_data.json",
+            "buildings_index": "buildings_index.json",
+            "roads_geojson": "roads.geojson",
+            "runways_taxiways_geojson": "runways_taxiways.geojson",
+            "city_pmtiles": "YOW.pmtiles"
+          },
+          "source": {
+            "update_type": "custom",
+            "repo": "devenperez/subway-builder-canadian-maps",
+            "tag": "v1.1.3",
+            "asset_name": "YOW.zip",
+            "download_url": "https://github.com/devenperez/subway-builder-canadian-maps/releases/download/v1.1.3/YOW.zip"
+          },
+          "fingerprint": "sha256:1ad349318afe26e27eefcec044e4376cc6e72411730805781f08f5c8ea7180c5",
+          "checked_at": "2026-03-13T23:54:03.975Z"
+        }
+      }
+    },
+    "palermo": {
+      "has_complete_version": true,
+      "latest_semver_version": "1.0.0",
+      "latest_semver_complete": true,
+      "complete_versions": [
+        "1.0.0"
+      ],
+      "incomplete_versions": [],
+      "versions": {
+        "1.0.0": {
+          "is_complete": true,
+          "errors": [],
+          "required_checks": {
+            "config_json": true,
+            "demand_data": true,
+            "buildings_index": true,
+            "roads_geojson": true,
+            "runways_taxiways_geojson": true,
+            "city_pmtiles": true
+          },
+          "matched_files": {
+            "config_json": "config.json",
+            "demand_data": "demand_data.json",
+            "buildings_index": "buildings_index.json",
+            "roads_geojson": "roads.geojson",
+            "runways_taxiways_geojson": "runways_taxiways.geojson",
+            "city_pmtiles": "PAL.pmtiles"
+          },
+          "source": {
+            "update_type": "custom",
+            "repo": "maximilian284/subwaybuilder-it-maps",
+            "tag": "1.0.0",
+            "asset_name": "PAL.zip",
+            "download_url": "https://github.com/Maximilian284/subwaybuilder-it-maps/releases/download/1.0.0/PAL.zip"
+          },
+          "fingerprint": "sha256:802eb96c23ec0b7de0dd6a1e6f0172c38d075ddac462592465a8e7ac2757d397",
+          "checked_at": "2026-03-13T23:54:03.975Z"
+        }
+      }
+    },
+    "providence": {
+      "has_complete_version": true,
+      "latest_semver_version": "1.0.0",
+      "latest_semver_complete": true,
+      "complete_versions": [
+        "1.0.0"
+      ],
+      "incomplete_versions": [],
+      "versions": {
+        "1.0.0": {
+          "is_complete": true,
+          "errors": [],
+          "required_checks": {
+            "config_json": true,
+            "demand_data": true,
+            "buildings_index": true,
+            "roads_geojson": true,
+            "runways_taxiways_geojson": true,
+            "city_pmtiles": true
+          },
+          "matched_files": {
+            "config_json": "config.json",
+            "demand_data": "demand_data.json",
+            "buildings_index": "buildings_index.json",
+            "roads_geojson": "roads.geojson",
+            "runways_taxiways_geojson": "runways_taxiways.geojson",
+            "city_pmtiles": "PVD.pmtiles"
+          },
+          "source": {
+            "update_type": "github",
+            "repo": "soccerjonj/providence",
+            "tag": "1.0.0",
+            "asset_name": "Providence-Railyard.zip",
+            "download_url": "https://github.com/soccerjonj/Providence/releases/download/1.0.0/Providence-Railyard.zip"
+          },
+          "fingerprint": "github:soccerjonj/providence:1.0.0:Providence-Railyard.zip",
+          "checked_at": "2026-03-13T23:54:03.975Z"
+        }
+      }
+    },
+    "quebec-city": {
+      "has_complete_version": true,
+      "latest_semver_version": "1.1.3",
+      "latest_semver_complete": true,
+      "complete_versions": [
+        "1.1.3"
+      ],
+      "incomplete_versions": [
+        "1.0.1"
+      ],
+      "versions": {
+        "1.0.1": {
+          "is_complete": false,
+          "errors": [
+            "missing top-level YQB.pmtiles"
+          ],
+          "required_checks": {
+            "config_json": true,
+            "demand_data": true,
+            "buildings_index": true,
+            "roads_geojson": true,
+            "runways_taxiways_geojson": true,
+            "city_pmtiles": false
+          },
+          "matched_files": {
+            "config_json": "config.json",
+            "demand_data": "demand_data.json",
+            "buildings_index": "buildings_index.json",
+            "roads_geojson": "roads.geojson",
+            "runways_taxiways_geojson": "runways_taxiways.geojson",
+            "city_pmtiles": null
+          },
+          "source": {
+            "update_type": "custom",
+            "repo": "devenperez/subway-builder-canadian-maps",
+            "tag": "v1.0.1",
+            "asset_name": "QC.zip",
+            "download_url": "https://github.com/devenperez/subway-builder-canadian-maps/releases/download/v1.0.1/QC.zip"
+          },
+          "fingerprint": "sha256:99653d4ae692af49a0761a37a535c39da02745739847975bf14faeeabd8f8673",
+          "checked_at": "2026-03-13T23:54:03.975Z"
+        },
+        "1.1.3": {
+          "is_complete": true,
+          "errors": [],
+          "required_checks": {
+            "config_json": true,
+            "demand_data": true,
+            "buildings_index": true,
+            "roads_geojson": true,
+            "runways_taxiways_geojson": true,
+            "city_pmtiles": true
+          },
+          "matched_files": {
+            "config_json": "config.json",
+            "demand_data": "demand_data.json",
+            "buildings_index": "buildings_index.json",
+            "roads_geojson": "roads.geojson",
+            "runways_taxiways_geojson": "runways_taxiways.geojson",
+            "city_pmtiles": "YQB.pmtiles"
+          },
+          "source": {
+            "update_type": "custom",
+            "repo": "devenperez/subway-builder-canadian-maps",
+            "tag": "v1.1.3",
+            "asset_name": "YQB.zip",
+            "download_url": "https://github.com/devenperez/subway-builder-canadian-maps/releases/download/v1.1.3/YQB.zip"
+          },
+          "fingerprint": "sha256:5da6b99b25f7c33abc130963f89441b5b6c60d2a75a4e7552b0fe9759efac2fc",
+          "checked_at": "2026-03-13T23:54:03.975Z"
+        }
+      }
+    },
+    "richmond": {
+      "has_complete_version": true,
+      "latest_semver_version": "1.1.0",
+      "latest_semver_complete": true,
+      "complete_versions": [
+        "1.1.0"
+      ],
+      "incomplete_versions": [],
+      "versions": {
+        "1.1.0": {
+          "is_complete": true,
+          "errors": [],
+          "required_checks": {
+            "config_json": true,
+            "demand_data": true,
+            "buildings_index": true,
+            "roads_geojson": true,
+            "runways_taxiways_geojson": true,
+            "city_pmtiles": true
+          },
+          "matched_files": {
+            "config_json": "config.json",
+            "demand_data": "demand_data.json",
+            "buildings_index": "buildings_index.json",
+            "roads_geojson": "roads.geojson",
+            "runways_taxiways_geojson": "runways_taxiways.geojson",
+            "city_pmtiles": "RIC.pmtiles"
+          },
+          "source": {
+            "update_type": "custom",
+            "repo": "rslurry/subwaybuilder-maps",
+            "tag": "1.1.0",
+            "asset_name": "RIC.zip",
+            "download_url": "https://github.com/rslurry/subwaybuilder-maps/releases/download/1.1.0/RIC.zip"
+          },
+          "fingerprint": "sha256:740281654ca081db1b326d2d7335c4069ed428d81e796db7fe3adaba3b9128ce",
+          "checked_at": "2026-03-13T23:54:03.975Z"
+        }
+      }
+    },
+    "rochester": {
+      "has_complete_version": true,
+      "latest_semver_version": "1.1.0",
+      "latest_semver_complete": true,
+      "complete_versions": [
+        "1.1.0"
+      ],
+      "incomplete_versions": [],
+      "versions": {
+        "1.1.0": {
+          "is_complete": true,
+          "errors": [],
+          "required_checks": {
+            "config_json": true,
+            "demand_data": true,
+            "buildings_index": true,
+            "roads_geojson": true,
+            "runways_taxiways_geojson": true,
+            "city_pmtiles": true
+          },
+          "matched_files": {
+            "config_json": "config.json",
+            "demand_data": "demand_data.json",
+            "buildings_index": "buildings_index.json",
+            "roads_geojson": "roads.geojson",
+            "runways_taxiways_geojson": "runways_taxiways.geojson",
+            "city_pmtiles": "ROC.pmtiles"
+          },
+          "source": {
+            "update_type": "custom",
+            "repo": "rslurry/subwaybuilder-maps",
+            "tag": "1.1.0",
+            "asset_name": "ROC.zip",
+            "download_url": "https://github.com/rslurry/subwaybuilder-maps/releases/download/1.1.0/ROC.zip"
+          },
+          "fingerprint": "sha256:09f0d2f40418f60af2eea9c26935d83e9403f35d32fd99a22de49cab8d913ba2",
+          "checked_at": "2026-03-13T23:54:03.975Z"
+        }
+      }
+    },
+    "rome": {
+      "has_complete_version": true,
+      "latest_semver_version": "1.0.0",
+      "latest_semver_complete": true,
+      "complete_versions": [
+        "1.0.0"
+      ],
+      "incomplete_versions": [],
+      "versions": {
+        "1.0.0": {
+          "is_complete": true,
+          "errors": [],
+          "required_checks": {
+            "config_json": true,
+            "demand_data": true,
+            "buildings_index": true,
+            "roads_geojson": true,
+            "runways_taxiways_geojson": true,
+            "city_pmtiles": true
+          },
+          "matched_files": {
+            "config_json": "config.json",
+            "demand_data": "demand_data.json",
+            "buildings_index": "buildings_index.json",
+            "roads_geojson": "roads.geojson",
+            "runways_taxiways_geojson": "runways_taxiways.geojson",
+            "city_pmtiles": "ROM.pmtiles"
+          },
+          "source": {
+            "update_type": "custom",
+            "repo": "maximilian284/subwaybuilder-it-maps",
+            "tag": "1.0.0",
+            "asset_name": "ROM.zip",
+            "download_url": "https://github.com/Maximilian284/subwaybuilder-it-maps/releases/download/1.0.0/ROM.zip"
+          },
+          "fingerprint": "sha256:f31ea397cc04e9104e6331a10e8a396e75a6f5f9ef87f1dd018f796d4087e7f4",
+          "checked_at": "2026-03-13T23:54:03.975Z"
+        }
+      }
+    },
+    "rotterdam-the-hague": {
+      "has_complete_version": true,
+      "latest_semver_version": "1.0.0",
+      "latest_semver_complete": true,
+      "complete_versions": [
+        "1.0.0"
+      ],
+      "incomplete_versions": [],
+      "versions": {
+        "1.0.0": {
+          "is_complete": true,
+          "errors": [],
+          "required_checks": {
+            "config_json": true,
+            "demand_data": true,
+            "buildings_index": true,
+            "roads_geojson": true,
+            "runways_taxiways_geojson": true,
+            "city_pmtiles": true
+          },
+          "matched_files": {
+            "config_json": "config.json",
+            "demand_data": "demand_data.json",
+            "buildings_index": "buildings_index.json",
+            "roads_geojson": "roads.geojson",
+            "runways_taxiways_geojson": "runways_taxiways.geojson",
+            "city_pmtiles": "RTM.pmtiles"
+          },
+          "source": {
+            "update_type": "custom",
+            "repo": "ryandicicco/subway-builder-maps",
+            "tag": "v1.0.1",
+            "asset_name": "RTM.zip",
+            "download_url": "https://github.com/ryandicicco/Subway-Builder-Maps/releases/download/v1.0.1/RTM.zip"
+          },
+          "fingerprint": "sha256:881b595ea72c64aa42316aadb08f1d432b99af7c222eadb7e8fa92e7ad302333",
+          "checked_at": "2026-03-13T23:54:03.975Z"
+        }
+      }
+    },
+    "sacramento": {
+      "has_complete_version": true,
+      "latest_semver_version": "1.0.0",
+      "latest_semver_complete": true,
+      "complete_versions": [
+        "1.0.0"
+      ],
+      "incomplete_versions": [],
+      "versions": {
+        "1.0.0": {
+          "is_complete": true,
+          "errors": [],
+          "required_checks": {
+            "config_json": true,
+            "demand_data": true,
+            "buildings_index": true,
+            "roads_geojson": true,
+            "runways_taxiways_geojson": true,
+            "city_pmtiles": true
+          },
+          "matched_files": {
+            "config_json": "config.json",
+            "demand_data": "demand_data.json",
+            "buildings_index": "buildings_index.json",
+            "roads_geojson": "roads.geojson",
+            "runways_taxiways_geojson": "runways_taxiways.geojson",
+            "city_pmtiles": "SMF.pmtiles"
+          },
+          "source": {
+            "update_type": "github",
+            "repo": "soccerjonj/sacramento",
+            "tag": "1.0.0",
+            "asset_name": "Sacramento-Railyard.zip",
+            "download_url": "https://github.com/soccerjonj/Sacramento/releases/download/1.0.0/Sacramento-Railyard.zip"
+          },
+          "fingerprint": "github:soccerjonj/sacramento:1.0.0:Sacramento-Railyard.zip",
+          "checked_at": "2026-03-13T23:54:03.975Z"
+        }
+      }
+    },
+    "san-antonio": {
+      "has_complete_version": true,
+      "latest_semver_version": "1.1.0",
+      "latest_semver_complete": true,
+      "complete_versions": [
+        "1.1.0"
+      ],
+      "incomplete_versions": [],
+      "versions": {
+        "1.1.0": {
+          "is_complete": true,
+          "errors": [],
+          "required_checks": {
+            "config_json": true,
+            "demand_data": true,
+            "buildings_index": true,
+            "roads_geojson": true,
+            "runways_taxiways_geojson": true,
+            "city_pmtiles": true
+          },
+          "matched_files": {
+            "config_json": "config.json",
+            "demand_data": "demand_data.json",
+            "buildings_index": "buildings_index.json",
+            "roads_geojson": "roads.geojson",
+            "runways_taxiways_geojson": "runways_taxiways.geojson",
+            "city_pmtiles": "SAT.pmtiles"
+          },
+          "source": {
+            "update_type": "custom",
+            "repo": "rslurry/subwaybuilder-maps",
+            "tag": "1.1.0",
+            "asset_name": "SAT.zip",
+            "download_url": "https://github.com/rslurry/subwaybuilder-maps/releases/download/1.1.0/SAT.zip"
+          },
+          "fingerprint": "sha256:78aeb78a801abaf5c9d6fcd7851d911539f946e82472bc3aee438be63e3b4b3e",
+          "checked_at": "2026-03-13T23:54:03.975Z"
+        }
+      }
+    },
+    "santa-barbara": {
+      "has_complete_version": true,
+      "latest_semver_version": "1.0.1",
+      "latest_semver_complete": true,
+      "complete_versions": [
+        "1.0.1"
+      ],
+      "incomplete_versions": [],
+      "versions": {
+        "1.0.1": {
+          "is_complete": true,
+          "errors": [],
+          "required_checks": {
+            "config_json": true,
+            "demand_data": true,
+            "buildings_index": true,
+            "roads_geojson": true,
+            "runways_taxiways_geojson": true,
+            "city_pmtiles": true
+          },
+          "matched_files": {
+            "config_json": "config.json",
+            "demand_data": "demand_data.json",
+            "buildings_index": "buildings_index.json",
+            "roads_geojson": "roads.geojson",
+            "runways_taxiways_geojson": "runways_taxiways.geojson",
+            "city_pmtiles": "SBA.pmtiles"
+          },
+          "source": {
+            "update_type": "custom",
+            "repo": "rslurry/subwaybuilder-maps",
+            "tag": "1.1.0",
+            "asset_name": "SBA.zip",
+            "download_url": "https://github.com/rslurry/subwaybuilder-maps/releases/download/1.1.0/SBA.zip"
+          },
+          "fingerprint": "sha256:8c7e15c5fa31e73dd3e9b40585fe41ae125d106bba0860a16039425ac7f3383e",
+          "checked_at": "2026-03-13T23:54:03.975Z"
+        }
+      }
+    },
+    "tampa-bay": {
+      "has_complete_version": true,
+      "latest_semver_version": "1.1.0",
+      "latest_semver_complete": true,
+      "complete_versions": [
+        "1.1.0"
+      ],
+      "incomplete_versions": [],
+      "versions": {
+        "1.1.0": {
+          "is_complete": true,
+          "errors": [],
+          "required_checks": {
+            "config_json": true,
+            "demand_data": true,
+            "buildings_index": true,
+            "roads_geojson": true,
+            "runways_taxiways_geojson": true,
+            "city_pmtiles": true
+          },
+          "matched_files": {
+            "config_json": "config.json",
+            "demand_data": "demand_data.json",
+            "buildings_index": "buildings_index.json",
+            "roads_geojson": "roads.geojson",
+            "runways_taxiways_geojson": "runways_taxiways.geojson",
+            "city_pmtiles": "TPA.pmtiles"
+          },
+          "source": {
+            "update_type": "custom",
+            "repo": "rslurry/subwaybuilder-maps",
+            "tag": "1.1.0",
+            "asset_name": "TPA.zip",
+            "download_url": "https://github.com/rslurry/subwaybuilder-maps/releases/download/1.1.0/TPA.zip"
+          },
+          "fingerprint": "sha256:c5bdc340edfa2f4127d5911951c61e0d8a1bbeb365bec161c9ca0edf11608fcc",
+          "checked_at": "2026-03-13T23:54:03.975Z"
+        }
+      }
+    },
+    "tel-aviv": {
+      "has_complete_version": true,
+      "latest_semver_version": "v2.0.0",
+      "latest_semver_complete": true,
+      "complete_versions": [
+        "v2.0.0",
+        "v1.3.0",
+        "v1.2.0"
+      ],
+      "incomplete_versions": [],
+      "versions": {
+        "v1.2.0": {
+          "is_complete": true,
+          "errors": [],
+          "required_checks": {
+            "config_json": true,
+            "demand_data": true,
+            "buildings_index": true,
+            "roads_geojson": true,
+            "runways_taxiways_geojson": true,
+            "city_pmtiles": true
+          },
+          "matched_files": {
+            "config_json": "config.json",
+            "demand_data": "demand_data.json",
+            "buildings_index": "buildings_index.json",
+            "roads_geojson": "roads.geojson",
+            "runways_taxiways_geojson": "runways_taxiways.geojson",
+            "city_pmtiles": "TLV.pmtiles"
+          },
+          "source": {
+            "update_type": "github",
+            "repo": "barkuperman/tlv-mod",
+            "tag": "v1.2.0",
+            "asset_name": "TLV.v1.2.zip",
+            "download_url": "https://github.com/BarKuperman/TLV-mod/releases/download/v1.2.0/TLV.v1.2.zip"
+          },
+          "fingerprint": "github:barkuperman/tlv-mod:v1.2.0:TLV.v1.2.zip",
+          "checked_at": "2026-03-13T23:54:03.975Z"
+        },
+        "v1.3.0": {
+          "is_complete": true,
+          "errors": [],
+          "required_checks": {
+            "config_json": true,
+            "demand_data": true,
+            "buildings_index": true,
+            "roads_geojson": true,
+            "runways_taxiways_geojson": true,
+            "city_pmtiles": true
+          },
+          "matched_files": {
+            "config_json": "config.json",
+            "demand_data": "demand_data.json",
+            "buildings_index": "buildings_index.json",
+            "roads_geojson": "roads.geojson",
+            "runways_taxiways_geojson": "runways_taxiways.geojson",
+            "city_pmtiles": "TLV.pmtiles"
+          },
+          "source": {
+            "update_type": "github",
+            "repo": "barkuperman/tlv-mod",
+            "tag": "v1.3.0",
+            "asset_name": "TLV.zip",
+            "download_url": "https://github.com/BarKuperman/TLV-mod/releases/download/v1.3.0/TLV.zip"
+          },
+          "fingerprint": "github:barkuperman/tlv-mod:v1.3.0:TLV.zip",
+          "checked_at": "2026-03-13T23:54:03.975Z"
+        },
+        "v2.0.0": {
+          "is_complete": true,
+          "errors": [],
+          "required_checks": {
+            "config_json": true,
+            "demand_data": true,
+            "buildings_index": true,
+            "roads_geojson": true,
+            "runways_taxiways_geojson": true,
+            "city_pmtiles": true
+          },
+          "matched_files": {
+            "config_json": "config.json",
+            "demand_data": "demand_data.json",
+            "buildings_index": "buildings_index.json",
+            "roads_geojson": "roads.geojson",
+            "runways_taxiways_geojson": "runways_taxiways.geojson",
+            "city_pmtiles": "TLV.pmtiles"
+          },
+          "source": {
+            "update_type": "github",
+            "repo": "barkuperman/tlv-mod",
+            "tag": "v2.0.0",
+            "asset_name": "TLV.zip",
+            "download_url": "https://github.com/BarKuperman/TLV-mod/releases/download/v2.0.0/TLV.zip"
+          },
+          "fingerprint": "github:barkuperman/tlv-mod:v2.0.0:TLV.zip",
+          "checked_at": "2026-03-13T23:54:03.975Z"
+        }
+      }
+    },
+    "toronto": {
+      "has_complete_version": true,
+      "latest_semver_version": "1.1.3",
+      "latest_semver_complete": true,
+      "complete_versions": [
+        "1.1.3"
+      ],
+      "incomplete_versions": [
+        "1.0.1"
+      ],
+      "versions": {
+        "1.0.1": {
+          "is_complete": false,
+          "errors": [
+            "missing top-level YYZ.pmtiles"
+          ],
+          "required_checks": {
+            "config_json": true,
+            "demand_data": true,
+            "buildings_index": true,
+            "roads_geojson": true,
+            "runways_taxiways_geojson": true,
+            "city_pmtiles": false
+          },
+          "matched_files": {
+            "config_json": "config.json",
+            "demand_data": "demand_data.json",
+            "buildings_index": "buildings_index.json",
+            "roads_geojson": "roads.geojson",
+            "runways_taxiways_geojson": "runways_taxiways.geojson",
+            "city_pmtiles": null
+          },
+          "source": {
+            "update_type": "custom",
+            "repo": "devenperez/subway-builder-canadian-maps",
+            "tag": "v1.0.1",
+            "asset_name": "TOR.zip",
+            "download_url": "https://github.com/devenperez/subway-builder-canadian-maps/releases/download/v1.0.1/TOR.zip"
+          },
+          "fingerprint": "sha256:b05ec954c41305a78984b7ab89ea5eb4b8e7303f3e00330ed772b3ec77c36341",
+          "checked_at": "2026-03-13T23:54:03.975Z"
+        },
+        "1.1.3": {
+          "is_complete": true,
+          "errors": [],
+          "required_checks": {
+            "config_json": true,
+            "demand_data": true,
+            "buildings_index": true,
+            "roads_geojson": true,
+            "runways_taxiways_geojson": true,
+            "city_pmtiles": true
+          },
+          "matched_files": {
+            "config_json": "config.json",
+            "demand_data": "demand_data.json",
+            "buildings_index": "buildings_index.json",
+            "roads_geojson": "roads.geojson",
+            "runways_taxiways_geojson": "runways_taxiways.geojson",
+            "city_pmtiles": "YYZ.pmtiles"
+          },
+          "source": {
+            "update_type": "custom",
+            "repo": "devenperez/subway-builder-canadian-maps",
+            "tag": "v1.1.3",
+            "asset_name": "YYZ.zip",
+            "download_url": "https://github.com/devenperez/subway-builder-canadian-maps/releases/download/v1.1.3/YYZ.zip"
+          },
+          "fingerprint": "sha256:3d5c457b599b4ee0565fdadb94ffe2ee4116eb6373159c15cc77d2add77a11a2",
+          "checked_at": "2026-03-13T23:54:03.975Z"
+        }
+      }
+    },
+    "turin": {
+      "has_complete_version": true,
+      "latest_semver_version": "1.0.0",
+      "latest_semver_complete": true,
+      "complete_versions": [
+        "1.0.0"
+      ],
+      "incomplete_versions": [],
+      "versions": {
+        "1.0.0": {
+          "is_complete": true,
+          "errors": [],
+          "required_checks": {
+            "config_json": true,
+            "demand_data": true,
+            "buildings_index": true,
+            "roads_geojson": true,
+            "runways_taxiways_geojson": true,
+            "city_pmtiles": true
+          },
+          "matched_files": {
+            "config_json": "config.json",
+            "demand_data": "demand_data.json",
+            "buildings_index": "buildings_index.json",
+            "roads_geojson": "roads.geojson",
+            "runways_taxiways_geojson": "runways_taxiways.geojson",
+            "city_pmtiles": "TOR.pmtiles"
+          },
+          "source": {
+            "update_type": "custom",
+            "repo": "maximilian284/subwaybuilder-it-maps",
+            "tag": "1.0.0",
+            "asset_name": "TOR.zip",
+            "download_url": "https://github.com/Maximilian284/subwaybuilder-it-maps/releases/download/1.0.0/TOR.zip"
+          },
+          "fingerprint": "sha256:22560682f5ae014c05dc26c33d38092eb39c49c19aa09c09aed3f1a271761b95",
+          "checked_at": "2026-03-13T23:54:03.975Z"
+        }
+      }
+    },
+    "vancouver": {
+      "has_complete_version": true,
+      "latest_semver_version": "1.1.3",
+      "latest_semver_complete": true,
+      "complete_versions": [
+        "1.1.3"
+      ],
+      "incomplete_versions": [
+        "1.0.1"
+      ],
+      "versions": {
+        "1.0.1": {
+          "is_complete": false,
+          "errors": [
+            "missing top-level YVR.pmtiles"
+          ],
+          "required_checks": {
+            "config_json": true,
+            "demand_data": true,
+            "buildings_index": true,
+            "roads_geojson": true,
+            "runways_taxiways_geojson": true,
+            "city_pmtiles": false
+          },
+          "matched_files": {
+            "config_json": "config.json",
+            "demand_data": "demand_data.json",
+            "buildings_index": "buildings_index.json",
+            "roads_geojson": "roads.geojson",
+            "runways_taxiways_geojson": "runways_taxiways.geojson",
+            "city_pmtiles": null
+          },
+          "source": {
+            "update_type": "custom",
+            "repo": "devenperez/subway-builder-canadian-maps",
+            "tag": "v1.0.1",
+            "asset_name": "VAN.zip",
+            "download_url": "https://github.com/devenperez/subway-builder-canadian-maps/releases/download/v1.0.1/VAN.zip"
+          },
+          "fingerprint": "sha256:845ce1b80e4c4c18a68337e801752017518eeb08d235c92be19ff1f65961ee0a",
+          "checked_at": "2026-03-13T23:54:03.975Z"
+        },
+        "1.1.3": {
+          "is_complete": true,
+          "errors": [],
+          "required_checks": {
+            "config_json": true,
+            "demand_data": true,
+            "buildings_index": true,
+            "roads_geojson": true,
+            "runways_taxiways_geojson": true,
+            "city_pmtiles": true
+          },
+          "matched_files": {
+            "config_json": "config.json",
+            "demand_data": "demand_data.json",
+            "buildings_index": "buildings_index.json",
+            "roads_geojson": "roads.geojson",
+            "runways_taxiways_geojson": "runways_taxiways.geojson",
+            "city_pmtiles": "YVR.pmtiles"
+          },
+          "source": {
+            "update_type": "custom",
+            "repo": "devenperez/subway-builder-canadian-maps",
+            "tag": "v1.1.3",
+            "asset_name": "YVR.zip",
+            "download_url": "https://github.com/devenperez/subway-builder-canadian-maps/releases/download/v1.1.3/YVR.zip"
+          },
+          "fingerprint": "sha256:47b36073c8dee7bca75d90358e17579db4664a33bd7928b4c3b5bd1abdfd0a1c",
+          "checked_at": "2026-03-13T23:54:03.975Z"
+        }
+      }
+    },
+    "waterloo": {
+      "has_complete_version": true,
+      "latest_semver_version": "1.0.1",
+      "latest_semver_complete": true,
+      "complete_versions": [
+        "1.0.1",
+        "1.0.0"
+      ],
+      "incomplete_versions": [],
+      "versions": {
+        "1.0.0": {
+          "is_complete": true,
+          "errors": [],
+          "required_checks": {
+            "config_json": true,
+            "demand_data": true,
+            "buildings_index": true,
+            "roads_geojson": true,
+            "runways_taxiways_geojson": true,
+            "city_pmtiles": true
+          },
+          "matched_files": {
+            "config_json": "config.json",
+            "demand_data": "demand_data.json",
+            "buildings_index": "buildings_index.json",
+            "roads_geojson": "roads.geojson",
+            "runways_taxiways_geojson": "runways_taxiways.geojson",
+            "city_pmtiles": "YKF.pmtiles"
+          },
+          "source": {
+            "update_type": "github",
+            "repo": "kronifer/sb-waterloo-map",
+            "tag": "1.0.0",
+            "asset_name": "YKF.zip",
+            "download_url": "https://github.com/Kronifer/sb-waterloo-map/releases/download/1.0.0/YKF.zip"
+          },
+          "fingerprint": "github:kronifer/sb-waterloo-map:1.0.0:YKF.zip",
+          "checked_at": "2026-03-13T23:54:03.975Z"
+        },
+        "1.0.1": {
+          "is_complete": true,
+          "errors": [],
+          "required_checks": {
+            "config_json": true,
+            "demand_data": true,
+            "buildings_index": true,
+            "roads_geojson": true,
+            "runways_taxiways_geojson": true,
+            "city_pmtiles": true
+          },
+          "matched_files": {
+            "config_json": "config.json",
+            "demand_data": "demand_data.json",
+            "buildings_index": "buildings_index.json",
+            "roads_geojson": "roads.geojson",
+            "runways_taxiways_geojson": "runways_taxiways.geojson",
+            "city_pmtiles": "YKF.pmtiles"
+          },
+          "source": {
+            "update_type": "github",
+            "repo": "kronifer/sb-waterloo-map",
+            "tag": "1.0.1",
+            "asset_name": "YKF.zip",
+            "download_url": "https://github.com/Kronifer/sb-waterloo-map/releases/download/1.0.1/YKF.zip"
+          },
+          "fingerprint": "github:kronifer/sb-waterloo-map:1.0.1:YKF.zip",
+          "checked_at": "2026-03-13T23:54:03.975Z"
+        }
+      }
+    },
+    "winnipeg": {
+      "has_complete_version": true,
+      "latest_semver_version": "1.1.3",
+      "latest_semver_complete": true,
+      "complete_versions": [
+        "1.1.3"
+      ],
+      "incomplete_versions": [
+        "1.0.1"
+      ],
+      "versions": {
+        "1.0.1": {
+          "is_complete": false,
+          "errors": [
+            "missing top-level YWG.pmtiles"
+          ],
+          "required_checks": {
+            "config_json": true,
+            "demand_data": true,
+            "buildings_index": true,
+            "roads_geojson": true,
+            "runways_taxiways_geojson": true,
+            "city_pmtiles": false
+          },
+          "matched_files": {
+            "config_json": "config.json",
+            "demand_data": "demand_data.json",
+            "buildings_index": "buildings_index.json",
+            "roads_geojson": "roads.geojson",
+            "runways_taxiways_geojson": "runways_taxiways.geojson",
+            "city_pmtiles": null
+          },
+          "source": {
+            "update_type": "custom",
+            "repo": "devenperez/subway-builder-canadian-maps",
+            "tag": "v1.0.1",
+            "asset_name": "WPG.zip",
+            "download_url": "https://github.com/devenperez/subway-builder-canadian-maps/releases/download/v1.0.1/WPG.zip"
+          },
+          "fingerprint": "sha256:e82dcc9b83ba529175f8810d0caa3c110a49debc2981613638e4a7ac614836d0",
+          "checked_at": "2026-03-13T23:54:03.975Z"
+        },
+        "1.1.3": {
+          "is_complete": true,
+          "errors": [],
+          "required_checks": {
+            "config_json": true,
+            "demand_data": true,
+            "buildings_index": true,
+            "roads_geojson": true,
+            "runways_taxiways_geojson": true,
+            "city_pmtiles": true
+          },
+          "matched_files": {
+            "config_json": "config.json",
+            "demand_data": "demand_data.json",
+            "buildings_index": "buildings_index.json",
+            "roads_geojson": "roads.geojson",
+            "runways_taxiways_geojson": "runways_taxiways.geojson",
+            "city_pmtiles": "YWG.pmtiles"
+          },
+          "source": {
+            "update_type": "custom",
+            "repo": "devenperez/subway-builder-canadian-maps",
+            "tag": "v1.1.3",
+            "asset_name": "YWG.zip",
+            "download_url": "https://github.com/devenperez/subway-builder-canadian-maps/releases/download/v1.1.3/YWG.zip"
+          },
+          "fingerprint": "sha256:aac872d7cd8a65ab69687e446b2be911e388e8fe89faf7a9601631eff19a0b29",
+          "checked_at": "2026-03-13T23:54:03.975Z"
+        }
+      }
+    },
+    "yukina-fukuoka": {
+      "has_complete_version": true,
+      "latest_semver_version": "0.2.0",
+      "latest_semver_complete": true,
+      "complete_versions": [
+        "0.2.0"
+      ],
+      "incomplete_versions": [],
+      "versions": {
+        "0.2.0": {
+          "is_complete": true,
+          "errors": [],
+          "required_checks": {
+            "config_json": true,
+            "demand_data": true,
+            "buildings_index": true,
+            "roads_geojson": true,
+            "runways_taxiways_geojson": true,
+            "city_pmtiles": true
+          },
+          "matched_files": {
+            "config_json": "config.json",
+            "demand_data": "demand_data.json",
+            "buildings_index": "buildings_index.json",
+            "roads_geojson": "roads.geojson",
+            "runways_taxiways_geojson": "runways_taxiways.geojson",
+            "city_pmtiles": "FUK.pmtiles"
+          },
+          "source": {
+            "update_type": "custom",
+            "repo": "ahkimn/subwaybuilder-jp-maps",
+            "tag": "0.1.3",
+            "asset_name": "FUK.zip",
+            "download_url": "https://github.com/ahkimn/subwaybuilder-jp-maps/releases/download/0.1.3/FUK.zip"
+          },
+          "fingerprint": "sha256:67e9e47cb35100e00659c66ddba6b7fef86edf750f33ceaa5f7a1e21b7ddd717",
+          "checked_at": "2026-03-13T23:54:03.975Z"
+        }
+      }
+    },
+    "yukina-hiroshima-kure": {
+      "has_complete_version": true,
+      "latest_semver_version": "0.2.0",
+      "latest_semver_complete": true,
+      "complete_versions": [
+        "0.2.0"
+      ],
+      "incomplete_versions": [],
+      "versions": {
+        "0.2.0": {
+          "is_complete": true,
+          "errors": [],
+          "required_checks": {
+            "config_json": true,
+            "demand_data": true,
+            "buildings_index": true,
+            "roads_geojson": true,
+            "runways_taxiways_geojson": true,
+            "city_pmtiles": true
+          },
+          "matched_files": {
+            "config_json": "config.json",
+            "demand_data": "demand_data.json",
+            "buildings_index": "buildings_index.json",
+            "roads_geojson": "roads.geojson",
+            "runways_taxiways_geojson": "runways_taxiways.geojson",
+            "city_pmtiles": "HIJ.pmtiles"
+          },
+          "source": {
+            "update_type": "custom",
+            "repo": "ahkimn/subwaybuilder-jp-maps",
+            "tag": "0.1.3",
+            "asset_name": "HIJ.zip",
+            "download_url": "https://github.com/ahkimn/subwaybuilder-jp-maps/releases/download/0.1.3/HIJ.zip"
+          },
+          "fingerprint": "sha256:108d0672fc073ec9fe070df48797ad76589ca5482e1ca8e5d40f246b4c72c9aa",
+          "checked_at": "2026-03-13T23:54:03.975Z"
+        }
+      }
+    },
+    "yukina-kagoshima-kirishima": {
+      "has_complete_version": true,
+      "latest_semver_version": "0.2.0",
+      "latest_semver_complete": true,
+      "complete_versions": [
+        "0.2.0"
+      ],
+      "incomplete_versions": [],
+      "versions": {
+        "0.2.0": {
+          "is_complete": true,
+          "errors": [],
+          "required_checks": {
+            "config_json": true,
+            "demand_data": true,
+            "buildings_index": true,
+            "roads_geojson": true,
+            "runways_taxiways_geojson": true,
+            "city_pmtiles": true
+          },
+          "matched_files": {
+            "config_json": "config.json",
+            "demand_data": "demand_data.json",
+            "buildings_index": "buildings_index.json",
+            "roads_geojson": "roads.geojson",
+            "runways_taxiways_geojson": "runways_taxiways.geojson",
+            "city_pmtiles": "KOJ.pmtiles"
+          },
+          "source": {
+            "update_type": "custom",
+            "repo": "ahkimn/subwaybuilder-jp-maps",
+            "tag": "0.1.3",
+            "asset_name": "KOJ.zip",
+            "download_url": "https://github.com/ahkimn/subwaybuilder-jp-maps/releases/download/0.1.3/KOJ.zip"
+          },
+          "fingerprint": "sha256:718b1ce8fef18dfff9536fff34aaee2e35d63352644fdc176e9c300316172a29",
+          "checked_at": "2026-03-13T23:54:03.975Z"
+        }
+      }
+    },
+    "yukina-kitakyushu-shimonoseki": {
+      "has_complete_version": true,
+      "latest_semver_version": "0.2.0",
+      "latest_semver_complete": true,
+      "complete_versions": [
+        "0.2.0"
+      ],
+      "incomplete_versions": [],
+      "versions": {
+        "0.2.0": {
+          "is_complete": true,
+          "errors": [],
+          "required_checks": {
+            "config_json": true,
+            "demand_data": true,
+            "buildings_index": true,
+            "roads_geojson": true,
+            "runways_taxiways_geojson": true,
+            "city_pmtiles": true
+          },
+          "matched_files": {
+            "config_json": "config.json",
+            "demand_data": "demand_data.json",
+            "buildings_index": "buildings_index.json",
+            "roads_geojson": "roads.geojson",
+            "runways_taxiways_geojson": "runways_taxiways.geojson",
+            "city_pmtiles": "KKJ.pmtiles"
+          },
+          "source": {
+            "update_type": "custom",
+            "repo": "ahkimn/subwaybuilder-jp-maps",
+            "tag": "0.1.3",
+            "asset_name": "KKJ.zip",
+            "download_url": "https://github.com/ahkimn/subwaybuilder-jp-maps/releases/download/0.1.3/KKJ.zip"
+          },
+          "fingerprint": "sha256:9bf190c32dee18a46ec201a0bb06a75a7b81faaa5909572747dd544551770bac",
+          "checked_at": "2026-03-13T23:54:03.975Z"
+        }
+      }
+    },
+    "yukina-kobe-akashi": {
+      "has_complete_version": true,
+      "latest_semver_version": "0.2.0",
+      "latest_semver_complete": true,
+      "complete_versions": [
+        "0.2.0"
+      ],
+      "incomplete_versions": [],
+      "versions": {
+        "0.2.0": {
+          "is_complete": true,
+          "errors": [],
+          "required_checks": {
+            "config_json": true,
+            "demand_data": true,
+            "buildings_index": true,
+            "roads_geojson": true,
+            "runways_taxiways_geojson": true,
+            "city_pmtiles": true
+          },
+          "matched_files": {
+            "config_json": "config.json",
+            "demand_data": "demand_data.json",
+            "buildings_index": "buildings_index.json",
+            "roads_geojson": "roads.geojson",
+            "runways_taxiways_geojson": "runways_taxiways.geojson",
+            "city_pmtiles": "UKB.pmtiles"
+          },
+          "source": {
+            "update_type": "custom",
+            "repo": "ahkimn/subwaybuilder-jp-maps",
+            "tag": "0.1.3",
+            "asset_name": "UKB.zip",
+            "download_url": "https://github.com/ahkimn/subwaybuilder-jp-maps/releases/download/0.1.3/UKB.zip"
+          },
+          "fingerprint": "sha256:12e4453bbe40190125dab98375bf9818609175b232c0e1a9e7f428aeb3a4d862",
+          "checked_at": "2026-03-13T23:54:03.975Z"
+        }
+      }
+    },
+    "yukina-kochi": {
+      "has_complete_version": true,
+      "latest_semver_version": "0.2.0",
+      "latest_semver_complete": true,
+      "complete_versions": [
+        "0.2.0"
+      ],
+      "incomplete_versions": [],
+      "versions": {
+        "0.2.0": {
+          "is_complete": true,
+          "errors": [],
+          "required_checks": {
+            "config_json": true,
+            "demand_data": true,
+            "buildings_index": true,
+            "roads_geojson": true,
+            "runways_taxiways_geojson": true,
+            "city_pmtiles": true
+          },
+          "matched_files": {
+            "config_json": "config.json",
+            "demand_data": "demand_data.json",
+            "buildings_index": "buildings_index.json",
+            "roads_geojson": "roads.geojson",
+            "runways_taxiways_geojson": "runways_taxiways.geojson",
+            "city_pmtiles": "KCZ.pmtiles"
+          },
+          "source": {
+            "update_type": "custom",
+            "repo": "ahkimn/subwaybuilder-jp-maps",
+            "tag": "0.1.3",
+            "asset_name": "KCZ.zip",
+            "download_url": "https://github.com/ahkimn/subwaybuilder-jp-maps/releases/download/0.1.3/KCZ.zip"
+          },
+          "fingerprint": "sha256:ee3397e2e3bf21419646f8a85f04e057f9351a7f9a9c0bb8ff5615d21d0e5dac",
+          "checked_at": "2026-03-13T23:54:03.975Z"
+        }
+      }
+    },
+    "yukina-kyoto": {
+      "has_complete_version": true,
+      "latest_semver_version": "0.2.0",
+      "latest_semver_complete": true,
+      "complete_versions": [
+        "0.2.0"
+      ],
+      "incomplete_versions": [],
+      "versions": {
+        "0.2.0": {
+          "is_complete": true,
+          "errors": [],
+          "required_checks": {
+            "config_json": true,
+            "demand_data": true,
+            "buildings_index": true,
+            "roads_geojson": true,
+            "runways_taxiways_geojson": true,
+            "city_pmtiles": true
+          },
+          "matched_files": {
+            "config_json": "config.json",
+            "demand_data": "demand_data.json",
+            "buildings_index": "buildings_index.json",
+            "roads_geojson": "roads.geojson",
+            "runways_taxiways_geojson": "runways_taxiways.geojson",
+            "city_pmtiles": "UKY.pmtiles"
+          },
+          "source": {
+            "update_type": "custom",
+            "repo": "ahkimn/subwaybuilder-jp-maps",
+            "tag": "0.1.3",
+            "asset_name": "UKY.zip",
+            "download_url": "https://github.com/ahkimn/subwaybuilder-jp-maps/releases/download/0.1.3/UKY.zip"
+          },
+          "fingerprint": "sha256:9830c63800f79e518257275e7f0a35e8f09f406b36a73a5afe367751bbc18a3f",
+          "checked_at": "2026-03-13T23:54:03.975Z"
+        }
+      }
+    },
+    "yukina-matsuyama": {
+      "has_complete_version": true,
+      "latest_semver_version": "0.2.0",
+      "latest_semver_complete": true,
+      "complete_versions": [
+        "0.2.0"
+      ],
+      "incomplete_versions": [],
+      "versions": {
+        "0.2.0": {
+          "is_complete": true,
+          "errors": [],
+          "required_checks": {
+            "config_json": true,
+            "demand_data": true,
+            "buildings_index": true,
+            "roads_geojson": true,
+            "runways_taxiways_geojson": true,
+            "city_pmtiles": true
+          },
+          "matched_files": {
+            "config_json": "config.json",
+            "demand_data": "demand_data.json",
+            "buildings_index": "buildings_index.json",
+            "roads_geojson": "roads.geojson",
+            "runways_taxiways_geojson": "runways_taxiways.geojson",
+            "city_pmtiles": "MYJ.pmtiles"
+          },
+          "source": {
+            "update_type": "custom",
+            "repo": "ahkimn/subwaybuilder-jp-maps",
+            "tag": "0.1.3",
+            "asset_name": "MYJ.zip",
+            "download_url": "https://github.com/ahkimn/subwaybuilder-jp-maps/releases/download/0.1.3/MYJ.zip"
+          },
+          "fingerprint": "sha256:d847f0d09982da320b2f61e737d85ad7ea8110ac36fe5cb1e42a0a463e2b79fe",
+          "checked_at": "2026-03-13T23:54:03.975Z"
+        }
+      }
+    },
+    "yukina-niigata": {
+      "has_complete_version": true,
+      "latest_semver_version": "0.2.0",
+      "latest_semver_complete": true,
+      "complete_versions": [
+        "0.2.0"
+      ],
+      "incomplete_versions": [],
+      "versions": {
+        "0.2.0": {
+          "is_complete": true,
+          "errors": [],
+          "required_checks": {
+            "config_json": true,
+            "demand_data": true,
+            "buildings_index": true,
+            "roads_geojson": true,
+            "runways_taxiways_geojson": true,
+            "city_pmtiles": true
+          },
+          "matched_files": {
+            "config_json": "config.json",
+            "demand_data": "demand_data.json",
+            "buildings_index": "buildings_index.json",
+            "roads_geojson": "roads.geojson",
+            "runways_taxiways_geojson": "runways_taxiways.geojson",
+            "city_pmtiles": "KIJ.pmtiles"
+          },
+          "source": {
+            "update_type": "custom",
+            "repo": "ahkimn/subwaybuilder-jp-maps",
+            "tag": "0.1.3",
+            "asset_name": "KIJ.zip",
+            "download_url": "https://github.com/ahkimn/subwaybuilder-jp-maps/releases/download/0.1.3/KIJ.zip"
+          },
+          "fingerprint": "sha256:e537364b616ab7c3a4d8036956362dd5ac876173d33e9b2d6f61e1d9687e387b",
+          "checked_at": "2026-03-13T23:54:03.975Z"
+        }
+      }
+    },
+    "yukina-okinawa": {
+      "has_complete_version": true,
+      "latest_semver_version": "0.2.0",
+      "latest_semver_complete": true,
+      "complete_versions": [
+        "0.2.0"
+      ],
+      "incomplete_versions": [],
+      "versions": {
+        "0.2.0": {
+          "is_complete": true,
+          "errors": [],
+          "required_checks": {
+            "config_json": true,
+            "demand_data": true,
+            "buildings_index": true,
+            "roads_geojson": true,
+            "runways_taxiways_geojson": true,
+            "city_pmtiles": true
+          },
+          "matched_files": {
+            "config_json": "config.json",
+            "demand_data": "demand_data.json",
+            "buildings_index": "buildings_index.json",
+            "roads_geojson": "roads.geojson",
+            "runways_taxiways_geojson": "runways_taxiways.geojson",
+            "city_pmtiles": "OKA.pmtiles"
+          },
+          "source": {
+            "update_type": "custom",
+            "repo": "ahkimn/subwaybuilder-jp-maps",
+            "tag": "0.1.3",
+            "asset_name": "OKA.zip",
+            "download_url": "https://github.com/ahkimn/subwaybuilder-jp-maps/releases/download/0.1.3/OKA.zip"
+          },
+          "fingerprint": "sha256:35e465e6ed9554625402695093b9d26b90a656704043d9fdedca430f4956bb8e",
+          "checked_at": "2026-03-13T23:54:03.975Z"
+        }
+      }
+    },
+    "yukina-sapporo-chitose": {
+      "has_complete_version": true,
+      "latest_semver_version": "0.2.0",
+      "latest_semver_complete": true,
+      "complete_versions": [
+        "0.2.0"
+      ],
+      "incomplete_versions": [],
+      "versions": {
+        "0.2.0": {
+          "is_complete": true,
+          "errors": [],
+          "required_checks": {
+            "config_json": true,
+            "demand_data": true,
+            "buildings_index": true,
+            "roads_geojson": true,
+            "runways_taxiways_geojson": true,
+            "city_pmtiles": true
+          },
+          "matched_files": {
+            "config_json": "config.json",
+            "demand_data": "demand_data.json",
+            "buildings_index": "buildings_index.json",
+            "roads_geojson": "roads.geojson",
+            "runways_taxiways_geojson": "runways_taxiways.geojson",
+            "city_pmtiles": "SPK.pmtiles"
+          },
+          "source": {
+            "update_type": "custom",
+            "repo": "ahkimn/subwaybuilder-jp-maps",
+            "tag": "0.1.3",
+            "asset_name": "SPK.zip",
+            "download_url": "https://github.com/ahkimn/subwaybuilder-jp-maps/releases/download/0.1.3/SPK.zip"
+          },
+          "fingerprint": "sha256:be3813fa292cfd15df7f31fde978dca42cae7ce2e2401b440606e9e553dad0c3",
+          "checked_at": "2026-03-13T23:54:03.975Z"
+        }
+      }
+    },
+    "yukina-sendai": {
+      "has_complete_version": true,
+      "latest_semver_version": "0.2.0",
+      "latest_semver_complete": true,
+      "complete_versions": [
+        "0.2.0"
+      ],
+      "incomplete_versions": [],
+      "versions": {
+        "0.2.0": {
+          "is_complete": true,
+          "errors": [],
+          "required_checks": {
+            "config_json": true,
+            "demand_data": true,
+            "buildings_index": true,
+            "roads_geojson": true,
+            "runways_taxiways_geojson": true,
+            "city_pmtiles": true
+          },
+          "matched_files": {
+            "config_json": "config.json",
+            "demand_data": "demand_data.json",
+            "buildings_index": "buildings_index.json",
+            "roads_geojson": "roads.geojson",
+            "runways_taxiways_geojson": "runways_taxiways.geojson",
+            "city_pmtiles": "SDJ.pmtiles"
+          },
+          "source": {
+            "update_type": "custom",
+            "repo": "ahkimn/subwaybuilder-jp-maps",
+            "tag": "0.1.3",
+            "asset_name": "SDJ.zip",
+            "download_url": "https://github.com/ahkimn/subwaybuilder-jp-maps/releases/download/0.1.3/SDJ.zip"
+          },
+          "fingerprint": "sha256:8010b55827ec67a977cf283c9f0b72ab8a3ec7ea66c5505f4e216e3883f5b64c",
+          "checked_at": "2026-03-13T23:54:03.975Z"
+        }
+      }
+    },
+    "yukina-yamagata": {
+      "has_complete_version": true,
+      "latest_semver_version": "0.2.0",
+      "latest_semver_complete": true,
+      "complete_versions": [
+        "0.2.0"
+      ],
+      "incomplete_versions": [],
+      "versions": {
+        "0.2.0": {
+          "is_complete": true,
+          "errors": [],
+          "required_checks": {
+            "config_json": true,
+            "demand_data": true,
+            "buildings_index": true,
+            "roads_geojson": true,
+            "runways_taxiways_geojson": true,
+            "city_pmtiles": true
+          },
+          "matched_files": {
+            "config_json": "config.json",
+            "demand_data": "demand_data.json",
+            "buildings_index": "buildings_index.json",
+            "roads_geojson": "roads.geojson",
+            "runways_taxiways_geojson": "runways_taxiways.geojson",
+            "city_pmtiles": "GAJ.pmtiles"
+          },
+          "source": {
+            "update_type": "custom",
+            "repo": "ahkimn/subwaybuilder-jp-maps",
+            "tag": "0.1.3",
+            "asset_name": "GAJ.zip",
+            "download_url": "https://github.com/ahkimn/subwaybuilder-jp-maps/releases/download/0.1.3/GAJ.zip"
+          },
+          "fingerprint": "sha256:2fab1ca359670027c891f4da32bed938c8e2e928f25a7d83c5cec10788d2a728",
+          "checked_at": "2026-03-13T23:54:03.975Z"
+        }
+      }
+    },
+    "zurich": {
+      "has_complete_version": true,
+      "latest_semver_version": "v1.1.0",
+      "latest_semver_complete": true,
+      "complete_versions": [
+        "v1.1.0",
+        "v1.0.0"
+      ],
+      "incomplete_versions": [],
+      "versions": {
+        "v1.0.0": {
+          "is_complete": true,
+          "errors": [],
+          "required_checks": {
+            "config_json": true,
+            "demand_data": true,
+            "buildings_index": true,
+            "roads_geojson": true,
+            "runways_taxiways_geojson": true,
+            "city_pmtiles": true
+          },
+          "matched_files": {
+            "config_json": "config.json",
+            "demand_data": "demand_data.json",
+            "buildings_index": "buildings_index.json",
+            "roads_geojson": "roads.geojson",
+            "runways_taxiways_geojson": "runways_taxiways.geojson",
+            "city_pmtiles": "ZRH.pmtiles"
+          },
+          "source": {
+            "update_type": "github",
+            "repo": "kronifer/sb-zurich-map",
+            "tag": "v1.0.0",
+            "asset_name": "ZRH.zip",
+            "download_url": "https://github.com/Kronifer/sb-zurich-map/releases/download/v1.0.0/ZRH.zip"
+          },
+          "fingerprint": "github:kronifer/sb-zurich-map:v1.0.0:ZRH.zip",
+          "checked_at": "2026-03-13T23:54:03.975Z"
+        },
+        "v1.1.0": {
+          "is_complete": true,
+          "errors": [],
+          "required_checks": {
+            "config_json": true,
+            "demand_data": true,
+            "buildings_index": true,
+            "roads_geojson": true,
+            "runways_taxiways_geojson": true,
+            "city_pmtiles": true
+          },
+          "matched_files": {
+            "config_json": "config.json",
+            "demand_data": "demand_data.json",
+            "buildings_index": "buildings_index.json",
+            "roads_geojson": "roads.geojson",
+            "runways_taxiways_geojson": "runways_taxiways.geojson",
+            "city_pmtiles": "ZRH.pmtiles"
+          },
+          "source": {
+            "update_type": "github",
+            "repo": "kronifer/sb-zurich-map",
+            "tag": "v1.1.0",
+            "asset_name": "ZRH.zip",
+            "download_url": "https://github.com/Kronifer/sb-zurich-map/releases/download/v1.1.0/ZRH.zip"
+          },
+          "fingerprint": "github:kronifer/sb-zurich-map:v1.1.0:ZRH.zip",
+          "checked_at": "2026-03-13T23:54:03.975Z"
+        }
+      }
+    }
+  }
+}

@@ -1,0 +1,296 @@
+{
+  "schema_version": 1,
+  "generated_at": "2026-03-14T01:35:33.249Z",
+  "listings": {
+    "advanced-analytics": {
+      "has_complete_version": true,
+      "latest_semver_version": "v1.1.0",
+      "latest_semver_complete": true,
+      "complete_versions": [
+        "v1.1.0"
+      ],
+      "incomplete_versions": [
+        "v1.0.1",
+        "v1.0.0",
+        "v0.9.2",
+        "v0.9.1"
+      ],
+      "versions": {
+        "target-1.1.0": {
+          "is_complete": false,
+          "errors": [
+            "non-semver release tag 'target-1.1.0'"
+          ],
+          "required_checks": {},
+          "matched_files": {},
+          "source": {
+            "update_type": "github",
+            "repo": "stefanorigano/advanced_analytics",
+            "tag": "target-1.1.0"
+          },
+          "fingerprint": "github:stefanorigano/advanced_analytics:target-1.1.0:no-zip",
+          "checked_at": "2026-03-14T00:04:22.506Z"
+        },
+        "v0.9.1": {
+          "is_complete": false,
+          "errors": [
+            "asset 'advanced_analytics-v0.9.1.zip': release asset manifest.json is missing",
+            "asset 'advanced_analytics-v0.9.1.zip': missing top-level manifest.json in ZIP"
+          ],
+          "required_checks": {},
+          "matched_files": {},
+          "source": {
+            "update_type": "github",
+            "repo": "stefanorigano/advanced_analytics",
+            "tag": "v0.9.1"
+          },
+          "fingerprint": "github:stefanorigano/advanced_analytics:v0.9.1:advanced_analytics-v0.9.1.zip",
+          "checked_at": "2026-03-14T00:04:22.506Z"
+        },
+        "v0.9.2": {
+          "is_complete": false,
+          "errors": [
+            "asset 'advanced_analytics-v0.9.2.zip': release asset manifest.json is missing",
+            "asset 'advanced_analytics-v0.9.2.zip': missing top-level manifest.json in ZIP"
+          ],
+          "required_checks": {},
+          "matched_files": {},
+          "source": {
+            "update_type": "github",
+            "repo": "stefanorigano/advanced_analytics",
+            "tag": "v0.9.2"
+          },
+          "fingerprint": "github:stefanorigano/advanced_analytics:v0.9.2:advanced_analytics-v0.9.2.zip",
+          "checked_at": "2026-03-14T00:04:22.506Z"
+        },
+        "v1.0.0": {
+          "is_complete": false,
+          "errors": [
+            "asset 'advanced_analytics-v1.0.0.zip': missing top-level manifest.json in ZIP"
+          ],
+          "required_checks": {},
+          "matched_files": {},
+          "source": {
+            "update_type": "github",
+            "repo": "stefanorigano/advanced_analytics",
+            "tag": "v1.0.0"
+          },
+          "fingerprint": "github:stefanorigano/advanced_analytics:v1.0.0:advanced_analytics-v1.0.0.zip",
+          "checked_at": "2026-03-14T00:04:22.506Z"
+        },
+        "v1.0.1": {
+          "is_complete": false,
+          "errors": [
+            "asset 'advanced_analytics-v1.0.1.zip': missing top-level manifest.json in ZIP"
+          ],
+          "required_checks": {},
+          "matched_files": {},
+          "source": {
+            "update_type": "github",
+            "repo": "stefanorigano/advanced_analytics",
+            "tag": "v1.0.1"
+          },
+          "fingerprint": "github:stefanorigano/advanced_analytics:v1.0.1:advanced_analytics-v1.0.1.zip",
+          "checked_at": "2026-03-14T00:04:22.506Z"
+        },
+        "v1.1.0": {
+          "is_complete": true,
+          "errors": [],
+          "required_checks": {
+            "release_manifest_asset": true,
+            "zip_manifest_json": true
+          },
+          "matched_files": {
+            "release_manifest_asset": "manifest.json",
+            "zip_manifest_json": "manifest.json"
+          },
+          "source": {
+            "update_type": "github",
+            "repo": "stefanorigano/advanced_analytics",
+            "tag": "v1.1.0",
+            "asset_name": "advanced_analytics-v1.1.0.zip",
+            "download_url": "https://github.com/stefanorigano/advanced_analytics/releases/download/v1.1.0/advanced_analytics-v1.1.0.zip"
+          },
+          "fingerprint": "github:stefanorigano/advanced_analytics:v1.1.0:advanced_analytics-v1.1.0.zip",
+          "checked_at": "2026-03-14T00:04:22.506Z"
+        }
+      }
+    },
+    "citymapper": {
+      "has_complete_version": false,
+      "latest_semver_version": null,
+      "latest_semver_complete": null,
+      "complete_versions": [],
+      "incomplete_versions": [],
+      "versions": {
+        "Latest": {
+          "is_complete": false,
+          "errors": [
+            "non-semver release tag 'Latest'"
+          ],
+          "required_checks": {},
+          "matched_files": {},
+          "source": {
+            "update_type": "github",
+            "repo": "gio1112/subway-builder-citymapper",
+            "tag": "Latest"
+          },
+          "fingerprint": "github:gio1112/subway-builder-citymapper:Latest:citymapper.zip",
+          "checked_at": "2026-03-14T00:04:22.506Z"
+        }
+      }
+    },
+    "distance-circles": {
+      "has_complete_version": true,
+      "latest_semver_version": "0.3.3",
+      "latest_semver_complete": true,
+      "complete_versions": [
+        "0.3.3"
+      ],
+      "incomplete_versions": [],
+      "versions": {
+        "0.3.3": {
+          "is_complete": true,
+          "errors": [],
+          "required_checks": {
+            "release_manifest_asset": true,
+            "zip_manifest_json": true
+          },
+          "matched_files": {
+            "release_manifest_asset": "manifest.json",
+            "zip_manifest_json": "manifest.json"
+          },
+          "source": {
+            "update_type": "github",
+            "repo": "crumpetime/subway_builder_distance_circles",
+            "tag": "0.3.3",
+            "asset_name": "distanceCircles.zip",
+            "download_url": "https://github.com/crumpetime/subway_builder_distance_circles/releases/download/0.3.3/distanceCircles.zip"
+          },
+          "fingerprint": "github:crumpetime/subway_builder_distance_circles:0.3.3:distanceCircles.zip",
+          "checked_at": "2026-03-14T01:35:33.249Z"
+        }
+      }
+    },
+    "subwaybuilder-regions": {
+      "has_complete_version": true,
+      "latest_semver_version": "v0.4.5",
+      "latest_semver_complete": true,
+      "complete_versions": [
+        "v0.4.5"
+      ],
+      "incomplete_versions": [],
+      "versions": {
+        "v0.4.5": {
+          "is_complete": true,
+          "errors": [],
+          "required_checks": {
+            "release_manifest_asset": true,
+            "zip_manifest_json": true
+          },
+          "matched_files": {
+            "release_manifest_asset": "manifest.json",
+            "zip_manifest_json": "manifest.json"
+          },
+          "source": {
+            "update_type": "github",
+            "repo": "ahkimn/subwaybuilder-regions",
+            "tag": "v0.4.5",
+            "asset_name": "subwaybuilder-regions-v0.4.5.zip",
+            "download_url": "https://github.com/ahkimn/subwaybuilder-regions/releases/download/v0.4.5/subwaybuilder-regions-v0.4.5.zip"
+          },
+          "fingerprint": "github:ahkimn/subwaybuilder-regions:v0.4.5:subwaybuilder-regions-v0.4.5.zip",
+          "checked_at": "2026-03-14T00:04:22.506Z"
+        }
+      }
+    },
+    "transit-overlay": {
+      "has_complete_version": true,
+      "latest_semver_version": "1.5.0",
+      "latest_semver_complete": true,
+      "complete_versions": [
+        "1.5.0"
+      ],
+      "incomplete_versions": [],
+      "versions": {
+        "1.5.0": {
+          "is_complete": true,
+          "errors": [],
+          "required_checks": {
+            "release_manifest_asset": true,
+            "zip_manifest_json": true
+          },
+          "matched_files": {
+            "release_manifest_asset": "manifest.json",
+            "zip_manifest_json": "manifest.json"
+          },
+          "source": {
+            "update_type": "github",
+            "repo": "barkuperman/transit-overlay-subway-builder-mod",
+            "tag": "1.5.0",
+            "asset_name": "transit-overlay.zip",
+            "download_url": "https://github.com/BarKuperman/transit-overlay-subway-builder-mod/releases/download/1.5.0/transit-overlay.zip"
+          },
+          "fingerprint": "github:barkuperman/transit-overlay-subway-builder-mod:1.5.0:transit-overlay.zip",
+          "checked_at": "2026-03-14T00:04:22.506Z"
+        }
+      }
+    },
+    "valdotoriums-trains": {
+      "has_complete_version": false,
+      "latest_semver_version": "v0.1.2",
+      "latest_semver_complete": false,
+      "complete_versions": [],
+      "incomplete_versions": [
+        "v0.1.2"
+      ],
+      "versions": {
+        "v0.1.2": {
+          "is_complete": false,
+          "errors": [
+            "asset 'Valdotoriums_Trains_0_1_2.zip': missing top-level manifest.json in ZIP"
+          ],
+          "required_checks": {},
+          "matched_files": {},
+          "source": {
+            "update_type": "github",
+            "repo": "valdotorium/valdotoriums_trains",
+            "tag": "v0.1.2"
+          },
+          "fingerprint": "github:valdotorium/valdotoriums_trains:v0.1.2:Valdotoriums_Trains_0_1_2.zip",
+          "checked_at": "2026-03-14T00:04:22.506Z"
+        },
+        "v1.0": {
+          "is_complete": false,
+          "errors": [
+            "non-semver release tag 'v1.0'"
+          ],
+          "required_checks": {},
+          "matched_files": {},
+          "source": {
+            "update_type": "github",
+            "repo": "valdotorium/valdotoriums_trains",
+            "tag": "v1.0"
+          },
+          "fingerprint": "github:valdotorium/valdotoriums_trains:v1.0:Valdotoriums_Trains_1_0.zip",
+          "checked_at": "2026-03-14T00:04:22.506Z"
+        },
+        "v1.1": {
+          "is_complete": false,
+          "errors": [
+            "non-semver release tag 'v1.1'"
+          ],
+          "required_checks": {},
+          "matched_files": {},
+          "source": {
+            "update_type": "github",
+            "repo": "valdotorium/valdotoriums_trains",
+            "tag": "v1.1"
+          },
+          "fingerprint": "github:valdotorium/valdotoriums_trains:v1.1:Valdotoriums_Trains_1_1.zip",
+          "checked_at": "2026-03-14T00:04:22.506Z"
+        }
+      }
+    }
+  }
+}
