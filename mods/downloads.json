@@ -1,17 +1,17 @@
 {
   "advanced-analytics": {
-    "v1.1.0": 414
+    "v1.1.0": 418
   },
   "citymapper": {},
   "danield1909-dantrains": {
     "v1.0.0": 15,
-    "v1.0.1": 16
+    "v1.0.1": 18
   },
   "distance-circles": {
-    "0.3.3": 25
+    "0.3.3": 26
   },
   "subwaybuilder-regions": {
-    "v0.4.5": 172
+    "v0.4.5": 174
   },
   "transit-overlay": {
     "1.5.0": 157
