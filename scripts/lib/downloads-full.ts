@@ -19,6 +19,12 @@ import {
   withCheckResult,
 } from "./downloads-support.js";
 
+const INTEGRITY_RULES_VERSION = "v2";
+
+function versionedFingerprint(base: string): string {
+  return `rules:${INTEGRITY_RULES_VERSION}:${base}`;
+}
+
 export async function generateDownloadsDataFull(
   options: D.GenerateDownloadsOptions,
 ): Promise<D.GenerateDownloadsResult> {
@@ -127,9 +133,10 @@ export async function generateDownloadsDataFull(
         const zipAssets = Array.from(releaseData.assets.entries())
           .filter(([assetName]) => assetName.toLowerCase().endsWith(".zip"));
         const zipAssetNames = zipAssets.map(([assetName]) => assetName).sort();
-        const fingerprint = zipAssetNames.length > 0
+        const fingerprintBase = zipAssetNames.length > 0
           ? `github:${repo}:${tag}:${zipAssetNames.join("|")}`
           : `github:${repo}:${tag}:no-zip`;
+        const fingerprint = versionedFingerprint(fingerprintBase);
         const cached = listingCacheEntries[tag];
         const sourceBase: IntegritySource = {
           update_type: "github",
@@ -236,16 +243,17 @@ export async function generateDownloadsDataFull(
         const versionKey = candidate.version;
         versionsChecked += 1;
 
-        const fallbackFingerprint = candidate.sha256
+        const fallbackFingerprintBase = candidate.sha256
           ? `sha256:${candidate.sha256}`
           : `custom:${versionKey}:${candidate.downloadUrl ?? "missing-download"}`;
-        const fingerprint = candidate.sha256
+        const fingerprintBase = candidate.sha256
           ? `sha256:${candidate.sha256}`
           : (
             candidate.parsed
               ? `custom:${candidate.parsed.repo}:${candidate.parsed.tag}:${candidate.parsed.assetName}:${candidate.downloadUrl ?? "missing-download"}`
-              : fallbackFingerprint
+              : fallbackFingerprintBase
           );
+        const fingerprint = versionedFingerprint(fingerprintBase);
         const sourceBase: IntegritySource = {
           update_type: "custom",
           repo: candidate.parsed?.repo,
