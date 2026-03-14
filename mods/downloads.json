@@ -7,13 +7,13 @@
     "v1.0.0": 12
   },
   "distance-circles": {
-    "0.3.3": 13
+    "0.3.3": 15
   },
   "subwaybuilder-regions": {
-    "v0.4.5": 166
+    "v0.4.5": 167
   },
   "transit-overlay": {
-    "1.5.0": 150
+    "1.5.0": 151
   },
   "valdotoriums-trains": {}
 }
