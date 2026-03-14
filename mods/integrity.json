@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "generated_at": "2026-03-14T17:20:20.853Z",
+  "generated_at": "2026-03-14T17:28:15.209Z",
   "listings": {
     "advanced-analytics": {
       "has_complete_version": true,
@@ -28,8 +28,8 @@
             "repo": "stefanorigano/advanced_analytics",
             "tag": "target-1.1.0"
           },
-          "fingerprint": "github:stefanorigano/advanced_analytics:target-1.1.0:no-zip",
-          "checked_at": "2026-03-14T16:30:57.108Z"
+          "fingerprint": "rules:v2:github:stefanorigano/advanced_analytics:target-1.1.0:no-zip",
+          "checked_at": "2026-03-14T17:28:15.209Z"
         },
         "v0.9.1": {
           "is_complete": false,
@@ -44,8 +44,8 @@
             "repo": "stefanorigano/advanced_analytics",
             "tag": "v0.9.1"
           },
-          "fingerprint": "github:stefanorigano/advanced_analytics:v0.9.1:advanced_analytics-v0.9.1.zip",
-          "checked_at": "2026-03-14T16:30:57.108Z"
+          "fingerprint": "rules:v2:github:stefanorigano/advanced_analytics:v0.9.1:advanced_analytics-v0.9.1.zip",
+          "checked_at": "2026-03-14T17:28:15.209Z"
         },
         "v0.9.2": {
           "is_complete": false,
@@ -60,8 +60,8 @@
             "repo": "stefanorigano/advanced_analytics",
             "tag": "v0.9.2"
           },
-          "fingerprint": "github:stefanorigano/advanced_analytics:v0.9.2:advanced_analytics-v0.9.2.zip",
-          "checked_at": "2026-03-14T16:30:57.108Z"
+          "fingerprint": "rules:v2:github:stefanorigano/advanced_analytics:v0.9.2:advanced_analytics-v0.9.2.zip",
+          "checked_at": "2026-03-14T17:28:15.209Z"
         },
         "v1.0.0": {
           "is_complete": false,
@@ -75,8 +75,8 @@
             "repo": "stefanorigano/advanced_analytics",
             "tag": "v1.0.0"
           },
-          "fingerprint": "github:stefanorigano/advanced_analytics:v1.0.0:advanced_analytics-v1.0.0.zip",
-          "checked_at": "2026-03-14T16:30:57.108Z"
+          "fingerprint": "rules:v2:github:stefanorigano/advanced_analytics:v1.0.0:advanced_analytics-v1.0.0.zip",
+          "checked_at": "2026-03-14T17:28:15.209Z"
         },
         "v1.0.1": {
           "is_complete": false,
@@ -90,8 +90,8 @@
             "repo": "stefanorigano/advanced_analytics",
             "tag": "v1.0.1"
           },
-          "fingerprint": "github:stefanorigano/advanced_analytics:v1.0.1:advanced_analytics-v1.0.1.zip",
-          "checked_at": "2026-03-14T16:30:57.108Z"
+          "fingerprint": "rules:v2:github:stefanorigano/advanced_analytics:v1.0.1:advanced_analytics-v1.0.1.zip",
+          "checked_at": "2026-03-14T17:28:15.209Z"
         },
         "v1.1.0": {
           "is_complete": true,
@@ -111,8 +111,8 @@
             "asset_name": "advanced_analytics-v1.1.0.zip",
             "download_url": "https://github.com/stefanorigano/advanced_analytics/releases/download/v1.1.0/advanced_analytics-v1.1.0.zip"
           },
-          "fingerprint": "github:stefanorigano/advanced_analytics:v1.1.0:advanced_analytics-v1.1.0.zip",
-          "checked_at": "2026-03-14T16:30:57.108Z"
+          "fingerprint": "rules:v2:github:stefanorigano/advanced_analytics:v1.1.0:advanced_analytics-v1.1.0.zip",
+          "checked_at": "2026-03-14T17:28:15.209Z"
         }
       }
     },
@@ -135,8 +135,8 @@
             "repo": "gio1112/subway-builder-citymapper",
             "tag": "Latest"
           },
-          "fingerprint": "github:gio1112/subway-builder-citymapper:Latest:citymapper.zip",
-          "checked_at": "2026-03-14T16:30:57.108Z"
+          "fingerprint": "rules:v2:github:gio1112/subway-builder-citymapper:Latest:citymapper.zip",
+          "checked_at": "2026-03-14T17:28:15.209Z"
         }
       }
     },
@@ -168,8 +168,8 @@
             "asset_name": "danTrains-1_0_0-Phoenix.zip",
             "download_url": "https://github.com/DanielD1909/danTrains/releases/download/v1.0.0/danTrains-1_0_0-Phoenix.zip"
           },
-          "fingerprint": "github:danield1909/dantrains:v1.0.0:danTrains-1_0_0-Phoenix.zip",
-          "checked_at": "2026-03-14T16:30:57.108Z"
+          "fingerprint": "rules:v2:github:danield1909/dantrains:v1.0.0:danTrains-1_0_0-Phoenix.zip",
+          "checked_at": "2026-03-14T17:28:15.209Z"
         },
         "v1.0.1": {
           "is_complete": true,
@@ -189,8 +189,8 @@
             "asset_name": "danTrains-1_0_1-Phoenix.zip.zip",
             "download_url": "https://github.com/DanielD1909/danTrains/releases/download/v1.0.1/danTrains-1_0_1-Phoenix.zip.zip"
           },
-          "fingerprint": "github:danield1909/dantrains:v1.0.1:danTrains-1_0_1-Phoenix.zip.zip",
-          "checked_at": "2026-03-14T16:30:57.108Z"
+          "fingerprint": "rules:v2:github:danield1909/dantrains:v1.0.1:danTrains-1_0_1-Phoenix.zip.zip",
+          "checked_at": "2026-03-14T17:28:15.209Z"
         }
       }
     },
@@ -221,8 +221,8 @@
             "asset_name": "distanceCircles.zip",
             "download_url": "https://github.com/crumpetime/subway_builder_distance_circles/releases/download/0.3.3/distanceCircles.zip"
           },
-          "fingerprint": "github:crumpetime/subway_builder_distance_circles:0.3.3:distanceCircles.zip",
-          "checked_at": "2026-03-14T16:30:57.108Z"
+          "fingerprint": "rules:v2:github:crumpetime/subway_builder_distance_circles:0.3.3:distanceCircles.zip",
+          "checked_at": "2026-03-14T17:28:15.209Z"
         }
       }
     },
@@ -253,8 +253,8 @@
             "asset_name": "subwaybuilder-regions-v0.4.5.zip",
             "download_url": "https://github.com/ahkimn/subwaybuilder-regions/releases/download/v0.4.5/subwaybuilder-regions-v0.4.5.zip"
           },
-          "fingerprint": "github:ahkimn/subwaybuilder-regions:v0.4.5:subwaybuilder-regions-v0.4.5.zip",
-          "checked_at": "2026-03-14T16:30:57.108Z"
+          "fingerprint": "rules:v2:github:ahkimn/subwaybuilder-regions:v0.4.5:subwaybuilder-regions-v0.4.5.zip",
+          "checked_at": "2026-03-14T17:28:15.209Z"
         }
       }
     },
@@ -285,8 +285,8 @@
             "asset_name": "transit-overlay.zip",
             "download_url": "https://github.com/BarKuperman/transit-overlay-subway-builder-mod/releases/download/1.5.0/transit-overlay.zip"
           },
-          "fingerprint": "github:barkuperman/transit-overlay-subway-builder-mod:1.5.0:transit-overlay.zip",
-          "checked_at": "2026-03-14T16:30:57.108Z"
+          "fingerprint": "rules:v2:github:barkuperman/transit-overlay-subway-builder-mod:1.5.0:transit-overlay.zip",
+          "checked_at": "2026-03-14T17:28:15.209Z"
         }
       }
     },
@@ -311,8 +311,8 @@
             "repo": "valdotorium/valdotoriums_trains",
             "tag": "v0.1.2"
           },
-          "fingerprint": "github:valdotorium/valdotoriums_trains:v0.1.2:Valdotoriums_Trains_0_1_2.zip",
-          "checked_at": "2026-03-14T16:30:57.108Z"
+          "fingerprint": "rules:v2:github:valdotorium/valdotoriums_trains:v0.1.2:Valdotoriums_Trains_0_1_2.zip",
+          "checked_at": "2026-03-14T17:28:15.209Z"
         },
         "v1.0": {
           "is_complete": false,
@@ -326,8 +326,8 @@
             "repo": "valdotorium/valdotoriums_trains",
             "tag": "v1.0"
           },
-          "fingerprint": "github:valdotorium/valdotoriums_trains:v1.0:Valdotoriums_Trains_1_0.zip",
-          "checked_at": "2026-03-14T16:30:57.108Z"
+          "fingerprint": "rules:v2:github:valdotorium/valdotoriums_trains:v1.0:Valdotoriums_Trains_1_0.zip",
+          "checked_at": "2026-03-14T17:28:15.209Z"
         },
         "v1.1": {
           "is_complete": false,
@@ -341,8 +341,8 @@
             "repo": "valdotorium/valdotoriums_trains",
             "tag": "v1.1"
           },
-          "fingerprint": "github:valdotorium/valdotoriums_trains:v1.1:Valdotoriums_Trains_1_1.zip",
-          "checked_at": "2026-03-14T16:30:57.108Z"
+          "fingerprint": "rules:v2:github:valdotorium/valdotoriums_trains:v1.1:Valdotoriums_Trains_1_1.zip",
+          "checked_at": "2026-03-14T17:28:15.209Z"
         }
       }
     }
