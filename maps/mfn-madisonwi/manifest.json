@@ -1,0 +1,41 @@
+{
+  "schema_version": 1,
+  "id": "mfn-madisonwi",
+  "name": "Madison",
+  "author": "crumpetime",
+  "github_id": 121749023,
+  "description": "A completely reworked map of the Madison, WI area. Now includes entertainment demand and neighbourhood labels.",
+  "tags": [
+    "north-america",
+    "airports",
+    "entertainment",
+    "parks",
+    "universities"
+  ],
+  "gallery": [
+    "gallery/screenshot1.png",
+    "gallery/screenshot2.png",
+    "gallery/screenshot3.png"
+  ],
+  "source": "https://github.com/crumpetime/sb-maps-msn",
+  "update": {
+    "type": "github",
+    "repo": "crumpetime/sb-maps-msn"
+  },
+  "city_code": "MSN",
+  "country": "US",
+  "population": 327350,
+  "residents_total": 327350,
+  "points_count": 2101,
+  "population_count": 48129,
+  "data_source": "LODES",
+  "source_quality": "high-quality",
+  "level_of_detail": "high-detail",
+  "location": "north-america",
+  "special_demand": [
+    "airports",
+    "entertainment",
+    "parks",
+    "universities"
+  ]
+}
