@@ -20,7 +20,7 @@
     "type": "custom",
     "url": "https://raw.githubusercontent.com/rslurry/subwaybuilder-maps/refs/heads/main/LAXM.json"
   },
-  "city_code": "LAMX",
+  "city_code": "LAXM",
   "country": "US",
   "population": 3179061,
   "residents_total": 3179061,
