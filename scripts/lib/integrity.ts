@@ -81,7 +81,7 @@ function isObject(value: unknown): value is Record<string, unknown> {
   return typeof value === "object" && value !== null && !Array.isArray(value);
 }
 
-function findCityCodeInConfig(value: unknown): string | null {
+function findConfigCode(value: unknown): string | null {
   const queue: unknown[] = [value];
   const visited = new Set<unknown>();
 
@@ -90,7 +90,7 @@ function findCityCodeInConfig(value: unknown): string | null {
     if (!isObject(current) || visited.has(current)) continue;
     visited.add(current);
 
-    const direct = current.city_code ?? current.cityCode;
+    const direct = current.code;
     if (typeof direct === "string" && direct.trim() !== "") {
       return direct.trim();
     }
@@ -105,31 +105,31 @@ function findCityCodeInConfig(value: unknown): string | null {
   return null;
 }
 
-async function parseConfigCityCode(zip: JSZip): Promise<{
-  cityCode: string | null;
+async function parseConfigCode(zip: JSZip): Promise<{
+  code: string | null;
   parseError: string | null;
 }> {
   const configEntry = zip.files["config.json"];
   if (!configEntry || configEntry.dir) {
-    return { cityCode: null, parseError: null };
+    return { code: null, parseError: null };
   }
 
   let rawConfig: string;
   try {
     rawConfig = await configEntry.async("string");
   } catch {
-    return { cityCode: null, parseError: "failed to read top-level config.json" };
+    return { code: null, parseError: "failed to read top-level config.json" };
   }
 
   let parsedConfig: unknown;
   try {
     parsedConfig = JSON.parse(rawConfig);
   } catch {
-    return { cityCode: null, parseError: "top-level config.json is not valid JSON" };
+    return { code: null, parseError: "top-level config.json is not valid JSON" };
   }
 
   return {
-    cityCode: findCityCodeInConfig(parsedConfig),
+    code: findConfigCode(parsedConfig),
     parseError: null,
   };
 }
@@ -137,9 +137,9 @@ async function parseConfigCityCode(zip: JSZip): Promise<{
 function inspectMapZip(
   files: Set<string>,
   registryCityCode: string | null,
-  configCityCode: string | null,
+  configCode: string | null,
   parseError: string | null,
-  cityCodeMismatchWarning: string | null,
+  configCodeMismatchWarning: string | null,
 ): ZipCompletenessResult {
   const requiredChecks: Record<string, boolean> = {};
   const matchedFiles: Record<string, string | null> = {};
@@ -183,32 +183,32 @@ function inspectMapZip(
     errors.push("missing top-level runways_taxiways.geojson or runways_taxiways.geojson.gz");
   }
 
-  if (cityCodeMismatchWarning) {
-    warnings.push(cityCodeMismatchWarning);
+  if (configCodeMismatchWarning) {
+    warnings.push(configCodeMismatchWarning);
   }
 
-  if (!configCityCode) {
+  if (!configCode) {
     requiredChecks.city_pmtiles = false;
     matchedFiles.city_pmtiles = null;
     if (registryCityCode) {
       errors.push(
-        `missing city_code in config.json for PMTiles validation (registry city_code '${registryCityCode}')`,
+        `missing code in config.json for PMTiles validation (registry city_code '${registryCityCode}')`,
       );
     } else {
-      errors.push("missing city_code in config.json for PMTiles validation");
+      errors.push("missing code in config.json for PMTiles validation");
     }
   } else {
-    const pmtilesName = `${configCityCode}.pmtiles`;
+    const pmtilesName = `${configCode}.pmtiles`;
     const pmtiles = firstMatch(files, [pmtilesName]);
     requiredChecks.city_pmtiles = pmtiles !== null;
     matchedFiles.city_pmtiles = pmtiles;
     if (!pmtiles) {
       if (registryCityCode) {
         errors.push(
-          `missing top-level ${pmtilesName} (config city_code '${configCityCode}', registry city_code '${registryCityCode}')`,
+          `missing top-level ${pmtilesName} (config code '${configCode}', registry city_code '${registryCityCode}')`,
         );
       } else {
-        errors.push(`missing top-level ${pmtilesName} (config city_code '${configCityCode}')`);
+        errors.push(`missing top-level ${pmtilesName} (config code '${configCode}')`);
       }
     }
   }
@@ -271,24 +271,24 @@ export async function inspectZipCompleteness(
   const topLevelFiles = listTopLevelFileNames(zip);
   if (listingType === "map") {
     const registryCityCode = options.cityCode?.trim() || null;
-    const configCityCodeResult = await parseConfigCityCode(zip);
-    const configCityCode = configCityCodeResult.cityCode;
+    const configCodeResult = await parseConfigCode(zip);
+    const configCode = configCodeResult.code;
     const mismatchWarning = (
       registryCityCode
-      && configCityCode
-      && registryCityCode !== configCityCode
+      && configCode
+      && registryCityCode !== configCode
     )
       ? (
-        `registry city_code '${registryCityCode}' differs from config city_code '${configCityCode}' `
-        + `(registry expects '${registryCityCode}.pmtiles', config expects '${configCityCode}.pmtiles')`
+        `registry city_code '${registryCityCode}' differs from config code '${configCode}' `
+        + `(registry expects '${registryCityCode}.pmtiles', config expects '${configCode}.pmtiles')`
       )
       : null;
 
     return inspectMapZip(
       topLevelFiles,
       registryCityCode,
-      configCityCode,
-      configCityCodeResult.parseError,
+      configCode,
+      configCodeResult.parseError,
       mismatchWarning,
     );
   }

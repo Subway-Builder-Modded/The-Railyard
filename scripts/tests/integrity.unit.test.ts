@@ -13,7 +13,7 @@ async function makeZip(entries: Record<string, string>): Promise<Buffer> {
 
 test("map integrity requires exact top-level files including city pmtiles", async () => {
   const zipBuffer = await makeZip({
-    "config.json": "{\"city_code\":\"ABC\"}",
+    "config.json": "{\"code\":\"ABC\"}",
     "demand_data.json.gz": "stub",
     "buildings_index.json": "{}",
     "roads.geojson": "{}",
@@ -33,7 +33,7 @@ test("map integrity requires exact top-level files including city pmtiles", asyn
 
 test("map integrity rejects nested paths and missing top-level city pmtiles", async () => {
   const zipBuffer = await makeZip({
-    "nested/config.json": "{\"city_code\":\"ABC\"}",
+    "nested/config.json": "{\"code\":\"ABC\"}",
     "demand_data.json": "{}",
     "buildings_index.json": "{}",
     "roads.geojson": "{}",
@@ -44,12 +44,12 @@ test("map integrity rejects nested paths and missing top-level city pmtiles", as
   const result = await inspectZipCompleteness("map", zipBuffer, { cityCode: "ABC" });
   assert.equal(result.isComplete, false);
   assert.ok(result.errors.some((error) => error.includes("config.json")));
-  assert.ok(result.errors.some((error) => error.includes("missing city_code in config.json")));
+  assert.ok(result.errors.some((error) => error.includes("missing code in config.json")));
 });
 
-test("map integrity uses config city_code for pmtiles and warns on registry mismatch", async () => {
+test("map integrity uses config code for pmtiles and warns on registry mismatch", async () => {
   const zipBuffer = await makeZip({
-    "config.json": "{\"city_code\":\"CFG\"}",
+    "config.json": "{\"code\":\"CFG\"}",
     "demand_data.json": "{}",
     "buildings_index.json": "{}",
     "roads.geojson": "{}",
@@ -60,14 +60,14 @@ test("map integrity uses config city_code for pmtiles and warns on registry mism
   const result = await inspectZipCompleteness("map", zipBuffer, { cityCode: "REG" });
   assert.equal(result.isComplete, true);
   assert.ok(result.warnings.some((warning) => warning.includes("registry city_code 'REG'")));
-  assert.ok(result.warnings.some((warning) => warning.includes("config city_code 'CFG'")));
+  assert.ok(result.warnings.some((warning) => warning.includes("config code 'CFG'")));
   assert.ok(result.warnings.some((warning) => warning.includes("REG.pmtiles")));
   assert.ok(result.warnings.some((warning) => warning.includes("CFG.pmtiles")));
 });
 
-test("map integrity enforces pmtiles using config city_code when present", async () => {
+test("map integrity enforces pmtiles using config code when present", async () => {
   const zipBuffer = await makeZip({
-    "config.json": "{\"city_code\":\"CFG\"}",
+    "config.json": "{\"code\":\"CFG\"}",
     "demand_data.json": "{}",
     "buildings_index.json": "{}",
     "roads.geojson": "{}",
@@ -78,11 +78,11 @@ test("map integrity enforces pmtiles using config city_code when present", async
   const result = await inspectZipCompleteness("map", zipBuffer, { cityCode: "REG" });
   assert.equal(result.isComplete, false);
   assert.ok(result.errors.some((error) => error.includes("CFG.pmtiles")));
-  assert.ok(result.errors.some((error) => error.includes("config city_code 'CFG'")));
+  assert.ok(result.errors.some((error) => error.includes("config code 'CFG'")));
   assert.ok(result.errors.some((error) => error.includes("registry city_code 'REG'")));
 });
 
-test("map integrity does not fall back to registry city_code when config city_code is missing", async () => {
+test("map integrity does not fall back to registry city_code when config code is missing", async () => {
   const zipBuffer = await makeZip({
     "config.json": "{}",
     "demand_data.json": "{}",
@@ -94,7 +94,7 @@ test("map integrity does not fall back to registry city_code when config city_co
 
   const result = await inspectZipCompleteness("map", zipBuffer, { cityCode: "REG" });
   assert.equal(result.isComplete, false);
-  assert.ok(result.errors.some((error) => error.includes("missing city_code in config.json")));
+  assert.ok(result.errors.some((error) => error.includes("missing code in config.json")));
 });
 
 test("mod integrity requires both release manifest asset and top-level zip manifest", async () => {
