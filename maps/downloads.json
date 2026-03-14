@@ -1,202 +1,202 @@
 {
   "amsterdam": {
-    "1.0.0": 111
+    "1.0.0": 112
   },
   "baltimore-dc-corridor": {
-    "1.1.0": 87
+    "1.1.0": 88
   },
   "bari": {
-    "1.1.0": 39
+    "1.1.0": 40
   },
   "bologna": {
-    "1.0.0": 25
+    "1.0.0": 26
   },
   "calgary": {
-    "1.0.1": 68,
-    "1.1.3": 86
+    "1.0.1": 69,
+    "1.1.3": 87
   },
   "catania": {
-    "1.1.0": 26
-  },
-  "colorado-ski-country": {
-    "1.0.0": 33
-  },
-  "dublin": {
-    "v1.0.0": 100,
-    "v1.1.0": 36
-  },
-  "edmonton": {
-    "1.0.1": 54,
-    "1.1.3": 81
-  },
-  "florence": {
-    "1.0.0": 23
-  },
-  "genoa": {
-    "1.1.0": 24
-  },
-  "greater-baltimore": {
-    "1.1.0": 23
-  },
-  "greater-los-angeles": {
-    "1.0.1": 26
-  },
-  "greatertwincities": {
-    "v1.0.0": 4
-  },
-  "jacksonville": {
-    "1.0.0": 30
-  },
-  "jerusalem": {
-    "v0.3.1": 37
-  },
-  "knoxville": {
-    "1.1.0": 20
-  },
-  "los-angeles-county": {
-    "1.0.0": 16
-  },
-  "louisville": {
-    "1.0.0": 27
-  },
-  "memphis": {
-    "1.1.0": 21
-  },
-  "mfn-hamptonroads": {
-    "1.0.0": 21
-  },
-  "mfn-hong-kong": {
-    "0.3.0": 7,
-    "0.4.0": 126
-  },
-  "mfn-madisonwi": {
-    "3.0.0": 9
-  },
-  "mfn-northwestar": {
-    "1.0.0": 24
-  },
-  "milan": {
-    "1.1.0": 63
-  },
-  "montreal": {
-    "1.0.1": 85,
-    "1.1.3": 187
-  },
-  "naples": {
-    "1.1.0": 21
-  },
-  "nashville": {
-    "2.0.0": 10
-  },
-  "orange-county": {
-    "1.0.3": 41
-  },
-  "orlando": {
-    "1.1.0": 26
-  },
-  "ottawa": {
-    "1.0.1": 58,
-    "1.1.3": 90
-  },
-  "palermo": {
-    "1.0.0": 16
-  },
-  "providence": {
-    "1.0.0": 28
-  },
-  "quebec-city": {
-    "1.0.1": 52,
-    "1.1.3": 77
-  },
-  "richmond": {
-    "1.1.0": 29
-  },
-  "rochester": {
     "1.1.0": 27
   },
-  "rome": {
-    "1.0.0": 50
+  "colorado-ski-country": {
+    "1.0.0": 34
   },
-  "rotterdam-the-hague": {
-    "1.0.0": 29
+  "dublin": {
+    "v1.0.0": 101,
+    "v1.1.0": 37
   },
-  "sacramento": {
+  "edmonton": {
+    "1.0.1": 55,
+    "1.1.3": 82
+  },
+  "florence": {
     "1.0.0": 24
   },
-  "san-antonio": {
-    "1.1.0": 26
+  "genoa": {
+    "1.1.0": 25
   },
-  "santa-barbara": {
-    "1.0.1": 15
+  "greater-baltimore": {
+    "1.1.0": 24
   },
-  "tampa-bay": {
+  "greater-los-angeles": {
+    "1.0.1": 28
+  },
+  "greatertwincities": {
+    "v1.0.0": 6
+  },
+  "jacksonville": {
+    "1.0.0": 31
+  },
+  "jerusalem": {
+    "v0.3.1": 39
+  },
+  "knoxville": {
+    "1.1.0": 21
+  },
+  "los-angeles-county": {
+    "1.0.0": 18
+  },
+  "louisville": {
+    "1.0.0": 28
+  },
+  "memphis": {
+    "1.1.0": 22
+  },
+  "mfn-hamptonroads": {
+    "1.0.0": 22
+  },
+  "mfn-hong-kong": {
+    "0.3.0": 9,
+    "0.4.0": 127
+  },
+  "mfn-madisonwi": {
+    "3.0.0": 11
+  },
+  "mfn-northwestar": {
+    "1.0.0": 25
+  },
+  "milan": {
+    "1.1.0": 64
+  },
+  "montreal": {
+    "1.0.1": 86,
+    "1.1.3": 188
+  },
+  "naples": {
+    "1.1.0": 22
+  },
+  "nashville": {
+    "2.0.0": 11
+  },
+  "orange-county": {
+    "1.0.3": 42
+  },
+  "orlando": {
+    "1.1.0": 27
+  },
+  "ottawa": {
+    "1.0.1": 59,
+    "1.1.3": 91
+  },
+  "palermo": {
+    "1.0.0": 17
+  },
+  "providence": {
+    "1.0.0": 29
+  },
+  "quebec-city": {
+    "1.0.1": 53,
+    "1.1.3": 78
+  },
+  "richmond": {
+    "1.1.0": 30
+  },
+  "rochester": {
     "1.1.0": 28
   },
+  "rome": {
+    "1.0.0": 51
+  },
+  "rotterdam-the-hague": {
+    "1.0.0": 30
+  },
+  "sacramento": {
+    "1.0.0": 25
+  },
+  "san-antonio": {
+    "1.1.0": 27
+  },
+  "santa-barbara": {
+    "1.0.1": 16
+  },
+  "tampa-bay": {
+    "1.1.0": 29
+  },
   "tel-aviv": {
-    "v1.2.0": 5,
-    "v1.3.0": 28,
-    "v2.0.0": 31
+    "v1.2.0": 7,
+    "v1.3.0": 30,
+    "v2.0.0": 32
   },
   "toronto": {
-    "1.0.1": 126,
-    "1.1.3": 223
+    "1.0.1": 127,
+    "1.1.3": 224
   },
   "turin": {
-    "1.0.0": 15
+    "1.0.0": 16
   },
   "vancouver": {
-    "1.0.1": 89,
-    "1.1.3": 122
+    "1.0.1": 90,
+    "1.1.3": 123
   },
   "waterloo": {
-    "1.0.0": 3,
-    "1.0.1": 53
+    "1.0.0": 5,
+    "1.0.1": 54
   },
   "winnipeg": {
-    "1.0.1": 53,
-    "1.1.3": 68
+    "1.0.1": 54,
+    "1.1.3": 69
   },
   "yukina-fukuoka": {
-    "0.2.0": 63
+    "0.2.0": 64
   },
   "yukina-hiroshima-kure": {
-    "0.2.0": 53
+    "0.2.0": 54
   },
   "yukina-kagoshima-kirishima": {
-    "0.2.0": 38
+    "0.2.0": 39
   },
   "yukina-kitakyushu-shimonoseki": {
-    "0.2.0": 46
+    "0.2.0": 47
   },
   "yukina-kobe-akashi": {
-    "0.2.0": 50
+    "0.2.0": 51
   },
   "yukina-kochi": {
-    "0.2.0": 36
+    "0.2.0": 37
   },
   "yukina-kyoto": {
-    "0.2.0": 109
+    "0.2.0": 110
   },
   "yukina-matsuyama": {
-    "0.2.0": 38
+    "0.2.0": 39
   },
   "yukina-niigata": {
-    "0.2.0": 46
+    "0.2.0": 47
   },
   "yukina-okinawa": {
-    "0.2.0": 58
+    "0.2.0": 59
   },
   "yukina-sapporo-chitose": {
-    "0.2.0": 68
+    "0.2.0": 69
   },
   "yukina-sendai": {
-    "0.2.0": 50
+    "0.2.0": 51
   },
   "yukina-yamagata": {
-    "0.2.0": 43
+    "0.2.0": 44
   },
   "zurich": {
-    "v1.0.0": 27,
-    "v1.1.0": 107
+    "v1.0.0": 29,
+    "v1.1.0": 108
   }
 }

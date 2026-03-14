@@ -1,20 +1,20 @@
 {
   "advanced-analytics": {
-    "v1.1.0": 406
+    "v1.1.0": 407
   },
   "citymapper": {},
   "danield1909-dantrains": {
-    "v1.0.0": 14,
-    "v1.0.1": 11
+    "v1.0.0": 15,
+    "v1.0.1": 13
   },
   "distance-circles": {
-    "0.3.3": 19
+    "0.3.3": 20
   },
   "subwaybuilder-regions": {
-    "v0.4.5": 169
+    "v0.4.5": 170
   },
   "transit-overlay": {
-    "1.5.0": 153
+    "1.5.0": 154
   },
   "valdotoriums-trains": {}
 }
