@@ -4,6 +4,7 @@ import { resolve } from "node:path";
 import JSZip from "jszip";
 import type { MapManifest } from "./manifests.js";
 import { createGraphqlUsageState, fetchRepoReleaseIndexes, graphqlUsageSnapshot } from "./release-resolution.js";
+import { fetchWithTimeout, resolveTimeoutMsFromEnv } from "./http.js";
 
 export interface DemandStats {
   residents_total: number;
@@ -59,6 +60,7 @@ const CACHE_FILE_NAME = "demand-stats-cache.json";
 // For non-sha fingerprints (e.g. tag+asset name), recheck periodically because
 // upstream ZIP content may change without a fingerprint change.
 const UNCHANGED_SKIP_WINDOW_MS = 9 * 60 * 60 * 1000;
+const MAP_DEMAND_FETCH_TIMEOUT_MS = resolveTimeoutMsFromEnv("REGISTRY_FETCH_TIMEOUT_MS", 45_000);
 
 function readJsonFile<T>(path: string): T {
   return JSON.parse(readFileSync(path, "utf-8")) as T;
@@ -97,9 +99,16 @@ async function fetchCustomInstallTargetZipUrl(
 ): Promise<ResolvedInstallTarget | null> {
   let response: Response;
   try {
-    response = await fetchImpl(updateUrl, {
-      headers: { Accept: "application/json" },
-    });
+    response = await fetchWithTimeout(
+      fetchImpl,
+      updateUrl,
+      { headers: { Accept: "application/json" } },
+      {
+        timeoutMs: MAP_DEMAND_FETCH_TIMEOUT_MS,
+        heartbeatPrefix: "[map-demand-stats]",
+        heartbeatLabel: `fetch-custom-update listing=${listingId}`,
+      },
+    );
   } catch (error) {
     warnListing(warnings, listingId, `custom update JSON fetch failed (${(error as Error).message})`);
     return null;
@@ -192,7 +201,16 @@ async function fetchZipBuffer(
 ): Promise<Buffer | null> {
   let response: Response;
   try {
-    response = await fetchImpl(zipUrl);
+    response = await fetchWithTimeout(
+      fetchImpl,
+      zipUrl,
+      undefined,
+      {
+        timeoutMs: MAP_DEMAND_FETCH_TIMEOUT_MS,
+        heartbeatPrefix: "[map-demand-stats]",
+        heartbeatLabel: `fetch-zip listing=${listingId}`,
+      },
+    );
   } catch (error) {
     warnListing(warnings, listingId, `failed to fetch map ZIP (${(error as Error).message})`);
     return null;

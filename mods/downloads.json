@@ -1,14 +1,16 @@
 {
   "advanced-analytics": {
-    "v1.1.0": 383
+    "v1.1.0": 388
   },
   "citymapper": {},
-  "distance-circles": {},
+  "distance-circles": {
+    "0.3.3": 0
+  },
   "subwaybuilder-regions": {
-    "v0.4.5": 161
+    "v0.4.5": 162
   },
   "transit-overlay": {
-    "1.5.0": 144
+    "1.5.0": 145
   },
   "valdotoriums-trains": {}
 }

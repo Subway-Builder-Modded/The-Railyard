@@ -1,3 +1,5 @@
+import { fetchWithTimeout, resolveTimeoutMsFromEnv } from "./http.js";
+
 interface SendDiscordMarkdownOptions {
   webhookUrl: string;
   title: string;
@@ -96,14 +98,24 @@ export function buildDiscordWebhookPayload(options: SendDiscordMarkdownOptions):
 }
 
 export async function sendDiscordMarkdown(options: SendDiscordMarkdownOptions): Promise<void> {
+  const timeoutMs = resolveTimeoutMsFromEnv("DISCORD_WEBHOOK_TIMEOUT_MS", 15_000);
   const payload = buildDiscordWebhookPayload(options);
-  const response = await fetch(options.webhookUrl, {
-    method: "POST",
-    headers: {
-      "Content-Type": "application/json",
+  const response = await fetchWithTimeout(
+    fetch,
+    options.webhookUrl,
+    {
+      method: "POST",
+      headers: {
+        "Content-Type": "application/json",
+      },
+      body: JSON.stringify(payload),
     },
-    body: JSON.stringify(payload),
-  });
+    {
+      timeoutMs,
+      heartbeatPrefix: "[discord]",
+      heartbeatLabel: "send-webhook",
+    },
+  );
   if (!response.ok) {
     throw new Error(`Discord webhook returned HTTP ${response.status}`);
   }
