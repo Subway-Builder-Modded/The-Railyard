@@ -17,8 +17,13 @@
   "catania": {
     "1.1.0": 26
   },
-  "colorado-ski-country": {},
-  "dublin": {},
+  "colorado-ski-country": {
+    "1.0.0": 31
+  },
+  "dublin": {
+    "v1.0.0": 99,
+    "v1.1.0": 34
+  },
   "edmonton": {
     "1.1.3": 81
   },
@@ -34,23 +39,38 @@
   "greater-los-angeles": {
     "1.0.1": 24
   },
-  "greatertwincities": {},
+  "greatertwincities": {
+    "v1.0.0": 2
+  },
   "jacksonville": {
     "1.0.0": 30
   },
-  "jerusalem": {},
+  "jerusalem": {
+    "v0.3.1": 35
+  },
   "knoxville": {
     "1.1.0": 20
   },
   "los-angeles-county": {},
-  "louisville": {},
+  "louisville": {
+    "1.0.0": 25
+  },
   "memphis": {
     "1.1.0": 21
   },
-  "mfn-hamptonroads": {},
-  "mfn-hong-kong": {},
-  "mfn-madisonwi": {},
-  "mfn-northwestar": {},
+  "mfn-hamptonroads": {
+    "1.0.0": 19
+  },
+  "mfn-hong-kong": {
+    "0.3.0": 7,
+    "0.4.0": 124
+  },
+  "mfn-madisonwi": {
+    "3.0.0": 7
+  },
+  "mfn-northwestar": {
+    "1.0.0": 22
+  },
   "milan": {
     "1.1.0": 63
   },
@@ -60,7 +80,9 @@
   "naples": {
     "1.1.0": 21
   },
-  "nashville": {},
+  "nashville": {
+    "2.0.0": 8
+  },
   "orange-county": {
     "1.0.3": 41
   },
@@ -73,7 +95,9 @@
   "palermo": {
     "1.0.0": 16
   },
-  "providence": {},
+  "providence": {
+    "1.0.0": 26
+  },
   "quebec-city": {
     "1.1.3": 77
   },
@@ -89,7 +113,9 @@
   "rotterdam-the-hague": {
     "1.0.0": 28
   },
-  "sacramento": {},
+  "sacramento": {
+    "1.0.0": 22
+  },
   "san-antonio": {
     "1.1.0": 26
   },
@@ -99,28 +125,35 @@
   "tampa-bay": {
     "1.1.0": 28
   },
-  "tel-aviv": {},
+  "tel-aviv": {
+    "v1.2.0": 5,
+    "v1.3.0": 28,
+    "v2.0.0": 29
+  },
   "toronto": {
     "1.1.3": 223
   },
   "turin": {
-    "1.0.0": 15
+    "1.0.0": 14
   },
   "vancouver": {
     "1.1.3": 122
   },
-  "waterloo": {},
+  "waterloo": {
+    "1.0.0": 3,
+    "1.0.1": 51
+  },
   "winnipeg": {
-    "1.1.3": 68
+    "1.1.3": 67
   },
   "yukina-fukuoka": {
-    "0.2.0": 63
+    "0.2.0": 62
   },
   "yukina-hiroshima-kure": {
-    "0.2.0": 53
+    "0.2.0": 52
   },
   "yukina-kagoshima-kirishima": {
-    "0.2.0": 38
+    "0.2.0": 37
   },
   "yukina-kitakyushu-shimonoseki": {
     "0.2.0": 45
@@ -152,5 +185,8 @@
   "yukina-yamagata": {
     "0.2.0": 43
   },
-  "zurich": {}
+  "zurich": {
+    "v1.0.0": 27,
+    "v1.1.0": 105
+  }
 }

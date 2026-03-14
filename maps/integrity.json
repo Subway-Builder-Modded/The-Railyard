@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "generated_at": "2026-03-14T16:37:12.555Z",
+  "generated_at": "2026-03-14T17:17:18.806Z",
   "listings": {
     "amsterdam": {
       "has_complete_version": true,
@@ -276,70 +276,112 @@
       }
     },
     "colorado-ski-country": {
-      "has_complete_version": false,
+      "has_complete_version": true,
       "latest_semver_version": "1.0.0",
-      "latest_semver_complete": false,
-      "complete_versions": [],
-      "incomplete_versions": [
+      "latest_semver_complete": true,
+      "complete_versions": [
         "1.0.0"
       ],
+      "incomplete_versions": [],
       "versions": {
         "1.0.0": {
-          "is_complete": false,
-          "errors": [
-            "asset 'Colorado-Ski-Country-Railway.zip': missing city_code in config.json for PMTiles validation (registry city_code 'EGE')"
-          ],
-          "required_checks": {},
-          "matched_files": {},
+          "is_complete": true,
+          "errors": [],
+          "required_checks": {
+            "config_json": true,
+            "demand_data": true,
+            "buildings_index": true,
+            "roads_geojson": true,
+            "runways_taxiways_geojson": true,
+            "city_pmtiles": true
+          },
+          "matched_files": {
+            "config_json": "config.json",
+            "demand_data": "demand_data.json",
+            "buildings_index": "buildings_index.json",
+            "roads_geojson": "roads.geojson",
+            "runways_taxiways_geojson": "runways_taxiways.geojson",
+            "city_pmtiles": "EGE.pmtiles"
+          },
           "source": {
             "update_type": "github",
             "repo": "soccerjonj/colorado-ski-country",
-            "tag": "1.0.0"
+            "tag": "1.0.0",
+            "asset_name": "Colorado-Ski-Country-Railway.zip",
+            "download_url": "https://github.com/soccerjonj/Colorado-Ski-Country/releases/download/1.0.0/Colorado-Ski-Country-Railway.zip"
           },
           "fingerprint": "github:soccerjonj/colorado-ski-country:1.0.0:Colorado-Ski-Country-Railway.zip",
-          "checked_at": "2026-03-14T16:31:02.342Z"
+          "checked_at": "2026-03-14T17:17:18.806Z"
         }
       }
     },
     "dublin": {
-      "has_complete_version": false,
+      "has_complete_version": true,
       "latest_semver_version": "v1.1.0",
-      "latest_semver_complete": false,
-      "complete_versions": [],
-      "incomplete_versions": [
+      "latest_semver_complete": true,
+      "complete_versions": [
         "v1.1.0",
         "v1.0.0"
       ],
+      "incomplete_versions": [],
       "versions": {
         "v1.0.0": {
-          "is_complete": false,
-          "errors": [
-            "asset 'dublin.zip': missing city_code in config.json for PMTiles validation (registry city_code 'DUB')"
-          ],
-          "required_checks": {},
-          "matched_files": {},
+          "is_complete": true,
+          "errors": [],
+          "required_checks": {
+            "config_json": true,
+            "demand_data": true,
+            "buildings_index": true,
+            "roads_geojson": true,
+            "runways_taxiways_geojson": true,
+            "city_pmtiles": true
+          },
+          "matched_files": {
+            "config_json": "config.json",
+            "demand_data": "demand_data.json",
+            "buildings_index": "buildings_index.json",
+            "roads_geojson": "roads.geojson",
+            "runways_taxiways_geojson": "runways_taxiways.geojson",
+            "city_pmtiles": "DUB.pmtiles"
+          },
           "source": {
             "update_type": "github",
             "repo": "kronifer/sb-dublin-map",
-            "tag": "v1.0.0"
+            "tag": "v1.0.0",
+            "asset_name": "dublin.zip",
+            "download_url": "https://github.com/Kronifer/sb-dublin-map/releases/download/v1.0.0/dublin.zip"
           },
           "fingerprint": "github:kronifer/sb-dublin-map:v1.0.0:dublin.zip",
-          "checked_at": "2026-03-14T16:31:02.342Z"
+          "checked_at": "2026-03-14T17:17:18.806Z"
         },
         "v1.1.0": {
-          "is_complete": false,
-          "errors": [
-            "asset 'DUB.zip': missing city_code in config.json for PMTiles validation (registry city_code 'DUB')"
-          ],
-          "required_checks": {},
-          "matched_files": {},
+          "is_complete": true,
+          "errors": [],
+          "required_checks": {
+            "config_json": true,
+            "demand_data": true,
+            "buildings_index": true,
+            "roads_geojson": true,
+            "runways_taxiways_geojson": true,
+            "city_pmtiles": true
+          },
+          "matched_files": {
+            "config_json": "config.json",
+            "demand_data": "demand_data.json",
+            "buildings_index": "buildings_index.json",
+            "roads_geojson": "roads.geojson",
+            "runways_taxiways_geojson": "runways_taxiways.geojson",
+            "city_pmtiles": "DUB.pmtiles"
+          },
           "source": {
             "update_type": "github",
             "repo": "kronifer/sb-dublin-map",
-            "tag": "v1.1.0"
+            "tag": "v1.1.0",
+            "asset_name": "DUB.zip",
+            "download_url": "https://github.com/Kronifer/sb-dublin-map/releases/download/v1.1.0/DUB.zip"
           },
           "fingerprint": "github:kronifer/sb-dublin-map:v1.1.0:DUB.zip",
-          "checked_at": "2026-03-14T16:31:02.342Z"
+          "checked_at": "2026-03-14T17:17:18.806Z"
         }
       }
     },
@@ -577,28 +619,42 @@
       }
     },
     "greatertwincities": {
-      "has_complete_version": false,
+      "has_complete_version": true,
       "latest_semver_version": "v1.0.0",
-      "latest_semver_complete": false,
-      "complete_versions": [],
-      "incomplete_versions": [
+      "latest_semver_complete": true,
+      "complete_versions": [
         "v1.0.0"
       ],
+      "incomplete_versions": [],
       "versions": {
         "v1.0.0": {
-          "is_complete": false,
-          "errors": [
-            "asset 'KMSP.zip': missing city_code in config.json for PMTiles validation (registry city_code 'KMSP')"
-          ],
-          "required_checks": {},
-          "matched_files": {},
+          "is_complete": true,
+          "errors": [],
+          "required_checks": {
+            "config_json": true,
+            "demand_data": true,
+            "buildings_index": true,
+            "roads_geojson": true,
+            "runways_taxiways_geojson": true,
+            "city_pmtiles": true
+          },
+          "matched_files": {
+            "config_json": "config.json",
+            "demand_data": "demand_data.json",
+            "buildings_index": "buildings_index.json",
+            "roads_geojson": "roads.geojson",
+            "runways_taxiways_geojson": "runways_taxiways.geojson",
+            "city_pmtiles": "KMSP.pmtiles"
+          },
           "source": {
             "update_type": "github",
             "repo": "danield1909/improvedtwincities",
-            "tag": "v1.0.0"
+            "tag": "v1.0.0",
+            "asset_name": "KMSP.zip",
+            "download_url": "https://github.com/DanielD1909/improvedTwinCities/releases/download/v1.0.0/KMSP.zip"
           },
           "fingerprint": "github:danield1909/improvedtwincities:v1.0.0:KMSP.zip",
-          "checked_at": "2026-03-14T08:35:06.931Z"
+          "checked_at": "2026-03-14T17:17:18.806Z"
         }
       }
     },
@@ -643,12 +699,13 @@
       }
     },
     "jerusalem": {
-      "has_complete_version": false,
+      "has_complete_version": true,
       "latest_semver_version": "v0.3.1",
-      "latest_semver_complete": false,
-      "complete_versions": [],
+      "latest_semver_complete": true,
+      "complete_versions": [
+        "v0.3.1"
+      ],
       "incomplete_versions": [
-        "v0.3.1",
         "v0.3.0",
         "v0.2.0"
       ],
@@ -656,7 +713,7 @@
         "v0.2.0": {
           "is_complete": false,
           "errors": [
-            "asset 'JLM.zip': missing city_code in config.json for PMTiles validation (registry city_code 'JER')"
+            "asset 'JLM.zip': missing top-level JER.pmtiles (config code 'JER', registry city_code 'JER')"
           ],
           "required_checks": {},
           "matched_files": {},
@@ -666,12 +723,12 @@
             "tag": "v0.2.0"
           },
           "fingerprint": "github:barkuperman/jerusalem-sb-map:v0.2.0:JLM.zip",
-          "checked_at": "2026-03-14T16:31:02.342Z"
+          "checked_at": "2026-03-14T17:17:18.806Z"
         },
         "v0.3.0": {
           "is_complete": false,
           "errors": [
-            "asset 'JLM.zip': missing city_code in config.json for PMTiles validation (registry city_code 'JER')"
+            "asset 'JLM.zip': missing top-level JER.pmtiles (config code 'JER', registry city_code 'JER')"
           ],
           "required_checks": {},
           "matched_files": {},
@@ -681,22 +738,36 @@
             "tag": "v0.3.0"
           },
           "fingerprint": "github:barkuperman/jerusalem-sb-map:v0.3.0:JLM.zip",
-          "checked_at": "2026-03-14T16:31:02.342Z"
+          "checked_at": "2026-03-14T17:17:18.806Z"
         },
         "v0.3.1": {
-          "is_complete": false,
-          "errors": [
-            "asset 'JER.zip': missing city_code in config.json for PMTiles validation (registry city_code 'JER')"
-          ],
-          "required_checks": {},
-          "matched_files": {},
+          "is_complete": true,
+          "errors": [],
+          "required_checks": {
+            "config_json": true,
+            "demand_data": true,
+            "buildings_index": true,
+            "roads_geojson": true,
+            "runways_taxiways_geojson": true,
+            "city_pmtiles": true
+          },
+          "matched_files": {
+            "config_json": "config.json",
+            "demand_data": "demand_data.json",
+            "buildings_index": "buildings_index.json",
+            "roads_geojson": "roads.geojson",
+            "runways_taxiways_geojson": "runways_taxiways.geojson",
+            "city_pmtiles": "JER.pmtiles"
+          },
           "source": {
             "update_type": "github",
             "repo": "barkuperman/jerusalem-sb-map",
-            "tag": "v0.3.1"
+            "tag": "v0.3.1",
+            "asset_name": "JER.zip",
+            "download_url": "https://github.com/BarKuperman/jerusalem-sb-map/releases/download/v0.3.1/JER.zip"
           },
           "fingerprint": "github:barkuperman/jerusalem-sb-map:v0.3.1:JER.zip",
-          "checked_at": "2026-03-14T16:31:02.342Z"
+          "checked_at": "2026-03-14T17:17:18.806Z"
         }
       }
     },
@@ -783,28 +854,42 @@
       }
     },
     "louisville": {
-      "has_complete_version": false,
+      "has_complete_version": true,
       "latest_semver_version": "1.0.0",
-      "latest_semver_complete": false,
-      "complete_versions": [],
-      "incomplete_versions": [
+      "latest_semver_complete": true,
+      "complete_versions": [
         "1.0.0"
       ],
+      "incomplete_versions": [],
       "versions": {
         "1.0.0": {
-          "is_complete": false,
-          "errors": [
-            "asset 'Louisville-Railyard.zip': missing city_code in config.json for PMTiles validation (registry city_code 'SDF')"
-          ],
-          "required_checks": {},
-          "matched_files": {},
+          "is_complete": true,
+          "errors": [],
+          "required_checks": {
+            "config_json": true,
+            "demand_data": true,
+            "buildings_index": true,
+            "roads_geojson": true,
+            "runways_taxiways_geojson": true,
+            "city_pmtiles": true
+          },
+          "matched_files": {
+            "config_json": "config.json",
+            "demand_data": "demand_data.json",
+            "buildings_index": "buildings_index.json",
+            "roads_geojson": "roads.geojson",
+            "runways_taxiways_geojson": "runways_taxiways.geojson",
+            "city_pmtiles": "SDF.pmtiles"
+          },
           "source": {
             "update_type": "github",
             "repo": "soccerjonj/louisville",
-            "tag": "1.0.0"
+            "tag": "1.0.0",
+            "asset_name": "Louisville-Railyard.zip",
+            "download_url": "https://github.com/soccerjonj/Louisville/releases/download/1.0.0/Louisville-Railyard.zip"
           },
           "fingerprint": "github:soccerjonj/louisville:1.0.0:Louisville-Railyard.zip",
-          "checked_at": "2026-03-14T16:31:02.342Z"
+          "checked_at": "2026-03-14T17:17:18.806Z"
         }
       }
     },
@@ -849,70 +934,112 @@
       }
     },
     "mfn-hamptonroads": {
-      "has_complete_version": false,
+      "has_complete_version": true,
       "latest_semver_version": "1.0.0",
-      "latest_semver_complete": false,
-      "complete_versions": [],
-      "incomplete_versions": [
+      "latest_semver_complete": true,
+      "complete_versions": [
         "1.0.0"
       ],
+      "incomplete_versions": [],
       "versions": {
         "1.0.0": {
-          "is_complete": false,
-          "errors": [
-            "asset 'ORF.zip': missing city_code in config.json for PMTiles validation (registry city_code 'ORF')"
-          ],
-          "required_checks": {},
-          "matched_files": {},
+          "is_complete": true,
+          "errors": [],
+          "required_checks": {
+            "config_json": true,
+            "demand_data": true,
+            "buildings_index": true,
+            "roads_geojson": true,
+            "runways_taxiways_geojson": true,
+            "city_pmtiles": true
+          },
+          "matched_files": {
+            "config_json": "config.json",
+            "demand_data": "demand_data.json",
+            "buildings_index": "buildings_index.json",
+            "roads_geojson": "roads.geojson",
+            "runways_taxiways_geojson": "runways_taxiways.geojson",
+            "city_pmtiles": "ORF.pmtiles"
+          },
           "source": {
             "update_type": "github",
             "repo": "crumpetime/sb-maps-orf",
-            "tag": "1.0.0"
+            "tag": "1.0.0",
+            "asset_name": "ORF.zip",
+            "download_url": "https://github.com/crumpetime/sb-maps-orf/releases/download/1.0.0/ORF.zip"
           },
           "fingerprint": "github:crumpetime/sb-maps-orf:1.0.0:ORF.zip",
-          "checked_at": "2026-03-14T16:31:02.342Z"
+          "checked_at": "2026-03-14T17:17:18.806Z"
         }
       }
     },
     "mfn-hong-kong": {
-      "has_complete_version": false,
+      "has_complete_version": true,
       "latest_semver_version": "0.4.0",
-      "latest_semver_complete": false,
-      "complete_versions": [],
-      "incomplete_versions": [
+      "latest_semver_complete": true,
+      "complete_versions": [
         "0.4.0",
         "0.3.0"
       ],
+      "incomplete_versions": [],
       "versions": {
         "0.3.0": {
-          "is_complete": false,
-          "errors": [
-            "asset 'HKG.zip': missing city_code in config.json for PMTiles validation (registry city_code 'HKG')"
-          ],
-          "required_checks": {},
-          "matched_files": {},
+          "is_complete": true,
+          "errors": [],
+          "required_checks": {
+            "config_json": true,
+            "demand_data": true,
+            "buildings_index": true,
+            "roads_geojson": true,
+            "runways_taxiways_geojson": true,
+            "city_pmtiles": true
+          },
+          "matched_files": {
+            "config_json": "config.json",
+            "demand_data": "demand_data.json",
+            "buildings_index": "buildings_index.json",
+            "roads_geojson": "roads.geojson",
+            "runways_taxiways_geojson": "runways_taxiways.geojson",
+            "city_pmtiles": "HKG.pmtiles"
+          },
           "source": {
             "update_type": "github",
             "repo": "crumpetime/sb-maps-hkg",
-            "tag": "0.3.0"
+            "tag": "0.3.0",
+            "asset_name": "HKG.zip",
+            "download_url": "https://github.com/crumpetime/sb-maps-hkg/releases/download/0.3.0/HKG.zip"
           },
           "fingerprint": "github:crumpetime/sb-maps-hkg:0.3.0:HKG.zip",
-          "checked_at": "2026-03-14T16:31:02.342Z"
+          "checked_at": "2026-03-14T17:17:18.806Z"
         },
         "0.4.0": {
-          "is_complete": false,
-          "errors": [
-            "asset 'HKG.zip': missing city_code in config.json for PMTiles validation (registry city_code 'HKG')"
-          ],
-          "required_checks": {},
-          "matched_files": {},
+          "is_complete": true,
+          "errors": [],
+          "required_checks": {
+            "config_json": true,
+            "demand_data": true,
+            "buildings_index": true,
+            "roads_geojson": true,
+            "runways_taxiways_geojson": true,
+            "city_pmtiles": true
+          },
+          "matched_files": {
+            "config_json": "config.json",
+            "demand_data": "demand_data.json",
+            "buildings_index": "buildings_index.json",
+            "roads_geojson": "roads.geojson",
+            "runways_taxiways_geojson": "runways_taxiways.geojson",
+            "city_pmtiles": "HKG.pmtiles"
+          },
           "source": {
             "update_type": "github",
             "repo": "crumpetime/sb-maps-hkg",
-            "tag": "0.4.0"
+            "tag": "0.4.0",
+            "asset_name": "HKG.zip",
+            "download_url": "https://github.com/crumpetime/sb-maps-hkg/releases/download/0.4.0/HKG.zip"
           },
           "fingerprint": "github:crumpetime/sb-maps-hkg:0.4.0:HKG.zip",
-          "checked_at": "2026-03-14T16:31:02.342Z"
+          "checked_at": "2026-03-14T17:17:18.806Z"
         },
         "railyard": {
           "is_complete": false,
@@ -927,59 +1054,87 @@
             "tag": "railyard"
           },
           "fingerprint": "github:crumpetime/sb-maps-hkg:railyard:HKG.zip",
-          "checked_at": "2026-03-14T16:31:02.342Z"
+          "checked_at": "2026-03-14T17:17:18.806Z"
         }
       }
     },
     "mfn-madisonwi": {
-      "has_complete_version": false,
+      "has_complete_version": true,
       "latest_semver_version": "3.0.0",
-      "latest_semver_complete": false,
-      "complete_versions": [],
-      "incomplete_versions": [
+      "latest_semver_complete": true,
+      "complete_versions": [
         "3.0.0"
       ],
+      "incomplete_versions": [],
       "versions": {
         "3.0.0": {
-          "is_complete": false,
-          "errors": [
-            "asset 'MSN.zip': missing city_code in config.json for PMTiles validation (registry city_code 'MSN')"
-          ],
-          "required_checks": {},
-          "matched_files": {},
+          "is_complete": true,
+          "errors": [],
+          "required_checks": {
+            "config_json": true,
+            "demand_data": true,
+            "buildings_index": true,
+            "roads_geojson": true,
+            "runways_taxiways_geojson": true,
+            "city_pmtiles": true
+          },
+          "matched_files": {
+            "config_json": "config.json",
+            "demand_data": "demand_data.json",
+            "buildings_index": "buildings_index.json",
+            "roads_geojson": "roads.geojson",
+            "runways_taxiways_geojson": "runways_taxiways.geojson",
+            "city_pmtiles": "MSN.pmtiles"
+          },
           "source": {
             "update_type": "github",
             "repo": "crumpetime/sb-maps-msn",
-            "tag": "3.0.0"
+            "tag": "3.0.0",
+            "asset_name": "MSN.zip",
+            "download_url": "https://github.com/crumpetime/sb-maps-msn/releases/download/3.0.0/MSN.zip"
           },
           "fingerprint": "github:crumpetime/sb-maps-msn:3.0.0:MSN.zip",
-          "checked_at": "2026-03-14T16:31:02.342Z"
+          "checked_at": "2026-03-14T17:17:18.806Z"
         }
       }
     },
     "mfn-northwestar": {
-      "has_complete_version": false,
+      "has_complete_version": true,
       "latest_semver_version": "1.0.0",
-      "latest_semver_complete": false,
-      "complete_versions": [],
-      "incomplete_versions": [
+      "latest_semver_complete": true,
+      "complete_versions": [
         "1.0.0"
       ],
+      "incomplete_versions": [],
       "versions": {
         "1.0.0": {
-          "is_complete": false,
-          "errors": [
-            "asset 'XNA.zip': missing city_code in config.json for PMTiles validation (registry city_code 'XNA')"
-          ],
-          "required_checks": {},
-          "matched_files": {},
+          "is_complete": true,
+          "errors": [],
+          "required_checks": {
+            "config_json": true,
+            "demand_data": true,
+            "buildings_index": true,
+            "roads_geojson": true,
+            "runways_taxiways_geojson": true,
+            "city_pmtiles": true
+          },
+          "matched_files": {
+            "config_json": "config.json",
+            "demand_data": "demand_data.json",
+            "buildings_index": "buildings_index.json",
+            "roads_geojson": "roads.geojson",
+            "runways_taxiways_geojson": "runways_taxiways.geojson",
+            "city_pmtiles": "XNA.pmtiles"
+          },
           "source": {
             "update_type": "github",
             "repo": "crumpetime/sb-maps-xna",
-            "tag": "1.0.0"
+            "tag": "1.0.0",
+            "asset_name": "XNA.zip",
+            "download_url": "https://github.com/crumpetime/sb-maps-xna/releases/download/1.0.0/XNA.zip"
           },
           "fingerprint": "github:crumpetime/sb-maps-xna:1.0.0:XNA.zip",
-          "checked_at": "2026-03-14T16:31:02.342Z"
+          "checked_at": "2026-03-14T17:17:18.806Z"
         }
       }
     },
@@ -1137,13 +1292,13 @@
       }
     },
     "nashville": {
-      "has_complete_version": false,
+      "has_complete_version": true,
       "latest_semver_version": "2.0.0",
-      "latest_semver_complete": false,
-      "complete_versions": [],
-      "incomplete_versions": [
+      "latest_semver_complete": true,
+      "complete_versions": [
         "2.0.0"
       ],
+      "incomplete_versions": [],
       "versions": {
         "1.0": {
           "is_complete": false,
@@ -1158,22 +1313,36 @@
             "tag": "1.0"
           },
           "fingerprint": "github:soccerjonj/nashville:1.0:no-zip",
-          "checked_at": "2026-03-14T16:31:02.342Z"
+          "checked_at": "2026-03-14T17:17:18.806Z"
         },
         "2.0.0": {
-          "is_complete": false,
-          "errors": [
-            "asset 'Nashville-Railway.zip': missing city_code in config.json for PMTiles validation (registry city_code 'BNA')"
-          ],
-          "required_checks": {},
-          "matched_files": {},
+          "is_complete": true,
+          "errors": [],
+          "required_checks": {
+            "config_json": true,
+            "demand_data": true,
+            "buildings_index": true,
+            "roads_geojson": true,
+            "runways_taxiways_geojson": true,
+            "city_pmtiles": true
+          },
+          "matched_files": {
+            "config_json": "config.json",
+            "demand_data": "demand_data.json",
+            "buildings_index": "buildings_index.json",
+            "roads_geojson": "roads.geojson",
+            "runways_taxiways_geojson": "runways_taxiways.geojson",
+            "city_pmtiles": "BNA.pmtiles"
+          },
           "source": {
             "update_type": "github",
             "repo": "soccerjonj/nashville",
-            "tag": "2.0.0"
+            "tag": "2.0.0",
+            "asset_name": "Nashville-Railway.zip",
+            "download_url": "https://github.com/soccerjonj/Nashville/releases/download/2.0.0/Nashville-Railway.zip"
           },
           "fingerprint": "github:soccerjonj/nashville:2.0.0:Nashville-Railway.zip",
-          "checked_at": "2026-03-14T16:31:02.342Z"
+          "checked_at": "2026-03-14T17:17:18.806Z"
         }
       }
     },
@@ -1371,28 +1540,42 @@
       }
     },
     "providence": {
-      "has_complete_version": false,
+      "has_complete_version": true,
       "latest_semver_version": "1.0.0",
-      "latest_semver_complete": false,
-      "complete_versions": [],
-      "incomplete_versions": [
+      "latest_semver_complete": true,
+      "complete_versions": [
         "1.0.0"
       ],
+      "incomplete_versions": [],
       "versions": {
         "1.0.0": {
-          "is_complete": false,
-          "errors": [
-            "asset 'Providence-Railyard.zip': missing city_code in config.json for PMTiles validation (registry city_code 'PVD')"
-          ],
-          "required_checks": {},
-          "matched_files": {},
+          "is_complete": true,
+          "errors": [],
+          "required_checks": {
+            "config_json": true,
+            "demand_data": true,
+            "buildings_index": true,
+            "roads_geojson": true,
+            "runways_taxiways_geojson": true,
+            "city_pmtiles": true
+          },
+          "matched_files": {
+            "config_json": "config.json",
+            "demand_data": "demand_data.json",
+            "buildings_index": "buildings_index.json",
+            "roads_geojson": "roads.geojson",
+            "runways_taxiways_geojson": "runways_taxiways.geojson",
+            "city_pmtiles": "PVD.pmtiles"
+          },
           "source": {
             "update_type": "github",
             "repo": "soccerjonj/providence",
-            "tag": "1.0.0"
+            "tag": "1.0.0",
+            "asset_name": "Providence-Railyard.zip",
+            "download_url": "https://github.com/soccerjonj/Providence/releases/download/1.0.0/Providence-Railyard.zip"
           },
           "fingerprint": "github:soccerjonj/providence:1.0.0:Providence-Railyard.zip",
-          "checked_at": "2026-03-14T16:31:02.342Z"
+          "checked_at": "2026-03-14T17:17:18.806Z"
         }
       }
     },
@@ -1630,28 +1813,42 @@
       }
     },
     "sacramento": {
-      "has_complete_version": false,
+      "has_complete_version": true,
       "latest_semver_version": "1.0.0",
-      "latest_semver_complete": false,
-      "complete_versions": [],
-      "incomplete_versions": [
+      "latest_semver_complete": true,
+      "complete_versions": [
         "1.0.0"
       ],
+      "incomplete_versions": [],
       "versions": {
         "1.0.0": {
-          "is_complete": false,
-          "errors": [
-            "asset 'Sacramento-Railyard.zip': missing city_code in config.json for PMTiles validation (registry city_code 'SMF')"
-          ],
-          "required_checks": {},
-          "matched_files": {},
+          "is_complete": true,
+          "errors": [],
+          "required_checks": {
+            "config_json": true,
+            "demand_data": true,
+            "buildings_index": true,
+            "roads_geojson": true,
+            "runways_taxiways_geojson": true,
+            "city_pmtiles": true
+          },
+          "matched_files": {
+            "config_json": "config.json",
+            "demand_data": "demand_data.json",
+            "buildings_index": "buildings_index.json",
+            "roads_geojson": "roads.geojson",
+            "runways_taxiways_geojson": "runways_taxiways.geojson",
+            "city_pmtiles": "SMF.pmtiles"
+          },
           "source": {
             "update_type": "github",
             "repo": "soccerjonj/sacramento",
-            "tag": "1.0.0"
+            "tag": "1.0.0",
+            "asset_name": "Sacramento-Railyard.zip",
+            "download_url": "https://github.com/soccerjonj/Sacramento/releases/download/1.0.0/Sacramento-Railyard.zip"
           },
           "fingerprint": "github:soccerjonj/sacramento:1.0.0:Sacramento-Railyard.zip",
-          "checked_at": "2026-03-14T16:31:02.342Z"
+          "checked_at": "2026-03-14T17:17:18.806Z"
         }
       }
     },
@@ -1776,60 +1973,102 @@
       }
     },
     "tel-aviv": {
-      "has_complete_version": false,
+      "has_complete_version": true,
       "latest_semver_version": "v2.0.0",
-      "latest_semver_complete": false,
-      "complete_versions": [],
-      "incomplete_versions": [
+      "latest_semver_complete": true,
+      "complete_versions": [
         "v2.0.0",
         "v1.3.0",
         "v1.2.0"
       ],
+      "incomplete_versions": [],
       "versions": {
         "v1.2.0": {
-          "is_complete": false,
-          "errors": [
-            "asset 'TLV.v1.2.zip': missing city_code in config.json for PMTiles validation (registry city_code 'TLV')"
-          ],
-          "required_checks": {},
-          "matched_files": {},
+          "is_complete": true,
+          "errors": [],
+          "required_checks": {
+            "config_json": true,
+            "demand_data": true,
+            "buildings_index": true,
+            "roads_geojson": true,
+            "runways_taxiways_geojson": true,
+            "city_pmtiles": true
+          },
+          "matched_files": {
+            "config_json": "config.json",
+            "demand_data": "demand_data.json",
+            "buildings_index": "buildings_index.json",
+            "roads_geojson": "roads.geojson",
+            "runways_taxiways_geojson": "runways_taxiways.geojson",
+            "city_pmtiles": "TLV.pmtiles"
+          },
           "source": {
             "update_type": "github",
             "repo": "barkuperman/tlv-mod",
-            "tag": "v1.2.0"
+            "tag": "v1.2.0",
+            "asset_name": "TLV.v1.2.zip",
+            "download_url": "https://github.com/BarKuperman/TLV-mod/releases/download/v1.2.0/TLV.v1.2.zip"
           },
           "fingerprint": "github:barkuperman/tlv-mod:v1.2.0:TLV.v1.2.zip",
-          "checked_at": "2026-03-14T16:31:02.342Z"
+          "checked_at": "2026-03-14T17:17:18.806Z"
         },
         "v1.3.0": {
-          "is_complete": false,
-          "errors": [
-            "asset 'TLV.zip': missing city_code in config.json for PMTiles validation (registry city_code 'TLV')"
-          ],
-          "required_checks": {},
-          "matched_files": {},
+          "is_complete": true,
+          "errors": [],
+          "required_checks": {
+            "config_json": true,
+            "demand_data": true,
+            "buildings_index": true,
+            "roads_geojson": true,
+            "runways_taxiways_geojson": true,
+            "city_pmtiles": true
+          },
+          "matched_files": {
+            "config_json": "config.json",
+            "demand_data": "demand_data.json",
+            "buildings_index": "buildings_index.json",
+            "roads_geojson": "roads.geojson",
+            "runways_taxiways_geojson": "runways_taxiways.geojson",
+            "city_pmtiles": "TLV.pmtiles"
+          },
           "source": {
             "update_type": "github",
             "repo": "barkuperman/tlv-mod",
-            "tag": "v1.3.0"
+            "tag": "v1.3.0",
+            "asset_name": "TLV.zip",
+            "download_url": "https://github.com/BarKuperman/TLV-mod/releases/download/v1.3.0/TLV.zip"
           },
           "fingerprint": "github:barkuperman/tlv-mod:v1.3.0:TLV.zip",
-          "checked_at": "2026-03-14T16:31:02.342Z"
+          "checked_at": "2026-03-14T17:17:18.806Z"
         },
         "v2.0.0": {
-          "is_complete": false,
-          "errors": [
-            "asset 'TLV.zip': missing city_code in config.json for PMTiles validation (registry city_code 'TLV')"
-          ],
-          "required_checks": {},
-          "matched_files": {},
+          "is_complete": true,
+          "errors": [],
+          "required_checks": {
+            "config_json": true,
+            "demand_data": true,
+            "buildings_index": true,
+            "roads_geojson": true,
+            "runways_taxiways_geojson": true,
+            "city_pmtiles": true
+          },
+          "matched_files": {
+            "config_json": "config.json",
+            "demand_data": "demand_data.json",
+            "buildings_index": "buildings_index.json",
+            "roads_geojson": "roads.geojson",
+            "runways_taxiways_geojson": "runways_taxiways.geojson",
+            "city_pmtiles": "TLV.pmtiles"
+          },
           "source": {
             "update_type": "github",
             "repo": "barkuperman/tlv-mod",
-            "tag": "v2.0.0"
+            "tag": "v2.0.0",
+            "asset_name": "TLV.zip",
+            "download_url": "https://github.com/BarKuperman/TLV-mod/releases/download/v2.0.0/TLV.zip"
           },
           "fingerprint": "github:barkuperman/tlv-mod:v2.0.0:TLV.zip",
-          "checked_at": "2026-03-14T16:31:02.342Z"
+          "checked_at": "2026-03-14T17:17:18.806Z"
         }
       }
     },
@@ -2020,44 +2259,72 @@
       }
     },
     "waterloo": {
-      "has_complete_version": false,
+      "has_complete_version": true,
       "latest_semver_version": "1.0.1",
-      "latest_semver_complete": false,
-      "complete_versions": [],
-      "incomplete_versions": [
+      "latest_semver_complete": true,
+      "complete_versions": [
         "1.0.1",
         "1.0.0"
       ],
+      "incomplete_versions": [],
       "versions": {
         "1.0.0": {
-          "is_complete": false,
-          "errors": [
-            "asset 'YKF.zip': missing city_code in config.json for PMTiles validation (registry city_code 'YKF')"
-          ],
-          "required_checks": {},
-          "matched_files": {},
+          "is_complete": true,
+          "errors": [],
+          "required_checks": {
+            "config_json": true,
+            "demand_data": true,
+            "buildings_index": true,
+            "roads_geojson": true,
+            "runways_taxiways_geojson": true,
+            "city_pmtiles": true
+          },
+          "matched_files": {
+            "config_json": "config.json",
+            "demand_data": "demand_data.json",
+            "buildings_index": "buildings_index.json",
+            "roads_geojson": "roads.geojson",
+            "runways_taxiways_geojson": "runways_taxiways.geojson",
+            "city_pmtiles": "YKF.pmtiles"
+          },
           "source": {
             "update_type": "github",
             "repo": "kronifer/sb-waterloo-map",
-            "tag": "1.0.0"
+            "tag": "1.0.0",
+            "asset_name": "YKF.zip",
+            "download_url": "https://github.com/Kronifer/sb-waterloo-map/releases/download/1.0.0/YKF.zip"
           },
           "fingerprint": "github:kronifer/sb-waterloo-map:1.0.0:YKF.zip",
-          "checked_at": "2026-03-14T16:31:02.342Z"
+          "checked_at": "2026-03-14T17:17:18.806Z"
         },
         "1.0.1": {
-          "is_complete": false,
-          "errors": [
-            "asset 'YKF.zip': missing city_code in config.json for PMTiles validation (registry city_code 'YKF')"
-          ],
-          "required_checks": {},
-          "matched_files": {},
+          "is_complete": true,
+          "errors": [],
+          "required_checks": {
+            "config_json": true,
+            "demand_data": true,
+            "buildings_index": true,
+            "roads_geojson": true,
+            "runways_taxiways_geojson": true,
+            "city_pmtiles": true
+          },
+          "matched_files": {
+            "config_json": "config.json",
+            "demand_data": "demand_data.json",
+            "buildings_index": "buildings_index.json",
+            "roads_geojson": "roads.geojson",
+            "runways_taxiways_geojson": "runways_taxiways.geojson",
+            "city_pmtiles": "YKF.pmtiles"
+          },
           "source": {
             "update_type": "github",
             "repo": "kronifer/sb-waterloo-map",
-            "tag": "1.0.1"
+            "tag": "1.0.1",
+            "asset_name": "YKF.zip",
+            "download_url": "https://github.com/Kronifer/sb-waterloo-map/releases/download/1.0.1/YKF.zip"
           },
           "fingerprint": "github:kronifer/sb-waterloo-map:1.0.1:YKF.zip",
-          "checked_at": "2026-03-14T16:31:02.342Z"
+          "checked_at": "2026-03-14T17:17:18.806Z"
         }
       }
     },
@@ -2655,44 +2922,72 @@
       }
     },
     "zurich": {
-      "has_complete_version": false,
+      "has_complete_version": true,
       "latest_semver_version": "v1.1.0",
-      "latest_semver_complete": false,
-      "complete_versions": [],
-      "incomplete_versions": [
+      "latest_semver_complete": true,
+      "complete_versions": [
         "v1.1.0",
         "v1.0.0"
       ],
+      "incomplete_versions": [],
       "versions": {
         "v1.0.0": {
-          "is_complete": false,
-          "errors": [
-            "asset 'ZRH.zip': missing city_code in config.json for PMTiles validation (registry city_code 'ZRH')"
-          ],
-          "required_checks": {},
-          "matched_files": {},
+          "is_complete": true,
+          "errors": [],
+          "required_checks": {
+            "config_json": true,
+            "demand_data": true,
+            "buildings_index": true,
+            "roads_geojson": true,
+            "runways_taxiways_geojson": true,
+            "city_pmtiles": true
+          },
+          "matched_files": {
+            "config_json": "config.json",
+            "demand_data": "demand_data.json",
+            "buildings_index": "buildings_index.json",
+            "roads_geojson": "roads.geojson",
+            "runways_taxiways_geojson": "runways_taxiways.geojson",
+            "city_pmtiles": "ZRH.pmtiles"
+          },
           "source": {
             "update_type": "github",
             "repo": "kronifer/sb-zurich-map",
-            "tag": "v1.0.0"
+            "tag": "v1.0.0",
+            "asset_name": "ZRH.zip",
+            "download_url": "https://github.com/Kronifer/sb-zurich-map/releases/download/v1.0.0/ZRH.zip"
           },
           "fingerprint": "github:kronifer/sb-zurich-map:v1.0.0:ZRH.zip",
-          "checked_at": "2026-03-14T16:31:02.342Z"
+          "checked_at": "2026-03-14T17:17:18.806Z"
         },
         "v1.1.0": {
-          "is_complete": false,
-          "errors": [
-            "asset 'ZRH.zip': missing city_code in config.json for PMTiles validation (registry city_code 'ZRH')"
-          ],
-          "required_checks": {},
-          "matched_files": {},
+          "is_complete": true,
+          "errors": [],
+          "required_checks": {
+            "config_json": true,
+            "demand_data": true,
+            "buildings_index": true,
+            "roads_geojson": true,
+            "runways_taxiways_geojson": true,
+            "city_pmtiles": true
+          },
+          "matched_files": {
+            "config_json": "config.json",
+            "demand_data": "demand_data.json",
+            "buildings_index": "buildings_index.json",
+            "roads_geojson": "roads.geojson",
+            "runways_taxiways_geojson": "runways_taxiways.geojson",
+            "city_pmtiles": "ZRH.pmtiles"
+          },
           "source": {
             "update_type": "github",
             "repo": "kronifer/sb-zurich-map",
-            "tag": "v1.1.0"
+            "tag": "v1.1.0",
+            "asset_name": "ZRH.zip",
+            "download_url": "https://github.com/Kronifer/sb-zurich-map/releases/download/v1.1.0/ZRH.zip"
           },
           "fingerprint": "github:kronifer/sb-zurich-map:v1.1.0:ZRH.zip",
-          "checked_at": "2026-03-14T16:31:02.342Z"
+          "checked_at": "2026-03-14T17:17:18.806Z"
         }
       }
     }
