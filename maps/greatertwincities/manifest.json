@@ -1,0 +1,40 @@
+{
+  "schema_version": 1,
+  "id": "greatertwincities",
+  "name": "Greater Twin Cities",
+  "author": "DanielD1909",
+  "github_id": 112905459,
+  "description": "Minneapolis-St. Paul and St. Cloud generated using slurry's LODES generator",
+  "tags": [
+    "north-america",
+    "airports",
+    "entertainment",
+    "parks",
+    "universities"
+  ],
+  "gallery": [
+    "gallery/screenshot1.png",
+    "gallery/screenshot2.png"
+  ],
+  "source": "https://github.com/DanielD1909/improvedTwinCities/",
+  "update": {
+    "type": "github",
+    "repo": "DanielD1909/improvedTwinCities"
+  },
+  "city_code": "KMSP",
+  "country": "US",
+  "population": 2003945,
+  "residents_total": 2003945,
+  "points_count": 5866,
+  "population_count": 304108,
+  "data_source": "LODES",
+  "source_quality": "high-quality",
+  "level_of_detail": "high-detail",
+  "location": "north-america",
+  "special_demand": [
+    "airports",
+    "entertainment",
+    "parks",
+    "universities"
+  ]
+}
