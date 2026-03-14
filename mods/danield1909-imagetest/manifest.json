@@ -1,0 +1,20 @@
+{
+  "schema_version": 1,
+  "id": "danield1909-imagetest",
+  "name": "Zohran Mamdani (Image Tester)",
+  "author": "DanielD1909",
+  "github_id": 112905459,
+  "description": "This \"mod\" adds a button you can use to look at Zohran Mamdani.\nIt exists primarily to test adding images to mods.\nI do not know why you installed this.",
+  "tags": [
+    "cosmetic",
+    "qol"
+  ],
+  "gallery": [
+    "gallery/screenshot1.png"
+  ],
+  "source": "https://github.com/DanielD1909/ImageTest",
+  "update": {
+    "type": "github",
+    "repo": "DanielD1909/ImageTest"
+  }
+}
