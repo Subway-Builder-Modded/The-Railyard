@@ -1,0 +1,352 @@
+{
+  "schema_version": 1,
+  "snapshot_date": "2026_03_15",
+  "generated_at": "2026-03-15T03:40:45.572Z",
+  "maps": {
+    "downloads": {
+      "amsterdam": {
+        "1.0.0": 117
+      },
+      "baltimore-dc-corridor": {
+        "1.1.0": 91
+      },
+      "bari": {
+        "1.1.0": 40
+      },
+      "bologna": {
+        "1.0.0": 26
+      },
+      "calgary": {
+        "1.0.1": 69,
+        "1.1.3": 87
+      },
+      "catania": {
+        "1.1.0": 27
+      },
+      "colorado-ski-country": {
+        "1.0.0": 34
+      },
+      "dublin": {
+        "v1.0.0": 101,
+        "v1.1.0": 39
+      },
+      "edmonton": {
+        "1.0.1": 55,
+        "1.1.3": 82
+      },
+      "florence": {
+        "1.0.0": 24
+      },
+      "genoa": {
+        "1.1.0": 25
+      },
+      "greater-baltimore": {
+        "1.1.0": 24
+      },
+      "greater-los-angeles": {
+        "1.0.1": 32
+      },
+      "greatertwincities": {
+        "v1.0.0": 13
+      },
+      "jacksonville": {
+        "1.0.0": 31
+      },
+      "jerusalem": {
+        "v0.3.1": 39
+      },
+      "knoxville": {
+        "1.1.0": 22
+      },
+      "los-angeles-county": {
+        "1.0.0": 23
+      },
+      "louisville": {
+        "1.0.0": 28
+      },
+      "memphis": {
+        "1.1.0": 23
+      },
+      "mfn-hamptonroads": {
+        "1.0.0": 25
+      },
+      "mfn-hong-kong": {
+        "0.3.0": 9,
+        "0.4.0": 132
+      },
+      "mfn-madisonwi": {
+        "3.0.0": 18
+      },
+      "mfn-northwestar": {
+        "1.0.0": 26
+      },
+      "milan": {
+        "1.1.0": 66
+      },
+      "montreal": {
+        "1.0.1": 86,
+        "1.1.3": 193
+      },
+      "naples": {
+        "1.1.0": 23
+      },
+      "nashville": {
+        "2.0.0": 11
+      },
+      "orange-county": {
+        "1.0.3": 42
+      },
+      "orlando": {
+        "1.1.0": 27
+      },
+      "ottawa": {
+        "1.0.1": 59,
+        "1.1.3": 94
+      },
+      "palermo": {
+        "1.0.0": 17
+      },
+      "providence": {
+        "1.0.0": 32
+      },
+      "quebec-city": {
+        "1.0.1": 53,
+        "1.1.3": 79
+      },
+      "richmond": {
+        "1.1.0": 31
+      },
+      "rochester": {
+        "1.1.0": 28
+      },
+      "rome": {
+        "1.0.0": 54
+      },
+      "rotterdam-the-hague": {
+        "1.0.0": 30
+      },
+      "sacramento": {
+        "1.0.0": 25
+      },
+      "san-antonio": {
+        "1.1.0": 27
+      },
+      "santa-barbara": {
+        "1.0.1": 17
+      },
+      "tampa-bay": {
+        "1.1.0": 29
+      },
+      "tel-aviv": {
+        "v1.2.0": 7,
+        "v1.3.0": 30,
+        "v2.0.0": 32
+      },
+      "toronto": {
+        "1.0.1": 127,
+        "1.1.3": 234
+      },
+      "turin": {
+        "1.0.0": 16
+      },
+      "vancouver": {
+        "1.0.1": 90,
+        "1.1.3": 127
+      },
+      "waterloo": {
+        "1.0.0": 5,
+        "1.0.1": 58
+      },
+      "winnipeg": {
+        "1.0.1": 54,
+        "1.1.3": 70
+      },
+      "yukina-fukuoka": {
+        "0.2.0": 65,
+        "0.3.0": 5
+      },
+      "yukina-hakodate": {
+        "0.1.0": 6
+      },
+      "yukina-hiroshima-kure": {
+        "0.2.0": 54,
+        "0.3.0": 5
+      },
+      "yukina-kagoshima-kirishima": {
+        "0.2.0": 39,
+        "0.3.0": 5
+      },
+      "yukina-kitakyushu-shimonoseki": {
+        "0.2.0": 47,
+        "0.3.0": 5
+      },
+      "yukina-kobe-akashi": {
+        "0.2.0": 51,
+        "0.3.0": 5
+      },
+      "yukina-kochi": {
+        "0.2.0": 37,
+        "0.3.0": 5
+      },
+      "yukina-kyoto": {
+        "0.2.0": 113,
+        "0.3.0": 5
+      },
+      "yukina-matsuyama": {
+        "0.2.0": 39,
+        "0.3.0": 5
+      },
+      "yukina-nagasaki": {
+        "0.1.0": 6
+      },
+      "yukina-nakaumi": {
+        "0.1.0": 6
+      },
+      "yukina-niigata": {
+        "0.2.0": 47,
+        "0.3.0": 5
+      },
+      "yukina-okinawa": {
+        "0.2.0": 59,
+        "0.3.0": 5
+      },
+      "yukina-sapporo-chitose": {
+        "0.2.0": 70,
+        "0.3.0": 5
+      },
+      "yukina-sendai": {
+        "0.2.0": 53,
+        "0.3.0": 5
+      },
+      "yukina-takamatsu": {
+        "0.1.0": 6
+      },
+      "yukina-toyama": {
+        "0.1.0": 6
+      },
+      "yukina-yamagata": {
+        "0.2.0": 44,
+        "0.3.0": 4
+      },
+      "zurich": {
+        "v1.0.0": 29,
+        "v1.1.0": 111
+      }
+    },
+    "total_downloads": 4087,
+    "net_downloads": 1240,
+    "index": {
+      "schema_version": 1,
+      "maps": [
+        "amsterdam",
+        "baltimore-dc-corridor",
+        "bari",
+        "bologna",
+        "calgary",
+        "catania",
+        "colorado-ski-country",
+        "dublin",
+        "edmonton",
+        "florence",
+        "genoa",
+        "greater-baltimore",
+        "greater-los-angeles",
+        "greatertwincities",
+        "jacksonville",
+        "jerusalem",
+        "knoxville",
+        "los-angeles-county",
+        "louisville",
+        "memphis",
+        "mfn-hamptonroads",
+        "mfn-hong-kong",
+        "mfn-madisonwi",
+        "mfn-northwestar",
+        "milan",
+        "montreal",
+        "naples",
+        "nashville",
+        "orange-county",
+        "orlando",
+        "ottawa",
+        "palermo",
+        "providence",
+        "quebec-city",
+        "richmond",
+        "rochester",
+        "rome",
+        "rotterdam-the-hague",
+        "sacramento",
+        "san-antonio",
+        "santa-barbara",
+        "tampa-bay",
+        "tel-aviv",
+        "toronto",
+        "turin",
+        "vancouver",
+        "waterloo",
+        "winnipeg",
+        "yukina-fukuoka",
+        "yukina-hakodate",
+        "yukina-hiroshima-kure",
+        "yukina-kagoshima-kirishima",
+        "yukina-kitakyushu-shimonoseki",
+        "yukina-kobe-akashi",
+        "yukina-kochi",
+        "yukina-kyoto",
+        "yukina-matsuyama",
+        "yukina-nagasaki",
+        "yukina-nakaumi",
+        "yukina-niigata",
+        "yukina-okinawa",
+        "yukina-sapporo-chitose",
+        "yukina-sendai",
+        "yukina-takamatsu",
+        "yukina-toyama",
+        "yukina-yamagata",
+        "zurich"
+      ]
+    },
+    "entries": 67
+  },
+  "mods": {
+    "downloads": {
+      "advanced-analytics": {
+        "v1.1.0": 430
+      },
+      "citymapper": {},
+      "danield1909-dantrains": {
+        "v1.0.0": 15,
+        "v1.0.1": 21,
+        "v1.0.2": 6
+      },
+      "distance-circles": {
+        "0.3.3": 43
+      },
+      "subwaybuilder-regions": {
+        "v0.4.5": 178
+      },
+      "transit-overlay": {
+        "1.5.0": 163
+      },
+      "valdotoriums-trains": {
+        "v0.1.3": 3
+      }
+    },
+    "total_downloads": 859,
+    "net_downloads": 141,
+    "index": {
+      "schema_version": 1,
+      "mods": [
+        "advanced-analytics",
+        "citymapper",
+        "danield1909-dantrains",
+        "distance-circles",
+        "subwaybuilder-regions",
+        "transit-overlay",
+        "valdotoriums-trains"
+      ]
+    },
+    "entries": 7
+  }
+}
