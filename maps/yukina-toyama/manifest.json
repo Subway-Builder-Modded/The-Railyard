@@ -1,0 +1,43 @@
+{
+  "schema_version": 1,
+  "id": "yukina-toyama",
+  "name": "富山 (Toyama)",
+  "author": "ahkimn",
+  "github_id": 19807509,
+  "description": "Highly-detailed map of the 富山 (Toyama) metropolitan region using 2020/2021 Japanese census data. Extends from 高岡市 (Takaoka) in the west to 黒部市 (Kurobe) in the east, and includes special demand for primary/secondary/post-secondary education + airports + ports + hospitals.\"",
+  "tags": [
+    "east-asia",
+    "airports",
+    "ferries",
+    "hospitals",
+    "schools",
+    "universities"
+  ],
+  "gallery": [
+    "gallery/screenshot1.png",
+    "gallery/screenshot2.png",
+    "gallery/screenshot3.png"
+  ],
+  "source": "https://ahkimn.github.io/subwaybuilder-jp-maps/",
+  "update": {
+    "type": "custom",
+    "url": "https://ahkimn.github.io/subwaybuilder-jp-maps/TOY.json"
+  },
+  "city_code": "TOY",
+  "country": "JP",
+  "population": 635463,
+  "residents_total": 635463,
+  "points_count": 5620,
+  "population_count": 11011,
+  "data_source": "統計局・令和２年国勢調査・令和3年経済センサス",
+  "source_quality": "high-quality",
+  "level_of_detail": "high-detail",
+  "location": "east-asia",
+  "special_demand": [
+    "airports",
+    "ferries",
+    "hospitals",
+    "schools",
+    "universities"
+  ]
+}
