@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "generated_at": "2026-03-15T18:41:46.845Z",
+  "generated_at": "2026-03-15T18:44:02.407Z",
   "listings": {
     "advanced-analytics": {
       "has_complete_version": true,
@@ -117,12 +117,13 @@
       }
     },
     "citymapper": {
-      "has_complete_version": false,
-      "latest_semver_version": "0.1.1",
-      "latest_semver_complete": false,
-      "complete_versions": [],
+      "has_complete_version": true,
+      "latest_semver_version": "0.1.2",
+      "latest_semver_complete": true,
+      "complete_versions": [
+        "0.1.2"
+      ],
       "incomplete_versions": [
-        "0.1.1",
         "0.1.0"
       ],
       "versions": {
@@ -141,20 +142,26 @@
           "fingerprint": "rules:v2:github:gio1112/subway-builder-citymapper:0.1.0:citymapper.zip",
           "checked_at": "2026-03-15T18:36:45.007Z"
         },
-        "0.1.1": {
-          "is_complete": false,
-          "errors": [
-            "asset 'citymapper.zip': missing top-level manifest.json in ZIP"
-          ],
-          "required_checks": {},
-          "matched_files": {},
+        "0.1.2": {
+          "is_complete": true,
+          "errors": [],
+          "required_checks": {
+            "release_manifest_asset": true,
+            "zip_manifest_json": true
+          },
+          "matched_files": {
+            "release_manifest_asset": "manifest.json",
+            "zip_manifest_json": "manifest.json"
+          },
           "source": {
             "update_type": "github",
             "repo": "gio1112/subway-builder-citymapper",
-            "tag": "0.1.1"
+            "tag": "0.1.2",
+            "asset_name": "citymapper.zip",
+            "download_url": "https://github.com/Gio1112/subway-builder-citymapper/releases/download/0.1.2/citymapper.zip"
           },
-          "fingerprint": "rules:v2:github:gio1112/subway-builder-citymapper:0.1.1:citymapper.zip",
-          "checked_at": "2026-03-15T18:36:45.007Z"
+          "fingerprint": "rules:v2:github:gio1112/subway-builder-citymapper:0.1.2:citymapper.zip",
+          "checked_at": "2026-03-15T18:44:02.407Z"
         }
       }
     },

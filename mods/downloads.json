@@ -2,7 +2,9 @@
   "advanced-analytics": {
     "v1.1.0": 443
   },
-  "citymapper": {},
+  "citymapper": {
+    "0.1.2": 0
+  },
   "danield1909-dantrains": {
     "v1.0.0": 19,
     "v1.0.1": 23,
