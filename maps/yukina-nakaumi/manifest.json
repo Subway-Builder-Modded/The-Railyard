@@ -1,0 +1,43 @@
+{
+  "schema_version": 1,
+  "id": "yukina-nakaumi",
+  "name": "中海 (Nakaumi)",
+  "author": "ahkimn",
+  "github_id": 19807509,
+  "description": "Highly-detailed map of the 中海圏 (Nakaumi area) region of Japan using 2020/2021 Japanese census data. This region is centered on 中海 (Nakaumi) as well as 宍道湖 (Lake Shinji) and contains the cities of 出雲 (Izumo), 松江 (Matsue), and 米子 (Yonago). The map also includes special demand for primary/secondary/post-secondary education + airports + ports + hospitals.\"",
+  "tags": [
+    "east-asia",
+    "airports",
+    "ferries",
+    "hospitals",
+    "schools",
+    "universities"
+  ],
+  "gallery": [
+    "gallery/screenshot1.png",
+    "gallery/screenshot2.png",
+    "gallery/screenshot3.png"
+  ],
+  "source": "https://ahkimn.github.io/subwaybuilder-jp-maps/",
+  "update": {
+    "type": "custom",
+    "url": "https://ahkimn.github.io/subwaybuilder-jp-maps/IZO.json"
+  },
+  "city_code": "IZO",
+  "country": "JP",
+  "population": 413404,
+  "residents_total": 413404,
+  "points_count": 3578,
+  "population_count": 7015,
+  "data_source": "統計局・令和２年国勢調査・令和3年経済センサス",
+  "source_quality": "high-quality",
+  "level_of_detail": "high-detail",
+  "location": "east-asia",
+  "special_demand": [
+    "airports",
+    "ferries",
+    "hospitals",
+    "schools",
+    "universities"
+  ]
+}
