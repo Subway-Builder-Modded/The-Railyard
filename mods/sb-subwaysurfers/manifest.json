@@ -1,0 +1,21 @@
+{
+  "schema_version": 1,
+  "id": "sb-subwaysurfers",
+  "name": "Subway Surfers",
+  "author": "nzh0172",
+  "github_id": 69677589,
+  "description": "Plays Subway Surfers gameplay video locally.",
+  "tags": [
+    "cosmetic",
+    "misc",
+    "ui"
+  ],
+  "gallery": [
+    "gallery/screenshot1.png"
+  ],
+  "source": "https://github.com/nzh0172/sb-subwaysurfers",
+  "update": {
+    "type": "github",
+    "repo": "nzh0172/sb-subwaysurfers"
+  }
+}
