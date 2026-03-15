@@ -1,0 +1,43 @@
+{
+  "schema_version": 1,
+  "id": "yukina-takamatsu",
+  "name": "高松 (Takamatsu)",
+  "author": "ahkimn",
+  "github_id": 19807509,
+  "description": "Highly-detailed map of the 高松 (Takamatsu) metropolitan region using 2020/2021 Japanese census data. Map includes nearly all of 香川県 (Kagawa Prefecture), and includes special demand for primary/secondary/post-secondary education + airports + ports + hospitals.\"",
+  "tags": [
+    "east-asia",
+    "airports",
+    "ferries",
+    "hospitals",
+    "schools",
+    "universities"
+  ],
+  "gallery": [
+    "gallery/screenshot1.png",
+    "gallery/screenshot2.png",
+    "gallery/screenshot3.png"
+  ],
+  "source": "https://ahkimn.github.io/subwaybuilder-jp-maps/",
+  "update": {
+    "type": "custom",
+    "url": "https://ahkimn.github.io/subwaybuilder-jp-maps/TAK.json"
+  },
+  "city_code": "TAK",
+  "country": "JP",
+  "population": 532632,
+  "residents_total": 532632,
+  "points_count": 4331,
+  "population_count": 8881,
+  "data_source": "統計局・令和２年国勢調査・令和3年経済センサス",
+  "source_quality": "high-quality",
+  "level_of_detail": "high-detail",
+  "location": "east-asia",
+  "special_demand": [
+    "airports",
+    "ferries",
+    "hospitals",
+    "schools",
+    "universities"
+  ]
+}
