@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "generated_at": "2026-03-15T03:24:18.591Z",
+  "generated_at": "2026-03-15T08:36:45.649Z",
   "listings": {
     "advanced-analytics": {
       "has_complete_version": true,
@@ -118,25 +118,27 @@
     },
     "citymapper": {
       "has_complete_version": false,
-      "latest_semver_version": null,
-      "latest_semver_complete": null,
+      "latest_semver_version": "0.1.0",
+      "latest_semver_complete": false,
       "complete_versions": [],
-      "incomplete_versions": [],
+      "incomplete_versions": [
+        "0.1.0"
+      ],
       "versions": {
-        "Latest": {
+        "0.1.0": {
           "is_complete": false,
           "errors": [
-            "non-semver release tag 'Latest'"
+            "asset 'citymapper.zip': missing top-level manifest.json in ZIP"
           ],
           "required_checks": {},
           "matched_files": {},
           "source": {
             "update_type": "github",
             "repo": "gio1112/subway-builder-citymapper",
-            "tag": "Latest"
+            "tag": "0.1.0"
           },
-          "fingerprint": "rules:v2:github:gio1112/subway-builder-citymapper:Latest:citymapper.zip",
-          "checked_at": "2026-03-15T03:24:18.591Z"
+          "fingerprint": "rules:v2:github:gio1112/subway-builder-citymapper:0.1.0:citymapper.zip",
+          "checked_at": "2026-03-15T08:36:45.649Z"
         }
       }
     },
