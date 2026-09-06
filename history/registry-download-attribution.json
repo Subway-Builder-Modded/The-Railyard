@@ -1,6 +1,6 @@
 {
   "schema_version": 2,
-  "updated_at": "2026-09-06T20:03:21.488Z",
+  "updated_at": "2026-09-06T22:11:14.783Z",
   "assets": {
     "ahkimn/subwaybuilder-eu-maps@0.1.0/brq.zip": {
       "count": 1,
@@ -19707,10 +19707,10 @@
       }
     },
     "worstboyinaustral1a/subway-builder-za@cpt-1.0.2/cpt_v1.0.2.zip#RA_kwDOTRwM6c4dF0ps": {
-      "count": 358,
-      "updated_at": "2026-09-06T20:03:21.488Z",
+      "count": 359,
+      "updated_at": "2026-09-06T22:11:14.783Z",
       "by_source": {
-        "workflow:Regenerate Registry Analytics (Full):map-demand-stats": 358
+        "workflow:Regenerate Registry Analytics (Full):map-demand-stats": 359
       }
     },
     "worstboyinaustral1a/subway-builder-za@dbn-1.0.0/dbn_v1.0.0.zip#RA_kwDOTRwM6c4cJCRB": {
@@ -23332,6 +23332,9 @@
     "34056618613:generate-map-demand-stats:map-demand-stats": "2026-09-06T20:03:21.488Z",
     "34056618613:generate-maps:map:full": "2026-09-06T20:03:21.488Z",
     "34056618613:generate-mods:mod:full": "2026-09-06T20:03:21.488Z",
+    "34063143650:generate-map-demand-stats:map-demand-stats": "2026-09-06T22:11:14.783Z",
+    "34063143650:generate-maps:map:full": "2026-09-06T22:11:14.783Z",
+    "34063143650:generate-mods:mod:full": "2026-09-06T22:11:14.783Z",
     "backfill:run:regenerate-registry-analytics.yml:23077874095:2026_03_14": "2026-04-05T02:51:10.191Z",
     "backfill:run:regenerate-registry-analytics.yml:23084384898:2026_03_14": "2026-04-05T02:51:10.191Z",
     "backfill:run:regenerate-registry-analytics.yml:23091846270:2026_03_14": "2026-04-05T02:51:10.191Z",
@@ -34401,7 +34404,7 @@
       }
     },
     "2026_09_06": {
-      "total": 155,
+      "total": 156,
       "assets": {
         "ahkimn/subwaybuilder-eu-maps@0.7.3/cej.zip": 1,
         "ahkimn/subwaybuilder-eu-maps@0.7.3/cej.zip#RA_kwDOSJUqZM4gmelx": 1,
@@ -34472,7 +34475,7 @@
         "soccerjonj/nashville@2.0.0/nashville-railway.zip": 4,
         "soccerjonj/providence@1.0.0/providence-railyard.zip": 4,
         "soccerjonj/sacramento@1.0.0/sacramento-railyard.zip": 4,
-        "worstboyinaustral1a/subway-builder-za@cpt-1.0.2/cpt_v1.0.2.zip#RA_kwDOTRwM6c4dF0ps": 8
+        "worstboyinaustral1a/subway-builder-za@cpt-1.0.2/cpt_v1.0.2.zip#RA_kwDOTRwM6c4dF0ps": 9
       }
     }
   },
@@ -55344,6 +55347,12 @@
       }
     },
     "2026-09-06T20:01:15.905Z": {
+      "total": 1,
+      "assets": {
+        "worstboyinaustral1a/subway-builder-za@cpt-1.0.2/cpt_v1.0.2.zip#RA_kwDOTRwM6c4dF0ps": 1
+      }
+    },
+    "2026-09-06T22:09:35.209Z": {
       "total": 1,
       "assets": {
         "worstboyinaustral1a/subway-builder-za@cpt-1.0.2/cpt_v1.0.2.zip#RA_kwDOTRwM6c4dF0ps": 1
