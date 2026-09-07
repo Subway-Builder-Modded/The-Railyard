@@ -1,6 +1,6 @@
 {
   "schema_version": 2,
-  "updated_at": "2026-09-07T14:20:11.548Z",
+  "updated_at": "2026-09-07T16:03:41.164Z",
   "assets": {
     "ahkimn/subwaybuilder-eu-maps@0.1.0/brq.zip": {
       "count": 1,
@@ -19707,10 +19707,10 @@
       }
     },
     "worstboyinaustral1a/subway-builder-za@cpt-1.0.2/cpt_v1.0.2.zip#RA_kwDOTRwM6c4dF0ps": {
-      "count": 364,
-      "updated_at": "2026-09-07T14:20:11.548Z",
+      "count": 365,
+      "updated_at": "2026-09-07T16:03:41.164Z",
       "by_source": {
-        "workflow:Regenerate Registry Analytics (Full):map-demand-stats": 364
+        "workflow:Regenerate Registry Analytics (Full):map-demand-stats": 365
       }
     },
     "worstboyinaustral1a/subway-builder-za@dbn-1.0.0/dbn_v1.0.0.zip#RA_kwDOTRwM6c4cJCRB": {
@@ -23350,6 +23350,9 @@
     "34132129089:generate-map-demand-stats:map-demand-stats": "2026-09-07T14:20:11.548Z",
     "34132129089:generate-maps:map:full": "2026-09-07T14:20:11.548Z",
     "34132129089:generate-mods:mod:full": "2026-09-07T14:20:11.548Z",
+    "34141132205:generate-map-demand-stats:map-demand-stats": "2026-09-07T16:03:41.164Z",
+    "34141132205:generate-maps:map:full": "2026-09-07T16:03:41.164Z",
+    "34141132205:generate-mods:mod:full": "2026-09-07T16:03:41.164Z",
     "backfill:run:regenerate-registry-analytics.yml:23077874095:2026_03_14": "2026-04-05T02:51:10.191Z",
     "backfill:run:regenerate-registry-analytics.yml:23084384898:2026_03_14": "2026-04-05T02:51:10.191Z",
     "backfill:run:regenerate-registry-analytics.yml:23091846270:2026_03_14": "2026-04-05T02:51:10.191Z",
@@ -34494,9 +34497,9 @@
       }
     },
     "2026_09_07": {
-      "total": 5,
+      "total": 6,
       "assets": {
-        "worstboyinaustral1a/subway-builder-za@cpt-1.0.2/cpt_v1.0.2.zip#RA_kwDOTRwM6c4dF0ps": 5
+        "worstboyinaustral1a/subway-builder-za@cpt-1.0.2/cpt_v1.0.2.zip#RA_kwDOTRwM6c4dF0ps": 6
       }
     }
   },
@@ -55404,6 +55407,12 @@
       }
     },
     "2026-09-07T14:18:20.917Z": {
+      "total": 1,
+      "assets": {
+        "worstboyinaustral1a/subway-builder-za@cpt-1.0.2/cpt_v1.0.2.zip#RA_kwDOTRwM6c4dF0ps": 1
+      }
+    },
+    "2026-09-07T16:01:14.341Z": {
       "total": 1,
       "assets": {
         "worstboyinaustral1a/subway-builder-za@cpt-1.0.2/cpt_v1.0.2.zip#RA_kwDOTRwM6c4dF0ps": 1
