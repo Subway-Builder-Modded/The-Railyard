@@ -1,14 +1,14 @@
 {
   "schema_version": 1,
   "repo": "Subway-Builder-Modded/railyard",
-  "generated_at": "2026-09-07T04:47:28.394Z",
-  "latest_snapshot": "2026-09-07T04:00:00.000Z",
+  "generated_at": "2026-09-07T05:02:35.553Z",
+  "latest_snapshot": "2026-09-07T05:00:00.000Z",
   "versions": {
     "0.2.10": {
-      "total_downloads": 4550,
-      "last_1d_downloads": 183,
-      "last_3d_downloads": 504,
-      "last_7d_downloads": 1206,
+      "total_downloads": 4552,
+      "last_1d_downloads": 180,
+      "last_3d_downloads": 506,
+      "last_7d_downloads": 1201,
       "assets": {
         "railyard-v0.2.10-current-linux-amd64.flatpak": {
           "total_downloads": 150,
@@ -18,20 +18,20 @@
         },
         "railyard-v0.2.10-macos-universal.dmg": {
           "total_downloads": 1313,
-          "last_1d_downloads": 53,
+          "last_1d_downloads": 51,
           "last_3d_downloads": 158,
-          "last_7d_downloads": 377
+          "last_7d_downloads": 372
         },
         "railyard-v0.2.10-macos-universal.zip": {
           "total_downloads": 103,
-          "last_1d_downloads": 7,
+          "last_1d_downloads": 6,
           "last_3d_downloads": 13,
           "last_7d_downloads": 28
         },
         "railyard-v0.2.10-windows-amd64-installer.exe": {
-          "total_downloads": 2819,
+          "total_downloads": 2821,
           "last_1d_downloads": 108,
-          "last_3d_downloads": 291,
+          "last_3d_downloads": 293,
           "last_7d_downloads": 690
         },
         "railyard-v0.2.10-windows-amd64-portable.zip": {
