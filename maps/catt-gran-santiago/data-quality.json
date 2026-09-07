@@ -1,0 +1,28 @@
+{
+  "schema_version": 1,
+  "id": "catt-gran-santiago",
+  "answers": {
+    "workplace_count": "physical_measured",
+    "workplace_granularity": "adm5",
+    "workplace_resolution": "ml_hybrid_footprints",
+    "workplace_intensity": "fine_types_generic",
+    "resident_count": "employed_residents",
+    "resident_granularity": "adm5",
+    "resident_resolution": "mesh_125_or_adm5",
+    "resident_intensity": "measured_per_unit",
+    "od_metric": "full_matrix",
+    "od_granularity": "adm5"
+  },
+  "notes": "Demand is built person-by-person from the Encuesta Origen-Destino de Viajes Santiago 2012 (SECTRA / Ministerio de Transportes), using the official 2017 census re-expansion. Each surveyed household carries a geocoded home address; each person carries a geocoded workplace or place of study plus a weekday expansion factor. One game pop = one surveyed person's home-to-work or home-to-study trip at their survey weight, scaled to the game's demand basis. No gravity model is used. 11,230 weekday households in bbox.\n\nResidence anchoring: Censo 2017 manzana (city block) microdata from INE. Checked for suppression: comuna sums match published comuna totals exactly (e.g. Colina 146,207, Lampa 102,034), so no loss at block grain. Where the 2012 survey under-represents an area that has since grown (Chicureo, Batuco, Polpaico), synthetic households are added to match census block counts, cloned from nearby surveyed households matched on reported income. Comuna totals are preserved. This affects about 3% of the map.\n\nSpecial demand (unscored): the airport, 50 university campuses and 26 hospitals are sized by the surveyed workers and tertiary students whose recorded destination falls on them, matched to OpenStreetMap amenity polygons.\n\nEmployment rate of 0.41 where census-derived employed residents are needed, derived from the survey itself (0.409).\n\nVintages: residence Censo 2017; workplace EOD 2012 fieldwork with 2017 re-expansion; buildings Overture/OSM 2026.\n\nKnown limitations: 2012 fieldwork re-expanded to 2017 population. Chicureo's income reference is hand-set because the 2012 survey sampled only four households there. Trip purposes are limited to work and study, which is what the game's demand model represents.",
+  "sources": [
+    "https://www.sectra.gob.cl/info-territorial/region-metropolitana-de-santiago/",
+    "https://www.ine.gob.cl/docs/default-source/geodatos-abiertos/cartografia/censo-2017/siedu/shp/microdatos_manzana.zip",
+    "https://www.sii.cl/estadisticas/region/PUB_Reg_Com.xlsx"
+  ],
+  "provenance": {
+    "method": "self-reported",
+    "submitted_by": "holapapie-png",
+    "reviewed_by": null,
+    "date": "2026-09-07"
+  }
+}
