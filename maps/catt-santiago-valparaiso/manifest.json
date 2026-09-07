@@ -1,0 +1,56 @@
+{
+  "schema_version": 1,
+  "id": "catt-santiago-valparaiso",
+  "name": "Santiago-Valparaiso",
+  "author": "holapapie-png",
+  "github_id": 262505395,
+  "description": "Chile's central corridor: Gran Valparaiso, Gran Santiago, San Antonio and everything between. 8.26M residents.\n\nDemand is not a gravity model. Every pop is one real person from three government household travel surveys (EOD Santiago 2012, Gran Valparaiso 2014, San Antonio 2017), going from their actual home to their actual workplace or school at the survey's own expansion weight. Each region is scaled to its own population, and the intercity flow is real: 19,465 daily commuters from the Valparaiso side into Santiago. Residents are placed by Censo 2017 city block.",
+  "tags": [
+    "south-america"
+  ],
+  "gallery": [
+    "gallery/screenshot1.webp",
+    "gallery/screenshot2.webp"
+  ],
+  "is_test": false,
+  "source": "https://github.com/holapapie-png/subwaybuilder-santiago-valparaiso",
+  "update": {
+    "type": "github",
+    "repo": "holapapie-png/subwaybuilder-santiago-valparaiso"
+  },
+  "city_code": "STV",
+  "country": "CL",
+  "population": 3715866,
+  "residents_total": 3715866,
+  "points_count": 3378,
+  "population_count": 36297,
+  "initial_view_state": {
+    "latitude": -33.35,
+    "longitude": -71.05,
+    "zoom": 9.6,
+    "bearing": 0
+  },
+  "data_source": "OSM",
+  "source_quality": "low-quality",
+  "level_of_detail": "low-detail",
+  "data_quality": {
+    "tier": "unknown",
+    "rubric_version": 1
+  },
+  "location": "south-america",
+  "special_demand": [],
+  "file_sizes": {},
+  "included_cities": [
+    "Santiago",
+    "Valparaiso",
+    "Vina del Mar",
+    "Quilpue",
+    "Villa Alemana",
+    "Concon",
+    "Quillota",
+    "San Antonio",
+    "Cartagena",
+    "Melipilla",
+    "Casablanca"
+  ]
+}
