@@ -1,26 +1,26 @@
 {
   "schema_version": 1,
   "repo": "Subway-Builder-Modded/railyard",
-  "generated_at": "2026-09-07T10:02:37.509Z",
-  "latest_snapshot": "2026-09-07T10:00:00.000Z",
+  "generated_at": "2026-09-07T11:02:15.703Z",
+  "latest_snapshot": "2026-09-07T11:00:00.000Z",
   "versions": {
     "0.2.10": {
-      "total_downloads": 4563,
-      "last_1d_downloads": 171,
-      "last_3d_downloads": 500,
-      "last_7d_downloads": 1197,
+      "total_downloads": 4566,
+      "last_1d_downloads": 164,
+      "last_3d_downloads": 498,
+      "last_7d_downloads": 1190,
       "assets": {
         "railyard-v0.2.10-current-linux-amd64.flatpak": {
           "total_downloads": 151,
           "last_1d_downloads": 8,
-          "last_3d_downloads": 20,
+          "last_3d_downloads": 19,
           "last_7d_downloads": 51
         },
         "railyard-v0.2.10-macos-universal.dmg": {
           "total_downloads": 1318,
-          "last_1d_downloads": 50,
-          "last_3d_downloads": 155,
-          "last_7d_downloads": 371
+          "last_1d_downloads": 46,
+          "last_3d_downloads": 153,
+          "last_7d_downloads": 369
         },
         "railyard-v0.2.10-macos-universal.zip": {
           "total_downloads": 103,
@@ -29,16 +29,16 @@
           "last_7d_downloads": 27
         },
         "railyard-v0.2.10-windows-amd64-installer.exe": {
-          "total_downloads": 2826,
-          "last_1d_downloads": 102,
-          "last_3d_downloads": 289,
-          "last_7d_downloads": 688
+          "total_downloads": 2829,
+          "last_1d_downloads": 99,
+          "last_3d_downloads": 291,
+          "last_7d_downloads": 684
         },
         "railyard-v0.2.10-windows-amd64-portable.zip": {
           "total_downloads": 111,
           "last_1d_downloads": 5,
-          "last_3d_downloads": 18,
-          "last_7d_downloads": 42
+          "last_3d_downloads": 17,
+          "last_7d_downloads": 41
         },
         "railyard-v0.2.10-windows-arm64-installer.exe": {
           "total_downloads": 44,
