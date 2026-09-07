@@ -1,26 +1,26 @@
 {
   "schema_version": 1,
   "repo": "Subway-Builder-Modded/railyard",
-  "generated_at": "2026-09-07T21:01:57.514Z",
-  "latest_snapshot": "2026-09-07T21:00:00.000Z",
+  "generated_at": "2026-09-07T22:02:18.930Z",
+  "latest_snapshot": "2026-09-07T22:00:00.000Z",
   "versions": {
     "0.2.10": {
-      "total_downloads": 4641,
-      "last_1d_downloads": 144,
-      "last_3d_downloads": 489,
-      "last_7d_downloads": 1190,
+      "total_downloads": 4646,
+      "last_1d_downloads": 133,
+      "last_3d_downloads": 490,
+      "last_7d_downloads": 1185,
       "assets": {
         "railyard-v0.2.10-current-linux-amd64.flatpak": {
           "total_downloads": 153,
-          "last_1d_downloads": 6,
+          "last_1d_downloads": 5,
           "last_3d_downloads": 20,
-          "last_7d_downloads": 50
+          "last_7d_downloads": 49
         },
         "railyard-v0.2.10-macos-universal.dmg": {
-          "total_downloads": 1346,
-          "last_1d_downloads": 44,
-          "last_3d_downloads": 154,
-          "last_7d_downloads": 375
+          "total_downloads": 1347,
+          "last_1d_downloads": 42,
+          "last_3d_downloads": 153,
+          "last_7d_downloads": 373
         },
         "railyard-v0.2.10-macos-universal.zip": {
           "total_downloads": 109,
@@ -29,15 +29,15 @@
           "last_7d_downloads": 32
         },
         "railyard-v0.2.10-windows-amd64-installer.exe": {
-          "total_downloads": 2866,
-          "last_1d_downloads": 82,
-          "last_3d_downloads": 277,
-          "last_7d_downloads": 676
+          "total_downloads": 2870,
+          "last_1d_downloads": 75,
+          "last_3d_downloads": 280,
+          "last_7d_downloads": 674
         },
         "railyard-v0.2.10-windows-amd64-portable.zip": {
           "total_downloads": 113,
-          "last_1d_downloads": 5,
-          "last_3d_downloads": 16,
+          "last_1d_downloads": 4,
+          "last_3d_downloads": 15,
           "last_7d_downloads": 39
         },
         "railyard-v0.2.10-windows-arm64-installer.exe": {
