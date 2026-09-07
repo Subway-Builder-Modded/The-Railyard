@@ -1,0 +1,59 @@
+{
+  "schema_version": 1,
+  "id": "catt-chile-central",
+  "name": "Chile Central",
+  "author": "holapapie-png",
+  "github_id": 262505395,
+  "description": "Coast to cordillera: Gran Valparaiso, Gran Santiago, San Antonio and the Cachapoal valley south to San Fernando. 8.8M residents, 3.45M buildings, 26,570 km2.\n\nDemand is not a gravity model. Every pop is one real person from Chile's government household travel surveys (EOD Santiago 2012, Gran Valparaiso 2014, San Antonio 2017), going from their actual home to their actual workplace or school at the survey's own expansion weight. Residents are placed by Censo 2017 city block; towns with no survey take job counts from SII tax records with each comuna's labour balance enforced as a constraint.",
+  "tags": [
+    "south-america"
+  ],
+  "gallery": [
+    "gallery/screenshot1.webp",
+    "gallery/screenshot2.webp",
+    "gallery/screenshot3.webp",
+    "gallery/screenshot4.webp"
+  ],
+  "is_test": false,
+  "source": "https://github.com/holapapie-png/subwaybuilder-chile-central",
+  "update": {
+    "type": "github",
+    "repo": "holapapie-png/subwaybuilder-chile-central"
+  },
+  "city_code": "CLC",
+  "country": "CL",
+  "population": 3979002,
+  "residents_total": 3979002,
+  "points_count": 4009,
+  "population_count": 40173,
+  "initial_view_state": {
+    "latitude": -33.65,
+    "longitude": -71,
+    "zoom": 9.2,
+    "bearing": 0
+  },
+  "data_source": "OSM",
+  "source_quality": "low-quality",
+  "level_of_detail": "low-detail",
+  "data_quality": {
+    "tier": "unknown",
+    "rubric_version": 1
+  },
+  "location": "south-america",
+  "special_demand": [],
+  "file_sizes": {},
+  "included_cities": [
+    "Santiago",
+    "Valparaiso",
+    "Vina del Mar",
+    "Rancagua",
+    "San Antonio",
+    "San Fernando",
+    "Quilpue",
+    "Villa Alemana",
+    "Quillota",
+    "Melipilla",
+    "Machali",
+    "Rengo"
+  ]
+}
