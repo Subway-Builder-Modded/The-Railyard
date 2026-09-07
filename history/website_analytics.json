@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
   "zone_tag": "436c0657e9f4ae2256e5ffb96122273a",
-  "updated_at": "2026-09-07T06:37:28.760Z",
+  "updated_at": "2026-09-07T07:00:56.359Z",
   "valid_paths": [
     "/",
     "/404.html",
@@ -83318,6 +83318,29 @@
         "desktop": 24,
         "mobile": 14
       }
+    },
+    "2026-09-07T07:00:00.000Z": {
+      "captured_at": "2026-09-07T07:00:56.359Z",
+      "window_start": "2026-09-07T07:00:00.000Z",
+      "window_end": "2026-09-07T08:00:00.000Z",
+      "totals": {
+        "visits": 1
+      },
+      "pages": {
+        "/registry/mods": 1
+      },
+      "countries": {
+        "US": 1
+      },
+      "browsers": {
+        "BingBot": 1
+      },
+      "operating_systems": {
+        "Unknown": 1
+      },
+      "devices": {
+        "desktop": 1
+      }
     }
   },
   "daily_snapshots": {
@@ -104960,11 +104983,11 @@
       }
     },
     "2026-09-07": {
-      "captured_at": "2026-09-07T06:37:28.760Z",
+      "captured_at": "2026-09-07T07:00:56.359Z",
       "window_start": "2026-09-07T00:00:00.000Z",
-      "window_end": "2026-09-07T07:00:00.000Z",
+      "window_end": "2026-09-07T08:00:00.000Z",
       "totals": {
-        "visits": 39
+        "visits": 40
       },
       "pages": {
         "/": 19,
@@ -104984,7 +105007,7 @@
         "/registry/maps/tel-aviv": 1,
         "/registry/maps/tri-cities/versions/1.0.2": 1,
         "/registry/maps/yukina-tw-southern-taiwan": 1,
-        "/registry/mods": 2,
+        "/registry/mods": 3,
         "/registry/mods/distance-circles/versions/0.6.0": 1,
         "/registry/mods/improved-schematics/versions/v2.3.0": 1
       },
@@ -104993,10 +105016,10 @@
         "HK": 1,
         "NZ": 1,
         "SG": 2,
-        "US": 31
+        "US": 32
       },
       "browsers": {
-        "BingBot": 5,
+        "BingBot": 6,
         "Chrome": 4,
         "GoogleBot": 13,
         "MobileSafari": 1,
@@ -105006,12 +105029,12 @@
       "operating_systems": {
         "Android": 13,
         "MacOSX": 2,
-        "Unknown": 20,
+        "Unknown": 21,
         "Windows": 3,
         "iOS": 1
       },
       "devices": {
-        "desktop": 25,
+        "desktop": 26,
         "mobile": 14
       }
     }
