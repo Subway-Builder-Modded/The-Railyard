@@ -72,13 +72,13 @@
     "1.0.0": 206
   },
   "au-syd2": {
-    "1.0.0": 434
+    "1.0.0": 435
   },
   "augsburg": {
     "1.0.0": 48
   },
   "baghdad": {
-    "1.0.0": 97
+    "1.0.0": 98
   },
   "baltimore-dc-corridor": {
     "1.1.1": 511,
@@ -170,7 +170,7 @@
     "2.0.1": 106,
     "2.1.0": 31,
     "2.2.0": 156,
-    "2.2.1": 166
+    "2.2.1": 167
   },
   "calais-dunkerque": {
     "1.0.0": 20
@@ -335,7 +335,7 @@
   },
   "greater-kuala-lumpur": {
     "v1.0.0": 365,
-    "v1.1.0": 201
+    "v1.1.0": 202
   },
   "greater-los-angeles": {
     "1.0.1": 801,
@@ -559,7 +559,7 @@
     "0.4.0": 1280,
     "0.5.0": 135,
     "0.5.2": 525,
-    "1.0.5": 1093
+    "1.0.5": 1094
   },
   "mfn-lasvegas": {
     "1.1.0": 716
@@ -941,7 +941,7 @@
   },
   "trondheim-no": {
     "1.0.0": 86,
-    "1.1.0": 100
+    "1.1.0": 101
   },
   "trondheim-val": {
     "1.0.0": 210
@@ -1654,7 +1654,7 @@
   },
   "yukina-sk-bratislava": {
     "0.1.0": 44,
-    "0.1.1": 115
+    "0.1.1": 116
   },
   "yukina-sk-kosice-presov": {
     "0.1.0": 14,
@@ -1786,33 +1786,33 @@
     "0.1.1": 39
   },
   "yukina-ua-cherkasy": {
-    "0.1.0": 1
+    "0.1.0": 2
   },
   "yukina-ua-chernihiv": {
-    "0.1.0": 1
+    "0.1.0": 2
   },
   "yukina-ua-chernivtsi": {
-    "0.1.0": 1
+    "0.1.0": 2
   },
   "yukina-ua-dnipro": {
     "0.1.0": 104,
     "0.2.0": 22
   },
   "yukina-ua-ivano-frankivsk": {
-    "0.1.0": 1
+    "0.1.0": 2
   },
   "yukina-ua-kharkiv": {
     "0.1.0": 117,
     "0.2.0": 24
   },
   "yukina-ua-khmelnytskyi": {
-    "0.1.0": 2
+    "0.1.0": 3
   },
   "yukina-ua-kremenchuk": {
-    "0.1.0": 1
+    "0.1.0": 2
   },
   "yukina-ua-kropyvnytskyi": {
-    "0.1.0": 2
+    "0.1.0": 3
   },
   "yukina-ua-kryvyi-rih": {
     "0.1.0": 64,
@@ -1820,43 +1820,43 @@
   },
   "yukina-ua-kyiv": {
     "0.1.0": 382,
-    "0.2.0": 57
+    "0.2.0": 60
   },
   "yukina-ua-lviv": {
     "0.1.0": 122,
-    "0.2.0": 28
+    "0.2.0": 29
   },
   "yukina-ua-mykolaiv-kherson": {
-    "0.1.0": 3
+    "0.1.0": 4
   },
   "yukina-ua-odesa": {
     "0.1.0": 124,
-    "0.2.0": 26
+    "0.2.0": 27
   },
   "yukina-ua-poltava": {
-    "0.1.0": 1
+    "0.1.0": 2
   },
   "yukina-ua-rivne-lutsk": {
-    "0.1.0": 2
+    "0.1.0": 3
   },
   "yukina-ua-sumy": {
-    "0.1.0": 2
+    "0.1.0": 3
   },
   "yukina-ua-ternopil": {
-    "0.1.0": 1
+    "0.1.0": 2
   },
   "yukina-ua-uzhhorod-mukachevo": {
-    "0.1.0": 4
+    "0.1.0": 5
   },
   "yukina-ua-vinnytsia": {
-    "0.1.0": 1
+    "0.1.0": 2
   },
   "yukina-ua-zaporizhzhia": {
     "0.1.0": 58,
     "0.2.0": 17
   },
   "yukina-ua-zhytomyr": {
-    "0.1.0": 2
+    "0.1.0": 3
   },
   "yukina-utsunomiya": {
     "0.1.0": 15,
