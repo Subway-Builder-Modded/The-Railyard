@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
   "zone_tag": "436c0657e9f4ae2256e5ffb96122273a",
-  "generated_at": "2026-09-07T21:00:50.309Z",
+  "generated_at": "2026-09-07T21:46:15.710Z",
   "valid_paths": [
     "/",
     "/404.html",
@@ -979,6 +979,7 @@
     "/registry/maps/daejeon-4/versions/0.1.1",
     "/registry/maps/daejeon-4/versions/0.2.0",
     "/registry/maps/damascus",
+    "/registry/maps/damascus/versions",
     "/registry/maps/dayton-oh",
     "/registry/maps/daytonatti",
     "/registry/maps/dijon",
@@ -1017,6 +1018,7 @@
     "/registry/maps/greater-chicagoland/versions",
     "/registry/maps/greater-chicagoland/versions/v1.0.0",
     "/registry/maps/greater-chicagoland/versions/v1.0.1",
+    "/registry/maps/greater-chicagoland/versions/v1.4.1",
     "/registry/maps/greater-kuala-lumpur",
     "/registry/maps/greater-kuala-lumpur/description",
     "/registry/maps/greater-kuala-lumpur/details",
@@ -1825,6 +1827,7 @@
     "/registry/maps/yukina-tw-chiayi/versions/0.1.1",
     "/registry/maps/yukina-tw-chiayi/versions/0.2.0",
     "/registry/maps/yukina-tw-chiayi/versions/0.2.1",
+    "/registry/maps/yukina-tw-chiayi/versions/0.4.0",
     "/registry/maps/yukina-tw-chiayi/versions/0.4.1",
     "/registry/maps/yukina-tw-hsinchu",
     "/registry/maps/yukina-tw-hsinchu/versions",
@@ -2214,8 +2217,8 @@
     "latest_hour": "2026-09-07T21:00:00.000Z",
     "total_days": 144,
     "total_hours": 2435,
-    "latest_day_visits": 41,
-    "latest_hour_visits": 0
+    "latest_day_visits": 124,
+    "latest_hour_visits": 83
   },
   "time_series": {
     "by_day": [
@@ -2793,7 +2796,7 @@
       },
       {
         "date": "2026-09-07",
-        "visits": 41
+        "visits": 124
       }
     ],
     "by_hour": [
@@ -12535,7 +12538,7 @@
       },
       {
         "hour": "2026-09-07T21:00:00.000Z",
-        "visits": 0
+        "visits": 83
       }
     ]
   },
@@ -34179,59 +34182,84 @@
       }
     },
     "2026-09-07": {
-      "captured_at": "2026-09-07T21:00:47.640Z",
+      "captured_at": "2026-09-07T21:46:13.411Z",
       "window_start": "2026-09-07T00:00:00.000Z",
       "window_end": "2026-09-07T22:00:00.000Z",
       "totals": {
-        "visits": 41
+        "visits": 124
       },
       "pages": {
-        "/": 20,
-        "/railyard": 1,
+        "/": 45,
+        "/railyard": 2,
+        "/railyard/docs/v0.2/github-token": 1,
+        "/railyard/updates": 1,
+        "/registry": 1,
         "/registry/analytics": 1,
+        "/registry/authors/Gio1112": 1,
         "/registry/authors/ahkimn": 1,
+        "/registry/authors/ahkimn/subwaybuilder-jp-maps": 1,
         "/registry/maps": 1,
         "/registry/maps/amba/versions/v0.2.3": 1,
         "/registry/maps/beijing": 1,
         "/registry/maps/busan-3/versions/0.1.0": 1,
+        "/registry/maps/damascus/versions": 1,
+        "/registry/maps/greater-chicagoland/versions/v1.4.1": 30,
+        "/registry/maps/jelegend-tokyo": 2,
         "/registry/maps/marseille/versions/v1.0.0": 1,
         "/registry/maps/martinique/versions": 1,
         "/registry/maps/mfn-lasvegas/versions": 1,
         "/registry/maps/pyongyang-nk/versions/1.0.0": 1,
         "/registry/maps/riyadh/versions": 1,
         "/registry/maps/riyadh/versions/1.0.0": 1,
-        "/registry/maps/tel-aviv": 1,
+        "/registry/maps/tel-aviv": 2,
         "/registry/maps/tri-cities/versions/1.0.2": 1,
+        "/registry/maps/yukina-nagasaki": 1,
+        "/registry/maps/yukina-nagoya/versions/0.2.3": 1,
+        "/registry/maps/yukina-tw-chiayi/versions/0.4.0": 1,
         "/registry/maps/yukina-tw-southern-taiwan": 1,
-        "/registry/mods": 3,
+        "/registry/maps/yukina-utsunomiya/versions": 1,
+        "/registry/mods": 11,
         "/registry/mods/distance-circles/versions/0.6.0": 1,
-        "/registry/mods/improved-schematics/versions/v2.3.0": 1
+        "/registry/mods/improved-schematics/versions/v2.3.0": 1,
+        "/registry/mods/kr-ktp/versions/v1.0.3": 2,
+        "/registry/mods/mode-manager": 1,
+        "/registry/mods/orbital-surveyor": 1,
+        "/registry/mods/transit-overlay": 2
       },
       "countries": {
-        "DE": 4,
+        "CH": 1,
+        "DE": 7,
+        "ES": 1,
+        "GB": 3,
         "HK": 1,
+        "JP": 2,
+        "NL": 2,
         "NZ": 1,
-        "SG": 2,
-        "US": 33
+        "PL": 1,
+        "SE": 2,
+        "SG": 3,
+        "US": 100
       },
       "browsers": {
-        "BingBot": 6,
-        "Chrome": 5,
-        "GoogleBot": 13,
+        "BingBot": 14,
+        "Chrome": 11,
+        "Firefox": 32,
+        "GoogleBot": 23,
         "MobileSafari": 1,
-        "Safari": 1,
-        "Unknown": 15
+        "Safari": 2,
+        "Unknown": 41
       },
       "operating_systems": {
-        "Android": 13,
-        "MacOSX": 2,
-        "Unknown": 21,
-        "Windows": 4,
+        "Android": 23,
+        "Linux": 30,
+        "MacOSX": 4,
+        "Unknown": 55,
+        "Windows": 11,
         "iOS": 1
       },
       "devices": {
-        "desktop": 27,
-        "mobile": 14
+        "desktop": 100,
+        "mobile": 24
       }
     }
   }
