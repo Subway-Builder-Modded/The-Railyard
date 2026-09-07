@@ -15698,13 +15698,14 @@ bucket_utc,listing_type,id,downloads
 2026-09-07T08:00Z,map,au-syd2,1
 2026-09-07T08:00Z,map,memphis,1
 2026-09-07T08:00Z,map,san-juan,1
+2026-09-07T08:00Z,map,yukina-ua-kyiv,1
 2026-09-07T08:00Z,mod,auto-lines,1
 2026-09-07T08:00Z,mod,chinese-trains,1
 2026-09-07T08:00Z,mod,dantrains-abridged,1
 2026-09-07T08:00Z,mod,intercity-hsr-trains,2
 2026-09-07T08:00Z,mod,map-markers,1
 2026-09-07T08:00Z,mod,missed-connections,1
-2026-09-07T08:00Z,mod,orbital-surveyor,1
+2026-09-07T08:00Z,mod,orbital-surveyor,3
 2026-09-07T08:00Z,mod,satellite-overlay,1
 2026-09-07T08:00Z,mod,scrollable-dropdowns,1
 2026-09-07T08:00Z,mod,subwaybuilder-regions,1
