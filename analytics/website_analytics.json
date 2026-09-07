@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
   "zone_tag": "436c0657e9f4ae2256e5ffb96122273a",
-  "generated_at": "2026-09-07T06:00:49.651Z",
+  "generated_at": "2026-09-07T06:37:31.144Z",
   "valid_paths": [
     "/",
     "/404.html",
@@ -1294,6 +1294,7 @@
     "/registry/maps/richmond",
     "/registry/maps/riviera-romagnola",
     "/registry/maps/riyadh",
+    "/registry/maps/riyadh/versions",
     "/registry/maps/riyadh/versions/1.0.0",
     "/registry/maps/rochester",
     "/registry/maps/rochester/gallery",
@@ -2213,8 +2214,8 @@
     "latest_hour": "2026-09-07T06:00:00.000Z",
     "total_days": 144,
     "total_hours": 2420,
-    "latest_day_visits": 1,
-    "latest_hour_visits": 0
+    "latest_day_visits": 39,
+    "latest_hour_visits": 38
   },
   "time_series": {
     "by_day": [
@@ -2792,7 +2793,7 @@
       },
       {
         "date": "2026-09-07",
-        "visits": 1
+        "visits": 39
       }
     ],
     "by_hour": [
@@ -12474,7 +12475,7 @@
       },
       {
         "hour": "2026-09-07T06:00:00.000Z",
-        "visits": 0
+        "visits": 38
       }
     ]
   },
@@ -34118,26 +34119,59 @@
       }
     },
     "2026-09-07": {
-      "captured_at": "2026-09-07T06:00:47.234Z",
+      "captured_at": "2026-09-07T06:37:28.760Z",
       "window_start": "2026-09-07T00:00:00.000Z",
       "window_end": "2026-09-07T07:00:00.000Z",
       "totals": {
-        "visits": 1
+        "visits": 39
       },
       "pages": {
-        "/": 1
+        "/": 19,
+        "/railyard": 1,
+        "/registry/analytics": 1,
+        "/registry/authors/ahkimn": 1,
+        "/registry/maps": 1,
+        "/registry/maps/amba/versions/v0.2.3": 1,
+        "/registry/maps/beijing": 1,
+        "/registry/maps/busan-3/versions/0.1.0": 1,
+        "/registry/maps/marseille/versions/v1.0.0": 1,
+        "/registry/maps/martinique/versions": 1,
+        "/registry/maps/mfn-lasvegas/versions": 1,
+        "/registry/maps/pyongyang-nk/versions/1.0.0": 1,
+        "/registry/maps/riyadh/versions": 1,
+        "/registry/maps/riyadh/versions/1.0.0": 1,
+        "/registry/maps/tel-aviv": 1,
+        "/registry/maps/tri-cities/versions/1.0.2": 1,
+        "/registry/maps/yukina-tw-southern-taiwan": 1,
+        "/registry/mods": 2,
+        "/registry/mods/distance-circles/versions/0.6.0": 1,
+        "/registry/mods/improved-schematics/versions/v2.3.0": 1
       },
       "countries": {
-        "SG": 1
+        "DE": 4,
+        "HK": 1,
+        "NZ": 1,
+        "SG": 2,
+        "US": 31
       },
       "browsers": {
-        "Unknown": 1
+        "BingBot": 5,
+        "Chrome": 4,
+        "GoogleBot": 13,
+        "MobileSafari": 1,
+        "Safari": 1,
+        "Unknown": 15
       },
       "operating_systems": {
-        "Unknown": 1
+        "Android": 13,
+        "MacOSX": 2,
+        "Unknown": 20,
+        "Windows": 3,
+        "iOS": 1
       },
       "devices": {
-        "desktop": 1
+        "desktop": 25,
+        "mobile": 14
       }
     }
   }
