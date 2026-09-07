@@ -1,0 +1,28 @@
+{
+  "schema_version": 1,
+  "id": "catt-chile-central",
+  "answers": {
+    "workplace_count": "physical_measured",
+    "workplace_granularity": "adm5",
+    "workplace_resolution": "ml_hybrid_footprints",
+    "workplace_intensity": "fine_types_generic",
+    "resident_count": "employed_residents",
+    "resident_granularity": "adm5",
+    "resident_resolution": "mesh_125_or_adm5",
+    "resident_intensity": "measured_per_unit",
+    "od_metric": "full_matrix",
+    "od_granularity": "adm5"
+  },
+  "notes": "Demand is built person-by-person from Chilean government household travel surveys (Encuesta Origen-Destino, SECTRA / Ministerio de Transportes). Each surveyed household carries a geocoded home address; each person carries a geocoded workplace or place of study plus a weekday expansion factor. One game pop = one surveyed person's home-to-work or home-to-study trip at their survey weight, scaled to the game's demand basis. No gravity model is used where survey data exists.\n\nSurveys, all with per-person geocoded origin and destination:\n- EOD Santiago 2012, official 2017 census re-expansion, 11,230 weekday households in bbox\n- EOD Gran Valparaiso 2014, 7,152 households\n- EOD San Antonio 2017, 1,687 households\n\nResidence anchoring: Censo 2017 manzana (city block) microdata from INE, 70,762 blocks in bbox. Checked for suppression: comuna sums match published comuna totals exactly (e.g. Colina 146,207, Lampa 102,034), so no loss at block grain. Where the 2012 survey under-represents an area that has since grown (Chicureo, Batuco, Polpaico), synthetic households are added to match census block counts, cloned from nearby surveyed households matched on reported income. Comuna totals are preserved. This affects about 3% of the Santiago portion.\n\nUnsurveyed comunas (the Cachapoal valley: Rancagua, San Fernando, Rengo, Chimbarongo, Machali; plus Quillota, Casablanca, Curacavi, El Quisco, Algarrobo) have never been covered by an EOD. Job totals there come from SII (tax authority) counts of dependent workers registered per comuna - a business register at declared company address, not place of work, reported per comuna. Placement within each comuna is by OpenStreetMap workplace features weighted by type and building footprint. The Q1 and Q3 answers reflect the survey side; this register side is weaker and is described here so a reviewer can classify the hybrid.\n\nThe SII figures were validated against survey-measured jobs in comunas where both exist: accurate within about 15% in ordinary comunas, but inflated 2.6-13x in headquarters comunas (Providencia 13.7x, Las Condes 8.6x) and about 2-3x in agricultural comunas where seasonal labour is registered (Coltauco 2.9x, Requinoa 2.7x). The jobs-per-employed-resident ratio is therefore clipped to [0.25, 1.5] and the unsurveyed group rebalanced so total jobs equal total employed residents. Survey-measured job counts take precedence wherever a survey exists.\n\nFlows in those comunas start as estimates and are constrained: each comuna's out-commuting share is fixed by its measured employed residents minus its local jobs, and destinations are chosen among comunas with a measured job surplus. The result reproduces the valley's known structure without being told to - Rancagua nets +3,940 as the regional job centre, Machali -9,259 as its dormitory suburb, San Fernando +390 as a self-contained employer.\n\nEmployment rate of 0.41 used for census-derived employed residents, derived independently from two surveys (Santiago 0.409, Valparaiso 0.429).\n\nVintages: residence Censo 2017; workplace EOD 2012 / 2014 / 2017 and SII 2015; buildings Overture/OSM 2026.\n\nKnown limitations: El Quisco and Algarrobo have no survey and no nearby donor, so their residents commute locally by assumption. Chicureo's income reference is hand-set because the 2012 survey sampled only four households there. Trip purposes are limited to work and study, which is what the game's demand model represents.",
+  "sources": [
+    "https://www.sectra.gob.cl/info-territorial/region-metropolitana-de-santiago/",
+    "https://www.ine.gob.cl/docs/default-source/geodatos-abiertos/cartografia/censo-2017/siedu/shp/microdatos_manzana.zip",
+    "https://www.sii.cl/estadisticas/region/PUB_Reg_Com.xlsx"
+  ],
+  "provenance": {
+    "method": "self-reported",
+    "submitted_by": "holapapie-png",
+    "reviewed_by": null,
+    "date": "2026-09-07"
+  }
+}
