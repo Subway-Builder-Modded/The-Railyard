@@ -1,418 +1,433 @@
 rank,listing_type,id,name,author,author_alias,attribution_link,download_change,adjusted_download_change,current_total,adjusted_current_total,baseline_total,adjusted_baseline_total,latest_snapshot,baseline_snapshot
-1,mod,subway-builder-performance,Subway Builder Performance,rexmhall09,rexmhall09,https://github.com/rexmhall09,462,462,1161,1161,699,699,snapshot_2026_09_06.json,snapshot_2026_08_23.json
-2,map,yukina-cz-praha,Praha,ahkimn,Yukina-,https://subwaybuildermodded.com/credits,458,458,2473,2473,2015,2015,snapshot_2026_09_06.json,snapshot_2026_08_23.json
-3,mod,distance-circles,Station Catchment Viewer,crumpetime,muffintime,https://github.com/crumpetime,452,452,8068,8068,7616,7616,snapshot_2026_09_06.json,snapshot_2026_08_23.json
-4,mod,induced-demand,Induced Demand,martig7,martig7,https://github.com/martig7,450,450,4063,4063,3613,3613,snapshot_2026_09_06.json,snapshot_2026_08_23.json
-5,mod,transit-overlay,Transit Overlay,BarKuperman,BarKuperman,https://github.com/BarKuperman,432,432,5359,5359,4927,4927,snapshot_2026_09_06.json,snapshot_2026_08_23.json
-6,mod,improved-schematics,Improved Schematics,martig7,martig7,https://github.com/martig7,418,418,5931,5931,5513,5513,snapshot_2026_09_06.json,snapshot_2026_08_23.json
-7,mod,auto-lines,Auto Lines,roquerodrigo,roquerodrigo,https://github.com/roquerodrigo,377,377,1362,1362,985,985,snapshot_2026_09_06.json,snapshot_2026_08_23.json
-8,mod,subwaybuilder-regions,Regions,ahkimn,Yukina-,https://subwaybuildermodded.com/credits,369,369,5302,5302,4933,4933,snapshot_2026_09_06.json,snapshot_2026_08_23.json
-9,map,vienna,Vienna,Rmerr1,Rmerr1,https://github.com/Rmerr1,338,338,470,470,132,132,snapshot_2026_09_06.json,snapshot_2026_08_23.json
-10,mod,dantrains-abridged,Dan Trains Abridged,DanielD1909,DanielD1909,https://github.com/DanielD1909,332,332,767,767,435,435,snapshot_2026_09_06.json,snapshot_2026_08_23.json
-11,mod,neighborhood-station-names,Neighborhood Station Names,pendulating,pendulating,https://github.com/pendulating,299,299,2160,2160,1861,1861,snapshot_2026_09_06.json,snapshot_2026_08_23.json
-12,mod,valdotoriums-trains,Valdotoriums S-Bahn and Trams,Valdotorium,Valdotorium,https://github.com/Valdotorium,271,271,3768,3768,3497,3497,snapshot_2026_09_06.json,snapshot_2026_08_23.json
-13,map,paris-ile-de-france,Paris - Ile de France,pierreggt,pierreggt,https://github.com/pierreggt,221,221,1502,1502,1281,1281,snapshot_2026_09_06.json,snapshot_2026_08_23.json
-14,map,yukina-pl-warszawa,Warszawa,ahkimn,Yukina-,https://subwaybuildermodded.com/credits,216,216,1614,1614,1398,1398,snapshot_2026_09_06.json,snapshot_2026_08_23.json
-15,mod,station-dots,Station Dots,nzh0172,naz,https://github.com/nzh0172,211,211,3189,3189,2978,2978,snapshot_2026_09_06.json,snapshot_2026_08_23.json
-16,mod,network-status,Network Status,Valdotorium,Valdotorium,https://github.com/Valdotorium,210,210,2867,2867,2657,2657,snapshot_2026_09_06.json,snapshot_2026_08_23.json
-17,map,yukina-cz-brno,Brno,ahkimn,Yukina-,https://subwaybuildermodded.com/credits,210,210,765,765,555,555,snapshot_2026_09_06.json,snapshot_2026_08_23.json
-18,mod,orbital-surveyor,Orbital Surveyor,BarKuperman,BarKuperman,https://github.com/BarKuperman,200,200,2295,2295,2095,2095,snapshot_2026_09_06.json,snapshot_2026_08_23.json
-19,map,yukina-tw-taipei,臺北 (Taipei),ahkimn,Yukina-,https://subwaybuildermodded.com/credits,200,200,2126,2126,1926,1926,snapshot_2026_09_06.json,snapshot_2026_08_23.json
-20,map,toronto,Toronto,subway-builder-modded-admin,Subway Builder Modded,https://subwaybuildermodded.com,191,191,3277,3277,3086,3086,snapshot_2026_09_06.json,snapshot_2026_08_23.json
-21,mod,game-speedup,Game SpeedUp,Valdotorium,Valdotorium,https://github.com/Valdotorium,191,191,2503,2503,2312,2312,snapshot_2026_09_06.json,snapshot_2026_08_23.json
-22,map,yukina-tokyo,東京 (Tōkyō),ahkimn,Yukina-,https://subwaybuildermodded.com/credits,190,190,788,788,598,598,snapshot_2026_09_06.json,snapshot_2026_08_23.json
-23,mod,simple-trains,Simple Trains,Bobby-047,Bobby-047,https://github.com/Bobby-047,186,186,3681,3681,3495,3495,snapshot_2026_09_06.json,snapshot_2026_08_23.json
-24,mod,missed-connections,Missed Connections,rslurry,slurry,https://github.com/rslurry,186,186,1864,1864,1678,1678,snapshot_2026_09_06.json,snapshot_2026_08_23.json
-25,map,yukina-lt-vilnius,Vilnius,ahkimn,Yukina-,https://subwaybuildermodded.com/credits,184,184,491,491,307,307,snapshot_2026_09_06.json,snapshot_2026_08_23.json
-26,mod,penguin-approved-rolling-stock,Penguin-Approved Rolling Stock,prodigious-penguin,prodigious-penguin,https://github.com/prodigious-penguin,178,178,210,210,32,32,snapshot_2026_09_06.json,snapshot_2026_08_23.json
-27,map,yukina-osaka,大阪 (Ōsaka),ahkimn,Yukina-,https://subwaybuildermodded.com/credits,172,172,2845,2845,2673,2673,snapshot_2026_09_06.json,snapshot_2026_08_23.json
-28,map,berlin-val,Berlin,Valdotorium,Valdotorium,https://github.com/Valdotorium,172,172,2478,2478,2306,2306,snapshot_2026_09_06.json,snapshot_2026_08_23.json
-29,mod,track-anarchy,Track Anarchy,seanyushoumori,seanyushoumori,https://github.com/seanyushoumori,171,171,1832,1832,1661,1661,snapshot_2026_09_06.json,snapshot_2026_08_23.json
-30,map,yukina-cz-ostrava,Ostrava,ahkimn,Yukina-,https://subwaybuildermodded.com/credits,155,155,466,466,311,311,snapshot_2026_09_06.json,snapshot_2026_08_23.json
-31,mod,intercity-hsr-trains,"Intercity, HSR & Express Metro Trains",danielloong714,danielloong714,https://github.com/danielloong714,154,154,211,211,57,57,snapshot_2026_09_06.json,snapshot_2026_08_23.json
-32,map,yukina-sk-bratislava,Bratislava,ahkimn,Yukina-,https://subwaybuildermodded.com/credits,153,153,153,153,0,0,snapshot_2026_09_06.json,snapshot_2026_08_23.json
-33,mod,scrollable-dropdowns,Scrollable Dropdowns,seanyushoumori,seanyushoumori,https://github.com/seanyushoumori,151,151,1698,1698,1547,1547,snapshot_2026_09_06.json,snapshot_2026_08_23.json
-34,map,rhein-main-neckar,Frankfurt (Rhein-Main-Neckar),pierreggt,pierreggt,https://github.com/pierreggt,146,146,146,146,0,0,snapshot_2026_09_06.json,snapshot_2026_08_23.json
-35,mod,track-visualizer,track height visualizer,seanyushoumori,seanyushoumori,https://github.com/seanyushoumori,143,143,2527,2527,2384,2384,snapshot_2026_09_06.json,snapshot_2026_08_23.json
-36,map,yukina-cz-ustecko-chomutov,Ústí nad Labem - Chomutov,ahkimn,Yukina-,https://subwaybuildermodded.com/credits,140,140,341,341,201,201,snapshot_2026_09_06.json,snapshot_2026_08_23.json
-37,map,yukina-cz-hradec-pardubice,Hradec Králové - Pardubice,ahkimn,Yukina-,https://subwaybuildermodded.com/credits,138,138,309,309,171,171,snapshot_2026_09_06.json,snapshot_2026_08_23.json
-38,map,yukina-cz-plzen,Plzeň,ahkimn,Yukina-,https://subwaybuildermodded.com/credits,137,137,359,359,222,222,snapshot_2026_09_06.json,snapshot_2026_08_23.json
-39,map,montreal,Montreal,subway-builder-modded-admin,Subway Builder Modded,https://subwaybuildermodded.com,136,136,2276,2276,2140,2140,snapshot_2026_09_06.json,snapshot_2026_08_23.json
-40,map,yukina-cz-olomouc,Olomouc,ahkimn,Yukina-,https://subwaybuildermodded.com/credits,134,134,307,307,173,173,snapshot_2026_09_06.json,snapshot_2026_08_23.json
-41,map,hamburg,Hamburg,pierreggt,pierreggt,https://github.com/pierreggt,134,134,134,134,0,0,snapshot_2026_09_06.json,snapshot_2026_08_23.json
-42,map,jelegend-tokyo,東京 (Tokyo),jelegend,jelegend,https://github.com/jelegend,127,127,3762,3762,3635,3635,snapshot_2026_09_06.json,snapshot_2026_08_23.json
-43,mod,any-money,anyMoney,nzh0172,naz,https://github.com/nzh0172,126,126,2437,2437,2311,2311,snapshot_2026_09_06.json,snapshot_2026_08_23.json
-44,map,yukina-cz-liberec-jablonec,Liberec - Jablonec nad Nisou,ahkimn,Yukina-,https://subwaybuildermodded.com/credits,126,126,233,233,107,107,snapshot_2026_09_06.json,snapshot_2026_08_23.json
-45,map,muenchen,München,pierreggt,pierreggt,https://github.com/pierreggt,126,126,126,126,0,0,snapshot_2026_09_06.json,snapshot_2026_08_23.json
-46,map,madrid,Madrid,Maximilian284,max02,https://github.com/Maximilian284,125,125,1615,1615,1490,1490,snapshot_2026_09_06.json,snapshot_2026_08_23.json
-47,map,yukina-cz-ceske-budejovice,České Budějovice,ahkimn,Yukina-,https://subwaybuildermodded.com/credits,125,125,231,231,106,106,snapshot_2026_09_06.json,snapshot_2026_08_23.json
-48,map,yukina-cz-zlin,Zlín,ahkimn,Yukina-,https://subwaybuildermodded.com/credits,124,124,177,177,53,53,snapshot_2026_09_06.json,snapshot_2026_08_23.json
-49,mod,citymapper,Citymapper,Gio1112,giorgiodabest,https://giorgio.is-a.dev/,123,123,2775,2775,2652,2652,snapshot_2026_09_06.json,snapshot_2026_08_23.json
-50,mod,japanese-trains,Japanese Trains,kaicardenas0618,kaicardenas0618,https://github.com/kaicardenas0618,122,122,1041,1041,919,919,snapshot_2026_09_06.json,snapshot_2026_08_23.json
-51,map,yukina-cz-karlovy-vary,Karlovy Vary,ahkimn,Yukina-,https://subwaybuildermodded.com/credits,121,121,197,197,76,76,snapshot_2026_09_06.json,snapshot_2026_08_23.json
-52,map,yukina-lt-kaunas,Kaunas,ahkimn,Yukina-,https://subwaybuildermodded.com/credits,120,120,279,279,159,159,snapshot_2026_09_06.json,snapshot_2026_08_23.json
-53,map,yukina-cz-jihlava,Jihlava,ahkimn,Yukina-,https://subwaybuildermodded.com/credits,120,120,176,176,56,56,snapshot_2026_09_06.json,snapshot_2026_08_23.json
-54,map,mfn-hong-kong,Hong Kong,crumpetime,muffintime,https://github.com/crumpetime,116,116,3024,3024,2908,2908,snapshot_2026_09_06.json,snapshot_2026_08_23.json
-55,map,barcelona,Barcelona,Maximilian284,max02,https://github.com/Maximilian284,113,113,1809,1809,1696,1696,snapshot_2026_09_06.json,snapshot_2026_08_23.json
-56,map,shanghai,Shanghai,Kronifer,Kronifer,https://github.com/Kronifer,113,113,1742,1742,1629,1629,snapshot_2026_09_06.json,snapshot_2026_08_23.json
-57,mod,tod,Transit-Oriented Development[beta],hsullivan1201,hsullivan1201,https://github.com/hsullivan1201,109,109,2588,2588,2479,2479,snapshot_2026_09_06.json,snapshot_2026_08_23.json
-58,map,yukina-keihanshin,京阪神 (Keihanshin),ahkimn,Yukina-,https://subwaybuildermodded.com/credits,109,109,1220,1220,1111,1111,snapshot_2026_09_06.json,snapshot_2026_08_23.json
-59,map,yukina-ee-tallinn,Tallinn,ahkimn,Yukina-,https://subwaybuildermodded.com/credits,106,106,771,771,665,665,snapshot_2026_09_06.json,snapshot_2026_08_23.json
-60,map,yukina-kyoto,京都 (Kyōto),ahkimn,Yukina-,https://subwaybuildermodded.com/credits,105,105,1677,1677,1572,1572,snapshot_2026_09_06.json,snapshot_2026_08_23.json
-61,map,ruhrgebiet,Ruhrgebiet,pierreggt,pierreggt,https://github.com/pierreggt,105,105,105,105,0,0,snapshot_2026_09_06.json,snapshot_2026_08_23.json
-62,map,vancouver,Vancouver,subway-builder-modded-admin,Subway Builder Modded,https://subwaybuildermodded.com,103,103,1918,1918,1815,1815,snapshot_2026_09_06.json,snapshot_2026_08_23.json
-63,map,yukina-lv-riga,Rīga,ahkimn,Yukina-,https://subwaybuildermodded.com/credits,103,103,841,841,738,738,snapshot_2026_09_06.json,snapshot_2026_08_23.json
-64,mod,mode-manager,Mode Manager,Mpfk,Mpfk,https://github.com/Mpfk,100,100,1880,1880,1780,1780,snapshot_2026_09_06.json,snapshot_2026_08_23.json
-65,mod,map-markers,Map Markers,roquerodrigo,roquerodrigo,https://github.com/roquerodrigo,99,99,1147,1147,1048,1048,snapshot_2026_09_06.json,snapshot_2026_08_23.json
-66,map,yukina-pl-gdansk,Gdańsk,ahkimn,Yukina-,https://subwaybuildermodded.com/credits,99,99,833,833,734,734,snapshot_2026_09_06.json,snapshot_2026_08_23.json
-67,mod,basedgoat-trains,BasedGoat Trains,arniber21,arniber21,https://github.com/arniber21,99,99,242,242,143,143,snapshot_2026_09_06.json,snapshot_2026_08_23.json
-68,map,bonn-koeln,Bonn-Köln,pierreggt,pierreggt,https://github.com/pierreggt,98,98,98,98,0,0,snapshot_2026_09_06.json,snapshot_2026_08_23.json
-69,map,yukina-pl-krakow,Kraków,ahkimn,Yukina-,https://subwaybuildermodded.com/credits,97,97,1022,1022,925,925,snapshot_2026_09_06.json,snapshot_2026_08_23.json
-70,map,beijing,Beijing,Kronifer,Kronifer,https://github.com/Kronifer,96,96,1061,1061,965,965,snapshot_2026_09_06.json,snapshot_2026_08_23.json
-71,map,singapore-val,Singapore,Valdotorium,Valdotorium,https://github.com/Valdotorium,94,94,1783,1783,1689,1689,snapshot_2026_09_06.json,snapshot_2026_08_23.json
-72,map,seoul,Seoul,cromstar,cromstar,https://github.com/cromstar,94,94,358,358,264,264,snapshot_2026_09_06.json,snapshot_2026_08_23.json
-73,map,yukina-lt-klaipeda,Klaipėda,ahkimn,Yukina-,https://subwaybuildermodded.com/credits,93,93,177,177,84,84,snapshot_2026_09_06.json,snapshot_2026_08_23.json
-74,map,strasbourg,Strasbourg,pierreggt,pierreggt,https://github.com/pierreggt,91,91,235,235,144,144,snapshot_2026_09_06.json,snapshot_2026_08_23.json
-75,map,istanbul,Istanbul,pierreggt,pierreggt,https://github.com/pierreggt,89,89,488,488,399,399,snapshot_2026_09_06.json,snapshot_2026_08_23.json
-76,mod,madrid-transit-pack,Madrid Transit Pack,xoaninc,xoaninc,https://github.com/xoaninc,89,89,156,156,67,67,snapshot_2026_09_06.json,snapshot_2026_08_23.json
-77,map,au-melbourne,Melbourne,subway-builder-modded-admin,Subway Builder Modded,https://subwaybuildermodded.com,86,86,485,485,399,399,snapshot_2026_09_06.json,snapshot_2026_08_23.json
-78,map,lyon,Lyon - Vallée du Rhône & Alpes,pierreggt,pierreggt,https://github.com/pierreggt,86,86,359,359,273,273,snapshot_2026_09_06.json,snapshot_2026_08_23.json
-79,map,grand-geneve,Grand Genève,pierreggt,pierreggt,https://github.com/pierreggt,85,85,88,88,3,3,snapshot_2026_09_06.json,snapshot_2026_08_23.json
-80,map,au-syd2,Sydney,subway-builder-modded-admin,Subway Builder Modded,https://subwaybuildermodded.com,82,82,426,426,344,344,snapshot_2026_09_06.json,snapshot_2026_08_23.json
-81,map,yukina-lt-panevezys,Panevėžys,ahkimn,Yukina-,https://subwaybuildermodded.com/credits,82,82,149,149,67,67,snapshot_2026_09_06.json,snapshot_2026_08_23.json
-82,map,yukina-lt-siauliai,Šiauliai,ahkimn,Yukina-,https://subwaybuildermodded.com/credits,82,82,148,148,66,66,snapshot_2026_09_06.json,snapshot_2026_08_23.json
-83,map,yukina-nagoya,名古屋 (Nagoya),ahkimn,Yukina-,https://subwaybuildermodded.com/credits,81,81,1170,1170,1089,1089,snapshot_2026_09_06.json,snapshot_2026_08_23.json
-84,map,toulouse,Toulouse,pierreggt,pierreggt,https://github.com/pierreggt,80,80,190,190,110,110,snapshot_2026_09_06.json,snapshot_2026_08_23.json
-85,map,shenzhen,Shenzhen,Kronifer,Kronifer,https://github.com/Kronifer,77,77,1213,1213,1136,1136,snapshot_2026_09_06.json,snapshot_2026_08_23.json
-86,mod,lrt-trains,LRT Trains,kaicardenas0618,kaicardenas0618,https://github.com/kaicardenas0618,76,76,1121,1121,1045,1045,snapshot_2026_09_06.json,snapshot_2026_08_23.json
-87,map,zurich,Zurich,Kronifer,Kronifer,https://github.com/Kronifer,74,74,2180,2180,2106,2106,snapshot_2026_09_06.json,snapshot_2026_08_23.json
-88,map,eurodistrict-bale,Eurodistrict of Basel,pierreggt,pierreggt,https://github.com/pierreggt,73,73,76,76,3,3,snapshot_2026_09_06.json,snapshot_2026_08_23.json
-89,map,chongqing,Chongqing,Kronifer,Kronifer,https://github.com/Kronifer,72,72,911,911,839,839,snapshot_2026_09_06.json,snapshot_2026_08_23.json
-90,map,sydney,Sydney,WillBarouch,WillBarouch,https://github.com/WillBarouch,71,71,1344,1344,1273,1273,snapshot_2026_09_06.json,snapshot_2026_08_23.json
-91,map,mfn-lasvegas,Las Vegas,crumpetime,muffintime,https://github.com/crumpetime,71,71,711,711,640,640,snapshot_2026_09_06.json,snapshot_2026_08_23.json
-92,map,lille,Lille - Flandre & Hainaut,pierreggt,pierreggt,https://github.com/pierreggt,71,71,232,232,161,161,snapshot_2026_09_06.json,snapshot_2026_08_23.json
-93,map,yukina-sapporo-chitose,札幌 (Sapporo),ahkimn,Yukina-,https://subwaybuildermodded.com/credits,70,70,1160,1160,1090,1090,snapshot_2026_09_06.json,snapshot_2026_08_23.json
-94,map,yukina-pl-katowice-gzm,Katowice - GZM,ahkimn,Yukina-,https://subwaybuildermodded.com/credits,70,70,589,589,519,519,snapshot_2026_09_06.json,snapshot_2026_08_23.json
-95,mod,noah-great-society,Great Society Metro Train,NoahGarrf,NoahGarrf,https://github.com/NoahGarrf,70,70,70,70,0,0,snapshot_2026_09_06.json,snapshot_2026_08_23.json
-96,map,nantes,Nantes,pierreggt,pierreggt,https://github.com/pierreggt,68,68,166,166,98,98,snapshot_2026_09_06.json,snapshot_2026_08_23.json
-97,map,warsaw-val,Warsaw,Valdotorium,Valdotorium,https://github.com/Valdotorium,67,67,671,671,604,604,snapshot_2026_09_06.json,snapshot_2026_08_23.json
-98,map,yukina-northern-kyushu,福北 (Fukuoka & Kitakyūshū),ahkimn,Yukina-,https://subwaybuildermodded.com/credits,66,66,748,748,682,682,snapshot_2026_09_06.json,snapshot_2026_08_23.json
-99,map,greater-los-angeles,Greater Los Angeles,rslurry,slurry,https://github.com/rslurry,65,65,3774,3774,3709,3709,snapshot_2026_09_06.json,snapshot_2026_08_23.json
-100,map,nz-auckland,Auckland,subway-builder-modded-admin,Subway Builder Modded,https://subwaybuildermodded.com,65,65,335,335,270,270,snapshot_2026_09_06.json,snapshot_2026_08_23.json
-101,map,amsterdam,Amsterdam,ryandicicco,ryandicicco,https://github.com/ryandicicco,63,63,1711,1711,1648,1648,snapshot_2026_09_06.json,snapshot_2026_08_23.json
-102,map,guangzhou,Guangzhou,Kronifer,Kronifer,https://github.com/Kronifer,63,63,1376,1376,1313,1313,snapshot_2026_09_06.json,snapshot_2026_08_23.json
-103,map,ciudad-de-mexico,Ciudad de México,rslurry,slurry,https://github.com/rslurry,62,62,2099,2099,2037,2037,snapshot_2026_09_06.json,snapshot_2026_08_23.json
-104,map,marseille,Marseille - Provence,pierreggt,pierreggt,https://github.com/pierreggt,62,62,314,314,252,252,snapshot_2026_09_06.json,snapshot_2026_08_23.json
-105,map,charleston-huntington-wv,Charleston-Huntington,PSWBSF,Potato Spaghetti Water Balloon Space Federation,https://youtu.be/dQw4w9WgXcQ?t=0,61,61,277,277,216,216,snapshot_2026_09_06.json,snapshot_2026_08_23.json
-106,mod,danield1909-realism-pathfinding,Pathfinding Realism Mod,DanielD1909,DanielD1909,https://github.com/DanielD1909,60,60,278,278,218,218,snapshot_2026_09_06.json,snapshot_2026_08_23.json
-107,map,baltimore-dc-corridor,Baltimore-DC Corridor,rslurry,slurry,https://github.com/rslurry,59,59,1023,1023,964,964,snapshot_2026_09_06.json,snapshot_2026_08_23.json
-108,map,yukina-hiroshima-kure,広島 (Hiroshima),ahkimn,Yukina-,https://subwaybuildermodded.com/credits,59,59,947,947,888,888,snapshot_2026_09_06.json,snapshot_2026_08_23.json
-109,mod,satellite-overlay,Satellite Overlay,TransitCore,TransitCore,https://github.com/TransitCore,59,59,888,888,829,829,snapshot_2026_09_06.json,snapshot_2026_08_23.json
-110,mod,train-anarchy,Train Anarchy,seanyushoumori,seanyushoumori,https://github.com/seanyushoumori,59,59,374,374,315,315,snapshot_2026_09_06.json,snapshot_2026_08_23.json
-111,map,stuttgart,Stuttgart,pierreggt,pierreggt,https://github.com/pierreggt,56,56,56,56,0,0,snapshot_2026_09_06.json,snapshot_2026_08_23.json
-112,map,rennes,Rennes,pierreggt,pierreggt,https://github.com/pierreggt,55,55,171,171,116,116,snapshot_2026_09_06.json,snapshot_2026_08_23.json
-113,map,rome,Rome,Maximilian284,max02,https://github.com/Maximilian284,52,52,1078,1078,1026,1026,snapshot_2026_09_06.json,snapshot_2026_08_23.json
-114,map,yukina-okinawa,沖縄 (Okinawa),ahkimn,Yukina-,https://subwaybuildermodded.com/credits,52,52,879,879,827,827,snapshot_2026_09_06.json,snapshot_2026_08_23.json
-115,map,yukina-tw-kaohsiung,高雄 (Kaohsiung),ahkimn,Yukina-,https://subwaybuildermodded.com/credits,52,52,636,636,584,584,snapshot_2026_09_06.json,snapshot_2026_08_23.json
-116,map,greater-chicagoland,Greater Chicagoland,NerdieSanders,NerdieSanders,https://github.com/NerdieSanders,50,50,980,980,930,930,snapshot_2026_09_06.json,snapshot_2026_08_23.json
-117,map,milan,Milan,Maximilian284,max02,https://github.com/Maximilian284,48,48,1053,1053,1005,1005,snapshot_2026_09_06.json,snapshot_2026_08_23.json
-118,map,yukina-tw-taichung,臺中 (Taichung),ahkimn,Yukina-,https://subwaybuildermodded.com/credits,48,48,602,602,554,554,snapshot_2026_09_06.json,snapshot_2026_08_23.json
-119,map,yukina-ua-kyiv,Київ / Kyiv,ahkimn,Yukina-,https://subwaybuildermodded.com/credits,48,48,382,382,334,334,snapshot_2026_09_06.json,snapshot_2026_08_23.json
-120,map,baghdad,Baghdad,pierreggt,pierreggt,https://github.com/pierreggt,47,47,95,95,48,48,snapshot_2026_09_06.json,snapshot_2026_08_23.json
-121,map,dresden,Dresden,pierreggt,pierreggt,https://github.com/pierreggt,47,47,47,47,0,0,snapshot_2026_09_06.json,snapshot_2026_08_23.json
-122,map,augsburg,Augsburg,pierreggt,pierreggt,https://github.com/pierreggt,46,46,46,46,0,0,snapshot_2026_09_06.json,snapshot_2026_08_23.json
-123,map,yukina-kobe-akashi,神戸・姫路 (Kōbe & Himeji),ahkimn,Yukina-,https://subwaybuildermodded.com/credits,45,45,841,841,796,796,snapshot_2026_09_06.json,snapshot_2026_08_23.json
-124,map,yukina-fukuoka,福岡 (Fukuoka),ahkimn,Yukina-,https://subwaybuildermodded.com/credits,44,44,1131,1131,1087,1087,snapshot_2026_09_06.json,snapshot_2026_08_23.json
-125,map,yukina-sendai,仙台 (Sendai),ahkimn,Yukina-,https://subwaybuildermodded.com/credits,44,44,692,692,648,648,snapshot_2026_09_06.json,snapshot_2026_08_23.json
-126,map,yukina-pl-poznan,Poznań,ahkimn,Yukina-,https://subwaybuildermodded.com/credits,44,44,390,390,346,346,snapshot_2026_09_06.json,snapshot_2026_08_23.json
-127,map,arc-mediterraneen,L'Arc Méditerranéen,pierreggt,pierreggt,https://github.com/pierreggt,44,44,47,47,3,3,snapshot_2026_09_06.json,snapshot_2026_08_23.json
-128,map,oslo-no,Oslo,rslurry,slurry,https://github.com/rslurry,43,43,820,820,777,777,snapshot_2026_09_06.json,snapshot_2026_08_23.json
-129,map,valencia,Valencia,Maximilian284,max02,https://github.com/Maximilian284,43,43,508,508,465,465,snapshot_2026_09_06.json,snapshot_2026_08_23.json
-130,map,au-brisbane,Brisbane,subway-builder-modded-admin,Subway Builder Modded,https://subwaybuildermodded.com,43,43,268,268,225,225,snapshot_2026_09_06.json,snapshot_2026_08_23.json
-131,map,bremen,Bremen,pierreggt,pierreggt,https://github.com/pierreggt,43,43,43,43,0,0,snapshot_2026_09_06.json,snapshot_2026_08_23.json
-132,map,helsinki,Helsinki,rslurry,slurry,https://github.com/rslurry,42,42,1317,1317,1275,1275,snapshot_2026_09_06.json,snapshot_2026_08_23.json
-133,map,opo-pt-metropolitan,"Porto, Portugal",bquelhas,bquelhas,https://github.com/bquelhas,42,42,873,873,831,831,snapshot_2026_09_06.json,snapshot_2026_08_23.json
-134,map,corse,Corse,pierreggt,pierreggt,https://github.com/pierreggt,42,42,45,45,3,3,snapshot_2026_09_06.json,snapshot_2026_08_23.json
-135,map,nuernberg,Nürnberg,pierreggt,pierreggt,https://github.com/pierreggt,42,42,42,42,0,0,snapshot_2026_09_06.json,snapshot_2026_08_23.json
-136,mod,resizable-ui,Resizable UI,Tesarzh,Tesarzh,https://github.com/Tesarzh,41,41,243,243,202,202,snapshot_2026_09_06.json,snapshot_2026_08_23.json
-137,map,yukina-pl-wroclaw,Wrocław,ahkimn,Yukina-,https://subwaybuildermodded.com/credits,40,40,504,504,464,464,snapshot_2026_09_06.json,snapshot_2026_08_23.json
-138,map,mfn-msy,New Orleans,crumpetime,muffintime,https://github.com/crumpetime,40,40,255,255,215,215,snapshot_2026_09_06.json,snapshot_2026_08_23.json
-139,map,aachen,Aachen,pierreggt,pierreggt,https://github.com/pierreggt,40,40,40,40,0,0,snapshot_2026_09_06.json,snapshot_2026_08_23.json
-140,map,abu-dhabi,Abu Dhabi,pierreggt,pierreggt,https://github.com/pierreggt,39,39,57,57,18,18,snapshot_2026_09_06.json,snapshot_2026_08_23.json
-141,map,yukina-sk-kosice-presov,Košice - Prešov,ahkimn,Yukina-,https://subwaybuildermodded.com/credits,39,39,39,39,0,0,snapshot_2026_09_06.json,snapshot_2026_08_23.json
-142,map,rotterdam-the-hague,Rotterdam-The Hague,ryandicicco,ryandicicco,https://github.com/ryandicicco,38,38,841,841,803,803,snapshot_2026_09_06.json,snapshot_2026_08_23.json
-143,map,pays-basque,Euskal Herria,pierreggt,pierreggt,https://github.com/pierreggt,38,38,41,41,3,3,snapshot_2026_09_06.json,snapshot_2026_08_23.json
-144,map,bielefeld,Bielefeld,pierreggt,pierreggt,https://github.com/pierreggt,38,38,38,38,0,0,snapshot_2026_09_06.json,snapshot_2026_08_23.json
-145,map,hannover-braunschweig,Hannover-Braunschweig,pierreggt,pierreggt,https://github.com/pierreggt,38,38,38,38,0,0,snapshot_2026_09_06.json,snapshot_2026_08_23.json
-146,map,brussels,Brussels,lexenygma,lexenygma,https://github.com/lexenygma,37,37,121,121,84,84,snapshot_2026_09_06.json,snapshot_2026_08_23.json
-147,map,ottawa,Ottawa,subway-builder-modded-admin,Subway Builder Modded,https://subwaybuildermodded.com,36,36,865,865,829,829,snapshot_2026_09_06.json,snapshot_2026_08_23.json
-148,map,yukina-pl-lodz,Łódź,ahkimn,Yukina-,https://subwaybuildermodded.com/credits,36,36,410,410,374,374,snapshot_2026_09_06.json,snapshot_2026_08_23.json
-149,map,doha,Doha,pierreggt,pierreggt,https://github.com/pierreggt,36,36,36,36,0,0,snapshot_2026_09_06.json,snapshot_2026_08_23.json
-150,map,kiel,Kiel,pierreggt,pierreggt,https://github.com/pierreggt,36,36,36,36,0,0,snapshot_2026_09_06.json,snapshot_2026_08_23.json
-151,map,calgary,Calgary,subway-builder-modded-admin,Subway Builder Modded,https://subwaybuildermodded.com,35,35,775,775,740,740,snapshot_2026_09_06.json,snapshot_2026_08_23.json
-152,mod,demand-clusters,Demand Clusters,m4d5hr1mp,m4d5hr1mp,https://github.com/m4d5hr1mp,35,35,292,292,257,257,snapshot_2026_09_06.json,snapshot_2026_08_23.json
-153,map,erfurt,Erfurt,pierreggt,pierreggt,https://github.com/pierreggt,35,35,35,35,0,0,snapshot_2026_09_06.json,snapshot_2026_08_23.json
-154,map,freiburg,Freiburg im Breisgau,pierreggt,pierreggt,https://github.com/pierreggt,35,35,35,35,0,0,snapshot_2026_09_06.json,snapshot_2026_08_23.json
-155,map,yukina-sk-banska-bystrica,Banská Bystrica,ahkimn,Yukina-,https://subwaybuildermodded.com/credits,34,34,34,34,0,0,snapshot_2026_09_06.json,snapshot_2026_08_23.json
-156,map,tel-aviv,Tel Aviv,BarKuperman,BarKuperman,https://github.com/BarKuperman,33,33,748,748,715,715,snapshot_2026_09_06.json,snapshot_2026_08_23.json
-157,map,au-adelaide,Adelaide,subway-builder-modded-admin,Subway Builder Modded,https://subwaybuildermodded.com,33,33,192,192,159,159,snapshot_2026_09_06.json,snapshot_2026_08_23.json
-158,map,yukina-tw-tainan,臺南 (Tainan),ahkimn,Yukina-,https://subwaybuildermodded.com/credits,32,32,381,381,349,349,snapshot_2026_09_06.json,snapshot_2026_08_23.json
-159,map,greater-kuala-lumpur,Greater Kuala Lumpur,nzh0172,naz,https://github.com/nzh0172,31,31,563,563,532,532,snapshot_2026_09_06.json,snapshot_2026_08_23.json
-160,map,quebec-city,Quebec City,subway-builder-modded-admin,Subway Builder Modded,https://subwaybuildermodded.com,30,30,677,677,647,647,snapshot_2026_09_06.json,snapshot_2026_08_23.json
-161,map,beirut,Beirut,pierreggt,pierreggt,https://github.com/pierreggt,30,30,48,48,18,18,snapshot_2026_09_06.json,snapshot_2026_08_23.json
-162,map,bilbao,Bilbao,Maximilian284,max02,https://github.com/Maximilian284,29,29,499,499,470,470,snapshot_2026_09_06.json,snapshot_2026_08_23.json
-163,map,au-canberra,Canberra,subway-builder-modded-admin,Subway Builder Modded,https://subwaybuildermodded.com,29,29,156,156,127,127,snapshot_2026_09_06.json,snapshot_2026_08_23.json
-164,map,magdeburg,Magdeburg,pierreggt,pierreggt,https://github.com/pierreggt,29,29,29,29,0,0,snapshot_2026_09_06.json,snapshot_2026_08_23.json
-165,map,dubai,Dubai,ryandicicco,ryandicicco,https://github.com/ryandicicco,28,28,569,569,541,541,snapshot_2026_09_06.json,snapshot_2026_08_23.json
-166,map,yukina-pl-szczecin,Szczecin,ahkimn,Yukina-,https://subwaybuildermodded.com/credits,28,28,276,276,248,248,snapshot_2026_09_06.json,snapshot_2026_08_23.json
-167,map,yukina-tw-southern-taiwan,南臺灣 (Southern Taiwan),ahkimn,Yukina-,https://subwaybuildermodded.com/credits,28,28,125,125,97,97,snapshot_2026_09_06.json,snapshot_2026_08_23.json
-168,map,chemnitz,Chemnitz,pierreggt,pierreggt,https://github.com/pierreggt,28,28,28,28,0,0,snapshot_2026_09_06.json,snapshot_2026_08_23.json
-169,map,ile-de-france,Paris (IDF),JcPires,JcPires,https://github.com/JcPires,27,27,91,91,64,64,snapshot_2026_09_06.json,snapshot_2026_08_23.json
-170,map,seoul-4,Seoul (40km×40km),kimth9,kimth9,https://github.com/kimth9,26,26,2564,2564,2538,2538,snapshot_2026_09_06.json,snapshot_2026_08_23.json
-171,map,sofia-bulgaria,Sofia,giannons46,giannons46,https://github.com/giannons46,26,26,168,168,142,142,snapshot_2026_09_06.json,snapshot_2026_08_23.json
-172,map,luebeck,Lübeck,pierreggt,pierreggt,https://github.com/pierreggt,26,26,26,26,0,0,snapshot_2026_09_06.json,snapshot_2026_08_23.json
-173,map,yukina-sk-nitra,Nitra,ahkimn,Yukina-,https://subwaybuildermodded.com/credits,26,26,26,26,0,0,snapshot_2026_09_06.json,snapshot_2026_08_23.json
-174,map,yukina-kitakyushu-shimonoseki,北九州・下関 (Kitakyūshū & Shimonoseki),ahkimn,Yukina-,https://subwaybuildermodded.com/credits,25,25,563,563,538,538,snapshot_2026_09_06.json,snapshot_2026_08_23.json
-175,map,yukina-nagasaki,長崎 (Nagasaki),ahkimn,Yukina-,https://subwaybuildermodded.com/credits,25,25,463,463,438,438,snapshot_2026_09_06.json,snapshot_2026_08_23.json
-176,map,nz-wellington,Wellington,subway-builder-modded-admin,Subway Builder Modded,https://subwaybuildermodded.com,25,25,169,169,144,144,snapshot_2026_09_06.json,snapshot_2026_08_23.json
-177,map,damascus,Damascus,pierreggt,pierreggt,https://github.com/pierreggt,25,25,86,86,61,61,snapshot_2026_09_06.json,snapshot_2026_08_23.json
-178,map,yukina-sk-poprad-spisska-nova-ves,Poprad - Spišská Nová Ves,ahkimn,Yukina-,https://subwaybuildermodded.com/credits,25,25,25,25,0,0,snapshot_2026_09_06.json,snapshot_2026_08_23.json
-179,map,busan-4,Busan (40km×40km),kimth9,kimth9,https://github.com/kimth9,24,24,1094,1094,1070,1070,snapshot_2026_09_06.json,snapshot_2026_08_23.json
-180,map,tampa-bay,Tampa Bay,rslurry,slurry,https://github.com/rslurry,24,24,1025,1025,1001,1001,snapshot_2026_09_06.json,snapshot_2026_08_23.json
-181,map,yukina-bydgoszcz-torun,Bydgoszcz - Toruń,ahkimn,Yukina-,https://subwaybuildermodded.com/credits,24,24,344,344,320,320,snapshot_2026_09_06.json,snapshot_2026_08_23.json
-182,map,metz-nancy,Metz - Nancy,pierreggt,pierreggt,https://github.com/pierreggt,24,24,27,27,3,3,snapshot_2026_09_06.json,snapshot_2026_08_23.json
-183,map,martinique,Martinique,pierreggt,pierreggt,https://github.com/pierreggt,24,24,26,26,2,2,snapshot_2026_09_06.json,snapshot_2026_08_23.json
-184,map,puerto-rico,Puerto Rico,rslurry,slurry,https://github.com/rslurry,23,23,759,759,736,736,snapshot_2026_09_06.json,snapshot_2026_08_23.json
-185,map,yukina-hakodate,函館 (Hakodate),ahkimn,Yukina-,https://subwaybuildermodded.com/credits,23,23,515,515,492,492,snapshot_2026_09_06.json,snapshot_2026_08_23.json
-186,map,yukina-niigata,新潟 (Niigata),ahkimn,Yukina-,https://subwaybuildermodded.com/credits,23,23,495,495,472,472,snapshot_2026_09_06.json,snapshot_2026_08_23.json
-187,map,au-perth,Perth,subway-builder-modded-admin,Subway Builder Modded,https://subwaybuildermodded.com,23,23,204,204,181,181,snapshot_2026_09_06.json,snapshot_2026_08_23.json
-188,map,amba,Buenos Aires,hernang87,hernang87,https://github.com/hernang87,23,23,142,142,119,119,snapshot_2026_09_06.json,snapshot_2026_08_23.json
-189,map,xiamen,Xiamen,Kronifer,Kronifer,https://github.com/Kronifer,23,23,69,69,46,46,snapshot_2026_09_06.json,snapshot_2026_08_23.json
-190,map,brest,Brest,pierreggt,pierreggt,https://github.com/pierreggt,23,23,25,25,2,2,snapshot_2026_09_06.json,snapshot_2026_08_23.json
-191,map,guadeloupe,Guadeloupe,pierreggt,pierreggt,https://github.com/pierreggt,23,23,25,25,2,2,snapshot_2026_09_06.json,snapshot_2026_08_23.json
-192,map,moenchengladbach,Mönchengladbach,pierreggt,pierreggt,https://github.com/pierreggt,23,23,23,23,0,0,snapshot_2026_09_06.json,snapshot_2026_08_23.json
-193,map,yukina-sk-zilina,Žilina,ahkimn,Yukina-,https://subwaybuildermodded.com/credits,23,23,23,23,0,0,snapshot_2026_09_06.json,snapshot_2026_08_23.json
-194,map,yukina-pl-lublin,Lublin,ahkimn,Yukina-,https://subwaybuildermodded.com/credits,22,22,221,221,199,199,snapshot_2026_09_06.json,snapshot_2026_08_23.json
-195,map,sevilla,Sevilla,Maximilian284,max02,https://github.com/Maximilian284,22,22,137,137,115,115,snapshot_2026_09_06.json,snapshot_2026_08_23.json
-196,mod,anysave,AnySave,BarKuperman,BarKuperman,https://github.com/BarKuperman,22,22,112,112,90,90,snapshot_2026_09_06.json,snapshot_2026_08_23.json
-197,map,tehran,Tehran,pierreggt,pierreggt,https://github.com/pierreggt,22,22,66,66,44,44,snapshot_2026_09_06.json,snapshot_2026_08_23.json
-198,map,jeddah-mecca,Jeddah & Mecca,pierreggt,pierreggt,https://github.com/pierreggt,22,22,41,41,19,19,snapshot_2026_09_06.json,snapshot_2026_08_23.json
-199,mod,la-metro-trainpack,LA Metro Trainpack,NoahGarrf,NoahGarrf,https://github.com/NoahGarrf,22,22,22,22,0,0,snapshot_2026_09_06.json,snapshot_2026_08_23.json
-200,map,yukina-kagoshima-kirishima,鹿児島 (Kagoshima),ahkimn,Yukina-,https://subwaybuildermodded.com/credits,21,21,406,406,385,385,snapshot_2026_09_06.json,snapshot_2026_08_23.json
-201,map,yukina-shizuoka-hamamatsu,静岡・浜松 (Shizuoka/Hamamatsu),ahkimn,Yukina-,https://subwaybuildermodded.com/credits,21,21,380,380,359,359,snapshot_2026_09_06.json,snapshot_2026_08_23.json
-202,map,nice-cote-d-azur,Nice,pierreggt,pierreggt,https://github.com/pierreggt,21,21,205,205,184,184,snapshot_2026_09_06.json,snapshot_2026_08_23.json
-203,map,ankara,Ankara,pierreggt,pierreggt,https://github.com/pierreggt,21,21,137,137,116,116,snapshot_2026_09_06.json,snapshot_2026_08_23.json
-204,map,yukina-ua-lviv,Львів / Lviv,ahkimn,Yukina-,https://subwaybuildermodded.com/credits,21,21,122,122,101,101,snapshot_2026_09_06.json,snapshot_2026_08_23.json
-205,map,angers,Angers,pierreggt,pierreggt,https://github.com/pierreggt,21,21,24,24,3,3,snapshot_2026_09_06.json,snapshot_2026_08_23.json
-206,map,edmonton,Edmonton,subway-builder-modded-admin,Subway Builder Modded,https://subwaybuildermodded.com,20,20,632,632,612,612,snapshot_2026_09_06.json,snapshot_2026_08_23.json
-207,map,naples,Naples,Maximilian284,max02,https://github.com/Maximilian284,20,20,440,440,420,420,snapshot_2026_09_06.json,snapshot_2026_08_23.json
-208,map,cape-town,Cape Town,worstboyinaustral1a,worstboyinaustral1a,https://github.com/worstboyinaustral1a,20,20,364,364,344,344,snapshot_2026_09_06.json,snapshot_2026_08_23.json
-209,map,yukina-ua-odesa,Одеса / Odesa,ahkimn,Yukina-,https://subwaybuildermodded.com/credits,20,20,124,124,104,104,snapshot_2026_09_06.json,snapshot_2026_08_23.json
-210,map,muscat,Muscat,pierreggt,pierreggt,https://github.com/pierreggt,20,20,31,31,11,11,snapshot_2026_09_06.json,snapshot_2026_08_23.json
-211,map,rouen,Rouen,pierreggt,pierreggt,https://github.com/pierreggt,20,20,23,23,3,3,snapshot_2026_09_06.json,snapshot_2026_08_23.json
-212,map,yukina-sk-trencin,Trenčín,ahkimn,Yukina-,https://subwaybuildermodded.com/credits,20,20,20,20,0,0,snapshot_2026_09_06.json,snapshot_2026_08_23.json
-213,map,palma-de-mallorca,Palma de Mallorca,Maximilian284,max02,https://github.com/Maximilian284,19,19,145,145,126,126,snapshot_2026_09_06.json,snapshot_2026_08_23.json
-214,map,riyadh,Riyadh,pierreggt,pierreggt,https://github.com/pierreggt,19,19,50,50,31,31,snapshot_2026_09_06.json,snapshot_2026_08_23.json
-215,map,alexandria,Alexandria,pierreggt,pierreggt,https://github.com/pierreggt,19,19,43,43,24,24,snapshot_2026_09_06.json,snapshot_2026_08_23.json
-216,map,reunion,La Réunion,pierreggt,pierreggt,https://github.com/pierreggt,19,19,43,43,24,24,snapshot_2026_09_06.json,snapshot_2026_08_23.json
-217,map,orleans,Orléans,pierreggt,pierreggt,https://github.com/pierreggt,19,19,21,21,2,2,snapshot_2026_09_06.json,snapshot_2026_08_23.json
-218,map,tours,Tours,pierreggt,pierreggt,https://github.com/pierreggt,19,19,21,21,2,2,snapshot_2026_09_06.json,snapshot_2026_08_23.json
-219,map,rhode-island,Rhode Island,rslurry,slurry,https://github.com/rslurry,18,18,462,462,444,444,snapshot_2026_09_06.json,snapshot_2026_08_23.json
-220,map,yukina-tw-hsinchu,新竹 (Hsinchu),ahkimn,Yukina-,https://subwaybuildermodded.com/credits,18,18,308,308,290,290,snapshot_2026_09_06.json,snapshot_2026_08_23.json
-221,map,turin,Turin,Maximilian284,max02,https://github.com/Maximilian284,18,18,300,300,282,282,snapshot_2026_09_06.json,snapshot_2026_08_23.json
-222,map,nz-christchurch,Christchurch,subway-builder-modded-admin,Subway Builder Modded,https://subwaybuildermodded.com,18,18,126,126,108,108,snapshot_2026_09_06.json,snapshot_2026_08_23.json
-223,map,antalya,Antalya,pierreggt,pierreggt,https://github.com/pierreggt,18,18,89,89,71,71,snapshot_2026_09_06.json,snapshot_2026_08_23.json
-224,map,caen,Caen,pierreggt,pierreggt,https://github.com/pierreggt,18,18,21,21,3,3,snapshot_2026_09_06.json,snapshot_2026_08_23.json
-225,map,mfn-hamptonroads,Norfolk,crumpetime,muffintime,https://github.com/crumpetime,17,17,316,316,299,299,snapshot_2026_09_06.json,snapshot_2026_08_23.json
-226,map,yukina-okayama,岡山 (Okayama),ahkimn,Yukina-,https://subwaybuildermodded.com/credits,17,17,302,302,285,285,snapshot_2026_09_06.json,snapshot_2026_08_23.json
-227,map,yukina-tw-chiayi,嘉義 (Chiayi),ahkimn,Yukina-,https://subwaybuildermodded.com/credits,17,17,239,239,222,222,snapshot_2026_09_06.json,snapshot_2026_08_23.json
-228,map,guyane,Guyane,pierreggt,pierreggt,https://github.com/pierreggt,17,17,19,19,2,2,snapshot_2026_09_06.json,snapshot_2026_08_23.json
-229,map,le-mans,Le Mans,pierreggt,pierreggt,https://github.com/pierreggt,17,17,19,19,2,2,snapshot_2026_09_06.json,snapshot_2026_08_23.json
-230,map,pau,Pau,pierreggt,pierreggt,https://github.com/pierreggt,17,17,19,19,2,2,snapshot_2026_09_06.json,snapshot_2026_08_23.json
-231,map,reims,Reims,pierreggt,pierreggt,https://github.com/pierreggt,17,17,19,19,2,2,snapshot_2026_09_06.json,snapshot_2026_08_23.json
-232,map,seoul-3,Seoul (30km×30km),kimth9,kimth9,https://github.com/kimth9,16,16,1297,1297,1281,1281,snapshot_2026_09_06.json,snapshot_2026_08_23.json
-233,mod,cinematic-camera,Cinematic Camera,TransitCore,TransitCore,https://github.com/TransitCore,16,16,617,617,601,601,snapshot_2026_09_06.json,snapshot_2026_08_23.json
-234,map,orlando,Orlando,rslurry,slurry,https://github.com/rslurry,16,16,539,539,523,523,snapshot_2026_09_06.json,snapshot_2026_08_23.json
-235,mod,chinese-trains,Chinese Trains,kaicardenas0618,kaicardenas0618,https://github.com/kaicardenas0618,16,16,513,513,497,497,snapshot_2026_09_06.json,snapshot_2026_08_23.json
-236,map,winnipeg,Winnipeg,subway-builder-modded-admin,Subway Builder Modded,https://subwaybuildermodded.com,16,16,502,502,486,486,snapshot_2026_09_06.json,snapshot_2026_08_23.json
-237,map,yukina-toyama,富山 (Toyama),ahkimn,Yukina-,https://subwaybuildermodded.com/credits,16,16,398,398,382,382,snapshot_2026_09_06.json,snapshot_2026_08_23.json
-238,map,rochester,Rochester,rslurry,slurry,https://github.com/rslurry,16,16,246,246,230,230,snapshot_2026_09_06.json,snapshot_2026_08_23.json
-239,map,yukina-pl-bialystok,Białystok,ahkimn,Yukina-,https://subwaybuildermodded.com/credits,16,16,198,198,182,182,snapshot_2026_09_06.json,snapshot_2026_08_23.json
-240,map,yukina-ee-parnu,Pärnu,ahkimn,Yukina-,https://subwaybuildermodded.com/credits,16,16,195,195,179,179,snapshot_2026_09_06.json,snapshot_2026_08_23.json
-241,map,yukina-ee-tartu,Tartu,ahkimn,Yukina-,https://subwaybuildermodded.com/credits,16,16,158,158,142,142,snapshot_2026_09_06.json,snapshot_2026_08_23.json
-242,map,mississippi,Mississippi,JayToTheAy,JayToTheAy,https://github.com/JayToTheAy,16,16,144,144,128,128,snapshot_2026_09_06.json,snapshot_2026_08_23.json
-243,map,besancon,Besançon,pierreggt,pierreggt,https://github.com/pierreggt,16,16,19,19,3,3,snapshot_2026_09_06.json,snapshot_2026_08_23.json
-244,map,calais-dunkerque,Calais - Dunkerque,pierreggt,pierreggt,https://github.com/pierreggt,16,16,19,19,3,3,snapshot_2026_09_06.json,snapshot_2026_08_23.json
-245,map,dijon,Dijon,pierreggt,pierreggt,https://github.com/pierreggt,16,16,18,18,2,2,snapshot_2026_09_06.json,snapshot_2026_08_23.json
-246,map,le-havre,Le Havre,pierreggt,pierreggt,https://github.com/pierreggt,16,16,18,18,2,2,snapshot_2026_09_06.json,snapshot_2026_08_23.json
-247,map,limoges,Limoges,pierreggt,pierreggt,https://github.com/pierreggt,16,16,18,18,2,2,snapshot_2026_09_06.json,snapshot_2026_08_23.json
-248,map,south-florida,South Florida,kaicardenas0618,kaicardenas0618,https://github.com/kaicardenas0618,15,15,443,443,428,428,snapshot_2026_09_06.json,snapshot_2026_08_23.json
-249,map,oklahoma-city,Oklahoma City,ryandicicco,ryandicicco,https://github.com/ryandicicco,15,15,353,353,338,338,snapshot_2026_09_06.json,snapshot_2026_08_23.json
-250,map,bergen-stavanger-no,Bergen-Stavanger,rslurry,slurry,https://github.com/rslurry,15,15,280,280,265,265,snapshot_2026_09_06.json,snapshot_2026_08_23.json
-251,map,yukina-lv-daugavpils,Daugavpils,ahkimn,Yukina-,https://subwaybuildermodded.com/credits,15,15,161,161,146,146,snapshot_2026_09_06.json,snapshot_2026_08_23.json
-252,map,kuwait-city,Kuwait City,pierreggt,pierreggt,https://github.com/pierreggt,15,15,29,29,14,14,snapshot_2026_09_06.json,snapshot_2026_08_23.json
-253,map,amiens,Amiens,pierreggt,pierreggt,https://github.com/pierreggt,15,15,18,18,3,3,snapshot_2026_09_06.json,snapshot_2026_08_23.json
-254,map,la-rochelle,La Rochelle,pierreggt,pierreggt,https://github.com/pierreggt,15,15,18,18,3,3,snapshot_2026_09_06.json,snapshot_2026_08_23.json
-255,map,cairo,Cairo,ryandicicco,ryandicicco,https://github.com/ryandicicco,14,14,474,474,460,460,snapshot_2026_09_06.json,snapshot_2026_08_23.json
-256,map,mfn-madisonwi,Madison,crumpetime,muffintime,https://github.com/crumpetime,14,14,362,362,348,348,snapshot_2026_09_06.json,snapshot_2026_08_23.json
-257,map,daytonatti,Daytonatti,soccerjonj,soccerjonj,https://github.com/soccerjonj,14,14,356,356,342,342,snapshot_2026_09_06.json,snapshot_2026_08_23.json
-258,map,yukina-tsugaru,津軽 (Tsugaru),ahkimn,Yukina-,https://subwaybuildermodded.com/credits,14,14,308,308,294,294,snapshot_2026_09_06.json,snapshot_2026_08_23.json
-259,map,yukina-kumamoto,熊本 (Kumamoto),ahkimn,Yukina-,https://subwaybuildermodded.com/credits,14,14,289,289,275,275,snapshot_2026_09_06.json,snapshot_2026_08_23.json
-260,map,florence,Florence,Maximilian284,max02,https://github.com/Maximilian284,14,14,287,287,273,273,snapshot_2026_09_06.json,snapshot_2026_08_23.json
-261,map,jerusalem,Jerusalem,BarKuperman,BarKuperman,https://github.com/BarKuperman,14,14,276,276,262,262,snapshot_2026_09_06.json,snapshot_2026_08_23.json
-262,map,providence,Providence,soccerjonj,soccerjonj,https://github.com/soccerjonj,14,14,240,240,226,226,snapshot_2026_09_06.json,snapshot_2026_08_23.json
-263,map,sacramento,Sacramento,soccerjonj,soccerjonj,https://github.com/soccerjonj,14,14,235,235,221,221,snapshot_2026_09_06.json,snapshot_2026_08_23.json
-264,map,anchorage-ak,Anchorage,PSWBSF,Potato Spaghetti Water Balloon Space Federation,https://youtu.be/dQw4w9WgXcQ?t=0,14,14,230,230,216,216,snapshot_2026_09_06.json,snapshot_2026_08_23.json
-265,map,albany,Albany,soccerjonj,soccerjonj,https://github.com/soccerjonj,14,14,229,229,215,215,snapshot_2026_09_06.json,snapshot_2026_08_23.json
-266,map,nashville,Nashville,soccerjonj,soccerjonj,https://github.com/soccerjonj,14,14,226,226,212,212,snapshot_2026_09_06.json,snapshot_2026_08_23.json
-267,map,connecticut-usa,Connecticut,PSWBSF,Potato Spaghetti Water Balloon Space Federation,https://youtu.be/dQw4w9WgXcQ?t=0,14,14,189,189,175,175,snapshot_2026_09_06.json,snapshot_2026_08_23.json
-268,map,buffalo-ny,Buffalo,PSWBSF,Potato Spaghetti Water Balloon Space Federation,https://youtu.be/dQw4w9WgXcQ?t=0,14,14,187,187,173,173,snapshot_2026_09_06.json,snapshot_2026_08_23.json
-269,map,colorado-ski-country,Colorado Ski Country,soccerjonj,soccerjonj,https://github.com/soccerjonj,14,14,187,187,173,173,snapshot_2026_09_06.json,snapshot_2026_08_23.json
-270,map,louisville,Louisville,soccerjonj,soccerjonj,https://github.com/soccerjonj,14,14,182,182,168,168,snapshot_2026_09_06.json,snapshot_2026_08_23.json
-271,map,mfn-northwestar,Northwest Arkansas,crumpetime,muffintime,https://github.com/crumpetime,14,14,157,157,143,143,snapshot_2026_09_06.json,snapshot_2026_08_23.json
-272,map,willamette-valley,"Willamette Valley, OR",Phineapoo,Phineapoo,https://github.com/Phineapoo,14,14,154,154,140,140,snapshot_2026_09_06.json,snapshot_2026_08_23.json
-273,map,piedmont-triad,Piedmont Triad,PSWBSF,Potato Spaghetti Water Balloon Space Federation,https://youtu.be/dQw4w9WgXcQ?t=0,14,14,150,150,136,136,snapshot_2026_09_06.json,snapshot_2026_08_23.json
-274,map,charleston-sc,"Charleston, SC",PSWBSF,Potato Spaghetti Water Balloon Space Federation,https://youtu.be/dQw4w9WgXcQ?t=0,14,14,149,149,135,135,snapshot_2026_09_06.json,snapshot_2026_08_23.json
-275,map,mfn-rdu,Raleigh,crumpetime,muffintime,https://github.com/crumpetime,14,14,140,140,126,126,snapshot_2026_09_06.json,snapshot_2026_08_23.json
-276,map,wilmington-nc,"Wilmington, NC",PSWBSF,Potato Spaghetti Water Balloon Space Federation,https://youtu.be/dQw4w9WgXcQ?t=0,14,14,136,136,122,122,snapshot_2026_09_06.json,snapshot_2026_08_23.json
-277,mod,hide-and-seek,Hide+Seek: The Mod [beta],nzh0172,naz,https://github.com/nzh0172,14,14,134,134,120,120,snapshot_2026_09_06.json,snapshot_2026_08_23.json
-278,map,dayton-oh,Dayton,PSWBSF,Potato Spaghetti Water Balloon Space Federation,https://youtu.be/dQw4w9WgXcQ?t=0,14,14,117,117,103,103,snapshot_2026_09_06.json,snapshot_2026_08_23.json
-279,map,pulau-pinang,Pulau Pinang,nzh0172,naz,https://github.com/nzh0172,14,14,114,114,100,100,snapshot_2026_09_06.json,snapshot_2026_08_23.json
-280,map,syracuse-ny,"Syracuse, NY",PSWBSF,Potato Spaghetti Water Balloon Space Federation,https://youtu.be/dQw4w9WgXcQ?t=0,14,14,102,102,88,88,snapshot_2026_09_06.json,snapshot_2026_08_23.json
-281,map,toledo-oh,Toledo,bean1322,bean1322,https://github.com/bean1322,14,14,89,89,75,75,snapshot_2026_09_06.json,snapshot_2026_08_23.json
-282,map,akron-oh,"Akron, OH",bean1322,bean1322,https://github.com/bean1322,14,14,88,88,74,74,snapshot_2026_09_06.json,snapshot_2026_08_23.json
-283,map,johor-bahru,Johor Bahru,nzh0172,naz,https://github.com/nzh0172,14,14,81,81,67,67,snapshot_2026_09_06.json,snapshot_2026_08_23.json
-284,map,aleppo,Aleppo,pierreggt,pierreggt,https://github.com/pierreggt,14,14,25,25,11,11,snapshot_2026_09_06.json,snapshot_2026_08_23.json
-285,map,yukina-matsuyama,松山 (Matsuyama),ahkimn,Yukina-,https://subwaybuildermodded.com/credits,13,13,432,432,419,419,snapshot_2026_09_06.json,snapshot_2026_08_23.json
-286,map,yukina-yamagata,山形 (Yamagata),ahkimn,Yukina-,https://subwaybuildermodded.com/credits,13,13,394,394,381,381,snapshot_2026_09_06.json,snapshot_2026_08_23.json
-287,map,yukina-nakadoori,中通り (Nakadōri),ahkimn,Yukina-,https://subwaybuildermodded.com/credits,13,13,305,305,292,292,snapshot_2026_09_06.json,snapshot_2026_08_23.json
-288,map,bordeaux-arcachon-libourne,Bordeaux,pierreggt,pierreggt,https://github.com/pierreggt,13,13,224,224,211,211,snapshot_2026_09_06.json,snapshot_2026_08_23.json
-289,map,yukina-pl-kielce,Kielce,ahkimn,Yukina-,https://subwaybuildermodded.com/credits,13,13,151,151,138,138,snapshot_2026_09_06.json,snapshot_2026_08_23.json
-290,map,yukina-ua-dnipro,Дніпро / Dnipro,ahkimn,Yukina-,https://subwaybuildermodded.com/credits,13,13,104,104,91,91,snapshot_2026_09_06.json,snapshot_2026_08_23.json
-291,map,yukina-fuji-numazu,富士・沼津 (Fuji & Numazu),ahkimn,Yukina-,https://subwaybuildermodded.com/credits,13,13,103,103,90,90,snapshot_2026_09_06.json,snapshot_2026_08_23.json
-292,map,alicante,Alicante,Maximilian284,max02,https://github.com/Maximilian284,13,13,91,91,78,78,snapshot_2026_09_06.json,snapshot_2026_08_23.json
-293,map,troyes,Troyes,pierreggt,pierreggt,https://github.com/pierreggt,13,13,15,15,2,2,snapshot_2026_09_06.json,snapshot_2026_08_23.json
-294,map,monterrey,Monterrey,rslurry,slurry,https://github.com/rslurry,12,12,812,812,800,800,snapshot_2026_09_06.json,snapshot_2026_08_23.json
-295,mod,kr-ktp,Korean Transit Pack,kimth9,kimth9,https://github.com/kimth9,12,12,430,430,418,418,snapshot_2026_09_06.json,snapshot_2026_08_23.json
-296,map,yukina-kochi,高知 (Kōchi),ahkimn,Yukina-,https://subwaybuildermodded.com/credits,12,12,402,402,390,390,snapshot_2026_09_06.json,snapshot_2026_08_23.json
-297,map,san-antonio,San Antonio,rslurry,slurry,https://github.com/rslurry,12,12,322,322,310,310,snapshot_2026_09_06.json,snapshot_2026_08_23.json
-298,map,yukina-asahikawa,旭川 (Asahikawa),ahkimn,Yukina-,https://subwaybuildermodded.com/credits,12,12,322,322,310,310,snapshot_2026_09_06.json,snapshot_2026_08_23.json
-299,map,yukina-nakaumi,中海 (Nakaumi),ahkimn,Yukina-,https://subwaybuildermodded.com/credits,12,12,306,306,294,294,snapshot_2026_09_06.json,snapshot_2026_08_23.json
-300,map,pianura-veneta,Pianura Veneta,Maximilian284,max02,https://github.com/Maximilian284,12,12,246,246,234,234,snapshot_2026_09_06.json,snapshot_2026_08_23.json
-301,map,santa-barbara,Santa Barbara,rslurry,slurry,https://github.com/rslurry,12,12,242,242,230,230,snapshot_2026_09_06.json,snapshot_2026_08_23.json
-302,map,tromso-no,Tromsø,rslurry,slurry,https://github.com/rslurry,12,12,218,218,206,206,snapshot_2026_09_06.json,snapshot_2026_08_23.json
-303,map,yukina-pl-central-pomerania,Pomorze Środkowe,ahkimn,Yukina-,https://subwaybuildermodded.com/credits,12,12,104,104,92,92,snapshot_2026_09_06.json,snapshot_2026_08_23.json
-304,map,greater-portland,Greater Portland,rslurry,slurry,https://github.com/rslurry,11,11,285,285,274,274,snapshot_2026_09_06.json,snapshot_2026_08_23.json
-305,map,spokane,Spokane,ryandicicco,ryandicicco,https://github.com/ryandicicco,11,11,256,256,245,245,snapshot_2026_09_06.json,snapshot_2026_08_23.json
-306,map,yukina-morioka,盛岡 (Morioka),ahkimn,Yukina-,https://subwaybuildermodded.com/credits,11,11,236,236,225,225,snapshot_2026_09_06.json,snapshot_2026_08_23.json
-307,map,yukina-ee-ida-viru,Ida-Viru,ahkimn,Yukina-,https://subwaybuildermodded.com/credits,11,11,138,138,127,127,snapshot_2026_09_06.json,snapshot_2026_08_23.json
-308,map,yukina-pl-olsztyn,Olsztyn,ahkimn,Yukina-,https://subwaybuildermodded.com/credits,11,11,122,122,111,111,snapshot_2026_09_06.json,snapshot_2026_08_23.json
-309,map,yukina-ua-kharkiv,Харків / Kharkiv,ahkimn,Yukina-,https://subwaybuildermodded.com/credits,11,11,117,117,106,106,snapshot_2026_09_06.json,snapshot_2026_08_23.json
-310,map,yukina-kanazawa,金沢 (Kanazawa),ahkimn,Yukina-,https://subwaybuildermodded.com/credits,11,11,89,89,78,78,snapshot_2026_09_06.json,snapshot_2026_08_23.json
-311,map,glasgow-edinburgh,Glasgow-Edinburgh,Kronifer,Kronifer,https://github.com/Kronifer,10,10,1036,1036,1026,1026,snapshot_2026_09_06.json,snapshot_2026_08_23.json
-312,map,yukina-takamatsu,高松 (Takamatsu),ahkimn,Yukina-,https://subwaybuildermodded.com/credits,10,10,295,295,285,285,snapshot_2026_09_06.json,snapshot_2026_08_23.json
-313,mod,copy-paste,Copy Paste,seanyushoumori,seanyushoumori,https://github.com/seanyushoumori,10,10,198,198,188,188,snapshot_2026_09_06.json,snapshot_2026_08_23.json
-314,map,yukina-pl-rzeszow,Rzeszów,ahkimn,Yukina-,https://subwaybuildermodded.com/credits,10,10,160,160,150,150,snapshot_2026_09_06.json,snapshot_2026_08_23.json
-315,map,yukina-pl-zielona-gora,Zielona Góra,ahkimn,Yukina-,https://subwaybuildermodded.com/credits,10,10,112,112,102,102,snapshot_2026_09_06.json,snapshot_2026_08_23.json
-316,map,yukina-pl-opole,Opole,ahkimn,Yukina-,https://subwaybuildermodded.com/credits,10,10,107,107,97,97,snapshot_2026_09_06.json,snapshot_2026_08_23.json
-317,map,yukina-pl-radom,Radom,ahkimn,Yukina-,https://subwaybuildermodded.com/credits,10,10,107,107,97,97,snapshot_2026_09_06.json,snapshot_2026_08_23.json
-318,map,yukina-ua-zaporizhzhia,Запоріжжя / Zaporizhzhia,ahkimn,Yukina-,https://subwaybuildermodded.com/credits,10,10,58,58,48,48,snapshot_2026_09_06.json,snapshot_2026_08_23.json
-319,map,springfield-il,"Springfield, IL",NerdieSanders,NerdieSanders,https://github.com/NerdieSanders,10,10,47,47,37,37,snapshot_2026_09_06.json,snapshot_2026_08_23.json
-320,map,erbil,Erbil,pierreggt,pierreggt,https://github.com/pierreggt,10,10,21,21,11,11,snapshot_2026_09_06.json,snapshot_2026_08_23.json
-321,map,mosul,Mosul,pierreggt,pierreggt,https://github.com/pierreggt,10,10,19,19,9,9,snapshot_2026_09_06.json,snapshot_2026_08_23.json
-322,map,guadalajara,Guadalajara,rslurry,slurry,https://github.com/rslurry,9,9,717,717,708,708,snapshot_2026_09_06.json,snapshot_2026_08_23.json
-323,map,busan-3,Busan (30km×30km),kimth9,kimth9,https://github.com/kimth9,9,9,489,489,480,480,snapshot_2026_09_06.json,snapshot_2026_08_23.json
-324,map,greatertwincities,Greater Twin Cities,DanielD1909,DanielD1909,https://github.com/DanielD1909,9,9,489,489,480,480,snapshot_2026_09_06.json,snapshot_2026_08_23.json
-325,map,san-juan,San Juan,rslurry,slurry,https://github.com/rslurry,9,9,314,314,305,305,snapshot_2026_09_06.json,snapshot_2026_08_23.json
-326,map,jacksonville,Jacksonville,rslurry,slurry,https://github.com/rslurry,9,9,274,274,265,265,snapshot_2026_09_06.json,snapshot_2026_08_23.json
-327,map,yukina-tottori,鳥取 (Tottori),ahkimn,Yukina-,https://subwaybuildermodded.com/credits,9,9,221,221,212,212,snapshot_2026_09_06.json,snapshot_2026_08_23.json
-328,map,tri-cities,Tri-Cities,ryandicicco,ryandicicco,https://github.com/ryandicicco,9,9,198,198,189,189,snapshot_2026_09_06.json,snapshot_2026_08_23.json
-329,map,trondheim-no,Trondheim,rslurry,slurry,https://github.com/rslurry,9,9,185,185,176,176,snapshot_2026_09_06.json,snapshot_2026_08_23.json
-330,map,yukina-pl-czestochowa,Częstochowa,ahkimn,Yukina-,https://subwaybuildermodded.com/credits,9,9,106,106,97,97,snapshot_2026_09_06.json,snapshot_2026_08_23.json
-331,map,yukina-akita,秋田 (Akita),ahkimn,Yukina-,https://subwaybuildermodded.com/credits,9,9,86,86,77,77,snapshot_2026_09_06.json,snapshot_2026_08_23.json
-332,map,yukina-maebashi,前橋 (Maebashi),ahkimn,Yukina-,https://subwaybuildermodded.com/credits,9,9,84,84,75,75,snapshot_2026_09_06.json,snapshot_2026_08_23.json
-333,map,tijuana-san-diego,Tijuana-San Diego,rslurry,slurry,https://github.com/rslurry,8,8,435,435,427,427,snapshot_2026_09_06.json,snapshot_2026_08_23.json
-334,map,greater-baltimore,Greater Baltimore,rslurry,slurry,https://github.com/rslurry,8,8,224,224,216,216,snapshot_2026_09_06.json,snapshot_2026_08_23.json
-335,map,palermo,Palermo,Maximilian284,max02,https://github.com/Maximilian284,8,8,170,170,162,162,snapshot_2026_09_06.json,snapshot_2026_08_23.json
-336,map,yukina-lv-liepaja,Liepāja,ahkimn,Yukina-,https://subwaybuildermodded.com/credits,8,8,130,130,122,122,snapshot_2026_09_06.json,snapshot_2026_08_23.json
-337,map,yukina-pl-plock-wloclawek,Płock - Włocławek,ahkimn,Yukina-,https://subwaybuildermodded.com/credits,8,8,85,85,77,77,snapshot_2026_09_06.json,snapshot_2026_08_23.json
-338,map,yukina-oita,大分 (Ōita),ahkimn,Yukina-,https://subwaybuildermodded.com/credits,8,8,67,67,59,59,snapshot_2026_09_06.json,snapshot_2026_08_23.json
-339,map,yukina-ua-kryvyi-rih,Кривий Ріг / Kryvyi Rih,ahkimn,Yukina-,https://subwaybuildermodded.com/credits,8,8,64,64,56,56,snapshot_2026_09_06.json,snapshot_2026_08_23.json
-340,map,yukina-tw-hualien-taitung,花蓮・臺東 (Hualien & Taitung),ahkimn,Yukina-,https://subwaybuildermodded.com/credits,8,8,63,63,55,55,snapshot_2026_09_06.json,snapshot_2026_08_23.json
-341,map,incheon-4,Incheon (40km×40km),kimth9,kimth9,https://github.com/kimth9,7,7,781,781,774,774,snapshot_2026_09_06.json,snapshot_2026_08_23.json
-342,map,genoa,Genoa,Maximilian284,max02,https://github.com/Maximilian284,7,7,260,260,253,253,snapshot_2026_09_06.json,snapshot_2026_08_23.json
-343,map,bologna,Bologna,Maximilian284,max02,https://github.com/Maximilian284,7,7,214,214,207,207,snapshot_2026_09_06.json,snapshot_2026_08_23.json
-344,mod,tathan-casino,TATHAN Casino,TathanDev,TathanDev,https://github.com/TathanDev,7,7,212,212,205,205,snapshot_2026_09_06.json,snapshot_2026_08_23.json
-345,map,yukina-utsunomiya,宇都宮 (Utsunomiya),ahkimn,Yukina-,https://subwaybuildermodded.com/credits,7,7,78,78,71,71,snapshot_2026_09_06.json,snapshot_2026_08_23.json
-346,map,mfn-rsw,Fort Myers,crumpetime,muffintime,https://github.com/crumpetime,7,7,73,73,66,66,snapshot_2026_09_06.json,snapshot_2026_08_23.json
-347,map,yukina-fukui,福井 (Fukui),ahkimn,Yukina-,https://subwaybuildermodded.com/credits,7,7,72,72,65,65,snapshot_2026_09_06.json,snapshot_2026_08_23.json
-348,map,yukina-matsumoto,松本 (Matsumoto),ahkimn,Yukina-,https://subwaybuildermodded.com/credits,7,7,70,70,63,63,snapshot_2026_09_06.json,snapshot_2026_08_23.json
-349,map,yukina-fukuyama,福山 (Fukuyama),ahkimn,Yukina-,https://subwaybuildermodded.com/credits,7,7,69,69,62,62,snapshot_2026_09_06.json,snapshot_2026_08_23.json
-350,map,yukina-hachinohe,八戸 (Hachinohe),ahkimn,Yukina-,https://subwaybuildermodded.com/credits,7,7,66,66,59,59,snapshot_2026_09_06.json,snapshot_2026_08_23.json
-351,map,shiraz,Shiraz,pierreggt,pierreggt,https://github.com/pierreggt,7,7,14,14,7,7,snapshot_2026_09_06.json,snapshot_2026_08_23.json
-352,map,bangkok,Bangkok,nzh0172,naz,https://github.com/nzh0172,6,6,382,382,376,376,snapshot_2026_09_06.json,snapshot_2026_08_23.json
-353,map,cdmx-core,CDMX Core,rslurry,slurry,https://github.com/rslurry,6,6,308,308,302,302,snapshot_2026_09_06.json,snapshot_2026_08_23.json
-354,map,garda-lake,Garda Lake,Maximilian284,max02,https://github.com/Maximilian284,6,6,182,182,176,176,snapshot_2026_09_06.json,snapshot_2026_08_23.json
-355,map,catania,Catania,Maximilian284,max02,https://github.com/Maximilian284,6,6,174,174,168,168,snapshot_2026_09_06.json,snapshot_2026_08_23.json
-356,map,saltillo,Saltillo,rslurry,slurry,https://github.com/rslurry,6,6,163,163,157,157,snapshot_2026_09_06.json,snapshot_2026_08_23.json
-357,map,yukina-pl-legnica,Legnica - LGOM,ahkimn,Yukina-,https://subwaybuildermodded.com/credits,6,6,90,90,84,84,snapshot_2026_09_06.json,snapshot_2026_08_23.json
-358,map,yukina-nagano,長野 (Nagano),ahkimn,Yukina-,https://subwaybuildermodded.com/credits,6,6,77,77,71,71,snapshot_2026_09_06.json,snapshot_2026_08_23.json
-359,map,yukina-tokushima,徳島 (Tokushima),ahkimn,Yukina-,https://subwaybuildermodded.com/credits,6,6,70,70,64,64,snapshot_2026_09_06.json,snapshot_2026_08_23.json
-360,map,yukina-yamaguchi,山口 (Yamaguchi),ahkimn,Yukina-,https://subwaybuildermodded.com/credits,6,6,67,67,61,61,snapshot_2026_09_06.json,snapshot_2026_08_23.json
-361,map,yukina-kofu,甲府 (Kōfu),ahkimn,Yukina-,https://subwaybuildermodded.com/credits,6,6,66,66,60,60,snapshot_2026_09_06.json,snapshot_2026_08_23.json
-362,map,yukina-tw-yilan,宜蘭 (Yilan),ahkimn,Yukina-,https://subwaybuildermodded.com/credits,6,6,58,58,52,52,snapshot_2026_09_06.json,snapshot_2026_08_23.json
-363,map,los-angeles-county,Los Angeles County,rslurry,slurry,https://github.com/rslurry,5,5,1433,1433,1428,1428,snapshot_2026_09_06.json,snapshot_2026_08_23.json
-364,map,richmond,Richmond,rslurry,slurry,https://github.com/rslurry,5,5,293,293,288,288,snapshot_2026_09_06.json,snapshot_2026_08_23.json
-365,map,puebla,Puebla,rslurry,slurry,https://github.com/rslurry,5,5,262,262,257,257,snapshot_2026_09_06.json,snapshot_2026_08_23.json
-366,map,memphis,Memphis,rslurry,slurry,https://github.com/rslurry,5,5,251,251,246,246,snapshot_2026_09_06.json,snapshot_2026_08_23.json
-367,map,ciudad-juarez-el-paso,Ciudad Juárez-El Paso,rslurry,slurry,https://github.com/rslurry,5,5,241,241,236,236,snapshot_2026_09_06.json,snapshot_2026_08_23.json
-368,map,bari,Bari,Maximilian284,max02,https://github.com/Maximilian284,5,5,188,188,183,183,snapshot_2026_09_06.json,snapshot_2026_08_23.json
-369,map,yukina-mito-hitachi,水戸・日立 (Mito & Hitachi),ahkimn,Yukina-,https://subwaybuildermodded.com/credits,5,5,68,68,63,63,snapshot_2026_09_06.json,snapshot_2026_08_23.json
-370,map,yukina-wakayama,和歌山 (Wakayama),ahkimn,Yukina-,https://subwaybuildermodded.com/credits,5,5,68,68,63,63,snapshot_2026_09_06.json,snapshot_2026_08_23.json
-371,map,yukina-miyazaki,宮崎 (Miyazaki),ahkimn,Yukina-,https://subwaybuildermodded.com/credits,5,5,66,66,61,61,snapshot_2026_09_06.json,snapshot_2026_08_23.json
-372,map,mashhad,Mashhad,pierreggt,pierreggt,https://github.com/pierreggt,5,5,18,18,13,13,snapshot_2026_09_06.json,snapshot_2026_08_23.json
-373,map,orange-county,Orange County,rslurry,slurry,https://github.com/rslurry,4,4,222,222,218,218,snapshot_2026_09_06.json,snapshot_2026_08_23.json
-374,map,riviera-romagnola,Riviera Romagnola,Maximilian284,max02,https://github.com/Maximilian284,4,4,101,101,97,97,snapshot_2026_09_06.json,snapshot_2026_08_23.json
-375,map,kristiansand-no,Kristiansand,rslurry,slurry,https://github.com/rslurry,4,4,82,82,78,78,snapshot_2026_09_06.json,snapshot_2026_08_23.json
-376,mod,pause-on-start,Pause On Start,rslurry,slurry,https://github.com/rslurry,3,3,225,225,222,222,snapshot_2026_09_06.json,snapshot_2026_08_23.json
-377,map,pianura-emiliana,Pianura Emiliana,Maximilian284,max02,https://github.com/Maximilian284,3,3,111,111,108,108,snapshot_2026_09_06.json,snapshot_2026_08_23.json
-378,map,greater-newyork,Greater NYC,chasemanning040911-afk,lechicken,https://github.com/chasemanning040911-afk,2,2,379,379,377,377,snapshot_2026_09_06.json,snapshot_2026_08_23.json
-379,map,bucharest-medium,Bucharest,metatablestudios,metatablestudios,https://github.com/metatablestudios,2,2,313,313,311,311,snapshot_2026_09_06.json,snapshot_2026_08_23.json
-380,map,pyongyang-nk,Pyongyang,PSWBSF,Potato Spaghetti Water Balloon Space Federation,https://youtu.be/dQw4w9WgXcQ?t=0,2,2,158,158,156,156,snapshot_2026_09_06.json,snapshot_2026_08_23.json
-381,map,knoxville,Knoxville,rslurry,slurry,https://github.com/rslurry,2,2,136,136,134,134,snapshot_2026_09_06.json,snapshot_2026_08_23.json
-382,map,mexicali,Mexicali-Imperial Valley-Yuma,rslurry,slurry,https://github.com/rslurry,2,2,108,108,106,106,snapshot_2026_09_06.json,snapshot_2026_08_23.json
-383,map,ipoh,Ipoh,nzh0172,naz,https://github.com/nzh0172,2,2,27,27,25,25,snapshot_2026_09_06.json,snapshot_2026_08_23.json
-384,map,incheon-3,Incheon (30km×30km),kimth9,kimth9,https://github.com/kimth9,1,1,233,233,232,232,snapshot_2026_09_06.json,snapshot_2026_08_23.json
-385,map,trondheim-val,Trondheim,Valdotorium,Valdotorium,https://github.com/Valdotorium,1,1,210,210,209,209,snapshot_2026_09_06.json,snapshot_2026_08_23.json
-386,map,daejeon-3,Daejeon (30km×30km),kimth9,kimth9,https://github.com/kimth9,1,1,84,84,83,83,snapshot_2026_09_06.json,snapshot_2026_08_23.json
-387,map,daejeon-4,Daejeon (40km×40km),kimth9,kimth9,https://github.com/kimth9,1,1,82,82,81,81,snapshot_2026_09_06.json,snapshot_2026_08_23.json
-388,mod,advanced-analytics,Advanced Analytics,stefanorigano,Steno,https://github.com/stefanorigano,0,0,14278,14278,14278,14278,snapshot_2026_09_06.json,snapshot_2026_08_23.json
-389,mod,danield1909-dantrains,"danTrains (v1.* ""Phoenix"")",DanielD1909,DanielD1909,https://github.com/DanielD1909,0,0,2433,2433,2433,2433,snapshot_2026_09_06.json,snapshot_2026_08_23.json
-390,mod,imb11-moveit,Move It!,IMB11,IMB11,https://github.com/IMB11,0,0,1255,1255,1255,1255,snapshot_2026_09_06.json,snapshot_2026_08_23.json
-391,map,dublin,Dublin,Kronifer,Kronifer,https://github.com/Kronifer,0,0,610,610,610,610,snapshot_2026_09_06.json,snapshot_2026_08_23.json
-392,map,lima,Lima,kaicardenas0618,kaicardenas0618,https://github.com/kaicardenas0618,0,0,384,384,384,384,snapshot_2026_09_06.json,snapshot_2026_08_23.json
-393,map,sejong-4,Sejong (40km×40km),kimth9,kimth9,https://github.com/kimth9,0,0,212,212,212,212,snapshot_2026_09_06.json,snapshot_2026_08_23.json
-394,map,daegu-3,Daegu (30km×30km),kimth9,kimth9,https://github.com/kimth9,0,0,202,202,202,202,snapshot_2026_09_06.json,snapshot_2026_08_23.json
-395,map,jeju-3,Jeju (30km×30km),kimth9,kimth9,https://github.com/kimth9,0,0,192,192,192,192,snapshot_2026_09_06.json,snapshot_2026_08_23.json
-396,map,ulsan-4,Ulsan (40km×40km),kimth9,kimth9,https://github.com/kimth9,0,0,190,190,190,190,snapshot_2026_09_06.json,snapshot_2026_08_23.json
-397,map,waterloo,Region of Waterloo,Kronifer,Kronifer,https://github.com/Kronifer,0,0,188,188,188,188,snapshot_2026_09_06.json,snapshot_2026_08_23.json
-398,map,jeju-f,Jeju (Full Island),kimth9,kimth9,https://github.com/kimth9,0,0,169,169,169,169,snapshot_2026_09_06.json,snapshot_2026_08_23.json
-399,map,sejong-3,Sejong (30km×30km),kimth9,kimth9,https://github.com/kimth9,0,0,147,147,147,147,snapshot_2026_09_06.json,snapshot_2026_08_23.json
-400,map,daegu-4,Daegu (40km×40km),kimth9,kimth9,https://github.com/kimth9,0,0,124,124,124,124,snapshot_2026_09_06.json,snapshot_2026_08_23.json
-401,map,montpellier-mediterranee,Montpellier,pierreggt,pierreggt,https://github.com/pierreggt,0,0,111,111,111,111,snapshot_2026_09_06.json,snapshot_2026_08_23.json
-402,map,ulsan-3,Ulsan (30km×30km),kimth9,kimth9,https://github.com/kimth9,0,0,82,82,82,82,snapshot_2026_09_06.json,snapshot_2026_08_23.json
-403,map,gwangju-4,Gwangju (40km×40km),kimth9,kimth9,https://github.com/kimth9,0,0,77,77,77,77,snapshot_2026_09_06.json,snapshot_2026_08_23.json
-404,map,cusco,Cusco,kaicardenas0618,kaicardenas0618,https://github.com/kaicardenas0618,0,0,68,68,68,68,snapshot_2026_09_06.json,snapshot_2026_08_23.json
-405,map,arequipa,Arequipa,kaicardenas0618,kaicardenas0618,https://github.com/kaicardenas0618,0,0,66,66,66,66,snapshot_2026_09_06.json,snapshot_2026_08_23.json
-406,map,gwangju-3,Gwangju (30km×30km),kimth9,kimth9,https://github.com/kimth9,0,0,59,59,59,59,snapshot_2026_09_06.json,snapshot_2026_08_23.json
-407,map,chiclayo,Chiclayo,kaicardenas0618,kaicardenas0618,https://github.com/kaicardenas0618,0,0,48,48,48,48,snapshot_2026_09_06.json,snapshot_2026_08_23.json
-408,map,piura,Piura,kaicardenas0618,kaicardenas0618,https://github.com/kaicardenas0618,0,0,48,48,48,48,snapshot_2026_09_06.json,snapshot_2026_08_23.json
-409,map,trujillo,Trujillo,kaicardenas0618,kaicardenas0618,https://github.com/kaicardenas0618,0,0,48,48,48,48,snapshot_2026_09_06.json,snapshot_2026_08_23.json
-410,map,jeju-4,Jeju (40km×40km),kimth9,kimth9,https://github.com/kimth9,0,0,46,46,46,46,snapshot_2026_09_06.json,snapshot_2026_08_23.json
-411,map,chimbote,Chimbote,kaicardenas0618,kaicardenas0618,https://github.com/kaicardenas0618,0,0,45,45,45,45,snapshot_2026_09_06.json,snapshot_2026_08_23.json
-412,map,iquitos,Iquitos,kaicardenas0618,kaicardenas0618,https://github.com/kaicardenas0618,0,0,45,45,45,45,snapshot_2026_09_06.json,snapshot_2026_08_23.json
-413,map,huancayo-jauja,Huancayo/Jauja,kaicardenas0618,kaicardenas0618,https://github.com/kaicardenas0618,0,0,43,43,43,43,snapshot_2026_09_06.json,snapshot_2026_08_23.json
-414,mod,imb11-subwaycine,SubwayCine,IMB11,IMB11,https://github.com/IMB11,0,0,33,33,33,33,snapshot_2026_09_06.json,snapshot_2026_08_23.json
-415,mod,prospector-ghebeek,Prospector,matematysek,matematysek,https://github.com/matematysek,0,0,23,23,23,23,snapshot_2026_09_06.json,snapshot_2026_08_23.json
-416,mod,zz-deletion-fixture,Deletion Fixture,subway-builder-modded-admin,Subway Builder Modded,https://subwaybuildermodded.com,0,0,0,0,0,0,snapshot_2026_09_06.json,snapshot_2026_08_23.json
-417,mod,zz-deprecation-fixture,Deprecation Fixture,subway-builder-modded-admin,Subway Builder Modded,https://subwaybuildermodded.com,0,0,0,0,0,0,snapshot_2026_09_06.json,snapshot_2026_08_23.json
+1,mod,subway-builder-performance,Subway Builder Performance,rexmhall09,rexmhall09,https://github.com/rexmhall09,477,477,1184,1184,707,707,snapshot_2026_09_07.json,snapshot_2026_08_24.json
+2,mod,distance-circles,Station Catchment Viewer,crumpetime,muffintime,https://github.com/crumpetime,469,469,8103,8103,7634,7634,snapshot_2026_09_07.json,snapshot_2026_08_24.json
+3,mod,induced-demand,Induced Demand,martig7,martig7,https://github.com/martig7,440,440,4084,4084,3644,3644,snapshot_2026_09_07.json,snapshot_2026_08_24.json
+4,mod,transit-overlay,Transit Overlay,BarKuperman,BarKuperman,https://github.com/BarKuperman,421,421,5377,5377,4956,4956,snapshot_2026_09_07.json,snapshot_2026_08_24.json
+5,mod,improved-schematics,Improved Schematics,martig7,martig7,https://github.com/martig7,418,418,5954,5954,5536,5536,snapshot_2026_09_07.json,snapshot_2026_08_24.json
+6,map,yukina-cz-praha,Praha,ahkimn,Yukina-,https://subwaybuildermodded.com/credits,387,387,2491,2491,2104,2104,snapshot_2026_09_07.json,snapshot_2026_08_24.json
+7,mod,auto-lines,Auto Lines,roquerodrigo,roquerodrigo,https://github.com/roquerodrigo,361,361,1377,1377,1016,1016,snapshot_2026_09_07.json,snapshot_2026_08_24.json
+8,mod,subwaybuilder-regions,Regions,ahkimn,Yukina-,https://subwaybuildermodded.com/credits,355,355,5317,5317,4962,4962,snapshot_2026_09_07.json,snapshot_2026_08_24.json
+9,map,vienna,Vienna,Rmerr1,Rmerr1,https://github.com/Rmerr1,344,344,485,485,141,141,snapshot_2026_09_07.json,snapshot_2026_08_24.json
+10,mod,dantrains-abridged,Dan Trains Abridged,DanielD1909,DanielD1909,https://github.com/DanielD1909,312,312,791,791,479,479,snapshot_2026_09_07.json,snapshot_2026_08_24.json
+11,mod,neighborhood-station-names,Neighborhood Station Names,pendulating,pendulating,https://github.com/pendulating,284,284,2166,2166,1882,1882,snapshot_2026_09_07.json,snapshot_2026_08_24.json
+12,mod,valdotoriums-trains,Valdotoriums S-Bahn and Trams,Valdotorium,Valdotorium,https://github.com/Valdotorium,273,273,3780,3780,3507,3507,snapshot_2026_09_07.json,snapshot_2026_08_24.json
+13,map,paris-ile-de-france,Paris - Ile de France,pierreggt,pierreggt,https://github.com/pierreggt,220,220,1511,1511,1291,1291,snapshot_2026_09_07.json,snapshot_2026_08_24.json
+14,mod,network-status,Network Status,Valdotorium,Valdotorium,https://github.com/Valdotorium,218,218,2883,2883,2665,2665,snapshot_2026_09_07.json,snapshot_2026_08_24.json
+15,mod,station-dots,Station Dots,nzh0172,naz,https://github.com/nzh0172,214,214,3201,3201,2987,2987,snapshot_2026_09_07.json,snapshot_2026_08_24.json
+16,map,yukina-pl-warszawa,Warszawa,ahkimn,Yukina-,https://subwaybuildermodded.com/credits,202,202,1629,1629,1427,1427,snapshot_2026_09_07.json,snapshot_2026_08_24.json
+17,mod,orbital-surveyor,Orbital Surveyor,BarKuperman,BarKuperman,https://github.com/BarKuperman,200,200,2305,2305,2105,2105,snapshot_2026_09_07.json,snapshot_2026_08_24.json
+18,mod,game-speedup,Game SpeedUp,Valdotorium,Valdotorium,https://github.com/Valdotorium,199,199,2521,2521,2322,2322,snapshot_2026_09_07.json,snapshot_2026_08_24.json
+19,mod,simple-trains,Simple Trains,Bobby-047,Bobby-047,https://github.com/Bobby-047,193,193,3695,3695,3502,3502,snapshot_2026_09_07.json,snapshot_2026_08_24.json
+20,map,toronto,Toronto,subway-builder-modded-admin,Subway Builder Modded,https://subwaybuildermodded.com,188,188,3293,3293,3105,3105,snapshot_2026_09_07.json,snapshot_2026_08_24.json
+21,map,yukina-tw-taipei,臺北 (Taipei),ahkimn,Yukina-,https://subwaybuildermodded.com/credits,185,185,2134,2134,1949,1949,snapshot_2026_09_07.json,snapshot_2026_08_24.json
+22,mod,missed-connections,Missed Connections,rslurry,slurry,https://github.com/rslurry,184,184,1875,1875,1691,1691,snapshot_2026_09_07.json,snapshot_2026_08_24.json
+23,map,berlin-val,Berlin,Valdotorium,Valdotorium,https://github.com/Valdotorium,181,181,2495,2495,2314,2314,snapshot_2026_09_07.json,snapshot_2026_08_24.json
+24,map,yukina-lt-vilnius,Vilnius,ahkimn,Yukina-,https://subwaybuildermodded.com/credits,180,180,493,493,313,313,snapshot_2026_09_07.json,snapshot_2026_08_24.json
+25,map,yukina-cz-brno,Brno,ahkimn,Yukina-,https://subwaybuildermodded.com/credits,171,171,768,768,597,597,snapshot_2026_09_07.json,snapshot_2026_08_24.json
+26,mod,penguin-approved-rolling-stock,Penguin-Approved Rolling Stock,prodigious-penguin,prodigious-penguin,https://github.com/prodigious-penguin,170,170,211,211,41,41,snapshot_2026_09_07.json,snapshot_2026_08_24.json
+27,mod,track-anarchy,Track Anarchy,seanyushoumori,seanyushoumori,https://github.com/seanyushoumori,164,164,1841,1841,1677,1677,snapshot_2026_09_07.json,snapshot_2026_08_24.json
+28,map,yukina-tokyo,東京 (Tōkyō),ahkimn,Yukina-,https://subwaybuildermodded.com/credits,162,162,790,790,628,628,snapshot_2026_09_07.json,snapshot_2026_08_24.json
+29,map,yukina-osaka,大阪 (Ōsaka),ahkimn,Yukina-,https://subwaybuildermodded.com/credits,159,159,2853,2853,2694,2694,snapshot_2026_09_07.json,snapshot_2026_08_24.json
+30,map,yukina-sk-bratislava,Bratislava,ahkimn,Yukina-,https://subwaybuildermodded.com/credits,159,159,159,159,0,0,snapshot_2026_09_07.json,snapshot_2026_08_24.json
+31,map,rhein-main-neckar,Frankfurt (Rhein-Main-Neckar),pierreggt,pierreggt,https://github.com/pierreggt,156,156,156,156,0,0,snapshot_2026_09_07.json,snapshot_2026_08_24.json
+32,mod,intercity-hsr-trains,"Intercity, HSR & Express Metro Trains",danielloong714,danielloong714,https://github.com/danielloong714,155,155,224,224,69,69,snapshot_2026_09_07.json,snapshot_2026_08_24.json
+33,mod,japanese-trains,Japanese Trains,kaicardenas0618,kaicardenas0618,https://github.com/kaicardenas0618,148,148,1071,1071,923,923,snapshot_2026_09_07.json,snapshot_2026_08_24.json
+34,mod,track-visualizer,track height visualizer,seanyushoumori,seanyushoumori,https://github.com/seanyushoumori,146,146,2540,2540,2394,2394,snapshot_2026_09_07.json,snapshot_2026_08_24.json
+35,mod,scrollable-dropdowns,Scrollable Dropdowns,seanyushoumori,seanyushoumori,https://github.com/seanyushoumori,145,145,1705,1705,1560,1560,snapshot_2026_09_07.json,snapshot_2026_08_24.json
+36,map,hamburg,Hamburg,pierreggt,pierreggt,https://github.com/pierreggt,143,143,143,143,0,0,snapshot_2026_09_07.json,snapshot_2026_08_24.json
+37,map,muenchen,München,pierreggt,pierreggt,https://github.com/pierreggt,143,143,143,143,0,0,snapshot_2026_09_07.json,snapshot_2026_08_24.json
+38,map,montreal,Montreal,subway-builder-modded-admin,Subway Builder Modded,https://subwaybuildermodded.com,133,133,2286,2286,2153,2153,snapshot_2026_09_07.json,snapshot_2026_08_24.json
+39,map,yukina-cz-ostrava,Ostrava,ahkimn,Yukina-,https://subwaybuildermodded.com/credits,133,133,468,468,335,335,snapshot_2026_09_07.json,snapshot_2026_08_24.json
+40,mod,any-money,anyMoney,nzh0172,naz,https://github.com/nzh0172,129,129,2446,2446,2317,2317,snapshot_2026_09_07.json,snapshot_2026_08_24.json
+41,map,madrid,Madrid,Maximilian284,max02,https://github.com/Maximilian284,125,125,1623,1623,1498,1498,snapshot_2026_09_07.json,snapshot_2026_08_24.json
+42,map,yukina-cz-plzen,Plzeň,ahkimn,Yukina-,https://subwaybuildermodded.com/credits,123,123,362,362,239,239,snapshot_2026_09_07.json,snapshot_2026_08_24.json
+43,mod,citymapper,Citymapper,Gio1112,giorgiodabest,https://giorgio.is-a.dev/,122,122,2780,2780,2658,2658,snapshot_2026_09_07.json,snapshot_2026_08_24.json
+44,map,yukina-cz-ustecko-chomutov,Ústí nad Labem - Chomutov,ahkimn,Yukina-,https://subwaybuildermodded.com/credits,121,121,341,341,220,220,snapshot_2026_09_07.json,snapshot_2026_08_24.json
+45,map,ruhrgebiet,Ruhrgebiet,pierreggt,pierreggt,https://github.com/pierreggt,121,121,121,121,0,0,snapshot_2026_09_07.json,snapshot_2026_08_24.json
+46,map,yukina-cz-hradec-pardubice,Hradec Králové - Pardubice,ahkimn,Yukina-,https://subwaybuildermodded.com/credits,119,119,309,309,190,190,snapshot_2026_09_07.json,snapshot_2026_08_24.json
+47,map,mfn-hong-kong,Hong Kong,crumpetime,muffintime,https://github.com/crumpetime,118,118,3034,3034,2916,2916,snapshot_2026_09_07.json,snapshot_2026_08_24.json
+48,map,jelegend-tokyo,東京 (Tokyo),jelegend,jelegend,https://github.com/jelegend,116,116,3764,3764,3648,3648,snapshot_2026_09_07.json,snapshot_2026_08_24.json
+49,map,yukina-lt-kaunas,Kaunas,ahkimn,Yukina-,https://subwaybuildermodded.com/credits,115,115,279,279,164,164,snapshot_2026_09_07.json,snapshot_2026_08_24.json
+50,map,yukina-cz-liberec-jablonec,Liberec - Jablonec nad Nisou,ahkimn,Yukina-,https://subwaybuildermodded.com/credits,115,115,235,235,120,120,snapshot_2026_09_07.json,snapshot_2026_08_24.json
+51,map,yukina-cz-olomouc,Olomouc,ahkimn,Yukina-,https://subwaybuildermodded.com/credits,114,114,307,307,193,193,snapshot_2026_09_07.json,snapshot_2026_08_24.json
+52,map,bonn-koeln,Bonn-Köln,pierreggt,pierreggt,https://github.com/pierreggt,112,112,112,112,0,0,snapshot_2026_09_07.json,snapshot_2026_08_24.json
+53,map,barcelona,Barcelona,Maximilian284,max02,https://github.com/Maximilian284,111,111,1814,1814,1703,1703,snapshot_2026_09_07.json,snapshot_2026_08_24.json
+54,map,yukina-cz-ceske-budejovice,České Budějovice,ahkimn,Yukina-,https://subwaybuildermodded.com/credits,111,111,231,231,120,120,snapshot_2026_09_07.json,snapshot_2026_08_24.json
+55,map,yukina-cz-zlin,Zlín,ahkimn,Yukina-,https://subwaybuildermodded.com/credits,111,111,177,177,66,66,snapshot_2026_09_07.json,snapshot_2026_08_24.json
+56,mod,tod,Transit-Oriented Development[beta],hsullivan1201,hsullivan1201,https://github.com/hsullivan1201,110,110,2597,2597,2487,2487,snapshot_2026_09_07.json,snapshot_2026_08_24.json
+57,map,yukina-cz-jihlava,Jihlava,ahkimn,Yukina-,https://subwaybuildermodded.com/credits,108,108,176,176,68,68,snapshot_2026_09_07.json,snapshot_2026_08_24.json
+58,map,yukina-cz-karlovy-vary,Karlovy Vary,ahkimn,Yukina-,https://subwaybuildermodded.com/credits,107,107,197,197,90,90,snapshot_2026_09_07.json,snapshot_2026_08_24.json
+59,map,shanghai,Shanghai,Kronifer,Kronifer,https://github.com/Kronifer,106,106,1747,1747,1641,1641,snapshot_2026_09_07.json,snapshot_2026_08_24.json
+60,mod,map-markers,Map Markers,roquerodrigo,roquerodrigo,https://github.com/roquerodrigo,104,104,1155,1155,1051,1051,snapshot_2026_09_07.json,snapshot_2026_08_24.json
+61,map,vancouver,Vancouver,subway-builder-modded-admin,Subway Builder Modded,https://subwaybuildermodded.com,101,101,1929,1929,1828,1828,snapshot_2026_09_07.json,snapshot_2026_08_24.json
+62,mod,mode-manager,Mode Manager,Mpfk,Mpfk,https://github.com/Mpfk,100,100,1882,1882,1782,1782,snapshot_2026_09_07.json,snapshot_2026_08_24.json
+63,map,yukina-keihanshin,京阪神 (Keihanshin),ahkimn,Yukina-,https://subwaybuildermodded.com/credits,99,99,1221,1221,1122,1122,snapshot_2026_09_07.json,snapshot_2026_08_24.json
+64,map,yukina-ua-kyiv,Київ / Kyiv,ahkimn,Yukina-,https://subwaybuildermodded.com/credits,98,98,433,433,335,335,snapshot_2026_09_07.json,snapshot_2026_08_24.json
+65,map,singapore-val,Singapore,Valdotorium,Valdotorium,https://github.com/Valdotorium,97,97,1793,1793,1696,1696,snapshot_2026_09_07.json,snapshot_2026_08_24.json
+66,mod,madrid-transit-pack,Madrid Transit Pack,xoaninc,xoaninc,https://github.com/xoaninc,96,96,166,166,70,70,snapshot_2026_09_07.json,snapshot_2026_08_24.json
+67,map,istanbul,Istanbul,pierreggt,pierreggt,https://github.com/pierreggt,95,95,498,498,403,403,snapshot_2026_09_07.json,snapshot_2026_08_24.json
+68,map,yukina-ee-tallinn,Tallinn,ahkimn,Yukina-,https://subwaybuildermodded.com/credits,94,94,773,773,679,679,snapshot_2026_09_07.json,snapshot_2026_08_24.json
+69,map,yukina-lv-riga,Rīga,ahkimn,Yukina-,https://subwaybuildermodded.com/credits,93,93,847,847,754,754,snapshot_2026_09_07.json,snapshot_2026_08_24.json
+70,map,yukina-pl-krakow,Kraków,ahkimn,Yukina-,https://subwaybuildermodded.com/credits,92,92,1029,1029,937,937,snapshot_2026_09_07.json,snapshot_2026_08_24.json
+71,map,yukina-kyoto,京都 (Kyōto),ahkimn,Yukina-,https://subwaybuildermodded.com/credits,91,91,1680,1680,1589,1589,snapshot_2026_09_07.json,snapshot_2026_08_24.json
+72,map,yukina-pl-gdansk,Gdańsk,ahkimn,Yukina-,https://subwaybuildermodded.com/credits,91,91,838,838,747,747,snapshot_2026_09_07.json,snapshot_2026_08_24.json
+73,map,seoul,Seoul,cromstar,cromstar,https://github.com/cromstar,90,90,363,363,273,273,snapshot_2026_09_07.json,snapshot_2026_08_24.json
+74,mod,basedgoat-trains,BasedGoat Trains,arniber21,arniber21,https://github.com/arniber21,90,90,244,244,154,154,snapshot_2026_09_07.json,snapshot_2026_08_24.json
+75,map,yukina-lt-klaipeda,Klaipėda,ahkimn,Yukina-,https://subwaybuildermodded.com/credits,90,90,178,178,88,88,snapshot_2026_09_07.json,snapshot_2026_08_24.json
+76,map,beijing,Beijing,Kronifer,Kronifer,https://github.com/Kronifer,89,89,1064,1064,975,975,snapshot_2026_09_07.json,snapshot_2026_08_24.json
+77,map,au-melbourne,Melbourne,subway-builder-modded-admin,Subway Builder Modded,https://subwaybuildermodded.com,84,84,489,489,405,405,snapshot_2026_09_07.json,snapshot_2026_08_24.json
+78,map,yukina-lt-panevezys,Panevėžys,ahkimn,Yukina-,https://subwaybuildermodded.com/credits,81,81,150,150,69,69,snapshot_2026_09_07.json,snapshot_2026_08_24.json
+79,map,yukina-lt-siauliai,Šiauliai,ahkimn,Yukina-,https://subwaybuildermodded.com/credits,81,81,149,149,68,68,snapshot_2026_09_07.json,snapshot_2026_08_24.json
+80,map,au-syd2,Sydney,subway-builder-modded-admin,Subway Builder Modded,https://subwaybuildermodded.com,79,79,432,432,353,353,snapshot_2026_09_07.json,snapshot_2026_08_24.json
+81,map,zurich,Zurich,Kronifer,Kronifer,https://github.com/Kronifer,76,76,2187,2187,2111,2111,snapshot_2026_09_07.json,snapshot_2026_08_24.json
+82,map,lyon,Lyon - Vallée du Rhône & Alpes,pierreggt,pierreggt,https://github.com/pierreggt,75,75,361,361,286,286,snapshot_2026_09_07.json,snapshot_2026_08_24.json
+83,map,shenzhen,Shenzhen,Kronifer,Kronifer,https://github.com/Kronifer,72,72,1218,1218,1146,1146,snapshot_2026_09_07.json,snapshot_2026_08_24.json
+84,map,yukina-nagoya,名古屋 (Nagoya),ahkimn,Yukina-,https://subwaybuildermodded.com/credits,72,72,1171,1171,1099,1099,snapshot_2026_09_07.json,snapshot_2026_08_24.json
+85,mod,lrt-trains,LRT Trains,kaicardenas0618,kaicardenas0618,https://github.com/kaicardenas0618,72,72,1122,1122,1050,1050,snapshot_2026_09_07.json,snapshot_2026_08_24.json
+86,map,chongqing,Chongqing,Kronifer,Kronifer,https://github.com/Kronifer,71,71,918,918,847,847,snapshot_2026_09_07.json,snapshot_2026_08_24.json
+87,mod,noah-great-society,Great Society Metro Train,NoahGarrf,NoahGarrf,https://github.com/NoahGarrf,71,71,71,71,0,0,snapshot_2026_09_07.json,snapshot_2026_08_24.json
+88,map,sydney,Sydney,WillBarouch,WillBarouch,https://github.com/WillBarouch,70,70,1349,1349,1279,1279,snapshot_2026_09_07.json,snapshot_2026_08_24.json
+89,map,mfn-lasvegas,Las Vegas,crumpetime,muffintime,https://github.com/crumpetime,69,69,715,715,646,646,snapshot_2026_09_07.json,snapshot_2026_08_24.json
+90,map,strasbourg,Strasbourg,pierreggt,pierreggt,https://github.com/pierreggt,69,69,238,238,169,169,snapshot_2026_09_07.json,snapshot_2026_08_24.json
+91,map,grand-geneve,Grand Genève,pierreggt,pierreggt,https://github.com/pierreggt,69,69,92,92,23,23,snapshot_2026_09_07.json,snapshot_2026_08_24.json
+92,map,yukina-pl-katowice-gzm,Katowice - GZM,ahkimn,Yukina-,https://subwaybuildermodded.com/credits,68,68,594,594,526,526,snapshot_2026_09_07.json,snapshot_2026_08_24.json
+93,map,amsterdam,Amsterdam,ryandicicco,ryandicicco,https://github.com/ryandicicco,66,66,1721,1721,1655,1655,snapshot_2026_09_07.json,snapshot_2026_08_24.json
+94,map,yukina-sapporo-chitose,札幌 (Sapporo),ahkimn,Yukina-,https://subwaybuildermodded.com/credits,64,64,1163,1163,1099,1099,snapshot_2026_09_07.json,snapshot_2026_08_24.json
+95,map,warsaw-val,Warsaw,Valdotorium,Valdotorium,https://github.com/Valdotorium,63,63,675,675,612,612,snapshot_2026_09_07.json,snapshot_2026_08_24.json
+96,map,yukina-northern-kyushu,福北 (Fukuoka & Kitakyūshū),ahkimn,Yukina-,https://subwaybuildermodded.com/credits,62,62,751,751,689,689,snapshot_2026_09_07.json,snapshot_2026_08_24.json
+97,map,eurodistrict-bale,Eurodistrict of Basel,pierreggt,pierreggt,https://github.com/pierreggt,62,62,79,79,17,17,snapshot_2026_09_07.json,snapshot_2026_08_24.json
+98,map,ciudad-de-mexico,Ciudad de México,rslurry,slurry,https://github.com/rslurry,61,61,2105,2105,2044,2044,snapshot_2026_09_07.json,snapshot_2026_08_24.json
+99,map,nz-auckland,Auckland,subway-builder-modded-admin,Subway Builder Modded,https://subwaybuildermodded.com,61,61,338,338,277,277,snapshot_2026_09_07.json,snapshot_2026_08_24.json
+100,map,greater-los-angeles,Greater Los Angeles,rslurry,slurry,https://github.com/rslurry,60,60,3777,3777,3717,3717,snapshot_2026_09_07.json,snapshot_2026_08_24.json
+101,mod,train-anarchy,Train Anarchy,seanyushoumori,seanyushoumori,https://github.com/seanyushoumori,60,60,378,378,318,318,snapshot_2026_09_07.json,snapshot_2026_08_24.json
+102,map,charleston-huntington-wv,Charleston-Huntington,PSWBSF,Potato Spaghetti Water Balloon Space Federation,https://youtu.be/dQw4w9WgXcQ?t=0,60,60,282,282,222,222,snapshot_2026_09_07.json,snapshot_2026_08_24.json
+103,map,stuttgart,Stuttgart,pierreggt,pierreggt,https://github.com/pierreggt,60,60,60,60,0,0,snapshot_2026_09_07.json,snapshot_2026_08_24.json
+104,mod,satellite-overlay,Satellite Overlay,TransitCore,TransitCore,https://github.com/TransitCore,59,59,892,892,833,833,snapshot_2026_09_07.json,snapshot_2026_08_24.json
+105,map,lille,Lille - Flandre & Hainaut,pierreggt,pierreggt,https://github.com/pierreggt,59,59,235,235,176,176,snapshot_2026_09_07.json,snapshot_2026_08_24.json
+106,map,baltimore-dc-corridor,Baltimore-DC Corridor,rslurry,slurry,https://github.com/rslurry,57,57,1024,1024,967,967,snapshot_2026_09_07.json,snapshot_2026_08_24.json
+107,map,yukina-hiroshima-kure,広島 (Hiroshima),ahkimn,Yukina-,https://subwaybuildermodded.com/credits,56,56,950,950,894,894,snapshot_2026_09_07.json,snapshot_2026_08_24.json
+108,mod,danield1909-realism-pathfinding,Pathfinding Realism Mod,DanielD1909,DanielD1909,https://github.com/DanielD1909,56,56,280,280,224,224,snapshot_2026_09_07.json,snapshot_2026_08_24.json
+109,map,dresden,Dresden,pierreggt,pierreggt,https://github.com/pierreggt,56,56,56,56,0,0,snapshot_2026_09_07.json,snapshot_2026_08_24.json
+110,map,guangzhou,Guangzhou,Kronifer,Kronifer,https://github.com/Kronifer,55,55,1377,1377,1322,1322,snapshot_2026_09_07.json,snapshot_2026_08_24.json
+111,map,toulouse,Toulouse,pierreggt,pierreggt,https://github.com/pierreggt,55,55,191,191,136,136,snapshot_2026_09_07.json,snapshot_2026_08_24.json
+112,map,nantes,Nantes,pierreggt,pierreggt,https://github.com/pierreggt,53,53,167,167,114,114,snapshot_2026_09_07.json,snapshot_2026_08_24.json
+113,map,milan,Milan,Maximilian284,max02,https://github.com/Maximilian284,52,52,1059,1059,1007,1007,snapshot_2026_09_07.json,snapshot_2026_08_24.json
+114,map,marseille,Marseille - Provence,pierreggt,pierreggt,https://github.com/pierreggt,52,52,314,314,262,262,snapshot_2026_09_07.json,snapshot_2026_08_24.json
+115,map,rome,Rome,Maximilian284,max02,https://github.com/Maximilian284,50,50,1081,1081,1031,1031,snapshot_2026_09_07.json,snapshot_2026_08_24.json
+116,map,greater-chicagoland,Greater Chicagoland,NerdieSanders,NerdieSanders,https://github.com/NerdieSanders,49,49,984,984,935,935,snapshot_2026_09_07.json,snapshot_2026_08_24.json
+117,map,yukina-tw-kaohsiung,高雄 (Kaohsiung),ahkimn,Yukina-,https://subwaybuildermodded.com/credits,49,49,639,639,590,590,snapshot_2026_09_07.json,snapshot_2026_08_24.json
+118,map,yukina-okinawa,沖縄 (Okinawa),ahkimn,Yukina-,https://subwaybuildermodded.com/credits,48,48,881,881,833,833,snapshot_2026_09_07.json,snapshot_2026_08_24.json
+119,map,augsburg,Augsburg,pierreggt,pierreggt,https://github.com/pierreggt,48,48,48,48,0,0,snapshot_2026_09_07.json,snapshot_2026_08_24.json
+120,map,yukina-ua-lviv,Львів / Lviv,ahkimn,Yukina-,https://subwaybuildermodded.com/credits,46,46,147,147,101,101,snapshot_2026_09_07.json,snapshot_2026_08_24.json
+121,map,aachen,Aachen,pierreggt,pierreggt,https://github.com/pierreggt,46,46,46,46,0,0,snapshot_2026_09_07.json,snapshot_2026_08_24.json
+122,map,bremen,Bremen,pierreggt,pierreggt,https://github.com/pierreggt,46,46,46,46,0,0,snapshot_2026_09_07.json,snapshot_2026_08_24.json
+123,map,au-brisbane,Brisbane,subway-builder-modded-admin,Subway Builder Modded,https://subwaybuildermodded.com,45,45,271,271,226,226,snapshot_2026_09_07.json,snapshot_2026_08_24.json
+124,map,helsinki,Helsinki,rslurry,slurry,https://github.com/rslurry,44,44,1326,1326,1282,1282,snapshot_2026_09_07.json,snapshot_2026_08_24.json
+125,map,yukina-tw-taichung,臺中 (Taichung),ahkimn,Yukina-,https://subwaybuildermodded.com/credits,44,44,606,606,562,562,snapshot_2026_09_07.json,snapshot_2026_08_24.json
+126,map,yukina-ua-odesa,Одеса / Odesa,ahkimn,Yukina-,https://subwaybuildermodded.com/credits,43,43,147,147,104,104,snapshot_2026_09_07.json,snapshot_2026_08_24.json
+127,map,nuernberg,Nürnberg,pierreggt,pierreggt,https://github.com/pierreggt,43,43,43,43,0,0,snapshot_2026_09_07.json,snapshot_2026_08_24.json
+128,map,valencia,Valencia,Maximilian284,max02,https://github.com/Maximilian284,42,42,509,509,467,467,snapshot_2026_09_07.json,snapshot_2026_08_24.json
+129,map,mfn-msy,New Orleans,crumpetime,muffintime,https://github.com/crumpetime,42,42,260,260,218,218,snapshot_2026_09_07.json,snapshot_2026_08_24.json
+130,map,baghdad,Baghdad,pierreggt,pierreggt,https://github.com/pierreggt,42,42,97,97,55,55,snapshot_2026_09_07.json,snapshot_2026_08_24.json
+131,mod,resizable-ui,Resizable UI,Tesarzh,Tesarzh,https://github.com/Tesarzh,40,40,245,245,205,205,snapshot_2026_09_07.json,snapshot_2026_08_24.json
+132,map,doha,Doha,pierreggt,pierreggt,https://github.com/pierreggt,40,40,40,40,0,0,snapshot_2026_09_07.json,snapshot_2026_08_24.json
+133,map,hannover-braunschweig,Hannover-Braunschweig,pierreggt,pierreggt,https://github.com/pierreggt,40,40,40,40,0,0,snapshot_2026_09_07.json,snapshot_2026_08_24.json
+134,map,yukina-sk-kosice-presov,Košice - Prešov,ahkimn,Yukina-,https://subwaybuildermodded.com/credits,40,40,40,40,0,0,snapshot_2026_09_07.json,snapshot_2026_08_24.json
+135,map,oslo-no,Oslo,rslurry,slurry,https://github.com/rslurry,39,39,824,824,785,785,snapshot_2026_09_07.json,snapshot_2026_08_24.json
+136,map,yukina-sendai,仙台 (Sendai),ahkimn,Yukina-,https://subwaybuildermodded.com/credits,39,39,694,694,655,655,snapshot_2026_09_07.json,snapshot_2026_08_24.json
+137,map,bielefeld,Bielefeld,pierreggt,pierreggt,https://github.com/pierreggt,39,39,39,39,0,0,snapshot_2026_09_07.json,snapshot_2026_08_24.json
+138,map,yukina-fukuoka,福岡 (Fukuoka),ahkimn,Yukina-,https://subwaybuildermodded.com/credits,38,38,1132,1132,1094,1094,snapshot_2026_09_07.json,snapshot_2026_08_24.json
+139,map,yukina-kobe-akashi,神戸・姫路 (Kōbe & Himeji),ahkimn,Yukina-,https://subwaybuildermodded.com/credits,38,38,843,843,805,805,snapshot_2026_09_07.json,snapshot_2026_08_24.json
+140,map,tel-aviv,Tel Aviv,BarKuperman,BarKuperman,https://github.com/BarKuperman,38,38,754,754,716,716,snapshot_2026_09_07.json,snapshot_2026_08_24.json
+141,map,yukina-pl-poznan,Poznań,ahkimn,Yukina-,https://subwaybuildermodded.com/credits,38,38,391,391,353,353,snapshot_2026_09_07.json,snapshot_2026_08_24.json
+142,map,brussels,Brussels,lexenygma,lexenygma,https://github.com/lexenygma,38,38,126,126,88,88,snapshot_2026_09_07.json,snapshot_2026_08_24.json
+143,map,kiel,Kiel,pierreggt,pierreggt,https://github.com/pierreggt,38,38,38,38,0,0,snapshot_2026_09_07.json,snapshot_2026_08_24.json
+144,map,rotterdam-the-hague,Rotterdam-The Hague,ryandicicco,ryandicicco,https://github.com/ryandicicco,37,37,845,845,808,808,snapshot_2026_09_07.json,snapshot_2026_08_24.json
+145,map,yukina-pl-wroclaw,Wrocław,ahkimn,Yukina-,https://subwaybuildermodded.com/credits,37,37,506,506,469,469,snapshot_2026_09_07.json,snapshot_2026_08_24.json
+146,map,rennes,Rennes,pierreggt,pierreggt,https://github.com/pierreggt,37,37,172,172,135,135,snapshot_2026_09_07.json,snapshot_2026_08_24.json
+147,map,abu-dhabi,Abu Dhabi,pierreggt,pierreggt,https://github.com/pierreggt,37,37,59,59,22,22,snapshot_2026_09_07.json,snapshot_2026_08_24.json
+148,map,ottawa,Ottawa,subway-builder-modded-admin,Subway Builder Modded,https://subwaybuildermodded.com,36,36,870,870,834,834,snapshot_2026_09_07.json,snapshot_2026_08_24.json
+149,map,calgary,Calgary,subway-builder-modded-admin,Subway Builder Modded,https://subwaybuildermodded.com,36,36,778,778,742,742,snapshot_2026_09_07.json,snapshot_2026_08_24.json
+150,map,erfurt,Erfurt,pierreggt,pierreggt,https://github.com/pierreggt,36,36,36,36,0,0,snapshot_2026_09_07.json,snapshot_2026_08_24.json
+151,map,freiburg,Freiburg im Breisgau,pierreggt,pierreggt,https://github.com/pierreggt,36,36,36,36,0,0,snapshot_2026_09_07.json,snapshot_2026_08_24.json
+152,mod,demand-clusters,Demand Clusters,m4d5hr1mp,m4d5hr1mp,https://github.com/m4d5hr1mp,35,35,293,293,258,258,snapshot_2026_09_07.json,snapshot_2026_08_24.json
+153,map,opo-pt-metropolitan,"Porto, Portugal",bquelhas,bquelhas,https://github.com/bquelhas,34,34,875,875,841,841,snapshot_2026_09_07.json,snapshot_2026_08_24.json
+154,map,arc-mediterraneen,L'Arc Méditerranéen,pierreggt,pierreggt,https://github.com/pierreggt,34,34,49,49,15,15,snapshot_2026_09_07.json,snapshot_2026_08_24.json
+155,map,corse,Corse,pierreggt,pierreggt,https://github.com/pierreggt,34,34,45,45,11,11,snapshot_2026_09_07.json,snapshot_2026_08_24.json
+156,map,yukina-sk-banska-bystrica,Banská Bystrica,ahkimn,Yukina-,https://subwaybuildermodded.com/credits,34,34,34,34,0,0,snapshot_2026_09_07.json,snapshot_2026_08_24.json
+157,map,greater-kuala-lumpur,Greater Kuala Lumpur,nzh0172,naz,https://github.com/nzh0172,32,32,566,566,534,534,snapshot_2026_09_07.json,snapshot_2026_08_24.json
+158,map,yukina-pl-lodz,Łódź,ahkimn,Yukina-,https://subwaybuildermodded.com/credits,32,32,414,414,382,382,snapshot_2026_09_07.json,snapshot_2026_08_24.json
+159,map,au-adelaide,Adelaide,subway-builder-modded-admin,Subway Builder Modded,https://subwaybuildermodded.com,32,32,195,195,163,163,snapshot_2026_09_07.json,snapshot_2026_08_24.json
+160,map,yukina-ua-kharkiv,Харків / Kharkiv,ahkimn,Yukina-,https://subwaybuildermodded.com/credits,32,32,138,138,106,106,snapshot_2026_09_07.json,snapshot_2026_08_24.json
+161,map,yukina-ua-dnipro,Дніпро / Dnipro,ahkimn,Yukina-,https://subwaybuildermodded.com/credits,32,32,123,123,91,91,snapshot_2026_09_07.json,snapshot_2026_08_24.json
+162,map,quebec-city,Quebec City,subway-builder-modded-admin,Subway Builder Modded,https://subwaybuildermodded.com,31,31,680,680,649,649,snapshot_2026_09_07.json,snapshot_2026_08_24.json
+163,map,yukina-tw-tainan,臺南 (Tainan),ahkimn,Yukina-,https://subwaybuildermodded.com/credits,31,31,383,383,352,352,snapshot_2026_09_07.json,snapshot_2026_08_24.json
+164,map,pays-basque,Euskal Herria,pierreggt,pierreggt,https://github.com/pierreggt,31,31,43,43,12,12,snapshot_2026_09_07.json,snapshot_2026_08_24.json
+165,map,magdeburg,Magdeburg,pierreggt,pierreggt,https://github.com/pierreggt,31,31,31,31,0,0,snapshot_2026_09_07.json,snapshot_2026_08_24.json
+166,map,beirut,Beirut,pierreggt,pierreggt,https://github.com/pierreggt,30,30,50,50,20,20,snapshot_2026_09_07.json,snapshot_2026_08_24.json
+167,map,chemnitz,Chemnitz,pierreggt,pierreggt,https://github.com/pierreggt,29,29,29,29,0,0,snapshot_2026_09_07.json,snapshot_2026_08_24.json
+168,map,dubai,Dubai,ryandicicco,ryandicicco,https://github.com/ryandicicco,28,28,572,572,544,544,snapshot_2026_09_07.json,snapshot_2026_08_24.json
+169,map,au-canberra,Canberra,subway-builder-modded-admin,Subway Builder Modded,https://subwaybuildermodded.com,28,28,159,159,131,131,snapshot_2026_09_07.json,snapshot_2026_08_24.json
+170,map,luebeck,Lübeck,pierreggt,pierreggt,https://github.com/pierreggt,28,28,28,28,0,0,snapshot_2026_09_07.json,snapshot_2026_08_24.json
+171,map,seoul-4,Seoul (40km×40km),kimth9,kimth9,https://github.com/kimth9,27,27,2567,2567,2540,2540,snapshot_2026_09_07.json,snapshot_2026_08_24.json
+172,map,sofia-bulgaria,Sofia,giannons46,giannons46,https://github.com/giannons46,27,27,169,169,142,142,snapshot_2026_09_07.json,snapshot_2026_08_24.json
+173,map,bilbao,Bilbao,Maximilian284,max02,https://github.com/Maximilian284,26,26,500,500,474,474,snapshot_2026_09_07.json,snapshot_2026_08_24.json
+174,map,nz-wellington,Wellington,subway-builder-modded-admin,Subway Builder Modded,https://subwaybuildermodded.com,26,26,172,172,146,146,snapshot_2026_09_07.json,snapshot_2026_08_24.json
+175,map,yukina-sk-nitra,Nitra,ahkimn,Yukina-,https://subwaybuildermodded.com/credits,26,26,26,26,0,0,snapshot_2026_09_07.json,snapshot_2026_08_24.json
+176,map,tampa-bay,Tampa Bay,rslurry,slurry,https://github.com/rslurry,25,25,1028,1028,1003,1003,snapshot_2026_09_07.json,snapshot_2026_08_24.json
+177,map,puerto-rico,Puerto Rico,rslurry,slurry,https://github.com/rslurry,25,25,763,763,738,738,snapshot_2026_09_07.json,snapshot_2026_08_24.json
+178,map,yukina-sk-poprad-spisska-nova-ves,Poprad - Spišská Nová Ves,ahkimn,Yukina-,https://subwaybuildermodded.com/credits,25,25,25,25,0,0,snapshot_2026_09_07.json,snapshot_2026_08_24.json
+179,map,yukina-nagasaki,長崎 (Nagasaki),ahkimn,Yukina-,https://subwaybuildermodded.com/credits,24,24,465,465,441,441,snapshot_2026_09_07.json,snapshot_2026_08_24.json
+180,map,naples,Naples,Maximilian284,max02,https://github.com/Maximilian284,24,24,446,446,422,422,snapshot_2026_09_07.json,snapshot_2026_08_24.json
+181,map,yukina-tw-southern-taiwan,南臺灣 (Southern Taiwan),ahkimn,Yukina-,https://subwaybuildermodded.com/credits,24,24,125,125,101,101,snapshot_2026_09_07.json,snapshot_2026_08_24.json
+182,map,damascus,Damascus,pierreggt,pierreggt,https://github.com/pierreggt,24,24,87,87,63,63,snapshot_2026_09_07.json,snapshot_2026_08_24.json
+183,map,yukina-ua-zaporizhzhia,Запоріжжя / Zaporizhzhia,ahkimn,Yukina-,https://subwaybuildermodded.com/credits,24,24,72,72,48,48,snapshot_2026_09_07.json,snapshot_2026_08_24.json
+184,map,moenchengladbach,Mönchengladbach,pierreggt,pierreggt,https://github.com/pierreggt,24,24,24,24,0,0,snapshot_2026_09_07.json,snapshot_2026_08_24.json
+185,map,yukina-pl-szczecin,Szczecin,ahkimn,Yukina-,https://subwaybuildermodded.com/credits,23,23,276,276,253,253,snapshot_2026_09_07.json,snapshot_2026_08_24.json
+186,map,au-perth,Perth,subway-builder-modded-admin,Subway Builder Modded,https://subwaybuildermodded.com,23,23,206,206,183,183,snapshot_2026_09_07.json,snapshot_2026_08_24.json
+187,map,amba,Buenos Aires,hernang87,hernang87,https://github.com/hernang87,23,23,142,142,119,119,snapshot_2026_09_07.json,snapshot_2026_08_24.json
+188,map,sevilla,Sevilla,Maximilian284,max02,https://github.com/Maximilian284,23,23,139,139,116,116,snapshot_2026_09_07.json,snapshot_2026_08_24.json
+189,map,ile-de-france,Paris (IDF),JcPires,JcPires,https://github.com/JcPires,23,23,93,93,70,70,snapshot_2026_09_07.json,snapshot_2026_08_24.json
+190,map,xiamen,Xiamen,Kronifer,Kronifer,https://github.com/Kronifer,23,23,70,70,47,47,snapshot_2026_09_07.json,snapshot_2026_08_24.json
+191,mod,la-metro-trainpack,LA Metro Trainpack,NoahGarrf,NoahGarrf,https://github.com/NoahGarrf,23,23,23,23,0,0,snapshot_2026_09_07.json,snapshot_2026_08_24.json
+192,map,yukina-sk-zilina,Žilina,ahkimn,Yukina-,https://subwaybuildermodded.com/credits,23,23,23,23,0,0,snapshot_2026_09_07.json,snapshot_2026_08_24.json
+193,map,edmonton,Edmonton,subway-builder-modded-admin,Subway Builder Modded,https://subwaybuildermodded.com,22,22,635,635,613,613,snapshot_2026_09_07.json,snapshot_2026_08_24.json
+194,map,yukina-kitakyushu-shimonoseki,北九州・下関 (Kitakyūshū & Shimonoseki),ahkimn,Yukina-,https://subwaybuildermodded.com/credits,22,22,563,563,541,541,snapshot_2026_09_07.json,snapshot_2026_08_24.json
+195,map,yukina-hakodate,函館 (Hakodate),ahkimn,Yukina-,https://subwaybuildermodded.com/credits,22,22,516,516,494,494,snapshot_2026_09_07.json,snapshot_2026_08_24.json
+196,map,cape-town,Cape Town,worstboyinaustral1a,worstboyinaustral1a,https://github.com/worstboyinaustral1a,22,22,368,368,346,346,snapshot_2026_09_07.json,snapshot_2026_08_24.json
+197,map,yukina-bydgoszcz-torun,Bydgoszcz - Toruń,ahkimn,Yukina-,https://subwaybuildermodded.com/credits,22,22,344,344,322,322,snapshot_2026_09_07.json,snapshot_2026_08_24.json
+198,map,yukina-pl-lublin,Lublin,ahkimn,Yukina-,https://subwaybuildermodded.com/credits,22,22,222,222,200,200,snapshot_2026_09_07.json,snapshot_2026_08_24.json
+199,map,yukina-ua-kryvyi-rih,Кривий Ріг / Kryvyi Rih,ahkimn,Yukina-,https://subwaybuildermodded.com/credits,22,22,78,78,56,56,snapshot_2026_09_07.json,snapshot_2026_08_24.json
+200,map,martinique,Martinique,pierreggt,pierreggt,https://github.com/pierreggt,22,22,28,28,6,6,snapshot_2026_09_07.json,snapshot_2026_08_24.json
+201,map,busan-4,Busan (40km×40km),kimth9,kimth9,https://github.com/kimth9,21,21,1094,1094,1073,1073,snapshot_2026_09_07.json,snapshot_2026_08_24.json
+202,map,yukina-niigata,新潟 (Niigata),ahkimn,Yukina-,https://subwaybuildermodded.com/credits,21,21,496,496,475,475,snapshot_2026_09_07.json,snapshot_2026_08_24.json
+203,map,yukina-kagoshima-kirishima,鹿児島 (Kagoshima),ahkimn,Yukina-,https://subwaybuildermodded.com/credits,21,21,407,407,386,386,snapshot_2026_09_07.json,snapshot_2026_08_24.json
+204,map,buffalo-ny,Buffalo,PSWBSF,Potato Spaghetti Water Balloon Space Federation,https://youtu.be/dQw4w9WgXcQ?t=0,21,21,195,195,174,174,snapshot_2026_09_07.json,snapshot_2026_08_24.json
+205,map,ankara,Ankara,pierreggt,pierreggt,https://github.com/pierreggt,21,21,138,138,117,117,snapshot_2026_09_07.json,snapshot_2026_08_24.json
+206,mod,anysave,AnySave,BarKuperman,BarKuperman,https://github.com/BarKuperman,21,21,112,112,91,91,snapshot_2026_09_07.json,snapshot_2026_08_24.json
+207,map,tehran,Tehran,pierreggt,pierreggt,https://github.com/pierreggt,21,21,69,69,48,48,snapshot_2026_09_07.json,snapshot_2026_08_24.json
+208,map,guadeloupe,Guadeloupe,pierreggt,pierreggt,https://github.com/pierreggt,21,21,27,27,6,6,snapshot_2026_09_07.json,snapshot_2026_08_24.json
+209,map,nice-cote-d-azur,Nice,pierreggt,pierreggt,https://github.com/pierreggt,20,20,206,206,186,186,snapshot_2026_09_07.json,snapshot_2026_08_24.json
+210,map,riyadh,Riyadh,pierreggt,pierreggt,https://github.com/pierreggt,20,20,53,53,33,33,snapshot_2026_09_07.json,snapshot_2026_08_24.json
+211,map,jeddah-mecca,Jeddah & Mecca,pierreggt,pierreggt,https://github.com/pierreggt,20,20,44,44,24,24,snapshot_2026_09_07.json,snapshot_2026_08_24.json
+212,map,yukina-sk-trencin,Trenčín,ahkimn,Yukina-,https://subwaybuildermodded.com/credits,20,20,20,20,0,0,snapshot_2026_09_07.json,snapshot_2026_08_24.json
+213,map,yukina-shizuoka-hamamatsu,静岡・浜松 (Shizuoka/Hamamatsu),ahkimn,Yukina-,https://subwaybuildermodded.com/credits,19,19,380,380,361,361,snapshot_2026_09_07.json,snapshot_2026_08_24.json
+214,map,turin,Turin,Maximilian284,max02,https://github.com/Maximilian284,19,19,303,303,284,284,snapshot_2026_09_07.json,snapshot_2026_08_24.json
+215,map,palma-de-mallorca,Palma de Mallorca,Maximilian284,max02,https://github.com/Maximilian284,19,19,145,145,126,126,snapshot_2026_09_07.json,snapshot_2026_08_24.json
+216,map,alexandria,Alexandria,pierreggt,pierreggt,https://github.com/pierreggt,19,19,46,46,27,27,snapshot_2026_09_07.json,snapshot_2026_08_24.json
+217,map,muscat,Muscat,pierreggt,pierreggt,https://github.com/pierreggt,19,19,32,32,13,13,snapshot_2026_09_07.json,snapshot_2026_08_24.json
+218,map,metz-nancy,Metz - Nancy,pierreggt,pierreggt,https://github.com/pierreggt,19,19,29,29,10,10,snapshot_2026_09_07.json,snapshot_2026_08_24.json
+219,map,jerusalem,Jerusalem,BarKuperman,BarKuperman,https://github.com/BarKuperman,18,18,281,281,263,263,snapshot_2026_09_07.json,snapshot_2026_08_24.json
+220,map,yukina-ee-parnu,Pärnu,ahkimn,Yukina-,https://subwaybuildermodded.com/credits,18,18,197,197,179,179,snapshot_2026_09_07.json,snapshot_2026_08_24.json
+221,map,connecticut-usa,Connecticut,PSWBSF,Potato Spaghetti Water Balloon Space Federation,https://youtu.be/dQw4w9WgXcQ?t=0,18,18,194,194,176,176,snapshot_2026_09_07.json,snapshot_2026_08_24.json
+222,map,willamette-valley,"Willamette Valley, OR",Phineapoo,Phineapoo,https://github.com/Phineapoo,18,18,159,159,141,141,snapshot_2026_09_07.json,snapshot_2026_08_24.json
+223,map,charleston-sc,"Charleston, SC",PSWBSF,Potato Spaghetti Water Balloon Space Federation,https://youtu.be/dQw4w9WgXcQ?t=0,18,18,154,154,136,136,snapshot_2026_09_07.json,snapshot_2026_08_24.json
+224,map,mfn-rdu,Raleigh,crumpetime,muffintime,https://github.com/crumpetime,18,18,145,145,127,127,snapshot_2026_09_07.json,snapshot_2026_08_24.json
+225,map,pulau-pinang,Pulau Pinang,nzh0172,naz,https://github.com/nzh0172,18,18,119,119,101,101,snapshot_2026_09_07.json,snapshot_2026_08_24.json
+226,map,syracuse-ny,"Syracuse, NY",PSWBSF,Potato Spaghetti Water Balloon Space Federation,https://youtu.be/dQw4w9WgXcQ?t=0,18,18,107,107,89,89,snapshot_2026_09_07.json,snapshot_2026_08_24.json
+227,map,toledo-oh,Toledo,bean1322,bean1322,https://github.com/bean1322,18,18,94,94,76,76,snapshot_2026_09_07.json,snapshot_2026_08_24.json
+228,map,akron-oh,"Akron, OH",bean1322,bean1322,https://github.com/bean1322,18,18,93,93,75,75,snapshot_2026_09_07.json,snapshot_2026_08_24.json
+229,map,johor-bahru,Johor Bahru,nzh0172,naz,https://github.com/nzh0172,18,18,86,86,68,68,snapshot_2026_09_07.json,snapshot_2026_08_24.json
+230,mod,cinematic-camera,Cinematic Camera,TransitCore,TransitCore,https://github.com/TransitCore,17,17,619,619,602,602,snapshot_2026_09_07.json,snapshot_2026_08_24.json
+231,map,cairo,Cairo,ryandicicco,ryandicicco,https://github.com/ryandicicco,17,17,477,477,460,460,snapshot_2026_09_07.json,snapshot_2026_08_24.json
+232,map,nz-christchurch,Christchurch,subway-builder-modded-admin,Subway Builder Modded,https://subwaybuildermodded.com,17,17,127,127,110,110,snapshot_2026_09_07.json,snapshot_2026_08_24.json
+233,map,antalya,Antalya,pierreggt,pierreggt,https://github.com/pierreggt,17,17,89,89,72,72,snapshot_2026_09_07.json,snapshot_2026_08_24.json
+234,map,brest,Brest,pierreggt,pierreggt,https://github.com/pierreggt,17,17,26,26,9,9,snapshot_2026_09_07.json,snapshot_2026_08_24.json
+235,map,seoul-3,Seoul (30km×30km),kimth9,kimth9,https://github.com/kimth9,16,16,1297,1297,1281,1281,snapshot_2026_09_07.json,snapshot_2026_08_24.json
+236,map,orlando,Orlando,rslurry,slurry,https://github.com/rslurry,16,16,540,540,524,524,snapshot_2026_09_07.json,snapshot_2026_08_24.json
+237,mod,chinese-trains,Chinese Trains,kaicardenas0618,kaicardenas0618,https://github.com/kaicardenas0618,16,16,514,514,498,498,snapshot_2026_09_07.json,snapshot_2026_08_24.json
+238,map,winnipeg,Winnipeg,subway-builder-modded-admin,Subway Builder Modded,https://subwaybuildermodded.com,16,16,503,503,487,487,snapshot_2026_09_07.json,snapshot_2026_08_24.json
+239,map,oklahoma-city,Oklahoma City,ryandicicco,ryandicicco,https://github.com/ryandicicco,16,16,354,354,338,338,snapshot_2026_09_07.json,snapshot_2026_08_24.json
+240,map,mfn-hamptonroads,Norfolk,crumpetime,muffintime,https://github.com/crumpetime,16,16,316,316,300,300,snapshot_2026_09_07.json,snapshot_2026_08_24.json
+241,map,yukina-tw-hsinchu,新竹 (Hsinchu),ahkimn,Yukina-,https://subwaybuildermodded.com/credits,16,16,308,308,292,292,snapshot_2026_09_07.json,snapshot_2026_08_24.json
+242,map,bergen-stavanger-no,Bergen-Stavanger,rslurry,slurry,https://github.com/rslurry,16,16,281,281,265,265,snapshot_2026_09_07.json,snapshot_2026_08_24.json
+243,map,rochester,Rochester,rslurry,slurry,https://github.com/rslurry,16,16,247,247,231,231,snapshot_2026_09_07.json,snapshot_2026_08_24.json
+244,map,yukina-tw-chiayi,嘉義 (Chiayi),ahkimn,Yukina-,https://subwaybuildermodded.com/credits,16,16,240,240,224,224,snapshot_2026_09_07.json,snapshot_2026_08_24.json
+245,map,albany,Albany,soccerjonj,soccerjonj,https://github.com/soccerjonj,16,16,232,232,216,216,snapshot_2026_09_07.json,snapshot_2026_08_24.json
+246,map,yukina-pl-bialystok,Białystok,ahkimn,Yukina-,https://subwaybuildermodded.com/credits,16,16,199,199,183,183,snapshot_2026_09_07.json,snapshot_2026_08_24.json
+247,map,mississippi,Mississippi,JayToTheAy,JayToTheAy,https://github.com/JayToTheAy,16,16,144,144,128,128,snapshot_2026_09_07.json,snapshot_2026_08_24.json
+248,map,guyane,Guyane,pierreggt,pierreggt,https://github.com/pierreggt,16,16,21,21,5,5,snapshot_2026_09_07.json,snapshot_2026_08_24.json
+249,map,rhode-island,Rhode Island,rslurry,slurry,https://github.com/rslurry,15,15,462,462,447,447,snapshot_2026_09_07.json,snapshot_2026_08_24.json
+250,map,yukina-okayama,岡山 (Okayama),ahkimn,Yukina-,https://subwaybuildermodded.com/credits,15,15,303,303,288,288,snapshot_2026_09_07.json,snapshot_2026_08_24.json
+251,map,yukina-pl-kielce,Kielce,ahkimn,Yukina-,https://subwaybuildermodded.com/credits,15,15,153,153,138,138,snapshot_2026_09_07.json,snapshot_2026_08_24.json
+252,map,reunion,La Réunion,pierreggt,pierreggt,https://github.com/pierreggt,15,15,44,44,29,29,snapshot_2026_09_07.json,snapshot_2026_08_24.json
+253,map,mfn-madisonwi,Madison,crumpetime,muffintime,https://github.com/crumpetime,14,14,363,363,349,349,snapshot_2026_09_07.json,snapshot_2026_08_24.json
+254,map,daytonatti,Daytonatti,soccerjonj,soccerjonj,https://github.com/soccerjonj,14,14,357,357,343,343,snapshot_2026_09_07.json,snapshot_2026_08_24.json
+255,map,yukina-tsugaru,津軽 (Tsugaru),ahkimn,Yukina-,https://subwaybuildermodded.com/credits,14,14,309,309,295,295,snapshot_2026_09_07.json,snapshot_2026_08_24.json
+256,map,providence,Providence,soccerjonj,soccerjonj,https://github.com/soccerjonj,14,14,241,241,227,227,snapshot_2026_09_07.json,snapshot_2026_08_24.json
+257,map,sacramento,Sacramento,soccerjonj,soccerjonj,https://github.com/soccerjonj,14,14,236,236,222,222,snapshot_2026_09_07.json,snapshot_2026_08_24.json
+258,map,anchorage-ak,Anchorage,PSWBSF,Potato Spaghetti Water Balloon Space Federation,https://youtu.be/dQw4w9WgXcQ?t=0,14,14,231,231,217,217,snapshot_2026_09_07.json,snapshot_2026_08_24.json
+259,map,nashville,Nashville,soccerjonj,soccerjonj,https://github.com/soccerjonj,14,14,227,227,213,213,snapshot_2026_09_07.json,snapshot_2026_08_24.json
+260,map,colorado-ski-country,Colorado Ski Country,soccerjonj,soccerjonj,https://github.com/soccerjonj,14,14,188,188,174,174,snapshot_2026_09_07.json,snapshot_2026_08_24.json
+261,map,louisville,Louisville,soccerjonj,soccerjonj,https://github.com/soccerjonj,14,14,183,183,169,169,snapshot_2026_09_07.json,snapshot_2026_08_24.json
+262,map,mfn-northwestar,Northwest Arkansas,crumpetime,muffintime,https://github.com/crumpetime,14,14,158,158,144,144,snapshot_2026_09_07.json,snapshot_2026_08_24.json
+263,map,yukina-ee-tartu,Tartu,ahkimn,Yukina-,https://subwaybuildermodded.com/credits,14,14,158,158,144,144,snapshot_2026_09_07.json,snapshot_2026_08_24.json
+264,map,piedmont-triad,Piedmont Triad,PSWBSF,Potato Spaghetti Water Balloon Space Federation,https://youtu.be/dQw4w9WgXcQ?t=0,14,14,151,151,137,137,snapshot_2026_09_07.json,snapshot_2026_08_24.json
+265,map,wilmington-nc,"Wilmington, NC",PSWBSF,Potato Spaghetti Water Balloon Space Federation,https://youtu.be/dQw4w9WgXcQ?t=0,14,14,137,137,123,123,snapshot_2026_09_07.json,snapshot_2026_08_24.json
+266,mod,hide-and-seek,Hide+Seek: The Mod [beta],nzh0172,naz,https://github.com/nzh0172,14,14,135,135,121,121,snapshot_2026_09_07.json,snapshot_2026_08_24.json
+267,map,dayton-oh,Dayton,PSWBSF,Potato Spaghetti Water Balloon Space Federation,https://youtu.be/dQw4w9WgXcQ?t=0,14,14,118,118,104,104,snapshot_2026_09_07.json,snapshot_2026_08_24.json
+268,map,kuwait-city,Kuwait City,pierreggt,pierreggt,https://github.com/pierreggt,14,14,29,29,15,15,snapshot_2026_09_07.json,snapshot_2026_08_24.json
+269,map,angers,Angers,pierreggt,pierreggt,https://github.com/pierreggt,14,14,24,24,10,10,snapshot_2026_09_07.json,snapshot_2026_08_24.json
+270,map,yukina-toyama,富山 (Toyama),ahkimn,Yukina-,https://subwaybuildermodded.com/credits,13,13,398,398,385,385,snapshot_2026_09_07.json,snapshot_2026_08_24.json
+271,map,yukina-kumamoto,熊本 (Kumamoto),ahkimn,Yukina-,https://subwaybuildermodded.com/credits,13,13,290,290,277,277,snapshot_2026_09_07.json,snapshot_2026_08_24.json
+272,map,florence,Florence,Maximilian284,max02,https://github.com/Maximilian284,13,13,288,288,275,275,snapshot_2026_09_07.json,snapshot_2026_08_24.json
+273,map,pianura-veneta,Pianura Veneta,Maximilian284,max02,https://github.com/Maximilian284,13,13,247,247,234,234,snapshot_2026_09_07.json,snapshot_2026_08_24.json
+274,map,tromso-no,Tromsø,rslurry,slurry,https://github.com/rslurry,13,13,219,219,206,206,snapshot_2026_09_07.json,snapshot_2026_08_24.json
+275,map,yukina-lv-daugavpils,Daugavpils,ahkimn,Yukina-,https://subwaybuildermodded.com/credits,13,13,161,161,148,148,snapshot_2026_09_07.json,snapshot_2026_08_24.json
+276,map,alicante,Alicante,Maximilian284,max02,https://github.com/Maximilian284,13,13,91,91,78,78,snapshot_2026_09_07.json,snapshot_2026_08_24.json
+277,map,aleppo,Aleppo,pierreggt,pierreggt,https://github.com/pierreggt,13,13,25,25,12,12,snapshot_2026_09_07.json,snapshot_2026_08_24.json
+278,map,monterrey,Monterrey,rslurry,slurry,https://github.com/rslurry,12,12,813,813,801,801,snapshot_2026_09_07.json,snapshot_2026_08_24.json
+279,map,yukina-nakadoori,中通り (Nakadōri),ahkimn,Yukina-,https://subwaybuildermodded.com/credits,12,12,306,306,294,294,snapshot_2026_09_07.json,snapshot_2026_08_24.json
+280,map,yukina-fuji-numazu,富士・沼津 (Fuji & Numazu),ahkimn,Yukina-,https://subwaybuildermodded.com/credits,12,12,103,103,91,91,snapshot_2026_09_07.json,snapshot_2026_08_24.json
+281,map,rouen,Rouen,pierreggt,pierreggt,https://github.com/pierreggt,12,12,23,23,11,11,snapshot_2026_09_07.json,snapshot_2026_08_24.json
+282,map,tours,Tours,pierreggt,pierreggt,https://github.com/pierreggt,12,12,22,22,10,10,snapshot_2026_09_07.json,snapshot_2026_08_24.json
+283,map,south-florida,South Florida,kaicardenas0618,kaicardenas0618,https://github.com/kaicardenas0618,11,11,443,443,432,432,snapshot_2026_09_07.json,snapshot_2026_08_24.json
+284,map,yukina-matsuyama,松山 (Matsuyama),ahkimn,Yukina-,https://subwaybuildermodded.com/credits,11,11,432,432,421,421,snapshot_2026_09_07.json,snapshot_2026_08_24.json
+285,mod,kr-ktp,Korean Transit Pack,kimth9,kimth9,https://github.com/kimth9,11,11,430,430,419,419,snapshot_2026_09_07.json,snapshot_2026_08_24.json
+286,map,yukina-yamagata,山形 (Yamagata),ahkimn,Yukina-,https://subwaybuildermodded.com/credits,11,11,394,394,383,383,snapshot_2026_09_07.json,snapshot_2026_08_24.json
+287,map,san-antonio,San Antonio,rslurry,slurry,https://github.com/rslurry,11,11,323,323,312,312,snapshot_2026_09_07.json,snapshot_2026_08_24.json
+288,map,yukina-asahikawa,旭川 (Asahikawa),ahkimn,Yukina-,https://subwaybuildermodded.com/credits,11,11,322,322,311,311,snapshot_2026_09_07.json,snapshot_2026_08_24.json
+289,map,santa-barbara,Santa Barbara,rslurry,slurry,https://github.com/rslurry,11,11,242,242,231,231,snapshot_2026_09_07.json,snapshot_2026_08_24.json
+290,map,yukina-pl-radom,Radom,ahkimn,Yukina-,https://subwaybuildermodded.com/credits,11,11,109,109,98,98,snapshot_2026_09_07.json,snapshot_2026_08_24.json
+291,map,yukina-pl-central-pomerania,Pomorze Środkowe,ahkimn,Yukina-,https://subwaybuildermodded.com/credits,11,11,104,104,93,93,snapshot_2026_09_07.json,snapshot_2026_08_24.json
+292,map,yukina-kanazawa,金沢 (Kanazawa),ahkimn,Yukina-,https://subwaybuildermodded.com/credits,11,11,89,89,78,78,snapshot_2026_09_07.json,snapshot_2026_08_24.json
+293,map,springfield-il,"Springfield, IL",NerdieSanders,NerdieSanders,https://github.com/NerdieSanders,11,11,49,49,38,38,snapshot_2026_09_07.json,snapshot_2026_08_24.json
+294,map,orleans,Orléans,pierreggt,pierreggt,https://github.com/pierreggt,11,11,22,22,11,11,snapshot_2026_09_07.json,snapshot_2026_08_24.json
+295,map,caen,Caen,pierreggt,pierreggt,https://github.com/pierreggt,11,11,21,21,10,10,snapshot_2026_09_07.json,snapshot_2026_08_24.json
+296,map,glasgow-edinburgh,Glasgow-Edinburgh,Kronifer,Kronifer,https://github.com/Kronifer,10,10,1036,1036,1026,1026,snapshot_2026_09_07.json,snapshot_2026_08_24.json
+297,map,busan-3,Busan (30km×30km),kimth9,kimth9,https://github.com/kimth9,10,10,490,490,480,480,snapshot_2026_09_07.json,snapshot_2026_08_24.json
+298,map,greatertwincities,Greater Twin Cities,DanielD1909,DanielD1909,https://github.com/DanielD1909,10,10,490,490,480,480,snapshot_2026_09_07.json,snapshot_2026_08_24.json
+299,map,yukina-kochi,高知 (Kōchi),ahkimn,Yukina-,https://subwaybuildermodded.com/credits,10,10,403,403,393,393,snapshot_2026_09_07.json,snapshot_2026_08_24.json
+300,map,yukina-nakaumi,中海 (Nakaumi),ahkimn,Yukina-,https://subwaybuildermodded.com/credits,10,10,306,306,296,296,snapshot_2026_09_07.json,snapshot_2026_08_24.json
+301,map,greater-portland,Greater Portland,rslurry,slurry,https://github.com/rslurry,10,10,285,285,275,275,snapshot_2026_09_07.json,snapshot_2026_08_24.json
+302,map,spokane,Spokane,ryandicicco,ryandicicco,https://github.com/ryandicicco,10,10,256,256,246,246,snapshot_2026_09_07.json,snapshot_2026_08_24.json
+303,map,yukina-morioka,盛岡 (Morioka),ahkimn,Yukina-,https://subwaybuildermodded.com/credits,10,10,237,237,227,227,snapshot_2026_09_07.json,snapshot_2026_08_24.json
+304,map,bordeaux-arcachon-libourne,Bordeaux,pierreggt,pierreggt,https://github.com/pierreggt,10,10,224,224,214,214,snapshot_2026_09_07.json,snapshot_2026_08_24.json
+305,mod,copy-paste,Copy Paste,seanyushoumori,seanyushoumori,https://github.com/seanyushoumori,10,10,200,200,190,190,snapshot_2026_09_07.json,snapshot_2026_08_24.json
+306,map,trondheim-no,Trondheim,rslurry,slurry,https://github.com/rslurry,10,10,186,186,176,176,snapshot_2026_09_07.json,snapshot_2026_08_24.json
+307,map,yukina-pl-rzeszow,Rzeszów,ahkimn,Yukina-,https://subwaybuildermodded.com/credits,10,10,161,161,151,151,snapshot_2026_09_07.json,snapshot_2026_08_24.json
+308,map,yukina-ee-ida-viru,Ida-Viru,ahkimn,Yukina-,https://subwaybuildermodded.com/credits,10,10,138,138,128,128,snapshot_2026_09_07.json,snapshot_2026_08_24.json
+309,map,yukina-pl-olsztyn,Olsztyn,ahkimn,Yukina-,https://subwaybuildermodded.com/credits,10,10,122,122,112,112,snapshot_2026_09_07.json,snapshot_2026_08_24.json
+310,map,yukina-pl-opole,Opole,ahkimn,Yukina-,https://subwaybuildermodded.com/credits,10,10,108,108,98,98,snapshot_2026_09_07.json,snapshot_2026_08_24.json
+311,map,yukina-maebashi,前橋 (Maebashi),ahkimn,Yukina-,https://subwaybuildermodded.com/credits,10,10,85,85,75,75,snapshot_2026_09_07.json,snapshot_2026_08_24.json
+312,map,besancon,Besançon,pierreggt,pierreggt,https://github.com/pierreggt,10,10,20,20,10,10,snapshot_2026_09_07.json,snapshot_2026_08_24.json
+313,map,calais-dunkerque,Calais - Dunkerque,pierreggt,pierreggt,https://github.com/pierreggt,10,10,20,20,10,10,snapshot_2026_09_07.json,snapshot_2026_08_24.json
+314,map,mosul,Mosul,pierreggt,pierreggt,https://github.com/pierreggt,10,10,20,20,10,10,snapshot_2026_09_07.json,snapshot_2026_08_24.json
+315,map,pau,Pau,pierreggt,pierreggt,https://github.com/pierreggt,10,10,20,20,10,10,snapshot_2026_09_07.json,snapshot_2026_08_24.json
+316,map,dijon,Dijon,pierreggt,pierreggt,https://github.com/pierreggt,10,10,19,19,9,9,snapshot_2026_09_07.json,snapshot_2026_08_24.json
+317,map,le-mans,Le Mans,pierreggt,pierreggt,https://github.com/pierreggt,10,10,19,19,9,9,snapshot_2026_09_07.json,snapshot_2026_08_24.json
+318,map,le-havre,Le Havre,pierreggt,pierreggt,https://github.com/pierreggt,10,10,18,18,8,8,snapshot_2026_09_07.json,snapshot_2026_08_24.json
+319,map,erbil,Erbil,pierreggt,pierreggt,https://github.com/pierreggt,9,9,21,21,12,12,snapshot_2026_09_07.json,snapshot_2026_08_24.json
+320,map,reims,Reims,pierreggt,pierreggt,https://github.com/pierreggt,9,9,19,19,10,10,snapshot_2026_09_07.json,snapshot_2026_08_24.json
+321,map,la-rochelle,La Rochelle,pierreggt,pierreggt,https://github.com/pierreggt,9,9,18,18,9,9,snapshot_2026_09_07.json,snapshot_2026_08_24.json
+322,map,limoges,Limoges,pierreggt,pierreggt,https://github.com/pierreggt,9,9,18,18,9,9,snapshot_2026_09_07.json,snapshot_2026_08_24.json
+323,map,guadalajara,Guadalajara,rslurry,slurry,https://github.com/rslurry,8,8,717,717,709,709,snapshot_2026_09_07.json,snapshot_2026_08_24.json
+324,map,san-juan,San Juan,rslurry,slurry,https://github.com/rslurry,8,8,315,315,307,307,snapshot_2026_09_07.json,snapshot_2026_08_24.json
+325,map,yukina-takamatsu,高松 (Takamatsu),ahkimn,Yukina-,https://subwaybuildermodded.com/credits,8,8,295,295,287,287,snapshot_2026_09_07.json,snapshot_2026_08_24.json
+326,map,jacksonville,Jacksonville,rslurry,slurry,https://github.com/rslurry,8,8,274,274,266,266,snapshot_2026_09_07.json,snapshot_2026_08_24.json
+327,map,genoa,Genoa,Maximilian284,max02,https://github.com/Maximilian284,8,8,262,262,254,254,snapshot_2026_09_07.json,snapshot_2026_08_24.json
+328,map,greater-baltimore,Greater Baltimore,rslurry,slurry,https://github.com/rslurry,8,8,225,225,217,217,snapshot_2026_09_07.json,snapshot_2026_08_24.json
+329,map,yukina-tottori,鳥取 (Tottori),ahkimn,Yukina-,https://subwaybuildermodded.com/credits,8,8,221,221,213,213,snapshot_2026_09_07.json,snapshot_2026_08_24.json
+330,map,tri-cities,Tri-Cities,ryandicicco,ryandicicco,https://github.com/ryandicicco,8,8,198,198,190,190,snapshot_2026_09_07.json,snapshot_2026_08_24.json
+331,map,palermo,Palermo,Maximilian284,max02,https://github.com/Maximilian284,8,8,170,170,162,162,snapshot_2026_09_07.json,snapshot_2026_08_24.json
+332,map,yukina-pl-zielona-gora,Zielona Góra,ahkimn,Yukina-,https://subwaybuildermodded.com/credits,8,8,112,112,104,104,snapshot_2026_09_07.json,snapshot_2026_08_24.json
+333,map,yukina-akita,秋田 (Akita),ahkimn,Yukina-,https://subwaybuildermodded.com/credits,8,8,86,86,78,78,snapshot_2026_09_07.json,snapshot_2026_08_24.json
+334,map,mfn-rsw,Fort Myers,crumpetime,muffintime,https://github.com/crumpetime,8,8,74,74,66,66,snapshot_2026_09_07.json,snapshot_2026_08_24.json
+335,map,yukina-oita,大分 (Ōita),ahkimn,Yukina-,https://subwaybuildermodded.com/credits,8,8,67,67,59,59,snapshot_2026_09_07.json,snapshot_2026_08_24.json
+336,map,amiens,Amiens,pierreggt,pierreggt,https://github.com/pierreggt,8,8,18,18,10,10,snapshot_2026_09_07.json,snapshot_2026_08_24.json
+337,map,troyes,Troyes,pierreggt,pierreggt,https://github.com/pierreggt,8,8,15,15,7,7,snapshot_2026_09_07.json,snapshot_2026_08_24.json
+338,mod,tathan-casino,TATHAN Casino,TathanDev,TathanDev,https://github.com/TathanDev,7,7,212,212,205,205,snapshot_2026_09_07.json,snapshot_2026_08_24.json
+339,map,garda-lake,Garda Lake,Maximilian284,max02,https://github.com/Maximilian284,7,7,183,183,176,176,snapshot_2026_09_07.json,snapshot_2026_08_24.json
+340,map,yukina-pl-czestochowa,Częstochowa,ahkimn,Yukina-,https://subwaybuildermodded.com/credits,7,7,106,106,99,99,snapshot_2026_09_07.json,snapshot_2026_08_24.json
+341,map,yukina-pl-plock-wloclawek,Płock - Włocławek,ahkimn,Yukina-,https://subwaybuildermodded.com/credits,7,7,85,85,78,78,snapshot_2026_09_07.json,snapshot_2026_08_24.json
+342,map,yukina-fukui,福井 (Fukui),ahkimn,Yukina-,https://subwaybuildermodded.com/credits,7,7,72,72,65,65,snapshot_2026_09_07.json,snapshot_2026_08_24.json
+343,map,yukina-matsumoto,松本 (Matsumoto),ahkimn,Yukina-,https://subwaybuildermodded.com/credits,7,7,70,70,63,63,snapshot_2026_09_07.json,snapshot_2026_08_24.json
+344,map,yukina-fukuyama,福山 (Fukuyama),ahkimn,Yukina-,https://subwaybuildermodded.com/credits,7,7,69,69,62,62,snapshot_2026_09_07.json,snapshot_2026_08_24.json
+345,map,yukina-kofu,甲府 (Kōfu),ahkimn,Yukina-,https://subwaybuildermodded.com/credits,7,7,67,67,60,60,snapshot_2026_09_07.json,snapshot_2026_08_24.json
+346,map,yukina-hachinohe,八戸 (Hachinohe),ahkimn,Yukina-,https://subwaybuildermodded.com/credits,7,7,66,66,59,59,snapshot_2026_09_07.json,snapshot_2026_08_24.json
+347,map,yukina-tw-hualien-taitung,花蓮・臺東 (Hualien & Taitung),ahkimn,Yukina-,https://subwaybuildermodded.com/credits,7,7,63,63,56,56,snapshot_2026_09_07.json,snapshot_2026_08_24.json
+348,map,tijuana-san-diego,Tijuana-San Diego,rslurry,slurry,https://github.com/rslurry,6,6,435,435,429,429,snapshot_2026_09_07.json,snapshot_2026_08_24.json
+349,map,cdmx-core,CDMX Core,rslurry,slurry,https://github.com/rslurry,6,6,309,309,303,303,snapshot_2026_09_07.json,snapshot_2026_08_24.json
+350,map,catania,Catania,Maximilian284,max02,https://github.com/Maximilian284,6,6,174,174,168,168,snapshot_2026_09_07.json,snapshot_2026_08_24.json
+351,map,yukina-utsunomiya,宇都宮 (Utsunomiya),ahkimn,Yukina-,https://subwaybuildermodded.com/credits,6,6,78,78,72,72,snapshot_2026_09_07.json,snapshot_2026_08_24.json
+352,map,yukina-nagano,長野 (Nagano),ahkimn,Yukina-,https://subwaybuildermodded.com/credits,6,6,77,77,71,71,snapshot_2026_09_07.json,snapshot_2026_08_24.json
+353,map,yukina-tokushima,徳島 (Tokushima),ahkimn,Yukina-,https://subwaybuildermodded.com/credits,6,6,70,70,64,64,snapshot_2026_09_07.json,snapshot_2026_08_24.json
+354,map,yukina-yamaguchi,山口 (Yamaguchi),ahkimn,Yukina-,https://subwaybuildermodded.com/credits,6,6,67,67,61,61,snapshot_2026_09_07.json,snapshot_2026_08_24.json
+355,map,shiraz,Shiraz,pierreggt,pierreggt,https://github.com/pierreggt,6,6,14,14,8,8,snapshot_2026_09_07.json,snapshot_2026_08_24.json
+356,map,incheon-4,Incheon (40km×40km),kimth9,kimth9,https://github.com/kimth9,5,5,781,781,776,776,snapshot_2026_09_07.json,snapshot_2026_08_24.json
+357,map,richmond,Richmond,rslurry,slurry,https://github.com/rslurry,5,5,294,294,289,289,snapshot_2026_09_07.json,snapshot_2026_08_24.json
+358,map,puebla,Puebla,rslurry,slurry,https://github.com/rslurry,5,5,263,263,258,258,snapshot_2026_09_07.json,snapshot_2026_08_24.json
+359,map,memphis,Memphis,rslurry,slurry,https://github.com/rslurry,5,5,252,252,247,247,snapshot_2026_09_07.json,snapshot_2026_08_24.json
+360,map,ciudad-juarez-el-paso,Ciudad Juárez-El Paso,rslurry,slurry,https://github.com/rslurry,5,5,242,242,237,237,snapshot_2026_09_07.json,snapshot_2026_08_24.json
+361,map,bologna,Bologna,Maximilian284,max02,https://github.com/Maximilian284,5,5,214,214,209,209,snapshot_2026_09_07.json,snapshot_2026_08_24.json
+362,map,bari,Bari,Maximilian284,max02,https://github.com/Maximilian284,5,5,188,188,183,183,snapshot_2026_09_07.json,snapshot_2026_08_24.json
+363,map,saltillo,Saltillo,rslurry,slurry,https://github.com/rslurry,5,5,163,163,158,158,snapshot_2026_09_07.json,snapshot_2026_08_24.json
+364,map,yukina-lv-liepaja,Liepāja,ahkimn,Yukina-,https://subwaybuildermodded.com/credits,5,5,130,130,125,125,snapshot_2026_09_07.json,snapshot_2026_08_24.json
+365,map,yukina-pl-legnica,Legnica - LGOM,ahkimn,Yukina-,https://subwaybuildermodded.com/credits,5,5,90,90,85,85,snapshot_2026_09_07.json,snapshot_2026_08_24.json
+366,map,yukina-mito-hitachi,水戸・日立 (Mito & Hitachi),ahkimn,Yukina-,https://subwaybuildermodded.com/credits,5,5,68,68,63,63,snapshot_2026_09_07.json,snapshot_2026_08_24.json
+367,map,yukina-wakayama,和歌山 (Wakayama),ahkimn,Yukina-,https://subwaybuildermodded.com/credits,5,5,68,68,63,63,snapshot_2026_09_07.json,snapshot_2026_08_24.json
+368,map,yukina-miyazaki,宮崎 (Miyazaki),ahkimn,Yukina-,https://subwaybuildermodded.com/credits,5,5,66,66,61,61,snapshot_2026_09_07.json,snapshot_2026_08_24.json
+369,map,yukina-tw-yilan,宜蘭 (Yilan),ahkimn,Yukina-,https://subwaybuildermodded.com/credits,5,5,58,58,53,53,snapshot_2026_09_07.json,snapshot_2026_08_24.json
+370,map,mashhad,Mashhad,pierreggt,pierreggt,https://github.com/pierreggt,5,5,18,18,13,13,snapshot_2026_09_07.json,snapshot_2026_08_24.json
+371,map,los-angeles-county,Los Angeles County,rslurry,slurry,https://github.com/rslurry,4,4,1434,1434,1430,1430,snapshot_2026_09_07.json,snapshot_2026_08_24.json
+372,map,bangkok,Bangkok,nzh0172,naz,https://github.com/nzh0172,4,4,382,382,378,378,snapshot_2026_09_07.json,snapshot_2026_08_24.json
+373,map,riviera-romagnola,Riviera Romagnola,Maximilian284,max02,https://github.com/Maximilian284,4,4,101,101,97,97,snapshot_2026_09_07.json,snapshot_2026_08_24.json
+374,map,kristiansand-no,Kristiansand,rslurry,slurry,https://github.com/rslurry,4,4,82,82,78,78,snapshot_2026_09_07.json,snapshot_2026_08_24.json
+375,map,yukina-ua-uzhhorod-mukachevo,Закарпаття / Transcarpathia,ahkimn,Yukina-,https://subwaybuildermodded.com/credits,4,4,4,4,0,0,snapshot_2026_09_07.json,snapshot_2026_08_24.json
+376,map,bucharest-medium,Bucharest,metatablestudios,metatablestudios,https://github.com/metatablestudios,3,3,314,314,311,311,snapshot_2026_09_07.json,snapshot_2026_08_24.json
+377,mod,pause-on-start,Pause On Start,rslurry,slurry,https://github.com/rslurry,3,3,225,225,222,222,snapshot_2026_09_07.json,snapshot_2026_08_24.json
+378,map,pianura-emiliana,Pianura Emiliana,Maximilian284,max02,https://github.com/Maximilian284,3,3,111,111,108,108,snapshot_2026_09_07.json,snapshot_2026_08_24.json
+379,map,yukina-ua-mykolaiv-kherson,Миколаїв - Херсон / Mykolaiv & Kherson,ahkimn,Yukina-,https://subwaybuildermodded.com/credits,3,3,3,3,0,0,snapshot_2026_09_07.json,snapshot_2026_08_24.json
+380,map,orange-county,Orange County,rslurry,slurry,https://github.com/rslurry,2,2,222,222,220,220,snapshot_2026_09_07.json,snapshot_2026_08_24.json
+381,map,pyongyang-nk,Pyongyang,PSWBSF,Potato Spaghetti Water Balloon Space Federation,https://youtu.be/dQw4w9WgXcQ?t=0,2,2,158,158,156,156,snapshot_2026_09_07.json,snapshot_2026_08_24.json
+382,map,ipoh,Ipoh,nzh0172,naz,https://github.com/nzh0172,2,2,27,27,25,25,snapshot_2026_09_07.json,snapshot_2026_08_24.json
+383,map,yukina-ua-khmelnytskyi,Хмельницький / Khmelnytskyi,ahkimn,Yukina-,https://subwaybuildermodded.com/credits,2,2,2,2,0,0,snapshot_2026_09_07.json,snapshot_2026_08_24.json
+384,map,yukina-ua-rivne-lutsk,Рівне - Луцьк / Rivne & Lutsk,ahkimn,Yukina-,https://subwaybuildermodded.com/credits,2,2,2,2,0,0,snapshot_2026_09_07.json,snapshot_2026_08_24.json
+385,map,yukina-ua-sumy,Суми / Sumy,ahkimn,Yukina-,https://subwaybuildermodded.com/credits,2,2,2,2,0,0,snapshot_2026_09_07.json,snapshot_2026_08_24.json
+386,map,yukina-ua-zhytomyr,Житомир / Zhytomyr,ahkimn,Yukina-,https://subwaybuildermodded.com/credits,2,2,2,2,0,0,snapshot_2026_09_07.json,snapshot_2026_08_24.json
+387,map,greater-newyork,Greater NYC,chasemanning040911-afk,lechicken,https://github.com/chasemanning040911-afk,1,1,379,379,378,378,snapshot_2026_09_07.json,snapshot_2026_08_24.json
+388,map,incheon-3,Incheon (30km×30km),kimth9,kimth9,https://github.com/kimth9,1,1,233,233,232,232,snapshot_2026_09_07.json,snapshot_2026_08_24.json
+389,map,trondheim-val,Trondheim,Valdotorium,Valdotorium,https://github.com/Valdotorium,1,1,210,210,209,209,snapshot_2026_09_07.json,snapshot_2026_08_24.json
+390,map,knoxville,Knoxville,rslurry,slurry,https://github.com/rslurry,1,1,136,136,135,135,snapshot_2026_09_07.json,snapshot_2026_08_24.json
+391,map,mexicali,Mexicali-Imperial Valley-Yuma,rslurry,slurry,https://github.com/rslurry,1,1,108,108,107,107,snapshot_2026_09_07.json,snapshot_2026_08_24.json
+392,map,daejeon-3,Daejeon (30km×30km),kimth9,kimth9,https://github.com/kimth9,1,1,84,84,83,83,snapshot_2026_09_07.json,snapshot_2026_08_24.json
+393,map,daejeon-4,Daejeon (40km×40km),kimth9,kimth9,https://github.com/kimth9,1,1,82,82,81,81,snapshot_2026_09_07.json,snapshot_2026_08_24.json
+394,map,yukina-ua-cherkasy,Черкаси / Cherkasy,ahkimn,Yukina-,https://subwaybuildermodded.com/credits,1,1,1,1,0,0,snapshot_2026_09_07.json,snapshot_2026_08_24.json
+395,map,yukina-ua-chernihiv,Чернігів / Chernihiv,ahkimn,Yukina-,https://subwaybuildermodded.com/credits,1,1,1,1,0,0,snapshot_2026_09_07.json,snapshot_2026_08_24.json
+396,map,yukina-ua-chernivtsi,Чернівці / Chernivtsi,ahkimn,Yukina-,https://subwaybuildermodded.com/credits,1,1,1,1,0,0,snapshot_2026_09_07.json,snapshot_2026_08_24.json
+397,map,yukina-ua-ivano-frankivsk,Івано-Франківськ / Ivano-Frankivsk,ahkimn,Yukina-,https://subwaybuildermodded.com/credits,1,1,1,1,0,0,snapshot_2026_09_07.json,snapshot_2026_08_24.json
+398,map,yukina-ua-kremenchuk,Кременчук / Kremenchuk,ahkimn,Yukina-,https://subwaybuildermodded.com/credits,1,1,1,1,0,0,snapshot_2026_09_07.json,snapshot_2026_08_24.json
+399,map,yukina-ua-kropyvnytskyi,Кропивницький / Kropyvnytskyi,ahkimn,Yukina-,https://subwaybuildermodded.com/credits,1,1,1,1,0,0,snapshot_2026_09_07.json,snapshot_2026_08_24.json
+400,map,yukina-ua-poltava,Полтава / Poltava,ahkimn,Yukina-,https://subwaybuildermodded.com/credits,1,1,1,1,0,0,snapshot_2026_09_07.json,snapshot_2026_08_24.json
+401,map,yukina-ua-ternopil,Тернопіль / Ternopil,ahkimn,Yukina-,https://subwaybuildermodded.com/credits,1,1,1,1,0,0,snapshot_2026_09_07.json,snapshot_2026_08_24.json
+402,map,yukina-ua-vinnytsia,Вінниця / Vinnytsia,ahkimn,Yukina-,https://subwaybuildermodded.com/credits,1,1,1,1,0,0,snapshot_2026_09_07.json,snapshot_2026_08_24.json
+403,mod,advanced-analytics,Advanced Analytics,stefanorigano,Steno,https://github.com/stefanorigano,0,0,14278,14278,14278,14278,snapshot_2026_09_07.json,snapshot_2026_08_24.json
+404,mod,danield1909-dantrains,"danTrains (v1.* ""Phoenix"")",DanielD1909,DanielD1909,https://github.com/DanielD1909,0,0,2433,2433,2433,2433,snapshot_2026_09_07.json,snapshot_2026_08_24.json
+405,mod,imb11-moveit,Move It!,IMB11,IMB11,https://github.com/IMB11,0,0,1255,1255,1255,1255,snapshot_2026_09_07.json,snapshot_2026_08_24.json
+406,map,dublin,Dublin,Kronifer,Kronifer,https://github.com/Kronifer,0,0,610,610,610,610,snapshot_2026_09_07.json,snapshot_2026_08_24.json
+407,map,lima,Lima,kaicardenas0618,kaicardenas0618,https://github.com/kaicardenas0618,0,0,384,384,384,384,snapshot_2026_09_07.json,snapshot_2026_08_24.json
+408,map,sejong-4,Sejong (40km×40km),kimth9,kimth9,https://github.com/kimth9,0,0,212,212,212,212,snapshot_2026_09_07.json,snapshot_2026_08_24.json
+409,map,daegu-3,Daegu (30km×30km),kimth9,kimth9,https://github.com/kimth9,0,0,202,202,202,202,snapshot_2026_09_07.json,snapshot_2026_08_24.json
+410,map,jeju-3,Jeju (30km×30km),kimth9,kimth9,https://github.com/kimth9,0,0,192,192,192,192,snapshot_2026_09_07.json,snapshot_2026_08_24.json
+411,map,ulsan-4,Ulsan (40km×40km),kimth9,kimth9,https://github.com/kimth9,0,0,190,190,190,190,snapshot_2026_09_07.json,snapshot_2026_08_24.json
+412,map,waterloo,Region of Waterloo,Kronifer,Kronifer,https://github.com/Kronifer,0,0,188,188,188,188,snapshot_2026_09_07.json,snapshot_2026_08_24.json
+413,map,jeju-f,Jeju (Full Island),kimth9,kimth9,https://github.com/kimth9,0,0,169,169,169,169,snapshot_2026_09_07.json,snapshot_2026_08_24.json
+414,map,sejong-3,Sejong (30km×30km),kimth9,kimth9,https://github.com/kimth9,0,0,147,147,147,147,snapshot_2026_09_07.json,snapshot_2026_08_24.json
+415,map,daegu-4,Daegu (40km×40km),kimth9,kimth9,https://github.com/kimth9,0,0,124,124,124,124,snapshot_2026_09_07.json,snapshot_2026_08_24.json
+416,map,montpellier-mediterranee,Montpellier,pierreggt,pierreggt,https://github.com/pierreggt,0,0,111,111,111,111,snapshot_2026_09_07.json,snapshot_2026_08_24.json
+417,map,ulsan-3,Ulsan (30km×30km),kimth9,kimth9,https://github.com/kimth9,0,0,82,82,82,82,snapshot_2026_09_07.json,snapshot_2026_08_24.json
+418,map,gwangju-4,Gwangju (40km×40km),kimth9,kimth9,https://github.com/kimth9,0,0,77,77,77,77,snapshot_2026_09_07.json,snapshot_2026_08_24.json
+419,map,cusco,Cusco,kaicardenas0618,kaicardenas0618,https://github.com/kaicardenas0618,0,0,68,68,68,68,snapshot_2026_09_07.json,snapshot_2026_08_24.json
+420,map,arequipa,Arequipa,kaicardenas0618,kaicardenas0618,https://github.com/kaicardenas0618,0,0,66,66,66,66,snapshot_2026_09_07.json,snapshot_2026_08_24.json
+421,map,gwangju-3,Gwangju (30km×30km),kimth9,kimth9,https://github.com/kimth9,0,0,59,59,59,59,snapshot_2026_09_07.json,snapshot_2026_08_24.json
+422,map,chiclayo,Chiclayo,kaicardenas0618,kaicardenas0618,https://github.com/kaicardenas0618,0,0,48,48,48,48,snapshot_2026_09_07.json,snapshot_2026_08_24.json
+423,map,piura,Piura,kaicardenas0618,kaicardenas0618,https://github.com/kaicardenas0618,0,0,48,48,48,48,snapshot_2026_09_07.json,snapshot_2026_08_24.json
+424,map,trujillo,Trujillo,kaicardenas0618,kaicardenas0618,https://github.com/kaicardenas0618,0,0,48,48,48,48,snapshot_2026_09_07.json,snapshot_2026_08_24.json
+425,map,jeju-4,Jeju (40km×40km),kimth9,kimth9,https://github.com/kimth9,0,0,46,46,46,46,snapshot_2026_09_07.json,snapshot_2026_08_24.json
+426,map,chimbote,Chimbote,kaicardenas0618,kaicardenas0618,https://github.com/kaicardenas0618,0,0,45,45,45,45,snapshot_2026_09_07.json,snapshot_2026_08_24.json
+427,map,iquitos,Iquitos,kaicardenas0618,kaicardenas0618,https://github.com/kaicardenas0618,0,0,45,45,45,45,snapshot_2026_09_07.json,snapshot_2026_08_24.json
+428,map,huancayo-jauja,Huancayo/Jauja,kaicardenas0618,kaicardenas0618,https://github.com/kaicardenas0618,0,0,43,43,43,43,snapshot_2026_09_07.json,snapshot_2026_08_24.json
+429,mod,imb11-subwaycine,SubwayCine,IMB11,IMB11,https://github.com/IMB11,0,0,33,33,33,33,snapshot_2026_09_07.json,snapshot_2026_08_24.json
+430,mod,prospector-ghebeek,Prospector,matematysek,matematysek,https://github.com/matematysek,0,0,23,23,23,23,snapshot_2026_09_07.json,snapshot_2026_08_24.json
+431,mod,zz-deletion-fixture,Deletion Fixture,subway-builder-modded-admin,Subway Builder Modded,https://subwaybuildermodded.com,0,0,0,0,0,0,snapshot_2026_09_07.json,snapshot_2026_08_24.json
+432,mod,zz-deprecation-fixture,Deprecation Fixture,subway-builder-modded-admin,Subway Builder Modded,https://subwaybuildermodded.com,0,0,0,0,0,0,snapshot_2026_09_07.json,snapshot_2026_08_24.json
