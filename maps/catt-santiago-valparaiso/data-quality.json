@@ -1,0 +1,28 @@
+{
+  "schema_version": 1,
+  "id": "catt-santiago-valparaiso",
+  "answers": {
+    "workplace_count": "physical_measured",
+    "workplace_granularity": "adm5",
+    "workplace_resolution": "ml_hybrid_footprints",
+    "workplace_intensity": "fine_types_generic",
+    "resident_count": "employed_residents",
+    "resident_granularity": "adm5",
+    "resident_resolution": "mesh_125_or_adm5",
+    "resident_intensity": "measured_per_unit",
+    "od_metric": "full_matrix",
+    "od_granularity": "adm5"
+  },
+  "notes": "Demand is built person-by-person from Chilean government household travel surveys (Encuesta Origen-Destino, SECTRA / Ministerio de Transportes). Each surveyed household carries a geocoded home address; each person carries a geocoded workplace or place of study plus a weekday expansion factor. One game pop = one surveyed person's home-to-work or home-to-study trip at their survey weight, scaled to the game's demand basis. No gravity model is used.\n\nSurveys, all with per-person geocoded origin and destination:\n- EOD Santiago 2012, official 2017 census re-expansion, 11,230 weekday households in bbox\n- EOD Gran Valparaiso 2014, 7,152 households\n- EOD San Antonio 2017, 1,687 households\n\nEach survey region is scaled to its own represented population, so neither end of the map dominates the other. Cross-region commuting is real where the surveys recorded it: the Valparaiso survey codes destinations in the Region Metropolitana as external zones, giving 19,465 daily commuters into Santiago and 8,983 the other way.\n\nResidence anchoring: Censo 2017 manzana (city block) microdata from INE, 63,618 blocks in bbox. Checked for suppression: comuna sums match published comuna totals exactly (e.g. Colina 146,207, Lampa 102,034), so no loss at block grain. Where the 2012 survey under-represents an area that has since grown (Chicureo, Batuco, Polpaico), synthetic households are added to match census block counts, cloned from nearby surveyed households matched on reported income. Comuna totals are preserved. This affects about 3% of the map.\n\nTowns inside the bbox that no EOD covers (Quillota, Casablanca, Curacavi, El Quisco, Algarrobo, Cartagena, El Tabo, Santo Domingo) have residents placed from Censo 2017 blocks, with commute patterns cloned from the nearest surveyed households of similar income - San Antonio households for the southern coast, Valparaiso households for the north. El Quisco and Algarrobo have no nearby donor and commute locally by assumption.\n\nEmployment rate of 0.41 where census-derived employed residents are needed, derived independently from two surveys (Santiago 0.409, Valparaiso 0.429).\n\nVintages: residence Censo 2017; workplace EOD 2012 / 2014 / 2017; buildings Overture/OSM 2026.\n\nKnown limitations: the Santiago survey is 2012 fieldwork re-expanded to 2017 population. Trip purposes are limited to work and study, which is what the game's demand model represents.",
+  "sources": [
+    "https://www.sectra.gob.cl/info-territorial/region-metropolitana-de-santiago/",
+    "https://www.ine.gob.cl/docs/default-source/geodatos-abiertos/cartografia/censo-2017/siedu/shp/microdatos_manzana.zip",
+    "https://www.sii.cl/estadisticas/region/PUB_Reg_Com.xlsx"
+  ],
+  "provenance": {
+    "method": "self-reported",
+    "submitted_by": "holapapie-png",
+    "reviewed_by": null,
+    "date": "2026-09-07"
+  }
+}
