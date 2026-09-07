@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
   "zone_tag": "436c0657e9f4ae2256e5ffb96122273a",
-  "generated_at": "2026-09-07T06:37:31.144Z",
+  "generated_at": "2026-09-07T07:00:58.827Z",
   "valid_paths": [
     "/",
     "/404.html",
@@ -2211,11 +2211,11 @@
   "path_aliases": {},
   "summary": {
     "latest_day": "2026-09-07",
-    "latest_hour": "2026-09-07T06:00:00.000Z",
+    "latest_hour": "2026-09-07T07:00:00.000Z",
     "total_days": 144,
-    "total_hours": 2420,
-    "latest_day_visits": 39,
-    "latest_hour_visits": 38
+    "total_hours": 2421,
+    "latest_day_visits": 40,
+    "latest_hour_visits": 1
   },
   "time_series": {
     "by_day": [
@@ -2793,7 +2793,7 @@
       },
       {
         "date": "2026-09-07",
-        "visits": 39
+        "visits": 40
       }
     ],
     "by_hour": [
@@ -12476,6 +12476,10 @@
       {
         "hour": "2026-09-07T06:00:00.000Z",
         "visits": 38
+      },
+      {
+        "hour": "2026-09-07T07:00:00.000Z",
+        "visits": 1
       }
     ]
   },
@@ -34119,11 +34123,11 @@
       }
     },
     "2026-09-07": {
-      "captured_at": "2026-09-07T06:37:28.760Z",
+      "captured_at": "2026-09-07T07:00:56.359Z",
       "window_start": "2026-09-07T00:00:00.000Z",
-      "window_end": "2026-09-07T07:00:00.000Z",
+      "window_end": "2026-09-07T08:00:00.000Z",
       "totals": {
-        "visits": 39
+        "visits": 40
       },
       "pages": {
         "/": 19,
@@ -34143,7 +34147,7 @@
         "/registry/maps/tel-aviv": 1,
         "/registry/maps/tri-cities/versions/1.0.2": 1,
         "/registry/maps/yukina-tw-southern-taiwan": 1,
-        "/registry/mods": 2,
+        "/registry/mods": 3,
         "/registry/mods/distance-circles/versions/0.6.0": 1,
         "/registry/mods/improved-schematics/versions/v2.3.0": 1
       },
@@ -34152,10 +34156,10 @@
         "HK": 1,
         "NZ": 1,
         "SG": 2,
-        "US": 31
+        "US": 32
       },
       "browsers": {
-        "BingBot": 5,
+        "BingBot": 6,
         "Chrome": 4,
         "GoogleBot": 13,
         "MobileSafari": 1,
@@ -34165,12 +34169,12 @@
       "operating_systems": {
         "Android": 13,
         "MacOSX": 2,
-        "Unknown": 20,
+        "Unknown": 21,
         "Windows": 3,
         "iOS": 1
       },
       "devices": {
-        "desktop": 25,
+        "desktop": 26,
         "mobile": 14
       }
     }
