@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
   "zone_tag": "436c0657e9f4ae2256e5ffb96122273a",
-  "updated_at": "2026-09-08T00:00:49.443Z",
+  "updated_at": "2026-09-08T00:39:58.620Z",
   "valid_paths": [
     "/",
     "/404.html",
@@ -1668,6 +1668,7 @@
     "/registry/maps/yukina-morioka/versions/0.2.0",
     "/registry/maps/yukina-nagasaki",
     "/registry/maps/yukina-nagasaki/versions",
+    "/registry/maps/yukina-nagasaki/versions/0.3.0",
     "/registry/maps/yukina-nagoya",
     "/registry/maps/yukina-nagoya/versions",
     "/registry/maps/yukina-nagoya/versions/0.1.4",
@@ -1787,6 +1788,7 @@
     "/registry/maps/yukina-pl-wroclaw",
     "/registry/maps/yukina-pl-wroclaw/versions",
     "/registry/maps/yukina-pl-wroclaw/versions/0.2.1",
+    "/registry/maps/yukina-pl-wroclaw/versions/0.3.0",
     "/registry/maps/yukina-pl-wroclaw/versions/0.4.0",
     "/registry/maps/yukina-pl-zielona-gora",
     "/registry/maps/yukina-pl-zielona-gora/versions",
@@ -83612,17 +83614,50 @@
       "devices": {}
     },
     "2026-09-08T00:00:00.000Z": {
-      "captured_at": "2026-09-08T00:00:49.443Z",
+      "captured_at": "2026-09-08T00:39:58.620Z",
       "window_start": "2026-09-08T00:00:00.000Z",
       "window_end": "2026-09-08T01:00:00.000Z",
       "totals": {
-        "visits": 0
+        "visits": 31
       },
-      "pages": {},
-      "countries": {},
-      "browsers": {},
-      "operating_systems": {},
-      "devices": {}
+      "pages": {
+        "/": 21,
+        "/railyard": 1,
+        "/registry/maps/yukina-hachinohe": 1,
+        "/registry/maps/yukina-kobe-akashi": 1,
+        "/registry/maps/yukina-nagasaki/versions/0.3.0": 1,
+        "/registry/maps/yukina-nagoya/versions/0.2.3": 1,
+        "/registry/maps/yukina-pl-wroclaw/versions/0.3.0": 1,
+        "/registry/mods": 3,
+        "/registry/mods/lrt-trains": 1
+      },
+      "countries": {
+        "DE": 3,
+        "PE": 2,
+        "SG": 2,
+        "US": 24
+      },
+      "browsers": {
+        "BingBot": 6,
+        "Chrome": 1,
+        "ChromeMobile": 1,
+        "GoogleBot": 2,
+        "MobileSafari": 1,
+        "Opera": 2,
+        "Safari": 3,
+        "Unknown": 15
+      },
+      "operating_systems": {
+        "Android": 3,
+        "MacOSX": 3,
+        "Unknown": 21,
+        "Windows": 3,
+        "iOS": 1
+      },
+      "devices": {
+        "desktop": 27,
+        "mobile": 4
+      }
     }
   },
   "daily_snapshots": {
@@ -105346,17 +105381,50 @@
       }
     },
     "2026-09-08": {
-      "captured_at": "2026-09-08T00:00:49.443Z",
+      "captured_at": "2026-09-08T00:39:58.620Z",
       "window_start": "2026-09-08T00:00:00.000Z",
       "window_end": "2026-09-08T01:00:00.000Z",
       "totals": {
-        "visits": 0
+        "visits": 31
       },
-      "pages": {},
-      "countries": {},
-      "browsers": {},
-      "operating_systems": {},
-      "devices": {}
+      "pages": {
+        "/": 21,
+        "/railyard": 1,
+        "/registry/maps/yukina-hachinohe": 1,
+        "/registry/maps/yukina-kobe-akashi": 1,
+        "/registry/maps/yukina-nagasaki/versions/0.3.0": 1,
+        "/registry/maps/yukina-nagoya/versions/0.2.3": 1,
+        "/registry/maps/yukina-pl-wroclaw/versions/0.3.0": 1,
+        "/registry/mods": 3,
+        "/registry/mods/lrt-trains": 1
+      },
+      "countries": {
+        "DE": 3,
+        "PE": 2,
+        "SG": 2,
+        "US": 24
+      },
+      "browsers": {
+        "BingBot": 6,
+        "Chrome": 1,
+        "ChromeMobile": 1,
+        "GoogleBot": 2,
+        "MobileSafari": 1,
+        "Opera": 2,
+        "Safari": 3,
+        "Unknown": 15
+      },
+      "operating_systems": {
+        "Android": 3,
+        "MacOSX": 3,
+        "Unknown": 21,
+        "Windows": 3,
+        "iOS": 1
+      },
+      "devices": {
+        "desktop": 27,
+        "mobile": 4
+      }
     }
   }
 }
