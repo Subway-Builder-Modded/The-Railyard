@@ -1,10 +1,4 @@
 bucket_utc,listing_type,id,downloads
-2026-08-25T18:00Z,map,jelegend-tokyo,1
-2026-08-25T18:00Z,map,puerto-rico,1
-2026-08-25T18:00Z,map,shanghai,1
-2026-08-25T18:00Z,map,yukina-tw-kaohsiung,1
-2026-08-25T18:00Z,map,yukina-tw-taipei,1
-2026-08-25T18:00Z,mod,simple-trains,1
 2026-08-25T19:00Z,map,berlin-val,1
 2026-08-25T19:00Z,map,busan-4,4
 2026-08-25T19:00Z,map,eurodistrict-bale,1
@@ -14779,3 +14773,11 @@ bucket_utc,listing_type,id,downloads
 2026-09-08T18:00Z,mod,train-anarchy,3
 2026-09-08T18:00Z,mod,transit-overlay,1
 2026-09-08T18:00Z,mod,valdotoriums-trains,1
+2026-09-08T19:00Z,map,baghdad,1
+2026-09-08T19:00Z,map,sofia-bulgaria,1
+2026-09-08T19:00Z,map,yukina-cz-brno,1
+2026-09-08T19:00Z,map,yukina-cz-praha,1
+2026-09-08T19:00Z,map,yukina-ua-kyiv,1
+2026-09-08T19:00Z,mod,auto-lines,1
+2026-09-08T19:00Z,mod,improved-schematics,1
+2026-09-08T19:00Z,mod,la-metro-trainpack,1
