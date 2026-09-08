@@ -1,8 +1,4 @@
 bucket_utc,listing_type,id,downloads
-2026-08-25T06:00Z,map,nz-christchurch,1
-2026-08-25T06:00Z,map,springfield-il,1
-2026-08-25T06:00Z,map,yukina-ee-parnu,1
-2026-08-25T06:00Z,map,yukina-tw-kaohsiung,1
 2026-08-25T07:00Z,map,amsterdam,1
 2026-08-25T07:00Z,map,baltimore-dc-corridor,1
 2026-08-25T07:00Z,map,barcelona,1
@@ -15060,3 +15056,17 @@ bucket_utc,listing_type,id,downloads
 2026-09-08T06:00Z,mod,intercity-hsr-trains,1
 2026-09-08T06:00Z,mod,missed-connections,1
 2026-09-08T06:00Z,mod,subwaybuilder-regions,1
+2026-09-08T07:00Z,map,aachen,1
+2026-09-08T07:00Z,map,au-melbourne,1
+2026-09-08T07:00Z,map,barcelona,1
+2026-09-08T07:00Z,map,milan,1
+2026-09-08T07:00Z,map,toronto,1
+2026-09-08T07:00Z,map,vienna,1
+2026-09-08T07:00Z,map,yukina-keihanshin,1
+2026-09-08T07:00Z,mod,improved-schematics,1
+2026-09-08T07:00Z,mod,intercity-hsr-trains,1
+2026-09-08T07:00Z,mod,japanese-trains,1
+2026-09-08T07:00Z,mod,map-markers,1
+2026-09-08T07:00Z,mod,missed-connections,1
+2026-09-08T07:00Z,mod,penguin-approved-rolling-stock,1
+2026-09-08T07:00Z,mod,subway-builder-performance,1
