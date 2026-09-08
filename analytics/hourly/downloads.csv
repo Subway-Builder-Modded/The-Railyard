@@ -15185,10 +15185,16 @@ bucket_utc,listing_type,id,downloads
 2026-09-08T03:00Z,mod,transit-overlay,1
 2026-09-08T04:00Z,map,au-melbourne,1
 2026-09-08T04:00Z,map,au-syd2,2
+2026-09-08T04:00Z,map,barcelona,1
+2026-09-08T04:00Z,map,berlin-val,1
 2026-09-08T04:00Z,map,ciudad-de-mexico,1
+2026-09-08T04:00Z,map,mfn-hong-kong,1
+2026-09-08T04:00Z,map,milan,1
 2026-09-08T04:00Z,map,orlando,1
+2026-09-08T04:00Z,map,rome,1
 2026-09-08T04:00Z,map,singapore-val,1
 2026-09-08T04:00Z,map,sydney,1
+2026-09-08T04:00Z,map,tel-aviv,1
 2026-09-08T04:00Z,map,yukina-asahikawa,1
 2026-09-08T04:00Z,map,yukina-cz-ostrava,1
 2026-09-08T04:00Z,map,yukina-cz-praha,1
@@ -15209,6 +15215,7 @@ bucket_utc,listing_type,id,downloads
 2026-09-08T04:00Z,map,yukina-shizuoka-hamamatsu,1
 2026-09-08T04:00Z,map,yukina-tsugaru,1
 2026-09-08T04:00Z,map,yukina-tw-taichung,1
+2026-09-08T04:00Z,mod,auto-lines,1
 2026-09-08T04:00Z,mod,dantrains-abridged,1
 2026-09-08T04:00Z,mod,distance-circles,1
 2026-09-08T04:00Z,mod,intercity-hsr-trains,1
@@ -15217,3 +15224,5 @@ bucket_utc,listing_type,id,downloads
 2026-09-08T04:00Z,mod,orbital-surveyor,1
 2026-09-08T04:00Z,mod,station-dots,1
 2026-09-08T04:00Z,mod,subway-builder-performance,1
+2026-09-08T04:00Z,mod,subwaybuilder-regions,1
+2026-09-08T04:00Z,mod,transit-overlay,1
