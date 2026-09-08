@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
   "zone_tag": "436c0657e9f4ae2256e5ffb96122273a",
-  "updated_at": "2026-09-08T14:01:24.513Z",
+  "updated_at": "2026-09-08T14:46:08.898Z",
   "valid_paths": [
     "/",
     "/404.html",
@@ -1498,6 +1498,7 @@
     "/registry/maps/yukina-cz-hradec-pardubice/versions/0.4.1",
     "/registry/maps/yukina-cz-jihlava",
     "/registry/maps/yukina-cz-jihlava/versions/0.1.0",
+    "/registry/maps/yukina-cz-jihlava/versions/0.2.1",
     "/registry/maps/yukina-cz-karlovy-vary",
     "/registry/maps/yukina-cz-karlovy-vary/versions/0.2.1",
     "/registry/maps/yukina-cz-liberec-jablonec",
@@ -1761,6 +1762,7 @@
     "/registry/maps/yukina-pl-plock-wloclawek/versions/0.2.1",
     "/registry/maps/yukina-pl-poznan",
     "/registry/maps/yukina-pl-poznan/map",
+    "/registry/maps/yukina-pl-poznan/versions",
     "/registry/maps/yukina-pl-poznan/versions/0.3.0",
     "/registry/maps/yukina-pl-radom",
     "/registry/maps/yukina-pl-radom/versions",
@@ -1872,6 +1874,7 @@
     "/registry/maps/yukina-ua-odesa/versions",
     "/registry/maps/yukina-ua-odesa/versions/0.1.0",
     "/registry/maps/yukina-ua-zaporizhzhia",
+    "/registry/maps/yukina-ua-zhytomyr",
     "/registry/maps/yukina-utsunomiya",
     "/registry/maps/yukina-utsunomiya/versions",
     "/registry/maps/yukina-utsunomiya/versions/0.1.1",
@@ -2041,6 +2044,7 @@
     "/registry/mods/lrt-trains/versions/v2.0.0",
     "/registry/mods/madrid-transit-pack",
     "/registry/mods/madrid-transit-pack/versions/v0.10.0",
+    "/registry/mods/madrid-transit-pack/versions/v0.13.0",
     "/registry/mods/madrid-transit-pack/versions/v0.9.0",
     "/registry/mods/madrid-transit-pack/versions/v0.9.2",
     "/registry/mods/madrid-transit-pack/versions/v0.9.3",
@@ -83829,17 +83833,65 @@
       "devices": {}
     },
     "2026-09-08T14:00:00.000Z": {
-      "captured_at": "2026-09-08T14:01:24.513Z",
+      "captured_at": "2026-09-08T14:46:08.898Z",
       "window_start": "2026-09-08T14:00:00.000Z",
       "window_end": "2026-09-08T15:00:00.000Z",
       "totals": {
-        "visits": 0
+        "visits": 52
       },
-      "pages": {},
-      "countries": {},
-      "browsers": {},
-      "operating_systems": {},
-      "devices": {}
+      "pages": {
+        "/": 23,
+        "/contribute": 1,
+        "/railyard": 1,
+        "/railyard/updates/v0.1.0": 1,
+        "/registry": 3,
+        "/registry/maps": 1,
+        "/registry/maps/martinique/versions": 1,
+        "/registry/maps/warsaw-val": 1,
+        "/registry/maps/yukina-cz-jihlava/versions/0.2.1": 1,
+        "/registry/maps/yukina-cz-liberec-jablonec/versions/0.3.0": 1,
+        "/registry/maps/yukina-pl-poznan/versions": 1,
+        "/registry/maps/yukina-ua-zhytomyr": 4,
+        "/registry/mods": 1,
+        "/registry/mods/madrid-transit-pack/versions/v0.13.0": 1,
+        "/registry/mods/subwaybuilder-regions": 9,
+        "/registry/mods/transit-overlay/versions/v1.5.3": 1,
+        "/terms-of-service": 1
+      },
+      "countries": {
+        "BD": 1,
+        "BE": 1,
+        "DE": 1,
+        "ES": 1,
+        "ID": 2,
+        "PH": 2,
+        "SG": 2,
+        "TW": 2,
+        "US": 40
+      },
+      "browsers": {
+        "BingBot": 1,
+        "Chrome": 4,
+        "ChromeMobile": 5,
+        "Edge": 1,
+        "Firefox": 1,
+        "GoogleBot": 10,
+        "MobileSafari": 1,
+        "Safari": 1,
+        "Unknown": 28
+      },
+      "operating_systems": {
+        "Android": 15,
+        "Linux": 1,
+        "MacOSX": 1,
+        "Unknown": 29,
+        "Windows": 5,
+        "iOS": 1
+      },
+      "devices": {
+        "desktop": 36,
+        "mobile": 16
+      }
     }
   },
   "daily_snapshots": {
@@ -105563,49 +105615,72 @@
       }
     },
     "2026-09-08": {
-      "captured_at": "2026-09-08T14:01:24.513Z",
+      "captured_at": "2026-09-08T14:46:08.898Z",
       "window_start": "2026-09-08T00:00:00.000Z",
       "window_end": "2026-09-08T15:00:00.000Z",
       "totals": {
-        "visits": 31
+        "visits": 83
       },
       "pages": {
-        "/": 21,
-        "/railyard": 1,
+        "/": 44,
+        "/contribute": 1,
+        "/railyard": 2,
+        "/railyard/updates/v0.1.0": 1,
+        "/registry": 3,
+        "/registry/maps": 1,
+        "/registry/maps/martinique/versions": 1,
+        "/registry/maps/warsaw-val": 1,
+        "/registry/maps/yukina-cz-jihlava/versions/0.2.1": 1,
+        "/registry/maps/yukina-cz-liberec-jablonec/versions/0.3.0": 1,
         "/registry/maps/yukina-hachinohe": 1,
         "/registry/maps/yukina-kobe-akashi": 1,
         "/registry/maps/yukina-nagasaki/versions/0.3.0": 1,
         "/registry/maps/yukina-nagoya/versions/0.2.3": 1,
+        "/registry/maps/yukina-pl-poznan/versions": 1,
         "/registry/maps/yukina-pl-wroclaw/versions/0.3.0": 1,
-        "/registry/mods": 3,
-        "/registry/mods/lrt-trains": 1
+        "/registry/maps/yukina-ua-zhytomyr": 4,
+        "/registry/mods": 4,
+        "/registry/mods/lrt-trains": 1,
+        "/registry/mods/madrid-transit-pack/versions/v0.13.0": 1,
+        "/registry/mods/subwaybuilder-regions": 9,
+        "/registry/mods/transit-overlay/versions/v1.5.3": 1,
+        "/terms-of-service": 1
       },
       "countries": {
-        "DE": 3,
+        "BD": 1,
+        "BE": 1,
+        "DE": 4,
+        "ES": 1,
+        "ID": 2,
         "PE": 2,
-        "SG": 2,
-        "US": 24
+        "PH": 2,
+        "SG": 4,
+        "TW": 2,
+        "US": 64
       },
       "browsers": {
-        "BingBot": 6,
-        "Chrome": 1,
-        "ChromeMobile": 1,
-        "GoogleBot": 2,
-        "MobileSafari": 1,
+        "BingBot": 7,
+        "Chrome": 5,
+        "ChromeMobile": 6,
+        "Edge": 1,
+        "Firefox": 1,
+        "GoogleBot": 12,
+        "MobileSafari": 2,
         "Opera": 2,
-        "Safari": 3,
-        "Unknown": 15
+        "Safari": 4,
+        "Unknown": 43
       },
       "operating_systems": {
-        "Android": 3,
-        "MacOSX": 3,
-        "Unknown": 21,
-        "Windows": 3,
-        "iOS": 1
+        "Android": 18,
+        "Linux": 1,
+        "MacOSX": 4,
+        "Unknown": 50,
+        "Windows": 8,
+        "iOS": 2
       },
       "devices": {
-        "desktop": 27,
-        "mobile": 4
+        "desktop": 63,
+        "mobile": 20
       }
     }
   }
