@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
   "repo": "Subway-Builder-Modded/railyard",
-  "updated_at": "2026-09-08T19:03:05.497Z",
+  "updated_at": "2026-09-08T19:33:39.919Z",
   "snapshots": {
     "2026-03-30T16:00:00.000Z": {
       "captured_at": "2026-03-30T16:00:00.000Z",
@@ -479011,13 +479011,13 @@
       "captured_at": "2026-09-08T19:00:00.000Z",
       "versions": {
         "0.2.10": {
-          "total_downloads": 4737,
+          "total_downloads": 4744,
           "assets": {
             "railyard-v0.2.10-current-linux-amd64.flatpak": 154,
-            "railyard-v0.2.10-macos-universal.dmg": 1380,
+            "railyard-v0.2.10-macos-universal.dmg": 1383,
             "railyard-v0.2.10-macos-universal.zip": 112,
-            "railyard-v0.2.10-windows-amd64-installer.exe": 2922,
-            "railyard-v0.2.10-windows-amd64-portable.zip": 115,
+            "railyard-v0.2.10-windows-amd64-installer.exe": 2924,
+            "railyard-v0.2.10-windows-amd64-portable.zip": 117,
             "railyard-v0.2.10-windows-arm64-installer.exe": 44,
             "railyard-v0.2.10-windows-arm64-portable.zip": 10
           }
