@@ -15309,7 +15309,13 @@ bucket_utc,listing_type,id,downloads
 2026-09-07T23:00Z,mod,transit-overlay,1
 2026-09-07T23:00Z,mod,valdotoriums-trains,1
 2026-09-08T00:00Z,map,mfn-hamptonroads,1
+2026-09-08T00:00Z,map,rhein-main-neckar,1
 2026-09-08T00:00Z,map,seoul,1
+2026-09-08T00:00Z,map,stuttgart,1
 2026-09-08T00:00Z,map,vienna,1
+2026-09-08T00:00Z,mod,distance-circles,1
+2026-09-08T00:00Z,mod,intercity-hsr-trains,1
 2026-09-08T00:00Z,mod,missed-connections,1
 2026-09-08T00:00Z,mod,neighborhood-station-names,1
+2026-09-08T00:00Z,mod,noah-great-society,1
+2026-09-08T00:00Z,mod,subway-builder-performance,1
