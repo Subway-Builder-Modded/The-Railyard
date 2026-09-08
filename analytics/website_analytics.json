@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
   "zone_tag": "436c0657e9f4ae2256e5ffb96122273a",
-  "generated_at": "2026-09-08T18:00:55.100Z",
+  "generated_at": "2026-09-08T18:57:49.355Z",
   "valid_paths": [
     "/",
     "/404.html",
@@ -818,6 +818,7 @@
     "/registry/maps/akron-oh/versions",
     "/registry/maps/albany",
     "/registry/maps/aleppo",
+    "/registry/maps/aleppo/versions/1.0.0",
     "/registry/maps/alicante",
     "/registry/maps/alicante/versions/1.0.0",
     "/registry/maps/amba",
@@ -1151,6 +1152,7 @@
     "/registry/maps/martinique/versions",
     "/registry/maps/mashhad",
     "/registry/maps/memphis",
+    "/registry/maps/metz-nancy/versions",
     "/registry/maps/mexicali",
     "/registry/maps/mexicali/versions/1.0.0",
     "/registry/maps/mexicali/versions/1.1.1",
@@ -1490,6 +1492,7 @@
     "/registry/maps/yukina-cz-ceske-budejovice",
     "/registry/maps/yukina-cz-ceske-budejovice/versions",
     "/registry/maps/yukina-cz-ceske-budejovice/versions/0.3.1",
+    "/registry/maps/yukina-cz-ceske-budejovice/versions/0.3.2",
     "/registry/maps/yukina-cz-hradec-pardubice",
     "/registry/maps/yukina-cz-hradec-pardubice/versions",
     "/registry/maps/yukina-cz-hradec-pardubice/versions/0.1.0",
@@ -2223,8 +2226,8 @@
     "latest_hour": "2026-09-08T18:00:00.000Z",
     "total_days": 145,
     "total_hours": 2456,
-    "latest_day_visits": 83,
-    "latest_hour_visits": 0
+    "latest_day_visits": 170,
+    "latest_hour_visits": 87
   },
   "time_series": {
     "by_day": [
@@ -2806,7 +2809,7 @@
       },
       {
         "date": "2026-09-08",
-        "visits": 83
+        "visits": 170
       }
     ],
     "by_hour": [
@@ -12632,7 +12635,7 @@
       },
       {
         "hour": "2026-09-08T18:00:00.000Z",
-        "visits": 0
+        "visits": 87
       }
     ]
   },
@@ -34357,72 +34360,102 @@
       }
     },
     "2026-09-08": {
-      "captured_at": "2026-09-08T18:00:52.389Z",
+      "captured_at": "2026-09-08T18:57:47.039Z",
       "window_start": "2026-09-08T00:00:00.000Z",
       "window_end": "2026-09-08T19:00:00.000Z",
       "totals": {
-        "visits": 83
+        "visits": 170
       },
       "pages": {
-        "/": 44,
+        "/": 88,
         "/contribute": 1,
-        "/railyard": 2,
+        "/depot/updates/v1.0.7": 1,
+        "/depot/updates/v1.2.2": 1,
+        "/railyard": 18,
         "/railyard/updates/v0.1.0": 1,
         "/registry": 3,
-        "/registry/maps": 1,
+        "/registry/analytics": 1,
+        "/registry/authors": 2,
+        "/registry/authors/rslurry/subwaybuilder-maps": 1,
+        "/registry/maps": 2,
+        "/registry/maps/aleppo/versions/1.0.0": 1,
+        "/registry/maps/bangkok": 1,
+        "/registry/maps/greater-los-angeles": 1,
+        "/registry/maps/johor-bahru": 1,
         "/registry/maps/martinique/versions": 1,
+        "/registry/maps/metz-nancy/versions": 1,
+        "/registry/maps/orange-county/versions/1.1.0": 1,
+        "/registry/maps/singapore-val": 1,
+        "/registry/maps/tel-aviv/versions": 1,
+        "/registry/maps/toulouse/versions/1.0.1": 1,
+        "/registry/maps/tri-cities/versions/1.0.2": 1,
         "/registry/maps/warsaw-val": 1,
+        "/registry/maps/yukina-cz-ceske-budejovice/versions/0.3.2": 1,
         "/registry/maps/yukina-cz-jihlava/versions/0.2.1": 1,
         "/registry/maps/yukina-cz-liberec-jablonec/versions/0.3.0": 1,
+        "/registry/maps/yukina-cz-ostrava": 1,
         "/registry/maps/yukina-hachinohe": 1,
         "/registry/maps/yukina-kobe-akashi": 1,
+        "/registry/maps/yukina-lt-panevezys/versions": 1,
+        "/registry/maps/yukina-miyazaki/versions/0.1.0": 1,
         "/registry/maps/yukina-nagasaki/versions/0.3.0": 1,
         "/registry/maps/yukina-nagoya/versions/0.2.3": 1,
         "/registry/maps/yukina-pl-poznan/versions": 1,
+        "/registry/maps/yukina-pl-warszawa": 1,
         "/registry/maps/yukina-pl-wroclaw/versions/0.3.0": 1,
         "/registry/maps/yukina-ua-zhytomyr": 4,
-        "/registry/mods": 4,
+        "/registry/mods": 5,
+        "/registry/mods/chinese-trains": 1,
+        "/registry/mods/kr-ktp": 1,
         "/registry/mods/lrt-trains": 1,
         "/registry/mods/madrid-transit-pack/versions/v0.13.0": 1,
+        "/registry/mods/station-dots": 1,
         "/registry/mods/subwaybuilder-regions": 9,
+        "/registry/mods/subwaybuilder-regions/versions/v0.4.7": 1,
         "/registry/mods/transit-overlay/versions/v1.5.3": 1,
         "/terms-of-service": 1
       },
       "countries": {
+        "AR": 1,
         "BD": 1,
         "BE": 1,
-        "DE": 4,
-        "ES": 1,
+        "CH": 4,
+        "CN": 3,
+        "DE": 7,
+        "ES": 3,
+        "FR": 4,
         "ID": 2,
+        "NL": 10,
         "PE": 2,
         "PH": 2,
-        "SG": 4,
+        "SG": 6,
         "TW": 2,
-        "US": 64
+        "US": 121,
+        "ZA": 1
       },
       "browsers": {
-        "BingBot": 7,
-        "Chrome": 5,
+        "BingBot": 12,
+        "Chrome": 25,
         "ChromeMobile": 6,
         "Edge": 1,
-        "Firefox": 1,
-        "GoogleBot": 12,
-        "MobileSafari": 2,
-        "Opera": 2,
-        "Safari": 4,
-        "Unknown": 43
+        "Firefox": 4,
+        "GoogleBot": 24,
+        "MobileSafari": 3,
+        "Opera": 12,
+        "Safari": 8,
+        "Unknown": 75
       },
       "operating_systems": {
-        "Android": 18,
+        "Android": 30,
         "Linux": 1,
-        "MacOSX": 4,
-        "Unknown": 50,
-        "Windows": 8,
-        "iOS": 2
+        "MacOSX": 19,
+        "Unknown": 87,
+        "Windows": 30,
+        "iOS": 3
       },
       "devices": {
-        "desktop": 63,
-        "mobile": 20
+        "desktop": 137,
+        "mobile": 33
       }
     }
   }
