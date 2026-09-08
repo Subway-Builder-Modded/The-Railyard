@@ -184,10 +184,10 @@ test("runGenerateAnalyticsCli writes asset_versions_by_day.csv with clamped per-
     assert.equal(
       versionByDayCsv,
       [
-        "listing_type,id,version,total_downloads,2026_03_30,2026_03_31",
-        "map,sample-map,1.0.0,12,10,2",
-        "map,sample-map,1.1.0,4,0,4",
-        "mod,sample-mod,1.0.0,5,5,0",
+        "listing_type,id,version,total_downloads,2026_03_30,2026_03_31,first_seen",
+        "map,sample-map,1.0.0,12,10,2,2026_03_30",
+        "map,sample-map,1.1.0,4,0,4,2026_03_31",
+        "mod,sample-mod,1.0.0,5,5,0,2026_03_30",
         "",
       ].join("\n"),
     );
