@@ -35,10 +35,14 @@ when these lived at the top level), e.g. `pnpm --dir scripts run audit-download-
   parameterized shared-pack attribution audits.
 - `backfill-website-analytics.ts` — refetch missed hourly Cloudflare snapshots
   (worker/capture outage gap-filler).
-- `backfill-hourly-downloads.ts` — deterministically rebuilds
-  `analytics/hourly/downloads.csv` (rolling per-listing hourly deltas) from the
-  git history of `downloads.json`; initial backfill and the recovery path if
-  the hourly appender's series is ever lost or corrupted. Any administrative
+- `backfill-hourly-downloads.ts` — deterministically rebuilds the hourly
+  download series (`analytics/hourly/downloads-YYYY-MM.csv` monthly shards plus
+  the legacy trailing-window `downloads.csv`) from the git history of
+  `downloads.json`; initial backfill and the recovery path if the hourly
+  appender's series is ever lost or corrupted. The window defaults to the
+  full span back to `HOURLY_DOWNLOADS_BACKFILL_FLOOR` (2026-07-01 — hourly
+  commits are too sparse before the Cloudflare Worker scheduler; see
+  KNOWN_INCIDENTS.md) and `--days` can only shorten it. Any administrative
   counter RAISE (grandfathered restore, ledger-rebuild recovery) reads as a
   one-hour download burst — the clamp only guards drops. **After such a
   recovery, add an entry to `history/hourly-suppressions.json`** (bucket hour +

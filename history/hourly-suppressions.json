@@ -18,6 +18,1068 @@
       "listing_type": "mod",
       "id": "imb11-subwaycine",
       "reason": "private-repo-wipe restoration burst (KNOWN_INCIDENTS 2026-08-04) - administrative counter raise, not traffic; repo was private, zero organic downloads possible"
+    },
+    {
+      "bucket_utc": "2026-07-08T09:00Z",
+      "listing_type": "map",
+      "id": "greater-los-angeles",
+      "reason": "429-cascade counter bounce (KNOWN_INCIDENTS 2026-07-08): integrity wipe zeroed counters and the next hourly runs re-booked full cumulative counts as one-hour raises; administrative, not traffic"
+    },
+    {
+      "bucket_utc": "2026-07-08T09:00Z",
+      "listing_type": "map",
+      "id": "toronto",
+      "reason": "429-cascade counter bounce (KNOWN_INCIDENTS 2026-07-08): integrity wipe zeroed counters and the next hourly runs re-booked full cumulative counts as one-hour raises; administrative, not traffic"
+    },
+    {
+      "bucket_utc": "2026-07-08T09:00Z",
+      "listing_type": "map",
+      "id": "mfn-hong-kong",
+      "reason": "429-cascade counter bounce (KNOWN_INCIDENTS 2026-07-08): integrity wipe zeroed counters and the next hourly runs re-booked full cumulative counts as one-hour raises; administrative, not traffic"
+    },
+    {
+      "bucket_utc": "2026-07-08T09:00Z",
+      "listing_type": "map",
+      "id": "jelegend-tokyo",
+      "reason": "429-cascade counter bounce (KNOWN_INCIDENTS 2026-07-08): integrity wipe zeroed counters and the next hourly runs re-booked full cumulative counts as one-hour raises; administrative, not traffic"
+    },
+    {
+      "bucket_utc": "2026-07-08T09:00Z",
+      "listing_type": "map",
+      "id": "ciudad-de-mexico",
+      "reason": "429-cascade counter bounce (KNOWN_INCIDENTS 2026-07-08): integrity wipe zeroed counters and the next hourly runs re-booked full cumulative counts as one-hour raises; administrative, not traffic"
+    },
+    {
+      "bucket_utc": "2026-07-08T09:00Z",
+      "listing_type": "map",
+      "id": "montreal",
+      "reason": "429-cascade counter bounce (KNOWN_INCIDENTS 2026-07-08): integrity wipe zeroed counters and the next hourly runs re-booked full cumulative counts as one-hour raises; administrative, not traffic"
+    },
+    {
+      "bucket_utc": "2026-07-08T09:00Z",
+      "listing_type": "map",
+      "id": "berlin-val",
+      "reason": "429-cascade counter bounce (KNOWN_INCIDENTS 2026-07-08): integrity wipe zeroed counters and the next hourly runs re-booked full cumulative counts as one-hour raises; administrative, not traffic"
+    },
+    {
+      "bucket_utc": "2026-07-08T09:00Z",
+      "listing_type": "map",
+      "id": "los-angeles-county",
+      "reason": "429-cascade counter bounce (KNOWN_INCIDENTS 2026-07-08): integrity wipe zeroed counters and the next hourly runs re-booked full cumulative counts as one-hour raises; administrative, not traffic"
+    },
+    {
+      "bucket_utc": "2026-07-08T09:00Z",
+      "listing_type": "map",
+      "id": "vancouver",
+      "reason": "429-cascade counter bounce (KNOWN_INCIDENTS 2026-07-08): integrity wipe zeroed counters and the next hourly runs re-booked full cumulative counts as one-hour raises; administrative, not traffic"
+    },
+    {
+      "bucket_utc": "2026-07-08T09:00Z",
+      "listing_type": "map",
+      "id": "sydney",
+      "reason": "429-cascade counter bounce (KNOWN_INCIDENTS 2026-07-08): integrity wipe zeroed counters and the next hourly runs re-booked full cumulative counts as one-hour raises; administrative, not traffic"
+    },
+    {
+      "bucket_utc": "2026-07-08T09:00Z",
+      "listing_type": "map",
+      "id": "amsterdam",
+      "reason": "429-cascade counter bounce (KNOWN_INCIDENTS 2026-07-08): integrity wipe zeroed counters and the next hourly runs re-booked full cumulative counts as one-hour raises; administrative, not traffic"
+    },
+    {
+      "bucket_utc": "2026-07-08T09:00Z",
+      "listing_type": "map",
+      "id": "singapore-val",
+      "reason": "429-cascade counter bounce (KNOWN_INCIDENTS 2026-07-08): integrity wipe zeroed counters and the next hourly runs re-booked full cumulative counts as one-hour raises; administrative, not traffic"
+    },
+    {
+      "bucket_utc": "2026-07-08T09:00Z",
+      "listing_type": "map",
+      "id": "shanghai",
+      "reason": "429-cascade counter bounce (KNOWN_INCIDENTS 2026-07-08): integrity wipe zeroed counters and the next hourly runs re-booked full cumulative counts as one-hour raises; administrative, not traffic"
+    },
+    {
+      "bucket_utc": "2026-07-08T09:00Z",
+      "listing_type": "map",
+      "id": "charleston-huntington-wv",
+      "reason": "429-cascade counter bounce (KNOWN_INCIDENTS 2026-07-08): integrity wipe zeroed counters and the next hourly runs re-booked full cumulative counts as one-hour raises; administrative, not traffic"
+    },
+    {
+      "bucket_utc": "2026-07-08T09:00Z",
+      "listing_type": "map",
+      "id": "helsinki",
+      "reason": "429-cascade counter bounce (KNOWN_INCIDENTS 2026-07-08): integrity wipe zeroed counters and the next hourly runs re-booked full cumulative counts as one-hour raises; administrative, not traffic"
+    },
+    {
+      "bucket_utc": "2026-07-08T09:00Z",
+      "listing_type": "map",
+      "id": "guangzhou",
+      "reason": "429-cascade counter bounce (KNOWN_INCIDENTS 2026-07-08): integrity wipe zeroed counters and the next hourly runs re-booked full cumulative counts as one-hour raises; administrative, not traffic"
+    },
+    {
+      "bucket_utc": "2026-07-08T09:00Z",
+      "listing_type": "map",
+      "id": "monterrey",
+      "reason": "429-cascade counter bounce (KNOWN_INCIDENTS 2026-07-08): integrity wipe zeroed counters and the next hourly runs re-booked full cumulative counts as one-hour raises; administrative, not traffic"
+    },
+    {
+      "bucket_utc": "2026-07-08T09:00Z",
+      "listing_type": "map",
+      "id": "tampa-bay",
+      "reason": "429-cascade counter bounce (KNOWN_INCIDENTS 2026-07-08): integrity wipe zeroed counters and the next hourly runs re-booked full cumulative counts as one-hour raises; administrative, not traffic"
+    },
+    {
+      "bucket_utc": "2026-07-08T09:00Z",
+      "listing_type": "map",
+      "id": "dublin",
+      "reason": "429-cascade counter bounce (KNOWN_INCIDENTS 2026-07-08): integrity wipe zeroed counters and the next hourly runs re-booked full cumulative counts as one-hour raises; administrative, not traffic"
+    },
+    {
+      "bucket_utc": "2026-07-08T09:00Z",
+      "listing_type": "map",
+      "id": "ottawa",
+      "reason": "429-cascade counter bounce (KNOWN_INCIDENTS 2026-07-08): integrity wipe zeroed counters and the next hourly runs re-booked full cumulative counts as one-hour raises; administrative, not traffic"
+    },
+    {
+      "bucket_utc": "2026-07-08T09:00Z",
+      "listing_type": "map",
+      "id": "guadalajara",
+      "reason": "429-cascade counter bounce (KNOWN_INCIDENTS 2026-07-08): integrity wipe zeroed counters and the next hourly runs re-booked full cumulative counts as one-hour raises; administrative, not traffic"
+    },
+    {
+      "bucket_utc": "2026-07-08T09:00Z",
+      "listing_type": "map",
+      "id": "baltimore-dc-corridor",
+      "reason": "429-cascade counter bounce (KNOWN_INCIDENTS 2026-07-08): integrity wipe zeroed counters and the next hourly runs re-booked full cumulative counts as one-hour raises; administrative, not traffic"
+    },
+    {
+      "bucket_utc": "2026-07-08T09:00Z",
+      "listing_type": "map",
+      "id": "rotterdam-the-hague",
+      "reason": "429-cascade counter bounce (KNOWN_INCIDENTS 2026-07-08): integrity wipe zeroed counters and the next hourly runs re-booked full cumulative counts as one-hour raises; administrative, not traffic"
+    },
+    {
+      "bucket_utc": "2026-07-08T09:00Z",
+      "listing_type": "map",
+      "id": "shenzhen",
+      "reason": "429-cascade counter bounce (KNOWN_INCIDENTS 2026-07-08): integrity wipe zeroed counters and the next hourly runs re-booked full cumulative counts as one-hour raises; administrative, not traffic"
+    },
+    {
+      "bucket_utc": "2026-07-08T09:00Z",
+      "listing_type": "map",
+      "id": "calgary",
+      "reason": "429-cascade counter bounce (KNOWN_INCIDENTS 2026-07-08): integrity wipe zeroed counters and the next hourly runs re-booked full cumulative counts as one-hour raises; administrative, not traffic"
+    },
+    {
+      "bucket_utc": "2026-07-08T09:00Z",
+      "listing_type": "map",
+      "id": "mfn-lasvegas",
+      "reason": "429-cascade counter bounce (KNOWN_INCIDENTS 2026-07-08): integrity wipe zeroed counters and the next hourly runs re-booked full cumulative counts as one-hour raises; administrative, not traffic"
+    },
+    {
+      "bucket_utc": "2026-07-08T09:00Z",
+      "listing_type": "map",
+      "id": "puerto-rico",
+      "reason": "429-cascade counter bounce (KNOWN_INCIDENTS 2026-07-08): integrity wipe zeroed counters and the next hourly runs re-booked full cumulative counts as one-hour raises; administrative, not traffic"
+    },
+    {
+      "bucket_utc": "2026-07-08T09:00Z",
+      "listing_type": "map",
+      "id": "warsaw-val",
+      "reason": "429-cascade counter bounce (KNOWN_INCIDENTS 2026-07-08): integrity wipe zeroed counters and the next hourly runs re-booked full cumulative counts as one-hour raises; administrative, not traffic"
+    },
+    {
+      "bucket_utc": "2026-07-08T09:00Z",
+      "listing_type": "map",
+      "id": "edmonton",
+      "reason": "429-cascade counter bounce (KNOWN_INCIDENTS 2026-07-08): integrity wipe zeroed counters and the next hourly runs re-booked full cumulative counts as one-hour raises; administrative, not traffic"
+    },
+    {
+      "bucket_utc": "2026-07-08T09:00Z",
+      "listing_type": "map",
+      "id": "quebec-city",
+      "reason": "429-cascade counter bounce (KNOWN_INCIDENTS 2026-07-08): integrity wipe zeroed counters and the next hourly runs re-booked full cumulative counts as one-hour raises; administrative, not traffic"
+    },
+    {
+      "bucket_utc": "2026-07-08T09:00Z",
+      "listing_type": "map",
+      "id": "greater-chicagoland",
+      "reason": "429-cascade counter bounce (KNOWN_INCIDENTS 2026-07-08): integrity wipe zeroed counters and the next hourly runs re-booked full cumulative counts as one-hour raises; administrative, not traffic"
+    },
+    {
+      "bucket_utc": "2026-07-08T09:00Z",
+      "listing_type": "map",
+      "id": "oslo-no",
+      "reason": "429-cascade counter bounce (KNOWN_INCIDENTS 2026-07-08): integrity wipe zeroed counters and the next hourly runs re-booked full cumulative counts as one-hour raises; administrative, not traffic"
+    },
+    {
+      "bucket_utc": "2026-07-08T09:00Z",
+      "listing_type": "map",
+      "id": "winnipeg",
+      "reason": "429-cascade counter bounce (KNOWN_INCIDENTS 2026-07-08): integrity wipe zeroed counters and the next hourly runs re-booked full cumulative counts as one-hour raises; administrative, not traffic"
+    },
+    {
+      "bucket_utc": "2026-07-08T09:00Z",
+      "listing_type": "map",
+      "id": "daytonatti",
+      "reason": "429-cascade counter bounce (KNOWN_INCIDENTS 2026-07-08): integrity wipe zeroed counters and the next hourly runs re-booked full cumulative counts as one-hour raises; administrative, not traffic"
+    },
+    {
+      "bucket_utc": "2026-07-08T09:00Z",
+      "listing_type": "map",
+      "id": "cairo",
+      "reason": "429-cascade counter bounce (KNOWN_INCIDENTS 2026-07-08): integrity wipe zeroed counters and the next hourly runs re-booked full cumulative counts as one-hour raises; administrative, not traffic"
+    },
+    {
+      "bucket_utc": "2026-07-08T09:00Z",
+      "listing_type": "map",
+      "id": "mfn-madisonwi",
+      "reason": "429-cascade counter bounce (KNOWN_INCIDENTS 2026-07-08): integrity wipe zeroed counters and the next hourly runs re-booked full cumulative counts as one-hour raises; administrative, not traffic"
+    },
+    {
+      "bucket_utc": "2026-07-08T09:00Z",
+      "listing_type": "map",
+      "id": "beijing",
+      "reason": "429-cascade counter bounce (KNOWN_INCIDENTS 2026-07-08): integrity wipe zeroed counters and the next hourly runs re-booked full cumulative counts as one-hour raises; administrative, not traffic"
+    },
+    {
+      "bucket_utc": "2026-07-08T09:00Z",
+      "listing_type": "map",
+      "id": "opo-pt-metropolitan",
+      "reason": "429-cascade counter bounce (KNOWN_INCIDENTS 2026-07-08): integrity wipe zeroed counters and the next hourly runs re-booked full cumulative counts as one-hour raises; administrative, not traffic"
+    },
+    {
+      "bucket_utc": "2026-07-08T09:00Z",
+      "listing_type": "map",
+      "id": "lima",
+      "reason": "429-cascade counter bounce (KNOWN_INCIDENTS 2026-07-08): integrity wipe zeroed counters and the next hourly runs re-booked full cumulative counts as one-hour raises; administrative, not traffic"
+    },
+    {
+      "bucket_utc": "2026-07-08T09:00Z",
+      "listing_type": "map",
+      "id": "tijuana-san-diego",
+      "reason": "429-cascade counter bounce (KNOWN_INCIDENTS 2026-07-08): integrity wipe zeroed counters and the next hourly runs re-booked full cumulative counts as one-hour raises; administrative, not traffic"
+    },
+    {
+      "bucket_utc": "2026-07-08T09:00Z",
+      "listing_type": "map",
+      "id": "orlando",
+      "reason": "429-cascade counter bounce (KNOWN_INCIDENTS 2026-07-08): integrity wipe zeroed counters and the next hourly runs re-booked full cumulative counts as one-hour raises; administrative, not traffic"
+    },
+    {
+      "bucket_utc": "2026-07-08T09:00Z",
+      "listing_type": "map",
+      "id": "chongqing",
+      "reason": "429-cascade counter bounce (KNOWN_INCIDENTS 2026-07-08): integrity wipe zeroed counters and the next hourly runs re-booked full cumulative counts as one-hour raises; administrative, not traffic"
+    },
+    {
+      "bucket_utc": "2026-07-08T09:00Z",
+      "listing_type": "map",
+      "id": "south-florida",
+      "reason": "429-cascade counter bounce (KNOWN_INCIDENTS 2026-07-08): integrity wipe zeroed counters and the next hourly runs re-booked full cumulative counts as one-hour raises; administrative, not traffic"
+    },
+    {
+      "bucket_utc": "2026-07-08T09:00Z",
+      "listing_type": "map",
+      "id": "greatertwincities",
+      "reason": "429-cascade counter bounce (KNOWN_INCIDENTS 2026-07-08): integrity wipe zeroed counters and the next hourly runs re-booked full cumulative counts as one-hour raises; administrative, not traffic"
+    },
+    {
+      "bucket_utc": "2026-07-08T09:00Z",
+      "listing_type": "map",
+      "id": "rhode-island",
+      "reason": "429-cascade counter bounce (KNOWN_INCIDENTS 2026-07-08): integrity wipe zeroed counters and the next hourly runs re-booked full cumulative counts as one-hour raises; administrative, not traffic"
+    },
+    {
+      "bucket_utc": "2026-07-08T09:00Z",
+      "listing_type": "map",
+      "id": "trondheim-val",
+      "reason": "429-cascade counter bounce (KNOWN_INCIDENTS 2026-07-08): integrity wipe zeroed counters and the next hourly runs re-booked full cumulative counts as one-hour raises; administrative, not traffic"
+    },
+    {
+      "bucket_utc": "2026-07-08T09:00Z",
+      "listing_type": "map",
+      "id": "providence",
+      "reason": "429-cascade counter bounce (KNOWN_INCIDENTS 2026-07-08): integrity wipe zeroed counters and the next hourly runs re-booked full cumulative counts as one-hour raises; administrative, not traffic"
+    },
+    {
+      "bucket_utc": "2026-07-08T09:00Z",
+      "listing_type": "map",
+      "id": "sacramento",
+      "reason": "429-cascade counter bounce (KNOWN_INCIDENTS 2026-07-08): integrity wipe zeroed counters and the next hourly runs re-booked full cumulative counts as one-hour raises; administrative, not traffic"
+    },
+    {
+      "bucket_utc": "2026-07-08T09:00Z",
+      "listing_type": "map",
+      "id": "albany",
+      "reason": "429-cascade counter bounce (KNOWN_INCIDENTS 2026-07-08): integrity wipe zeroed counters and the next hourly runs re-booked full cumulative counts as one-hour raises; administrative, not traffic"
+    },
+    {
+      "bucket_utc": "2026-07-08T09:00Z",
+      "listing_type": "map",
+      "id": "san-juan",
+      "reason": "429-cascade counter bounce (KNOWN_INCIDENTS 2026-07-08): integrity wipe zeroed counters and the next hourly runs re-booked full cumulative counts as one-hour raises; administrative, not traffic"
+    },
+    {
+      "bucket_utc": "2026-07-08T09:00Z",
+      "listing_type": "map",
+      "id": "spokane",
+      "reason": "429-cascade counter bounce (KNOWN_INCIDENTS 2026-07-08): integrity wipe zeroed counters and the next hourly runs re-booked full cumulative counts as one-hour raises; administrative, not traffic"
+    },
+    {
+      "bucket_utc": "2026-07-08T09:00Z",
+      "listing_type": "map",
+      "id": "nashville",
+      "reason": "429-cascade counter bounce (KNOWN_INCIDENTS 2026-07-08): integrity wipe zeroed counters and the next hourly runs re-booked full cumulative counts as one-hour raises; administrative, not traffic"
+    },
+    {
+      "bucket_utc": "2026-07-08T09:00Z",
+      "listing_type": "map",
+      "id": "oklahoma-city",
+      "reason": "429-cascade counter bounce (KNOWN_INCIDENTS 2026-07-08): integrity wipe zeroed counters and the next hourly runs re-booked full cumulative counts as one-hour raises; administrative, not traffic"
+    },
+    {
+      "bucket_utc": "2026-07-08T09:00Z",
+      "listing_type": "map",
+      "id": "puebla",
+      "reason": "429-cascade counter bounce (KNOWN_INCIDENTS 2026-07-08): integrity wipe zeroed counters and the next hourly runs re-booked full cumulative counts as one-hour raises; administrative, not traffic"
+    },
+    {
+      "bucket_utc": "2026-07-08T09:00Z",
+      "listing_type": "map",
+      "id": "richmond",
+      "reason": "429-cascade counter bounce (KNOWN_INCIDENTS 2026-07-08): integrity wipe zeroed counters and the next hourly runs re-booked full cumulative counts as one-hour raises; administrative, not traffic"
+    },
+    {
+      "bucket_utc": "2026-07-08T09:00Z",
+      "listing_type": "map",
+      "id": "orange-county",
+      "reason": "429-cascade counter bounce (KNOWN_INCIDENTS 2026-07-08): integrity wipe zeroed counters and the next hourly runs re-booked full cumulative counts as one-hour raises; administrative, not traffic"
+    },
+    {
+      "bucket_utc": "2026-07-08T09:00Z",
+      "listing_type": "map",
+      "id": "jacksonville",
+      "reason": "429-cascade counter bounce (KNOWN_INCIDENTS 2026-07-08): integrity wipe zeroed counters and the next hourly runs re-booked full cumulative counts as one-hour raises; administrative, not traffic"
+    },
+    {
+      "bucket_utc": "2026-07-08T09:00Z",
+      "listing_type": "map",
+      "id": "cdmx-core",
+      "reason": "429-cascade counter bounce (KNOWN_INCIDENTS 2026-07-08): integrity wipe zeroed counters and the next hourly runs re-booked full cumulative counts as one-hour raises; administrative, not traffic"
+    },
+    {
+      "bucket_utc": "2026-07-08T09:00Z",
+      "listing_type": "map",
+      "id": "mfn-hamptonroads",
+      "reason": "429-cascade counter bounce (KNOWN_INCIDENTS 2026-07-08): integrity wipe zeroed counters and the next hourly runs re-booked full cumulative counts as one-hour raises; administrative, not traffic"
+    },
+    {
+      "bucket_utc": "2026-07-08T09:00Z",
+      "listing_type": "map",
+      "id": "buffalo-ny",
+      "reason": "429-cascade counter bounce (KNOWN_INCIDENTS 2026-07-08): integrity wipe zeroed counters and the next hourly runs re-booked full cumulative counts as one-hour raises; administrative, not traffic"
+    },
+    {
+      "bucket_utc": "2026-07-08T09:00Z",
+      "listing_type": "map",
+      "id": "colorado-ski-country",
+      "reason": "429-cascade counter bounce (KNOWN_INCIDENTS 2026-07-08): integrity wipe zeroed counters and the next hourly runs re-booked full cumulative counts as one-hour raises; administrative, not traffic"
+    },
+    {
+      "bucket_utc": "2026-07-08T09:00Z",
+      "listing_type": "map",
+      "id": "ciudad-juarez-el-paso",
+      "reason": "429-cascade counter bounce (KNOWN_INCIDENTS 2026-07-08): integrity wipe zeroed counters and the next hourly runs re-booked full cumulative counts as one-hour raises; administrative, not traffic"
+    },
+    {
+      "bucket_utc": "2026-07-08T09:00Z",
+      "listing_type": "map",
+      "id": "greater-portland",
+      "reason": "429-cascade counter bounce (KNOWN_INCIDENTS 2026-07-08): integrity wipe zeroed counters and the next hourly runs re-booked full cumulative counts as one-hour raises; administrative, not traffic"
+    },
+    {
+      "bucket_utc": "2026-07-08T09:00Z",
+      "listing_type": "map",
+      "id": "louisville",
+      "reason": "429-cascade counter bounce (KNOWN_INCIDENTS 2026-07-08): integrity wipe zeroed counters and the next hourly runs re-booked full cumulative counts as one-hour raises; administrative, not traffic"
+    },
+    {
+      "bucket_utc": "2026-07-08T09:00Z",
+      "listing_type": "map",
+      "id": "connecticut-usa",
+      "reason": "429-cascade counter bounce (KNOWN_INCIDENTS 2026-07-08): integrity wipe zeroed counters and the next hourly runs re-booked full cumulative counts as one-hour raises; administrative, not traffic"
+    },
+    {
+      "bucket_utc": "2026-07-08T09:00Z",
+      "listing_type": "map",
+      "id": "santa-barbara",
+      "reason": "429-cascade counter bounce (KNOWN_INCIDENTS 2026-07-08): integrity wipe zeroed counters and the next hourly runs re-booked full cumulative counts as one-hour raises; administrative, not traffic"
+    },
+    {
+      "bucket_utc": "2026-07-08T09:00Z",
+      "listing_type": "map",
+      "id": "rochester",
+      "reason": "429-cascade counter bounce (KNOWN_INCIDENTS 2026-07-08): integrity wipe zeroed counters and the next hourly runs re-booked full cumulative counts as one-hour raises; administrative, not traffic"
+    },
+    {
+      "bucket_utc": "2026-07-08T09:00Z",
+      "listing_type": "map",
+      "id": "anchorage-ak",
+      "reason": "429-cascade counter bounce (KNOWN_INCIDENTS 2026-07-08): integrity wipe zeroed counters and the next hourly runs re-booked full cumulative counts as one-hour raises; administrative, not traffic"
+    },
+    {
+      "bucket_utc": "2026-07-08T09:00Z",
+      "listing_type": "map",
+      "id": "san-antonio",
+      "reason": "429-cascade counter bounce (KNOWN_INCIDENTS 2026-07-08): integrity wipe zeroed counters and the next hourly runs re-booked full cumulative counts as one-hour raises; administrative, not traffic"
+    },
+    {
+      "bucket_utc": "2026-07-08T09:00Z",
+      "listing_type": "map",
+      "id": "greater-baltimore",
+      "reason": "429-cascade counter bounce (KNOWN_INCIDENTS 2026-07-08): integrity wipe zeroed counters and the next hourly runs re-booked full cumulative counts as one-hour raises; administrative, not traffic"
+    },
+    {
+      "bucket_utc": "2026-07-08T09:00Z",
+      "listing_type": "map",
+      "id": "memphis",
+      "reason": "429-cascade counter bounce (KNOWN_INCIDENTS 2026-07-08): integrity wipe zeroed counters and the next hourly runs re-booked full cumulative counts as one-hour raises; administrative, not traffic"
+    },
+    {
+      "bucket_utc": "2026-07-08T09:00Z",
+      "listing_type": "map",
+      "id": "mfn-msy",
+      "reason": "429-cascade counter bounce (KNOWN_INCIDENTS 2026-07-08): integrity wipe zeroed counters and the next hourly runs re-booked full cumulative counts as one-hour raises; administrative, not traffic"
+    },
+    {
+      "bucket_utc": "2026-07-08T09:00Z",
+      "listing_type": "map",
+      "id": "jerusalem",
+      "reason": "429-cascade counter bounce (KNOWN_INCIDENTS 2026-07-08): integrity wipe zeroed counters and the next hourly runs re-booked full cumulative counts as one-hour raises; administrative, not traffic"
+    },
+    {
+      "bucket_utc": "2026-07-08T09:00Z",
+      "listing_type": "map",
+      "id": "mfn-northwestar",
+      "reason": "429-cascade counter bounce (KNOWN_INCIDENTS 2026-07-08): integrity wipe zeroed counters and the next hourly runs re-booked full cumulative counts as one-hour raises; administrative, not traffic"
+    },
+    {
+      "bucket_utc": "2026-07-08T09:00Z",
+      "listing_type": "map",
+      "id": "bergen-stavanger-no",
+      "reason": "429-cascade counter bounce (KNOWN_INCIDENTS 2026-07-08): integrity wipe zeroed counters and the next hourly runs re-booked full cumulative counts as one-hour raises; administrative, not traffic"
+    },
+    {
+      "bucket_utc": "2026-07-08T09:00Z",
+      "listing_type": "map",
+      "id": "willamette-valley",
+      "reason": "429-cascade counter bounce (KNOWN_INCIDENTS 2026-07-08): integrity wipe zeroed counters and the next hourly runs re-booked full cumulative counts as one-hour raises; administrative, not traffic"
+    },
+    {
+      "bucket_utc": "2026-07-08T09:00Z",
+      "listing_type": "map",
+      "id": "charleston-sc",
+      "reason": "429-cascade counter bounce (KNOWN_INCIDENTS 2026-07-08): integrity wipe zeroed counters and the next hourly runs re-booked full cumulative counts as one-hour raises; administrative, not traffic"
+    },
+    {
+      "bucket_utc": "2026-07-08T09:00Z",
+      "listing_type": "map",
+      "id": "saltillo",
+      "reason": "429-cascade counter bounce (KNOWN_INCIDENTS 2026-07-08): integrity wipe zeroed counters and the next hourly runs re-booked full cumulative counts as one-hour raises; administrative, not traffic"
+    },
+    {
+      "bucket_utc": "2026-07-08T09:00Z",
+      "listing_type": "map",
+      "id": "tromso-no",
+      "reason": "429-cascade counter bounce (KNOWN_INCIDENTS 2026-07-08): integrity wipe zeroed counters and the next hourly runs re-booked full cumulative counts as one-hour raises; administrative, not traffic"
+    },
+    {
+      "bucket_utc": "2026-07-08T09:00Z",
+      "listing_type": "map",
+      "id": "mfn-rdu",
+      "reason": "429-cascade counter bounce (KNOWN_INCIDENTS 2026-07-08): integrity wipe zeroed counters and the next hourly runs re-booked full cumulative counts as one-hour raises; administrative, not traffic"
+    },
+    {
+      "bucket_utc": "2026-07-08T09:00Z",
+      "listing_type": "map",
+      "id": "waterloo",
+      "reason": "429-cascade counter bounce (KNOWN_INCIDENTS 2026-07-08): integrity wipe zeroed counters and the next hourly runs re-booked full cumulative counts as one-hour raises; administrative, not traffic"
+    },
+    {
+      "bucket_utc": "2026-07-08T09:00Z",
+      "listing_type": "map",
+      "id": "trondheim-no",
+      "reason": "429-cascade counter bounce (KNOWN_INCIDENTS 2026-07-08): integrity wipe zeroed counters and the next hourly runs re-booked full cumulative counts as one-hour raises; administrative, not traffic"
+    },
+    {
+      "bucket_utc": "2026-07-08T09:00Z",
+      "listing_type": "map",
+      "id": "pulau-pinang",
+      "reason": "429-cascade counter bounce (KNOWN_INCIDENTS 2026-07-08): integrity wipe zeroed counters and the next hourly runs re-booked full cumulative counts as one-hour raises; administrative, not traffic"
+    },
+    {
+      "bucket_utc": "2026-07-08T09:00Z",
+      "listing_type": "map",
+      "id": "tri-cities",
+      "reason": "429-cascade counter bounce (KNOWN_INCIDENTS 2026-07-08): integrity wipe zeroed counters and the next hourly runs re-booked full cumulative counts as one-hour raises; administrative, not traffic"
+    },
+    {
+      "bucket_utc": "2026-07-08T09:00Z",
+      "listing_type": "map",
+      "id": "dayton-oh",
+      "reason": "429-cascade counter bounce (KNOWN_INCIDENTS 2026-07-08): integrity wipe zeroed counters and the next hourly runs re-booked full cumulative counts as one-hour raises; administrative, not traffic"
+    },
+    {
+      "bucket_utc": "2026-07-08T09:00Z",
+      "listing_type": "map",
+      "id": "syracuse-ny",
+      "reason": "429-cascade counter bounce (KNOWN_INCIDENTS 2026-07-08): integrity wipe zeroed counters and the next hourly runs re-booked full cumulative counts as one-hour raises; administrative, not traffic"
+    },
+    {
+      "bucket_utc": "2026-07-08T09:00Z",
+      "listing_type": "map",
+      "id": "wilmington-nc",
+      "reason": "429-cascade counter bounce (KNOWN_INCIDENTS 2026-07-08): integrity wipe zeroed counters and the next hourly runs re-booked full cumulative counts as one-hour raises; administrative, not traffic"
+    },
+    {
+      "bucket_utc": "2026-07-08T09:00Z",
+      "listing_type": "map",
+      "id": "piedmont-triad",
+      "reason": "429-cascade counter bounce (KNOWN_INCIDENTS 2026-07-08): integrity wipe zeroed counters and the next hourly runs re-booked full cumulative counts as one-hour raises; administrative, not traffic"
+    },
+    {
+      "bucket_utc": "2026-07-08T09:00Z",
+      "listing_type": "map",
+      "id": "knoxville",
+      "reason": "429-cascade counter bounce (KNOWN_INCIDENTS 2026-07-08): integrity wipe zeroed counters and the next hourly runs re-booked full cumulative counts as one-hour raises; administrative, not traffic"
+    },
+    {
+      "bucket_utc": "2026-07-08T09:00Z",
+      "listing_type": "map",
+      "id": "mexicali",
+      "reason": "429-cascade counter bounce (KNOWN_INCIDENTS 2026-07-08): integrity wipe zeroed counters and the next hourly runs re-booked full cumulative counts as one-hour raises; administrative, not traffic"
+    },
+    {
+      "bucket_utc": "2026-07-08T09:00Z",
+      "listing_type": "map",
+      "id": "toledo-oh",
+      "reason": "429-cascade counter bounce (KNOWN_INCIDENTS 2026-07-08): integrity wipe zeroed counters and the next hourly runs re-booked full cumulative counts as one-hour raises; administrative, not traffic"
+    },
+    {
+      "bucket_utc": "2026-07-08T09:00Z",
+      "listing_type": "map",
+      "id": "akron-oh",
+      "reason": "429-cascade counter bounce (KNOWN_INCIDENTS 2026-07-08): integrity wipe zeroed counters and the next hourly runs re-booked full cumulative counts as one-hour raises; administrative, not traffic"
+    },
+    {
+      "bucket_utc": "2026-07-08T09:00Z",
+      "listing_type": "map",
+      "id": "cusco",
+      "reason": "429-cascade counter bounce (KNOWN_INCIDENTS 2026-07-08): integrity wipe zeroed counters and the next hourly runs re-booked full cumulative counts as one-hour raises; administrative, not traffic"
+    },
+    {
+      "bucket_utc": "2026-07-08T09:00Z",
+      "listing_type": "map",
+      "id": "arequipa",
+      "reason": "429-cascade counter bounce (KNOWN_INCIDENTS 2026-07-08): integrity wipe zeroed counters and the next hourly runs re-booked full cumulative counts as one-hour raises; administrative, not traffic"
+    },
+    {
+      "bucket_utc": "2026-07-08T09:00Z",
+      "listing_type": "map",
+      "id": "kristiansand-no",
+      "reason": "429-cascade counter bounce (KNOWN_INCIDENTS 2026-07-08): integrity wipe zeroed counters and the next hourly runs re-booked full cumulative counts as one-hour raises; administrative, not traffic"
+    },
+    {
+      "bucket_utc": "2026-07-08T09:00Z",
+      "listing_type": "map",
+      "id": "johor-bahru",
+      "reason": "429-cascade counter bounce (KNOWN_INCIDENTS 2026-07-08): integrity wipe zeroed counters and the next hourly runs re-booked full cumulative counts as one-hour raises; administrative, not traffic"
+    },
+    {
+      "bucket_utc": "2026-07-08T09:00Z",
+      "listing_type": "map",
+      "id": "tel-aviv",
+      "reason": "429-cascade counter bounce (KNOWN_INCIDENTS 2026-07-08): integrity wipe zeroed counters and the next hourly runs re-booked full cumulative counts as one-hour raises; administrative, not traffic"
+    },
+    {
+      "bucket_utc": "2026-07-08T09:00Z",
+      "listing_type": "map",
+      "id": "chiclayo",
+      "reason": "429-cascade counter bounce (KNOWN_INCIDENTS 2026-07-08): integrity wipe zeroed counters and the next hourly runs re-booked full cumulative counts as one-hour raises; administrative, not traffic"
+    },
+    {
+      "bucket_utc": "2026-07-08T09:00Z",
+      "listing_type": "map",
+      "id": "trujillo",
+      "reason": "429-cascade counter bounce (KNOWN_INCIDENTS 2026-07-08): integrity wipe zeroed counters and the next hourly runs re-booked full cumulative counts as one-hour raises; administrative, not traffic"
+    },
+    {
+      "bucket_utc": "2026-07-08T09:00Z",
+      "listing_type": "map",
+      "id": "chimbote",
+      "reason": "429-cascade counter bounce (KNOWN_INCIDENTS 2026-07-08): integrity wipe zeroed counters and the next hourly runs re-booked full cumulative counts as one-hour raises; administrative, not traffic"
+    },
+    {
+      "bucket_utc": "2026-07-08T09:00Z",
+      "listing_type": "map",
+      "id": "piura",
+      "reason": "429-cascade counter bounce (KNOWN_INCIDENTS 2026-07-08): integrity wipe zeroed counters and the next hourly runs re-booked full cumulative counts as one-hour raises; administrative, not traffic"
+    },
+    {
+      "bucket_utc": "2026-07-08T09:00Z",
+      "listing_type": "map",
+      "id": "iquitos",
+      "reason": "429-cascade counter bounce (KNOWN_INCIDENTS 2026-07-08): integrity wipe zeroed counters and the next hourly runs re-booked full cumulative counts as one-hour raises; administrative, not traffic"
+    },
+    {
+      "bucket_utc": "2026-07-08T09:00Z",
+      "listing_type": "map",
+      "id": "huancayo-jauja",
+      "reason": "429-cascade counter bounce (KNOWN_INCIDENTS 2026-07-08): integrity wipe zeroed counters and the next hourly runs re-booked full cumulative counts as one-hour raises; administrative, not traffic"
+    },
+    {
+      "bucket_utc": "2026-07-09T02:00Z",
+      "listing_type": "map",
+      "id": "seoul-3",
+      "reason": "429-cascade restoration (KNOWN_INCIDENTS 2026-07-08): counts restored from known-good commits; administrative raise, not traffic"
+    },
+    {
+      "bucket_utc": "2026-07-09T02:00Z",
+      "listing_type": "map",
+      "id": "tampa-bay",
+      "reason": "429-cascade restoration (KNOWN_INCIDENTS 2026-07-08): counts restored from known-good commits; administrative raise, not traffic"
+    },
+    {
+      "bucket_utc": "2026-07-09T02:00Z",
+      "listing_type": "map",
+      "id": "shenzhen",
+      "reason": "429-cascade restoration (KNOWN_INCIDENTS 2026-07-08): counts restored from known-good commits; administrative raise, not traffic"
+    },
+    {
+      "bucket_utc": "2026-07-09T02:00Z",
+      "listing_type": "map",
+      "id": "dubai",
+      "reason": "429-cascade restoration (KNOWN_INCIDENTS 2026-07-08): counts restored from known-good commits; administrative raise, not traffic"
+    },
+    {
+      "bucket_utc": "2026-07-09T02:00Z",
+      "listing_type": "map",
+      "id": "orange-county",
+      "reason": "429-cascade restoration (KNOWN_INCIDENTS 2026-07-08): counts restored from known-good commits; administrative raise, not traffic"
+    },
+    {
+      "bucket_utc": "2026-07-09T02:00Z",
+      "listing_type": "map",
+      "id": "ciudad-juarez-el-paso",
+      "reason": "429-cascade restoration (KNOWN_INCIDENTS 2026-07-08): counts restored from known-good commits; administrative raise, not traffic"
+    },
+    {
+      "bucket_utc": "2026-07-09T02:00Z",
+      "listing_type": "map",
+      "id": "daejeon-3",
+      "reason": "429-cascade restoration (KNOWN_INCIDENTS 2026-07-08): counts restored from known-good commits; administrative raise, not traffic"
+    },
+    {
+      "bucket_utc": "2026-07-09T02:00Z",
+      "listing_type": "map",
+      "id": "gwangju-4",
+      "reason": "429-cascade restoration (KNOWN_INCIDENTS 2026-07-08): counts restored from known-good commits; administrative raise, not traffic"
+    },
+    {
+      "bucket_utc": "2026-07-09T02:00Z",
+      "listing_type": "map",
+      "id": "knoxville",
+      "reason": "429-cascade restoration (KNOWN_INCIDENTS 2026-07-08): counts restored from known-good commits; administrative raise, not traffic"
+    },
+    {
+      "bucket_utc": "2026-07-09T02:00Z",
+      "listing_type": "map",
+      "id": "kristiansand-no",
+      "reason": "429-cascade restoration (KNOWN_INCIDENTS 2026-07-08): counts restored from known-good commits; administrative raise, not traffic"
+    },
+    {
+      "bucket_utc": "2026-07-09T02:00Z",
+      "listing_type": "map",
+      "id": "johor-bahru",
+      "reason": "429-cascade restoration (KNOWN_INCIDENTS 2026-07-08): counts restored from known-good commits; administrative raise, not traffic"
+    },
+    {
+      "bucket_utc": "2026-07-09T02:00Z",
+      "listing_type": "map",
+      "id": "chimbote",
+      "reason": "429-cascade restoration (KNOWN_INCIDENTS 2026-07-08): counts restored from known-good commits; administrative raise, not traffic"
+    },
+    {
+      "bucket_utc": "2026-07-09T02:00Z",
+      "listing_type": "map",
+      "id": "piura",
+      "reason": "429-cascade restoration (KNOWN_INCIDENTS 2026-07-08): counts restored from known-good commits; administrative raise, not traffic"
+    },
+    {
+      "bucket_utc": "2026-07-09T02:00Z",
+      "listing_type": "map",
+      "id": "opo-pt-metropolitan",
+      "reason": "429-cascade restoration (KNOWN_INCIDENTS 2026-07-08): counts restored from known-good commits; administrative raise, not traffic"
+    },
+    {
+      "bucket_utc": "2026-07-09T03:00Z",
+      "listing_type": "map",
+      "id": "tampa-bay",
+      "reason": "429-cascade restoration (KNOWN_INCIDENTS 2026-07-08): counts restored from known-good commits; administrative raise, not traffic"
+    },
+    {
+      "bucket_utc": "2026-07-09T03:00Z",
+      "listing_type": "map",
+      "id": "shenzhen",
+      "reason": "429-cascade restoration (KNOWN_INCIDENTS 2026-07-08): counts restored from known-good commits; administrative raise, not traffic"
+    },
+    {
+      "bucket_utc": "2026-07-09T03:00Z",
+      "listing_type": "map",
+      "id": "orange-county",
+      "reason": "429-cascade restoration (KNOWN_INCIDENTS 2026-07-08): counts restored from known-good commits; administrative raise, not traffic"
+    },
+    {
+      "bucket_utc": "2026-07-09T03:00Z",
+      "listing_type": "map",
+      "id": "ciudad-juarez-el-paso",
+      "reason": "429-cascade restoration (KNOWN_INCIDENTS 2026-07-08): counts restored from known-good commits; administrative raise, not traffic"
+    },
+    {
+      "bucket_utc": "2026-07-09T03:00Z",
+      "listing_type": "map",
+      "id": "knoxville",
+      "reason": "429-cascade restoration (KNOWN_INCIDENTS 2026-07-08): counts restored from known-good commits; administrative raise, not traffic"
+    },
+    {
+      "bucket_utc": "2026-07-09T03:00Z",
+      "listing_type": "map",
+      "id": "kristiansand-no",
+      "reason": "429-cascade restoration (KNOWN_INCIDENTS 2026-07-08): counts restored from known-good commits; administrative raise, not traffic"
+    },
+    {
+      "bucket_utc": "2026-07-09T03:00Z",
+      "listing_type": "map",
+      "id": "johor-bahru",
+      "reason": "429-cascade restoration (KNOWN_INCIDENTS 2026-07-08): counts restored from known-good commits; administrative raise, not traffic"
+    },
+    {
+      "bucket_utc": "2026-07-09T03:00Z",
+      "listing_type": "map",
+      "id": "piura",
+      "reason": "429-cascade restoration (KNOWN_INCIDENTS 2026-07-08): counts restored from known-good commits; administrative raise, not traffic"
+    },
+    {
+      "bucket_utc": "2026-07-09T03:00Z",
+      "listing_type": "map",
+      "id": "chimbote",
+      "reason": "429-cascade restoration (KNOWN_INCIDENTS 2026-07-08): counts restored from known-good commits; administrative raise, not traffic"
+    },
+    {
+      "bucket_utc": "2026-07-09T03:00Z",
+      "listing_type": "mod",
+      "id": "improved-schematics",
+      "reason": "429-cascade restoration (KNOWN_INCIDENTS 2026-07-08): counts restored from known-good commits; administrative raise, not traffic"
+    },
+    {
+      "bucket_utc": "2026-08-13T00:00Z",
+      "listing_type": "map",
+      "id": "yukina-osaka",
+      "reason": "jp-maps wipe restoration (KNOWN_INCIDENTS 2026-08-12): 183 version counts restored at exact pre-wipe values (16297 downloads); administrative raise, not traffic"
+    },
+    {
+      "bucket_utc": "2026-08-13T00:00Z",
+      "listing_type": "map",
+      "id": "yukina-kyoto",
+      "reason": "jp-maps wipe restoration (KNOWN_INCIDENTS 2026-08-12): 183 version counts restored at exact pre-wipe values (16297 downloads); administrative raise, not traffic"
+    },
+    {
+      "bucket_utc": "2026-08-13T00:00Z",
+      "listing_type": "map",
+      "id": "yukina-fukuoka",
+      "reason": "jp-maps wipe restoration (KNOWN_INCIDENTS 2026-08-12): 183 version counts restored at exact pre-wipe values (16297 downloads); administrative raise, not traffic"
+    },
+    {
+      "bucket_utc": "2026-08-13T00:00Z",
+      "listing_type": "map",
+      "id": "yukina-nagoya",
+      "reason": "jp-maps wipe restoration (KNOWN_INCIDENTS 2026-08-12): 183 version counts restored at exact pre-wipe values (16297 downloads); administrative raise, not traffic"
+    },
+    {
+      "bucket_utc": "2026-08-13T00:00Z",
+      "listing_type": "map",
+      "id": "yukina-sapporo-chitose",
+      "reason": "jp-maps wipe restoration (KNOWN_INCIDENTS 2026-08-12): 183 version counts restored at exact pre-wipe values (16297 downloads); administrative raise, not traffic"
+    },
+    {
+      "bucket_utc": "2026-08-13T00:00Z",
+      "listing_type": "map",
+      "id": "yukina-keihanshin",
+      "reason": "jp-maps wipe restoration (KNOWN_INCIDENTS 2026-08-12): 183 version counts restored at exact pre-wipe values (16297 downloads); administrative raise, not traffic"
+    },
+    {
+      "bucket_utc": "2026-08-13T00:00Z",
+      "listing_type": "map",
+      "id": "yukina-hiroshima-kure",
+      "reason": "jp-maps wipe restoration (KNOWN_INCIDENTS 2026-08-12): 183 version counts restored at exact pre-wipe values (16297 downloads); administrative raise, not traffic"
+    },
+    {
+      "bucket_utc": "2026-08-13T00:00Z",
+      "listing_type": "map",
+      "id": "yukina-okinawa",
+      "reason": "jp-maps wipe restoration (KNOWN_INCIDENTS 2026-08-12): 183 version counts restored at exact pre-wipe values (16297 downloads); administrative raise, not traffic"
+    },
+    {
+      "bucket_utc": "2026-08-13T00:00Z",
+      "listing_type": "map",
+      "id": "yukina-kobe-akashi",
+      "reason": "jp-maps wipe restoration (KNOWN_INCIDENTS 2026-08-12): 183 version counts restored at exact pre-wipe values (16297 downloads); administrative raise, not traffic"
+    },
+    {
+      "bucket_utc": "2026-08-13T00:00Z",
+      "listing_type": "map",
+      "id": "yukina-northern-kyushu",
+      "reason": "jp-maps wipe restoration (KNOWN_INCIDENTS 2026-08-12): 183 version counts restored at exact pre-wipe values (16297 downloads); administrative raise, not traffic"
+    },
+    {
+      "bucket_utc": "2026-08-13T00:00Z",
+      "listing_type": "map",
+      "id": "yukina-sendai",
+      "reason": "jp-maps wipe restoration (KNOWN_INCIDENTS 2026-08-12): 183 version counts restored at exact pre-wipe values (16297 downloads); administrative raise, not traffic"
+    },
+    {
+      "bucket_utc": "2026-08-13T00:00Z",
+      "listing_type": "map",
+      "id": "yukina-kitakyushu-shimonoseki",
+      "reason": "jp-maps wipe restoration (KNOWN_INCIDENTS 2026-08-12): 183 version counts restored at exact pre-wipe values (16297 downloads); administrative raise, not traffic"
+    },
+    {
+      "bucket_utc": "2026-08-13T00:00Z",
+      "listing_type": "map",
+      "id": "yukina-hakodate",
+      "reason": "jp-maps wipe restoration (KNOWN_INCIDENTS 2026-08-12): 183 version counts restored at exact pre-wipe values (16297 downloads); administrative raise, not traffic"
+    },
+    {
+      "bucket_utc": "2026-08-13T00:00Z",
+      "listing_type": "map",
+      "id": "yukina-niigata",
+      "reason": "jp-maps wipe restoration (KNOWN_INCIDENTS 2026-08-12): 183 version counts restored at exact pre-wipe values (16297 downloads); administrative raise, not traffic"
+    },
+    {
+      "bucket_utc": "2026-08-13T00:00Z",
+      "listing_type": "map",
+      "id": "yukina-matsuyama",
+      "reason": "jp-maps wipe restoration (KNOWN_INCIDENTS 2026-08-12): 183 version counts restored at exact pre-wipe values (16297 downloads); administrative raise, not traffic"
+    },
+    {
+      "bucket_utc": "2026-08-13T00:00Z",
+      "listing_type": "map",
+      "id": "yukina-nagasaki",
+      "reason": "jp-maps wipe restoration (KNOWN_INCIDENTS 2026-08-12): 183 version counts restored at exact pre-wipe values (16297 downloads); administrative raise, not traffic"
+    },
+    {
+      "bucket_utc": "2026-08-13T00:00Z",
+      "listing_type": "map",
+      "id": "yukina-kochi",
+      "reason": "jp-maps wipe restoration (KNOWN_INCIDENTS 2026-08-12): 183 version counts restored at exact pre-wipe values (16297 downloads); administrative raise, not traffic"
+    },
+    {
+      "bucket_utc": "2026-08-13T00:00Z",
+      "listing_type": "map",
+      "id": "yukina-kagoshima-kirishima",
+      "reason": "jp-maps wipe restoration (KNOWN_INCIDENTS 2026-08-12): 183 version counts restored at exact pre-wipe values (16297 downloads); administrative raise, not traffic"
+    },
+    {
+      "bucket_utc": "2026-08-13T00:00Z",
+      "listing_type": "map",
+      "id": "yukina-yamagata",
+      "reason": "jp-maps wipe restoration (KNOWN_INCIDENTS 2026-08-12): 183 version counts restored at exact pre-wipe values (16297 downloads); administrative raise, not traffic"
+    },
+    {
+      "bucket_utc": "2026-08-13T00:00Z",
+      "listing_type": "map",
+      "id": "yukina-toyama",
+      "reason": "jp-maps wipe restoration (KNOWN_INCIDENTS 2026-08-12): 183 version counts restored at exact pre-wipe values (16297 downloads); administrative raise, not traffic"
+    },
+    {
+      "bucket_utc": "2026-08-13T00:00Z",
+      "listing_type": "map",
+      "id": "yukina-shizuoka-hamamatsu",
+      "reason": "jp-maps wipe restoration (KNOWN_INCIDENTS 2026-08-12): 183 version counts restored at exact pre-wipe values (16297 downloads); administrative raise, not traffic"
+    },
+    {
+      "bucket_utc": "2026-08-13T00:00Z",
+      "listing_type": "map",
+      "id": "yukina-tokyo",
+      "reason": "jp-maps wipe restoration (KNOWN_INCIDENTS 2026-08-12): 183 version counts restored at exact pre-wipe values (16297 downloads); administrative raise, not traffic"
+    },
+    {
+      "bucket_utc": "2026-08-13T00:00Z",
+      "listing_type": "map",
+      "id": "yukina-asahikawa",
+      "reason": "jp-maps wipe restoration (KNOWN_INCIDENTS 2026-08-12): 183 version counts restored at exact pre-wipe values (16297 downloads); administrative raise, not traffic"
+    },
+    {
+      "bucket_utc": "2026-08-13T00:00Z",
+      "listing_type": "map",
+      "id": "yukina-nakaumi",
+      "reason": "jp-maps wipe restoration (KNOWN_INCIDENTS 2026-08-12): 183 version counts restored at exact pre-wipe values (16297 downloads); administrative raise, not traffic"
+    },
+    {
+      "bucket_utc": "2026-08-13T00:00Z",
+      "listing_type": "map",
+      "id": "yukina-tsugaru",
+      "reason": "jp-maps wipe restoration (KNOWN_INCIDENTS 2026-08-12): 183 version counts restored at exact pre-wipe values (16297 downloads); administrative raise, not traffic"
+    },
+    {
+      "bucket_utc": "2026-08-13T00:00Z",
+      "listing_type": "map",
+      "id": "yukina-nakadoori",
+      "reason": "jp-maps wipe restoration (KNOWN_INCIDENTS 2026-08-12): 183 version counts restored at exact pre-wipe values (16297 downloads); administrative raise, not traffic"
+    },
+    {
+      "bucket_utc": "2026-08-13T00:00Z",
+      "listing_type": "map",
+      "id": "yukina-takamatsu",
+      "reason": "jp-maps wipe restoration (KNOWN_INCIDENTS 2026-08-12): 183 version counts restored at exact pre-wipe values (16297 downloads); administrative raise, not traffic"
+    },
+    {
+      "bucket_utc": "2026-08-13T00:00Z",
+      "listing_type": "map",
+      "id": "yukina-okayama",
+      "reason": "jp-maps wipe restoration (KNOWN_INCIDENTS 2026-08-12): 183 version counts restored at exact pre-wipe values (16297 downloads); administrative raise, not traffic"
+    },
+    {
+      "bucket_utc": "2026-08-13T00:00Z",
+      "listing_type": "map",
+      "id": "yukina-kumamoto",
+      "reason": "jp-maps wipe restoration (KNOWN_INCIDENTS 2026-08-12): 183 version counts restored at exact pre-wipe values (16297 downloads); administrative raise, not traffic"
+    },
+    {
+      "bucket_utc": "2026-08-13T00:00Z",
+      "listing_type": "map",
+      "id": "yukina-morioka",
+      "reason": "jp-maps wipe restoration (KNOWN_INCIDENTS 2026-08-12): 183 version counts restored at exact pre-wipe values (16297 downloads); administrative raise, not traffic"
+    },
+    {
+      "bucket_utc": "2026-08-13T00:00Z",
+      "listing_type": "map",
+      "id": "yukina-tottori",
+      "reason": "jp-maps wipe restoration (KNOWN_INCIDENTS 2026-08-12): 183 version counts restored at exact pre-wipe values (16297 downloads); administrative raise, not traffic"
+    },
+    {
+      "bucket_utc": "2026-08-13T00:00Z",
+      "listing_type": "map",
+      "id": "yukina-wakkanai",
+      "reason": "jp-maps wipe restoration (KNOWN_INCIDENTS 2026-08-12): 183 version counts restored at exact pre-wipe values (16297 downloads); administrative raise, not traffic"
+    },
+    {
+      "bucket_utc": "2026-08-13T00:00Z",
+      "listing_type": "map",
+      "id": "yukina-nemuro",
+      "reason": "jp-maps wipe restoration (KNOWN_INCIDENTS 2026-08-12): 183 version counts restored at exact pre-wipe values (16297 downloads); administrative raise, not traffic"
+    },
+    {
+      "bucket_utc": "2026-08-13T00:00Z",
+      "listing_type": "map",
+      "id": "yukina-fuji-numazu",
+      "reason": "jp-maps wipe restoration (KNOWN_INCIDENTS 2026-08-12): 183 version counts restored at exact pre-wipe values (16297 downloads); administrative raise, not traffic"
+    },
+    {
+      "bucket_utc": "2026-08-13T00:00Z",
+      "listing_type": "map",
+      "id": "yukina-akita",
+      "reason": "jp-maps wipe restoration (KNOWN_INCIDENTS 2026-08-12): 183 version counts restored at exact pre-wipe values (16297 downloads); administrative raise, not traffic"
+    },
+    {
+      "bucket_utc": "2026-08-13T00:00Z",
+      "listing_type": "map",
+      "id": "yukina-kanazawa",
+      "reason": "jp-maps wipe restoration (KNOWN_INCIDENTS 2026-08-12): 183 version counts restored at exact pre-wipe values (16297 downloads); administrative raise, not traffic"
+    },
+    {
+      "bucket_utc": "2026-08-13T00:00Z",
+      "listing_type": "map",
+      "id": "yukina-maebashi",
+      "reason": "jp-maps wipe restoration (KNOWN_INCIDENTS 2026-08-12): 183 version counts restored at exact pre-wipe values (16297 downloads); administrative raise, not traffic"
+    },
+    {
+      "bucket_utc": "2026-08-13T00:00Z",
+      "listing_type": "map",
+      "id": "yukina-nagano",
+      "reason": "jp-maps wipe restoration (KNOWN_INCIDENTS 2026-08-12): 183 version counts restored at exact pre-wipe values (16297 downloads); administrative raise, not traffic"
+    },
+    {
+      "bucket_utc": "2026-08-13T00:00Z",
+      "listing_type": "map",
+      "id": "yukina-utsunomiya",
+      "reason": "jp-maps wipe restoration (KNOWN_INCIDENTS 2026-08-12): 183 version counts restored at exact pre-wipe values (16297 downloads); administrative raise, not traffic"
+    },
+    {
+      "bucket_utc": "2026-08-13T00:00Z",
+      "listing_type": "map",
+      "id": "yukina-fukui",
+      "reason": "jp-maps wipe restoration (KNOWN_INCIDENTS 2026-08-12): 183 version counts restored at exact pre-wipe values (16297 downloads); administrative raise, not traffic"
+    },
+    {
+      "bucket_utc": "2026-08-13T00:00Z",
+      "listing_type": "map",
+      "id": "yukina-matsumoto",
+      "reason": "jp-maps wipe restoration (KNOWN_INCIDENTS 2026-08-12): 183 version counts restored at exact pre-wipe values (16297 downloads); administrative raise, not traffic"
+    },
+    {
+      "bucket_utc": "2026-08-13T00:00Z",
+      "listing_type": "map",
+      "id": "yukina-tokushima",
+      "reason": "jp-maps wipe restoration (KNOWN_INCIDENTS 2026-08-12): 183 version counts restored at exact pre-wipe values (16297 downloads); administrative raise, not traffic"
+    },
+    {
+      "bucket_utc": "2026-08-13T00:00Z",
+      "listing_type": "map",
+      "id": "yukina-wakayama",
+      "reason": "jp-maps wipe restoration (KNOWN_INCIDENTS 2026-08-12): 183 version counts restored at exact pre-wipe values (16297 downloads); administrative raise, not traffic"
+    },
+    {
+      "bucket_utc": "2026-08-13T00:00Z",
+      "listing_type": "map",
+      "id": "yukina-fukuyama",
+      "reason": "jp-maps wipe restoration (KNOWN_INCIDENTS 2026-08-12): 183 version counts restored at exact pre-wipe values (16297 downloads); administrative raise, not traffic"
+    },
+    {
+      "bucket_utc": "2026-08-13T00:00Z",
+      "listing_type": "map",
+      "id": "yukina-mito-hitachi",
+      "reason": "jp-maps wipe restoration (KNOWN_INCIDENTS 2026-08-12): 183 version counts restored at exact pre-wipe values (16297 downloads); administrative raise, not traffic"
+    },
+    {
+      "bucket_utc": "2026-08-13T00:00Z",
+      "listing_type": "map",
+      "id": "yukina-miyazaki",
+      "reason": "jp-maps wipe restoration (KNOWN_INCIDENTS 2026-08-12): 183 version counts restored at exact pre-wipe values (16297 downloads); administrative raise, not traffic"
+    },
+    {
+      "bucket_utc": "2026-08-13T00:00Z",
+      "listing_type": "map",
+      "id": "yukina-oita",
+      "reason": "jp-maps wipe restoration (KNOWN_INCIDENTS 2026-08-12): 183 version counts restored at exact pre-wipe values (16297 downloads); administrative raise, not traffic"
+    },
+    {
+      "bucket_utc": "2026-08-13T00:00Z",
+      "listing_type": "map",
+      "id": "yukina-yamaguchi",
+      "reason": "jp-maps wipe restoration (KNOWN_INCIDENTS 2026-08-12): 183 version counts restored at exact pre-wipe values (16297 downloads); administrative raise, not traffic"
+    },
+    {
+      "bucket_utc": "2026-08-13T00:00Z",
+      "listing_type": "map",
+      "id": "yukina-hachinohe",
+      "reason": "jp-maps wipe restoration (KNOWN_INCIDENTS 2026-08-12): 183 version counts restored at exact pre-wipe values (16297 downloads); administrative raise, not traffic"
+    },
+    {
+      "bucket_utc": "2026-08-13T00:00Z",
+      "listing_type": "map",
+      "id": "yukina-kofu",
+      "reason": "jp-maps wipe restoration (KNOWN_INCIDENTS 2026-08-12): 183 version counts restored at exact pre-wipe values (16297 downloads); administrative raise, not traffic"
     }
   ]
 }

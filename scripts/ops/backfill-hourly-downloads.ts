@@ -1,14 +1,18 @@
-import { existsSync, mkdirSync, readFileSync, writeFileSync } from "node:fs";
+import { existsSync, mkdirSync, readdirSync, readFileSync, rmSync, writeFileSync } from "node:fs";
 import { dirname, resolve } from "node:path";
 import { pathToFileURL } from "node:url";
 import {
   applyHourlySuppressions,
   computeListingDeltas,
+  getHourlyShardRelativePath,
+  groupHourlyRowsByMonth,
+  HOURLY_DOWNLOADS_BACKFILL_FLOOR,
   HOURLY_DOWNLOADS_CSV_RELATIVE_PATH,
-  HOURLY_DOWNLOADS_RETENTION_DAYS,
+  HOURLY_DOWNLOADS_DIR_RELATIVE_PATH,
   HOURLY_SUPPRESSIONS_RELATIVE_PATH,
   mergeHourlyRows,
   parseHourlySuppressions,
+  pruneHourlyRows,
   serializeHourlyDownloadsCsv,
   truncateToHourBucketUtc,
   type DownloadsFile,
@@ -21,11 +25,18 @@ import { resolveRepoRoot, runAndExitOnError } from "../lib/script-runtime.js";
 
 // Rebuilds the hourly download series from git history: every hourly bot run
 // commits downloads.json, so pairwise deltas between consecutive commits ARE
-// the hourly series. Deterministic and idempotent — the file is regenerated
-// wholesale for the window, so this is both the initial backfill and the
-// disaster-recovery path (re-run after any history rewrite).
+// the hourly series. Deterministic and idempotent — the monthly shards
+// (downloads-YYYY-MM.csv) are regenerated wholesale for the window, so this is
+// both the initial backfill and the disaster-recovery path (re-run after any
+// history rewrite). The legacy trailing-window downloads.csv is regenerated
+// alongside.
 //
-//   pnpm --dir scripts run backfill-hourly-downloads [-- --days 14]
+//   pnpm --dir scripts run backfill-hourly-downloads [-- --days 30]
+//
+// Without --days the window runs from HOURLY_DOWNLOADS_BACKFILL_FLOOR
+// (2026-07-01, the Cloudflare Worker scheduler cutoff — earlier commits are
+// too sparse for hour grain; see KNOWN_INCIDENTS.md). --days shortens the
+// window; it can never extend past the floor.
 //
 // Requires full local history for the window (a shallow clone will silently
 // truncate the series; the commit-count sanity check below guards this).
@@ -42,15 +53,19 @@ const TYPE_SPECS: TypeSpec[] = [
 
 // Approximate hourly cadence; used only for the shallow-clone sanity check.
 const MIN_EXPECTED_COMMITS_PER_DAY = 12;
+const DAY_MS = 24 * 60 * 60 * 1000;
 
-function parseDays(argv: string[]): number {
+function parseWindowStartMs(argv: string[], nowMs: number): number {
+  const floorMs = Date.parse(
+    `${HOURLY_DOWNLOADS_BACKFILL_FLOOR.slice(0, 13)}:00:00Z`,
+  );
   const value = getFlagValue(argv, "days");
-  if (value === undefined) return HOURLY_DOWNLOADS_RETENTION_DAYS;
+  if (value === undefined) return floorMs;
   const parsed = Number.parseInt(value, 10);
-  if (!Number.isFinite(parsed) || parsed <= 0 || parsed > 60) {
-    throw new Error(`Invalid --days '${value}'; expected 1-60.`);
+  if (!Number.isFinite(parsed) || parsed <= 0 || parsed > 365) {
+    throw new Error(`Invalid --days '${value}'; expected 1-365.`);
   }
-  return parsed;
+  return Math.max(nowMs - parsed * DAY_MS, floorMs);
 }
 
 interface CommitRef {
@@ -100,18 +115,18 @@ function readDownloadsAtCommit(
 
 async function run(): Promise<void> {
   const repoRoot = process.env.RAILYARD_REPO_ROOT ?? resolveRepoRoot(import.meta.dirname);
-  const days = parseDays(process.argv.slice(2));
   const nowMs = Date.now();
-  const sinceMs = nowMs - days * 24 * 60 * 60 * 1000;
+  const sinceMs = parseWindowStartMs(process.argv.slice(2), nowMs);
+  const windowDays = Math.max(1, Math.round((nowMs - sinceMs) / DAY_MS));
   const windowStart = truncateToHourBucketUtc(new Date(sinceMs).toISOString());
 
   let rows: HourlyDownloadRow[] = [];
   for (const spec of TYPE_SPECS) {
     const commits = listCommitsForPath(repoRoot, spec.relativePath, sinceMs);
-    if (commits.length < days * MIN_EXPECTED_COMMITS_PER_DAY) {
+    if (commits.length < windowDays * MIN_EXPECTED_COMMITS_PER_DAY) {
       throw new Error(
-        `Only ${commits.length} commits found for ${spec.relativePath} over ${days}d `
-        + `(expected >= ${days * MIN_EXPECTED_COMMITS_PER_DAY}); shallow clone or wrong branch?`,
+        `Only ${commits.length} commits found for ${spec.relativePath} over ${windowDays}d `
+        + `(expected >= ${windowDays * MIN_EXPECTED_COMMITS_PER_DAY}); shallow clone or wrong branch?`,
       );
     }
     let previous = readDownloadsAtCommit(repoRoot, commits[0]!.sha, spec.relativePath);
@@ -140,14 +155,35 @@ async function run(): Promise<void> {
     console.log(`[backfill-hourly-downloads] applied ${applied.suppressed} committed suppression(s)`);
   }
 
-  const csvPath = resolve(repoRoot, ...HOURLY_DOWNLOADS_CSV_RELATIVE_PATH.split("/"));
-  mkdirSync(dirname(csvPath), { recursive: true });
-  writeFileSync(csvPath, serializeHourlyDownloadsCsv(rows), "utf-8");
+  // Regenerate the shard set wholesale: write every month in the window and
+  // remove stray shard files the window no longer produces.
+  const hourlyDir = resolve(repoRoot, ...HOURLY_DOWNLOADS_DIR_RELATIVE_PATH.split("/"));
+  mkdirSync(hourlyDir, { recursive: true });
+  const byMonth = groupHourlyRowsByMonth(rows);
+  const writtenFiles = new Set<string>();
+  for (const [month, monthRows] of [...byMonth.entries()].sort(([a], [b]) => a.localeCompare(b))) {
+    const shardPath = resolve(repoRoot, ...getHourlyShardRelativePath(month).split("/"));
+    writeFileSync(shardPath, serializeHourlyDownloadsCsv(monthRows), "utf-8");
+    writtenFiles.add(`downloads-${month}.csv`);
+    console.log(`[backfill-hourly-downloads] shard ${month}: ${monthRows.length} rows`);
+  }
+  for (const fileName of readdirSync(hourlyDir)) {
+    if (/^downloads-\d{4}-\d{2}\.csv$/.test(fileName) && !writtenFiles.has(fileName)) {
+      rmSync(resolve(hourlyDir, fileName));
+      console.log(`[backfill-hourly-downloads] removed stale shard ${fileName}`);
+    }
+  }
+
+  // Legacy trailing-window view for the deployed website.
+  const legacyPath = resolve(repoRoot, ...HOURLY_DOWNLOADS_CSV_RELATIVE_PATH.split("/"));
+  mkdirSync(dirname(legacyPath), { recursive: true });
+  const legacyRows = pruneHourlyRows(rows, nowMs);
+  writeFileSync(legacyPath, serializeHourlyDownloadsCsv(legacyRows), "utf-8");
 
   const total = rows.reduce((sum, row) => sum + row.downloads, 0);
   const buckets = new Set(rows.map((row) => row.bucket_utc)).size;
   console.log(
-    `[backfill-hourly-downloads] wrote ${rows.length} rows across ${buckets} hour buckets (${total} downloads, window ${days}d)`,
+    `[backfill-hourly-downloads] wrote ${rows.length} rows across ${buckets} hour buckets in ${byMonth.size} shard(s) (${total} downloads, window ${windowDays}d from ${windowStart}) + legacy view ${legacyRows.length} rows`,
   );
 }
 
