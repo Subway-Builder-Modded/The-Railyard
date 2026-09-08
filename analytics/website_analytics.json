@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
   "zone_tag": "436c0657e9f4ae2256e5ffb96122273a",
-  "generated_at": "2026-09-08T09:00:54.855Z",
+  "generated_at": "2026-09-08T10:00:55.731Z",
   "valid_paths": [
     "/",
     "/404.html",
@@ -2216,9 +2216,9 @@
   "path_aliases": {},
   "summary": {
     "latest_day": "2026-09-08",
-    "latest_hour": "2026-09-08T09:00:00.000Z",
+    "latest_hour": "2026-09-08T10:00:00.000Z",
     "total_days": 145,
-    "total_hours": 2447,
+    "total_hours": 2448,
     "latest_day_visits": 31,
     "latest_hour_visits": 0
   },
@@ -12592,6 +12592,10 @@
       },
       {
         "hour": "2026-09-08T09:00:00.000Z",
+        "visits": 0
+      },
+      {
+        "hour": "2026-09-08T10:00:00.000Z",
         "visits": 0
       }
     ]
@@ -34317,9 +34321,9 @@
       }
     },
     "2026-09-08": {
-      "captured_at": "2026-09-08T09:00:52.456Z",
+      "captured_at": "2026-09-08T10:00:53.087Z",
       "window_start": "2026-09-08T00:00:00.000Z",
-      "window_end": "2026-09-08T10:00:00.000Z",
+      "window_end": "2026-09-08T11:00:00.000Z",
       "totals": {
         "visits": 31
       },
