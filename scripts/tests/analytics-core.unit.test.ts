@@ -645,3 +645,93 @@ test("runGenerateAnalyticsCli defaults to full listing and author outputs and st
     rmSync(repoRoot, { recursive: true, force: true });
   }
 });
+
+test("runGenerateAnalyticsCli splits author and project window download changes by asset type", () => {
+  const repoRoot = mkdtempSync(join(tmpdir(), "railyard-window-type-split-"));
+  mkdirSync(join(repoRoot, "history"), { recursive: true });
+  mkdirSync(join(repoRoot, "maps", "sample-map"), { recursive: true });
+  mkdirSync(join(repoRoot, "mods", "sample-mod"), { recursive: true });
+
+  try {
+    writeJson(join(repoRoot, "maps", "index.json"), {
+      schema_version: 1,
+      maps: ["sample-map"],
+    });
+    // Both listings share one author and one source repo, so the author row
+    // and the project row each aggregate a map AND a mod.
+    writeJson(join(repoRoot, "maps", "sample-map", "manifest.json"), {
+      schema_version: 1,
+      id: "sample-map",
+      name: "Sample Map",
+      author: "mapmaker",
+      github_id: 1,
+      source: "https://github.com/example/shared-project",
+      city_code: "ABC",
+      country: "US",
+      population: 0,
+      population_count: 0,
+      points_count: 0,
+    });
+    writeJson(join(repoRoot, "mods", "sample-mod", "manifest.json"), {
+      schema_version: 1,
+      id: "sample-mod",
+      name: "Sample Mod",
+      author: "mapmaker",
+      github_id: 1,
+      source: "https://github.com/example/shared-project",
+    });
+    writeJson(join(repoRoot, "history", "snapshot_2026_03_30.json"), {
+      schema_version: 2,
+      snapshot_date: "2026_03_30",
+      generated_at: "2026-03-30T00:00:00.000Z",
+      maps: { downloads: { "sample-map": { "1.0.0": 10 } } },
+      mods: { downloads: { "sample-mod": { "1.0.0": 5 } } },
+    });
+    writeJson(join(repoRoot, "history", "snapshot_2026_03_31.json"), {
+      schema_version: 2,
+      snapshot_date: "2026_03_31",
+      generated_at: "2026-03-31T00:00:00.000Z",
+      maps: { downloads: { "sample-map": { "1.0.0": 13 } } },
+      mods: { downloads: { "sample-mod": { "1.0.0": 7 } } },
+    });
+
+    runGenerateAnalyticsCli([], repoRoot);
+
+    const readRow = (fileName: string, matchColumn: string, matchValue: string) => {
+      const lines = readFileSync(join(repoRoot, "analytics", fileName), "utf-8")
+        .trim()
+        .split(/\r?\n/);
+      const headers = lines[0]!.split(",");
+      const row = lines
+        .slice(1)
+        .map((line) => line.split(","))
+        .find((values) => values[headers.indexOf(matchColumn)] === matchValue);
+      assert.ok(row, `row with ${matchColumn}=${matchValue} in ${fileName}`);
+      return (column: string) => {
+        const index = headers.indexOf(column);
+        assert.notEqual(index, -1, `column ${column} in ${fileName}`);
+        return row[index];
+      };
+    };
+
+    const authorRow = readRow("authors_last_1d.csv", "author", "mapmaker");
+    assert.equal(authorRow("download_change"), "5");
+    assert.equal(authorRow("map_download_change"), "3");
+    assert.equal(authorRow("mod_download_change"), "2");
+    assert.equal(authorRow("adjusted_map_download_change"), "3");
+    assert.equal(authorRow("adjusted_mod_download_change"), "2");
+
+    const projectRow = readRow(
+      "projects_most_popular_last_1d.csv",
+      "project_key",
+      "example/shared-project",
+    );
+    assert.equal(projectRow("download_change"), "5");
+    assert.equal(projectRow("map_download_change"), "3");
+    assert.equal(projectRow("mod_download_change"), "2");
+    assert.equal(projectRow("adjusted_map_download_change"), "3");
+    assert.equal(projectRow("adjusted_mod_download_change"), "2");
+  } finally {
+    rmSync(repoRoot, { recursive: true, force: true });
+  }
+});

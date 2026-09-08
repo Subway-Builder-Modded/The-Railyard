@@ -145,9 +145,9 @@ test("analytics splits a listing's credit at the caretaker window (porto invaria
     assert.equal(
       readAnalyticsCsv(repoRoot, "authors_last_1d.csv"),
       [
-        "rank,author,author_alias,attribution_link,asset_count,map_count,mod_count,download_change,adjusted_download_change,current_total,adjusted_current_total,baseline_total,adjusted_baseline_total,latest_snapshot,baseline_snapshot",
-        "1,capitao,Miguel Sousa,https://github.com/capitao,1,1,0,5,5,25,25,20,20,snapshot_2026_07_31.json,snapshot_2026_07_30.json",
-        "2,bquelhas,bquelhas,https://github.com/bquelhas,1,1,0,2,2,30,30,28,28,snapshot_2026_07_31.json,snapshot_2026_07_30.json",
+        "rank,author,author_alias,attribution_link,asset_count,map_count,mod_count,download_change,adjusted_download_change,current_total,adjusted_current_total,baseline_total,adjusted_baseline_total,latest_snapshot,baseline_snapshot,map_download_change,adjusted_map_download_change,mod_download_change,adjusted_mod_download_change",
+        "1,capitao,Miguel Sousa,https://github.com/capitao,1,1,0,5,5,25,25,20,20,snapshot_2026_07_31.json,snapshot_2026_07_30.json,5,5,0,0",
+        "2,bquelhas,bquelhas,https://github.com/bquelhas,1,1,0,2,2,30,30,28,28,snapshot_2026_07_31.json,snapshot_2026_07_30.json,2,2,0,0",
         "",
       ].join("\n"),
     );
