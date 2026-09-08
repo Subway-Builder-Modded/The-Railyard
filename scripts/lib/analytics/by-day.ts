@@ -112,6 +112,29 @@ export function buildListingByDayRows(
   return rows;
 }
 
+// First snapshot date (YYYY_MM_DD) each version key appeared in downloads.json
+// — i.e. the day the version became downloadable (integrity-complete).
+// Keys are `${listingKey}@@${version}`, matching the version-grain series.
+export function buildVersionFirstSeenDates(
+  snapshotDates: string[],
+  listingVersionsBySnapshot: Map<string, { maps: Set<string>; mods: Set<string> }>,
+): Map<string, string> {
+  const firstSeen = new Map<string, string>();
+  for (const snapshotDate of snapshotDates) {
+    const versions = listingVersionsBySnapshot.get(`snapshot_${snapshotDate}.json`);
+    if (!versions) continue;
+    for (const listingType of ["maps", "mods"] as const) {
+      for (const idVersion of versions[listingType]) {
+        const key = `${listingType}:${idVersion}`;
+        if (!firstSeen.has(key)) {
+          firstSeen.set(key, snapshotDate);
+        }
+      }
+    }
+  }
+  return firstSeen;
+}
+
 // Per-(listing, version) daily deltas from the version-grain snapshot series.
 // Version sets come from the full snapshot history, so versions that later
 // disappeared from downloads.json keep their historical rows. Rows are grouped
@@ -123,6 +146,7 @@ export function buildListingVersionByDayRows(
   historyVersionsByListing: Map<ListingKey, Set<string>>,
   versionGrain: VersionGrainSnapshotTotals,
   latestSnapshotFile: string,
+  firstSeenByVersionKey: Map<string, string>,
 ): DailySeriesRow[] {
   const latestMonotonic = versionGrain.monotonicBySnapshot.get(latestSnapshotFile);
   const rows: DailySeriesRow[] = [];
@@ -142,6 +166,9 @@ export function buildListingVersionByDayRows(
         row[snapshotDate] =
           versionGrain.dailyDeltasBySnapshot.get(`snapshot_${snapshotDate}.json`)?.get(versionKey) ?? 0;
       }
+      // Appended last so existing positional consumers keep working. Empty for
+      // versions never present in a snapshot (retired before history began).
+      row.first_seen = firstSeenByVersionKey.get(versionKey) ?? "";
       rows.push(row);
     }
   }

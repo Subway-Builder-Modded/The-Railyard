@@ -18,6 +18,7 @@ import {
   buildDailyDeltaSnapshotTotals,
   buildListingByDayRows,
   buildListingVersionByDayRows,
+  buildVersionFirstSeenDates,
   buildProjectByDayRows,
   buildSignedDailyDeltaSnapshotTotals,
   toSnapshotDateLabel,
@@ -859,6 +860,7 @@ export function runGenerateAnalyticsCli(
     historyVersionsByListing,
     versionGrain,
     latest.file,
+    buildVersionFirstSeenDates(snapshotDates, listingVersionsBySnapshot),
   );
   const assetsByDayRows = buildAssetsByDayRows(
     snapshotDates,
@@ -1091,6 +1093,7 @@ export function runGenerateAnalyticsCli(
       "version",
       "total_downloads",
       ...snapshotDates,
+      "first_seen",
     ],
     listingVersionByDayRows,
   );
