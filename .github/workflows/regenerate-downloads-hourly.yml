@@ -369,7 +369,7 @@ jobs:
       - name: Stage changes
         id: stage_changes
         run: |
-          git add maps/downloads.json mods/downloads.json maps/download-version-buckets.json mods/download-version-buckets.json maps/repo-liveness.json mods/repo-liveness.json history/railyard_app_downloads.json analytics/railyard_app_downloads.json analytics/hourly/downloads.csv 2>/dev/null || true
+          git add maps/downloads.json mods/downloads.json maps/download-version-buckets.json mods/download-version-buckets.json maps/repo-liveness.json mods/repo-liveness.json history/railyard_app_downloads.json analytics/railyard_app_downloads.json analytics/hourly/ 2>/dev/null || true
           if git diff --cached --quiet; then
             echo "No download changes detected; skipping PR update."
             echo "has_changes=false" >> "$GITHUB_OUTPUT"

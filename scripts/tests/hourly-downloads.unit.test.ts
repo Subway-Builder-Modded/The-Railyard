@@ -5,6 +5,10 @@ import { resolve } from "node:path";
 import {
   applyHourlySuppressions,
   computeListingDeltas,
+  getHourlyShardMonth,
+  getHourlyShardRelativePath,
+  groupHourlyRowsByMonth,
+  HOURLY_DOWNLOADS_BACKFILL_FLOOR,
   mergeHourlyRows,
   parseHourlyDownloadsCsv,
   parseHourlySuppressions,
@@ -141,15 +145,51 @@ test("the committed suppression spec matches the pruned restoration rows", () =>
     readFileSync(resolve(import.meta.dirname, "..", "..", "..", "history", "hourly-suppressions.json"), "utf-8"),
   ) as unknown;
   const parsed = parseHourlySuppressions(spec);
-  assert.deepEqual(
-    parsed.map((entry) => `${entry.bucket_utc} ${entry.listing_type} ${entry.id}`).sort(),
-    [
-      "2026-08-06T01:00Z mod danield1909-dantrains",
-      "2026-08-06T01:00Z mod imb11-moveit",
-      "2026-08-06T01:00Z mod imb11-subwaycine",
-    ],
-  );
+  // Every committed entry must survive the parser — a silently dropped entry
+  // would resurrect an administrative burst on the next backfill.
+  const rawCount = (spec as { suppressions: unknown[] }).suppressions.length;
+  assert.equal(parsed.length, rawCount, "parser dropped committed entries");
+  // Suppressions exist only for the documented incidents (KNOWN_INCIDENTS.md).
+  const countsByBucket = new Map<string, number>();
   for (const entry of parsed) {
     assert.equal(entry.downloads, undefined, "restoration rows are whole-row drops");
+    countsByBucket.set(entry.bucket_utc, (countsByBucket.get(entry.bucket_utc) ?? 0) + 1);
   }
+  assert.deepEqual(
+    Object.fromEntries([...countsByBucket.entries()].sort()),
+    {
+      "2026-07-08T09:00Z": 103, // 429-cascade counter bounce
+      "2026-07-09T02:00Z": 14, // 429-cascade restoration
+      "2026-07-09T03:00Z": 10, // 429-cascade restoration
+      "2026-08-06T01:00Z": 3, // private-repo-wipe restoration
+      "2026-08-13T00:00Z": 50, // jp-maps wipe restoration
+    },
+  );
+});
+
+test("shard helpers key rows by UTC month and build shard paths", () => {
+  assert.equal(getHourlyShardMonth("2026-07-31T23:00Z"), "2026-07");
+  assert.equal(
+    getHourlyShardRelativePath("2026-07"),
+    "analytics/hourly/downloads-2026-07.csv",
+  );
+  assert.throws(() => getHourlyShardRelativePath("july"), /Invalid shard month/);
+
+  const rows: HourlyDownloadRow[] = [
+    { bucket_utc: "2026-07-31T23:00Z", listing_type: "map", id: "a", downloads: 1 },
+    { bucket_utc: "2026-08-01T00:00Z", listing_type: "map", id: "a", downloads: 2 },
+    { bucket_utc: "2026-08-01T01:00Z", listing_type: "mod", id: "b", downloads: 3 },
+  ];
+  const byMonth = groupHourlyRowsByMonth(rows);
+  assert.deepEqual([...byMonth.keys()].sort(), ["2026-07", "2026-08"]);
+  assert.equal(byMonth.get("2026-07")!.length, 1);
+  assert.equal(byMonth.get("2026-08")!.length, 2);
+});
+
+test("the backfill floor sits on the first fully worker-scheduled day", () => {
+  // 2026-06-30 was the first day of full hourly coverage; the floor starts the
+  // series one day later so the first bucket's BASELINE commit is also from a
+  // fully covered day (see KNOWN_INCIDENTS.md).
+  assert.equal(HOURLY_DOWNLOADS_BACKFILL_FLOOR, "2026-07-01T00:00Z");
+  assert.equal(getHourlyShardMonth(HOURLY_DOWNLOADS_BACKFILL_FLOOR), "2026-07");
 });
