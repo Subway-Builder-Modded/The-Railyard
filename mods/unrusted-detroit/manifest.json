@@ -1,0 +1,22 @@
+{
+  "schema_version": 1,
+  "id": "unrusted-detroit",
+  "name": "Unrusted: Detroit - A Denser Detroit",
+  "author": "NoahGarrf",
+  "github_id": 217513664,
+  "description": "This mod asks the question: What if Detroit never declined in the 1950s? What if Detroit kept growing?\n\nThe way this mod works is pretty simple\nStep 1. Turn on the mod\nStep 2. Open the Detroit map\nStep 3. Click the lightning button on the top right of the screen\nStep 4. Wait around 10-30 seconds for all the modifications and new demand points to generate\nStep 5. You're all set should have around 3.8M pops total now and you can play your Detroit fantasies to your hearts content\nStep 6. You should save before closing the file to make sure demand data sticks\n\nThe way the data is generated is very simple: I made it up! Crazy I know, but turns out LODES data only goes back as far as 2002. So instead I just made something to procedurally generate data with a bunch of fancy bells and whistles to keep it realistic, I also did vaguely base it off a 1950s population density map. There's much more people working in downtown than living there, just like IRL. I also added special demand in the auto factories since if detroit never declined its probably because the auto industry is doing fine. I also added some special demand for UM in Ann Arbor cause why not. Also made sure airport demand went up appropriately. I also generated additional density along the spoke avenue corridors since thats where it was concentrated IRL.\n\nAnyways because the way the mod works every new game will generate different data, overall pops and patterns will be about the same but the exact demand points and specific commuting patterns change. Don't worry the data will remain the same and persist between saves, it only changes when you run the data again when starting a new save. Because of that you can also keep \"rerolling\" the data if you want something that satisfies your weird specific needs I guess.",
+  "tags": [
+    "gameplay",
+    "ui"
+  ],
+  "gallery": [
+    "gallery/screenshot1.webp",
+    "gallery/screenshot2.webp"
+  ],
+  "is_test": false,
+  "source": "https://github.com/NoahGarrf/unrusted-detroit",
+  "update": {
+    "type": "github",
+    "repo": "NoahGarrf/unrusted-detroit"
+  }
+}
