@@ -97,6 +97,12 @@ interface ProjectWindowRow {
   adjusted_baseline_total: number;
   latest_snapshot: string;
   baseline_snapshot: string;
+  // Per-asset-type splits of the window movement. Appended last so existing
+  // positional consumers keep working.
+  map_download_change: number;
+  adjusted_map_download_change: number;
+  mod_download_change: number;
+  adjusted_mod_download_change: number;
 }
 
 interface ProjectAllTimeRow {
@@ -162,6 +168,12 @@ interface AuthorWindowRow {
   adjusted_baseline_total: number;
   latest_snapshot: string;
   baseline_snapshot: string;
+  // Per-asset-type splits of the window movement. Appended last so existing
+  // positional consumers keep working.
+  map_download_change: number;
+  adjusted_map_download_change: number;
+  mod_download_change: number;
+  adjusted_mod_download_change: number;
 }
 
 const DEFAULT_TOP_LISTINGS: number | null = null;
@@ -527,6 +539,10 @@ export function runGenerateAnalyticsCli(
         adjusted_baseline_total: 0,
         latest_snapshot: latest.file,
         baseline_snapshot: baseline.file,
+        map_download_change: 0,
+        adjusted_map_download_change: 0,
+        mod_download_change: 0,
+        adjusted_mod_download_change: 0,
       };
       const meta = listingMeta.get(key) ?? {
         name: "",
@@ -551,6 +567,13 @@ export function runGenerateAnalyticsCli(
       existing.adjusted_baseline_total += baselineAdjustedTotal;
       existing.download_change += currentTotal - baselineTotal;
       existing.adjusted_download_change += currentAdjustedTotal - baselineAdjustedTotal;
+      if (key.startsWith("maps:")) {
+        existing.map_download_change += currentTotal - baselineTotal;
+        existing.adjusted_map_download_change += currentAdjustedTotal - baselineAdjustedTotal;
+      } else {
+        existing.mod_download_change += currentTotal - baselineTotal;
+        existing.adjusted_mod_download_change += currentAdjustedTotal - baselineAdjustedTotal;
+      }
       projectStats.set(listingProject.project_key, existing);
     }
 
@@ -718,12 +741,24 @@ export function runGenerateAnalyticsCli(
         adjusted_baseline_total: 0,
         latest_snapshot: latest.file,
         baseline_snapshot: baseline.file,
+        map_download_change: 0,
+        adjusted_map_download_change: 0,
+        mod_download_change: 0,
+        adjusted_mod_download_change: 0,
       };
       existing.asset_count += 1;
       if (entry.listingType === "maps") existing.map_count += 1;
       if (entry.listingType === "mods") existing.mod_count += 1;
       existing.download_change += currentTotal - baselineTotal;
       existing.adjusted_download_change += currentAdjustedTotal - baselineAdjustedTotal;
+      if (entry.listingType === "maps") {
+        existing.map_download_change += currentTotal - baselineTotal;
+        existing.adjusted_map_download_change += currentAdjustedTotal - baselineAdjustedTotal;
+      }
+      if (entry.listingType === "mods") {
+        existing.mod_download_change += currentTotal - baselineTotal;
+        existing.adjusted_mod_download_change += currentAdjustedTotal - baselineAdjustedTotal;
+      }
       existing.current_total += currentTotal;
       existing.adjusted_current_total += currentAdjustedTotal;
       existing.baseline_total += baselineTotal;
@@ -866,6 +901,10 @@ export function runGenerateAnalyticsCli(
     "adjusted_baseline_total",
     "latest_snapshot",
     "baseline_snapshot",
+    "map_download_change",
+    "adjusted_map_download_change",
+    "mod_download_change",
+    "adjusted_mod_download_change",
   ] as const;
   const authorWindowColumns = [
     "rank",
@@ -883,6 +922,10 @@ export function runGenerateAnalyticsCli(
     "adjusted_baseline_total",
     "latest_snapshot",
     "baseline_snapshot",
+    "map_download_change",
+    "adjusted_map_download_change",
+    "mod_download_change",
+    "adjusted_mod_download_change",
   ] as const;
 
   for (const days of WINDOWS) {
