@@ -1,44 +1,44 @@
 {
   "schema_version": 1,
   "repo": "Subway-Builder-Modded/railyard",
-  "generated_at": "2026-09-08T11:01:55.122Z",
-  "latest_snapshot": "2026-09-08T11:00:00.000Z",
+  "generated_at": "2026-09-08T12:02:05.919Z",
+  "latest_snapshot": "2026-09-08T12:00:00.000Z",
   "versions": {
     "0.2.10": {
-      "total_downloads": 4695,
-      "last_1d_downloads": 129,
-      "last_3d_downloads": 452,
-      "last_7d_downloads": 1156,
+      "total_downloads": 4697,
+      "last_1d_downloads": 126,
+      "last_3d_downloads": 447,
+      "last_7d_downloads": 1150,
       "assets": {
         "railyard-v0.2.10-current-linux-amd64.flatpak": {
           "total_downloads": 154,
           "last_1d_downloads": 3,
-          "last_3d_downloads": 17,
+          "last_3d_downloads": 16,
           "last_7d_downloads": 43
         },
         "railyard-v0.2.10-macos-universal.dmg": {
           "total_downloads": 1364,
-          "last_1d_downloads": 46,
+          "last_1d_downloads": 45,
           "last_3d_downloads": 136,
-          "last_7d_downloads": 366
+          "last_7d_downloads": 364
         },
         "railyard-v0.2.10-macos-universal.zip": {
           "total_downloads": 110,
           "last_1d_downloads": 7,
           "last_3d_downloads": 16,
-          "last_7d_downloads": 30
+          "last_7d_downloads": 29
         },
         "railyard-v0.2.10-windows-amd64-installer.exe": {
-          "total_downloads": 2899,
-          "last_1d_downloads": 70,
-          "last_3d_downloads": 264,
-          "last_7d_downloads": 663
+          "total_downloads": 2901,
+          "last_1d_downloads": 68,
+          "last_3d_downloads": 260,
+          "last_7d_downloads": 661
         },
         "railyard-v0.2.10-windows-amd64-portable.zip": {
           "total_downloads": 114,
           "last_1d_downloads": 3,
           "last_3d_downloads": 14,
-          "last_7d_downloads": 39
+          "last_7d_downloads": 38
         },
         "railyard-v0.2.10-windows-arm64-installer.exe": {
           "total_downloads": 44,
