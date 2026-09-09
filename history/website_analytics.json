@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
   "zone_tag": "436c0657e9f4ae2256e5ffb96122273a",
-  "updated_at": "2026-09-09T00:00:50.489Z",
+  "updated_at": "2026-09-09T00:35:38.266Z",
   "valid_paths": [
     "/",
     "/404.html",
@@ -84092,17 +84092,63 @@
       }
     },
     "2026-09-09T00:00:00.000Z": {
-      "captured_at": "2026-09-09T00:00:50.489Z",
+      "captured_at": "2026-09-09T00:35:38.266Z",
       "window_start": "2026-09-09T00:00:00.000Z",
       "window_end": "2026-09-09T01:00:00.000Z",
       "totals": {
-        "visits": 0
+        "visits": 53
       },
-      "pages": {},
-      "countries": {},
-      "browsers": {},
-      "operating_systems": {},
-      "devices": {}
+      "pages": {
+        "/": 31,
+        "/credits": 1,
+        "/railyard": 7,
+        "/railyard/docs/v0.2/troubleshooting-railyard": 1,
+        "/registry/authors/rslurry/subwaybuilder-maps": 1,
+        "/registry/authors/subway-builder-modded-admin": 1,
+        "/registry/maps/au-melbourne": 1,
+        "/registry/maps/bucharest-medium": 1,
+        "/registry/maps/charleston-huntington-wv/versions": 1,
+        "/registry/maps/jeju-4/versions/0.1.1": 1,
+        "/registry/maps/vancouver": 1,
+        "/registry/maps/yukina-hachinohe": 1,
+        "/registry/maps/yukina-maebashi": 1,
+        "/registry/maps/yukina-nagoya/versions/0.2.3": 1,
+        "/registry/maps/yukina-tw-chiayi/versions/0.2.1": 1,
+        "/registry/mods": 1,
+        "/registry/mods/transit-overlay": 1
+      },
+      "countries": {
+        "BA": 1,
+        "BE": 1,
+        "CN": 1,
+        "DE": 2,
+        "FI": 1,
+        "SE": 1,
+        "SG": 1,
+        "US": 44,
+        "VN": 1
+      },
+      "browsers": {
+        "Chrome": 9,
+        "ChromeMobile": 2,
+        "Edge": 1,
+        "Firefox": 1,
+        "GoogleBot": 10,
+        "MobileSafari": 2,
+        "Safari": 2,
+        "Unknown": 26
+      },
+      "operating_systems": {
+        "Android": 12,
+        "MacOSX": 2,
+        "Unknown": 26,
+        "Windows": 11,
+        "iOS": 2
+      },
+      "devices": {
+        "desktop": 39,
+        "mobile": 14
+      }
     }
   },
   "daily_snapshots": {
@@ -105925,17 +105971,63 @@
       }
     },
     "2026-09-09": {
-      "captured_at": "2026-09-09T00:00:50.489Z",
+      "captured_at": "2026-09-09T00:35:38.266Z",
       "window_start": "2026-09-09T00:00:00.000Z",
       "window_end": "2026-09-09T01:00:00.000Z",
       "totals": {
-        "visits": 0
+        "visits": 53
       },
-      "pages": {},
-      "countries": {},
-      "browsers": {},
-      "operating_systems": {},
-      "devices": {}
+      "pages": {
+        "/": 31,
+        "/credits": 1,
+        "/railyard": 7,
+        "/railyard/docs/v0.2/troubleshooting-railyard": 1,
+        "/registry/authors/rslurry/subwaybuilder-maps": 1,
+        "/registry/authors/subway-builder-modded-admin": 1,
+        "/registry/maps/au-melbourne": 1,
+        "/registry/maps/bucharest-medium": 1,
+        "/registry/maps/charleston-huntington-wv/versions": 1,
+        "/registry/maps/jeju-4/versions/0.1.1": 1,
+        "/registry/maps/vancouver": 1,
+        "/registry/maps/yukina-hachinohe": 1,
+        "/registry/maps/yukina-maebashi": 1,
+        "/registry/maps/yukina-nagoya/versions/0.2.3": 1,
+        "/registry/maps/yukina-tw-chiayi/versions/0.2.1": 1,
+        "/registry/mods": 1,
+        "/registry/mods/transit-overlay": 1
+      },
+      "countries": {
+        "BA": 1,
+        "BE": 1,
+        "CN": 1,
+        "DE": 2,
+        "FI": 1,
+        "SE": 1,
+        "SG": 1,
+        "US": 44,
+        "VN": 1
+      },
+      "browsers": {
+        "Chrome": 9,
+        "ChromeMobile": 2,
+        "Edge": 1,
+        "Firefox": 1,
+        "GoogleBot": 10,
+        "MobileSafari": 2,
+        "Safari": 2,
+        "Unknown": 26
+      },
+      "operating_systems": {
+        "Android": 12,
+        "MacOSX": 2,
+        "Unknown": 26,
+        "Windows": 11,
+        "iOS": 2
+      },
+      "devices": {
+        "desktop": 39,
+        "mobile": 14
+      }
     }
   }
 }
