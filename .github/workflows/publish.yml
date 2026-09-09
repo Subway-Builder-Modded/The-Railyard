@@ -465,6 +465,13 @@ jobs:
           git config user.name "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
           git checkout -B "publish/map/${{ fromJson(steps.parser.outputs.jsonString).map-id }}"
+          # The checkout action persists an Authorization extraheader carrying
+          # the token minted at run start; git applies it to every github.com
+          # request and it overrides the fresh credential embedded in the URL
+          # below (2026-09-09: the re-minted push still failed with "Invalid
+          # username or token" while gh api calls with the same fresh token
+          # succeeded). Drop it so the URL credential is actually used.
+          git config --local --unset-all http.https://github.com/.extraheader || true
           remote="https://x-access-token:${GH_TOKEN}@github.com/${{ github.repository }}.git"
           # A re-run regenerates this branch from main and force-pushes, which
           # would clobber the data-quality answers the questionnaire flow may
