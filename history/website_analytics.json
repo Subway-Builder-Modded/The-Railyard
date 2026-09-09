@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
   "zone_tag": "436c0657e9f4ae2256e5ffb96122273a",
-  "updated_at": "2026-09-09T16:00:47.875Z",
+  "updated_at": "2026-09-09T17:01:51.033Z",
   "valid_paths": [
     "/",
     "/404.html",
@@ -84443,6 +84443,31 @@
       "browsers": {},
       "operating_systems": {},
       "devices": {}
+    },
+    "2026-09-09T17:00:00.000Z": {
+      "captured_at": "2026-09-09T17:01:51.033Z",
+      "window_start": "2026-09-09T17:00:00.000Z",
+      "window_end": "2026-09-09T18:00:00.000Z",
+      "totals": {
+        "visits": 4
+      },
+      "pages": {
+        "/": 2,
+        "/registry/maps/vienna": 2
+      },
+      "countries": {
+        "CH": 2,
+        "US": 2
+      },
+      "browsers": {
+        "Unknown": 4
+      },
+      "operating_systems": {
+        "Unknown": 4
+      },
+      "devices": {
+        "desktop": 4
+      }
     }
   },
   "daily_snapshots": {
@@ -106265,14 +106290,14 @@
       }
     },
     "2026-09-09": {
-      "captured_at": "2026-09-09T16:00:47.875Z",
+      "captured_at": "2026-09-09T17:01:51.033Z",
       "window_start": "2026-09-09T00:00:00.000Z",
-      "window_end": "2026-09-09T17:00:00.000Z",
+      "window_end": "2026-09-09T18:00:00.000Z",
       "totals": {
-        "visits": 105
+        "visits": 109
       },
       "pages": {
-        "/": 61,
+        "/": 63,
         "/credits": 1,
         "/railyard": 12,
         "/railyard/docs/v0.2/troubleshooting-railyard": 1,
@@ -106288,6 +106313,7 @@
         "/registry/maps/jelegend-tokyo/versions/v0.4.0": 1,
         "/registry/maps/rotterdam-the-hague": 1,
         "/registry/maps/vancouver": 2,
+        "/registry/maps/vienna": 2,
         "/registry/maps/yukina-cz-liberec-jablonec/versions/0.2.0": 1,
         "/registry/maps/yukina-hachinohe": 1,
         "/registry/maps/yukina-maebashi": 1,
@@ -106307,6 +106333,7 @@
         "AU": 1,
         "BA": 3,
         "BE": 1,
+        "CH": 2,
         "CN": 1,
         "DE": 7,
         "ES": 1,
@@ -106318,7 +106345,7 @@
         "PT": 1,
         "SE": 5,
         "SG": 4,
-        "US": 75,
+        "US": 77,
         "VN": 1
       },
       "browsers": {
@@ -106332,18 +106359,18 @@
         "MobileSafari": 4,
         "Safari": 3,
         "TwitterBot": 1,
-        "Unknown": 52
+        "Unknown": 56
       },
       "operating_systems": {
         "Android": 19,
         "Linux": 1,
         "MacOSX": 5,
-        "Unknown": 55,
+        "Unknown": 59,
         "Windows": 21,
         "iOS": 4
       },
       "devices": {
-        "desktop": 82,
+        "desktop": 86,
         "mobile": 23
       }
     }
