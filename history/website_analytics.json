@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
   "zone_tag": "436c0657e9f4ae2256e5ffb96122273a",
-  "updated_at": "2026-09-09T21:00:41.923Z",
+  "updated_at": "2026-09-09T21:56:42.935Z",
   "valid_paths": [
     "/",
     "/404.html",
@@ -1652,6 +1652,7 @@
     "/registry/maps/yukina-lt-vilnius",
     "/registry/maps/yukina-lt-vilnius/versions/0.1.0",
     "/registry/maps/yukina-lt-vilnius/versions/0.2.0",
+    "/registry/maps/yukina-lt-vilnius/versions/0.3.0",
     "/registry/maps/yukina-lv-daugavpils",
     "/registry/maps/yukina-lv-daugavpils/versions",
     "/registry/maps/yukina-lv-daugavpils/versions/0.1.0",
@@ -1814,6 +1815,7 @@
     "/registry/maps/yukina-sk-bratislava/versions",
     "/registry/maps/yukina-sk-kosice-presov",
     "/registry/maps/yukina-sk-trencin",
+    "/registry/maps/yukina-sk-zilina/versions",
     "/registry/maps/yukina-takamatsu",
     "/registry/maps/yukina-takamatsu/versions/0.3.1",
     "/registry/maps/yukina-tokushima",
@@ -1876,6 +1878,7 @@
     "/registry/maps/yukina-ua-kharkiv/versions",
     "/registry/maps/yukina-ua-kryvyi-rih",
     "/registry/maps/yukina-ua-kyiv",
+    "/registry/maps/yukina-ua-kyiv/gallery",
     "/registry/maps/yukina-ua-kyiv/versions/0.1.0",
     "/registry/maps/yukina-ua-lviv",
     "/registry/maps/yukina-ua-lviv/versions/0.1.0",
@@ -2104,6 +2107,7 @@
     "/registry/mods/satellite-overlay/versions",
     "/registry/mods/satellite-overlay/versions/1.0.0",
     "/registry/mods/scrollable-dropdowns",
+    "/registry/mods/scrollable-dropdowns/versions",
     "/registry/mods/scrollable-dropdowns/versions/v1.2.0",
     "/registry/mods/simple-trains",
     "/registry/mods/simple-trains/analytics",
@@ -84563,17 +84567,56 @@
       "devices": {}
     },
     "2026-09-09T21:00:00.000Z": {
-      "captured_at": "2026-09-09T21:00:41.923Z",
+      "captured_at": "2026-09-09T21:56:42.935Z",
       "window_start": "2026-09-09T21:00:00.000Z",
       "window_end": "2026-09-09T22:00:00.000Z",
       "totals": {
-        "visits": 0
+        "visits": 68
       },
-      "pages": {},
-      "countries": {},
-      "browsers": {},
-      "operating_systems": {},
-      "devices": {}
+      "pages": {
+        "/": 54,
+        "/depot/updates/v1.1.2": 1,
+        "/railyard": 2,
+        "/registry/maps": 1,
+        "/registry/maps/madrid": 1,
+        "/registry/maps/ottawa/versions/1.0.1": 1,
+        "/registry/maps/yukina-lt-vilnius/versions/0.3.0": 1,
+        "/registry/maps/yukina-nagoya": 1,
+        "/registry/maps/yukina-sk-zilina/versions": 1,
+        "/registry/maps/yukina-ua-kyiv/gallery": 1,
+        "/registry/mods/game-speedup": 1,
+        "/registry/mods/scrollable-dropdowns/versions": 1,
+        "/registry/mods/tod": 1,
+        "/terms-of-service": 1
+      },
+      "countries": {
+        "DE": 6,
+        "FR": 1,
+        "GB": 6,
+        "SG": 1,
+        "UA": 1,
+        "US": 53
+      },
+      "browsers": {
+        "BingBot": 3,
+        "Chrome": 2,
+        "ChromeMobile": 1,
+        "GoogleBot": 6,
+        "MobileSafari": 1,
+        "Safari": 1,
+        "Unknown": 54
+      },
+      "operating_systems": {
+        "Android": 7,
+        "MacOSX": 2,
+        "Unknown": 57,
+        "Windows": 1,
+        "iOS": 1
+      },
+      "devices": {
+        "desktop": 60,
+        "mobile": 8
+      }
     }
   },
   "daily_snapshots": {
@@ -106396,20 +106439,21 @@
       }
     },
     "2026-09-09": {
-      "captured_at": "2026-09-09T21:00:41.923Z",
+      "captured_at": "2026-09-09T21:56:42.935Z",
       "window_start": "2026-09-09T00:00:00.000Z",
       "window_end": "2026-09-09T22:00:00.000Z",
       "totals": {
-        "visits": 168
+        "visits": 236
       },
       "pages": {
-        "/": 97,
+        "/": 151,
         "/credits": 1,
-        "/railyard": 19,
+        "/depot/updates/v1.1.2": 1,
+        "/railyard": 21,
         "/railyard/docs/v0.2/troubleshooting-railyard": 1,
         "/registry/authors/rslurry/subwaybuilder-maps": 1,
         "/registry/authors/subway-builder-modded-admin": 1,
-        "/registry/maps": 1,
+        "/registry/maps": 2,
         "/registry/maps/abu-dhabi/versions": 1,
         "/registry/maps/au-melbourne": 1,
         "/registry/maps/beirut/versions/1.0.0": 1,
@@ -106422,8 +106466,10 @@
         "/registry/maps/jelegend-tokyo": 1,
         "/registry/maps/jelegend-tokyo/versions/v0.4.0": 1,
         "/registry/maps/limoges/versions/1.0.0": 1,
+        "/registry/maps/madrid": 1,
         "/registry/maps/metz-nancy": 1,
         "/registry/maps/mfn-lasvegas/versions/1.1.0": 1,
+        "/registry/maps/ottawa/versions/1.0.1": 1,
         "/registry/maps/rotterdam-the-hague": 1,
         "/registry/maps/saltillo": 1,
         "/registry/maps/south-florida/versions/v1.1.0": 1,
@@ -106435,21 +106481,27 @@
         "/registry/maps/yukina-hachinohe": 1,
         "/registry/maps/yukina-lt-klaipeda/versions/0.2.1": 1,
         "/registry/maps/yukina-lt-vilnius/versions/0.2.0": 1,
+        "/registry/maps/yukina-lt-vilnius/versions/0.3.0": 1,
         "/registry/maps/yukina-maebashi": 1,
         "/registry/maps/yukina-mito-hitachi/versions/0.1.0": 1,
-        "/registry/maps/yukina-nagoya": 1,
+        "/registry/maps/yukina-nagoya": 2,
         "/registry/maps/yukina-nagoya/versions/0.2.3": 2,
         "/registry/maps/yukina-shizuoka-hamamatsu": 1,
+        "/registry/maps/yukina-sk-zilina/versions": 1,
         "/registry/maps/yukina-tw-chiayi/versions/0.2.1": 1,
+        "/registry/maps/yukina-ua-kyiv/gallery": 1,
         "/registry/mods": 2,
+        "/registry/mods/game-speedup": 1,
         "/registry/mods/induced-demand/versions/v1.2.0": 1,
         "/registry/mods/lrt-trains/versions/v1.0.1": 1,
         "/registry/mods/penguin-approved-rolling-stock/versions/v1.2.0": 1,
+        "/registry/mods/scrollable-dropdowns/versions": 1,
         "/registry/mods/subwaybuilder-regions": 1,
+        "/registry/mods/tod": 1,
         "/registry/mods/transit-overlay": 2,
         "/registry/mods/valdotoriums-trains": 2,
         "/template-mod": 1,
-        "/terms-of-service": 1,
+        "/terms-of-service": 2,
         "/website/updates": 1
       },
       "countries": {
@@ -106459,10 +106511,11 @@
         "CA": 1,
         "CH": 2,
         "CN": 3,
-        "DE": 9,
+        "DE": 15,
         "ES": 3,
         "FI": 1,
-        "GB": 5,
+        "FR": 1,
+        "GB": 11,
         "JP": 1,
         "LV": 2,
         "MY": 1,
@@ -106472,35 +106525,36 @@
         "PT": 1,
         "RU": 1,
         "SE": 5,
-        "SG": 7,
-        "US": 117,
+        "SG": 8,
+        "UA": 1,
+        "US": 170,
         "VN": 1
       },
       "browsers": {
-        "BingBot": 3,
-        "Chrome": 25,
+        "BingBot": 6,
+        "Chrome": 27,
         "ChromeDerivative": 1,
-        "ChromeMobile": 5,
+        "ChromeMobile": 6,
         "Edge": 2,
         "Firefox": 2,
-        "GoogleBot": 28,
-        "MobileSafari": 5,
+        "GoogleBot": 34,
+        "MobileSafari": 6,
         "Opera": 1,
-        "Safari": 3,
+        "Safari": 4,
         "TwitterBot": 1,
-        "Unknown": 92
+        "Unknown": 146
       },
       "operating_systems": {
-        "Android": 33,
+        "Android": 40,
         "Linux": 1,
-        "MacOSX": 6,
-        "Unknown": 96,
-        "Windows": 27,
-        "iOS": 5
+        "MacOSX": 8,
+        "Unknown": 153,
+        "Windows": 28,
+        "iOS": 6
       },
       "devices": {
-        "desktop": 129,
-        "mobile": 39
+        "desktop": 189,
+        "mobile": 47
       }
     }
   }
