@@ -1,0 +1,46 @@
+{
+  "schema_version": 1,
+  "id": "catt-gran-santiago",
+  "name": "Gran Santiago",
+  "author": "holapapie-png",
+  "github_id": 262505395,
+  "description": "Greater Santiago: the capital plus its satellite towns, from Colina and Lampa in the north to Buin and Talagante in the south. 6.95M residents.\n\nDemand is not a gravity model. Every pop is one real person from the Encuesta Origen-Destino Santiago 2012 (official 2017 census re-expansion, 11,230 households), going from their actual home to their actual workplace or school at the survey's own expansion weight. Residents are placed by Censo 2017 city block, with post-2012 growth areas like Chicureo filled from census counts.",
+  "tags": [
+    "south-america"
+  ],
+  "gallery": [
+    "gallery/screenshot1.webp",
+    "gallery/screenshot2.webp"
+  ],
+  "is_test": false,
+  "source": "https://github.com/holapapie-png/subwaybuilder-gran-santiago",
+  "update": {
+    "type": "github",
+    "repo": "holapapie-png/subwaybuilder-gran-santiago"
+  },
+  "city_code": "GSC",
+  "country": "CL",
+  "population": 3118834,
+  "residents_total": 3118834,
+  "points_count": 2267,
+  "population_count": 18073,
+  "initial_view_state": {
+    "latitude": -33.46,
+    "longitude": -70.66,
+    "zoom": 11,
+    "bearing": 0
+  },
+  "data_source": "OSM",
+  "source_quality": "low-quality",
+  "level_of_detail": "low-detail",
+  "data_quality": {
+    "tier": "medium",
+    "raw_score": 0.3,
+    "weighted_score": 0.49,
+    "rubric_version": 1,
+    "provenance": "reviewed"
+  },
+  "location": "south-america",
+  "special_demand": [],
+  "file_sizes": {}
+}
