@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
   "zone_tag": "436c0657e9f4ae2256e5ffb96122273a",
-  "generated_at": "2026-09-09T14:00:55.780Z",
+  "generated_at": "2026-09-09T14:47:59.401Z",
   "valid_paths": [
     "/",
     "/404.html",
@@ -898,6 +898,7 @@
     "/registry/maps/bilbao/versions/1.0.2",
     "/registry/maps/bilbao/versions/1.1.0",
     "/registry/maps/bologna",
+    "/registry/maps/bonn-koeln",
     "/registry/maps/bonn-koeln/map",
     "/registry/maps/bordeaux-arcachon-libourne",
     "/registry/maps/bordeaux-arcachon-libourne/description",
@@ -2042,6 +2043,7 @@
     "/registry/mods/lrt-trains/description",
     "/registry/mods/lrt-trains/versions",
     "/registry/mods/lrt-trains/versions/v1.0.0",
+    "/registry/mods/lrt-trains/versions/v1.0.1",
     "/registry/mods/lrt-trains/versions/v1.1.0",
     "/registry/mods/lrt-trains/versions/v1.1.1",
     "/registry/mods/lrt-trains/versions/v2.0.0",
@@ -2226,8 +2228,8 @@
     "latest_hour": "2026-09-09T14:00:00.000Z",
     "total_days": 146,
     "total_hours": 2476,
-    "latest_day_visits": 55,
-    "latest_hour_visits": 0
+    "latest_day_visits": 103,
+    "latest_hour_visits": 48
   },
   "time_series": {
     "by_day": [
@@ -2813,7 +2815,7 @@
       },
       {
         "date": "2026-09-09",
-        "visits": 55
+        "visits": 103
       }
     ],
     "by_hour": [
@@ -12719,7 +12721,7 @@
       },
       {
         "hour": "2026-09-09T14:00:00.000Z",
-        "visits": 0
+        "visits": 48
       }
     ]
   },
@@ -34543,63 +34545,86 @@
       }
     },
     "2026-09-09": {
-      "captured_at": "2026-09-09T14:00:52.681Z",
+      "captured_at": "2026-09-09T14:47:56.951Z",
       "window_start": "2026-09-09T00:00:00.000Z",
       "window_end": "2026-09-09T15:00:00.000Z",
       "totals": {
-        "visits": 55
+        "visits": 103
       },
       "pages": {
-        "/": 32,
+        "/": 59,
         "/credits": 1,
-        "/railyard": 7,
+        "/railyard": 12,
         "/railyard/docs/v0.2/troubleshooting-railyard": 1,
         "/registry/authors/rslurry/subwaybuilder-maps": 1,
         "/registry/authors/subway-builder-modded-admin": 1,
+        "/registry/maps": 1,
         "/registry/maps/au-melbourne": 1,
+        "/registry/maps/bonn-koeln": 1,
         "/registry/maps/bucharest-medium": 1,
         "/registry/maps/charleston-huntington-wv/versions": 1,
         "/registry/maps/jeju-4/versions/0.1.1": 1,
-        "/registry/maps/vancouver": 1,
+        "/registry/maps/jelegend-tokyo": 1,
+        "/registry/maps/jelegend-tokyo/versions/v0.4.0": 1,
+        "/registry/maps/rotterdam-the-hague": 1,
+        "/registry/maps/vancouver": 2,
+        "/registry/maps/yukina-cz-liberec-jablonec/versions/0.2.0": 1,
         "/registry/maps/yukina-hachinohe": 1,
         "/registry/maps/yukina-maebashi": 1,
         "/registry/maps/yukina-mito-hitachi/versions/0.1.0": 1,
-        "/registry/maps/yukina-nagoya/versions/0.2.3": 1,
+        "/registry/maps/yukina-nagoya": 1,
+        "/registry/maps/yukina-nagoya/versions/0.2.3": 2,
         "/registry/maps/yukina-tw-chiayi/versions/0.2.1": 1,
-        "/registry/mods": 1,
-        "/registry/mods/transit-overlay": 1
+        "/registry/mods": 2,
+        "/registry/mods/lrt-trains/versions/v1.0.1": 1,
+        "/registry/mods/subwaybuilder-regions": 1,
+        "/registry/mods/transit-overlay": 1,
+        "/registry/mods/valdotoriums-trains": 2,
+        "/template-mod": 1,
+        "/website/updates": 1
       },
       "countries": {
-        "BA": 1,
+        "AU": 1,
+        "BA": 3,
         "BE": 1,
         "CN": 1,
-        "DE": 2,
+        "DE": 7,
+        "ES": 1,
         "FI": 1,
-        "SE": 1,
-        "SG": 1,
-        "US": 46,
+        "JP": 1,
+        "MY": 1,
+        "NL": 1,
+        "NO": 1,
+        "PT": 1,
+        "SE": 5,
+        "SG": 3,
+        "US": 74,
         "VN": 1
       },
       "browsers": {
-        "Chrome": 9,
-        "ChromeMobile": 2,
-        "Edge": 1,
-        "Firefox": 1,
-        "GoogleBot": 11,
-        "MobileSafari": 2,
-        "Safari": 2,
-        "Unknown": 27
+        "BingBot": 2,
+        "Chrome": 19,
+        "ChromeDerivative": 1,
+        "ChromeMobile": 5,
+        "Edge": 2,
+        "Firefox": 2,
+        "GoogleBot": 14,
+        "MobileSafari": 4,
+        "Safari": 3,
+        "TwitterBot": 1,
+        "Unknown": 50
       },
       "operating_systems": {
-        "Android": 13,
-        "MacOSX": 2,
-        "Unknown": 27,
-        "Windows": 11,
-        "iOS": 2
+        "Android": 19,
+        "Linux": 1,
+        "MacOSX": 5,
+        "Unknown": 53,
+        "Windows": 21,
+        "iOS": 4
       },
       "devices": {
-        "desktop": 40,
-        "mobile": 15
+        "desktop": 80,
+        "mobile": 23
       }
     }
   }
