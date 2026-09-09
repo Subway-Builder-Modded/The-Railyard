@@ -1,14 +1,14 @@
 {
   "schema_version": 1,
   "repo": "Subway-Builder-Modded/railyard",
-  "generated_at": "2026-09-09T18:41:09.736Z",
-  "latest_snapshot": "2026-09-09T18:00:00.000Z",
+  "generated_at": "2026-09-09T19:02:26.901Z",
+  "latest_snapshot": "2026-09-09T19:00:00.000Z",
   "versions": {
     "0.2.10": {
-      "total_downloads": 4843,
-      "last_1d_downloads": 109,
-      "last_3d_downloads": 369,
-      "last_7d_downloads": 1103,
+      "total_downloads": 4845,
+      "last_1d_downloads": 101,
+      "last_3d_downloads": 371,
+      "last_7d_downloads": 1095,
       "assets": {
         "railyard-v0.2.10-current-linux-amd64.flatpak": {
           "total_downloads": 162,
@@ -18,27 +18,27 @@
         },
         "railyard-v0.2.10-macos-universal.dmg": {
           "total_downloads": 1408,
-          "last_1d_downloads": 28,
+          "last_1d_downloads": 25,
           "last_3d_downloads": 111,
-          "last_7d_downloads": 336
+          "last_7d_downloads": 334
         },
         "railyard-v0.2.10-macos-universal.zip": {
-          "total_downloads": 115,
+          "total_downloads": 116,
           "last_1d_downloads": 4,
-          "last_3d_downloads": 13,
-          "last_7d_downloads": 31
+          "last_3d_downloads": 14,
+          "last_7d_downloads": 32
         },
         "railyard-v0.2.10-windows-amd64-installer.exe": {
-          "total_downloads": 2982,
-          "last_1d_downloads": 62,
-          "last_3d_downloads": 213,
-          "last_7d_downloads": 637
+          "total_downloads": 2983,
+          "last_1d_downloads": 59,
+          "last_3d_downloads": 214,
+          "last_7d_downloads": 631
         },
         "railyard-v0.2.10-windows-amd64-portable.zip": {
           "total_downloads": 119,
-          "last_1d_downloads": 4,
+          "last_1d_downloads": 2,
           "last_3d_downloads": 11,
-          "last_7d_downloads": 39
+          "last_7d_downloads": 38
         },
         "railyard-v0.2.10-windows-arm64-installer.exe": {
           "total_downloads": 46,
