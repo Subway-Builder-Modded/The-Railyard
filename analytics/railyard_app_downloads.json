@@ -1,13 +1,13 @@
 {
   "schema_version": 1,
   "repo": "Subway-Builder-Modded/railyard",
-  "generated_at": "2026-09-09T07:02:01.593Z",
-  "latest_snapshot": "2026-09-09T07:00:00.000Z",
+  "generated_at": "2026-09-09T08:02:42.083Z",
+  "latest_snapshot": "2026-09-09T08:00:00.000Z",
   "versions": {
     "0.2.10": {
-      "total_downloads": 4800,
-      "last_1d_downloads": 117,
-      "last_3d_downloads": 420,
+      "total_downloads": 4802,
+      "last_1d_downloads": 114,
+      "last_3d_downloads": 417,
       "last_7d_downloads": 1159,
       "assets": {
         "railyard-v0.2.10-current-linux-amd64.flatpak": {
@@ -17,10 +17,10 @@
           "last_7d_downloads": 42
         },
         "railyard-v0.2.10-macos-universal.dmg": {
-          "total_downloads": 1395,
-          "last_1d_downloads": 35,
-          "last_3d_downloads": 130,
-          "last_7d_downloads": 356
+          "total_downloads": 1396,
+          "last_1d_downloads": 33,
+          "last_3d_downloads": 129,
+          "last_7d_downloads": 357
         },
         "railyard-v0.2.10-macos-universal.zip": {
           "total_downloads": 113,
@@ -29,21 +29,21 @@
           "last_7d_downloads": 31
         },
         "railyard-v0.2.10-windows-amd64-installer.exe": {
-          "total_downloads": 2961,
-          "last_1d_downloads": 69,
+          "total_downloads": 2962,
+          "last_1d_downloads": 68,
           "last_3d_downloads": 243,
-          "last_7d_downloads": 675
+          "last_7d_downloads": 674
         },
         "railyard-v0.2.10-windows-amd64-portable.zip": {
           "total_downloads": 118,
           "last_1d_downloads": 5,
-          "last_3d_downloads": 13,
+          "last_3d_downloads": 12,
           "last_7d_downloads": 39
         },
         "railyard-v0.2.10-windows-arm64-installer.exe": {
           "total_downloads": 45,
           "last_1d_downloads": 1,
-          "last_3d_downloads": 3,
+          "last_3d_downloads": 2,
           "last_7d_downloads": 12
         },
         "railyard-v0.2.10-windows-arm64-portable.zip": {
