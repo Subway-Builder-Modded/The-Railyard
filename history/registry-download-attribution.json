@@ -1,6 +1,6 @@
 {
   "schema_version": 2,
-  "updated_at": "2026-09-09T20:24:12.343Z",
+  "updated_at": "2026-09-09T22:44:07.210Z",
   "assets": {
     "ahkimn/subwaybuilder-eu-maps@0.1.0/brq.zip": {
       "count": 1,
@@ -14458,6 +14458,13 @@
         "workflow:Regenerate Registry Analytics (Full):mod:full": 1
       }
     },
+    "noahgarrf/unrusted-detroit@1.0.1/unrusted-detroit.zip#RA_kwDOUS2Nts4g3fVz": {
+      "count": 1,
+      "updated_at": "2026-09-09T22:44:07.210Z",
+      "by_source": {
+        "workflow:Regenerate Registry Analytics (Full):mod:full": 1
+      }
+    },
     "nzh0172/sb-anymoney@v0.1.0/v0.1.0.zip": {
       "count": 21,
       "updated_at": "2026-04-07T07:18:55.275Z",
@@ -19738,10 +19745,10 @@
       }
     },
     "worstboyinaustral1a/subway-builder-za@cpt-1.0.2/cpt_v1.0.2.zip#RA_kwDOTRwM6c4dF0ps": {
-      "count": 383,
-      "updated_at": "2026-09-09T20:24:12.343Z",
+      "count": 384,
+      "updated_at": "2026-09-09T22:44:07.210Z",
       "by_source": {
-        "workflow:Regenerate Registry Analytics (Full):map-demand-stats": 383
+        "workflow:Regenerate Registry Analytics (Full):map-demand-stats": 384
       }
     },
     "worstboyinaustral1a/subway-builder-za@dbn-1.0.0/dbn_v1.0.0.zip#RA_kwDOTRwM6c4cJCRB": {
@@ -23438,6 +23445,9 @@
     "34394265718:generate-map-demand-stats:map-demand-stats": "2026-09-09T20:24:12.343Z",
     "34394265718:generate-maps:map:full": "2026-09-09T20:24:12.343Z",
     "34394265718:generate-mods:mod:full": "2026-09-09T20:24:12.343Z",
+    "34412996896:generate-map-demand-stats:map-demand-stats": "2026-09-09T22:44:07.210Z",
+    "34412996896:generate-maps:map:full": "2026-09-09T22:44:07.210Z",
+    "34412996896:generate-mods:mod:full": "2026-09-09T22:44:07.210Z",
     "backfill:run:regenerate-registry-analytics.yml:23077874095:2026_03_14": "2026-04-05T02:51:10.191Z",
     "backfill:run:regenerate-registry-analytics.yml:23084384898:2026_03_14": "2026-04-05T02:51:10.191Z",
     "backfill:run:regenerate-registry-analytics.yml:23091846270:2026_03_14": "2026-04-05T02:51:10.191Z",
@@ -34668,13 +34678,14 @@
       }
     },
     "2026_09_09": {
-      "total": 14,
+      "total": 16,
       "assets": {
         "akospanov/subwaybuildermaps-russia@mow-v0.1.1/mow.zip#RA_kwDOUODTYM4goK8M": 1,
         "holapapie-png/subwaybuilder-chile-central@v1.0.0/clc.zip#RA_kwDOURfYSs4gvJQh": 2,
         "holapapie-png/subwaybuilder-gran-santiago@v1.0.0/gsc.zip#RA_kwDOURgIA84gvJau": 2,
         "meszier83/subway-builder-mexico-maps@v1.0.0/cur.zip#RA_kwDOUTPDKM4g6pcY": 2,
-        "worstboyinaustral1a/subway-builder-za@cpt-1.0.2/cpt_v1.0.2.zip#RA_kwDOTRwM6c4dF0ps": 7
+        "noahgarrf/unrusted-detroit@1.0.1/unrusted-detroit.zip#RA_kwDOUS2Nts4g3fVz": 1,
+        "worstboyinaustral1a/subway-builder-za@cpt-1.0.2/cpt_v1.0.2.zip#RA_kwDOTRwM6c4dF0ps": 8
       }
     }
   },
@@ -55762,6 +55773,18 @@
       "assets": {
         "akospanov/subwaybuildermaps-russia@mow-v0.1.1/mow.zip#RA_kwDOUODTYM4goK8M": 1,
         "meszier83/subway-builder-mexico-maps@v1.0.0/cur.zip#RA_kwDOUTPDKM4g6pcY": 1,
+        "worstboyinaustral1a/subway-builder-za@cpt-1.0.2/cpt_v1.0.2.zip#RA_kwDOTRwM6c4dF0ps": 1
+      }
+    },
+    "2026-09-09T22:37:58.892Z": {
+      "total": 1,
+      "assets": {
+        "noahgarrf/unrusted-detroit@1.0.1/unrusted-detroit.zip#RA_kwDOUS2Nts4g3fVz": 1
+      }
+    },
+    "2026-09-09T22:38:06.154Z": {
+      "total": 1,
+      "assets": {
         "worstboyinaustral1a/subway-builder-za@cpt-1.0.2/cpt_v1.0.2.zip#RA_kwDOTRwM6c4dF0ps": 1
       }
     }

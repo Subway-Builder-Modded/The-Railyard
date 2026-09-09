@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "generated_at": "2026-09-09T19:18:56.639Z",
+  "generated_at": "2026-09-09T22:37:53.949Z",
   "listings": {
     "aachen": {
       "has_complete_version": true,
@@ -17861,7 +17861,8 @@
           },
           "fingerprint": "rules:v6:github:akospanov/subwaybuildermaps-russia:mow-v0.1.1:MOW.zip",
           "checked_at": "2026-09-09T19:18:56.639Z",
-          "released_at": "2026-09-06T16:24:03.000Z"
+          "released_at": "2026-09-06T16:24:03.000Z",
+          "release_size": 477.97
         }
       }
     },

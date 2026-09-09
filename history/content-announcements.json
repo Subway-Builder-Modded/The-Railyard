@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "updated_at": "2026-09-09T04:14:34.759Z",
+  "updated_at": "2026-09-09T22:37:58.893Z",
   "entries": {
     "map:aachen": {
       "listing_id": "aachen",
@@ -3039,6 +3039,13 @@
       "latest_semver_version": "1.5.1",
       "recorded_at": "2026-05-24T04:11:41.405Z",
       "source": "bootstrap:complete-integrity-snapshot"
+    },
+    "mod:unrusted-detroit": {
+      "listing_id": "unrusted-detroit",
+      "listing_type": "mod",
+      "latest_semver_version": "1.0.1",
+      "recorded_at": "2026-09-09T22:37:58.893Z",
+      "source": "pending:mod"
     },
     "mod:valdotoriums-trains": {
       "listing_id": "valdotoriums-trains",
