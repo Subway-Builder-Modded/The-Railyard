@@ -1,0 +1,54 @@
+{
+  "schema_version": 1,
+  "id": "delhi",
+  "name": "Delhi",
+  "author": "ryandicicco",
+  "github_id": 215120742,
+  "description": "<h1>Delhi</h1>\nHighly-detailed map of India's National Capital Region: Delhi, Gurgaon, Noida, and Faridabad sprawling across the Yamuna plain, where Mughal-era monuments stand a few kilometers from one of the world's largest metro networks.\n<h2>Coverage</h2>\n<table style=\"width: auto\">\n<tr><td><strong>Bounding box</strong></td><td>76.8892, 28.31, 77.574, 28.7746</td></tr>\n<tr><td><strong>Bounding Box Area</strong></td><td>3455 km²</td></tr>\n</table>\n\n<h2>Population Summary</h2>\n<table style=\"width: auto\">\n<tr><td><strong>Total Modeled Demand</strong></td><td align=\"right\">4,618,539</td></tr>\n<tr><td><strong>Modeled Normal Demand</strong></td><td align=\"right\">4,372,889</td></tr>\n<tr><td><strong>Modeled Special Demand</strong></td><td align=\"right\">245,650</td></tr>\n</table>\n\n<h2>Map Statistics</h2>\n<table style=\"width: auto\">\n<tr><td><strong>Demand Points</strong></td><td align=\"right\">10,068</td></tr>\n<tr><td><strong>Populations</strong></td><td align=\"right\">452,602</td></tr>\n<tr><td><strong>Median Point Size</strong></td><td align=\"right\">473</td></tr>\n<tr><td><strong>Mean Point Size</strong></td><td align=\"right\">917.5</td></tr>\n<tr><td><strong>Median Population Size</strong></td><td align=\"right\">5</td></tr>\n<tr><td><strong>Mean Population Size</strong></td><td align=\"right\">10.2</td></tr>\n<tr><td><strong>Median Commute Distance (km)</strong></td><td align=\"right\">31.26</td></tr>\n<tr><td><strong>Mean Commute Distance (km)</strong></td><td align=\"right\">32.24</td></tr>\n<tr><td><strong>Median Commute Time (min)</strong></td><td align=\"right\">34.8</td></tr>\n<tr><td><strong>Mean Commute Time (min)</strong></td><td align=\"right\">35.7</td></tr>\n</table>\n\n<details>\n<summary>Airports — 214,000</summary>\n\n<table style=\"width: auto\">\n<tr><th align=\"left\">Name</th><th align=\"right\">Modeled Demand</th></tr>\n<tr><td align=\"left\">&nbsp;&nbsp;Indira Gandhi International Airport&nbsp;&nbsp;</td><td align=\"right\">&nbsp;&nbsp;214,000&nbsp;&nbsp;</td></tr>\n</table>\n\n</details>\n\n<details>\n<summary>Universities — 31,650</summary>\n\n<table style=\"width: auto\">\n<tr><th align=\"left\">Name</th><th align=\"right\">Modeled Demand</th></tr>\n<tr><td align=\"left\">&nbsp;&nbsp;Indian Institute of Technology Delhi&nbsp;&nbsp;</td><td align=\"right\">&nbsp;&nbsp;13,000&nbsp;&nbsp;</td></tr>\n<tr><td align=\"left\">&nbsp;&nbsp;Jawaharlal Nehru University&nbsp;&nbsp;</td><td align=\"right\">&nbsp;&nbsp;7,950&nbsp;&nbsp;</td></tr>\n<tr><td align=\"left\">&nbsp;&nbsp;Jamia Millia Islamia&nbsp;&nbsp;</td><td align=\"right\">&nbsp;&nbsp;10,700&nbsp;&nbsp;</td></tr>\n</table>\n\n</details>\n<br>\n\n<h2>Additional Features</h2>\n<ul>\n<li><strong>Building Collision</strong>: A buildings index is included, providing in-game collision geometry for all non-filtered buildings. Buildings have foundations ranging from -10 m to -80 m, calculated based on the building's height and footprint; the in-game foundations map layer visualizes these.</li>\n<li><strong>Water Depths</strong>: A water depth index is included, preventing tracks from being placed within the water.  GEBCO bathymetric data are used where available, and a flat -5 m depth is assumed everywhere else; the in-game ocean foundations map layer visualizes these.</li>\n<li><strong>Place Labels</strong>: The map includes city, suburb, and neighborhood labels extracted from selected OSM place tags.</li>\n</ul>\n<h2>Methodology</h2>\n<p>Population: WorldPop 100m gridded raster.</p>\n<p>Employment: OSM landuse, scaled to SHRUG/Economic Census (2013) totals.</p>\n<p>Base commute pairs: doubly-constrained gravity model, decay exponent calibrated against Census 2011 Table B-28 distance-band data for NCT Delhi.</p>\n<p>Special demand: Indira Gandhi International Airport (capacity from 2025 annual passenger throughput), plus IIT Delhi, Jawaharlal Nehru University, and Jamia Millia Islamia, each using that institution's own officially reported enrollment.</p>\n<p>Consolidation: nearby low-volume commute flows spatially merged within a tiered distance threshold to keep total population count performant in-game, while preserving the variety of distinct commute destinations per origin point.</p>\n<p>Routing and consolidation tooling: <a href=\"https://github.com/Subway-Builder-Modded/depot\">Depot</a>.</p>\n</ul>\n<h2>Data Sources</h2>\n<ul>\n<p><a href=\"https://hub.worldpop.org/\">WorldPop</a></p>\n<p><a href=\"https://www.devdatalab.org/shrug\">SHRUG</a></p>\n<p><a href=\"https://censusindia.gov.in/nada/index.php/catalog/13954\">Census of India 2011, Table B-28</a></p>\n<p><a href=\"https://www.openstreetmap.org/\">OpenStreetMap</a> / <a href=\"https://overturemaps.org/\">Overture Maps</a></p>\n</ul>\n<h2>License</h2>\n<p>This map data is released under the <a href=\"https://www.gnu.org/licenses/gpl-3.0.html\">GNU General Public License v3.0</a>.</p>\n<h2>Credits</h2>\n© OpenMapTiles © OpenStreetMap contributors\n<p>Map authored by rdicicco</p>",
+  "tags": [
+    "south-asia",
+    "airports",
+    "universities"
+  ],
+  "gallery": [
+    "gallery/screenshot1.webp",
+    "gallery/screenshot2.webp",
+    "gallery/screenshot3.webp"
+  ],
+  "is_test": false,
+  "source": "https://github.com/ryandicicco/Subway-Builder-Maps",
+  "update": {
+    "type": "custom",
+    "url": "https://raw.githubusercontent.com/ryandicicco/Subway-Builder-Maps/main/releases/DEL.json"
+  },
+  "city_code": "DEL",
+  "country": "IN",
+  "population": 4618539,
+  "residents_total": 4618539,
+  "points_count": 10068,
+  "population_count": 452602,
+  "initial_view_state": {
+    "latitude": 28.5423,
+    "longitude": 77.2316,
+    "zoom": 12,
+    "bearing": 0
+  },
+  "data_source": "WorldPop, SHRUG, Census 2011 B-28, OSM",
+  "source_quality": "low-quality",
+  "level_of_detail": "low-detail",
+  "data_quality": {
+    "tier": "unknown",
+    "rubric_version": 1
+  },
+  "location": "south-asia",
+  "special_demand": [
+    "airports",
+    "universities"
+  ],
+  "file_sizes": {},
+  "included_cities": [
+    "Gurgaon",
+    "Noida",
+    "Faridabad"
+  ]
+}

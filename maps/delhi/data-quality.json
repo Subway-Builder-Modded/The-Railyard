@@ -1,0 +1,31 @@
+{
+  "schema_version": 1,
+  "id": "delhi",
+  "answers": {
+    "workplace_count": "physical_measured",
+    "workplace_granularity": "adm3",
+    "workplace_resolution": "ml_hybrid_footprints",
+    "workplace_intensity": "fine_types_generic",
+    "resident_count": "total_population",
+    "resident_granularity": "mesh_250",
+    "resident_resolution": "admin_polygon",
+    "resident_intensity": "uniform",
+    "od_metric": "structured_marginals",
+    "od_granularity": "adm1"
+  },
+  "notes": "Population: WorldPop 100m gridded raster (2020). Employment: two real published totals, combined. NCT Delhi's own portion uses SHRUG's 2013 Economic Census total (`ec13_emp_all`), filtered by the 2011 Census state code embedded in each shrid2 identifier so bordering Haryana/UP economic activity isn't counted as Delhi's; that one real total is spread across Delhi's 290 real wards (DMC, NDMC, Delhi Cantonment Board, each numbering wards independently) using each ward's own real 2011 Census worker count (Table PCA-TV, residence-based) as a spatial weight; 55 wards have no matching Census figure, of which 27 fall back to an OSM-landuse-derived proxy weight and 28 remain a documented residual gap. The Haryana/UP portion of the bounding box (Gurugram, Noida, Faridabad, Ghaziabad) uses SHRUG's subdistrict-level Economic Census product instead, which does not collapse into a single figure the way Delhi's does (real, distinct per-subdistrict totals). Within both, jobs are placed using OSM landuse-polygon type (residential/commercial/retail/etc.) as a generic density prior. Commute pairs: doubly-constrained gravity model, decay exponent calibrated against Census 2011 Table B-28 distance-band data for NCT Delhi. Data vintages: WorldPop 2020, SHRUG 2013 Economic Census, Census of India 2011 (Table PCA-TV and Table B-28), OSM extract current as of v1.1.0's build.",
+  "sources": [
+    "https://hub.worldpop.org/geodata/summary?id=41746",
+    "https://www.devdatalab.org/shrug",
+    "https://shrug-assets-ddl.s3.amazonaws.com/static/main/assets/other/shrug-codebook.pdf",
+    "https://censusindia.gov.in/nada/index.php/catalog/13954",
+    "https://censusindia.gov.in/census.website/data/census-tables",
+    "https://download.geofabrik.de/asia/india.html"
+  ],
+  "provenance": {
+    "method": "self-reported",
+    "submitted_by": "ryandicicco",
+    "reviewed_by": null,
+    "date": "2026-09-04"
+  }
+}
