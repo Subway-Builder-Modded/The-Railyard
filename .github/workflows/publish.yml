@@ -444,19 +444,34 @@ jobs:
       - name: Generate search aliases
         run: pnpm --dir scripts run generate-search-aliases -- --map-id "${{ fromJson(steps.parser.outputs.jsonString).map-id }}"
 
+      # Re-mint right before the push: app installation tokens live 1 hour, and
+      # large-map validation can run past that (moscow-and-oblast took ~85
+      # minutes on 2026-09-07 and every otherwise-successful run died here with
+      # an expired token). Same hardening as the analytics map-data publish.
+      # The checkout's persisted credential is the stale token, so the fetch
+      # and push below go through an explicit token URL instead of origin.
+      - name: Re-mint bot token for push
+        id: bot-token-push
+        if: vars.REGISTRY_BOT_APP_ID != ''
+        uses: actions/create-github-app-token@v2
+        with:
+          app-id: ${{ vars.REGISTRY_BOT_APP_ID }}
+          private-key: ${{ secrets.REGISTRY_BOT_PRIVATE_KEY }}
+
       - name: Commit and push changes
         env:
-          GH_TOKEN: ${{ steps.bot-token.outputs.token || github.token }}
+          GH_TOKEN: ${{ steps.bot-token-push.outputs.token || steps.bot-token.outputs.token || github.token }}
         run: |
           git config user.name "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
           git checkout -B "publish/map/${{ fromJson(steps.parser.outputs.jsonString).map-id }}"
+          remote="https://x-access-token:${GH_TOKEN}@github.com/${{ github.repository }}.git"
           # A re-run regenerates this branch from main and force-pushes, which
           # would clobber the data-quality answers the questionnaire flow may
           # have committed to the previous branch head (then rescore_data finds
           # nothing and the merge gate never opens). Carry the answers file
           # forward into the regenerated commit.
-          if git fetch origin "publish/map/${{ fromJson(steps.parser.outputs.jsonString).map-id }}"; then
+          if git fetch "${remote}" "publish/map/${{ fromJson(steps.parser.outputs.jsonString).map-id }}"; then
             git checkout FETCH_HEAD -- "maps/${{ fromJson(steps.parser.outputs.jsonString).map-id }}/data-quality.json" 2>/dev/null \
               || echo "no prior data-quality answers to preserve"
           fi
@@ -464,12 +479,12 @@ jobs:
           git commit -m "feat(map): add ${{ fromJson(steps.parser.outputs.jsonString).map-id }}"
           gh api -X DELETE "repos/${{ github.repository }}/git/refs/heads/publish" 2>/dev/null || true
           gh api -X DELETE "repos/${{ github.repository }}/git/refs/heads/publish/map" 2>/dev/null || true
-          git push --force origin "publish/map/${{ fromJson(steps.parser.outputs.jsonString).map-id }}"
+          git push --force "${remote}" "publish/map/${{ fromJson(steps.parser.outputs.jsonString).map-id }}"
 
       - name: Create or update pull request
         uses: actions/github-script@v7
         with:
-          github-token: ${{ steps.bot-token.outputs.token || github.token }}
+          github-token: ${{ steps.bot-token-push.outputs.token || steps.bot-token.outputs.token || github.token }}
           script: |
             const branch = 'publish/map/${{ fromJson(steps.parser.outputs.jsonString).map-id }}';
             // Draft until data quality is confirmed (plan C1): GitHub cannot
