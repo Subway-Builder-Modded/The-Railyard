@@ -1,0 +1,53 @@
+{
+  "schema_version": 1,
+  "id": "kolkata",
+  "name": "Kolkata",
+  "author": "ryandicicco",
+  "github_id": 215120742,
+  "description": "<h1>Kolkata</h1>\nHighly-detailed map of India's former colonial capital and self-styled \"City of Joy,\" a cultural and intellectual capital built along the Hooghly River, its colonial Dalhousie Square core and Salt Lake/New Town IT corridor threaded together by the Kolkata Metro and Kolkata Suburban Railway. Coverage stretches from Dakshineswar in the north, west across the river through Howrah, and south through Garia and Baruipur, the reach of the city's operating and under-construction rail lines.\n<h2>Coverage</h2>\n<table style=\"width: auto\">\n<tr><td><strong>Bounding box</strong></td><td>88.05, 22.25, 88.55, 22.97</td></tr>\n<tr><td><strong>Bounding Box Area</strong></td><td>4109 km²</td></tr>\n</table>\n\n<h2>Population Summary</h2>\n<table style=\"width: auto\">\n<tr><td><strong>Total Modeled Demand</strong></td><td align=\"right\">2,636,540</td></tr>\n<tr><td><strong>Modeled Normal Demand</strong></td><td align=\"right\">2,578,740</td></tr>\n<tr><td><strong>Modeled Special Demand</strong></td><td align=\"right\">57,800</td></tr>\n</table>\n\n<h2>Map Statistics</h2>\n<table style=\"width: auto\">\n<tr><td><strong>Demand Points</strong></td><td align=\"right\">10,755</td></tr>\n<tr><td><strong>Populations</strong></td><td align=\"right\">243,352</td></tr>\n<tr><td><strong>Median Point Size</strong></td><td align=\"right\">180</td></tr>\n<tr><td><strong>Mean Point Size</strong></td><td align=\"right\">490.3</td></tr>\n<tr><td><strong>Median Population Size</strong></td><td align=\"right\">4</td></tr>\n<tr><td><strong>Mean Population Size</strong></td><td align=\"right\">10.8</td></tr>\n<tr><td><strong>Median Commute Distance (km)</strong></td><td align=\"right\">34.28</td></tr>\n<tr><td><strong>Mean Commute Distance (km)</strong></td><td align=\"right\">35.63</td></tr>\n<tr><td><strong>Median Commute Time (min)</strong></td><td align=\"right\">37.9</td></tr>\n<tr><td><strong>Mean Commute Time (min)</strong></td><td align=\"right\">38.8</td></tr>\n</table>\n\n<h2>Special Demand</h2>\n<details>\n<summary>Airports — 57,800</summary>\n\n<table style=\"width: auto\">\n<tr><th align=\"left\">Name</th><th align=\"right\">Modeled Demand</th></tr>\n<tr><td align=\"left\">&nbsp;&nbsp;Netaji Subhas Chandra Bose International Airport&nbsp;&nbsp;</td><td align=\"right\">&nbsp;&nbsp;57,800&nbsp;&nbsp;</td></tr>\n</table>\n\n</details>\n<br>\n\n<h2>Additional Features</h2>\n<ul>\n<li><strong>Building Collision</strong>: A buildings index is included, providing in-game collision geometry for all non-filtered buildings. Buildings have foundations ranging from -10 m to -80 m, calculated based on the building's height and footprint; the in-game foundations map layer visualizes these.</li>\n<li><strong>Water Depths</strong>: A water depth index is included, preventing tracks from being placed within the water.  GEBCO bathymetric data are used where available, and a flat -5 m depth is assumed everywhere else; the in-game ocean foundations map layer visualizes these.</li>\n<li><strong>Place Labels</strong>: The map includes city, suburb, and neighborhood labels extracted from selected OSM place tags.</li>\n</ul>\n<h2>Methodology</h2>\n<ul>\n<p>Population: WorldPop 100m gridded raster.</p>\n<p>Employment: OSM landuse, scaled to SHRUG/Economic Census (2013) totals.</p>\n<p>Base commute pairs: doubly-constrained gravity model, decay exponent calibrated against Census 2011 Table B-28 distance-band data for West Bengal (state code 19).</p>\n<p>Coverage: trimmed from the Kolkata Suburban Railway's full rural reach (which extends to Bandel, Habra/Bongaon, Canning, Diamond Harbour, and Kolaghat/Haldia) down to the dense urban core and immediate suburbs, capturing all Kolkata Metro lines (Blue/Green fully operational, Purple/Yellow/Orange partially operational with extensions under construction) and the inner, denser portions of the Suburban Railway.</p>\n<p>Special demand: Netaji Subhas Chandra Bose International Airport (capacity from FY2024-25 annual passenger throughput). No university met this project's bar for a solid, officially-reported whole-institution enrollment figure for this release.</p>\n<p>Consolidation: nearby low-volume commute flows spatially merged within a tiered distance threshold to keep total population count performant in-game, while preserving the variety of distinct commute destinations per origin point.</p>\n<p>Routing and consolidation tooling: <a href=\"https://github.com/Subway-Builder-Modded/depot\">Depot</a>.</p>\n</ul>\n\n<h2>Data Sources</h2>\n<ul>\n<p><a href=\"https://hub.worldpop.org/\">WorldPop</a></p>\n<p><a href=\"https://www.devdatalab.org/shrug\">SHRUG</a></p>\n<p><a href=\"https://censusindia.gov.in/nada/index.php/catalog/13954\">Census of India 2011, Table B-28</a></p>\n<p><a href=\"https://www.openstreetmap.org/\">OpenStreetMap</a> / <a href=\"https://overturemaps.org/\">Overture Maps</a>\n</p>\n</ul>\n<h2>License</h2>\n<p>This map data is released under the <a href=\"https://www.gnu.org/licenses/gpl-3.0.html\">GNU General Public License v3.0</a>.</p>\n<h2>Credits</h2>\n© OpenMapTiles © OpenStreetMap contributors\n<p>Map authored by rdicicco</p>",
+  "tags": [
+    "south-asia",
+    "airports"
+  ],
+  "gallery": [
+    "gallery/screenshot1.webp",
+    "gallery/screenshot2.webp",
+    "gallery/screenshot3.webp"
+  ],
+  "is_test": false,
+  "source": "https://github.com/ryandicicco/Subway-Builder-Maps",
+  "update": {
+    "type": "custom",
+    "url": "https://raw.githubusercontent.com/ryandicicco/Subway-Builder-Maps/main/releases/CCU.json"
+  },
+  "city_code": "CCU",
+  "country": "IN",
+  "population": 2636540,
+  "residents_total": 2636540,
+  "points_count": 10755,
+  "population_count": 243352,
+  "initial_view_state": {
+    "latitude": 22.61,
+    "longitude": 88.3,
+    "zoom": 12,
+    "bearing": 0
+  },
+  "data_source": "WorldPop, SHRUG, Census 2011 B-28, OSM",
+  "source_quality": "low-quality",
+  "level_of_detail": "low-detail",
+  "data_quality": {
+    "tier": "unknown",
+    "rubric_version": 1
+  },
+  "location": "south-asia",
+  "special_demand": [
+    "airports"
+  ],
+  "file_sizes": {},
+  "included_cities": [
+    "Dakshineswar",
+    "Howrah",
+    "Garia",
+    "Baruipur"
+  ]
+}
