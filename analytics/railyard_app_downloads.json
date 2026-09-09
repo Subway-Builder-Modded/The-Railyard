@@ -1,26 +1,26 @@
 {
   "schema_version": 1,
   "repo": "Subway-Builder-Modded/railyard",
-  "generated_at": "2026-09-09T00:06:44.814Z",
-  "latest_snapshot": "2026-09-09T00:00:00.000Z",
+  "generated_at": "2026-09-09T01:02:07.414Z",
+  "latest_snapshot": "2026-09-09T01:00:00.000Z",
   "versions": {
     "0.2.10": {
-      "total_downloads": 4770,
-      "last_1d_downloads": 110,
-      "last_3d_downloads": 423,
-      "last_7d_downloads": 1153,
+      "total_downloads": 4775,
+      "last_1d_downloads": 111,
+      "last_3d_downloads": 425,
+      "last_7d_downloads": 1152,
       "assets": {
         "railyard-v0.2.10-current-linux-amd64.flatpak": {
           "total_downloads": 156,
           "last_1d_downloads": 3,
           "last_3d_downloads": 15,
-          "last_7d_downloads": 43
+          "last_7d_downloads": 42
         },
         "railyard-v0.2.10-macos-universal.dmg": {
-          "total_downloads": 1388,
+          "total_downloads": 1389,
           "last_1d_downloads": 34,
-          "last_3d_downloads": 134,
-          "last_7d_downloads": 358
+          "last_3d_downloads": 135,
+          "last_7d_downloads": 356
         },
         "railyard-v0.2.10-macos-universal.zip": {
           "total_downloads": 112,
@@ -29,16 +29,16 @@
           "last_7d_downloads": 30
         },
         "railyard-v0.2.10-windows-amd64-installer.exe": {
-          "total_downloads": 2942,
+          "total_downloads": 2945,
           "last_1d_downloads": 65,
           "last_3d_downloads": 242,
-          "last_7d_downloads": 667
+          "last_7d_downloads": 668
         },
         "railyard-v0.2.10-windows-amd64-portable.zip": {
-          "total_downloads": 117,
-          "last_1d_downloads": 4,
-          "last_3d_downloads": 12,
-          "last_7d_downloads": 39
+          "total_downloads": 118,
+          "last_1d_downloads": 5,
+          "last_3d_downloads": 13,
+          "last_7d_downloads": 40
         },
         "railyard-v0.2.10-windows-arm64-installer.exe": {
           "total_downloads": 44,
