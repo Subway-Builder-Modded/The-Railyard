@@ -1,0 +1,27 @@
+{
+  "schema_version": 1,
+  "id": "pasto-narino",
+  "answers": {
+    "workplace_count": "none",
+    "workplace_granularity": "none",
+    "workplace_resolution": "ml_hybrid_footprints",
+    "workplace_intensity": "fine_types_generic",
+    "resident_count": "none",
+    "resident_granularity": "none",
+    "resident_resolution": "ml_hybrid_footprints",
+    "resident_intensity": "fine_types_generic",
+    "od_metric": "none",
+    "od_granularity": null
+  },
+  "notes": "Map geometry was generated from OpenStreetMap data extracted on September 3, 2026 for Pasto, Colombia, using the bounding box [-77.36, 1.13, -77.22, 1.30]. Roads, building footprints, building types, mapped floor counts, and mapped heights were processed with Depot. Three obvious OpenStreetMap height errors were manually corrected after visual inspection in the game: Udenar (12 m), Condominio Agualongo (15 m), and Santuario de Nuestra Señora de Guadalupe (18 m).\n\nNo official census, workplace, or origin-destination dataset was used to generate demand. The modeled total of 480,000 residents is a user-selected approximation, not a value imported from an official statistical table.\n\nSynthetic residence and job weights were calculated from OpenStreetMap building footprints, estimated floor area, building type, and distance from central Pasto. Residential buildings received higher residence weights. Commercial, retail, office, hospital, school, university, civic, and government buildings received higher job weights. Building results were aggregated into an approximately 0.003-degree grid, producing 1,073 demand points.\n\nThe synthetic residence and job totals were each scaled to 480,000. Commute destinations were randomly sampled using the modeled job weights, producing 3,197 commuter groups. No measured origin-destination flows constrained these assignments. Driving distances were approximated from straight-line distance multiplied by 1.35, and travel times assumed approximately 25 km/h.\n\nTherefore, all residence locations, workplace locations, and commute flows should be treated as modeled approximations rather than measured census or mobility data.",
+  "sources": [
+    "https://www.openstreetmap.org/",
+    "https://github.com/Subway-Builder-Modded/depot"
+  ],
+  "provenance": {
+    "method": "self-reported",
+    "submitted_by": "niquitooos",
+    "reviewed_by": null,
+    "date": "2026-09-04"
+  }
+}

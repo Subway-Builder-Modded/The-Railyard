@@ -1,0 +1,48 @@
+{
+  "schema_version": 1,
+  "id": "pasto-narino",
+  "name": "Pasto",
+  "author": "niquitooos",
+  "github_id": 324605744,
+  "description": "Custom map of Pasto, Nariño, Colombia, covering the urban area and nearby sectors including Catambuco, Genoy, Obonuco, and Jongovito. Includes OpenStreetMap-based roads and buildings, corrected building heights, and modeled travel demand for 480,000 residents.",
+  "tags": [
+    "south-america",
+    "universities"
+  ],
+  "gallery": [
+    "gallery/screenshot1.webp",
+    "gallery/screenshot2.webp",
+    "gallery/screenshot3.webp",
+    "gallery/screenshot4.webp"
+  ],
+  "is_test": false,
+  "source": "https://github.com/niquitooos/pasto-subway-builder-map",
+  "update": {
+    "type": "github",
+    "repo": "niquitooos/pasto-subway-builder-map"
+  },
+  "city_code": "PSO",
+  "country": "CO",
+  "population": 480000,
+  "residents_total": 480000,
+  "points_count": 1073,
+  "population_count": 3197,
+  "initial_view_state": {
+    "latitude": 1.2136,
+    "longitude": -77.2811,
+    "zoom": 12.5,
+    "bearing": 0
+  },
+  "data_source": "OpenStreetMap (OSM) and modeled synthetic demand",
+  "source_quality": "low-quality",
+  "level_of_detail": "low-detail",
+  "data_quality": {
+    "tier": "unknown",
+    "rubric_version": 1
+  },
+  "location": "south-america",
+  "special_demand": [
+    "universities"
+  ],
+  "file_sizes": {}
+}
