@@ -1,0 +1,54 @@
+{
+  "schema_version": 1,
+  "id": "hyderabad",
+  "name": "Hyderabad",
+  "author": "ryandicicco",
+  "github_id": 215120742,
+  "description": "<h1>Hyderabad</h1>\nHighly-detailed map of India's historic \"City of Pearls\" and modern IT hub, spread across the Deccan Plateau at ~540m elevation, its HITEC City tech corridor and Nizam-era old city threaded together by the Hyderabad Metro and MMTS suburban rail network. Coverage stretches from Medchal in the north, east through Ghatkesar, west to Lingampalli's IT corridor, and south to Rajiv Gandhi International Airport, the reach of the city's operating and under-construction rail lines.\n<h2>Coverage</h2>\n<table style=\"width: auto\">\n<tr><td><strong>Bounding box</strong></td><td>78.3, 17.2, 78.7, 17.75</td></tr>\n<tr><td><strong>Bounding Box Area</strong></td><td>2594 km²</td></tr>\n</table>\n\n<h2>Population Summary</h2>\n<table style=\"width: auto\">\n<tr><td><strong>Total Modeled Demand</strong></td><td align=\"right\">2,459,528</td></tr>\n<tr><td><strong>Modeled Normal Demand</strong></td><td align=\"right\">2,374,728</td></tr>\n<tr><td><strong>Modeled Special Demand</strong></td><td align=\"right\">84,800</td></tr>\n</table>\n\n<h2>Map Statistics</h2>\n<table style=\"width: auto\">\n<tr><td><strong>Demand Points</strong></td><td align=\"right\">6,759</td></tr>\n<tr><td><strong>Populations</strong></td><td align=\"right\">136,293</td></tr>\n<tr><td><strong>Median Point Size</strong></td><td align=\"right\">390</td></tr>\n<tr><td><strong>Mean Point Size</strong></td><td align=\"right\">727.8</td></tr>\n<tr><td><strong>Median Population Size</strong></td><td align=\"right\">6</td></tr>\n<tr><td><strong>Mean Population Size</strong></td><td align=\"right\">18.0</td></tr>\n<tr><td><strong>Median Commute Distance (km)</strong></td><td align=\"right\">25.21</td></tr>\n<tr><td><strong>Mean Commute Distance (km)</strong></td><td align=\"right\">27.72</td></tr>\n<tr><td><strong>Median Commute Time (min)</strong></td><td align=\"right\">31.1</td></tr>\n<tr><td><strong>Mean Commute Time (min)</strong></td><td align=\"right\">31.8</td></tr>\n</table>\n\n<h2>Special Demand</h2>\n<details>\n<summary>Airports: 79,400</summary>\n\n<table style=\"width: auto\">\n<tr><th align=\"left\">Name</th><th align=\"right\">Modeled Demand</th></tr>\n<tr><td align=\"left\">&nbsp;&nbsp;Rajiv Gandhi International Airport&nbsp;&nbsp;</td><td align=\"right\">&nbsp;&nbsp;79,400&nbsp;&nbsp;</td></tr>\n</table>\n\n</details>\n\n<details>\n<summary>Universities: 5,400</summary>\n\n<table style=\"width: auto\">\n<tr><th align=\"left\">Name</th><th align=\"right\">Modeled Demand</th></tr>\n<tr><td align=\"left\">&nbsp;&nbsp;University of Hyderabad&nbsp;&nbsp;</td><td align=\"right\">&nbsp;&nbsp;5,400&nbsp;&nbsp;</td></tr>\n</table>\n\n</details>\n<br>\n\n<h2>Additional Features</h2>\n<ul>\n<li><strong>Building Collision</strong>: A buildings index is included, providing in-game collision geometry for all non-filtered buildings. Buildings have foundations ranging from -10 m to -80 m, calculated based on the building's height and footprint; the in-game foundations map layer visualizes these.</li>\n<li><strong>Water Depths</strong>: A water depth index is included, preventing tracks from being placed within the water.  GEBCO bathymetric data are used where available, and a flat -5 m depth is assumed everywhere else; the in-game ocean foundations map layer visualizes these.</li>\n<li><strong>Place Labels</strong>: The map includes city, suburb, and neighborhood labels extracted from selected OSM place tags.</li>\n</ul>\n<h2>Methodology</h2>\n<ul>\n<p>Population: WorldPop 100m gridded raster.</p>\n<p>Employment: OSM landuse, scaled to SHRUG/Economic Census (2013) totals.</p>\n<p>Base commute pairs: doubly-constrained gravity model, decay exponent calibrated against Census 2011 Table B-28 distance-band data. Telangana did not exist as a state during the 2011 census, so this bbox's real data is filed under state code 28, undivided Andhra Pradesh; not a cross-state approximation, just the historically correct row for this territory.</p>\n<p>Special demand: Rajiv Gandhi International Airport (capacity from FY2024-25 annual passenger throughput) and the University of Hyderabad, using its own officially reported enrollment.</p>\n<p>Consolidation: nearby low-volume commute flows spatially merged within a tiered distance threshold to keep total population count performant in-game, while preserving the variety of distinct commute destinations per origin point.</p>\n<p>Routing and consolidation tooling: <a href=\"https://github.com/Subway-Builder-Modded/depot\">Depot</a>.</p>\n</ul>\n\n<h2>Data Sources</h2>\n<ul>\n<p><a href=\"https://hub.worldpop.org/\">WorldPop</a></p>\n<p><a href=\"https://www.devdatalab.org/shrug\">SHRUG</a></p>\n<p><a href=\"https://censusindia.gov.in/nada/index.php/catalog/13954\">Census of India 2011, Table B-28</a></p>\n<p><a href=\"https://www.openstreetmap.org/\">OpenStreetMap</a> / <a href=\"https://overturemaps.org/\">Overture Maps</a>\n</p>\n</ul>\n<h2>License</h2>\n<p>This map data is released under the <a href=\"https://www.gnu.org/licenses/gpl-3.0.html\">GNU General Public License v3.0</a>.</p>\n<h2>Credits</h2>\n© OpenMapTiles © OpenStreetMap contributors\n<p>Map authored by rdicicco</p>",
+  "tags": [
+    "south-asia",
+    "airports",
+    "universities"
+  ],
+  "gallery": [
+    "gallery/screenshot1.webp",
+    "gallery/screenshot2.webp",
+    "gallery/screenshot3.webp"
+  ],
+  "is_test": false,
+  "source": "https://github.com/ryandicicco/Subway-Builder-Maps",
+  "update": {
+    "type": "custom",
+    "url": "https://raw.githubusercontent.com/ryandicicco/Subway-Builder-Maps/main/releases/HYD.json"
+  },
+  "city_code": "HYD",
+  "country": "IN",
+  "population": 2459528,
+  "residents_total": 2459528,
+  "points_count": 6759,
+  "population_count": 136293,
+  "initial_view_state": {
+    "latitude": 17.475,
+    "longitude": 78.5,
+    "zoom": 12,
+    "bearing": 0
+  },
+  "data_source": "WorldPop, SHRUG, Census 2011 B-28, OSM",
+  "source_quality": "low-quality",
+  "level_of_detail": "low-detail",
+  "data_quality": {
+    "tier": "unknown",
+    "rubric_version": 1
+  },
+  "location": "south-asia",
+  "special_demand": [
+    "airports",
+    "universities"
+  ],
+  "file_sizes": {},
+  "included_cities": [
+    "Medchal",
+    "Ghatkesar",
+    "Lingampalli"
+  ]
+}

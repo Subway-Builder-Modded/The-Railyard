@@ -1,0 +1,31 @@
+{
+  "schema_version": 1,
+  "id": "hyderabad",
+  "answers": {
+    "workplace_count": "physical_measured",
+    "workplace_granularity": "adm3",
+    "workplace_resolution": "ml_hybrid_footprints",
+    "workplace_intensity": "fine_types_generic",
+    "resident_count": "total_population",
+    "resident_granularity": "mesh_250",
+    "resident_resolution": "admin_polygon",
+    "resident_intensity": "uniform",
+    "od_metric": "structured_marginals",
+    "od_granularity": "adm1"
+  },
+  "notes": "Employment demand uses SHRUG's 2013 Economic Census city-wide workplace total for Hyderabad, redistributed using real 2011 Census GHMC ward-level worker counts. Only 99 of GHMC's ~144 wards had a matching Census figure — the other ~45 are mostly outer wards absorbed from Ranga Reddy district in 2007 that the 2011 Census never separately tabulated at GHMC ward level. For wards missing a Census figure, we substitute a modeled proxy weight built from that ward's own OSM landuse data, clearly distinguished from the real Census-derived weights; 27 of the 46 gap wards got a usable proxy, and 19 remain a documented residual limit with no landuse signal to draw on either. Jobs placed within wards via OSM building footprints by type; population and commute data follow the standard project pipeline.",
+  "sources": [
+    "https://hub.worldpop.org/geodata/summary?id=41746",
+    "https://www.devdatalab.org/shrug",
+    "https://shrug-assets-ddl.s3.amazonaws.com/static/main/assets/other/shrug-codebook.pdf",
+    "https://censusindia.gov.in/nada/index.php/catalog/13954",
+    "https://censusindia.gov.in/census.website/data/census-tables",
+    "https://download.geofabrik.de/asia/india.html"
+  ],
+  "provenance": {
+    "method": "self-reported",
+    "submitted_by": "ryandicicco",
+    "reviewed_by": null,
+    "date": "2026-09-04"
+  }
+}
