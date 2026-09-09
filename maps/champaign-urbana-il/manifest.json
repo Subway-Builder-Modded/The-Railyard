@@ -1,0 +1,59 @@
+{
+  "schema_version": 1,
+  "id": "champaign-urbana-il",
+  "name": "Champaign-Urbana, IL",
+  "author": "NerdieSanders",
+  "github_id": 51029078,
+  "description": "**Champaign-Urbana** is a college town of ~216,000 in central Illinois — Champaign County plus Savoy, Mahomet, Rantoul, Tolono, St. Joseph, and Monticello.\n\nThe transit problem here is the inverse of a big metro's: demand is not spread across competing centers but collapsed onto a single corridor. The **University of Illinois** generates roughly a quarter of every trip on the map — its 60,848 students are **28% of the mapped population**, against about 5% for Chicagoland or Springfield. Downtown Champaign, Campustown, the Urbana medical district and downtown Urbana sit in a nearly straight 5 km line, with the outlying towns hanging off it.\n\nHigh-quality demand from U.S. Census **LODES 2023**, with special demand for **Willard Airport** and **Illinois Terminal** — now the second-busiest Amtrak station in Illinois, at 236,153 passengers in FY2024 — **2 universities** (Illinois and Parkland College), and **12 employment, retail and heritage destinations** (Carle Foundation Hospital, OSF Sacred Heart, Market Place, the UI Research Park, Memorial Stadium, the State Farm Center, the Krannert Center, and the Allerton estate).\n\nAll **16 magnet coordinates were verified individually** rather than estimated — two published coordinates proved wrong by 1.2 km and 740 m and were corrected before the build. Event venues are weighted at annualized daily rates rather than peak attendance, so a stadium used seven days a year does not outweigh a hospital used every day.\n\nPer-building **foundation-depth collision**, **free building in and under the Sangamon River and Lake of the Woods**, and college campuses rendered in game.",
+  "tags": [
+    "north-america",
+    "airports",
+    "entertainment",
+    "universities"
+  ],
+  "gallery": [
+    "gallery/screenshot1.webp"
+  ],
+  "is_test": false,
+  "source": "https://github.com/NerdieSanders/subway-builder-cmi",
+  "update": {
+    "type": "github",
+    "repo": "NerdieSanders/subway-builder-cmi"
+  },
+  "city_code": "CMI",
+  "country": "US",
+  "population": 126661,
+  "residents_total": 126661,
+  "points_count": 1556,
+  "population_count": 4069,
+  "initial_view_state": {
+    "latitude": 40.14,
+    "longitude": -88.28,
+    "zoom": 10.5,
+    "bearing": 0
+  },
+  "data_source": "U.S. Census LEHD LODES (2023) origin-destination data; Overture / OpenStreetMap buildings; OpenMapTiles.",
+  "source_quality": "low-quality",
+  "level_of_detail": "low-detail",
+  "data_quality": {
+    "tier": "unknown",
+    "rubric_version": 1
+  },
+  "location": "north-america",
+  "special_demand": [
+    "airports",
+    "entertainment",
+    "universities"
+  ],
+  "file_sizes": {},
+  "included_cities": [
+    "Savoy",
+    "Mahomet",
+    "Rantoul",
+    "Tolono",
+    "St. Joseph",
+    "Fisher",
+    "Ogden",
+    "Monticello"
+  ]
+}
