@@ -1,0 +1,40 @@
+{
+  "schema_version": 1,
+  "id": "moscow-and-oblast",
+  "answers": {
+    "workplace_count": "estimated_proxy",
+    "workplace_granularity": "adm3",
+    "workplace_resolution": "ml_hybrid_footprints",
+    "workplace_intensity": "fine_types_generic",
+    "resident_count": "employed_residents",
+    "resident_granularity": "adm3",
+    "resident_resolution": "exact_footprints",
+    "resident_intensity": "fine_types_calibrated",
+    "od_metric": "synthetic_measured_marginals",
+    "od_granularity": null
+  },
+  "notes": "1. Building footprints loaded from Overture Maps and OSM.\n2. Buildings split by categories using data attributes. In case of Overture Maps, subtype = residential, class excluded garages. In case of OSM, building = apartments, house and other possible residential buildings. If the building was not classified in Overture Maps and classified as building = yes in OSM, the assumption of mixed-use was made. As such, if the building had less than 10 floors, the first floor would be counted as commercial retail. If more than 10 floors, the forst 5 floors would be commercial retail.\n3. The total assumed floor area of buildings was calculated using the number of floors. Then, for each municipality, the total number of people from the 2020 per-municipality census [1], [2] results were distributed across the buildings to estimate the different population densities across municipalities. (An important note: There were some obvious errors in this processing algorithm, as some villages were underrepresente due to missing building data. Moreover, the OSM and Overture datasets sometimes fail to accurately reflect multi-part buildings, which may lead to excessive population count. These errors are going to be fixed in the next release, along with improved data quality)\n4. As the premise of the game required only commuter + special demand to ber modelled, the population estimates were used for later commuter placement weighting. \n5. The number of commuters at municipality level was extracted from 2020 census for Moscow and Moscow oblast (region). The provided numbers are described as self-reported number of employed people split by age cohorts. [3], [4]. The per-municipality numbers were then split according to the population placement weights.\n6. The population points with less than 20 people were aggregated into larger groups in a 1 km search radius, If no other population points were found, the points were left as is.\n7. The population was then split into pops. In order to avoid a building being split as 200-200-5, the population was split in a Gaussian distribution with a mean of 100, sigma of 25 and a hard ceiling of 200. \n8. The workplace placement was generated using OSM and Overture building footprints. The keys used bor building allocation were subtype = commercial, industrial, entertainment and others for Overture and OSM. Mixed-use buildings from residential generation were also included. \n9. The workplace count was assigned to be the same as the number of employed people and distributed into the buildings by total floor area extracted as the number of floors multiplied by footprint. In case of some buildings that were a tower surrounded by a large shopping mall, that produced excessively large workplace weights, so the floor plate had a cap after a high number of floors to avoid a giant building. \n10. To avoid pop re-splitting and high o/d counts, the workplace pops were modelled to match the already existing pops and then assigned to workplace facilities with some prior asumptions to reflect the real life commuter pathways. The residents would search the jobs in their local municipalities, then, if all the spots were filled, they would try to search in nearest towns and if no jobs were found there, they would go to Moscow. This produces a significant amount of long trips from neigbouring cities into Moscow, which is common, as people indeed commute into Moscow for 2-3 hours one-way daily. It is, on the other hand, implausibly uncommon to commute from Moscow into a small city as both the salaries and rents are significantly larger in Moscow.\n11. To model special demand, the number of per-municipality enrollment in schools and universities was used [5], [6]. The education building capacities were estimated using Overture and OSM floor area derived from footprints and were designed to match the number of enrolled students from census data. The students were searching local schools first and then trying to find spots in further schools in Moscow. While it is uncommon to commute to schools, older school children sometimes commute across city if they are enrolled in a specialised school for advanced students.\n12. Kindergartens were assumed to be strictly local and were EXCLUDED from the map to avoid generating purely local transit.\n13. Healthcare facility capacity was modelled by floor area from the healthcare buildings derived from Overture and OSM. The number of users was assumed to be 2% of population. The residents would search for local facilities first. If none were found, they would search the large-capacity hospitals in Moscow, which is a common healthcare pathway.\n14. Airport demand was modelled from the self - reported statistics [7], [8], [9], [10]\n15. Attraction users were assumed to be 3% of total population and the facility capascity was assigned using Overture and OSM where the corresponding field indicated entertainment. \n16. The o/d paths were then routed using Depot.\n17. The map was generated using Depot, OSM data, GEBCO bathymetry and Natural Earth data for lakes and rivers. [11], [12], [13], [14]",
+  "sources": [
+    "1. https://77.rosstat.gov.ru/storage/mediabank/%D1%82%D0%BE%D0%BC%201.%20%D0%A2%D0%B0%D0%B1%D0%BB%D0%B8%D1%86%D0%B0%205.xlsx - 2020 census, Chapter 1, Table 5 - Population of municipal divisions of Moscow",
+    "2. https://77.rosstat.gov.ru/storage/mediabank/%D1%82%D0%BE%D0%BC%201.%20%D0%A2%D0%B0%D0%B1%D0%BB%D0%B8%D1%86%D0%B0%205.%20%D0%9C%D0%9E.xlsx - 2020 census, Chapter 1, Table 5 - Population of municipal divisions of Moscow Oblast",
+    "3. https://77.rosstat.gov.ru/storage/mediabank/%D1%82%D0%BE%D0%BC%2010.%20%D0%A2%D0%B0%D0%B1%D0%BB%D0%B8%D1%86%D0%B0%208.xlsx",
+    "4. https://77.rosstat.gov.ru/storage/mediabank/%D1%82%D0%BE%D0%BC%2010.%20%D0%A2%D0%B0%D0%B1%D0%BB%D0%B8%D1%86%D0%B0%208.%20%D0%9C%D0%9E.xlsx",
+    "5. https://77.rosstat.gov.ru/storage/mediabank/%D1%82%D0%BE%D0%BC%203.%20%D0%A2%D0%B0%D0%B1%D0%BB%D0%B8%D1%86%D0%B0%205.xlsx",
+    "6. https://77.rosstat.gov.ru/storage/mediabank/%D1%82%D0%BE%D0%BC%203.%20%D0%A2%D0%B0%D0%B1%D0%BB%D0%B8%D1%86%D0%B0%205.%20%D0%9C%D0%9E.xlsx",
+    "7. https://www.interfax.ru/business/1058788",
+    "8. https://www.interfax.ru/business/1066100",
+    "9. https://www.interfax.ru/russia/1039267",
+    "10. https://zia.aero/about/news/aeroport-zhukovskiy-v-2024-godu/",
+    "11. https://github.com/Subway-Builder-Modded/depot",
+    "12. https://download.geofabrik.de/russia.html",
+    "13. https://dap.ceda.ac.uk/bodc/gebco/global/gebco_2026/sub_ice_topography_bathymetry/netcdf/",
+    "14. https://www.naturalearthdata.com/",
+    "15. https://overturemaps.org/"
+  ],
+  "provenance": {
+    "method": "self-reported",
+    "submitted_by": "akospanov",
+    "reviewed_by": null,
+    "date": "2026-09-09"
+  }
+}
