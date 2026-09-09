@@ -39,15 +39,7 @@
     "airports",
     "universities"
   ],
-  "file_sizes": {
-    "MSY.pmtiles": 73,
-    "buildings_index.json": 93.5,
-    "config.json": 0,
-    "demand_data.json": 28.6,
-    "ocean_depth_index.json": 0.81,
-    "roads.geojson": 27.91,
-    "runways_taxiways.geojson": 1.08
-  },
+  "file_sizes": {},
   "grid_statistics": {
     "residentWeightedNearestNeighborKm": {
       "p10": 0.4075453328910155,

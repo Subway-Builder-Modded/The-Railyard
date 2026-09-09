@@ -34,15 +34,7 @@
   "level_of_detail": "low-detail",
   "location": "east-asia",
   "special_demand": [],
-  "file_sizes": {
-    "DAJ3.pmtiles": 36.92,
-    "buildings_index.json": 54.45,
-    "config.json": 0,
-    "demand_data.json": 27.75,
-    "ocean_depth_index.json": 0.01,
-    "roads.geojson": 13.56,
-    "runways_taxiways.geojson": 0.18
-  },
+  "file_sizes": {},
   "grid_statistics": {
     "residentWeightedNearestNeighborKm": {
       "p10": 0.4024217025160135,

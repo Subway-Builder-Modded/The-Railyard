@@ -34,14 +34,7 @@
   "level_of_detail": "low-detail",
   "location": "east-asia",
   "special_demand": [],
-  "file_sizes": {
-    "PUS3.pmtiles": 52.48,
-    "buildings_index.json": 110.29,
-    "config.json": 0,
-    "demand_data.json": 37.11,
-    "roads.geojson": 17.98,
-    "runways_taxiways.geojson": 0.73
-  },
+  "file_sizes": {},
   "grid_statistics": {
     "residentWeightedNearestNeighborKm": {
       "p10": 0.34884243651242874,
