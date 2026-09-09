@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
   "zone_tag": "436c0657e9f4ae2256e5ffb96122273a",
-  "updated_at": "2026-09-09T14:47:56.951Z",
+  "updated_at": "2026-09-09T15:02:42.731Z",
   "valid_paths": [
     "/",
     "/404.html",
@@ -84406,6 +84406,30 @@
         "desktop": 40,
         "mobile": 8
       }
+    },
+    "2026-09-09T15:00:00.000Z": {
+      "captured_at": "2026-09-09T15:02:42.731Z",
+      "window_start": "2026-09-09T15:00:00.000Z",
+      "window_end": "2026-09-09T16:00:00.000Z",
+      "totals": {
+        "visits": 2
+      },
+      "pages": {
+        "/": 2
+      },
+      "countries": {
+        "SG": 1,
+        "US": 1
+      },
+      "browsers": {
+        "Unknown": 2
+      },
+      "operating_systems": {
+        "Unknown": 2
+      },
+      "devices": {
+        "desktop": 2
+      }
     }
   },
   "daily_snapshots": {
@@ -106228,14 +106252,14 @@
       }
     },
     "2026-09-09": {
-      "captured_at": "2026-09-09T14:47:56.951Z",
+      "captured_at": "2026-09-09T15:02:42.731Z",
       "window_start": "2026-09-09T00:00:00.000Z",
-      "window_end": "2026-09-09T15:00:00.000Z",
+      "window_end": "2026-09-09T16:00:00.000Z",
       "totals": {
-        "visits": 103
+        "visits": 105
       },
       "pages": {
-        "/": 59,
+        "/": 61,
         "/credits": 1,
         "/railyard": 12,
         "/railyard/docs/v0.2/troubleshooting-railyard": 1,
@@ -106280,8 +106304,8 @@
         "NO": 1,
         "PT": 1,
         "SE": 5,
-        "SG": 3,
-        "US": 74,
+        "SG": 4,
+        "US": 75,
         "VN": 1
       },
       "browsers": {
@@ -106295,18 +106319,18 @@
         "MobileSafari": 4,
         "Safari": 3,
         "TwitterBot": 1,
-        "Unknown": 50
+        "Unknown": 52
       },
       "operating_systems": {
         "Android": 19,
         "Linux": 1,
         "MacOSX": 5,
-        "Unknown": 53,
+        "Unknown": 55,
         "Windows": 21,
         "iOS": 4
       },
       "devices": {
-        "desktop": 80,
+        "desktop": 82,
         "mobile": 23
       }
     }

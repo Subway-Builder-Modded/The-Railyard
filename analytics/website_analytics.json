@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
   "zone_tag": "436c0657e9f4ae2256e5ffb96122273a",
-  "generated_at": "2026-09-09T14:47:59.401Z",
+  "generated_at": "2026-09-09T15:02:46.034Z",
   "valid_paths": [
     "/",
     "/404.html",
@@ -2225,11 +2225,11 @@
   "path_aliases": {},
   "summary": {
     "latest_day": "2026-09-09",
-    "latest_hour": "2026-09-09T14:00:00.000Z",
+    "latest_hour": "2026-09-09T15:00:00.000Z",
     "total_days": 146,
-    "total_hours": 2476,
-    "latest_day_visits": 103,
-    "latest_hour_visits": 48
+    "total_hours": 2477,
+    "latest_day_visits": 105,
+    "latest_hour_visits": 2
   },
   "time_series": {
     "by_day": [
@@ -2815,7 +2815,7 @@
       },
       {
         "date": "2026-09-09",
-        "visits": 103
+        "visits": 105
       }
     ],
     "by_hour": [
@@ -12722,6 +12722,10 @@
       {
         "hour": "2026-09-09T14:00:00.000Z",
         "visits": 48
+      },
+      {
+        "hour": "2026-09-09T15:00:00.000Z",
+        "visits": 2
       }
     ]
   },
@@ -34545,14 +34549,14 @@
       }
     },
     "2026-09-09": {
-      "captured_at": "2026-09-09T14:47:56.951Z",
+      "captured_at": "2026-09-09T15:02:42.731Z",
       "window_start": "2026-09-09T00:00:00.000Z",
-      "window_end": "2026-09-09T15:00:00.000Z",
+      "window_end": "2026-09-09T16:00:00.000Z",
       "totals": {
-        "visits": 103
+        "visits": 105
       },
       "pages": {
-        "/": 59,
+        "/": 61,
         "/credits": 1,
         "/railyard": 12,
         "/railyard/docs/v0.2/troubleshooting-railyard": 1,
@@ -34597,8 +34601,8 @@
         "NO": 1,
         "PT": 1,
         "SE": 5,
-        "SG": 3,
-        "US": 74,
+        "SG": 4,
+        "US": 75,
         "VN": 1
       },
       "browsers": {
@@ -34612,18 +34616,18 @@
         "MobileSafari": 4,
         "Safari": 3,
         "TwitterBot": 1,
-        "Unknown": 50
+        "Unknown": 52
       },
       "operating_systems": {
         "Android": 19,
         "Linux": 1,
         "MacOSX": 5,
-        "Unknown": 53,
+        "Unknown": 55,
         "Windows": 21,
         "iOS": 4
       },
       "devices": {
-        "desktop": 80,
+        "desktop": 82,
         "mobile": 23
       }
     }
