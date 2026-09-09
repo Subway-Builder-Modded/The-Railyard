@@ -1,0 +1,61 @@
+{
+  "schema_version": 1,
+  "id": "leovan-shanghai-pvg",
+  "name": "上海 (Shànghǎi)",
+  "author": "LeoVan1412",
+  "github_id": 320130931,
+  "description": "上海全域高细节地图，覆盖全部 16 个区，并延伸显示江苏、浙江和长江口的真实道路、建筑、水系、土地利用、行政边界及地名；上海市外只作为地理背景，不生成常住人口或就业需求。地图以 2024 年官方常住人口、人口普查就业居民、第五次全国经济普查工作地从业人员、公开设施与开放地理数据为控制，在典型工作日模拟 15,243,400 人、15,050 个需求点和 76,217 个固定 200 人出行组。全部 73,904 个唯一 O/D 组合均已预计算脱敏道路路径；就业通勤起终点边际误差均为 0，平均寻路距离 10.3965 公里，对应官方 10.2 公里基准。地图、需求、路径及碰撞数据均通过完整敏感区域零重叠测试。\n\nA high-detail map of all 16 Shanghai districts, with real roads, buildings, water, land use, administrative boundaries, and place labels extending into Jiangsu, Zhejiang, and the Yangtze estuary for geographic context only. No resident or employment demand is generated outside Shanghai. Calibrated from official 2024 resident population, Population Census employed residents, Fifth National Economic Census workplace employment, public facility data, and open geography, it models 15,243,400 people on a typical weekday across 15,050 demand points and 76,217 fixed 200-person groups. All 73,904 unique O/D pairs have precomputed redacted-road paths; workplace origin and destination margins close with zero error, and the mean routed commute is 10.3965 km against the official 10.2 km benchmark. Map, demand, path and collision layers pass complete sensitive-area zero-overlap tests.",
+  "tags": [
+    "east-asia",
+    "airports",
+    "entertainment",
+    "ferries",
+    "hospitals",
+    "parks",
+    "schools",
+    "universities"
+  ],
+  "gallery": [
+    "gallery/screenshot1.webp",
+    "gallery/screenshot2.webp",
+    "gallery/screenshot3.webp",
+    "gallery/screenshot4.webp",
+    "gallery/screenshot5.webp"
+  ],
+  "is_test": false,
+  "source": "https://github.com/LeoVan1412/shanghai-pvg",
+  "update": {
+    "type": "github",
+    "repo": "LeoVan1412/shanghai-pvg"
+  },
+  "city_code": "PVG",
+  "country": "CN",
+  "population": 15243400,
+  "residents_total": 15243400,
+  "points_count": 15050,
+  "population_count": 76217,
+  "initial_view_state": {
+    "latitude": 31.225,
+    "longitude": 121.47,
+    "zoom": 9.3,
+    "bearing": 0
+  },
+  "data_source": "Shanghai Statistical Yearbook 2025; Shanghai Population Census Yearbook 2020; Fifth National Economic Census; Shanghai Seventh Comprehensive Transport Survey; official Shanghai population, transport, education, health, tourism and industry publications; OpenStreetMap; Overture Maps; GEBCO 2024",
+  "source_quality": "low-quality",
+  "level_of_detail": "low-detail",
+  "data_quality": {
+    "tier": "unknown",
+    "rubric_version": 1
+  },
+  "location": "east-asia",
+  "special_demand": [
+    "airports",
+    "entertainment",
+    "ferries",
+    "hospitals",
+    "parks",
+    "schools",
+    "universities"
+  ],
+  "file_sizes": {}
+}

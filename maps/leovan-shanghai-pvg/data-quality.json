@@ -1,0 +1,33 @@
+{
+  "schema_version": 1,
+  "id": "leovan-shanghai-pvg",
+  "answers": {
+    "workplace_count": "physical_measured",
+    "workplace_granularity": "adm4",
+    "workplace_resolution": "ml_hybrid_footprints",
+    "workplace_intensity": "fine_types_generic",
+    "resident_count": "total_population",
+    "resident_granularity": "adm4",
+    "resident_resolution": "ml_hybrid_footprints",
+    "resident_intensity": "fine_types_generic",
+    "od_metric": "none",
+    "od_granularity": null
+  },
+  "notes": "Shanghai PVG uses official Shanghai controls and independently licensed open geography. Workplace totals are `persons employed by legal entities` at 2023-12-31 from the Fifth National Economic Census. The municipal total, all 16 district releases, and published street/town/development-zone tables are transcribed and reconciled; suppressed residuals remain at the coarser district level instead of being presented as measured local values. The economic-census implementation form distinguishes the unit's actual location from its registered address, but the public tables cover legal-entity employment and do not eliminate every multi-site/head-office limitation.\n\nResident controls use official total resident population: district 2024 totals from the Shanghai Statistical Yearbook 2025 plus the most detailed available official street/town population publications. Jobs and residents are assigned independently within the published areas using OSM/Overture building footprints, land use, named facilities, roads, and documented standard type/density priors, then reconciled exactly to the published controls. The resulting 300 m grid and merged demand points are output/performance choices, not claims that the source statistics were published at 300 m.\n\nNo official Shanghai home-to-work O/D matrix or employed-resident marginal by small area is used. Commute pairs are therefore fully estimated with a deterministic purpose and distance model and must not be described as measured flows. Airport, education, health, tourism, commercial, logistics, and other special-demand layers use separately cited public controls and are not used to inflate the scored commute-source answers. Data vintages are 2023 employment, 2024 district population, and mixed official local population/special-demand publications as recorded in the distributed source registries.",
+  "sources": [
+    "https://tjj.sh.gov.cn/cmsres/ca/ca201ba07a58439e8c414cd6e9468eb2/610fc9c7fad600f8d24c8f2feffc6d52.pdf",
+    "https://www.stats.gov.cn/sj/tjbz/gjtjbz/202302/t20230213_1902747.html",
+    "https://tjj.sh.gov.cn/cmsres/b3/b36d6d16841e4ac0a64a2e6664c69833/85fdf28606c6847035976a586d8d028d.pdf",
+    "https://tjj.sh.gov.cn/tjnj/2025tjnj/C0202.htm",
+    "https://tjj.sh.gov.cn/tjnj/2020rktjnj/ANJ-1-01.xls",
+    "https://www.shanghai.gov.cn/shanghai/newshanghai/shgl2025.pdf",
+    "https://www.openstreetmap.org/copyright",
+    "https://docs.overturemaps.org/attribution/"
+  ],
+  "provenance": {
+    "method": "self-reported",
+    "submitted_by": "LeoVan1412",
+    "reviewed_by": null,
+    "date": "2026-08-29"
+  }
+}
