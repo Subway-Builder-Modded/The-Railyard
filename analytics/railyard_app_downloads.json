@@ -1,24 +1,24 @@
 {
   "schema_version": 1,
   "repo": "Subway-Builder-Modded/railyard",
-  "generated_at": "2026-09-09T21:37:00.190Z",
-  "latest_snapshot": "2026-09-09T21:00:00.000Z",
+  "generated_at": "2026-09-09T22:03:04.210Z",
+  "latest_snapshot": "2026-09-09T22:00:00.000Z",
   "versions": {
     "0.2.10": {
-      "total_downloads": 4853,
-      "last_1d_downloads": 94,
-      "last_3d_downloads": 356,
-      "last_7d_downloads": 1071,
+      "total_downloads": 4857,
+      "last_1d_downloads": 90,
+      "last_3d_downloads": 344,
+      "last_7d_downloads": 1059,
       "assets": {
         "railyard-v0.2.10-current-linux-amd64.flatpak": {
           "total_downloads": 162,
           "last_1d_downloads": 6,
-          "last_3d_downloads": 15,
+          "last_3d_downloads": 14,
           "last_7d_downloads": 43
         },
         "railyard-v0.2.10-macos-universal.dmg": {
-          "total_downloads": 1410,
-          "last_1d_downloads": 23,
+          "total_downloads": 1413,
+          "last_1d_downloads": 25,
           "last_3d_downloads": 108,
           "last_7d_downloads": 326
         },
@@ -26,19 +26,19 @@
           "total_downloads": 117,
           "last_1d_downloads": 5,
           "last_3d_downloads": 14,
-          "last_7d_downloads": 33
+          "last_7d_downloads": 32
         },
         "railyard-v0.2.10-windows-amd64-installer.exe": {
-          "total_downloads": 2987,
-          "last_1d_downloads": 54,
-          "last_3d_downloads": 203,
-          "last_7d_downloads": 615
+          "total_downloads": 2988,
+          "last_1d_downloads": 48,
+          "last_3d_downloads": 193,
+          "last_7d_downloads": 605
         },
         "railyard-v0.2.10-windows-amd64-portable.zip": {
           "total_downloads": 120,
           "last_1d_downloads": 3,
-          "last_3d_downloads": 12,
-          "last_7d_downloads": 38
+          "last_3d_downloads": 11,
+          "last_7d_downloads": 37
         },
         "railyard-v0.2.10-windows-arm64-installer.exe": {
           "total_downloads": 46,
