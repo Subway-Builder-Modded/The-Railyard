@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
   "zone_tag": "436c0657e9f4ae2256e5ffb96122273a",
-  "generated_at": "2026-09-09T12:00:54.150Z",
+  "generated_at": "2026-09-09T13:01:07.072Z",
   "valid_paths": [
     "/",
     "/404.html",
@@ -2223,11 +2223,11 @@
   "path_aliases": {},
   "summary": {
     "latest_day": "2026-09-09",
-    "latest_hour": "2026-09-09T12:00:00.000Z",
+    "latest_hour": "2026-09-09T13:00:00.000Z",
     "total_days": 146,
-    "total_hours": 2474,
-    "latest_day_visits": 54,
-    "latest_hour_visits": 0
+    "total_hours": 2475,
+    "latest_day_visits": 55,
+    "latest_hour_visits": 1
   },
   "time_series": {
     "by_day": [
@@ -2813,7 +2813,7 @@
       },
       {
         "date": "2026-09-09",
-        "visits": 54
+        "visits": 55
       }
     ],
     "by_hour": [
@@ -12712,6 +12712,10 @@
       {
         "hour": "2026-09-09T12:00:00.000Z",
         "visits": 0
+      },
+      {
+        "hour": "2026-09-09T13:00:00.000Z",
+        "visits": 1
       }
     ]
   },
@@ -34535,14 +34539,14 @@
       }
     },
     "2026-09-09": {
-      "captured_at": "2026-09-09T12:00:51.836Z",
+      "captured_at": "2026-09-09T13:01:04.437Z",
       "window_start": "2026-09-09T00:00:00.000Z",
-      "window_end": "2026-09-09T13:00:00.000Z",
+      "window_end": "2026-09-09T14:00:00.000Z",
       "totals": {
-        "visits": 54
+        "visits": 55
       },
       "pages": {
-        "/": 31,
+        "/": 32,
         "/credits": 1,
         "/railyard": 7,
         "/railyard/docs/v0.2/troubleshooting-railyard": 1,
@@ -34569,7 +34573,7 @@
         "FI": 1,
         "SE": 1,
         "SG": 1,
-        "US": 45,
+        "US": 46,
         "VN": 1
       },
       "browsers": {
@@ -34580,17 +34584,17 @@
         "GoogleBot": 11,
         "MobileSafari": 2,
         "Safari": 2,
-        "Unknown": 26
+        "Unknown": 27
       },
       "operating_systems": {
         "Android": 13,
         "MacOSX": 2,
-        "Unknown": 26,
+        "Unknown": 27,
         "Windows": 11,
         "iOS": 2
       },
       "devices": {
-        "desktop": 39,
+        "desktop": 40,
         "mobile": 15
       }
     }
