@@ -4,7 +4,7 @@
     "advanced-analytics": {
       "target-1.1.0": {
         "fingerprint": "rules:v6:github:stefanorigano/advanced_analytics:target-1.1.0:no-zip:security-rules:748749739a1d0dbdfebfe0098fc89acb84119154155eebdbd0a5b8a649904c2f",
-        "last_checked_at": "2026-09-09T19:19:01.603Z",
+        "last_checked_at": "2026-09-09T22:37:58.893Z",
         "result": {
           "is_complete": false,
           "errors": [
@@ -18,7 +18,7 @@
             "tag": "target-1.1.0"
           },
           "fingerprint": "rules:v6:github:stefanorigano/advanced_analytics:target-1.1.0:no-zip:security-rules:748749739a1d0dbdfebfe0098fc89acb84119154155eebdbd0a5b8a649904c2f",
-          "checked_at": "2026-09-09T19:19:01.603Z",
+          "checked_at": "2026-09-09T22:37:58.893Z",
           "released_at": "2026-03-02T23:15:42.000Z"
         }
       },
@@ -2630,7 +2630,7 @@
     "dantrains-abridged": {
       "v1.0": {
         "fingerprint": "rules:v6:github:danield1909/dantrains-abridged:v1.0:dantrains-abridged.zip:security-rules:748749739a1d0dbdfebfe0098fc89acb84119154155eebdbd0a5b8a649904c2f",
-        "last_checked_at": "2026-09-09T19:19:01.603Z",
+        "last_checked_at": "2026-09-09T22:37:58.893Z",
         "result": {
           "is_complete": false,
           "errors": [
@@ -2644,13 +2644,13 @@
             "tag": "v1.0"
           },
           "fingerprint": "rules:v6:github:danield1909/dantrains-abridged:v1.0:dantrains-abridged.zip:security-rules:748749739a1d0dbdfebfe0098fc89acb84119154155eebdbd0a5b8a649904c2f",
-          "checked_at": "2026-09-09T19:19:01.603Z",
+          "checked_at": "2026-09-09T22:37:58.893Z",
           "released_at": "2026-07-18T05:05:08.000Z"
         }
       },
       "v1.1": {
         "fingerprint": "rules:v6:github:danield1909/dantrains-abridged:v1.1:danTrains-Abridged.zip:security-rules:748749739a1d0dbdfebfe0098fc89acb84119154155eebdbd0a5b8a649904c2f",
-        "last_checked_at": "2026-09-09T19:19:01.603Z",
+        "last_checked_at": "2026-09-09T22:37:58.893Z",
         "result": {
           "is_complete": false,
           "errors": [
@@ -2664,7 +2664,7 @@
             "tag": "v1.1"
           },
           "fingerprint": "rules:v6:github:danield1909/dantrains-abridged:v1.1:danTrains-Abridged.zip:security-rules:748749739a1d0dbdfebfe0098fc89acb84119154155eebdbd0a5b8a649904c2f",
-          "checked_at": "2026-09-09T19:19:01.603Z",
+          "checked_at": "2026-09-09T22:37:58.893Z",
           "released_at": "2026-07-19T04:42:34.000Z"
         }
       },
@@ -8242,6 +8242,47 @@
         "manifest_asset_updated_at": "2026-08-08T19:44:27Z"
       }
     },
+    "unrusted-detroit": {
+      "1.0.1": {
+        "fingerprint": "rules:v6:github:noahgarrf/unrusted-detroit:1.0.1:unrusted-detroit.zip:security-rules:748749739a1d0dbdfebfe0098fc89acb84119154155eebdbd0a5b8a649904c2f",
+        "last_checked_at": "2026-09-09T22:37:58.893Z",
+        "result": {
+          "is_complete": true,
+          "errors": [],
+          "required_checks": {
+            "release_manifest_asset": true,
+            "zip_manifest_json": true,
+            "security_scan_passed": true,
+            "manifest_version_matches_tag": true
+          },
+          "matched_files": {
+            "release_manifest_asset": "manifest.json",
+            "zip_manifest_json": "manifest.json",
+            "security_scan_passed": "passed",
+            "manifest_version_matches_tag": "manifest.json"
+          },
+          "release_size": 0.01,
+          "game_version": ">=1.7.0",
+          "source": {
+            "update_type": "github",
+            "repo": "noahgarrf/unrusted-detroit",
+            "tag": "1.0.1",
+            "asset_name": "unrusted-detroit.zip",
+            "download_url": "https://github.com/NoahGarrf/unrusted-detroit/releases/download/1.0.1/unrusted-detroit.zip"
+          },
+          "fingerprint": "rules:v6:github:noahgarrf/unrusted-detroit:1.0.1:unrusted-detroit.zip:security-rules:748749739a1d0dbdfebfe0098fc89acb84119154155eebdbd0a5b8a649904c2f",
+          "checked_at": "2026-09-09T22:37:58.893Z",
+          "released_at": "2026-09-08T21:53:47.000Z"
+        },
+        "asset_sizes": {
+          "unrusted-detroit.zip": 9700
+        },
+        "asset_updated_at": {
+          "unrusted-detroit.zip": "2026-09-08T22:12:27Z"
+        },
+        "manifest_asset_updated_at": "2026-09-08T22:12:28Z"
+      }
+    },
     "valdotoriums-trains": {
       "v0.1.2": {
         "fingerprint": "rules:v6:github:valdotorium/valdotoriums_trains:v0.1.2:Valdotoriums_Trains_0_1_2.zip:security-rules:748749739a1d0dbdfebfe0098fc89acb84119154155eebdbd0a5b8a649904c2f",
@@ -8523,7 +8564,7 @@
       },
       "v1.0": {
         "fingerprint": "rules:v6:github:valdotorium/valdotoriums_trains:v1.0:Valdotoriums_Trains_1_0.zip:security-rules:748749739a1d0dbdfebfe0098fc89acb84119154155eebdbd0a5b8a649904c2f",
-        "last_checked_at": "2026-09-09T19:19:01.603Z",
+        "last_checked_at": "2026-09-09T22:37:58.893Z",
         "result": {
           "is_complete": false,
           "errors": [
@@ -8537,13 +8578,13 @@
             "tag": "v1.0"
           },
           "fingerprint": "rules:v6:github:valdotorium/valdotoriums_trains:v1.0:Valdotoriums_Trains_1_0.zip:security-rules:748749739a1d0dbdfebfe0098fc89acb84119154155eebdbd0a5b8a649904c2f",
-          "checked_at": "2026-09-09T19:19:01.603Z",
+          "checked_at": "2026-09-09T22:37:58.893Z",
           "released_at": "2026-03-01T14:52:46.000Z"
         }
       },
       "v1.1": {
         "fingerprint": "rules:v6:github:valdotorium/valdotoriums_trains:v1.1:Valdotoriums_Trains_1_1.zip:security-rules:748749739a1d0dbdfebfe0098fc89acb84119154155eebdbd0a5b8a649904c2f",
-        "last_checked_at": "2026-09-09T19:19:01.603Z",
+        "last_checked_at": "2026-09-09T22:37:58.893Z",
         "result": {
           "is_complete": false,
           "errors": [
@@ -8557,7 +8598,7 @@
             "tag": "v1.1"
           },
           "fingerprint": "rules:v6:github:valdotorium/valdotoriums_trains:v1.1:Valdotoriums_Trains_1_1.zip:security-rules:748749739a1d0dbdfebfe0098fc89acb84119154155eebdbd0a5b8a649904c2f",
-          "checked_at": "2026-09-09T19:19:01.603Z",
+          "checked_at": "2026-09-09T22:37:58.893Z",
           "released_at": "2026-03-08T08:01:18.000Z"
         }
       }
