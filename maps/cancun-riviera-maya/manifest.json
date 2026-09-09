@@ -56,5 +56,91 @@
     "Puerto Morelos",
     "Tulum",
     "Isla Mujeres"
-  ]
+  ],
+  "grid_statistics": {
+    "residentWeightedNearestNeighborKm": {
+      "p10": 0.18967051518087652,
+      "p25": 0.21460267933251614,
+      "p50": 0.24845425945308877,
+      "p75": 0.27861811869086217,
+      "p90": 0.31878910417582185,
+      "mean": 0.2542655023379501
+    },
+    "workerWeightedNearestNeighborKm": {
+      "p10": 0.17694453394796575,
+      "p25": 0.20278191203910328,
+      "p50": 0.24395145434499216,
+      "p75": 0.29083478342761504,
+      "p90": 0.40878027203392053,
+      "mean": 0.3393809942127236
+    },
+    "commuteDistanceKm": {
+      "p10": 2477,
+      "p25": 4547,
+      "p50": 8028,
+      "p75": 14123,
+      "p90": 23492,
+      "mean": 11103.924252068746
+    },
+    "residentCellDensity": {
+      "p10": 46,
+      "p25": 237,
+      "p50": 1166,
+      "p75": 3953,
+      "p90": 6359,
+      "mean": 2327.837837837838
+    },
+    "workerCellDensity": {
+      "p10": 136,
+      "p25": 282,
+      "p50": 891,
+      "p75": 2113,
+      "p90": 4697,
+      "mean": 1767.9041095890411
+    },
+    "detail": {
+      "radiusKm": 0.24619256270608383,
+      "expectedPointSpacingKm": 0.5080671353875001,
+      "normalizedRadius": 0.48456699038073786,
+      "activityPerPoint": 406.93966421825814,
+      "playableAreaKm2": 960,
+      "playableAreaPerPointKm2": 0.5036726128016789,
+      "playableCatchmentRadiusKm": 0.40040476027988836,
+      "localityScore": 0.6555471061144198,
+      "deaggregationScore": 1,
+      "score": 0.8096586355461293
+    },
+    "polycentrism": {
+      "activity": {
+        "score": 0.8555228361138576,
+        "continuousScore": 0.924223166496682,
+        "detectedCenterCount": 2,
+        "effectiveCenterCount": 1.7475228541990977,
+        "largestCenterShare": 0.6900507589343847,
+        "bandwidthKm": 1.3,
+        "reliabilityScore": 1,
+        "supportLevel": "high",
+        "usedFallback": false,
+        "topCenters": [
+          {
+            "longitude": -86.87532175761626,
+            "latitude": 21.120440609027703,
+            "massShare": 0.6900507589343847,
+            "assignedMass": 1070444,
+            "assignedPointCount": 1274,
+            "prominenceRatio": 1
+          },
+          {
+            "longitude": -87.05876263935863,
+            "latitude": 20.6214584872611,
+            "massShare": 0.3099492410656153,
+            "assignedMass": 480810,
+            "assignedPointCount": 632,
+            "prominenceRatio": 1
+          }
+        ]
+      }
+    }
+  },
+  "last_updated": 1788939098
 }

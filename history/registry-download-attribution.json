@@ -1,6 +1,6 @@
 {
   "schema_version": 2,
-  "updated_at": "2026-09-09T16:04:41.184Z",
+  "updated_at": "2026-09-09T20:24:12.343Z",
   "assets": {
     "ahkimn/subwaybuilder-eu-maps@0.1.0/brq.zip": {
       "count": 1,
@@ -9347,6 +9347,13 @@
         "workflow:Regenerate Registry Analytics (Full):map:full": 1
       }
     },
+    "akospanov/subwaybuildermaps-russia@mow-v0.1.1/mow.zip#RA_kwDOUODTYM4goK8M": {
+      "count": 1,
+      "updated_at": "2026-09-09T20:24:12.343Z",
+      "by_source": {
+        "workflow:Regenerate Registry Analytics (Full):map-demand-stats": 1
+      }
+    },
     "arniber21/dantrains-abridged@v0.1.0/dantrains-abridged.zip#RA_kwDOTuLE6c4d-tnl": {
       "count": 1,
       "updated_at": "2026-08-06T06:25:24.359Z",
@@ -14229,6 +14236,14 @@
       "count": 1,
       "updated_at": "2026-07-18T22:55:47.456Z",
       "by_source": {
+        "workflow:Regenerate Registry Analytics (Full):map:full": 1
+      }
+    },
+    "meszier83/subway-builder-mexico-maps@v1.0.0/cur.zip#RA_kwDOUTPDKM4g6pcY": {
+      "count": 2,
+      "updated_at": "2026-09-09T20:24:12.343Z",
+      "by_source": {
+        "workflow:Regenerate Registry Analytics (Full):map-demand-stats": 1,
         "workflow:Regenerate Registry Analytics (Full):map:full": 1
       }
     },
@@ -19723,10 +19738,10 @@
       }
     },
     "worstboyinaustral1a/subway-builder-za@cpt-1.0.2/cpt_v1.0.2.zip#RA_kwDOTRwM6c4dF0ps": {
-      "count": 382,
-      "updated_at": "2026-09-09T16:04:41.184Z",
+      "count": 383,
+      "updated_at": "2026-09-09T20:24:12.343Z",
       "by_source": {
-        "workflow:Regenerate Registry Analytics (Full):map-demand-stats": 382
+        "workflow:Regenerate Registry Analytics (Full):map-demand-stats": 383
       }
     },
     "worstboyinaustral1a/subway-builder-za@dbn-1.0.0/dbn_v1.0.0.zip#RA_kwDOTRwM6c4cJCRB": {
@@ -23420,6 +23435,9 @@
     "34373946713:generate-map-demand-stats:map-demand-stats": "2026-09-09T16:04:41.184Z",
     "34373946713:generate-maps:map:full": "2026-09-09T16:04:41.184Z",
     "34373946713:generate-mods:mod:full": "2026-09-09T16:04:41.184Z",
+    "34394265718:generate-map-demand-stats:map-demand-stats": "2026-09-09T20:24:12.343Z",
+    "34394265718:generate-maps:map:full": "2026-09-09T20:24:12.343Z",
+    "34394265718:generate-mods:mod:full": "2026-09-09T20:24:12.343Z",
     "backfill:run:regenerate-registry-analytics.yml:23077874095:2026_03_14": "2026-04-05T02:51:10.191Z",
     "backfill:run:regenerate-registry-analytics.yml:23084384898:2026_03_14": "2026-04-05T02:51:10.191Z",
     "backfill:run:regenerate-registry-analytics.yml:23091846270:2026_03_14": "2026-04-05T02:51:10.191Z",
@@ -34650,11 +34668,13 @@
       }
     },
     "2026_09_09": {
-      "total": 10,
+      "total": 14,
       "assets": {
+        "akospanov/subwaybuildermaps-russia@mow-v0.1.1/mow.zip#RA_kwDOUODTYM4goK8M": 1,
         "holapapie-png/subwaybuilder-chile-central@v1.0.0/clc.zip#RA_kwDOURfYSs4gvJQh": 2,
         "holapapie-png/subwaybuilder-gran-santiago@v1.0.0/gsc.zip#RA_kwDOURgIA84gvJau": 2,
-        "worstboyinaustral1a/subway-builder-za@cpt-1.0.2/cpt_v1.0.2.zip#RA_kwDOTRwM6c4dF0ps": 6
+        "meszier83/subway-builder-mexico-maps@v1.0.0/cur.zip#RA_kwDOUTPDKM4g6pcY": 2,
+        "worstboyinaustral1a/subway-builder-za@cpt-1.0.2/cpt_v1.0.2.zip#RA_kwDOTRwM6c4dF0ps": 7
       }
     }
   },
@@ -55728,6 +55748,20 @@
     "2026-09-09T16:02:26.364Z": {
       "total": 1,
       "assets": {
+        "worstboyinaustral1a/subway-builder-za@cpt-1.0.2/cpt_v1.0.2.zip#RA_kwDOTRwM6c4dF0ps": 1
+      }
+    },
+    "2026-09-09T19:18:56.638Z": {
+      "total": 1,
+      "assets": {
+        "meszier83/subway-builder-mexico-maps@v1.0.0/cur.zip#RA_kwDOUTPDKM4g6pcY": 1
+      }
+    },
+    "2026-09-09T19:19:09.628Z": {
+      "total": 3,
+      "assets": {
+        "akospanov/subwaybuildermaps-russia@mow-v0.1.1/mow.zip#RA_kwDOUODTYM4goK8M": 1,
+        "meszier83/subway-builder-mexico-maps@v1.0.0/cur.zip#RA_kwDOUTPDKM4g6pcY": 1,
         "worstboyinaustral1a/subway-builder-za@cpt-1.0.2/cpt_v1.0.2.zip#RA_kwDOTRwM6c4dF0ps": 1
       }
     }

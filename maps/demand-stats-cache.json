@@ -883,6 +883,24 @@
         "schema_version": 3
       }
     },
+    "cancun-riviera-maya": {
+      "source_fingerprint": "github:v1.0.0|CUR.zip",
+      "last_checked_at": "2026-09-09T19:19:09.631Z",
+      "stats": {
+        "residents_total": 775627,
+        "points_count": 1906,
+        "population_count": 6284,
+        "initial_view_state": {
+          "latitude": 20.96418,
+          "longitude": -86.92919,
+          "zoom": 10,
+          "bearing": 0
+        }
+      },
+      "grid": {
+        "schema_version": 3
+      }
+    },
     "cape-town": {
       "source_fingerprint": "github:v1.0.1|CPT_v1.0.1.zip",
       "last_checked_at": "2026-07-09T03:16:47.368Z",
@@ -2784,6 +2802,24 @@
           "latitude": 45.5019,
           "longitude": -73.5674,
           "zoom": 13,
+          "bearing": 0
+        }
+      },
+      "grid": {
+        "schema_version": 3
+      }
+    },
+    "moscow-and-oblast": {
+      "source_fingerprint": "github:mow-v0.1.1|MOW.zip",
+      "last_checked_at": "2026-09-09T19:19:09.631Z",
+      "stats": {
+        "residents_total": 12656409,
+        "points_count": 120626,
+        "population_count": 248212,
+        "initial_view_state": {
+          "latitude": 55.7558,
+          "longitude": 37.6173,
+          "zoom": 11,
           "bearing": 0
         }
       },

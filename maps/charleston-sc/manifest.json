@@ -46,16 +46,7 @@
     "ferries",
     "universities"
   ],
-  "file_sizes": {
-    "CHS.pmtiles": 21.33,
-    "__MACOSX/._config.json": 0,
-    "buildings_index.json": 27.83,
-    "config.json": 0,
-    "demand_data.json": 3.13,
-    "ocean_depth_index.json": 6.02,
-    "roads.geojson": 10.38,
-    "runways_taxiways.geojson": 0.22
-  },
+  "file_sizes": {},
   "grid_statistics": {
     "residentWeightedNearestNeighborKm": {
       "p10": 0.3614703066539175,

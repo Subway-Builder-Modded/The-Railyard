@@ -4717,6 +4717,63 @@
         }
       }
     },
+    "cancun-riviera-maya": {
+      "v1.0.0": {
+        "fingerprint": "rules:v6:github:meszier83/subway-builder-mexico-maps:v1.0.0:CUR.zip",
+        "last_checked_at": "2026-09-09T19:18:56.639Z",
+        "result": {
+          "is_complete": false,
+          "errors": [
+            "asset 'CUR.zip': config.json version '7.1.0' does not match release tag 'v1.0.0' (expected '1.0.0')"
+          ],
+          "required_checks": {
+            "config_json": true,
+            "demand_data": true,
+            "demand_point_spacing": true,
+            "demand_phantom_points": true,
+            "demand_residents_match": true,
+            "buildings_index": true,
+            "roads_geojson": true,
+            "runways_taxiways_geojson": true,
+            "city_pmtiles": true,
+            "config_version_matches_tag": false
+          },
+          "matched_files": {
+            "config_json": "config.json",
+            "demand_data": "demand_data.json",
+            "demand_point_spacing": "demand_data.json",
+            "demand_phantom_points": "demand_data.json",
+            "demand_residents_match": "demand_data.json",
+            "buildings_index": "buildings_index.bin.gz",
+            "buildings_index_json": null,
+            "buildings_index_bin": "buildings_index.bin.gz",
+            "roads_geojson": "roads.geojson",
+            "runways_taxiways_geojson": "runways_taxiways.geojson",
+            "city_pmtiles": "CUR.pmtiles",
+            "config_version_matches_tag": null
+          },
+          "release_size": 56.79,
+          "game_version": ">=1.0.0",
+          "source": {
+            "update_type": "github",
+            "repo": "meszier83/subway-builder-mexico-maps",
+            "tag": "v1.0.0",
+            "asset_name": "CUR.zip",
+            "download_url": "https://github.com/Meszier83/subway-builder-mexico-maps/releases/download/v1.0.0/CUR.zip"
+          },
+          "fingerprint": "rules:v6:github:meszier83/subway-builder-mexico-maps:v1.0.0:CUR.zip",
+          "checked_at": "2026-09-09T19:18:56.639Z",
+          "released_at": "2026-09-09T07:31:38.000Z"
+        },
+        "asset_sizes": {
+          "CUR.zip": 59548449
+        },
+        "asset_updated_at": {
+          "CUR.zip": "2026-09-09T07:31:12Z"
+        },
+        "manifest_asset_updated_at": "2026-09-09T07:31:13Z"
+      }
+    },
     "cape-town": {
       "cpt-1.0.2": {
         "fingerprint": "rules:v6:github:worstboyinaustral1a/subway-builder-za:cpt-1.0.2:CPT_v1.0.2.zip",
@@ -17250,6 +17307,28 @@
           "fingerprint": "rules:v6:sha256:e87741f88d6c4794e59ccd534db7a78f6d1e2189ccfa65a81ae030225fc16e10",
           "checked_at": "2026-07-22T21:37:31.251Z",
           "released_at": "2026-07-22T00:00:00.000Z"
+        }
+      }
+    },
+    "moscow-and-oblast": {
+      "mow-v0.1.1": {
+        "fingerprint": "rules:v6:github:akospanov/subwaybuildermaps-russia:mow-v0.1.1:MOW.zip",
+        "last_checked_at": "2026-09-09T19:18:56.639Z",
+        "result": {
+          "is_complete": false,
+          "errors": [
+            "non-semver release tag 'mow-v0.1.1'"
+          ],
+          "required_checks": {},
+          "matched_files": {},
+          "source": {
+            "update_type": "github",
+            "repo": "akospanov/subwaybuildermaps-russia",
+            "tag": "mow-v0.1.1"
+          },
+          "fingerprint": "rules:v6:github:akospanov/subwaybuildermaps-russia:mow-v0.1.1:MOW.zip",
+          "checked_at": "2026-09-09T19:18:56.639Z",
+          "released_at": "2026-09-06T16:24:03.000Z"
         }
       }
     },
