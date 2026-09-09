@@ -8840,9 +8840,10 @@ bucket_utc,listing_type,id,downloads
 2026-09-09T12:00Z,mod,citymapper,1
 2026-09-09T12:00Z,mod,distance-circles,1
 2026-09-09T12:00Z,mod,game-speedup,1
+2026-09-09T12:00Z,mod,improved-schematics,1
 2026-09-09T12:00Z,mod,japanese-trains,1
 2026-09-09T12:00Z,mod,missed-connections,1
-2026-09-09T12:00Z,mod,neighborhood-station-names,2
+2026-09-09T12:00Z,mod,neighborhood-station-names,3
 2026-09-09T12:00Z,mod,satellite-overlay,1
 2026-09-09T12:00Z,mod,station-dots,1
 2026-09-09T12:00Z,mod,track-visualizer,1
