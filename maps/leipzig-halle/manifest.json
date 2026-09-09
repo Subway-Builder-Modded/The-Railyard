@@ -1,0 +1,64 @@
+{
+  "schema_version": 1,
+  "id": "leipzig-halle",
+  "name": "Leipzig-Halle",
+  "author": "maxsaysyeah-cmyk",
+  "github_id": 321123723,
+  "description": "Polycentric metropolitan area of Leipzig and Halle (Saale) in central Germany, spanning Saxony and Saxony-Anhalt. Real population data from Zensus 2022 (1.4M residents, 500m grid), employment from Bundesagentur für Arbeit (479K jobs), and 69K commuter relations with OSRM-computed driving times. Includes 15 special demand points (universities, Messe Leipzig, Red Bull Arena, Zoo, Leipzig/Halle Airport LEJ, university hospitals).",
+  "tags": [
+    "central-europe",
+    "airports",
+    "entertainment",
+    "hospitals",
+    "universities"
+  ],
+  "gallery": [
+    "gallery/screenshot1.webp",
+    "gallery/screenshot2.webp"
+  ],
+  "is_test": false,
+  "source": "https://github.com/maxsaysyeah-cmyk/subwaybuilder-map-lei",
+  "update": {
+    "type": "github",
+    "repo": "maxsaysyeah-cmyk/subwaybuilder-map-lei"
+  },
+  "city_code": "LEI",
+  "country": "DE",
+  "population": 1531347,
+  "residents_total": 1531347,
+  "points_count": 5758,
+  "population_count": 75707,
+  "initial_view_state": {
+    "latitude": 51.34,
+    "longitude": 12.375,
+    "zoom": 10,
+    "bearing": 0
+  },
+  "data_source": "Destatis/BA",
+  "source_quality": "low-quality",
+  "level_of_detail": "low-detail",
+  "data_quality": {
+    "tier": "medium",
+    "raw_score": 0.31,
+    "weighted_score": 0.51,
+    "rubric_version": 1,
+    "provenance": "reviewed"
+  },
+  "location": "central-europe",
+  "special_demand": [
+    "airports",
+    "entertainment",
+    "hospitals",
+    "universities"
+  ],
+  "file_sizes": {},
+  "included_cities": [
+    "Halle",
+    "Merseburg",
+    "Schkeuditz",
+    "Eilenburg",
+    "Wurzen",
+    "Grimma",
+    "Borna"
+  ]
+}
