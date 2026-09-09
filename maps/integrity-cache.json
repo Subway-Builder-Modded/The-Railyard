@@ -4959,6 +4959,138 @@
         }
       }
     },
+    "catt-chile-central": {
+      "v1.0.0": {
+        "fingerprint": "rules:v6:github:holapapie-png/subwaybuilder-chile-central:v1.0.0:CLC.zip",
+        "last_checked_at": "2026-09-09T04:14:34.759Z",
+        "result": {
+          "is_complete": true,
+          "errors": [],
+          "required_checks": {
+            "config_json": true,
+            "demand_data": true,
+            "demand_point_spacing": true,
+            "demand_phantom_points": true,
+            "demand_residents_match": true,
+            "buildings_index": true,
+            "roads_geojson": true,
+            "runways_taxiways_geojson": true,
+            "city_pmtiles": true,
+            "config_version_matches_tag": true
+          },
+          "matched_files": {
+            "config_json": "config.json",
+            "demand_data": "demand_data.json.gz",
+            "demand_point_spacing": "demand_data.json.gz",
+            "demand_phantom_points": "demand_data.json.gz",
+            "demand_residents_match": "demand_data.json.gz",
+            "buildings_index": "buildings_index.json.gz",
+            "buildings_index_json": "buildings_index.json.gz",
+            "buildings_index_bin": "buildings_index.bin.gz",
+            "roads_geojson": "roads.geojson.gz",
+            "runways_taxiways_geojson": "runways_taxiways.geojson.gz",
+            "city_pmtiles": "CLC.pmtiles",
+            "config_version_matches_tag": "config.json"
+          },
+          "release_size": 615.7,
+          "file_sizes": {
+            "CLC.pmtiles": 198.95,
+            "CLC_foundations.pmtiles": 151.12,
+            "buildings_index.bin.gz": 140.18,
+            "buildings_index.json.gz": 105.17,
+            "config.json": 0,
+            "demand_data.json.gz": 0.73,
+            "ocean_depth_index.json.gz": 20.16,
+            "roads.geojson.gz": 11.02,
+            "runways_taxiways.geojson.gz": 0.16
+          },
+          "game_version": ">=1.7.0",
+          "source": {
+            "update_type": "github",
+            "repo": "holapapie-png/subwaybuilder-chile-central",
+            "tag": "v1.0.0",
+            "asset_name": "CLC.zip",
+            "download_url": "https://github.com/holapapie-png/subwaybuilder-chile-central/releases/download/v1.0.0/CLC.zip"
+          },
+          "fingerprint": "rules:v6:github:holapapie-png/subwaybuilder-chile-central:v1.0.0:CLC.zip",
+          "checked_at": "2026-09-09T04:14:34.759Z",
+          "released_at": "2026-09-07T18:01:03.000Z"
+        },
+        "asset_sizes": {
+          "CLC.zip": 645609988
+        },
+        "asset_updated_at": {
+          "CLC.zip": "2026-09-07T18:46:16Z"
+        },
+        "manifest_asset_updated_at": "2026-09-07T18:01:03Z"
+      }
+    },
+    "catt-gran-santiago": {
+      "v1.0.0": {
+        "fingerprint": "rules:v6:github:holapapie-png/subwaybuilder-gran-santiago:v1.0.0:GSC.zip",
+        "last_checked_at": "2026-09-09T04:14:34.759Z",
+        "result": {
+          "is_complete": true,
+          "errors": [],
+          "required_checks": {
+            "config_json": true,
+            "demand_data": true,
+            "demand_point_spacing": true,
+            "demand_phantom_points": true,
+            "demand_residents_match": true,
+            "buildings_index": true,
+            "roads_geojson": true,
+            "runways_taxiways_geojson": true,
+            "city_pmtiles": true,
+            "config_version_matches_tag": true
+          },
+          "matched_files": {
+            "config_json": "config.json",
+            "demand_data": "demand_data.json.gz",
+            "demand_point_spacing": "demand_data.json.gz",
+            "demand_phantom_points": "demand_data.json.gz",
+            "demand_residents_match": "demand_data.json.gz",
+            "buildings_index": "buildings_index.json.gz",
+            "buildings_index_json": "buildings_index.json.gz",
+            "buildings_index_bin": "buildings_index.bin.gz",
+            "roads_geojson": "roads.geojson.gz",
+            "runways_taxiways_geojson": "runways_taxiways.geojson.gz",
+            "city_pmtiles": "GSC.pmtiles",
+            "config_version_matches_tag": "config.json"
+          },
+          "release_size": 304.98,
+          "file_sizes": {
+            "GSC.pmtiles": 92.27,
+            "GSC_foundations.pmtiles": 80.25,
+            "buildings_index.bin.gz": 72.46,
+            "buildings_index.json.gz": 55.43,
+            "config.json": 0,
+            "demand_data.json.gz": 0.36,
+            "ocean_depth_index.json.gz": 4.35,
+            "roads.geojson.gz": 5.57,
+            "runways_taxiways.geojson.gz": 0.13
+          },
+          "game_version": ">=1.7.0",
+          "source": {
+            "update_type": "github",
+            "repo": "holapapie-png/subwaybuilder-gran-santiago",
+            "tag": "v1.0.0",
+            "asset_name": "GSC.zip",
+            "download_url": "https://github.com/holapapie-png/subwaybuilder-gran-santiago/releases/download/v1.0.0/GSC.zip"
+          },
+          "fingerprint": "rules:v6:github:holapapie-png/subwaybuilder-gran-santiago:v1.0.0:GSC.zip",
+          "checked_at": "2026-09-09T04:14:34.759Z",
+          "released_at": "2026-09-07T18:06:46.000Z"
+        },
+        "asset_sizes": {
+          "GSC.zip": 319798595
+        },
+        "asset_updated_at": {
+          "GSC.zip": "2026-09-07T18:45:57Z"
+        },
+        "manifest_asset_updated_at": "2026-09-07T18:38:16Z"
+      }
+    },
     "cdmx-core": {
       "1.0.0": {
         "fingerprint": "rules:v6:sha256:b5a0158f0f2a38684513373f8c5d64ebfe46eb5576aac1e4a7ac9fe90b3b0be9",

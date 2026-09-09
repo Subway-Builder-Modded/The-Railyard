@@ -44,7 +44,17 @@
   },
   "location": "south-america",
   "special_demand": [],
-  "file_sizes": {},
+  "file_sizes": {
+    "CLC.pmtiles": 198.95,
+    "CLC_foundations.pmtiles": 151.12,
+    "buildings_index.bin.gz": 140.18,
+    "buildings_index.json.gz": 105.17,
+    "config.json": 0,
+    "demand_data.json.gz": 0.73,
+    "ocean_depth_index.json.gz": 20.16,
+    "roads.geojson.gz": 11.02,
+    "runways_taxiways.geojson.gz": 0.16
+  },
   "included_cities": [
     "Santiago",
     "Valparaiso",
@@ -58,5 +68,83 @@
     "Melipilla",
     "Machali",
     "Rengo"
-  ]
+  ],
+  "grid_statistics": {
+    "residentWeightedNearestNeighborKm": {
+      "p10": 0.3053980231376233,
+      "p25": 0.3776428292661557,
+      "p50": 0.4449643027096806,
+      "p75": 0.5088558928852831,
+      "p90": 0.5513335247306801,
+      "mean": 0.4413194730289862
+    },
+    "workerWeightedNearestNeighborKm": {
+      "p10": 0.28370304707192157,
+      "p25": 0.35385950230390484,
+      "p50": 0.44134193072120714,
+      "p75": 0.5010275387742613,
+      "p90": 0.5477286006132319,
+      "mean": 0.43744770179951326
+    },
+    "commuteDistanceKm": {
+      "p10": 935,
+      "p25": 2093,
+      "p50": 5248,
+      "p75": 13453,
+      "p90": 23356,
+      "mean": 10566.529684116198
+    },
+    "residentCellDensity": {
+      "p10": 2,
+      "p25": 116,
+      "p50": 802,
+      "p75": 2638,
+      "p90": 5255,
+      "mean": 1889.6421102661598
+    },
+    "workerCellDensity": {
+      "p10": 36,
+      "p25": 95,
+      "p50": 337,
+      "p75": 1072,
+      "p90": 2553,
+      "mean": 1119.8664079822615
+    },
+    "detail": {
+      "radiusKm": 0.4431494155021601,
+      "expectedPointSpacingKm": 0.7244440329638873,
+      "normalizedRadius": 0.6117096633250213,
+      "activityPerPoint": 707.3483090444976,
+      "playableAreaKm2": 3540,
+      "playableAreaPerPointKm2": 0.8830132202544275,
+      "playableCatchmentRadiusKm": 0.5301620861943726,
+      "localityScore": 0.40884351052007945,
+      "deaggregationScore": 1,
+      "score": 0.6394087194589072
+    },
+    "polycentrism": {
+      "activity": {
+        "score": 0,
+        "continuousScore": 0.8502229290034159,
+        "detectedCenterCount": 1,
+        "effectiveCenterCount": 1,
+        "largestCenterShare": 1,
+        "bandwidthKm": 1.3,
+        "reliabilityScore": 1,
+        "supportLevel": "high",
+        "usedFallback": false,
+        "topCenters": [
+          {
+            "longitude": -70.79984396015384,
+            "latitude": -33.481863277308285,
+            "massShare": 1,
+            "assignedMass": 5999994,
+            "assignedPointCount": 4009,
+            "prominenceRatio": 1
+          }
+        ]
+      }
+    }
+  },
+  "last_updated": 1788804063
 }

@@ -1,6 +1,6 @@
 {
   "schema_version": 2,
-  "updated_at": "2026-09-09T04:03:12.717Z",
+  "updated_at": "2026-09-09T04:19:43.606Z",
   "assets": {
     "ahkimn/subwaybuilder-eu-maps@0.1.0/brq.zip": {
       "count": 1,
@@ -11347,6 +11347,22 @@
         "workflow:Regenerate Registry Analytics (Full):map:full": 1
       }
     },
+    "holapapie-png/subwaybuilder-chile-central@v1.0.0/clc.zip#RA_kwDOURfYSs4gvJQh": {
+      "count": 2,
+      "updated_at": "2026-09-09T04:19:43.606Z",
+      "by_source": {
+        "workflow:Regenerate Registry Analytics (Full):map-demand-stats": 1,
+        "workflow:Regenerate Registry Analytics (Full):map:full": 1
+      }
+    },
+    "holapapie-png/subwaybuilder-gran-santiago@v1.0.0/gsc.zip#RA_kwDOURgIA84gvJau": {
+      "count": 2,
+      "updated_at": "2026-09-09T04:19:43.606Z",
+      "by_source": {
+        "workflow:Regenerate Registry Analytics (Full):map-demand-stats": 1,
+        "workflow:Regenerate Registry Analytics (Full):map:full": 1
+      }
+    },
     "hsullivan1201/sb-tod@v0.2.0/sb-tod-v0.2.0.zip#RA_kwDOSJ7lIs4Za6dh": {
       "count": 4,
       "updated_at": "2026-07-08T07:27:00.439Z",
@@ -19707,10 +19723,10 @@
       }
     },
     "worstboyinaustral1a/subway-builder-za@cpt-1.0.2/cpt_v1.0.2.zip#RA_kwDOTRwM6c4dF0ps": {
-      "count": 378,
-      "updated_at": "2026-09-09T04:03:12.717Z",
+      "count": 379,
+      "updated_at": "2026-09-09T04:19:43.606Z",
       "by_source": {
-        "workflow:Regenerate Registry Analytics (Full):map-demand-stats": 378
+        "workflow:Regenerate Registry Analytics (Full):map-demand-stats": 379
       }
     },
     "worstboyinaustral1a/subway-builder-za@dbn-1.0.0/dbn_v1.0.0.zip#RA_kwDOTRwM6c4cJCRB": {
@@ -23392,6 +23408,9 @@
     "34309270393:generate-map-demand-stats:map-demand-stats": "2026-09-09T04:03:12.717Z",
     "34309270393:generate-maps:map:full": "2026-09-09T04:03:12.717Z",
     "34309270393:generate-mods:mod:full": "2026-09-09T04:03:12.717Z",
+    "34310148070:generate-map-demand-stats:map-demand-stats": "2026-09-09T04:19:43.606Z",
+    "34310148070:generate-maps:map:full": "2026-09-09T04:19:43.606Z",
+    "34310148070:generate-mods:mod:full": "2026-09-09T04:19:43.606Z",
     "backfill:run:regenerate-registry-analytics.yml:23077874095:2026_03_14": "2026-04-05T02:51:10.191Z",
     "backfill:run:regenerate-registry-analytics.yml:23084384898:2026_03_14": "2026-04-05T02:51:10.191Z",
     "backfill:run:regenerate-registry-analytics.yml:23091846270:2026_03_14": "2026-04-05T02:51:10.191Z",
@@ -34622,9 +34641,11 @@
       }
     },
     "2026_09_09": {
-      "total": 2,
+      "total": 7,
       "assets": {
-        "worstboyinaustral1a/subway-builder-za@cpt-1.0.2/cpt_v1.0.2.zip#RA_kwDOTRwM6c4dF0ps": 2
+        "holapapie-png/subwaybuilder-chile-central@v1.0.0/clc.zip#RA_kwDOURfYSs4gvJQh": 2,
+        "holapapie-png/subwaybuilder-gran-santiago@v1.0.0/gsc.zip#RA_kwDOURgIA84gvJau": 2,
+        "worstboyinaustral1a/subway-builder-za@cpt-1.0.2/cpt_v1.0.2.zip#RA_kwDOTRwM6c4dF0ps": 3
       }
     }
   },
@@ -55665,6 +55686,21 @@
     "2026-09-09T04:01:22.156Z": {
       "total": 1,
       "assets": {
+        "worstboyinaustral1a/subway-builder-za@cpt-1.0.2/cpt_v1.0.2.zip#RA_kwDOTRwM6c4dF0ps": 1
+      }
+    },
+    "2026-09-09T04:14:34.758Z": {
+      "total": 2,
+      "assets": {
+        "holapapie-png/subwaybuilder-chile-central@v1.0.0/clc.zip#RA_kwDOURfYSs4gvJQh": 1,
+        "holapapie-png/subwaybuilder-gran-santiago@v1.0.0/gsc.zip#RA_kwDOURgIA84gvJau": 1
+      }
+    },
+    "2026-09-09T04:14:54.878Z": {
+      "total": 3,
+      "assets": {
+        "holapapie-png/subwaybuilder-chile-central@v1.0.0/clc.zip#RA_kwDOURfYSs4gvJQh": 1,
+        "holapapie-png/subwaybuilder-gran-santiago@v1.0.0/gsc.zip#RA_kwDOURgIA84gvJau": 1,
         "worstboyinaustral1a/subway-builder-za@cpt-1.0.2/cpt_v1.0.2.zip#RA_kwDOTRwM6c4dF0ps": 1
       }
     }

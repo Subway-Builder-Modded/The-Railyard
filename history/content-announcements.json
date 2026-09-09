@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "updated_at": "2026-09-06T12:00:52.476Z",
+  "updated_at": "2026-09-09T04:14:34.759Z",
   "entries": {
     "map:aachen": {
       "listing_id": "aachen",
@@ -358,6 +358,20 @@
       "latest_semver_version": "1.0.0",
       "recorded_at": "2026-05-24T04:11:41.957Z",
       "source": "bootstrap:complete-integrity-snapshot"
+    },
+    "map:catt-chile-central": {
+      "listing_id": "catt-chile-central",
+      "listing_type": "map",
+      "latest_semver_version": "v1.0.0",
+      "recorded_at": "2026-09-09T04:14:34.759Z",
+      "source": "pending:map"
+    },
+    "map:catt-gran-santiago": {
+      "listing_id": "catt-gran-santiago",
+      "listing_type": "map",
+      "latest_semver_version": "v1.0.0",
+      "recorded_at": "2026-09-09T04:14:34.759Z",
+      "source": "pending:map"
     },
     "map:cdmx-core": {
       "listing_id": "cdmx-core",
