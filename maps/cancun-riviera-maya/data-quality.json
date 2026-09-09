@@ -21,9 +21,9 @@
     "https://www.gob.mx/conapo/documentos/bases-de-datos-de-las-proyecciones-de-la-poblacion-de-mexico-y-de-las-entidades-federativas-2020-2070"
   ],
   "provenance": {
-    "method": "self-reported",
+    "method": "reviewed",
     "submitted_by": "Meszier83",
-    "reviewed_by": null,
+    "reviewed_by": "ahkimn",
     "date": "2026-09-09"
   }
 }
