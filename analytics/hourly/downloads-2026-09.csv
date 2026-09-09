@@ -9025,11 +9025,12 @@ bucket_utc,listing_type,id,downloads
 2026-09-09T16:00Z,map,stuttgart,1
 2026-09-09T16:00Z,map,tehran,1
 2026-09-09T16:00Z,map,vancouver,2
-2026-09-09T16:00Z,map,vienna,1
+2026-09-09T16:00Z,map,vienna,2
 2026-09-09T16:00Z,map,yukina-pl-krakow,1
 2026-09-09T16:00Z,map,yukina-sk-bratislava,1
 2026-09-09T16:00Z,map,yukina-tw-southern-taiwan,1
 2026-09-09T16:00Z,map,yukina-tw-taipei,1
+2026-09-09T16:00Z,map,yukina-ua-kharkiv,1
 2026-09-09T16:00Z,map,yukina-ua-kyiv,1
 2026-09-09T16:00Z,map,yukina-ua-odesa,1
 2026-09-09T16:00Z,mod,any-money,1
@@ -9043,7 +9044,7 @@ bucket_utc,listing_type,id,downloads
 2026-09-09T16:00Z,mod,neighborhood-station-names,1
 2026-09-09T16:00Z,mod,network-status,1
 2026-09-09T16:00Z,mod,orbital-surveyor,1
-2026-09-09T16:00Z,mod,station-dots,1
+2026-09-09T16:00Z,mod,station-dots,2
 2026-09-09T16:00Z,mod,subway-builder-performance,2
 2026-09-09T16:00Z,mod,subwaybuilder-regions,1
 2026-09-09T16:00Z,mod,track-anarchy,1
