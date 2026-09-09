@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "generated_at": "2026-09-09T12:02:21.086Z",
+  "generated_at": "2026-09-09T16:03:29.934Z",
   "by_fingerprint": {
     "rules:v6:github:bean1322/akron-oh-map:v1.0.0:Akron.zip": true,
     "rules:v6:github:soccerjonj/albany:1.0.0:Albany-Railway.zip": true,
@@ -393,7 +393,7 @@
       "version": "v1.0.0",
       "fingerprint": "rules:v6:github:bean1322/akron-oh-map:v1.0.0:Akron.zip",
       "basemap_complete": true,
-      "checked_at": "2026-09-09T12:02:21.065Z",
+      "checked_at": "2026-09-09T16:03:29.922Z",
       "reason": "ok"
     },
     "albany": {
@@ -401,7 +401,7 @@
       "version": "1.0.0",
       "fingerprint": "rules:v6:github:soccerjonj/albany:1.0.0:Albany-Railway.zip",
       "basemap_complete": true,
-      "checked_at": "2026-09-09T12:02:21.065Z",
+      "checked_at": "2026-09-09T16:03:29.922Z",
       "reason": "ok"
     },
     "amsterdam": {
@@ -409,7 +409,7 @@
       "version": "1.2.1",
       "fingerprint": "rules:v6:sha256:fce9babb2cc133dc0bb9bd84bda3171971626bcf611dccd733236d0b7a9de992",
       "basemap_complete": true,
-      "checked_at": "2026-09-09T12:02:21.065Z",
+      "checked_at": "2026-09-09T16:03:29.922Z",
       "reason": "ok"
     },
     "anchorage-ak": {
@@ -417,7 +417,7 @@
       "version": "1.0.0",
       "fingerprint": "rules:v6:github:pswbsf/anchorage-ak:1.0.0:Anchorage.zip",
       "basemap_complete": true,
-      "checked_at": "2026-09-09T12:02:21.065Z",
+      "checked_at": "2026-09-09T16:03:29.922Z",
       "reason": "ok"
     },
     "baltimore-dc-corridor": {
@@ -425,7 +425,7 @@
       "version": "1.2.1",
       "fingerprint": "rules:v6:sha256:d467a508b879cdcb0cd2ab024ff0eb8049cc230a3918a5c392fcd05c89d666b1",
       "basemap_complete": true,
-      "checked_at": "2026-09-09T12:02:21.066Z",
+      "checked_at": "2026-09-09T16:03:29.923Z",
       "reason": "ok"
     },
     "bangkok": {
@@ -433,7 +433,7 @@
       "version": "v1.0.0",
       "fingerprint": "rules:v6:github:nzh0172/sb-bangkok:v1.0.0:BKK.zip",
       "basemap_complete": true,
-      "checked_at": "2026-09-09T12:02:21.066Z",
+      "checked_at": "2026-09-09T16:03:29.923Z",
       "reason": "ok"
     },
     "barcelona": {
@@ -441,7 +441,7 @@
       "version": "1.1.0",
       "fingerprint": "rules:v6:sha256:40ff254cee68c23221e464d5ced93c119d5671e5906ea7f9cb05823c1f9f3027",
       "basemap_complete": true,
-      "checked_at": "2026-09-09T12:02:21.066Z",
+      "checked_at": "2026-09-09T16:03:29.923Z",
       "reason": "ok"
     },
     "bari": {
@@ -449,7 +449,7 @@
       "version": "1.1.0",
       "fingerprint": "rules:v6:sha256:8aa969a161a70facd2470c4d875dbea33aa0b94ecf4805179ed9088896129621",
       "basemap_complete": true,
-      "checked_at": "2026-09-09T12:02:21.066Z",
+      "checked_at": "2026-09-09T16:03:29.923Z",
       "reason": "ok"
     },
     "beijing": {
@@ -457,7 +457,7 @@
       "version": "1.2.0",
       "fingerprint": "rules:v6:sha256:78bad7a5909e034c45098e3ebe9a2925019cb48854fb14071325370969c36470",
       "basemap_complete": true,
-      "checked_at": "2026-09-09T12:02:21.066Z",
+      "checked_at": "2026-09-09T16:03:29.923Z",
       "reason": "ok"
     },
     "bergen-stavanger-no": {
@@ -465,7 +465,7 @@
       "version": "1.1.0",
       "fingerprint": "rules:v6:sha256:59343f0036611178fa46cf52d45268ead79e3886cd0e702a274b880adb919953",
       "basemap_complete": true,
-      "checked_at": "2026-09-09T12:02:21.066Z",
+      "checked_at": "2026-09-09T16:03:29.923Z",
       "reason": "ok"
     },
     "berlin-val": {
@@ -473,7 +473,7 @@
       "version": "1.1.1",
       "fingerprint": "rules:v6:sha256:758dc396baf3e0f5df217200e8b8b4ece86e133d552badc9ea0f39dd3c6cbac2",
       "basemap_complete": true,
-      "checked_at": "2026-09-09T12:02:21.066Z",
+      "checked_at": "2026-09-09T16:03:29.923Z",
       "reason": "ok"
     },
     "bilbao": {
@@ -481,7 +481,7 @@
       "version": "1.1.0",
       "fingerprint": "rules:v6:sha256:f6a2ba176c3c953f04a208dbfc00d7e097a5713994fdc74d7599314cd98dcf61",
       "basemap_complete": true,
-      "checked_at": "2026-09-09T12:02:21.066Z",
+      "checked_at": "2026-09-09T16:03:29.923Z",
       "reason": "ok"
     },
     "bologna": {
@@ -489,7 +489,7 @@
       "version": "1.1.0",
       "fingerprint": "rules:v6:sha256:250ff3198b50f76c8c0d9c9c6d32ffcd4dfe64658e65b953d8ad94fadac6d683",
       "basemap_complete": true,
-      "checked_at": "2026-09-09T12:02:21.066Z",
+      "checked_at": "2026-09-09T16:03:29.923Z",
       "reason": "ok"
     },
     "bucharest-medium": {
@@ -497,7 +497,7 @@
       "version": "1.1.3",
       "fingerprint": "rules:v6:sha256:11e47813cbb567f03d407fec9e1a8bf10996dc53d0d120138301a98aef1d7fed",
       "basemap_complete": true,
-      "checked_at": "2026-09-09T12:02:21.066Z",
+      "checked_at": "2026-09-09T16:03:29.923Z",
       "reason": "ok"
     },
     "buffalo-ny": {
@@ -505,7 +505,7 @@
       "version": "1.0.0",
       "fingerprint": "rules:v6:github:pswbsf/buffalo-ny:1.0.0:Buffalo.zip",
       "basemap_complete": true,
-      "checked_at": "2026-09-09T12:02:21.066Z",
+      "checked_at": "2026-09-09T16:03:29.923Z",
       "reason": "ok"
     },
     "busan-3": {
@@ -513,7 +513,7 @@
       "version": "0.2.0",
       "fingerprint": "rules:v6:sha256:2dd552c4f4c6a4187cf7f4bf98e2931fd07ee190588ea7c8104a64013b530229",
       "basemap_complete": true,
-      "checked_at": "2026-09-09T12:02:21.066Z",
+      "checked_at": "2026-09-09T16:03:29.923Z",
       "reason": "ok"
     },
     "busan-4": {
@@ -521,7 +521,7 @@
       "version": "0.2.0",
       "fingerprint": "rules:v6:sha256:f515bb257b025c345de22aecad9cdd543caae0b231a5159804f1ad2cb2b89bda",
       "basemap_complete": true,
-      "checked_at": "2026-09-09T12:02:21.066Z",
+      "checked_at": "2026-09-09T16:03:29.923Z",
       "reason": "ok"
     },
     "cairo": {
@@ -529,7 +529,7 @@
       "version": "2.2.1",
       "fingerprint": "rules:v6:sha256:375a5fbc9cc2548ac861364724c7950917ab88c53ca51687f3db2841f1095419",
       "basemap_complete": true,
-      "checked_at": "2026-09-09T12:02:21.067Z",
+      "checked_at": "2026-09-09T16:03:29.923Z",
       "reason": "ok"
     },
     "calgary": {
@@ -537,7 +537,7 @@
       "version": "2.1.0",
       "fingerprint": "rules:v6:sha256:eecd29b163f925bd24b1395a517b3e09a9f2a59f6f070e8b037c3873187ca0d3",
       "basemap_complete": true,
-      "checked_at": "2026-09-09T12:02:21.067Z",
+      "checked_at": "2026-09-09T16:03:29.923Z",
       "reason": "ok"
     },
     "catania": {
@@ -545,7 +545,7 @@
       "version": "1.1.0",
       "fingerprint": "rules:v6:sha256:e70438711f8fccae0eaf7e4b915a5a2c10603d722c2686de724508f13b24c1c7",
       "basemap_complete": true,
-      "checked_at": "2026-09-09T12:02:21.067Z",
+      "checked_at": "2026-09-09T16:03:29.923Z",
       "reason": "ok"
     },
     "cdmx-core": {
@@ -553,7 +553,7 @@
       "version": "1.1.0",
       "fingerprint": "rules:v6:sha256:ac2b7bb91ee1628a3b2a35a0efcc8f6517b864342ce516fc67887d4b03c9fb98",
       "basemap_complete": true,
-      "checked_at": "2026-09-09T12:02:21.067Z",
+      "checked_at": "2026-09-09T16:03:29.923Z",
       "reason": "ok"
     },
     "charleston-huntington-wv": {
@@ -561,7 +561,7 @@
       "version": "1.0.0",
       "fingerprint": "rules:v6:github:pswbsf/charleston-huntington-wv:1.0.0:CHA.zip",
       "basemap_complete": true,
-      "checked_at": "2026-09-09T12:02:21.067Z",
+      "checked_at": "2026-09-09T16:03:29.923Z",
       "reason": "ok"
     },
     "charleston-sc": {
@@ -569,7 +569,7 @@
       "version": "1.0.0",
       "fingerprint": "rules:v6:github:pswbsf/charleston-sc:1.0.0:Charleston.zip",
       "basemap_complete": true,
-      "checked_at": "2026-09-09T12:02:21.067Z",
+      "checked_at": "2026-09-09T16:03:29.923Z",
       "reason": "ok"
     },
     "ciudad-de-mexico": {
@@ -577,7 +577,7 @@
       "version": "1.3.0",
       "fingerprint": "rules:v6:sha256:017ea69f32f2f9881c7a628484140ddb56391a17ee4caa2e25e6f4d266e70ccb",
       "basemap_complete": true,
-      "checked_at": "2026-09-09T12:02:21.067Z",
+      "checked_at": "2026-09-09T16:03:29.923Z",
       "reason": "ok"
     },
     "ciudad-juarez-el-paso": {
@@ -585,7 +585,7 @@
       "version": "1.1.1",
       "fingerprint": "rules:v6:sha256:1df9dc35be7855a8f859865bb557006a1b8899ca408c346a8ec6233429bdf046",
       "basemap_complete": true,
-      "checked_at": "2026-09-09T12:02:21.067Z",
+      "checked_at": "2026-09-09T16:03:29.923Z",
       "reason": "ok"
     },
     "colorado-ski-country": {
@@ -593,7 +593,7 @@
       "version": "1.0.0",
       "fingerprint": "rules:v6:github:soccerjonj/colorado-ski-country:1.0.0:Colorado-Ski-Country-Railway.zip",
       "basemap_complete": true,
-      "checked_at": "2026-09-09T12:02:21.067Z",
+      "checked_at": "2026-09-09T16:03:29.923Z",
       "reason": "ok"
     },
     "connecticut-usa": {
@@ -601,7 +601,7 @@
       "version": "1.0.0",
       "fingerprint": "rules:v6:github:pswbsf/connecticut-usa:1.0.0:Connecticut.zip",
       "basemap_complete": true,
-      "checked_at": "2026-09-09T12:02:21.067Z",
+      "checked_at": "2026-09-09T16:03:29.923Z",
       "reason": "ok"
     },
     "daegu-3": {
@@ -609,7 +609,7 @@
       "version": "0.2.0",
       "fingerprint": "rules:v6:sha256:4f74d8dbb06cd60e2642a4fdc16139ff92f5a1833ae32c5fbcd4b5c596569ebb",
       "basemap_complete": true,
-      "checked_at": "2026-09-09T12:02:21.067Z",
+      "checked_at": "2026-09-09T16:03:29.923Z",
       "reason": "ok"
     },
     "daegu-4": {
@@ -617,7 +617,7 @@
       "version": "0.2.0",
       "fingerprint": "rules:v6:sha256:b9f53e6f6233b772fe8f3c9312098b10efdf6a729ac63b5cb513ffdcc0a6c445",
       "basemap_complete": true,
-      "checked_at": "2026-09-09T12:02:21.067Z",
+      "checked_at": "2026-09-09T16:03:29.923Z",
       "reason": "ok"
     },
     "daejeon-3": {
@@ -625,7 +625,7 @@
       "version": "0.2.0",
       "fingerprint": "rules:v6:sha256:27f105ce3ac0393ebc66e5e7e4aa726bf6124abd748f66200bce5aca1e09a28a",
       "basemap_complete": true,
-      "checked_at": "2026-09-09T12:02:21.067Z",
+      "checked_at": "2026-09-09T16:03:29.923Z",
       "reason": "ok"
     },
     "daejeon-4": {
@@ -633,7 +633,7 @@
       "version": "0.2.0",
       "fingerprint": "rules:v6:sha256:618931b678cd838bc38dab1947dbd188214b9660a312aef1d903494ce0ccb14a",
       "basemap_complete": true,
-      "checked_at": "2026-09-09T12:02:21.067Z",
+      "checked_at": "2026-09-09T16:03:29.923Z",
       "reason": "ok"
     },
     "dayton-oh": {
@@ -641,7 +641,7 @@
       "version": "1.1.0",
       "fingerprint": "rules:v6:github:pswbsf/dayton-oh:1.1.0:Dayton.zip",
       "basemap_complete": true,
-      "checked_at": "2026-09-09T12:02:21.067Z",
+      "checked_at": "2026-09-09T16:03:29.923Z",
       "reason": "ok"
     },
     "daytonatti": {
@@ -649,7 +649,7 @@
       "version": "1.0.0",
       "fingerprint": "rules:v6:github:soccerjonj/daytonatti:1.0.0:Daytonnati-Railway.zip",
       "basemap_complete": true,
-      "checked_at": "2026-09-09T12:02:21.067Z",
+      "checked_at": "2026-09-09T16:03:29.923Z",
       "reason": "ok"
     },
     "dubai": {
@@ -657,7 +657,7 @@
       "version": "1.2.1",
       "fingerprint": "rules:v6:sha256:8cf0c05ff9f78ac09ec80cbfa2952bf7ce447a69c67c2847107853f86bf8fb93",
       "basemap_complete": true,
-      "checked_at": "2026-09-09T12:02:21.067Z",
+      "checked_at": "2026-09-09T16:03:29.923Z",
       "reason": "ok"
     },
     "dublin": {
@@ -665,7 +665,7 @@
       "version": "v1.1.0",
       "fingerprint": "rules:v6:github:kronifer/sb-dublin-map:v1.1.0:DUB.zip",
       "basemap_complete": true,
-      "checked_at": "2026-09-09T12:02:21.067Z",
+      "checked_at": "2026-09-09T16:03:29.923Z",
       "reason": "ok"
     },
     "edmonton": {
@@ -673,7 +673,7 @@
       "version": "2.1.0",
       "fingerprint": "rules:v6:sha256:49c9ebb845cde89e6d56b12cc9a8891c5675e5cd833db9131c416a700afb4892",
       "basemap_complete": true,
-      "checked_at": "2026-09-09T12:02:21.067Z",
+      "checked_at": "2026-09-09T16:03:29.923Z",
       "reason": "ok"
     },
     "florence": {
@@ -681,7 +681,7 @@
       "version": "1.1.0",
       "fingerprint": "rules:v6:sha256:08ac3f0453e9eeb929c9ac7760c6d85e92524126078c53a41d03a782e225ff14",
       "basemap_complete": true,
-      "checked_at": "2026-09-09T12:02:21.068Z",
+      "checked_at": "2026-09-09T16:03:29.923Z",
       "reason": "ok"
     },
     "garda-lake": {
@@ -689,7 +689,7 @@
       "version": "1.1.0",
       "fingerprint": "rules:v6:sha256:a1233c643eab278e1d1ce5b5098a1ff9cab19f6aa20a1ebc266c3070a74eefb9",
       "basemap_complete": true,
-      "checked_at": "2026-09-09T12:02:21.068Z",
+      "checked_at": "2026-09-09T16:03:29.923Z",
       "reason": "ok"
     },
     "genoa": {
@@ -697,7 +697,7 @@
       "version": "1.1.0",
       "fingerprint": "rules:v6:sha256:5fa829e2c6073499dde4ca26fab715b5d8bfdf66d236b273f1106cfc3b9b9657",
       "basemap_complete": true,
-      "checked_at": "2026-09-09T12:02:21.068Z",
+      "checked_at": "2026-09-09T16:03:29.923Z",
       "reason": "ok"
     },
     "glasgow-edinburgh": {
@@ -705,7 +705,7 @@
       "version": "v1.0.0",
       "fingerprint": "rules:v6:github:kronifer/sb-glasgow-edinburgh-map:v1.0.0:GLED.zip",
       "basemap_complete": true,
-      "checked_at": "2026-09-09T12:02:21.068Z",
+      "checked_at": "2026-09-09T16:03:29.924Z",
       "reason": "ok"
     },
     "greater-baltimore": {
@@ -713,7 +713,7 @@
       "version": "1.2.0",
       "fingerprint": "rules:v6:sha256:53c58715f77a00cd789764fe7a71128fc0894b6fa3c2038f882bdcc626e8efa2",
       "basemap_complete": true,
-      "checked_at": "2026-09-09T12:02:21.068Z",
+      "checked_at": "2026-09-09T16:03:29.924Z",
       "reason": "ok"
     },
     "greater-kuala-lumpur": {
@@ -721,7 +721,7 @@
       "version": "v1.1.0",
       "fingerprint": "rules:v6:github:nzh0172/sb-malaysia-map-pack:v1.1.0:KUL.zip",
       "basemap_complete": true,
-      "checked_at": "2026-09-09T12:02:21.068Z",
+      "checked_at": "2026-09-09T16:03:29.924Z",
       "reason": "ok"
     },
     "greater-los-angeles": {
@@ -729,7 +729,7 @@
       "version": "1.3.1",
       "fingerprint": "rules:v6:sha256:2bf6d0601892229bbbedae9d04925b35f9c2398513822b8029433343f06315fe",
       "basemap_complete": true,
-      "checked_at": "2026-09-09T12:02:21.068Z",
+      "checked_at": "2026-09-09T16:03:29.924Z",
       "reason": "ok"
     },
     "greater-newyork": {
@@ -737,7 +737,7 @@
       "version": "v1.0.2",
       "fingerprint": "rules:v6:github:lechicken-nyc/greater-new-york:v1.0.2:greater-newyorkV1.0.2.zip",
       "basemap_complete": true,
-      "checked_at": "2026-09-09T12:02:21.068Z",
+      "checked_at": "2026-09-09T16:03:29.924Z",
       "reason": "ok"
     },
     "greater-portland": {
@@ -745,7 +745,7 @@
       "version": "1.1.0",
       "fingerprint": "rules:v6:sha256:032f19a63b79f618417c8d0e46f9256987a6d1c9f7bdff3ebbc9f614e6468a8b",
       "basemap_complete": true,
-      "checked_at": "2026-09-09T12:02:21.068Z",
+      "checked_at": "2026-09-09T16:03:29.924Z",
       "reason": "ok"
     },
     "greatertwincities": {
@@ -753,7 +753,7 @@
       "version": "v2.0.1",
       "fingerprint": "rules:v6:github:danield1909/improvedtwincities:v2.0.1:KMSP.zip",
       "basemap_complete": true,
-      "checked_at": "2026-09-09T12:02:21.068Z",
+      "checked_at": "2026-09-09T16:03:29.924Z",
       "reason": "ok"
     },
     "guadalajara": {
@@ -761,7 +761,7 @@
       "version": "1.3.1",
       "fingerprint": "rules:v6:sha256:5eaf59c07b8ae05a09bbce289c33b203a1709da5e3cbc3c5353e4005e8b2cbb2",
       "basemap_complete": true,
-      "checked_at": "2026-09-09T12:02:21.068Z",
+      "checked_at": "2026-09-09T16:03:29.924Z",
       "reason": "ok"
     },
     "guangzhou": {
@@ -769,7 +769,7 @@
       "version": "1.4.0",
       "fingerprint": "rules:v6:sha256:bc0e02ad97d841f28ff51738e577016f8e1e412c523514b183ccde023e1b3941",
       "basemap_complete": true,
-      "checked_at": "2026-09-09T12:02:21.068Z",
+      "checked_at": "2026-09-09T16:03:29.924Z",
       "reason": "ok"
     },
     "gwangju-3": {
@@ -777,7 +777,7 @@
       "version": "0.2.0",
       "fingerprint": "rules:v6:sha256:6382bc4caf4962749d8694ea3b3b48065647c7dd707611c9519db724e037127a",
       "basemap_complete": true,
-      "checked_at": "2026-09-09T12:02:21.068Z",
+      "checked_at": "2026-09-09T16:03:29.924Z",
       "reason": "ok"
     },
     "gwangju-4": {
@@ -785,7 +785,7 @@
       "version": "0.2.0",
       "fingerprint": "rules:v6:sha256:53053df1a8dde13a703b5d8f650d2aad8bae78773022784130a89c5fab9c9bd6",
       "basemap_complete": true,
-      "checked_at": "2026-09-09T12:02:21.068Z",
+      "checked_at": "2026-09-09T16:03:29.924Z",
       "reason": "ok"
     },
     "helsinki": {
@@ -793,7 +793,7 @@
       "version": "1.3.1",
       "fingerprint": "rules:v6:sha256:e8b9b77f30f2b05b0912a2209d3294c05310c6a0caaa1969a2b5192114f509fa",
       "basemap_complete": true,
-      "checked_at": "2026-09-09T12:02:21.068Z",
+      "checked_at": "2026-09-09T16:03:29.924Z",
       "reason": "ok"
     },
     "incheon-3": {
@@ -801,7 +801,7 @@
       "version": "0.2.0",
       "fingerprint": "rules:v6:sha256:c8bbc18793df2974cc40008a5f1f78a0e0af59b3b8421263d0fd33fc93f023cf",
       "basemap_complete": true,
-      "checked_at": "2026-09-09T12:02:21.068Z",
+      "checked_at": "2026-09-09T16:03:29.924Z",
       "reason": "ok"
     },
     "incheon-4": {
@@ -809,7 +809,7 @@
       "version": "0.2.0",
       "fingerprint": "rules:v6:sha256:648d6fed7db75748094a14b6ada8bf88093c45fe5022f225dc8a9288c2fa0103",
       "basemap_complete": true,
-      "checked_at": "2026-09-09T12:02:21.068Z",
+      "checked_at": "2026-09-09T16:03:29.924Z",
       "reason": "ok"
     },
     "ipoh": {
@@ -817,7 +817,7 @@
       "version": "1.0.0",
       "fingerprint": "rules:v6:sha256:c52da58ac4a6b6b8f1713b3de9f2a07dbc85153382f6022eb472d917dea38437",
       "basemap_complete": true,
-      "checked_at": "2026-09-09T12:02:21.068Z",
+      "checked_at": "2026-09-09T16:03:29.924Z",
       "reason": "ok"
     },
     "jacksonville": {
@@ -825,7 +825,7 @@
       "version": "1.1.0",
       "fingerprint": "rules:v6:sha256:388fd46e4f8b71c32a90db087773276d722e8c3a32a6b44a4c72b8e72d2fedf9",
       "basemap_complete": true,
-      "checked_at": "2026-09-09T12:02:21.069Z",
+      "checked_at": "2026-09-09T16:03:29.924Z",
       "reason": "ok"
     },
     "jeju-3": {
@@ -833,7 +833,7 @@
       "version": "0.2.0",
       "fingerprint": "rules:v6:sha256:552c7c09882e455d590219032331460dff76cb921b0ffe18e6170e7556d99cd0",
       "basemap_complete": true,
-      "checked_at": "2026-09-09T12:02:21.069Z",
+      "checked_at": "2026-09-09T16:03:29.924Z",
       "reason": "ok"
     },
     "jeju-4": {
@@ -841,7 +841,7 @@
       "version": "0.2.0",
       "fingerprint": "rules:v6:sha256:8069a8ea4f83c7764bb2dfc026de9d0b94d4ddbbe571de93cfc5677e7d355739",
       "basemap_complete": true,
-      "checked_at": "2026-09-09T12:02:21.069Z",
+      "checked_at": "2026-09-09T16:03:29.924Z",
       "reason": "ok"
     },
     "jeju-f": {
@@ -849,7 +849,7 @@
       "version": "0.2.0",
       "fingerprint": "rules:v6:sha256:568b5a4836387920d5547b453d93b1e833af7d5bcd74acb51121e51ec676e6cb",
       "basemap_complete": true,
-      "checked_at": "2026-09-09T12:02:21.069Z",
+      "checked_at": "2026-09-09T16:03:29.924Z",
       "reason": "ok"
     },
     "jelegend-tokyo": {
@@ -857,7 +857,7 @@
       "version": "v0.7.0",
       "fingerprint": "rules:v6:github:jelegend/subwaybuilder:v0.7.0:TYO.zip",
       "basemap_complete": true,
-      "checked_at": "2026-09-09T12:02:21.069Z",
+      "checked_at": "2026-09-09T16:03:29.924Z",
       "reason": "ok"
     },
     "jerusalem": {
@@ -865,7 +865,7 @@
       "version": "v0.3.2",
       "fingerprint": "rules:v6:github:barkuperman/jerusalem-sb-map:v0.3.2:JER.zip",
       "basemap_complete": true,
-      "checked_at": "2026-09-09T12:02:21.069Z",
+      "checked_at": "2026-09-09T16:03:29.924Z",
       "reason": "ok"
     },
     "johor-bahru": {
@@ -873,7 +873,7 @@
       "version": "1.0.0",
       "fingerprint": "rules:v6:sha256:a99f7ce73bfc63835b2d26ef2869c4891a43cfd7208c09db58511d88968bf0f3",
       "basemap_complete": true,
-      "checked_at": "2026-09-09T12:02:21.069Z",
+      "checked_at": "2026-09-09T16:03:29.924Z",
       "reason": "ok"
     },
     "knoxville": {
@@ -881,7 +881,7 @@
       "version": "1.2.0",
       "fingerprint": "rules:v6:sha256:3e431411e29c48d06195202469712c07c87f1d2c31b4576f2fca3c79d00f5a99",
       "basemap_complete": true,
-      "checked_at": "2026-09-09T12:02:21.069Z",
+      "checked_at": "2026-09-09T16:03:29.924Z",
       "reason": "ok"
     },
     "kristiansand-no": {
@@ -889,7 +889,7 @@
       "version": "1.1.0",
       "fingerprint": "rules:v6:sha256:8f103747513a4951d0af57c7054ec3fdbfdcaad8b43616135fd709c307c00cb2",
       "basemap_complete": true,
-      "checked_at": "2026-09-09T12:02:21.069Z",
+      "checked_at": "2026-09-09T16:03:29.924Z",
       "reason": "ok"
     },
     "los-angeles-county": {
@@ -897,7 +897,7 @@
       "version": "1.3.1",
       "fingerprint": "rules:v6:sha256:81d3da71198bfbdfbca197535463f79d985c96ffe951044f1d5d4aef71e397b1",
       "basemap_complete": true,
-      "checked_at": "2026-09-09T12:02:21.069Z",
+      "checked_at": "2026-09-09T16:03:29.924Z",
       "reason": "ok"
     },
     "louisville": {
@@ -905,7 +905,7 @@
       "version": "1.0.0",
       "fingerprint": "rules:v6:github:soccerjonj/louisville:1.0.0:Louisville-Railyard.zip",
       "basemap_complete": true,
-      "checked_at": "2026-09-09T12:02:21.069Z",
+      "checked_at": "2026-09-09T16:03:29.924Z",
       "reason": "ok"
     },
     "madrid": {
@@ -913,7 +913,7 @@
       "version": "1.1.0",
       "fingerprint": "rules:v6:sha256:92318d40be5f21abe92d026bc5ae6a292d50a8390ed04d6bddb9b276a4f098ea",
       "basemap_complete": true,
-      "checked_at": "2026-09-09T12:02:21.069Z",
+      "checked_at": "2026-09-09T16:03:29.924Z",
       "reason": "ok"
     },
     "memphis": {
@@ -921,7 +921,7 @@
       "version": "1.2.0",
       "fingerprint": "rules:v6:sha256:a730bd7290fa1b8605a3861d03902fdf00ff0a1ac2b1add49963ace3ba0c1147",
       "basemap_complete": true,
-      "checked_at": "2026-09-09T12:02:21.069Z",
+      "checked_at": "2026-09-09T16:03:29.924Z",
       "reason": "ok"
     },
     "mexicali": {
@@ -929,7 +929,7 @@
       "version": "1.1.1",
       "fingerprint": "rules:v6:sha256:2e84829851cbd28a0f0ec8953f45081dbcd6fcbb19f980f184d6a59316c27f96",
       "basemap_complete": true,
-      "checked_at": "2026-09-09T12:02:21.069Z",
+      "checked_at": "2026-09-09T16:03:29.924Z",
       "reason": "ok"
     },
     "mfn-hamptonroads": {
@@ -937,7 +937,7 @@
       "version": "2.0.3",
       "fingerprint": "rules:v6:github:crumpetime/sb-maps-orf:2.0.3:ORF.zip",
       "basemap_complete": true,
-      "checked_at": "2026-09-09T12:02:21.069Z",
+      "checked_at": "2026-09-09T16:03:29.924Z",
       "reason": "ok"
     },
     "mfn-hong-kong": {
@@ -945,7 +945,7 @@
       "version": "1.0.5",
       "fingerprint": "rules:v6:github:crumpetime/sb-maps-hkg:1.0.5:HKG.zip",
       "basemap_complete": true,
-      "checked_at": "2026-09-09T12:02:21.069Z",
+      "checked_at": "2026-09-09T16:03:29.924Z",
       "reason": "ok"
     },
     "mfn-lasvegas": {
@@ -953,7 +953,7 @@
       "version": "1.1.0",
       "fingerprint": "rules:v6:github:crumpetime/sb-maps-las:1.1.0:LAS.zip",
       "basemap_complete": true,
-      "checked_at": "2026-09-09T12:02:21.070Z",
+      "checked_at": "2026-09-09T16:03:29.924Z",
       "reason": "ok"
     },
     "mfn-madisonwi": {
@@ -961,7 +961,7 @@
       "version": "3.0.0",
       "fingerprint": "rules:v6:github:crumpetime/sb-maps-msn:3.0.0:MSN.zip",
       "basemap_complete": true,
-      "checked_at": "2026-09-09T12:02:21.070Z",
+      "checked_at": "2026-09-09T16:03:29.924Z",
       "reason": "ok"
     },
     "mfn-northwestar": {
@@ -969,7 +969,7 @@
       "version": "1.0.0",
       "fingerprint": "rules:v6:github:crumpetime/sb-maps-xna:1.0.0:XNA.zip",
       "basemap_complete": true,
-      "checked_at": "2026-09-09T12:02:21.070Z",
+      "checked_at": "2026-09-09T16:03:29.925Z",
       "reason": "ok"
     },
     "mfn-rdu": {
@@ -977,7 +977,7 @@
       "version": "1.0.0",
       "fingerprint": "rules:v6:github:crumpetime/sb-maps-rdu:1.0.0:RDU.zip",
       "basemap_complete": true,
-      "checked_at": "2026-09-09T12:02:21.070Z",
+      "checked_at": "2026-09-09T16:03:29.925Z",
       "reason": "ok"
     },
     "milan": {
@@ -985,7 +985,7 @@
       "version": "1.1.0",
       "fingerprint": "rules:v6:sha256:bff060f6687ebfd8a9b808cb3d510a13f851c258e2348984219d246c31db7f0b",
       "basemap_complete": true,
-      "checked_at": "2026-09-09T12:02:21.070Z",
+      "checked_at": "2026-09-09T16:03:29.925Z",
       "reason": "ok"
     },
     "monterrey": {
@@ -993,7 +993,7 @@
       "version": "1.3.1",
       "fingerprint": "rules:v6:sha256:e7f1e1f221ba9a95c01711a595490fd3f6f9dc219402e11751a82d4c9bf2dfdc",
       "basemap_complete": true,
-      "checked_at": "2026-09-09T12:02:21.070Z",
+      "checked_at": "2026-09-09T16:03:29.925Z",
       "reason": "ok"
     },
     "montreal": {
@@ -1001,7 +1001,7 @@
       "version": "2.1.0",
       "fingerprint": "rules:v6:sha256:e87741f88d6c4794e59ccd534db7a78f6d1e2189ccfa65a81ae030225fc16e10",
       "basemap_complete": true,
-      "checked_at": "2026-09-09T12:02:21.070Z",
+      "checked_at": "2026-09-09T16:03:29.925Z",
       "reason": "ok"
     },
     "naples": {
@@ -1009,7 +1009,7 @@
       "version": "1.1.0",
       "fingerprint": "rules:v6:sha256:57ef9036fdf84348dd7ce2a72c7c348144873f4c09a9d65e8c36a280fe0df4df",
       "basemap_complete": true,
-      "checked_at": "2026-09-09T12:02:21.070Z",
+      "checked_at": "2026-09-09T16:03:29.925Z",
       "reason": "ok"
     },
     "nashville": {
@@ -1017,7 +1017,7 @@
       "version": "2.0.0",
       "fingerprint": "rules:v6:github:soccerjonj/nashville:2.0.0:Nashville-Railway.zip",
       "basemap_complete": true,
-      "checked_at": "2026-09-09T12:02:21.070Z",
+      "checked_at": "2026-09-09T16:03:29.925Z",
       "reason": "ok"
     },
     "oklahoma-city": {
@@ -1025,7 +1025,7 @@
       "version": "1.2.0",
       "fingerprint": "rules:v6:sha256:37ac68ac05ccec9ddc75f614d8e4db978b7d6cb4c93787b951285bc1fa8be55f",
       "basemap_complete": true,
-      "checked_at": "2026-09-09T12:02:21.070Z",
+      "checked_at": "2026-09-09T16:03:29.925Z",
       "reason": "ok"
     },
     "orange-county": {
@@ -1033,7 +1033,7 @@
       "version": "1.1.0",
       "fingerprint": "rules:v6:sha256:ec1654e7f1533cba0952a6f5c67d665ea21da4279b00d0d5c159da0c13d56c5b",
       "basemap_complete": true,
-      "checked_at": "2026-09-09T12:02:21.070Z",
+      "checked_at": "2026-09-09T16:03:29.925Z",
       "reason": "ok"
     },
     "orlando": {
@@ -1041,7 +1041,7 @@
       "version": "1.2.0",
       "fingerprint": "rules:v6:sha256:9fec24237af77121748bd0a281ea8ab5cd28591b113eed8cf232484b70a47d74",
       "basemap_complete": true,
-      "checked_at": "2026-09-09T12:02:21.070Z",
+      "checked_at": "2026-09-09T16:03:29.925Z",
       "reason": "ok"
     },
     "oslo-no": {
@@ -1049,7 +1049,7 @@
       "version": "1.1.0",
       "fingerprint": "rules:v6:sha256:f923c2bc4b53ef277d0b4b0a4b4327db2df94a9d23559bf3bdd688293c5f5875",
       "basemap_complete": true,
-      "checked_at": "2026-09-09T12:02:21.071Z",
+      "checked_at": "2026-09-09T16:03:29.925Z",
       "reason": "ok"
     },
     "ottawa": {
@@ -1057,7 +1057,7 @@
       "version": "2.1.0",
       "fingerprint": "rules:v6:sha256:66cb6c0f5c63e96b74d294479382ac77b5ce5f30b317748bb74591e216694791",
       "basemap_complete": true,
-      "checked_at": "2026-09-09T12:02:21.071Z",
+      "checked_at": "2026-09-09T16:03:29.925Z",
       "reason": "ok"
     },
     "palermo": {
@@ -1065,7 +1065,7 @@
       "version": "1.1.0",
       "fingerprint": "rules:v6:sha256:13c551531285ad8dc8001811f36ee41893b092d05d4e5f3613c71d40afcecf17",
       "basemap_complete": true,
-      "checked_at": "2026-09-09T12:02:21.071Z",
+      "checked_at": "2026-09-09T16:03:29.925Z",
       "reason": "ok"
     },
     "pianura-emiliana": {
@@ -1073,7 +1073,7 @@
       "version": "1.1.0",
       "fingerprint": "rules:v6:sha256:b8f2178e5071c99fcb3bdc19fe2345ec3fd4efd4a831e8b20dc82a2fb217ff2d",
       "basemap_complete": true,
-      "checked_at": "2026-09-09T12:02:21.071Z",
+      "checked_at": "2026-09-09T16:03:29.925Z",
       "reason": "ok"
     },
     "pianura-veneta": {
@@ -1081,7 +1081,7 @@
       "version": "1.1.0",
       "fingerprint": "rules:v6:sha256:ed5994743d0f8a16512bfc3a7c5d1124bcb55fd39abc2a34ee0d1e7720c459cc",
       "basemap_complete": true,
-      "checked_at": "2026-09-09T12:02:21.071Z",
+      "checked_at": "2026-09-09T16:03:29.925Z",
       "reason": "ok"
     },
     "piedmont-triad": {
@@ -1089,7 +1089,7 @@
       "version": "1.0.0",
       "fingerprint": "rules:v6:github:pswbsf/piedmont-triad:1.0.0:Piedmont.zip",
       "basemap_complete": true,
-      "checked_at": "2026-09-09T12:02:21.071Z",
+      "checked_at": "2026-09-09T16:03:29.925Z",
       "reason": "ok"
     },
     "providence": {
@@ -1097,7 +1097,7 @@
       "version": "1.0.0",
       "fingerprint": "rules:v6:github:soccerjonj/providence:1.0.0:Providence-Railyard.zip",
       "basemap_complete": true,
-      "checked_at": "2026-09-09T12:02:21.071Z",
+      "checked_at": "2026-09-09T16:03:29.925Z",
       "reason": "ok"
     },
     "puebla": {
@@ -1105,7 +1105,7 @@
       "version": "1.3.1",
       "fingerprint": "rules:v6:sha256:b8a799bf1142a71a9a3b93c0bf33f3afc1b013142fb0b7d2112d07a962b539c1",
       "basemap_complete": true,
-      "checked_at": "2026-09-09T12:02:21.071Z",
+      "checked_at": "2026-09-09T16:03:29.925Z",
       "reason": "ok"
     },
     "puerto-rico": {
@@ -1113,7 +1113,7 @@
       "version": "1.1.0",
       "fingerprint": "rules:v6:sha256:038178ec44f013fcf778683c8c7e78df887f65bb491ddfa9379e8b846ca2216b",
       "basemap_complete": true,
-      "checked_at": "2026-09-09T12:02:21.071Z",
+      "checked_at": "2026-09-09T16:03:29.925Z",
       "reason": "ok"
     },
     "pulau-pinang": {
@@ -1121,7 +1121,7 @@
       "version": "1.0.0",
       "fingerprint": "rules:v6:sha256:fe9d4d597f0fb996a06bfbb8208351382d5f00ddced913c155806baaee62e7ba",
       "basemap_complete": true,
-      "checked_at": "2026-09-09T12:02:21.071Z",
+      "checked_at": "2026-09-09T16:03:29.925Z",
       "reason": "ok"
     },
     "pyongyang-nk": {
@@ -1129,7 +1129,7 @@
       "version": "1.0.0",
       "fingerprint": "rules:v6:github:pswbsf/pyongyang-nk:1.0.0:Pyongyang.zip",
       "basemap_complete": true,
-      "checked_at": "2026-09-09T12:02:21.071Z",
+      "checked_at": "2026-09-09T16:03:29.925Z",
       "reason": "ok"
     },
     "quebec-city": {
@@ -1137,7 +1137,7 @@
       "version": "2.1.0",
       "fingerprint": "rules:v6:sha256:4396a7d29db8ac561dd78a7e46826d1bf6cc21b15f587b982de2376f08dcaf2a",
       "basemap_complete": true,
-      "checked_at": "2026-09-09T12:02:21.071Z",
+      "checked_at": "2026-09-09T16:03:29.925Z",
       "reason": "ok"
     },
     "rhode-island": {
@@ -1145,7 +1145,7 @@
       "version": "1.1.0",
       "fingerprint": "rules:v6:sha256:7962fc0860fe8378db71bbae8382ddbe84b11b7a05c096fd8b22048d7d29f75e",
       "basemap_complete": true,
-      "checked_at": "2026-09-09T12:02:21.071Z",
+      "checked_at": "2026-09-09T16:03:29.925Z",
       "reason": "ok"
     },
     "richmond": {
@@ -1153,7 +1153,7 @@
       "version": "1.2.0",
       "fingerprint": "rules:v6:sha256:6edaf86fcda147463471fc93b052b794ea3a62a2cda4ed5d96484fb9bc6af73a",
       "basemap_complete": true,
-      "checked_at": "2026-09-09T12:02:21.071Z",
+      "checked_at": "2026-09-09T16:03:29.925Z",
       "reason": "ok"
     },
     "riviera-romagnola": {
@@ -1161,7 +1161,7 @@
       "version": "1.1.0",
       "fingerprint": "rules:v6:sha256:9ca7b6860d78fd16f65cedfd93720d5a5925f10b766c1c61844ec0157d6c2d9f",
       "basemap_complete": true,
-      "checked_at": "2026-09-09T12:02:21.071Z",
+      "checked_at": "2026-09-09T16:03:29.925Z",
       "reason": "ok"
     },
     "rochester": {
@@ -1169,7 +1169,7 @@
       "version": "1.2.0",
       "fingerprint": "rules:v6:sha256:fc31ebaa8277ebf11ff08aeabd73ef55b9046b60668aaba47c3db4ee040dc697",
       "basemap_complete": true,
-      "checked_at": "2026-09-09T12:02:21.071Z",
+      "checked_at": "2026-09-09T16:03:29.925Z",
       "reason": "ok"
     },
     "rome": {
@@ -1177,7 +1177,7 @@
       "version": "1.1.0",
       "fingerprint": "rules:v6:sha256:3d7dec15510677f7edbc84892fc72e4b11182be53f03818ec2125060f8a8ff5e",
       "basemap_complete": true,
-      "checked_at": "2026-09-09T12:02:21.071Z",
+      "checked_at": "2026-09-09T16:03:29.925Z",
       "reason": "ok"
     },
     "rotterdam-the-hague": {
@@ -1185,7 +1185,7 @@
       "version": "1.1.1",
       "fingerprint": "rules:v6:sha256:26c6edd9008ba8baf099b195a4240eab280f2845e5f21ff15b9aab2e447155e8",
       "basemap_complete": true,
-      "checked_at": "2026-09-09T12:02:21.071Z",
+      "checked_at": "2026-09-09T16:03:29.925Z",
       "reason": "ok"
     },
     "sacramento": {
@@ -1193,7 +1193,7 @@
       "version": "1.0.0",
       "fingerprint": "rules:v6:github:soccerjonj/sacramento:1.0.0:Sacramento-Railyard.zip",
       "basemap_complete": true,
-      "checked_at": "2026-09-09T12:02:21.072Z",
+      "checked_at": "2026-09-09T16:03:29.925Z",
       "reason": "ok"
     },
     "saltillo": {
@@ -1201,7 +1201,7 @@
       "version": "1.3.1",
       "fingerprint": "rules:v6:sha256:31c77cd12bd98bc339f7b16600a90d48717bd30119603a5839d24f11d17274bb",
       "basemap_complete": true,
-      "checked_at": "2026-09-09T12:02:21.072Z",
+      "checked_at": "2026-09-09T16:03:29.925Z",
       "reason": "ok"
     },
     "san-antonio": {
@@ -1209,7 +1209,7 @@
       "version": "1.2.0",
       "fingerprint": "rules:v6:sha256:d2dc4587a342b228192f4e002480dd1d76e71de8448034f1c762b7ea913f2e21",
       "basemap_complete": true,
-      "checked_at": "2026-09-09T12:02:21.072Z",
+      "checked_at": "2026-09-09T16:03:29.925Z",
       "reason": "ok"
     },
     "san-juan": {
@@ -1217,7 +1217,7 @@
       "version": "1.1.0",
       "fingerprint": "rules:v6:sha256:ae81173d9bb1ac04f4264477c59271ff1db2a40c84b5b6fb702bbeda97c968da",
       "basemap_complete": true,
-      "checked_at": "2026-09-09T12:02:21.072Z",
+      "checked_at": "2026-09-09T16:03:29.925Z",
       "reason": "ok"
     },
     "santa-barbara": {
@@ -1225,7 +1225,7 @@
       "version": "1.1.0",
       "fingerprint": "rules:v6:sha256:347beff0a32f4ed24eeede593dba463fd615947c1a8f83e23e8bce094bd5658c",
       "basemap_complete": true,
-      "checked_at": "2026-09-09T12:02:21.072Z",
+      "checked_at": "2026-09-09T16:03:29.925Z",
       "reason": "ok"
     },
     "sejong-3": {
@@ -1233,7 +1233,7 @@
       "version": "0.2.0",
       "fingerprint": "rules:v6:sha256:39243cf6f65e867764560e05e19464799e2b743dca3fc5bfcbf2f27baf97f281",
       "basemap_complete": true,
-      "checked_at": "2026-09-09T12:02:21.072Z",
+      "checked_at": "2026-09-09T16:03:29.925Z",
       "reason": "ok"
     },
     "sejong-4": {
@@ -1241,7 +1241,7 @@
       "version": "0.2.0",
       "fingerprint": "rules:v6:sha256:1f462c9cd878a8a35c2442e64226f7192126615d4aebb6a529c8c110bd13a76c",
       "basemap_complete": true,
-      "checked_at": "2026-09-09T12:02:21.072Z",
+      "checked_at": "2026-09-09T16:03:29.925Z",
       "reason": "ok"
     },
     "seoul-3": {
@@ -1249,7 +1249,7 @@
       "version": "0.2.0",
       "fingerprint": "rules:v6:sha256:75fb473adc74f38b5ce0eadeeb2c7535bc4965f319a736f1bd9030fe15bc9b04",
       "basemap_complete": true,
-      "checked_at": "2026-09-09T12:02:21.072Z",
+      "checked_at": "2026-09-09T16:03:29.925Z",
       "reason": "ok"
     },
     "seoul-4": {
@@ -1257,7 +1257,7 @@
       "version": "0.2.0",
       "fingerprint": "rules:v6:sha256:3936e32fbe8cf7a8168bc527962f7b5710365af5bb78c5f68f4b5ad5595f6835",
       "basemap_complete": true,
-      "checked_at": "2026-09-09T12:02:21.072Z",
+      "checked_at": "2026-09-09T16:03:29.925Z",
       "reason": "ok"
     },
     "shanghai": {
@@ -1265,7 +1265,7 @@
       "version": "1.3.0",
       "fingerprint": "rules:v6:sha256:e80f590ecdd8a9e246f1a08cb656095ca8583354528a279fb5493d398bd65d19",
       "basemap_complete": true,
-      "checked_at": "2026-09-09T12:02:21.072Z",
+      "checked_at": "2026-09-09T16:03:29.925Z",
       "reason": "ok"
     },
     "shenzhen": {
@@ -1273,7 +1273,7 @@
       "version": "1.3.0",
       "fingerprint": "rules:v6:sha256:be1ba499a95bb70d7d796bd415740ae503b5b61d9c8930afe9ee5c4d05976b42",
       "basemap_complete": true,
-      "checked_at": "2026-09-09T12:02:21.072Z",
+      "checked_at": "2026-09-09T16:03:29.925Z",
       "reason": "ok"
     },
     "singapore-val": {
@@ -1281,7 +1281,7 @@
       "version": "1.1.0",
       "fingerprint": "rules:v6:sha256:c7f06de14611459fcde13e3b7a3037ec5c8c1680efbd37621037752fee7afa17",
       "basemap_complete": true,
-      "checked_at": "2026-09-09T12:02:21.072Z",
+      "checked_at": "2026-09-09T16:03:29.925Z",
       "reason": "ok"
     },
     "south-florida": {
@@ -1289,7 +1289,7 @@
       "version": "v2.0.0",
       "fingerprint": "rules:v6:github:kaicardenas0618/subway-builder-sfl:v2.0.0:SFL.zip",
       "basemap_complete": true,
-      "checked_at": "2026-09-09T12:02:21.072Z",
+      "checked_at": "2026-09-09T16:03:29.925Z",
       "reason": "ok"
     },
     "spokane": {
@@ -1297,7 +1297,7 @@
       "version": "2.2.1",
       "fingerprint": "rules:v6:sha256:500f089c6fed0ad33ff00bc04a4e7c8f0d2cd0771f4ba4f18377a6ca96a62248",
       "basemap_complete": true,
-      "checked_at": "2026-09-09T12:02:21.072Z",
+      "checked_at": "2026-09-09T16:03:29.925Z",
       "reason": "ok"
     },
     "sydney": {
@@ -1305,7 +1305,7 @@
       "version": "1.2.0",
       "fingerprint": "rules:v6:github:willbarouch/subwaybuilder-sydney:1.2.0:syd.zip",
       "basemap_complete": true,
-      "checked_at": "2026-09-09T12:02:21.072Z",
+      "checked_at": "2026-09-09T16:03:29.926Z",
       "reason": "ok"
     },
     "syracuse-ny": {
@@ -1313,7 +1313,7 @@
       "version": "1.0.0",
       "fingerprint": "rules:v6:github:pswbsf/syracuse-ny:1.0.0:Syracuse.zip",
       "basemap_complete": true,
-      "checked_at": "2026-09-09T12:02:21.072Z",
+      "checked_at": "2026-09-09T16:03:29.926Z",
       "reason": "ok"
     },
     "tampa-bay": {
@@ -1321,7 +1321,7 @@
       "version": "1.3.4",
       "fingerprint": "rules:v6:sha256:0061d85a86e5908e22ccd4bbf1bd8bd2b02d0cba86adb410e12f5adfa17fbca6",
       "basemap_complete": true,
-      "checked_at": "2026-09-09T12:02:21.072Z",
+      "checked_at": "2026-09-09T16:03:29.926Z",
       "reason": "ok"
     },
     "tel-aviv": {
@@ -1329,7 +1329,7 @@
       "version": "v2.0.1",
       "fingerprint": "rules:v6:github:barkuperman/tlv-mod:v2.0.1:TLV.zip",
       "basemap_complete": true,
-      "checked_at": "2026-09-09T12:02:21.073Z",
+      "checked_at": "2026-09-09T16:03:29.926Z",
       "reason": "ok"
     },
     "tijuana-san-diego": {
@@ -1337,7 +1337,7 @@
       "version": "1.1.1",
       "fingerprint": "rules:v6:sha256:1258556f3a6e15463fea101b2b18c2db851cc6e3885dbfa2cc6bf5d9f4e5db34",
       "basemap_complete": true,
-      "checked_at": "2026-09-09T12:02:21.073Z",
+      "checked_at": "2026-09-09T16:03:29.926Z",
       "reason": "ok"
     },
     "toledo-oh": {
@@ -1345,7 +1345,7 @@
       "version": "1.0.0",
       "fingerprint": "rules:v6:github:bean1322/toledo-oh-map:1.0.0:Toledo.zip",
       "basemap_complete": true,
-      "checked_at": "2026-09-09T12:02:21.073Z",
+      "checked_at": "2026-09-09T16:03:29.926Z",
       "reason": "ok"
     },
     "toronto": {
@@ -1353,7 +1353,7 @@
       "version": "2.1.0",
       "fingerprint": "rules:v6:sha256:ead73c95c06716cc538d2a3834261155c2016302967d602f8024a0eb21f93eee",
       "basemap_complete": true,
-      "checked_at": "2026-09-09T12:02:21.073Z",
+      "checked_at": "2026-09-09T16:03:29.926Z",
       "reason": "ok"
     },
     "tri-cities": {
@@ -1361,7 +1361,7 @@
       "version": "1.2.0",
       "fingerprint": "rules:v6:sha256:a14ba924f75c20bf491fbafabe8de7c344986598de9d6a4941b35784810cad48",
       "basemap_complete": true,
-      "checked_at": "2026-09-09T12:02:21.073Z",
+      "checked_at": "2026-09-09T16:03:29.926Z",
       "reason": "ok"
     },
     "tromso-no": {
@@ -1369,7 +1369,7 @@
       "version": "1.1.0",
       "fingerprint": "rules:v6:sha256:927e7af95f53103c4c2052e3d1bed49b2549af0a8c6d76fbe25178ed4bf9e822",
       "basemap_complete": true,
-      "checked_at": "2026-09-09T12:02:21.073Z",
+      "checked_at": "2026-09-09T16:03:29.926Z",
       "reason": "ok"
     },
     "trondheim-no": {
@@ -1377,7 +1377,7 @@
       "version": "1.1.0",
       "fingerprint": "rules:v6:sha256:2cbdca78d017170b0fe281830706ed53204d4cdeeb622336956a1482f55c6e4e",
       "basemap_complete": true,
-      "checked_at": "2026-09-09T12:02:21.073Z",
+      "checked_at": "2026-09-09T16:03:29.926Z",
       "reason": "ok"
     },
     "trondheim-val": {
@@ -1385,7 +1385,7 @@
       "version": "1.0.0",
       "fingerprint": "rules:v6:sha256:465a6d00ac0e3744606b2f9131427aa28f5e403f7bf1f68427d1e335528d1343",
       "basemap_complete": true,
-      "checked_at": "2026-09-09T12:02:21.073Z",
+      "checked_at": "2026-09-09T16:03:29.926Z",
       "reason": "ok"
     },
     "turin": {
@@ -1393,7 +1393,7 @@
       "version": "1.1.0",
       "fingerprint": "rules:v6:sha256:941b782de4648d7ccd3d359533f547a025e3efc65c67c2ab8d4c81fe39d2ab8d",
       "basemap_complete": true,
-      "checked_at": "2026-09-09T12:02:21.073Z",
+      "checked_at": "2026-09-09T16:03:29.926Z",
       "reason": "ok"
     },
     "ulsan-3": {
@@ -1401,7 +1401,7 @@
       "version": "0.2.0",
       "fingerprint": "rules:v6:sha256:2da59ee9e0e71fbec2a6ec50ecdd6fdc0621af9c4fbba1dee5a297b3f09c2ae6",
       "basemap_complete": true,
-      "checked_at": "2026-09-09T12:02:21.073Z",
+      "checked_at": "2026-09-09T16:03:29.926Z",
       "reason": "ok"
     },
     "ulsan-4": {
@@ -1409,7 +1409,7 @@
       "version": "0.2.0",
       "fingerprint": "rules:v6:sha256:cf482804568d6431cc291dece5b410e74e4f1d54a20ea3b5bed0ae70f44c1b0e",
       "basemap_complete": true,
-      "checked_at": "2026-09-09T12:02:21.073Z",
+      "checked_at": "2026-09-09T16:03:29.926Z",
       "reason": "ok"
     },
     "valencia": {
@@ -1417,7 +1417,7 @@
       "version": "1.1.0",
       "fingerprint": "rules:v6:sha256:494b59e9fc509634783367531e6f554ea9256fe1be7e41bdf9037afb28b31c50",
       "basemap_complete": true,
-      "checked_at": "2026-09-09T12:02:21.073Z",
+      "checked_at": "2026-09-09T16:03:29.926Z",
       "reason": "ok"
     },
     "vancouver": {
@@ -1425,7 +1425,7 @@
       "version": "2.1.0",
       "fingerprint": "rules:v6:sha256:6e8381004afdff024ecebfb57707a6b3d8a2a46f45a80aabaf0cbaaa8c1d59f3",
       "basemap_complete": true,
-      "checked_at": "2026-09-09T12:02:21.073Z",
+      "checked_at": "2026-09-09T16:03:29.926Z",
       "reason": "ok"
     },
     "warsaw-val": {
@@ -1433,7 +1433,7 @@
       "version": "1.0.0",
       "fingerprint": "rules:v6:sha256:a59ed8bfabc4a1e789e4a254f09e3a43d54d951ced98c6a3980b0df98cae5dea",
       "basemap_complete": true,
-      "checked_at": "2026-09-09T12:02:21.073Z",
+      "checked_at": "2026-09-09T16:03:29.926Z",
       "reason": "ok"
     },
     "waterloo": {
@@ -1441,7 +1441,7 @@
       "version": "1.1.0",
       "fingerprint": "rules:v6:github:kronifer/sb-waterloo-map:1.1.0:YKF.zip",
       "basemap_complete": true,
-      "checked_at": "2026-09-09T12:02:21.073Z",
+      "checked_at": "2026-09-09T16:03:29.926Z",
       "reason": "ok"
     },
     "willamette-valley": {
@@ -1449,7 +1449,7 @@
       "version": "1.0.0",
       "fingerprint": "rules:v6:github:phineapoo/willamette-valley-or:1.0.0:WMV.zip",
       "basemap_complete": true,
-      "checked_at": "2026-09-09T12:02:21.073Z",
+      "checked_at": "2026-09-09T16:03:29.926Z",
       "reason": "ok"
     },
     "wilmington-nc": {
@@ -1457,7 +1457,7 @@
       "version": "1.0.0",
       "fingerprint": "rules:v6:github:pswbsf/wilmington-nc:1.0.0:Wilmington.zip",
       "basemap_complete": true,
-      "checked_at": "2026-09-09T12:02:21.073Z",
+      "checked_at": "2026-09-09T16:03:29.926Z",
       "reason": "ok"
     },
     "winnipeg": {
@@ -1465,7 +1465,7 @@
       "version": "2.1.0",
       "fingerprint": "rules:v6:sha256:d67386f5d3290323aa8635d59c92e693c75e676e71ddbbed17ba6ffb2428fac7",
       "basemap_complete": true,
-      "checked_at": "2026-09-09T12:02:21.073Z",
+      "checked_at": "2026-09-09T16:03:29.926Z",
       "reason": "ok"
     },
     "yukina-asahikawa": {
@@ -1473,7 +1473,7 @@
       "version": "0.2.3",
       "fingerprint": "rules:v6:sha256:f3e28091f1c6fd54d344dcd03692a449db9485ae7773b70a15a9f1c629add84d",
       "basemap_complete": true,
-      "checked_at": "2026-09-09T12:02:21.073Z",
+      "checked_at": "2026-09-09T16:03:29.926Z",
       "reason": "ok"
     },
     "yukina-bydgoszcz-torun": {
@@ -1481,7 +1481,7 @@
       "version": "0.5.1",
       "fingerprint": "rules:v6:sha256:b4b636da8b65b16202fcc66ae7ec2a1b4d0178f4e8c9510fff107982c44b0770",
       "basemap_complete": true,
-      "checked_at": "2026-09-09T12:02:21.073Z",
+      "checked_at": "2026-09-09T16:03:29.926Z",
       "reason": "ok"
     },
     "yukina-cz-brno": {
@@ -1489,7 +1489,7 @@
       "version": "0.4.2",
       "fingerprint": "rules:v6:sha256:b2670b31315e16860477f7f34a0f2b6fc8b009dc5f66726c0b59c7ce1a32648a",
       "basemap_complete": true,
-      "checked_at": "2026-09-09T12:02:21.074Z",
+      "checked_at": "2026-09-09T16:03:29.926Z",
       "reason": "ok"
     },
     "yukina-cz-ceske-budejovice": {
@@ -1497,7 +1497,7 @@
       "version": "0.3.2",
       "fingerprint": "rules:v6:sha256:e6def5ac2d15cfe92e01db40c3d71441ef07d664d2f505a8b74c79e076b35649",
       "basemap_complete": true,
-      "checked_at": "2026-09-09T12:02:21.074Z",
+      "checked_at": "2026-09-09T16:03:29.926Z",
       "reason": "ok"
     },
     "yukina-cz-hradec-pardubice": {
@@ -1505,7 +1505,7 @@
       "version": "0.4.2",
       "fingerprint": "rules:v6:sha256:5b5eb23b45571bdb03ce75b80f49224dc1bf312c43efb4e5382628efc9ff479b",
       "basemap_complete": true,
-      "checked_at": "2026-09-09T12:02:21.074Z",
+      "checked_at": "2026-09-09T16:03:29.926Z",
       "reason": "ok"
     },
     "yukina-cz-liberec-jablonec": {
@@ -1513,7 +1513,7 @@
       "version": "0.3.2",
       "fingerprint": "rules:v6:sha256:7b6471ebd3e2dbdcd567ed5d0bf78881617477f8ce45e9740afa46819529dc78",
       "basemap_complete": true,
-      "checked_at": "2026-09-09T12:02:21.074Z",
+      "checked_at": "2026-09-09T16:03:29.926Z",
       "reason": "ok"
     },
     "yukina-cz-olomouc": {
@@ -1521,7 +1521,7 @@
       "version": "0.4.2",
       "fingerprint": "rules:v6:sha256:c8a277c7d4231528eef6c3a335a1a5067152836afd90ed15d91db0af1801542a",
       "basemap_complete": true,
-      "checked_at": "2026-09-09T12:02:21.074Z",
+      "checked_at": "2026-09-09T16:03:29.926Z",
       "reason": "ok"
     },
     "yukina-cz-ostrava": {
@@ -1529,7 +1529,7 @@
       "version": "0.4.2",
       "fingerprint": "rules:v6:sha256:bf984d5ce8a917d8e8c5573bb288a6e7bcedbeb9b5d3814b0704038721296c5a",
       "basemap_complete": true,
-      "checked_at": "2026-09-09T12:02:21.074Z",
+      "checked_at": "2026-09-09T16:03:29.926Z",
       "reason": "ok"
     },
     "yukina-cz-plzen": {
@@ -1537,7 +1537,7 @@
       "version": "0.4.2",
       "fingerprint": "rules:v6:sha256:1f13bd1b3c133060fd6933311a866e20b229707470069adec8c40ed7216fd9f1",
       "basemap_complete": true,
-      "checked_at": "2026-09-09T12:02:21.074Z",
+      "checked_at": "2026-09-09T16:03:29.926Z",
       "reason": "ok"
     },
     "yukina-cz-praha": {
@@ -1545,7 +1545,7 @@
       "version": "0.4.2",
       "fingerprint": "rules:v6:sha256:b718a688e399dce0740942d651ab7d0a11170423ecbab5d5107813004e9aaead",
       "basemap_complete": true,
-      "checked_at": "2026-09-09T12:02:21.074Z",
+      "checked_at": "2026-09-09T16:03:29.926Z",
       "reason": "ok"
     },
     "yukina-cz-ustecko-chomutov": {
@@ -1553,7 +1553,7 @@
       "version": "0.4.2",
       "fingerprint": "rules:v6:sha256:d7bdd7779cc9f16be17ef9c5c84960d1b5d4b2c4a0976eeb6b758b824dfd9dbe",
       "basemap_complete": true,
-      "checked_at": "2026-09-09T12:02:21.074Z",
+      "checked_at": "2026-09-09T16:03:29.926Z",
       "reason": "ok"
     },
     "yukina-fukuoka": {
@@ -1561,7 +1561,7 @@
       "version": "0.6.3",
       "fingerprint": "rules:v6:sha256:c35d1029c70125c7e57431a416ae6cb306a977f454d7a62655dd74cc6fe25c3d",
       "basemap_complete": true,
-      "checked_at": "2026-09-09T12:02:21.074Z",
+      "checked_at": "2026-09-09T16:03:29.926Z",
       "reason": "ok"
     },
     "yukina-hakodate": {
@@ -1569,7 +1569,7 @@
       "version": "0.5.4",
       "fingerprint": "rules:v6:sha256:a9c4542c884dcfc2b1f5da35ee6b6dfbf981cfec21c174eb8222fd160b06545e",
       "basemap_complete": true,
-      "checked_at": "2026-09-09T12:02:21.074Z",
+      "checked_at": "2026-09-09T16:03:29.926Z",
       "reason": "ok"
     },
     "yukina-hiroshima-kure": {
@@ -1577,7 +1577,7 @@
       "version": "0.6.4",
       "fingerprint": "rules:v6:sha256:735d9b35aa549c4592c0bd205cb1a08fc68a41461b8b2d0f73a762df6f1d8f43",
       "basemap_complete": true,
-      "checked_at": "2026-09-09T12:02:21.074Z",
+      "checked_at": "2026-09-09T16:03:29.926Z",
       "reason": "ok"
     },
     "yukina-kagoshima-kirishima": {
@@ -1585,7 +1585,7 @@
       "version": "0.5.3",
       "fingerprint": "rules:v6:sha256:99d0cd38f75202b1b14a893ca931293e9357f3df8c61d286368dd9f098098f49",
       "basemap_complete": true,
-      "checked_at": "2026-09-09T12:02:21.074Z",
+      "checked_at": "2026-09-09T16:03:29.926Z",
       "reason": "ok"
     },
     "yukina-kitakyushu-shimonoseki": {
@@ -1593,7 +1593,7 @@
       "version": "0.6.3",
       "fingerprint": "rules:v6:sha256:d434effe40d4a0dda09e26a7c4c4ecd788e1b7d5b3f29025d47bb863e221290d",
       "basemap_complete": true,
-      "checked_at": "2026-09-09T12:02:21.075Z",
+      "checked_at": "2026-09-09T16:03:29.927Z",
       "reason": "ok"
     },
     "yukina-kobe-akashi": {
@@ -1601,7 +1601,7 @@
       "version": "0.5.4",
       "fingerprint": "rules:v6:sha256:5db5d24248cd1bfc30b45d4a58f737c4780c0011924cb1cfae283d83d613235e",
       "basemap_complete": true,
-      "checked_at": "2026-09-09T12:02:21.075Z",
+      "checked_at": "2026-09-09T16:03:29.927Z",
       "reason": "ok"
     },
     "yukina-kochi": {
@@ -1609,7 +1609,7 @@
       "version": "0.6.4",
       "fingerprint": "rules:v6:sha256:08061b845251dfedafe38a61bb5f4da9e8ab67e6886a7c7f0629a68b276ce009",
       "basemap_complete": true,
-      "checked_at": "2026-09-09T12:02:21.075Z",
+      "checked_at": "2026-09-09T16:03:29.927Z",
       "reason": "ok"
     },
     "yukina-kumamoto": {
@@ -1617,7 +1617,7 @@
       "version": "0.2.3",
       "fingerprint": "rules:v6:sha256:03e65dc38c076c83de5c562a0351400311a74200746232d2e5d45c125e26f091",
       "basemap_complete": true,
-      "checked_at": "2026-09-09T12:02:21.075Z",
+      "checked_at": "2026-09-09T16:03:29.927Z",
       "reason": "ok"
     },
     "yukina-kyoto": {
@@ -1625,7 +1625,7 @@
       "version": "0.6.3",
       "fingerprint": "rules:v6:sha256:09c2aa78bdea746281c7c4310ca802f95822fe63ade734f63669ba8f5c90c0e7",
       "basemap_complete": true,
-      "checked_at": "2026-09-09T12:02:21.075Z",
+      "checked_at": "2026-09-09T16:03:29.927Z",
       "reason": "ok"
     },
     "yukina-matsuyama": {
@@ -1633,7 +1633,7 @@
       "version": "0.6.4",
       "fingerprint": "rules:v6:sha256:3f99d4a4d7da8e71c9a8c96c6f14e6d1a1126f19d26ba5f3b6332fdc26b2035a",
       "basemap_complete": true,
-      "checked_at": "2026-09-09T12:02:21.075Z",
+      "checked_at": "2026-09-09T16:03:29.927Z",
       "reason": "ok"
     },
     "yukina-morioka": {
@@ -1641,7 +1641,7 @@
       "version": "0.2.3",
       "fingerprint": "rules:v6:sha256:99f3fc197172b5f9d389e154db4ee7024ed05af40b99c4bb41eae7af49050073",
       "basemap_complete": true,
-      "checked_at": "2026-09-09T12:02:21.075Z",
+      "checked_at": "2026-09-09T16:03:29.927Z",
       "reason": "ok"
     },
     "yukina-nagasaki": {
@@ -1649,7 +1649,7 @@
       "version": "0.3.4",
       "fingerprint": "rules:v6:sha256:a1761aaa7ac2f4ecc0ab43daa4d72e211195b7b289edd08c1a7df8d122874a20",
       "basemap_complete": true,
-      "checked_at": "2026-09-09T12:02:21.075Z",
+      "checked_at": "2026-09-09T16:03:29.927Z",
       "reason": "ok"
     },
     "yukina-nagoya": {
@@ -1657,7 +1657,7 @@
       "version": "0.2.3",
       "fingerprint": "rules:v6:sha256:0892eccda6806200f01a750d773439d09e119f6fdd958cc8a2360648299e18c9",
       "basemap_complete": true,
-      "checked_at": "2026-09-09T12:02:21.075Z",
+      "checked_at": "2026-09-09T16:03:29.927Z",
       "reason": "ok"
     },
     "yukina-nakadoori": {
@@ -1665,7 +1665,7 @@
       "version": "0.2.4",
       "fingerprint": "rules:v6:sha256:5ef161374377f377b46b0a3c69cd235cce658dd1b66f2b322db2aac32883ee24",
       "basemap_complete": true,
-      "checked_at": "2026-09-09T12:02:21.075Z",
+      "checked_at": "2026-09-09T16:03:29.927Z",
       "reason": "ok"
     },
     "yukina-nakaumi": {
@@ -1673,7 +1673,7 @@
       "version": "0.4.3",
       "fingerprint": "rules:v6:sha256:d67d71163c280d105e2720cd77a4bb08081550f21a0cce37c7a383945107c4e2",
       "basemap_complete": true,
-      "checked_at": "2026-09-09T12:02:21.076Z",
+      "checked_at": "2026-09-09T16:03:29.927Z",
       "reason": "ok"
     },
     "yukina-nemuro": {
@@ -1681,7 +1681,7 @@
       "version": "0.2.3",
       "fingerprint": "rules:v6:sha256:de9ef73dd389d9c25eb28049e742a32cd9bd0bd2be7790f804cf58466ca445a7",
       "basemap_complete": true,
-      "checked_at": "2026-09-09T12:02:21.076Z",
+      "checked_at": "2026-09-09T16:03:29.927Z",
       "reason": "ok"
     },
     "yukina-niigata": {
@@ -1689,7 +1689,7 @@
       "version": "0.5.4",
       "fingerprint": "rules:v6:sha256:58432e4c460cdea88b8d80f876bc57b521b26c3df868c4a29bc21de7853e7a0a",
       "basemap_complete": true,
-      "checked_at": "2026-09-09T12:02:21.076Z",
+      "checked_at": "2026-09-09T16:03:29.927Z",
       "reason": "ok"
     },
     "yukina-northern-kyushu": {
@@ -1697,7 +1697,7 @@
       "version": "0.2.3",
       "fingerprint": "rules:v6:sha256:0860d49c3c4f0cc181ff0cb6f27c573ed7d6d46e0e9762e856578772a568bbd2",
       "basemap_complete": true,
-      "checked_at": "2026-09-09T12:02:21.076Z",
+      "checked_at": "2026-09-09T16:03:29.927Z",
       "reason": "ok"
     },
     "yukina-okayama": {
@@ -1705,7 +1705,7 @@
       "version": "0.2.3",
       "fingerprint": "rules:v6:sha256:620d4ca1373ecc498501277a729a8278fa4edd504b1ae1017e185e8a8a96dcd8",
       "basemap_complete": true,
-      "checked_at": "2026-09-09T12:02:21.076Z",
+      "checked_at": "2026-09-09T16:03:29.927Z",
       "reason": "ok"
     },
     "yukina-okinawa": {
@@ -1713,7 +1713,7 @@
       "version": "0.6.3",
       "fingerprint": "rules:v6:sha256:6b27edc0eb7578e7eb600ab9c88a86201298b8a4a4071f9d6912442c4a19f18c",
       "basemap_complete": true,
-      "checked_at": "2026-09-09T12:02:21.076Z",
+      "checked_at": "2026-09-09T16:03:29.927Z",
       "reason": "ok"
     },
     "yukina-osaka": {
@@ -1721,7 +1721,7 @@
       "version": "0.3.3",
       "fingerprint": "rules:v6:sha256:bbaff4427022de9b70eacd2704973ef23eb6694601be89a337d0bf5b4f3ecc5d",
       "basemap_complete": true,
-      "checked_at": "2026-09-09T12:02:21.076Z",
+      "checked_at": "2026-09-09T16:03:29.927Z",
       "reason": "ok"
     },
     "yukina-pl-bialystok": {
@@ -1729,7 +1729,7 @@
       "version": "0.4.1",
       "fingerprint": "rules:v6:sha256:629479d5edd1b9267eaa0e9f25dda84844d8e7b667649600536c98a14d0ab9ac",
       "basemap_complete": true,
-      "checked_at": "2026-09-09T12:02:21.076Z",
+      "checked_at": "2026-09-09T16:03:29.927Z",
       "reason": "ok"
     },
     "yukina-pl-gdansk": {
@@ -1737,7 +1737,7 @@
       "version": "0.5.1",
       "fingerprint": "rules:v6:sha256:fef057f16be4df8de16f422c7ea51b8f0240095edc0c62a0e85ac39993b5b9f5",
       "basemap_complete": true,
-      "checked_at": "2026-09-09T12:02:21.076Z",
+      "checked_at": "2026-09-09T16:03:29.927Z",
       "reason": "ok"
     },
     "yukina-pl-katowice-gzm": {
@@ -1745,7 +1745,7 @@
       "version": "0.4.1",
       "fingerprint": "rules:v6:sha256:c0656d40bbae0f10139beacd25a00d7c30aaeaca0af041f3ecf6b0ee0216b7d2",
       "basemap_complete": true,
-      "checked_at": "2026-09-09T12:02:21.076Z",
+      "checked_at": "2026-09-09T16:03:29.927Z",
       "reason": "ok"
     },
     "yukina-pl-krakow": {
@@ -1753,7 +1753,7 @@
       "version": "0.5.1",
       "fingerprint": "rules:v6:sha256:01c35dd4f485fafa9e6426d9f576b44dfc21f82a4d12f6b194d1aa7391ab3529",
       "basemap_complete": true,
-      "checked_at": "2026-09-09T12:02:21.076Z",
+      "checked_at": "2026-09-09T16:03:29.927Z",
       "reason": "ok"
     },
     "yukina-pl-lodz": {
@@ -1761,7 +1761,7 @@
       "version": "0.5.1",
       "fingerprint": "rules:v6:sha256:35fab205adf69dbfa7cf4f97bbf3a6d5210effbf0c2f24da65b2d48cc7444b45",
       "basemap_complete": true,
-      "checked_at": "2026-09-09T12:02:21.076Z",
+      "checked_at": "2026-09-09T16:03:29.927Z",
       "reason": "ok"
     },
     "yukina-pl-lublin": {
@@ -1769,7 +1769,7 @@
       "version": "0.4.1",
       "fingerprint": "rules:v6:sha256:6cd32cc445bc03a845849953ba392b30c65407860c7d44395eb4537d6ba799ab",
       "basemap_complete": true,
-      "checked_at": "2026-09-09T12:02:21.076Z",
+      "checked_at": "2026-09-09T16:03:29.927Z",
       "reason": "ok"
     },
     "yukina-pl-poznan": {
@@ -1777,7 +1777,7 @@
       "version": "0.4.1",
       "fingerprint": "rules:v6:sha256:6035d5a00a2040cb0a092b3c9b14b2d3cd02ae5a66b503a4721e9892860cb21f",
       "basemap_complete": true,
-      "checked_at": "2026-09-09T12:02:21.076Z",
+      "checked_at": "2026-09-09T16:03:29.927Z",
       "reason": "ok"
     },
     "yukina-pl-rzeszow": {
@@ -1785,7 +1785,7 @@
       "version": "0.4.1",
       "fingerprint": "rules:v6:sha256:44b5f10d3114f29c14e0d9aa23ef8c4917be3996203a1c67928f217c1a1e6104",
       "basemap_complete": true,
-      "checked_at": "2026-09-09T12:02:21.077Z",
+      "checked_at": "2026-09-09T16:03:29.927Z",
       "reason": "ok"
     },
     "yukina-pl-szczecin": {
@@ -1793,7 +1793,7 @@
       "version": "0.4.1",
       "fingerprint": "rules:v6:sha256:14019e2e00abf005dd5ca26cc6a0398706f0ffed8d9201b2bda5ebf5e7224a03",
       "basemap_complete": true,
-      "checked_at": "2026-09-09T12:02:21.077Z",
+      "checked_at": "2026-09-09T16:03:29.928Z",
       "reason": "ok"
     },
     "yukina-pl-warszawa": {
@@ -1801,7 +1801,7 @@
       "version": "0.4.1",
       "fingerprint": "rules:v6:sha256:e8b36dedb942504bb37d702d0d01b06b24865610c0dd9f6d7df53cb92122e35d",
       "basemap_complete": true,
-      "checked_at": "2026-09-09T12:02:21.077Z",
+      "checked_at": "2026-09-09T16:03:29.928Z",
       "reason": "ok"
     },
     "yukina-pl-wroclaw": {
@@ -1809,7 +1809,7 @@
       "version": "0.5.1",
       "fingerprint": "rules:v6:sha256:6ee7794610afd5e281cf91d21716d32f5e1cfab87a82d606fc8a365cb9dc46cd",
       "basemap_complete": true,
-      "checked_at": "2026-09-09T12:02:21.077Z",
+      "checked_at": "2026-09-09T16:03:29.928Z",
       "reason": "ok"
     },
     "yukina-sapporo-chitose": {
@@ -1817,7 +1817,7 @@
       "version": "0.6.4",
       "fingerprint": "rules:v6:sha256:fd3f08a8f87fb49c4c15c93dd34a6b19c86ab94ddf653a73230ea086c1f6ced1",
       "basemap_complete": true,
-      "checked_at": "2026-09-09T12:02:21.077Z",
+      "checked_at": "2026-09-09T16:03:29.928Z",
       "reason": "ok"
     },
     "yukina-sendai": {
@@ -1825,7 +1825,7 @@
       "version": "0.5.4",
       "fingerprint": "rules:v6:sha256:a9abafa29c3b9631be01ff4ec3782255fbb540694fc93878207f3cbe7be5a120",
       "basemap_complete": true,
-      "checked_at": "2026-09-09T12:02:21.077Z",
+      "checked_at": "2026-09-09T16:03:29.928Z",
       "reason": "ok"
     },
     "yukina-shizuoka-hamamatsu": {
@@ -1833,7 +1833,7 @@
       "version": "0.2.3",
       "fingerprint": "rules:v6:sha256:6ca10870c40b671d25422f31af24f7785f8534b2fdb1eee0c23a27a0ba75d377",
       "basemap_complete": true,
-      "checked_at": "2026-09-09T12:02:21.077Z",
+      "checked_at": "2026-09-09T16:03:29.928Z",
       "reason": "ok"
     },
     "yukina-takamatsu": {
@@ -1841,7 +1841,7 @@
       "version": "0.3.3",
       "fingerprint": "rules:v6:sha256:85d812abd4144b40635ac5ab1abd744f1b944db9c66c3e316e847ea1c1ce2c98",
       "basemap_complete": true,
-      "checked_at": "2026-09-09T12:02:21.077Z",
+      "checked_at": "2026-09-09T16:03:29.928Z",
       "reason": "ok"
     },
     "yukina-tottori": {
@@ -1849,7 +1849,7 @@
       "version": "0.2.3",
       "fingerprint": "rules:v6:sha256:65a57542625e9dceb6a016974ba38b1398fc2d7bc45c114b390b2ca812b189b9",
       "basemap_complete": true,
-      "checked_at": "2026-09-09T12:02:21.077Z",
+      "checked_at": "2026-09-09T16:03:29.928Z",
       "reason": "ok"
     },
     "yukina-toyama": {
@@ -1857,7 +1857,7 @@
       "version": "0.3.4",
       "fingerprint": "rules:v6:sha256:2b5d288c68287a83c6caa5780c18b89ecadc82a9fca29a403255a1c1ba963eca",
       "basemap_complete": true,
-      "checked_at": "2026-09-09T12:02:21.077Z",
+      "checked_at": "2026-09-09T16:03:29.928Z",
       "reason": "ok"
     },
     "yukina-tsugaru": {
@@ -1865,7 +1865,7 @@
       "version": "0.2.4",
       "fingerprint": "rules:v6:sha256:e10d15979830bd6c655a9666a7c796445c84cbc1364608563289ef1c73653b04",
       "basemap_complete": true,
-      "checked_at": "2026-09-09T12:02:21.077Z",
+      "checked_at": "2026-09-09T16:03:29.928Z",
       "reason": "ok"
     },
     "yukina-tw-chiayi": {
@@ -1873,7 +1873,7 @@
       "version": "0.4.1",
       "fingerprint": "rules:v6:sha256:500e3cb1f2355155838d26ebcf739179fe36ac360a01c9172b648cda7879cd0d",
       "basemap_complete": true,
-      "checked_at": "2026-09-09T12:02:21.077Z",
+      "checked_at": "2026-09-09T16:03:29.928Z",
       "reason": "ok"
     },
     "yukina-tw-hsinchu": {
@@ -1881,7 +1881,7 @@
       "version": "0.4.1",
       "fingerprint": "rules:v6:sha256:b3222756a9abf1e3b62815f639552df643fb411b47f9767d64dac8f0f5711331",
       "basemap_complete": true,
-      "checked_at": "2026-09-09T12:02:21.077Z",
+      "checked_at": "2026-09-09T16:03:29.928Z",
       "reason": "ok"
     },
     "yukina-tw-kaohsiung": {
@@ -1889,7 +1889,7 @@
       "version": "0.4.1",
       "fingerprint": "rules:v6:sha256:20b73fa007d8c80d3b91228c3535bfb115783684352d29902882f05327f2e951",
       "basemap_complete": true,
-      "checked_at": "2026-09-09T12:02:21.077Z",
+      "checked_at": "2026-09-09T16:03:29.928Z",
       "reason": "ok"
     },
     "yukina-tw-taichung": {
@@ -1897,7 +1897,7 @@
       "version": "0.4.1",
       "fingerprint": "rules:v6:sha256:f257ccfdf6d8a09aafa122cc578e43c6c4f32e1a3772c24e72f6159ca4c8f727",
       "basemap_complete": true,
-      "checked_at": "2026-09-09T12:02:21.078Z",
+      "checked_at": "2026-09-09T16:03:29.928Z",
       "reason": "ok"
     },
     "yukina-tw-tainan": {
@@ -1905,7 +1905,7 @@
       "version": "0.4.1",
       "fingerprint": "rules:v6:sha256:c4ea17a264f60c1f5119fa9a58902f606d8304c37a3a5e2b302a043c26366592",
       "basemap_complete": true,
-      "checked_at": "2026-09-09T12:02:21.078Z",
+      "checked_at": "2026-09-09T16:03:29.928Z",
       "reason": "ok"
     },
     "yukina-tw-taipei": {
@@ -1913,7 +1913,7 @@
       "version": "0.4.1",
       "fingerprint": "rules:v6:sha256:e9b0eb48ee8dc43f8b072ca3863ec7a43f1c2b7a020118535048719b7a34dd1e",
       "basemap_complete": true,
-      "checked_at": "2026-09-09T12:02:21.078Z",
+      "checked_at": "2026-09-09T16:03:29.928Z",
       "reason": "ok"
     },
     "yukina-wakkanai": {
@@ -1921,7 +1921,7 @@
       "version": "0.2.5",
       "fingerprint": "rules:v6:sha256:c79eb62c64fe937131706f588535150ea3a9cbdcc7fafb3b762897bc52b93b42",
       "basemap_complete": true,
-      "checked_at": "2026-09-09T12:02:21.078Z",
+      "checked_at": "2026-09-09T16:03:29.929Z",
       "reason": "ok"
     },
     "yukina-yamagata": {
@@ -1929,7 +1929,7 @@
       "version": "0.5.4",
       "fingerprint": "rules:v6:sha256:99e35ec225aa950ddff11893a391a91b9dcb0abcdb90cb3bd259a62065b72425",
       "basemap_complete": true,
-      "checked_at": "2026-09-09T12:02:21.078Z",
+      "checked_at": "2026-09-09T16:03:29.929Z",
       "reason": "ok"
     },
     "zurich": {
@@ -1937,7 +1937,7 @@
       "version": "v1.2.0",
       "fingerprint": "rules:v6:github:kronifer/sb-zurich-map:v1.2.0:ZRH.zip",
       "basemap_complete": true,
-      "checked_at": "2026-09-09T12:02:21.079Z",
+      "checked_at": "2026-09-09T16:03:29.929Z",
       "reason": "ok"
     },
     "opo-pt-metropolitan": {
@@ -1945,7 +1945,7 @@
       "version": "v0.4.3",
       "fingerprint": "rules:v6:github:bquelhas/subwaybuilder-map-opo:v0.4.3:OPO_porto_amp_v0.4.3.zip",
       "basemap_complete": true,
-      "checked_at": "2026-09-09T12:02:21.070Z",
+      "checked_at": "2026-09-09T16:03:29.925Z",
       "reason": "ok"
     },
     "lima": {
@@ -1953,7 +1953,7 @@
       "version": "1.1.0",
       "fingerprint": "rules:v6:sha256:a5d12a33a0394c3167f249828010762b1fdd67717a9aeec1c02f3aadaf62537c",
       "basemap_complete": true,
-      "checked_at": "2026-09-09T12:02:21.069Z",
+      "checked_at": "2026-09-09T16:03:29.924Z",
       "reason": "ok"
     },
     "arequipa": {
@@ -1961,7 +1961,7 @@
       "version": "1.0.0",
       "fingerprint": "rules:v6:sha256:51ccd6740754d15db2c889657e3b58a1b94175ef356ec17eebad6cc000c2b838",
       "basemap_complete": true,
-      "checked_at": "2026-09-09T12:02:21.065Z",
+      "checked_at": "2026-09-09T16:03:29.922Z",
       "reason": "ok"
     },
     "chiclayo": {
@@ -1969,7 +1969,7 @@
       "version": "1.0.0",
       "fingerprint": "rules:v6:sha256:05867a77bbf31f202410289c05ee628d1a4adf90d2b78640c8eff306dca1d0c1",
       "basemap_complete": true,
-      "checked_at": "2026-09-09T12:02:21.067Z",
+      "checked_at": "2026-09-09T16:03:29.923Z",
       "reason": "ok"
     },
     "chimbote": {
@@ -1977,7 +1977,7 @@
       "version": "1.0.0",
       "fingerprint": "rules:v6:sha256:e0292f7710b2ad6c656358175745f0060c0a0eb8d16d3ba6dfc78395ed29fa3f",
       "basemap_complete": true,
-      "checked_at": "2026-09-09T12:02:21.067Z",
+      "checked_at": "2026-09-09T16:03:29.923Z",
       "reason": "ok"
     },
     "cusco": {
@@ -1985,7 +1985,7 @@
       "version": "1.0.0",
       "fingerprint": "rules:v6:sha256:60f5119c4ecb3d119858c3e481034a2fce82cc81a365b8475b8ed8d4b52a1144",
       "basemap_complete": true,
-      "checked_at": "2026-09-09T12:02:21.067Z",
+      "checked_at": "2026-09-09T16:03:29.923Z",
       "reason": "ok"
     },
     "huancayo-jauja": {
@@ -1993,7 +1993,7 @@
       "version": "1.0.0",
       "fingerprint": "rules:v6:sha256:3e75637c34097afa09b52ab06a16958ecd25268740605df7e702ea848eb528c0",
       "basemap_complete": true,
-      "checked_at": "2026-09-09T12:02:21.068Z",
+      "checked_at": "2026-09-09T16:03:29.924Z",
       "reason": "ok"
     },
     "iquitos": {
@@ -2001,7 +2001,7 @@
       "version": "1.0.0",
       "fingerprint": "rules:v6:sha256:63c0913952a09045cab297680d517d61b6cdf2a40204c6abc44621cfb57230c8",
       "basemap_complete": true,
-      "checked_at": "2026-09-09T12:02:21.068Z",
+      "checked_at": "2026-09-09T16:03:29.924Z",
       "reason": "ok"
     },
     "piura": {
@@ -2009,7 +2009,7 @@
       "version": "1.0.0",
       "fingerprint": "rules:v6:sha256:e51e545859e4b7c46c0da26ef0c24538c7b1b4c543935db28e16bcf0b554a4ce",
       "basemap_complete": true,
-      "checked_at": "2026-09-09T12:02:21.071Z",
+      "checked_at": "2026-09-09T16:03:29.925Z",
       "reason": "ok"
     },
     "trujillo": {
@@ -2017,7 +2017,7 @@
       "version": "1.0.0",
       "fingerprint": "rules:v6:sha256:dc6ad3af9f0255684297a1d10aaa88be4da15555c9f48c6e8f40087dad1e8b35",
       "basemap_complete": true,
-      "checked_at": "2026-09-09T12:02:21.073Z",
+      "checked_at": "2026-09-09T16:03:29.926Z",
       "reason": "ok"
     },
     "yukina-ee-ida-viru": {
@@ -2025,7 +2025,7 @@
       "version": "0.3.1",
       "fingerprint": "rules:v6:sha256:58b3dc3c90448e2c2927643240980cd83e11f1647fde73dea6106ff3f2f15487",
       "basemap_complete": true,
-      "checked_at": "2026-09-09T12:02:21.074Z",
+      "checked_at": "2026-09-09T16:03:29.926Z",
       "reason": "ok"
     },
     "yukina-ee-parnu": {
@@ -2033,7 +2033,7 @@
       "version": "0.3.1",
       "fingerprint": "rules:v6:sha256:aec43bbc3e9ae59b4800f2fd194332f17cb53c4108d2a8145f8202f69d1d23e6",
       "basemap_complete": true,
-      "checked_at": "2026-09-09T12:02:21.074Z",
+      "checked_at": "2026-09-09T16:03:29.926Z",
       "reason": "ok"
     },
     "yukina-ee-tallinn": {
@@ -2041,7 +2041,7 @@
       "version": "0.3.1",
       "fingerprint": "rules:v6:sha256:0f4700705e4da9a77ba8a24bb3583ab1668e6b9347236fa4a09fa8c783eb16f4",
       "basemap_complete": true,
-      "checked_at": "2026-09-09T12:02:21.074Z",
+      "checked_at": "2026-09-09T16:03:29.926Z",
       "reason": "ok"
     },
     "yukina-ee-tartu": {
@@ -2049,7 +2049,7 @@
       "version": "0.3.1",
       "fingerprint": "rules:v6:sha256:cc8adde713c874953037a84036ac26256f2269a9b4b7bb56ac10ba9bfbeb9f63",
       "basemap_complete": true,
-      "checked_at": "2026-09-09T12:02:21.074Z",
+      "checked_at": "2026-09-09T16:03:29.926Z",
       "reason": "ok"
     },
     "yukina-pl-czestochowa": {
@@ -2057,7 +2057,7 @@
       "version": "0.3.1",
       "fingerprint": "rules:v6:sha256:b29cabe564acbcbb0216b45cb603c5a1ca669b102f41f719c51a497609ce1990",
       "basemap_complete": true,
-      "checked_at": "2026-09-09T12:02:21.076Z",
+      "checked_at": "2026-09-09T16:03:29.927Z",
       "reason": "ok"
     },
     "yukina-pl-kielce": {
@@ -2065,7 +2065,7 @@
       "version": "0.3.1",
       "fingerprint": "rules:v6:sha256:f6982433fb725d663346a3dc785ac17257d8f2d44541743301cbebafc55736c4",
       "basemap_complete": true,
-      "checked_at": "2026-09-09T12:02:21.076Z",
+      "checked_at": "2026-09-09T16:03:29.927Z",
       "reason": "ok"
     },
     "yukina-pl-legnica": {
@@ -2073,7 +2073,7 @@
       "version": "0.3.1",
       "fingerprint": "rules:v6:sha256:2ea9a05728b8694796a62dc3c205cb733341f29bd65a707269b1a599913a3d94",
       "basemap_complete": true,
-      "checked_at": "2026-09-09T12:02:21.076Z",
+      "checked_at": "2026-09-09T16:03:29.927Z",
       "reason": "ok"
     },
     "yukina-pl-olsztyn": {
@@ -2081,7 +2081,7 @@
       "version": "0.3.1",
       "fingerprint": "rules:v6:sha256:d03a4a17af9d9bbf7c5624bfd9825613dae5076cf0ad45ffc3b051a87d430927",
       "basemap_complete": true,
-      "checked_at": "2026-09-09T12:02:21.076Z",
+      "checked_at": "2026-09-09T16:03:29.927Z",
       "reason": "ok"
     },
     "yukina-pl-opole": {
@@ -2089,7 +2089,7 @@
       "version": "0.3.1",
       "fingerprint": "rules:v6:sha256:1ad746a56636d14f7e0e7d1d035c27673e720fe833bfd722ef7abf8a01077331",
       "basemap_complete": true,
-      "checked_at": "2026-09-09T12:02:21.076Z",
+      "checked_at": "2026-09-09T16:03:29.927Z",
       "reason": "ok"
     },
     "yukina-pl-radom": {
@@ -2097,7 +2097,7 @@
       "version": "0.3.1",
       "fingerprint": "rules:v6:sha256:cd72d7e6febca5906cbd63a9ea50b2c8d9f9458fb96acdfaa233c090ce683e74",
       "basemap_complete": true,
-      "checked_at": "2026-09-09T12:02:21.076Z",
+      "checked_at": "2026-09-09T16:03:29.927Z",
       "reason": "ok"
     },
     "yukina-pl-zielona-gora": {
@@ -2105,7 +2105,7 @@
       "version": "0.3.1",
       "fingerprint": "rules:v6:sha256:109f4f0488fbbe8916c5439fb6ccfd3f21e096b8214f9b3220728c6fb3e2f06f",
       "basemap_complete": true,
-      "checked_at": "2026-09-09T12:02:21.077Z",
+      "checked_at": "2026-09-09T16:03:29.928Z",
       "reason": "ok"
     },
     "mfn-msy": {
@@ -2113,7 +2113,7 @@
       "version": "1.0.0",
       "fingerprint": "rules:v6:github:crumpetime/sb-maps-msy:1.0.0:MSY.zip",
       "basemap_complete": true,
-      "checked_at": "2026-09-09T12:02:21.070Z",
+      "checked_at": "2026-09-09T16:03:29.924Z",
       "reason": "ok"
     },
     "yukina-cz-jihlava": {
@@ -2121,7 +2121,7 @@
       "version": "0.2.2",
       "fingerprint": "rules:v6:sha256:ebaf47960b7d4115b1ba575cacb81046e3613a8baecf791c0ffbe20e2cfb22c5",
       "basemap_complete": true,
-      "checked_at": "2026-09-09T12:02:21.074Z",
+      "checked_at": "2026-09-09T16:03:29.926Z",
       "reason": "ok"
     },
     "yukina-cz-karlovy-vary": {
@@ -2129,7 +2129,7 @@
       "version": "0.2.2",
       "fingerprint": "rules:v6:sha256:8c0871aa97d9ffb5fe6b8e44e15da55d4ed9d077d69047e0a23660a44ae659ea",
       "basemap_complete": true,
-      "checked_at": "2026-09-09T12:02:21.074Z",
+      "checked_at": "2026-09-09T16:03:29.926Z",
       "reason": "ok"
     },
     "yukina-cz-zlin": {
@@ -2137,7 +2137,7 @@
       "version": "0.2.2",
       "fingerprint": "rules:v6:sha256:e2c7b79ca0f3699227a01f14328bd1c0557147802a4cd66cab88f89bfc98546d",
       "basemap_complete": true,
-      "checked_at": "2026-09-09T12:02:21.074Z",
+      "checked_at": "2026-09-09T16:03:29.926Z",
       "reason": "ok"
     },
     "greater-chicagoland": {
@@ -2145,7 +2145,7 @@
       "version": "v1.4.1",
       "fingerprint": "rules:v6:github:nerdiesanders/subway-builder-gchi:v1.4.1:GCHI.zip",
       "basemap_complete": true,
-      "checked_at": "2026-09-09T12:02:21.068Z",
+      "checked_at": "2026-09-09T16:03:29.924Z",
       "reason": "ok"
     },
     "chongqing": {
@@ -2153,7 +2153,7 @@
       "version": "1.2.0",
       "fingerprint": "rules:v6:sha256:c8e88525d19f511bd984fda2fb415019e3aa568cc8db053a2c596311698e9493",
       "basemap_complete": true,
-      "checked_at": "2026-09-09T12:02:21.067Z",
+      "checked_at": "2026-09-09T16:03:29.923Z",
       "reason": "ok"
     },
     "yukina-lv-daugavpils": {
@@ -2161,7 +2161,7 @@
       "version": "0.2.1",
       "fingerprint": "rules:v6:sha256:2ed8aeb3d36e6d8ef6b57369ccccf70b7c9d195c8eb6ca7a98d5263f7e7dc430",
       "basemap_complete": true,
-      "checked_at": "2026-09-09T12:02:21.075Z",
+      "checked_at": "2026-09-09T16:03:29.927Z",
       "reason": "ok"
     },
     "yukina-lv-liepaja": {
@@ -2169,7 +2169,7 @@
       "version": "0.2.1",
       "fingerprint": "rules:v6:sha256:3436f006a34f470aca014020b003bf6e085ddad93c36e796bfe9b7336dc9f954",
       "basemap_complete": true,
-      "checked_at": "2026-09-09T12:02:21.075Z",
+      "checked_at": "2026-09-09T16:03:29.927Z",
       "reason": "ok"
     },
     "yukina-lv-riga": {
@@ -2177,7 +2177,7 @@
       "version": "0.2.1",
       "fingerprint": "rules:v6:sha256:5fc9089379febbfd57549e9965bcf09415e4ec905396961d623ac7644a64b4c7",
       "basemap_complete": true,
-      "checked_at": "2026-09-09T12:02:21.075Z",
+      "checked_at": "2026-09-09T16:03:29.927Z",
       "reason": "ok"
     },
     "yukina-ua-dnipro": {
@@ -2185,7 +2185,7 @@
       "version": "0.2.0",
       "fingerprint": "rules:v6:sha256:012febf021782c05fe6daa999b7495bc63e493b48d59891ea47f70c682e9faa1",
       "basemap_complete": true,
-      "checked_at": "2026-09-09T12:02:21.078Z",
+      "checked_at": "2026-09-09T16:03:29.928Z",
       "reason": "ok"
     },
     "yukina-ua-kharkiv": {
@@ -2193,7 +2193,7 @@
       "version": "0.2.0",
       "fingerprint": "rules:v6:sha256:e32940e41efcee57af35ff6953d9be68ac65ec013e04aa4d2e0689b6e64dd930",
       "basemap_complete": true,
-      "checked_at": "2026-09-09T12:02:21.078Z",
+      "checked_at": "2026-09-09T16:03:29.928Z",
       "reason": "ok"
     },
     "yukina-ua-kryvyi-rih": {
@@ -2201,7 +2201,7 @@
       "version": "0.2.0",
       "fingerprint": "rules:v6:sha256:16d9876ff6bd7850c223dd2822ec6f29ab195505e91fa9e7e5e53c31f9587dc8",
       "basemap_complete": true,
-      "checked_at": "2026-09-09T12:02:21.078Z",
+      "checked_at": "2026-09-09T16:03:29.928Z",
       "reason": "ok"
     },
     "yukina-ua-kyiv": {
@@ -2209,7 +2209,7 @@
       "version": "0.2.0",
       "fingerprint": "rules:v6:sha256:5c21955804e7576d5ce48512412a324ba10b4b40f25c24b78674136774b5fd51",
       "basemap_complete": true,
-      "checked_at": "2026-09-09T12:02:21.078Z",
+      "checked_at": "2026-09-09T16:03:29.928Z",
       "reason": "ok"
     },
     "yukina-ua-lviv": {
@@ -2217,7 +2217,7 @@
       "version": "0.2.0",
       "fingerprint": "rules:v6:sha256:8b2ced7f2c76237ce6a0a3d9e3f951b55b41bb20f6d2594af86f4d40135f3548",
       "basemap_complete": true,
-      "checked_at": "2026-09-09T12:02:21.078Z",
+      "checked_at": "2026-09-09T16:03:29.929Z",
       "reason": "ok"
     },
     "yukina-ua-odesa": {
@@ -2225,7 +2225,7 @@
       "version": "0.2.0",
       "fingerprint": "rules:v6:sha256:00f069efbb4af7d43e53ba70a7f469c07dad8b32b83c4cf2f042921ce4640634",
       "basemap_complete": true,
-      "checked_at": "2026-09-09T12:02:21.078Z",
+      "checked_at": "2026-09-09T16:03:29.929Z",
       "reason": "ok"
     },
     "yukina-ua-zaporizhzhia": {
@@ -2233,7 +2233,7 @@
       "version": "0.2.0",
       "fingerprint": "rules:v6:sha256:e68617448a6b5d45d37d4c1478b78cbd3e66acbdc23e47659f7d50b345011ae9",
       "basemap_complete": true,
-      "checked_at": "2026-09-09T12:02:21.078Z",
+      "checked_at": "2026-09-09T16:03:29.929Z",
       "reason": "ok"
     },
     "yukina-pl-central-pomerania": {
@@ -2241,7 +2241,7 @@
       "version": "0.2.1",
       "fingerprint": "rules:v6:sha256:7bdde238ac18f3e0fd341ca04d7df4aaf8ab17477ea8a491a0028d85803acc43",
       "basemap_complete": true,
-      "checked_at": "2026-09-09T12:02:21.076Z",
+      "checked_at": "2026-09-09T16:03:29.927Z",
       "reason": "ok"
     },
     "yukina-pl-plock-wloclawek": {
@@ -2249,7 +2249,7 @@
       "version": "0.2.1",
       "fingerprint": "rules:v6:sha256:7f0afb4ce09906992674f105b2e0b9a2a873a4655e15a75b800e727a0fd77276",
       "basemap_complete": true,
-      "checked_at": "2026-09-09T12:02:21.076Z",
+      "checked_at": "2026-09-09T16:03:29.927Z",
       "reason": "ok"
     },
     "cape-town": {
@@ -2257,7 +2257,7 @@
       "version": "v1.0.1",
       "fingerprint": "rules:v6:github:worstboyinaustral1a/subway-builder-za:v1.0.1:CPT_v1.0.1.zip",
       "basemap_complete": true,
-      "checked_at": "2026-09-09T12:02:21.067Z",
+      "checked_at": "2026-09-09T16:03:29.923Z",
       "reason": "ok"
     },
     "yukina-keihanshin": {
@@ -2265,7 +2265,7 @@
       "version": "0.1.4",
       "fingerprint": "rules:v6:sha256:cddc197d9fbd8fd5396b48c0068528f90943a8426effe9d273011d067920c8fb",
       "basemap_complete": true,
-      "checked_at": "2026-09-09T12:02:21.075Z",
+      "checked_at": "2026-09-09T16:03:29.927Z",
       "reason": "ok"
     },
     "bordeaux-arcachon-libourne": {
@@ -2273,7 +2273,7 @@
       "version": "v1.4.0",
       "fingerprint": "rules:v6:github:pierreggt/subway-builder-bordeaux:v1.4.0:bordeaux-arcachon-libourne_v1.4.0.1.zip",
       "basemap_complete": true,
-      "checked_at": "2026-09-09T12:02:21.066Z",
+      "checked_at": "2026-09-09T16:03:29.923Z",
       "reason": "ok"
     },
     "yukina-lt-kaunas": {
@@ -2281,7 +2281,7 @@
       "version": "0.3.0",
       "fingerprint": "rules:v6:sha256:2e764e1c9b690728de5dca2cc1933f717f453a2b05373d4143da86e3427efce0",
       "basemap_complete": true,
-      "checked_at": "2026-09-09T12:02:21.075Z",
+      "checked_at": "2026-09-09T16:03:29.927Z",
       "reason": "ok"
     },
     "yukina-lt-klaipeda": {
@@ -2289,7 +2289,7 @@
       "version": "0.3.0",
       "fingerprint": "rules:v6:sha256:22943f2fd7c4879d3bea6dff4d19963af1bf963da96c5e6dfc2759c73c72fa79",
       "basemap_complete": true,
-      "checked_at": "2026-09-09T12:02:21.075Z",
+      "checked_at": "2026-09-09T16:03:29.927Z",
       "reason": "ok"
     },
     "yukina-lt-panevezys": {
@@ -2297,7 +2297,7 @@
       "version": "0.3.0",
       "fingerprint": "rules:v6:sha256:5b50dfcea245155356a012bd55d497cafb024a39135e519214cc1b4bd7c06f69",
       "basemap_complete": true,
-      "checked_at": "2026-09-09T12:02:21.075Z",
+      "checked_at": "2026-09-09T16:03:29.927Z",
       "reason": "ok"
     },
     "yukina-lt-siauliai": {
@@ -2305,7 +2305,7 @@
       "version": "0.3.0",
       "fingerprint": "rules:v6:sha256:f21ba516c898ab86168aa346b9056679e435a048b84fdd5fc7ed9d71b58dca59",
       "basemap_complete": true,
-      "checked_at": "2026-09-09T12:02:21.075Z",
+      "checked_at": "2026-09-09T16:03:29.927Z",
       "reason": "ok"
     },
     "yukina-lt-vilnius": {
@@ -2313,7 +2313,7 @@
       "version": "0.3.0",
       "fingerprint": "rules:v6:sha256:953fe24f3c49d6b8fad58b4f199080c329c6457eccdaec9eab37e0583d7d3328",
       "basemap_complete": true,
-      "checked_at": "2026-09-09T12:02:21.075Z",
+      "checked_at": "2026-09-09T16:03:29.927Z",
       "reason": "ok"
     },
     "montpellier-mediterranee": {
@@ -2321,7 +2321,7 @@
       "version": "v1.0.0",
       "fingerprint": "rules:v6:github:pierreggt/subway-builder-montpellier:v1.0.0:montpellier_v1.0.1.zip",
       "basemap_complete": true,
-      "checked_at": "2026-09-09T12:02:21.070Z",
+      "checked_at": "2026-09-09T16:03:29.925Z",
       "reason": "ok"
     },
     "nice-cote-d-azur": {
@@ -2329,7 +2329,7 @@
       "version": "v1.0.2",
       "fingerprint": "rules:v6:github:pierreggt/subway-builder-nice:v1.0.2:nice_v1.0.2.zip",
       "basemap_complete": true,
-      "checked_at": "2026-09-09T12:02:21.070Z",
+      "checked_at": "2026-09-09T16:03:29.925Z",
       "reason": "ok"
     },
     "paris-ile-de-france": {
@@ -2337,7 +2337,7 @@
       "version": "2.0.1",
       "fingerprint": "rules:v6:sha256:b172372e4472e23e887c00805b354ac841db1837adfc1e9906f808b3e1bcd491",
       "basemap_complete": true,
-      "checked_at": "2026-09-09T12:02:21.071Z",
+      "checked_at": "2026-09-09T16:03:29.925Z",
       "reason": "ok"
     },
     "lyon": {
@@ -2345,7 +2345,7 @@
       "version": "2.0.1",
       "fingerprint": "rules:v6:sha256:d5d67c0f7e5cd151401ac5a1232dc0427f1586988bc33f14104cfa3c041e65f3",
       "basemap_complete": true,
-      "checked_at": "2026-09-09T12:02:21.069Z",
+      "checked_at": "2026-09-09T16:03:29.924Z",
       "reason": "ok"
     },
     "marseille": {
@@ -2353,7 +2353,7 @@
       "version": "2.0.0",
       "fingerprint": "rules:v6:sha256:1c416a52a4d060c7896c9edee0d75f8d14547b7d0ad4afe324586760fdf36f08",
       "basemap_complete": true,
-      "checked_at": "2026-09-09T12:02:21.069Z",
+      "checked_at": "2026-09-09T16:03:29.924Z",
       "reason": "ok"
     },
     "toulouse": {
@@ -2361,7 +2361,7 @@
       "version": "1.0.1",
       "fingerprint": "rules:v6:sha256:0f713b55f433d69f606b79f8173b604541af03ae15d588eb0b0cd8a3fa9e09e6",
       "basemap_complete": true,
-      "checked_at": "2026-09-09T12:02:21.073Z",
+      "checked_at": "2026-09-09T16:03:29.926Z",
       "reason": "ok"
     },
     "istanbul": {
@@ -2369,7 +2369,7 @@
       "version": "v1.0.0",
       "fingerprint": "rules:v6:github:pierreggt/subway-builder-istanbul:v1.0.0:istanbul_v1.0.0.zip",
       "basemap_complete": true,
-      "checked_at": "2026-09-09T12:02:21.068Z",
+      "checked_at": "2026-09-09T16:03:29.924Z",
       "reason": "ok"
     },
     "lille": {
@@ -2377,7 +2377,7 @@
       "version": "2.0.0",
       "fingerprint": "rules:v6:sha256:cac421abc37d01dec198dfee7178399e5f2a3302986012e1ed1cc0b55ec52c03",
       "basemap_complete": true,
-      "checked_at": "2026-09-09T12:02:21.069Z",
+      "checked_at": "2026-09-09T16:03:29.924Z",
       "reason": "ok"
     },
     "mfn-rsw": {
@@ -2385,7 +2385,7 @@
       "version": "2.0.0",
       "fingerprint": "rules:v6:github:crumpetime/sb-maps-rsw:2.0.0:RSW.zip",
       "basemap_complete": true,
-      "checked_at": "2026-09-09T12:02:21.070Z",
+      "checked_at": "2026-09-09T16:03:29.925Z",
       "reason": "ok"
     },
     "nantes": {
@@ -2393,7 +2393,7 @@
       "version": "1.0.1",
       "fingerprint": "rules:v6:sha256:b82c4ad4dea23fa674679ba80c600c015e2d2a8b284169a4afd50f3c9d60d0a1",
       "basemap_complete": true,
-      "checked_at": "2026-09-09T12:02:21.070Z",
+      "checked_at": "2026-09-09T16:03:29.925Z",
       "reason": "ok"
     },
     "rennes": {
@@ -2401,7 +2401,7 @@
       "version": "1.0.1",
       "fingerprint": "rules:v6:sha256:71254aeac6b350b1aa6e212434006a8b8abaff1fd19cf1fd9d6308b33c00a672",
       "basemap_complete": true,
-      "checked_at": "2026-09-09T12:02:21.071Z",
+      "checked_at": "2026-09-09T16:03:29.925Z",
       "reason": "ok"
     },
     "strasbourg": {
@@ -2409,7 +2409,7 @@
       "version": "1.0.3",
       "fingerprint": "rules:v6:sha256:9756342c550ee1149e3812c9c1d429db6011fa80c334ff6bbe1a68e410d25bff",
       "basemap_complete": true,
-      "checked_at": "2026-09-09T12:02:21.072Z",
+      "checked_at": "2026-09-09T16:03:29.926Z",
       "reason": "ok"
     },
     "sofia-bulgaria": {
@@ -2417,7 +2417,7 @@
       "version": "v1.0.1",
       "fingerprint": "rules:v6:github:giannons46/sofia-subway-builder-map:v1.0.1:sofia-map-v1.0.1.zip",
       "basemap_complete": true,
-      "checked_at": "2026-09-09T12:02:21.072Z",
+      "checked_at": "2026-09-09T16:03:29.925Z",
       "reason": "ok"
     },
     "antalya": {
@@ -2425,7 +2425,7 @@
       "version": "v1.0.0",
       "fingerprint": "rules:v6:github:pierreggt/subway-builder-antalya:v1.0.0:antalya_flat_v1.0.0.zip|antalya_v1.0.0.zip",
       "basemap_complete": true,
-      "checked_at": "2026-09-09T12:02:21.065Z",
+      "checked_at": "2026-09-09T16:03:29.922Z",
       "reason": "ok"
     },
     "ankara": {
@@ -2433,7 +2433,7 @@
       "version": "v1.0.0",
       "fingerprint": "rules:v6:github:pierreggt/subway-builder-ankara:v1.0.0:ankara_flat_v1.0.0.zip|ankara_v1.0.0.zip",
       "basemap_complete": true,
-      "checked_at": "2026-09-09T12:02:21.065Z",
+      "checked_at": "2026-09-09T16:03:29.922Z",
       "reason": "ok"
     },
     "palma-de-mallorca": {
@@ -2441,7 +2441,7 @@
       "version": "1.0.0",
       "fingerprint": "rules:v6:sha256:bfcf3250ad3e084043fa88255c8bbaf4807c8181b023591d6152c378bbaa1cb9",
       "basemap_complete": true,
-      "checked_at": "2026-09-09T12:02:21.071Z",
+      "checked_at": "2026-09-09T16:03:29.925Z",
       "reason": "ok"
     },
     "amba": {
@@ -2449,7 +2449,7 @@
       "version": "v0.3.0",
       "fingerprint": "rules:v6:github:hernang87/amba-buenos-aires-metropolitan-area-for-subway-builder:v0.3.0:amba.zip",
       "basemap_complete": true,
-      "checked_at": "2026-09-09T12:02:21.065Z",
+      "checked_at": "2026-09-09T16:03:29.922Z",
       "reason": "ok"
     },
     "alicante": {
@@ -2457,7 +2457,7 @@
       "version": "1.0.0",
       "fingerprint": "rules:v6:sha256:16e0f8a978c7a1558d5483eabb09f689af5f8ac236bc7d6d864f55d432616e85",
       "basemap_complete": true,
-      "checked_at": "2026-09-09T12:02:21.065Z",
+      "checked_at": "2026-09-09T16:03:29.922Z",
       "reason": "ok"
     },
     "sevilla": {
@@ -2465,7 +2465,7 @@
       "version": "1.0.0",
       "fingerprint": "rules:v6:sha256:984d196b253362ba03b3c55c67fd7e178b31ba33a7a4d3e781b4c66464ccd018",
       "basemap_complete": true,
-      "checked_at": "2026-09-09T12:02:21.072Z",
+      "checked_at": "2026-09-09T16:03:29.925Z",
       "reason": "ok"
     },
     "brussels": {
@@ -2473,7 +2473,7 @@
       "version": "v1.0.0",
       "fingerprint": "rules:v6:github:lexenygma/sb-brussels:v1.0.0:BRU.zip",
       "basemap_complete": true,
-      "checked_at": "2026-09-09T12:02:21.066Z",
+      "checked_at": "2026-09-09T16:03:29.923Z",
       "reason": "ok"
     },
     "au-adelaide": {
@@ -2481,7 +2481,7 @@
       "version": "1.0.0",
       "fingerprint": "rules:v6:sha256:2ec1df5061a2117a6fa7b13114be78a9372900d160eb0e9a578e071aa8b2624a",
       "basemap_complete": true,
-      "checked_at": "2026-09-09T12:02:21.065Z",
+      "checked_at": "2026-09-09T16:03:29.922Z",
       "reason": "ok"
     },
     "au-brisbane": {
@@ -2489,7 +2489,7 @@
       "version": "1.0.0",
       "fingerprint": "rules:v6:sha256:f7e262347a890a3f44a2fb3181af74a5afe354579a48a60a3055fd785fb68194",
       "basemap_complete": true,
-      "checked_at": "2026-09-09T12:02:21.066Z",
+      "checked_at": "2026-09-09T16:03:29.922Z",
       "reason": "ok"
     },
     "au-canberra": {
@@ -2497,7 +2497,7 @@
       "version": "1.0.0",
       "fingerprint": "rules:v6:sha256:8bb24723eccea5d11d79b8a48b53477cec653863f54ae18bfd14c49a86532a4a",
       "basemap_complete": true,
-      "checked_at": "2026-09-09T12:02:21.066Z",
+      "checked_at": "2026-09-09T16:03:29.922Z",
       "reason": "ok"
     },
     "au-melbourne": {
@@ -2505,7 +2505,7 @@
       "version": "1.0.0",
       "fingerprint": "rules:v6:sha256:5c5d64b9a39eb571cb1aa6d89038755dd9b0a3f880cebd08046ffb6c6bd46daa",
       "basemap_complete": true,
-      "checked_at": "2026-09-09T12:02:21.066Z",
+      "checked_at": "2026-09-09T16:03:29.922Z",
       "reason": "ok"
     },
     "au-perth": {
@@ -2513,7 +2513,7 @@
       "version": "1.0.0",
       "fingerprint": "rules:v6:sha256:289929ebf0ea6453a3caa368171e5f90f134794d6a905f18310416844ca9576a",
       "basemap_complete": true,
-      "checked_at": "2026-09-09T12:02:21.066Z",
+      "checked_at": "2026-09-09T16:03:29.923Z",
       "reason": "ok"
     },
     "au-syd2": {
@@ -2521,7 +2521,7 @@
       "version": "1.0.0",
       "fingerprint": "rules:v6:sha256:6179f33a8222200c1a3bb25ca5236b721bc68c7641744eb3e64fefe2fd76c793",
       "basemap_complete": true,
-      "checked_at": "2026-09-09T12:02:21.066Z",
+      "checked_at": "2026-09-09T16:03:29.923Z",
       "reason": "ok"
     },
     "nz-auckland": {
@@ -2529,7 +2529,7 @@
       "version": "1.0.0",
       "fingerprint": "rules:v6:sha256:ab2ed0650fc18747b2485969d31ff89753bdc7f004e711c30388891f579dcc37",
       "basemap_complete": true,
-      "checked_at": "2026-09-09T12:02:21.070Z",
+      "checked_at": "2026-09-09T16:03:29.925Z",
       "reason": "ok"
     },
     "nz-christchurch": {
@@ -2537,7 +2537,7 @@
       "version": "1.0.0",
       "fingerprint": "rules:v6:sha256:90cf2e3969db636430708b8d9993880bfa7519f0bb78c21249bef49df6778ef5",
       "basemap_complete": true,
-      "checked_at": "2026-09-09T12:02:21.070Z",
+      "checked_at": "2026-09-09T16:03:29.925Z",
       "reason": "ok"
     },
     "nz-wellington": {
@@ -2545,7 +2545,7 @@
       "version": "1.0.0",
       "fingerprint": "rules:v6:sha256:35fe19fbd05f9290e6666264e586a4f5ffb9a6b8396953927b409a647856bc58",
       "basemap_complete": true,
-      "checked_at": "2026-09-09T12:02:21.070Z",
+      "checked_at": "2026-09-09T16:03:29.925Z",
       "reason": "ok"
     },
     "mississippi": {
@@ -2553,7 +2553,7 @@
       "version": "1.1.1",
       "fingerprint": "rules:v6:sha256:be0abc0789973d6aa27b03434cba5252fd94f480004a22261b77f0a22981bab1",
       "basemap_complete": true,
-      "checked_at": "2026-09-09T12:02:21.070Z",
+      "checked_at": "2026-09-09T16:03:29.925Z",
       "reason": "ok"
     },
     "yukina-tokyo": {
@@ -2561,7 +2561,7 @@
       "version": "0.1.2",
       "fingerprint": "rules:v6:sha256:9d294d84e604e8461ef4ab9780d9883c494512fecd41134cadc908610431dadc",
       "basemap_complete": true,
-      "checked_at": "2026-09-09T12:02:21.077Z",
+      "checked_at": "2026-09-09T16:03:29.928Z",
       "reason": "ok"
     },
     "ile-de-france": {
@@ -2569,7 +2569,7 @@
       "version": "1.0.2",
       "fingerprint": "rules:v6:github:jcpires/subway-builder-idf:1.0.2:ile-de-france.zip",
       "basemap_complete": true,
-      "checked_at": "2026-09-09T12:02:21.068Z",
+      "checked_at": "2026-09-09T16:03:29.924Z",
       "reason": "ok"
     },
     "yukina-akita": {
@@ -2577,7 +2577,7 @@
       "version": "0.1.2",
       "fingerprint": "rules:v6:sha256:fc346ba8a3a57afa674941d7eaed94d51dfe24dae5bd871c07ec7d567c3d1c64",
       "basemap_complete": true,
-      "checked_at": "2026-09-09T12:02:21.073Z",
+      "checked_at": "2026-09-09T16:03:29.926Z",
       "reason": "ok"
     },
     "yukina-fuji-numazu": {
@@ -2585,7 +2585,7 @@
       "version": "0.1.2",
       "fingerprint": "rules:v6:sha256:e35d6d0fae96ae05db184a5301a1e23c0c63f910952411e135567bf3a486ee67",
       "basemap_complete": true,
-      "checked_at": "2026-09-09T12:02:21.074Z",
+      "checked_at": "2026-09-09T16:03:29.926Z",
       "reason": "ok"
     },
     "yukina-fukui": {
@@ -2593,7 +2593,7 @@
       "version": "0.1.2",
       "fingerprint": "rules:v6:sha256:5fd3104835ce22571aeb730fecbeb987e2a796ebef88f0af46ba1fef97920d3a",
       "basemap_complete": true,
-      "checked_at": "2026-09-09T12:02:21.074Z",
+      "checked_at": "2026-09-09T16:03:29.926Z",
       "reason": "ok"
     },
     "yukina-fukuyama": {
@@ -2601,7 +2601,7 @@
       "version": "0.1.2",
       "fingerprint": "rules:v6:sha256:c275d5c8be6a7434e7979ead75eae2972cf828d7eb61c4bc8a53af9fc9f8d0df",
       "basemap_complete": true,
-      "checked_at": "2026-09-09T12:02:21.074Z",
+      "checked_at": "2026-09-09T16:03:29.926Z",
       "reason": "ok"
     },
     "yukina-hachinohe": {
@@ -2609,7 +2609,7 @@
       "version": "0.1.2",
       "fingerprint": "rules:v6:sha256:61cfc0c208def73cad2a27a5668a62134ce6715f757a1562301030ba59dfc8b0",
       "basemap_complete": true,
-      "checked_at": "2026-09-09T12:02:21.074Z",
+      "checked_at": "2026-09-09T16:03:29.926Z",
       "reason": "ok"
     },
     "yukina-kanazawa": {
@@ -2617,7 +2617,7 @@
       "version": "0.1.2",
       "fingerprint": "rules:v6:sha256:ec295a2370467c82ca05bbf34883c2d37bfacf154bcb0f499a752723783ebcb9",
       "basemap_complete": true,
-      "checked_at": "2026-09-09T12:02:21.074Z",
+      "checked_at": "2026-09-09T16:03:29.926Z",
       "reason": "ok"
     },
     "yukina-kofu": {
@@ -2625,7 +2625,7 @@
       "version": "0.1.2",
       "fingerprint": "rules:v6:sha256:8b700f2437194c44c81ae14e8149cc05b8a075568eb9b7fce9cba0662543ebac",
       "basemap_complete": true,
-      "checked_at": "2026-09-09T12:02:21.075Z",
+      "checked_at": "2026-09-09T16:03:29.927Z",
       "reason": "ok"
     },
     "yukina-maebashi": {
@@ -2633,7 +2633,7 @@
       "version": "0.1.2",
       "fingerprint": "rules:v6:sha256:f364b594969cdff9e1d56900a31763226fdbe0e2fd899bc5afdd2053e9b5f164",
       "basemap_complete": true,
-      "checked_at": "2026-09-09T12:02:21.075Z",
+      "checked_at": "2026-09-09T16:03:29.927Z",
       "reason": "ok"
     },
     "yukina-matsumoto": {
@@ -2641,7 +2641,7 @@
       "version": "0.1.2",
       "fingerprint": "rules:v6:sha256:8d1308eced8c0f97830d3a8a9fb6978978bf2c87183b5f26ae96b765d64d7217",
       "basemap_complete": true,
-      "checked_at": "2026-09-09T12:02:21.075Z",
+      "checked_at": "2026-09-09T16:03:29.927Z",
       "reason": "ok"
     },
     "yukina-mito-hitachi": {
@@ -2649,7 +2649,7 @@
       "version": "0.1.2",
       "fingerprint": "rules:v6:sha256:78343b99955ca0f86987f7c83491966c035a439a2095f23824ec7eea4c143522",
       "basemap_complete": true,
-      "checked_at": "2026-09-09T12:02:21.075Z",
+      "checked_at": "2026-09-09T16:03:29.927Z",
       "reason": "ok"
     },
     "yukina-miyazaki": {
@@ -2657,7 +2657,7 @@
       "version": "0.1.2",
       "fingerprint": "rules:v6:sha256:3118c07bd58d85b68f6c5daafa24c6a6d0aa42d4fd72108f3777e5cdb0806422",
       "basemap_complete": true,
-      "checked_at": "2026-09-09T12:02:21.075Z",
+      "checked_at": "2026-09-09T16:03:29.927Z",
       "reason": "ok"
     },
     "yukina-nagano": {
@@ -2665,7 +2665,7 @@
       "version": "0.1.2",
       "fingerprint": "rules:v6:sha256:9de88ae59bd6005c7e3ac2b06578aa4a3a63323e013a1fa202b880be5bef0369",
       "basemap_complete": true,
-      "checked_at": "2026-09-09T12:02:21.075Z",
+      "checked_at": "2026-09-09T16:03:29.927Z",
       "reason": "ok"
     },
     "yukina-oita": {
@@ -2673,7 +2673,7 @@
       "version": "0.1.2",
       "fingerprint": "rules:v6:sha256:1a64d0e74e41e0a074b707156415f96dd34289b288fb99c1eb57a773c7a4861e",
       "basemap_complete": true,
-      "checked_at": "2026-09-09T12:02:21.076Z",
+      "checked_at": "2026-09-09T16:03:29.927Z",
       "reason": "ok"
     },
     "yukina-tokushima": {
@@ -2681,7 +2681,7 @@
       "version": "0.1.2",
       "fingerprint": "rules:v6:sha256:6e136255958c61c2f9399cf224d7eba77460c23ec94c7d779433ac65cb782a06",
       "basemap_complete": true,
-      "checked_at": "2026-09-09T12:02:21.077Z",
+      "checked_at": "2026-09-09T16:03:29.928Z",
       "reason": "ok"
     },
     "yukina-utsunomiya": {
@@ -2689,7 +2689,7 @@
       "version": "0.1.2",
       "fingerprint": "rules:v6:sha256:f36e3e81cb20cb10d57ce3a04cd00202e02bac4b486b883f086c3e93998f324a",
       "basemap_complete": true,
-      "checked_at": "2026-09-09T12:02:21.078Z",
+      "checked_at": "2026-09-09T16:03:29.929Z",
       "reason": "ok"
     },
     "yukina-wakayama": {
@@ -2697,7 +2697,7 @@
       "version": "0.1.2",
       "fingerprint": "rules:v6:sha256:be40f3b51500a829140295f3957ee1f5a370408eecc301efa67489740204a30b",
       "basemap_complete": true,
-      "checked_at": "2026-09-09T12:02:21.078Z",
+      "checked_at": "2026-09-09T16:03:29.929Z",
       "reason": "ok"
     },
     "yukina-yamaguchi": {
@@ -2705,7 +2705,7 @@
       "version": "0.1.2",
       "fingerprint": "rules:v6:sha256:63dea2acd9c3890d4a11bd6ebeca0711fe86f8505afb1075e112407679dd97b4",
       "basemap_complete": true,
-      "checked_at": "2026-09-09T12:02:21.078Z",
+      "checked_at": "2026-09-09T16:03:29.929Z",
       "reason": "ok"
     },
     "seoul": {
@@ -2713,7 +2713,7 @@
       "version": "0.5.8",
       "fingerprint": "rules:v6:sha256:98962ee43bdb7e073132d948a1314d1c4775bb7b53d3d338b8423ae692cdc33e",
       "basemap_complete": true,
-      "checked_at": "2026-09-09T12:02:21.072Z",
+      "checked_at": "2026-09-09T16:03:29.925Z",
       "reason": "ok"
     },
     "springfield-il": {
@@ -2721,7 +2721,7 @@
       "version": "v1.0.0",
       "fingerprint": "rules:v6:github:nerdiesanders/subway-builder-spi:v1.0.0:SPI.zip",
       "basemap_complete": true,
-      "checked_at": "2026-09-09T12:02:21.072Z",
+      "checked_at": "2026-09-09T16:03:29.926Z",
       "reason": "ok"
     },
     "yukina-tw-hualien-taitung": {
@@ -2729,7 +2729,7 @@
       "version": "0.1.1",
       "fingerprint": "rules:v6:sha256:bbde19895fb656cbd42793984f895ae615d5c20fa8676718ff1f12e4ee02ffb4",
       "basemap_complete": true,
-      "checked_at": "2026-09-09T12:02:21.077Z",
+      "checked_at": "2026-09-09T16:03:29.928Z",
       "reason": "ok"
     },
     "yukina-tw-southern-taiwan": {
@@ -2737,7 +2737,7 @@
       "version": "0.1.1",
       "fingerprint": "rules:v6:sha256:9936c18183d9cad264537462cef9f2401f9bb7bc72766847488684d702bb9280",
       "basemap_complete": true,
-      "checked_at": "2026-09-09T12:02:21.077Z",
+      "checked_at": "2026-09-09T16:03:29.928Z",
       "reason": "ok"
     },
     "yukina-tw-yilan": {
@@ -2745,7 +2745,7 @@
       "version": "0.1.1",
       "fingerprint": "rules:v6:sha256:a1cfce45f21453b78ff4c486b14eecdc311303f40a0920a2412f12b50035c757",
       "basemap_complete": true,
-      "checked_at": "2026-09-09T12:02:21.078Z",
+      "checked_at": "2026-09-09T16:03:29.928Z",
       "reason": "ok"
     },
     "xiamen": {
@@ -2753,7 +2753,7 @@
       "version": "1.0.0",
       "fingerprint": "rules:v6:sha256:53ee5ccd7468c2a2b0b339c78b6bda00fa595ff870ebfc12fffea636b6a123d6",
       "basemap_complete": true,
-      "checked_at": "2026-09-09T12:02:21.073Z",
+      "checked_at": "2026-09-09T16:03:29.926Z",
       "reason": "ok"
     },
     "baghdad": {
@@ -2761,7 +2761,7 @@
       "version": "1.0.0",
       "fingerprint": "rules:v6:sha256:a17299dfd28d7e78f48a23d7c3a458f4a23ad57022cdae777415ed3e34e0d3a6",
       "basemap_complete": true,
-      "checked_at": "2026-09-09T12:02:21.066Z",
+      "checked_at": "2026-09-09T16:03:29.923Z",
       "reason": "ok"
     },
     "damascus": {
@@ -2769,7 +2769,7 @@
       "version": "1.0.1",
       "fingerprint": "rules:v6:sha256:4c97ffebd7698474efb5dca07fae6b84ec95845a5f6ef512744082cf682dde58",
       "basemap_complete": true,
-      "checked_at": "2026-09-09T12:02:21.067Z",
+      "checked_at": "2026-09-09T16:03:29.923Z",
       "reason": "ok"
     },
     "mashhad": {
@@ -2777,7 +2777,7 @@
       "version": "1.0.0",
       "fingerprint": "rules:v6:sha256:f395d0ecf7fb76e0e18219d2e4b07d2ae983538cfc41d38ef9490250e4f69c7c",
       "basemap_complete": true,
-      "checked_at": "2026-09-09T12:02:21.069Z",
+      "checked_at": "2026-09-09T16:03:29.924Z",
       "reason": "ok"
     },
     "riyadh": {
@@ -2785,7 +2785,7 @@
       "version": "1.0.0",
       "fingerprint": "rules:v6:sha256:a146990988db52c55b0e10301e5a0ca1ebc21b80c2b465c4069f387a4a534f7a",
       "basemap_complete": true,
-      "checked_at": "2026-09-09T12:02:21.071Z",
+      "checked_at": "2026-09-09T16:03:29.925Z",
       "reason": "ok"
     },
     "tehran": {
@@ -2793,7 +2793,7 @@
       "version": "1.0.0",
       "fingerprint": "rules:v6:sha256:2abb5833ee026ae027ffe8ffe3683ec0b7f15b53ba0f68ab1759585fe3f8f0c4",
       "basemap_complete": true,
-      "checked_at": "2026-09-09T12:02:21.072Z",
+      "checked_at": "2026-09-09T16:03:29.926Z",
       "reason": "ok"
     },
     "vienna": {
@@ -2801,7 +2801,7 @@
       "version": "v1.2.0",
       "fingerprint": "rules:v6:github:rmerr1/sb-vienna-map:v1.2.0:VIEN-v1.2.0.zip",
       "basemap_complete": true,
-      "checked_at": "2026-09-09T12:02:21.073Z",
+      "checked_at": "2026-09-09T16:03:29.926Z",
       "reason": "ok"
     },
     "abu-dhabi": {
@@ -2809,7 +2809,7 @@
       "version": "1.0.0",
       "fingerprint": "rules:v6:sha256:ec63424c4f63722fa5f4b20c53e759b5680d513b55b2ec1f22f5b3b4ea8ae941",
       "basemap_complete": true,
-      "checked_at": "2026-09-09T12:02:21.064Z",
+      "checked_at": "2026-09-09T16:03:29.922Z",
       "reason": "ok"
     },
     "aleppo": {
@@ -2817,7 +2817,7 @@
       "version": "1.0.0",
       "fingerprint": "rules:v6:sha256:2a8f0ae9a077854919389c7f14e0b23bc606994e2123c6a4b0f7aac02140a216",
       "basemap_complete": true,
-      "checked_at": "2026-09-09T12:02:21.065Z",
+      "checked_at": "2026-09-09T16:03:29.922Z",
       "reason": "ok"
     },
     "alexandria": {
@@ -2825,7 +2825,7 @@
       "version": "1.0.0",
       "fingerprint": "rules:v6:sha256:2813c11012e1941f4b7cabe6f074c4db4fa6173c280944cb0712cb2bb9ff7643",
       "basemap_complete": true,
-      "checked_at": "2026-09-09T12:02:21.065Z",
+      "checked_at": "2026-09-09T16:03:29.922Z",
       "reason": "ok"
     },
     "beirut": {
@@ -2833,7 +2833,7 @@
       "version": "1.0.0",
       "fingerprint": "rules:v6:sha256:4fbf3f51f0dd3662b081585c65a8c55e1a622b2dfb6db498206b41d0c3d2ca92",
       "basemap_complete": true,
-      "checked_at": "2026-09-09T12:02:21.066Z",
+      "checked_at": "2026-09-09T16:03:29.923Z",
       "reason": "ok"
     },
     "erbil": {
@@ -2841,7 +2841,7 @@
       "version": "1.0.0",
       "fingerprint": "rules:v6:sha256:4e4eb7f1c3f438e493305cad7d7f3284ca624c08fcdfba92f917402db1e85c62",
       "basemap_complete": true,
-      "checked_at": "2026-09-09T12:02:21.067Z",
+      "checked_at": "2026-09-09T16:03:29.923Z",
       "reason": "ok"
     },
     "jeddah-mecca": {
@@ -2849,7 +2849,7 @@
       "version": "1.0.0",
       "fingerprint": "rules:v6:sha256:907b94bb56759141cee19247bd1ff3844e21eada05cb0937c6a1a41e114a0229",
       "basemap_complete": true,
-      "checked_at": "2026-09-09T12:02:21.069Z",
+      "checked_at": "2026-09-09T16:03:29.924Z",
       "reason": "ok"
     },
     "kuwait-city": {
@@ -2857,7 +2857,7 @@
       "version": "1.0.0",
       "fingerprint": "rules:v6:sha256:a6ce9e8a67b037d5785178591aa430a21e53ff66eaa26b9b96ec0a242af5f886",
       "basemap_complete": true,
-      "checked_at": "2026-09-09T12:02:21.069Z",
+      "checked_at": "2026-09-09T16:03:29.924Z",
       "reason": "ok"
     },
     "mosul": {
@@ -2865,7 +2865,7 @@
       "version": "1.0.0",
       "fingerprint": "rules:v6:sha256:660e8c30339423d6b1088be9fc738ffce3a35e0144db4276dccf0c24710c98f1",
       "basemap_complete": true,
-      "checked_at": "2026-09-09T12:02:21.070Z",
+      "checked_at": "2026-09-09T16:03:29.925Z",
       "reason": "ok"
     },
     "muscat": {
@@ -2873,7 +2873,7 @@
       "version": "1.0.0",
       "fingerprint": "rules:v6:sha256:33a3f8f34b6fcfbe9e761495dbc160635b096aa56ca88c08ed8e4f715fbb8f4e",
       "basemap_complete": true,
-      "checked_at": "2026-09-09T12:02:21.070Z",
+      "checked_at": "2026-09-09T16:03:29.925Z",
       "reason": "ok"
     },
     "reunion": {
@@ -2881,7 +2881,7 @@
       "version": "1.0.0",
       "fingerprint": "rules:v6:sha256:d2d32b14d4a9e7debfbfad1fda654e48ff407ffdbe36a917e6f713c936163823",
       "basemap_complete": true,
-      "checked_at": "2026-09-09T12:02:21.071Z",
+      "checked_at": "2026-09-09T16:03:29.925Z",
       "reason": "ok"
     },
     "shiraz": {
@@ -2889,7 +2889,7 @@
       "version": "1.0.0",
       "fingerprint": "rules:v6:sha256:957b224e19411ded7c896089e4a0638d5ac06f6914c00cf1bdc112f9b88b4b07",
       "basemap_complete": true,
-      "checked_at": "2026-09-09T12:02:21.072Z",
+      "checked_at": "2026-09-09T16:03:29.925Z",
       "reason": "ok"
     },
     "amiens": {
@@ -2897,7 +2897,7 @@
       "version": "1.0.0",
       "fingerprint": "rules:v6:sha256:70cb9e5212fb417ddbedf3e4fcda2cf5166627a84fee43f3b985204d1af97989",
       "basemap_complete": true,
-      "checked_at": "2026-09-09T12:02:21.065Z",
+      "checked_at": "2026-09-09T16:03:29.922Z",
       "reason": "ok"
     },
     "angers": {
@@ -2905,7 +2905,7 @@
       "version": "1.0.0",
       "fingerprint": "rules:v6:sha256:58891bb99fb57e5112e654583e6a23d4af69a998177ba6ac0c39bfa6dd537f86",
       "basemap_complete": true,
-      "checked_at": "2026-09-09T12:02:21.065Z",
+      "checked_at": "2026-09-09T16:03:29.922Z",
       "reason": "ok"
     },
     "arc-mediterraneen": {
@@ -2913,7 +2913,7 @@
       "version": "1.0.0",
       "fingerprint": "rules:v6:sha256:d8b75092195dfa8df9ae35041ae7d9a76dc6b540eab403f7524a4a9ccd8b9535",
       "basemap_complete": true,
-      "checked_at": "2026-09-09T12:02:21.065Z",
+      "checked_at": "2026-09-09T16:03:29.922Z",
       "reason": "ok"
     },
     "besancon": {
@@ -2921,7 +2921,7 @@
       "version": "1.0.0",
       "fingerprint": "rules:v6:sha256:703eedee7c2c3118125ef25dcd818d532c9d8430ee598e43928a40cfc7f2b2ed",
       "basemap_complete": true,
-      "checked_at": "2026-09-09T12:02:21.066Z",
+      "checked_at": "2026-09-09T16:03:29.923Z",
       "reason": "ok"
     },
     "brest": {
@@ -2929,7 +2929,7 @@
       "version": "1.0.0",
       "fingerprint": "rules:v6:sha256:e643d52daf262a7fcc6fe07de7aeea4318343d7440c3b621c43dd5ff0061f0ad",
       "basemap_complete": true,
-      "checked_at": "2026-09-09T12:02:21.066Z",
+      "checked_at": "2026-09-09T16:03:29.923Z",
       "reason": "ok"
     },
     "caen": {
@@ -2937,7 +2937,7 @@
       "version": "1.0.0",
       "fingerprint": "rules:v6:sha256:3e6345e12fb646e0a4371b21663ef2c6c1055f0235c7b53eca7c2fd8fc02ff48",
       "basemap_complete": true,
-      "checked_at": "2026-09-09T12:02:21.067Z",
+      "checked_at": "2026-09-09T16:03:29.923Z",
       "reason": "ok"
     },
     "calais-dunkerque": {
@@ -2945,7 +2945,7 @@
       "version": "1.0.0",
       "fingerprint": "rules:v6:sha256:7a2e4bbfd1add7fb8895f094de0f5ee11e1d64efc8c7a3dd7bd50506b45993a2",
       "basemap_complete": true,
-      "checked_at": "2026-09-09T12:02:21.067Z",
+      "checked_at": "2026-09-09T16:03:29.923Z",
       "reason": "ok"
     },
     "corse": {
@@ -2953,7 +2953,7 @@
       "version": "1.0.0",
       "fingerprint": "rules:v6:sha256:47dbda0fcf5beb914c5e7fd94773a5da36fbd0d83671226550a96b182bb19a0c",
       "basemap_complete": true,
-      "checked_at": "2026-09-09T12:02:21.067Z",
+      "checked_at": "2026-09-09T16:03:29.923Z",
       "reason": "ok"
     },
     "dijon": {
@@ -2961,7 +2961,7 @@
       "version": "1.0.0",
       "fingerprint": "rules:v6:sha256:9a55254a28b0d2956fbd61ce11ae97884022f70d90a9f12a3db6eab163583533",
       "basemap_complete": true,
-      "checked_at": "2026-09-09T12:02:21.067Z",
+      "checked_at": "2026-09-09T16:03:29.923Z",
       "reason": "ok"
     },
     "la-rochelle": {
@@ -2969,7 +2969,7 @@
       "version": "1.0.0",
       "fingerprint": "rules:v6:sha256:89a0040105c3d59f1c0c962fef9b2c26df6d38a9b876b5039c731b8f672f56e4",
       "basemap_complete": true,
-      "checked_at": "2026-09-09T12:02:21.069Z",
+      "checked_at": "2026-09-09T16:03:29.924Z",
       "reason": "ok"
     },
     "le-havre": {
@@ -2977,7 +2977,7 @@
       "version": "1.0.0",
       "fingerprint": "rules:v6:sha256:e2d78f5bb1fb4eaeec643fd2c4b98c6e378d607c65e6d8c7a162d9299aeec4f5",
       "basemap_complete": true,
-      "checked_at": "2026-09-09T12:02:21.069Z",
+      "checked_at": "2026-09-09T16:03:29.924Z",
       "reason": "ok"
     },
     "le-mans": {
@@ -2985,7 +2985,7 @@
       "version": "1.0.0",
       "fingerprint": "rules:v6:sha256:650529d4d197a3ede3554267d6901ba1183ac75ff37f05ebdad3f35cf8864476",
       "basemap_complete": true,
-      "checked_at": "2026-09-09T12:02:21.069Z",
+      "checked_at": "2026-09-09T16:03:29.924Z",
       "reason": "ok"
     },
     "limoges": {
@@ -2993,7 +2993,7 @@
       "version": "1.0.0",
       "fingerprint": "rules:v6:sha256:a5ca60c464667cdb9cc89f9cef421a14dcd851b16d512dfbc2c4d589c3aca64d",
       "basemap_complete": true,
-      "checked_at": "2026-09-09T12:02:21.069Z",
+      "checked_at": "2026-09-09T16:03:29.924Z",
       "reason": "ok"
     },
     "martinique": {
@@ -3001,7 +3001,7 @@
       "version": "1.0.0",
       "fingerprint": "rules:v6:sha256:21eb9723a35b311b6e82a50bc0fe9dabc91daabfcda0441e73d7d7de7e879736",
       "basemap_complete": true,
-      "checked_at": "2026-09-09T12:02:21.069Z",
+      "checked_at": "2026-09-09T16:03:29.924Z",
       "reason": "ok"
     },
     "metz-nancy": {
@@ -3009,7 +3009,7 @@
       "version": "1.0.0",
       "fingerprint": "rules:v6:sha256:3e833c97cce5194385832de42b152df245e3565a9f78d88a7318887b51c508a9",
       "basemap_complete": true,
-      "checked_at": "2026-09-09T12:02:21.069Z",
+      "checked_at": "2026-09-09T16:03:29.924Z",
       "reason": "ok"
     },
     "orleans": {
@@ -3017,7 +3017,7 @@
       "version": "1.0.0",
       "fingerprint": "rules:v6:sha256:42102ef6542a5b967601d3b7b3ddb590574b1a5251d16f1b5f32305fb597bb92",
       "basemap_complete": true,
-      "checked_at": "2026-09-09T12:02:21.071Z",
+      "checked_at": "2026-09-09T16:03:29.925Z",
       "reason": "ok"
     },
     "pau": {
@@ -3025,7 +3025,7 @@
       "version": "1.0.0",
       "fingerprint": "rules:v6:sha256:1cad7a438b850c55c5758eece9038ec14e810ae0ba768c282baa1db4f9b062c3",
       "basemap_complete": true,
-      "checked_at": "2026-09-09T12:02:21.071Z",
+      "checked_at": "2026-09-09T16:03:29.925Z",
       "reason": "ok"
     },
     "reims": {
@@ -3033,7 +3033,7 @@
       "version": "1.0.0",
       "fingerprint": "rules:v6:sha256:803b34d2410785ae8f5bb99f6e3f32ac188ea0c7e6c10e575f329ac2ebd019dc",
       "basemap_complete": true,
-      "checked_at": "2026-09-09T12:02:21.071Z",
+      "checked_at": "2026-09-09T16:03:29.925Z",
       "reason": "ok"
     },
     "rouen": {
@@ -3041,7 +3041,7 @@
       "version": "1.0.0",
       "fingerprint": "rules:v6:sha256:a08ae8b0e6ed71c9f2a0a50f4160db8505a657f4c7646d8df63541000987e832",
       "basemap_complete": true,
-      "checked_at": "2026-09-09T12:02:21.072Z",
+      "checked_at": "2026-09-09T16:03:29.925Z",
       "reason": "ok"
     },
     "tours": {
@@ -3049,7 +3049,7 @@
       "version": "1.0.0",
       "fingerprint": "rules:v6:sha256:9e375652d37dc43fd5885b6df6090b2fe5a5c16a810f9a24c9501598c4112d81",
       "basemap_complete": true,
-      "checked_at": "2026-09-09T12:02:21.073Z",
+      "checked_at": "2026-09-09T16:03:29.926Z",
       "reason": "ok"
     },
     "troyes": {
@@ -3057,7 +3057,7 @@
       "version": "1.0.0",
       "fingerprint": "rules:v6:sha256:0e6532059ab2f04ccceb547c2e29c3e26b1cae856d98f7f2b1ab6a3c089b6c5c",
       "basemap_complete": true,
-      "checked_at": "2026-09-09T12:02:21.073Z",
+      "checked_at": "2026-09-09T16:03:29.926Z",
       "reason": "ok"
     },
     "eurodistrict-bale": {
@@ -3065,7 +3065,7 @@
       "version": "1.0.0",
       "fingerprint": "rules:v6:sha256:f026c70e8ea5ebe414faa8a94df09d40b4d151c4bc366a7674616ec0370a9463",
       "basemap_complete": true,
-      "checked_at": "2026-09-09T12:02:21.068Z",
+      "checked_at": "2026-09-09T16:03:29.923Z",
       "reason": "ok"
     },
     "grand-geneve": {
@@ -3073,7 +3073,7 @@
       "version": "1.0.0",
       "fingerprint": "rules:v6:sha256:89b25617cfd7184df2c774d310c30ab040d3f5e502133d64bf34b12ae5e33919",
       "basemap_complete": true,
-      "checked_at": "2026-09-09T12:02:21.068Z",
+      "checked_at": "2026-09-09T16:03:29.924Z",
       "reason": "ok"
     },
     "guadeloupe": {
@@ -3081,7 +3081,7 @@
       "version": "1.0.0",
       "fingerprint": "rules:v6:sha256:8d6022d8cb0b57b515255e7fa91db6e051ad20d31f7a53f21b84cd7b71d8f539",
       "basemap_complete": true,
-      "checked_at": "2026-09-09T12:02:21.068Z",
+      "checked_at": "2026-09-09T16:03:29.924Z",
       "reason": "ok"
     },
     "guyane": {
@@ -3089,7 +3089,7 @@
       "version": "1.0.0",
       "fingerprint": "rules:v6:sha256:8708bc9ac1a23a9f0f418deca3a2be69fd5d2ca42336eeb17dd31c0963ed0195",
       "basemap_complete": true,
-      "checked_at": "2026-09-09T12:02:21.068Z",
+      "checked_at": "2026-09-09T16:03:29.924Z",
       "reason": "ok"
     },
     "pays-basque": {
@@ -3097,7 +3097,7 @@
       "version": "1.0.0",
       "fingerprint": "rules:v6:sha256:82c6e2a96bd650bb65e41a8d48abe4893f0e0158cab8e1298a86618f96ccb02a",
       "basemap_complete": true,
-      "checked_at": "2026-09-09T12:02:21.071Z",
+      "checked_at": "2026-09-09T16:03:29.925Z",
       "reason": "ok"
     },
     "yukina-sk-bratislava": {
@@ -3105,7 +3105,7 @@
       "version": "0.1.1",
       "fingerprint": "rules:v6:sha256:ef5672ea12324021737d834d861e398b1144012063c479e805cc60211fad5ecc",
       "basemap_complete": true,
-      "checked_at": "2026-09-09T12:02:21.077Z",
+      "checked_at": "2026-09-09T16:03:29.928Z",
       "reason": "ok"
     },
     "yukina-sk-kosice-presov": {
@@ -3113,7 +3113,7 @@
       "version": "0.1.1",
       "fingerprint": "rules:v6:sha256:e6101b4a297d1df848ce13b7cc3e8b4d68b05e9368599746f79de6beb7106e54",
       "basemap_complete": true,
-      "checked_at": "2026-09-09T12:02:21.077Z",
+      "checked_at": "2026-09-09T16:03:29.928Z",
       "reason": "ok"
     },
     "yukina-sk-nitra": {
@@ -3121,7 +3121,7 @@
       "version": "0.1.1",
       "fingerprint": "rules:v6:sha256:f8e6af2c63838a2a38d69dd15d1ff82c788afe42ee8ab82228b09cb6c1a49e18",
       "basemap_complete": true,
-      "checked_at": "2026-09-09T12:02:21.077Z",
+      "checked_at": "2026-09-09T16:03:29.928Z",
       "reason": "ok"
     },
     "yukina-sk-poprad-spisska-nova-ves": {
@@ -3129,7 +3129,7 @@
       "version": "0.1.1",
       "fingerprint": "rules:v6:sha256:1223489c3838a9f8fa655d59e00ed56c80d564d876edb80557afd2a3de50e06c",
       "basemap_complete": true,
-      "checked_at": "2026-09-09T12:02:21.077Z",
+      "checked_at": "2026-09-09T16:03:29.928Z",
       "reason": "ok"
     },
     "yukina-sk-trencin": {
@@ -3137,7 +3137,7 @@
       "version": "0.1.1",
       "fingerprint": "rules:v6:sha256:e212810f969d8de974b04d469bfd07888c970ddf2f9412ef016a8a8adc2a718f",
       "basemap_complete": true,
-      "checked_at": "2026-09-09T12:02:21.077Z",
+      "checked_at": "2026-09-09T16:03:29.928Z",
       "reason": "ok"
     },
     "yukina-sk-zilina": {
@@ -3145,7 +3145,7 @@
       "version": "0.1.1",
       "fingerprint": "rules:v6:sha256:6f2e5eb83f982a0ee1331edea50b5584315f33e6c23afaadd84134c0c3f1a3bd",
       "basemap_complete": true,
-      "checked_at": "2026-09-09T12:02:21.077Z",
+      "checked_at": "2026-09-09T16:03:29.928Z",
       "reason": "ok"
     },
     "yukina-sk-banska-bystrica": {
@@ -3153,7 +3153,7 @@
       "version": "0.1.1",
       "fingerprint": "rules:v6:sha256:e0e9174f84d288d01cd4f3be30a6eb65a3729fb33a96e049b1f9787f5b7e6447",
       "basemap_complete": true,
-      "checked_at": "2026-09-09T12:02:21.077Z",
+      "checked_at": "2026-09-09T16:03:29.928Z",
       "reason": "ok"
     },
     "doha": {
@@ -3161,7 +3161,7 @@
       "version": "1.0.1",
       "fingerprint": "rules:v6:sha256:d3d800ed8579f81745a293c51b98cb7403c9176921ac8fcdf9f5e30391b9f3cd",
       "basemap_complete": true,
-      "checked_at": "2026-09-09T12:02:21.067Z",
+      "checked_at": "2026-09-09T16:03:29.923Z",
       "reason": "ok"
     },
     "aachen": {
@@ -3169,7 +3169,7 @@
       "version": "1.0.0",
       "fingerprint": "rules:v6:sha256:c224728affdf96ec755117f7d5b4a439fda3f89e82c330a198922e7510901db6",
       "basemap_complete": true,
-      "checked_at": "2026-09-09T12:02:21.064Z",
+      "checked_at": "2026-09-09T16:03:29.922Z",
       "reason": "ok"
     },
     "augsburg": {
@@ -3177,7 +3177,7 @@
       "version": "1.0.0",
       "fingerprint": "rules:v6:sha256:bfb7434fa6167a9210fab978854cb735336bf525e3b461c1534ffb30a6d466da",
       "basemap_complete": true,
-      "checked_at": "2026-09-09T12:02:21.066Z",
+      "checked_at": "2026-09-09T16:03:29.923Z",
       "reason": "ok"
     },
     "bielefeld": {
@@ -3185,7 +3185,7 @@
       "version": "1.0.0",
       "fingerprint": "rules:v6:sha256:3f89d34f6a94d6cb27f68214a0fe5a0a73b7e6b0e24610f5de81b061351b8d64",
       "basemap_complete": true,
-      "checked_at": "2026-09-09T12:02:21.066Z",
+      "checked_at": "2026-09-09T16:03:29.923Z",
       "reason": "ok"
     },
     "bonn-koeln": {
@@ -3193,7 +3193,7 @@
       "version": "1.0.0",
       "fingerprint": "rules:v6:sha256:21a0cd0a837026eeb1236a4e05ca8f3297c29dd2a731d323aa4a8fbd70a7c4a9",
       "basemap_complete": true,
-      "checked_at": "2026-09-09T12:02:21.066Z",
+      "checked_at": "2026-09-09T16:03:29.923Z",
       "reason": "ok"
     },
     "bremen": {
@@ -3201,7 +3201,7 @@
       "version": "1.0.0",
       "fingerprint": "rules:v6:sha256:b86194af57ad826302ee73cebe48d189b972ce3250be0847247047a8f22dcec0",
       "basemap_complete": true,
-      "checked_at": "2026-09-09T12:02:21.066Z",
+      "checked_at": "2026-09-09T16:03:29.923Z",
       "reason": "ok"
     },
     "chemnitz": {
@@ -3209,7 +3209,7 @@
       "version": "1.0.0",
       "fingerprint": "rules:v6:sha256:7dba248718cbb97b7d5e6e29e93d981f0300c2f20b0a4ca4b9eb9c62de1e8d23",
       "basemap_complete": true,
-      "checked_at": "2026-09-09T12:02:21.067Z",
+      "checked_at": "2026-09-09T16:03:29.923Z",
       "reason": "ok"
     },
     "dresden": {
@@ -3217,7 +3217,7 @@
       "version": "1.0.0",
       "fingerprint": "rules:v6:sha256:c72b3d8d13a8b9727373f3e8648359e01a3e4d753c946f791bc45fd1e94d607c",
       "basemap_complete": true,
-      "checked_at": "2026-09-09T12:02:21.067Z",
+      "checked_at": "2026-09-09T16:03:29.923Z",
       "reason": "ok"
     },
     "erfurt": {
@@ -3225,7 +3225,7 @@
       "version": "1.0.0",
       "fingerprint": "rules:v6:sha256:588223fecd6a130839d095dbe28ccafed45d173def1b103e927bc2ba267a65c0",
       "basemap_complete": true,
-      "checked_at": "2026-09-09T12:02:21.068Z",
+      "checked_at": "2026-09-09T16:03:29.923Z",
       "reason": "ok"
     },
     "freiburg": {
@@ -3233,7 +3233,7 @@
       "version": "1.0.0",
       "fingerprint": "rules:v6:sha256:48f7f5aaa3de7caf448915158530a521749381ae2004c238262e06496c865640",
       "basemap_complete": true,
-      "checked_at": "2026-09-09T12:02:21.068Z",
+      "checked_at": "2026-09-09T16:03:29.923Z",
       "reason": "ok"
     },
     "hamburg": {
@@ -3241,7 +3241,7 @@
       "version": "1.0.0",
       "fingerprint": "rules:v6:sha256:1e00933446454e3f0c0adc52246fe878610e8d3953f5ad0889843aa285e01901",
       "basemap_complete": true,
-      "checked_at": "2026-09-09T12:02:21.068Z",
+      "checked_at": "2026-09-09T16:03:29.924Z",
       "reason": "ok"
     },
     "hannover-braunschweig": {
@@ -3249,7 +3249,7 @@
       "version": "1.0.0",
       "fingerprint": "rules:v6:sha256:5822610f34fab7f571421d0db3a9b7620967233aa041f7999b24ed8583cd0154",
       "basemap_complete": true,
-      "checked_at": "2026-09-09T12:02:21.068Z",
+      "checked_at": "2026-09-09T16:03:29.924Z",
       "reason": "ok"
     },
     "kiel": {
@@ -3257,7 +3257,7 @@
       "version": "1.0.0",
       "fingerprint": "rules:v6:sha256:539ea49bcc858408cc3c0a87b8294fea7f7330f2ebbfebc06064430a7436f4a4",
       "basemap_complete": true,
-      "checked_at": "2026-09-09T12:02:21.069Z",
+      "checked_at": "2026-09-09T16:03:29.924Z",
       "reason": "ok"
     },
     "luebeck": {
@@ -3265,7 +3265,7 @@
       "version": "1.0.0",
       "fingerprint": "rules:v6:sha256:cb153053bea58c35e322224046bff387933bcbbf7015541cef474aa15c6f722f",
       "basemap_complete": true,
-      "checked_at": "2026-09-09T12:02:21.069Z",
+      "checked_at": "2026-09-09T16:03:29.924Z",
       "reason": "ok"
     },
     "magdeburg": {
@@ -3273,7 +3273,7 @@
       "version": "1.0.0",
       "fingerprint": "rules:v6:sha256:c68bef4725dcf561cdd19ed14822265dc6d1a283bea242efe50176ac150265e6",
       "basemap_complete": true,
-      "checked_at": "2026-09-09T12:02:21.069Z",
+      "checked_at": "2026-09-09T16:03:29.924Z",
       "reason": "ok"
     },
     "moenchengladbach": {
@@ -3281,7 +3281,7 @@
       "version": "1.0.0",
       "fingerprint": "rules:v6:sha256:6c106b42809fc7cc23250d5c8e1a7d641d5b9de1e8a6a4519cca0508068031b3",
       "basemap_complete": true,
-      "checked_at": "2026-09-09T12:02:21.070Z",
+      "checked_at": "2026-09-09T16:03:29.925Z",
       "reason": "ok"
     },
     "muenchen": {
@@ -3289,7 +3289,7 @@
       "version": "1.0.0",
       "fingerprint": "rules:v6:sha256:28659c6673f8254c392a3991e21b5e321e5d93f266d8bd5fabd25d74f4141160",
       "basemap_complete": true,
-      "checked_at": "2026-09-09T12:02:21.070Z",
+      "checked_at": "2026-09-09T16:03:29.925Z",
       "reason": "ok"
     },
     "nuernberg": {
@@ -3297,7 +3297,7 @@
       "version": "1.0.0",
       "fingerprint": "rules:v6:sha256:e5146f14ed7cbb7708f32df191b344d65b1f7b8d4b36c2077f93f035d78afff9",
       "basemap_complete": true,
-      "checked_at": "2026-09-09T12:02:21.070Z",
+      "checked_at": "2026-09-09T16:03:29.925Z",
       "reason": "ok"
     },
     "rhein-main-neckar": {
@@ -3305,7 +3305,7 @@
       "version": "1.0.0",
       "fingerprint": "rules:v6:sha256:17692b61bc8a2ca73c8aa5afc41feb281efc41fdc9e02d29d1b9474f3924c203",
       "basemap_complete": true,
-      "checked_at": "2026-09-09T12:02:21.071Z",
+      "checked_at": "2026-09-09T16:03:29.925Z",
       "reason": "ok"
     },
     "ruhrgebiet": {
@@ -3313,7 +3313,7 @@
       "version": "1.0.0",
       "fingerprint": "rules:v6:sha256:27615f4a298eac416892d1b67c97db91bbe471247fd01c730808798fdb560776",
       "basemap_complete": true,
-      "checked_at": "2026-09-09T12:02:21.072Z",
+      "checked_at": "2026-09-09T16:03:29.925Z",
       "reason": "ok"
     },
     "stuttgart": {
@@ -3321,7 +3321,7 @@
       "version": "1.0.0",
       "fingerprint": "rules:v6:sha256:06841a232f6590acccecca9f03476bb5275de792ab6f870cf65d8a194f3361a3",
       "basemap_complete": true,
-      "checked_at": "2026-09-09T12:02:21.072Z",
+      "checked_at": "2026-09-09T16:03:29.926Z",
       "reason": "ok"
     },
     "yukina-ua-cherkasy": {
@@ -3329,7 +3329,7 @@
       "version": "0.1.0",
       "fingerprint": "rules:v6:sha256:183f67202b5e371e6305f2e3fae369f6af2c6d35aab0bd8e1620bf0dce786613",
       "basemap_complete": true,
-      "checked_at": "2026-09-09T12:02:21.078Z",
+      "checked_at": "2026-09-09T16:03:29.928Z",
       "reason": "ok"
     },
     "yukina-ua-chernihiv": {
@@ -3337,7 +3337,7 @@
       "version": "0.1.0",
       "fingerprint": "rules:v6:sha256:482b24eeb551862f0ad43d9d7451e929ce6a8ce9a89d3f39ff6b7baf572cdc95",
       "basemap_complete": true,
-      "checked_at": "2026-09-09T12:02:21.078Z",
+      "checked_at": "2026-09-09T16:03:29.928Z",
       "reason": "ok"
     },
     "yukina-ua-chernivtsi": {
@@ -3345,7 +3345,7 @@
       "version": "0.1.0",
       "fingerprint": "rules:v6:sha256:71549c5ac1f9493bcae34c6defd6a8feb1e0c8e044ce7108d6c1118c4293764e",
       "basemap_complete": true,
-      "checked_at": "2026-09-09T12:02:21.078Z",
+      "checked_at": "2026-09-09T16:03:29.928Z",
       "reason": "ok"
     },
     "yukina-ua-ivano-frankivsk": {
@@ -3353,7 +3353,7 @@
       "version": "0.1.0",
       "fingerprint": "rules:v6:sha256:24bb74ee3855aae1208b7d0f7124d4fc23e04d9670653c09fd0381fbb87f5702",
       "basemap_complete": true,
-      "checked_at": "2026-09-09T12:02:21.078Z",
+      "checked_at": "2026-09-09T16:03:29.928Z",
       "reason": "ok"
     },
     "yukina-ua-khmelnytskyi": {
@@ -3361,7 +3361,7 @@
       "version": "0.1.0",
       "fingerprint": "rules:v6:sha256:7443761d3831e61eeeaa36b5d84faac2e92606e264fe06f2b927b77390dacb36",
       "basemap_complete": true,
-      "checked_at": "2026-09-09T12:02:21.078Z",
+      "checked_at": "2026-09-09T16:03:29.928Z",
       "reason": "ok"
     },
     "yukina-ua-kremenchuk": {
@@ -3369,7 +3369,7 @@
       "version": "0.1.0",
       "fingerprint": "rules:v6:sha256:6db4e36895c067d3c6667aaacf9b135a35642ffa6ff274a17cc8b6ab6918298b",
       "basemap_complete": true,
-      "checked_at": "2026-09-09T12:02:21.078Z",
+      "checked_at": "2026-09-09T16:03:29.928Z",
       "reason": "ok"
     },
     "yukina-ua-kropyvnytskyi": {
@@ -3377,7 +3377,7 @@
       "version": "0.1.0",
       "fingerprint": "rules:v6:sha256:bcf5836279683296f82ef81e33f57b2845dfe225d537c787c5f3bf7646a7ffad",
       "basemap_complete": true,
-      "checked_at": "2026-09-09T12:02:21.078Z",
+      "checked_at": "2026-09-09T16:03:29.928Z",
       "reason": "ok"
     },
     "yukina-ua-mykolaiv-kherson": {
@@ -3385,7 +3385,7 @@
       "version": "0.1.0",
       "fingerprint": "rules:v6:sha256:86a2e6f308f1f593cc3701f0a526515affe3fcd07e7e8dbf7bf31db2ce938b3e",
       "basemap_complete": true,
-      "checked_at": "2026-09-09T12:02:21.078Z",
+      "checked_at": "2026-09-09T16:03:29.929Z",
       "reason": "ok"
     },
     "yukina-ua-poltava": {
@@ -3393,7 +3393,7 @@
       "version": "0.1.0",
       "fingerprint": "rules:v6:sha256:bde0e859cee65586bba02039601c3bb3862fb8ed52d21e3e8c984f41d8c120c5",
       "basemap_complete": true,
-      "checked_at": "2026-09-09T12:02:21.078Z",
+      "checked_at": "2026-09-09T16:03:29.929Z",
       "reason": "ok"
     },
     "yukina-ua-rivne-lutsk": {
@@ -3401,7 +3401,7 @@
       "version": "0.1.0",
       "fingerprint": "rules:v6:sha256:e462e0a2601321058c10ad7685384c5cd6c1bd7ec7064b7bed9685f0eb67c5f3",
       "basemap_complete": true,
-      "checked_at": "2026-09-09T12:02:21.078Z",
+      "checked_at": "2026-09-09T16:03:29.929Z",
       "reason": "ok"
     },
     "yukina-ua-sumy": {
@@ -3409,7 +3409,7 @@
       "version": "0.1.0",
       "fingerprint": "rules:v6:sha256:74a9df2c7296fedb4690e9b831375f678153c85309c63c66340e1ba12f58e796",
       "basemap_complete": true,
-      "checked_at": "2026-09-09T12:02:21.078Z",
+      "checked_at": "2026-09-09T16:03:29.929Z",
       "reason": "ok"
     },
     "yukina-ua-ternopil": {
@@ -3417,7 +3417,7 @@
       "version": "0.1.0",
       "fingerprint": "rules:v6:sha256:4f1ce23b92ab5590cb922150e0b3b43444b93b9b8d16873f4dc6d20c866c03fc",
       "basemap_complete": true,
-      "checked_at": "2026-09-09T12:02:21.078Z",
+      "checked_at": "2026-09-09T16:03:29.929Z",
       "reason": "ok"
     },
     "yukina-ua-uzhhorod-mukachevo": {
@@ -3425,7 +3425,7 @@
       "version": "0.1.0",
       "fingerprint": "rules:v6:sha256:f3a64af496b6852826fd0d599c0d8547fbf28a54fc7eb2731160364e362dc919",
       "basemap_complete": true,
-      "checked_at": "2026-09-09T12:02:21.078Z",
+      "checked_at": "2026-09-09T16:03:29.929Z",
       "reason": "ok"
     },
     "yukina-ua-vinnytsia": {
@@ -3433,7 +3433,7 @@
       "version": "0.1.0",
       "fingerprint": "rules:v6:sha256:cd4b68d024b58fab74261dd0c07180b1d16bf127b92a5d41cdd971805d1bfc15",
       "basemap_complete": true,
-      "checked_at": "2026-09-09T12:02:21.078Z",
+      "checked_at": "2026-09-09T16:03:29.929Z",
       "reason": "ok"
     },
     "yukina-ua-zhytomyr": {
@@ -3441,7 +3441,7 @@
       "version": "0.1.0",
       "fingerprint": "rules:v6:sha256:89a57b2ce642813bbc64d7725d01518dd9ae257bb7ce46ee87d6ac30770f7959",
       "basemap_complete": true,
-      "checked_at": "2026-09-09T12:02:21.078Z",
+      "checked_at": "2026-09-09T16:03:29.929Z",
       "reason": "ok"
     },
     "catt-chile-central": {
@@ -3449,7 +3449,7 @@
       "version": "v1.0.0",
       "fingerprint": "rules:v6:github:holapapie-png/subwaybuilder-chile-central:v1.0.0:CLC.zip",
       "basemap_complete": true,
-      "checked_at": "2026-09-09T12:02:21.067Z",
+      "checked_at": "2026-09-09T16:03:29.923Z",
       "reason": "ok"
     },
     "catt-gran-santiago": {
@@ -3457,7 +3457,7 @@
       "version": "v1.0.0",
       "fingerprint": "rules:v6:github:holapapie-png/subwaybuilder-gran-santiago:v1.0.0:GSC.zip",
       "basemap_complete": true,
-      "checked_at": "2026-09-09T12:02:21.067Z",
+      "checked_at": "2026-09-09T16:03:29.923Z",
       "reason": "ok"
     }
   }
