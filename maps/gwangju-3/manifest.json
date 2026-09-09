@@ -150,5 +150,10 @@
   "data_quality": {
     "tier": "unknown",
     "rubric_version": 1
+  },
+  "deprecation": {
+    "since": "2026-09-09T04:11:47.089Z",
+    "by_github_id": 19807509,
+    "reason": "Superseded by the author's current-generation Korean maps; these versions will not receive further updates. Deprecated by the maintainer at the author's request."
   }
 }
