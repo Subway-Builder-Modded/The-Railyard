@@ -20,9 +20,9 @@
     "https://www.sii.cl/estadisticas/region/PUB_Reg_Com.xlsx"
   ],
   "provenance": {
-    "method": "self-reported",
+    "method": "reviewed",
     "submitted_by": "holapapie-png",
-    "reviewed_by": null,
-    "date": "2026-09-07"
+    "reviewed_by": "ahkimn",
+    "date": "2026-09-09"
   }
 }
