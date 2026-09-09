@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
   "zone_tag": "436c0657e9f4ae2256e5ffb96122273a",
-  "generated_at": "2026-09-09T18:01:14.685Z",
+  "generated_at": "2026-09-09T18:50:28.317Z",
   "valid_paths": [
     "/",
     "/404.html",
@@ -884,6 +884,7 @@
     "/registry/maps/beijing/versions/1.1.0",
     "/registry/maps/beirut",
     "/registry/maps/beirut/gallery",
+    "/registry/maps/beirut/versions/1.0.0",
     "/registry/maps/bergen-stavanger-no",
     "/registry/maps/bergen-stavanger-no/versions",
     "/registry/maps/berlin-val",
@@ -1138,6 +1139,7 @@
     "/registry/maps/lima/versions",
     "/registry/maps/lima/versions/1.0.0",
     "/registry/maps/lima/versions/1.1.0",
+    "/registry/maps/limoges/versions/1.0.0",
     "/registry/maps/los-angeles-county",
     "/registry/maps/louisville",
     "/registry/maps/lyon",
@@ -1153,6 +1155,7 @@
     "/registry/maps/martinique/versions",
     "/registry/maps/mashhad",
     "/registry/maps/memphis",
+    "/registry/maps/metz-nancy",
     "/registry/maps/metz-nancy/versions",
     "/registry/maps/mexicali",
     "/registry/maps/mexicali/versions/1.0.0",
@@ -1635,6 +1638,7 @@
     "/registry/maps/yukina-lt-kaunas/versions/0.2.0",
     "/registry/maps/yukina-lt-klaipeda",
     "/registry/maps/yukina-lt-klaipeda/versions/0.1.0",
+    "/registry/maps/yukina-lt-klaipeda/versions/0.2.1",
     "/registry/maps/yukina-lt-panevezys",
     "/registry/maps/yukina-lt-panevezys/versions",
     "/registry/maps/yukina-lt-panevezys/versions/0.1.0",
@@ -1647,6 +1651,7 @@
     "/registry/maps/yukina-lt-siauliai/versions/0.2.1",
     "/registry/maps/yukina-lt-vilnius",
     "/registry/maps/yukina-lt-vilnius/versions/0.1.0",
+    "/registry/maps/yukina-lt-vilnius/versions/0.2.0",
     "/registry/maps/yukina-lv-daugavpils",
     "/registry/maps/yukina-lv-daugavpils/versions",
     "/registry/maps/yukina-lv-daugavpils/versions/0.1.0",
@@ -2091,6 +2096,7 @@
     "/registry/mods/pause-on-start/versions",
     "/registry/mods/pause-on-start/versions/1.0.0",
     "/registry/mods/penguin-approved-rolling-stock",
+    "/registry/mods/penguin-approved-rolling-stock/versions/v1.2.0",
     "/registry/mods/prospector-ghebeek",
     "/registry/mods/resizable-ui",
     "/registry/mods/satellite-overlay",
@@ -2228,8 +2234,8 @@
     "latest_hour": "2026-09-09T18:00:00.000Z",
     "total_days": 146,
     "total_hours": 2480,
-    "latest_day_visits": 109,
-    "latest_hour_visits": 0
+    "latest_day_visits": 168,
+    "latest_hour_visits": 59
   },
   "time_series": {
     "by_day": [
@@ -2815,7 +2821,7 @@
       },
       {
         "date": "2026-09-09",
-        "visits": 109
+        "visits": 168
       }
     ],
     "by_hour": [
@@ -12737,7 +12743,7 @@
       },
       {
         "hour": "2026-09-09T18:00:00.000Z",
-        "visits": 0
+        "visits": 59
       }
     ]
   },
@@ -34561,88 +34567,111 @@
       }
     },
     "2026-09-09": {
-      "captured_at": "2026-09-09T18:01:12.486Z",
+      "captured_at": "2026-09-09T18:50:25.945Z",
       "window_start": "2026-09-09T00:00:00.000Z",
       "window_end": "2026-09-09T19:00:00.000Z",
       "totals": {
-        "visits": 109
+        "visits": 168
       },
       "pages": {
-        "/": 63,
+        "/": 97,
         "/credits": 1,
-        "/railyard": 12,
+        "/railyard": 19,
         "/railyard/docs/v0.2/troubleshooting-railyard": 1,
         "/registry/authors/rslurry/subwaybuilder-maps": 1,
         "/registry/authors/subway-builder-modded-admin": 1,
         "/registry/maps": 1,
+        "/registry/maps/abu-dhabi/versions": 1,
         "/registry/maps/au-melbourne": 1,
+        "/registry/maps/beirut/versions/1.0.0": 1,
         "/registry/maps/bonn-koeln": 1,
         "/registry/maps/bucharest-medium": 1,
         "/registry/maps/charleston-huntington-wv/versions": 1,
+        "/registry/maps/glasgow-edinburgh": 1,
+        "/registry/maps/guyane": 1,
         "/registry/maps/jeju-4/versions/0.1.1": 1,
         "/registry/maps/jelegend-tokyo": 1,
         "/registry/maps/jelegend-tokyo/versions/v0.4.0": 1,
+        "/registry/maps/limoges/versions/1.0.0": 1,
+        "/registry/maps/metz-nancy": 1,
+        "/registry/maps/mfn-lasvegas/versions/1.1.0": 1,
         "/registry/maps/rotterdam-the-hague": 1,
+        "/registry/maps/saltillo": 1,
+        "/registry/maps/south-florida/versions/v1.1.0": 1,
+        "/registry/maps/trondheim-val": 1,
         "/registry/maps/vancouver": 2,
         "/registry/maps/vienna": 2,
         "/registry/maps/yukina-cz-liberec-jablonec/versions/0.2.0": 1,
+        "/registry/maps/yukina-cz-praha/versions/0.4.0": 1,
         "/registry/maps/yukina-hachinohe": 1,
+        "/registry/maps/yukina-lt-klaipeda/versions/0.2.1": 1,
+        "/registry/maps/yukina-lt-vilnius/versions/0.2.0": 1,
         "/registry/maps/yukina-maebashi": 1,
         "/registry/maps/yukina-mito-hitachi/versions/0.1.0": 1,
         "/registry/maps/yukina-nagoya": 1,
         "/registry/maps/yukina-nagoya/versions/0.2.3": 2,
+        "/registry/maps/yukina-shizuoka-hamamatsu": 1,
         "/registry/maps/yukina-tw-chiayi/versions/0.2.1": 1,
         "/registry/mods": 2,
+        "/registry/mods/induced-demand/versions/v1.2.0": 1,
         "/registry/mods/lrt-trains/versions/v1.0.1": 1,
+        "/registry/mods/penguin-approved-rolling-stock/versions/v1.2.0": 1,
         "/registry/mods/subwaybuilder-regions": 1,
-        "/registry/mods/transit-overlay": 1,
+        "/registry/mods/transit-overlay": 2,
         "/registry/mods/valdotoriums-trains": 2,
         "/template-mod": 1,
+        "/terms-of-service": 1,
         "/website/updates": 1
       },
       "countries": {
         "AU": 1,
         "BA": 3,
         "BE": 1,
+        "CA": 1,
         "CH": 2,
-        "CN": 1,
-        "DE": 7,
-        "ES": 1,
+        "CN": 3,
+        "DE": 9,
+        "ES": 3,
         "FI": 1,
+        "GB": 5,
         "JP": 1,
+        "LV": 2,
         "MY": 1,
         "NL": 1,
         "NO": 1,
+        "PL": 1,
         "PT": 1,
+        "RU": 1,
         "SE": 5,
-        "SG": 4,
-        "US": 77,
+        "SG": 7,
+        "US": 117,
         "VN": 1
       },
       "browsers": {
-        "BingBot": 2,
-        "Chrome": 19,
+        "BingBot": 3,
+        "Chrome": 25,
         "ChromeDerivative": 1,
         "ChromeMobile": 5,
         "Edge": 2,
         "Firefox": 2,
-        "GoogleBot": 14,
-        "MobileSafari": 4,
+        "GoogleBot": 28,
+        "MobileSafari": 5,
+        "Opera": 1,
         "Safari": 3,
         "TwitterBot": 1,
-        "Unknown": 56
+        "Unknown": 92
       },
       "operating_systems": {
-        "Android": 19,
+        "Android": 33,
         "Linux": 1,
-        "MacOSX": 5,
-        "Unknown": 59,
-        "Windows": 21,
-        "iOS": 4
+        "MacOSX": 6,
+        "Unknown": 96,
+        "Windows": 27,
+        "iOS": 5
       },
       "devices": {
-        "desktop": 86,
-        "mobile": 23
+        "desktop": 129,
+        "mobile": 39
       }
     }
   }
