@@ -1,0 +1,31 @@
+{
+  "schema_version": 1,
+  "id": "mumbai",
+  "answers": {
+    "workplace_count": "physical_measured",
+    "workplace_granularity": "adm3",
+    "workplace_resolution": "ml_hybrid_footprints",
+    "workplace_intensity": "fine_types_generic",
+    "resident_count": "total_population",
+    "resident_granularity": "mesh_250",
+    "resident_resolution": "admin_polygon",
+    "resident_intensity": "uniform",
+    "od_metric": "structured_marginals",
+    "od_granularity": "adm1"
+  },
+  "notes": "Employment demand uses SHRUG's 2013 Economic Census city-wide workplace total for Mumbai, redistributed using real 2011 Census worker counts. Mumbai's worker counts are published at 97 fine-ward codes, but the only available public ward-boundary file is the coarser 24-ward BMC administrative map, so the fine-ward counts are aggregated up to admin wards via a public crosswalk table (the only non-government source used anywhere in this project's ward-level work) before being used as weights. All 97 fine-ward codes and all 24 admin wards matched cleanly, with 0 left unmatched. (The same lat/lon coordinate-order bug found in Kolkata's boundary file was also present here and fixed the same way.) Jobs placed within wards via OSM building footprints by type; population and commute data follow the standard project pipeline.",
+  "sources": [
+    "https://hub.worldpop.org/geodata/summary?id=41746",
+    "https://www.devdatalab.org/shrug",
+    "https://shrug-assets-ddl.s3.amazonaws.com/static/main/assets/other/shrug-codebook.pdf",
+    "https://censusindia.gov.in/nada/index.php/catalog/13954",
+    "https://censusindia.gov.in/census.website/data/census-tables",
+    "https://download.geofabrik.de/asia/india.html"
+  ],
+  "provenance": {
+    "method": "self-reported",
+    "submitted_by": "ryandicicco",
+    "reviewed_by": null,
+    "date": "2026-09-04"
+  }
+}

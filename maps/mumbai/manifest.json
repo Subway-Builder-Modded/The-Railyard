@@ -1,0 +1,56 @@
+{
+  "schema_version": 1,
+  "id": "mumbai",
+  "name": "Mumbai",
+  "author": "ryandicicco",
+  "github_id": 215120742,
+  "description": "<h1>Mumbai</h1>\nHighly-detailed map of India's financial capital and the City of Dreams, packed onto a narrow peninsula between the Arabian Sea and Thane Creek. Coverage spans the current Mumbai Metro network, from Colaba's southern tip through the western suburbs to Dahisar, plus Thane, Kalyan, and Navi Mumbai across the harbor.\n<h2>Coverage</h2>\n<table style=\"width: auto\">\n<tr><td><strong>Bounding box</strong></td><td>72.76, 18.87, 73.2, 19.45</td></tr>\n<tr><td><strong>Bounding Box Area</strong></td><td>2980 km²</td></tr>\n</table>\n\n<h2>Population Summary</h2>\n<table style=\"width: auto\">\n<tr><td><strong>Total Modeled Demand</strong></td><td align=\"right\">4,274,631</td></tr>\n<tr><td><strong>Modeled Normal Demand</strong></td><td align=\"right\">4,111,281</td></tr>\n<tr><td><strong>Modeled Special Demand</strong></td><td align=\"right\">163,350</td></tr>\n</table>\n\n<h2>Map Statistics</h2>\n<table style=\"width: auto\">\n<tr><td><strong>Demand Points</strong></td><td align=\"right\">8,012</td></tr>\n<tr><td><strong>Populations</strong></td><td align=\"right\">261,757</td></tr>\n<tr><td><strong>Median Point Size</strong></td><td align=\"right\">576</td></tr>\n<tr><td><strong>Mean Point Size</strong></td><td align=\"right\">1,067.1</td></tr>\n<tr><td><strong>Median Population Size</strong></td><td align=\"right\">5</td></tr>\n<tr><td><strong>Mean Population Size</strong></td><td align=\"right\">16.3</td></tr>\n<tr><td><strong>Median Commute Distance (km)</strong></td><td align=\"right\">32.8</td></tr>\n<tr><td><strong>Mean Commute Distance (km)</strong></td><td align=\"right\">33.47</td></tr>\n<tr><td><strong>Median Commute Time (min)</strong></td><td align=\"right\">30.9</td></tr>\n<tr><td><strong>Mean Commute Time (min)</strong></td><td align=\"right\">31.6</td></tr>\n</table>\n\n<h2>Special Demand</h2>\n<details>\n<summary>Airports — 150,100</summary>\n\n<table style=\"width: auto\">\n<tr><th align=\"left\">Name</th><th align=\"right\">Modeled Demand</th></tr>\n<tr><td align=\"left\">&nbsp;&nbsp;Chhatrapati Shivaji Maharaj International Airport&nbsp;&nbsp;</td><td align=\"right\">&nbsp;&nbsp;150,100&nbsp;&nbsp;</td></tr>\n</table>\n\n</details>\n\n<details>\n<summary>Universities — 13,250</summary>\n\n<table style=\"width: auto\">\n<tr><th align=\"left\">Name</th><th align=\"right\">Modeled Demand</th></tr>\n<tr><td align=\"left\">&nbsp;&nbsp;Indian Institute of Technology Bombay&nbsp;&nbsp;</td><td align=\"right\">&nbsp;&nbsp;13,250&nbsp;&nbsp;</td></tr>\n</table>\n\n</details>\n<br>\n\n<h2>Additional Features</h2>\n<ul>\n<li><strong>Building Collision</strong>: A buildings index is included, providing in-game collision geometry for all non-filtered buildings. Buildings have foundations ranging from -10 m to -80 m, calculated based on the building's height and footprint; the in-game foundations map layer visualizes these.</li>\n<li><strong>Water Depths</strong>: A water depth index is included, preventing tracks from being placed within the water.  GEBCO bathymetric data are used where available, and a flat -5 m depth is assumed everywhere else; the in-game ocean foundations map layer visualizes these.</li>\n<li><strong>Place Labels</strong>: The map includes city, suburb, and neighborhood labels extracted from selected OSM place tags.</li>\n</ul>\n<h2>Methodology</h2>\n<ul>\n<p>Population: WorldPop 100m gridded raster.</p>\n<p>Employment: OSM landuse, scaled to SHRUG/Economic Census (2013) totals.</p>\n<p>Base commute pairs: doubly-constrained gravity model, decay exponent calibrated against Census 2011 Table B-28 distance-band data for Maharashtra.</p>\n<p>Special demand: Chhatrapati Shivaji Maharaj International Airport (capacity from CY2024 annual passenger throughput) and IIT Bombay, using its own officially reported enrollment.</p>\n<p>Consolidation: nearby low-volume commute flows spatially merged within a tiered distance threshold to keep total population count performant in-game, while preserving the variety of distinct commute destinations per origin point.</p>\n<p>Routing and consolidation tooling: <a href=\"https://github.com/Subway-Builder-Modded/depot\">Depot</a>.</p>\n</ul>\n<h2>Data Sources</h2>\n<ul>\n<p><a href=\"https://hub.worldpop.org/\">WorldPop</a></p>\n<p><a href=\"https://www.devdatalab.org/shrug\">SHRUG</a></p>\n<p><a href=\"https://censusindia.gov.in/nada/index.php/catalog/13954\">Census of India 2011, Table B-28</a></p>\n<p><a href=\"https://www.openstreetmap.org/\">OpenStreetMap</a> / <a href=\"https://overturemaps.org/\">Overture Maps</a>\n</p>\n</ul>\n<h2>License</h2>\n<p>This map data is released under the <a href=\"https://www.gnu.org/licenses/gpl-3.0.html\">GNU General Public License v3.0</a>.</p>\n<h2>Credits</h2>\n© OpenMapTiles © OpenStreetMap contributors\n<p>Map authored by rdicicco</p>",
+  "tags": [
+    "south-asia",
+    "airports",
+    "universities"
+  ],
+  "gallery": [
+    "gallery/screenshot1.webp",
+    "gallery/screenshot2.webp",
+    "gallery/screenshot3.webp"
+  ],
+  "is_test": false,
+  "source": "https://github.com/ryandicicco/Subway-Builder-Maps",
+  "update": {
+    "type": "custom",
+    "url": "https://raw.githubusercontent.com/ryandicicco/Subway-Builder-Maps/main/releases/BOM.json"
+  },
+  "city_code": "BOM",
+  "country": "IN",
+  "population": 4274631,
+  "residents_total": 4274631,
+  "points_count": 8012,
+  "population_count": 261757,
+  "initial_view_state": {
+    "latitude": 19.16,
+    "longitude": 72.98,
+    "zoom": 12,
+    "bearing": 0
+  },
+  "data_source": "WorldPop, SHRUG, Census 2011 B-28, OSM",
+  "source_quality": "low-quality",
+  "level_of_detail": "low-detail",
+  "data_quality": {
+    "tier": "unknown",
+    "rubric_version": 1
+  },
+  "location": "south-asia",
+  "special_demand": [
+    "airports",
+    "universities"
+  ],
+  "file_sizes": {},
+  "included_cities": [
+    "Colaba",
+    "Dahisar",
+    "Thane",
+    "Kalyan",
+    "Navi Mumbai"
+  ]
+}
