@@ -1,0 +1,55 @@
+{
+  "schema_version": 1,
+  "id": "chennai",
+  "name": "Chennai",
+  "author": "ryandicicco",
+  "github_id": 215120742,
+  "description": "<h1>Chennai</h1>\nHighly-detailed map of India's historic \"Gateway to South India\" and modern auto-manufacturing hub, \"the Detroit of India,\" spread along the flat Coromandel Coast on the Bay of Bengal, its OMR IT corridor and colonial-era George Town core threaded together by Chennai Metro and the Chennai Suburban Railway. Coverage stretches from Madhavaram in the north, west through Poonamallee, and south through Sholinganallur and Chengalpattu, the reach of the city's operating and under-construction rail lines.\n<h2>Coverage</h2>\n<table style=\"width: auto\">\n<tr><td><strong>Bounding box</strong></td><td>79.9, 12.6, 80.35, 13.35</td></tr>\n<tr><td><strong>Bounding Box Area</strong></td><td>4066 km²</td></tr>\n</table>\n\n<h2>Population Summary</h2>\n<table style=\"width: auto\">\n<tr><td><strong>Total Modeled Demand</strong></td><td align=\"right\">1,655,324</td></tr>\n<tr><td><strong>Modeled Normal Demand</strong></td><td align=\"right\">1,572,924</td></tr>\n<tr><td><strong>Modeled Special Demand</strong></td><td align=\"right\">82,400</td></tr>\n</table>\n\n<h2>Map Statistics</h2>\n<table style=\"width: auto\">\n<tr><td><strong>Demand Points</strong></td><td align=\"right\">5,789</td></tr>\n<tr><td><strong>Populations</strong></td><td align=\"right\">196,909</td></tr>\n<tr><td><strong>Median Point Size</strong></td><td align=\"right\">281</td></tr>\n<tr><td><strong>Mean Point Size</strong></td><td align=\"right\">571.9</td></tr>\n<tr><td><strong>Median Population Size</strong></td><td align=\"right\">4</td></tr>\n<tr><td><strong>Mean Population Size</strong></td><td align=\"right\">8.4</td></tr>\n<tr><td><strong>Median Commute Distance (km)</strong></td><td align=\"right\">30.11</td></tr>\n<tr><td><strong>Mean Commute Distance (km)</strong></td><td align=\"right\">31.44</td></tr>\n<tr><td><strong>Median Commute Time (min)</strong></td><td align=\"right\">30.9</td></tr>\n<tr><td><strong>Mean Commute Time (min)</strong></td><td align=\"right\">31.7</td></tr>\n</table>\n\n<h2>Special Demand</h2>\n<details>\n<summary>Airports — 63,000</summary>\n\n<table style=\"width: auto\">\n<tr><th align=\"left\">Name</th><th align=\"right\">Modeled Demand</th></tr>\n<tr><td align=\"left\">&nbsp;&nbsp;Chennai International Airport&nbsp;&nbsp;</td><td align=\"right\">&nbsp;&nbsp;63,000&nbsp;&nbsp;</td></tr>\n</table>\n\n</details>\n\n<details>\n<summary>Universities — 19,400</summary>\n\n<table style=\"width: auto\">\n<tr><th align=\"left\">Name</th><th align=\"right\">Modeled Demand</th></tr>\n<tr><td align=\"left\">&nbsp;&nbsp;Anna University&nbsp;&nbsp;</td><td align=\"right\">&nbsp;&nbsp;11,400&nbsp;&nbsp;</td></tr>\n<tr><td align=\"left\">&nbsp;&nbsp;IIT Madras&nbsp;&nbsp;</td><td align=\"right\">&nbsp;&nbsp;8,000&nbsp;&nbsp;</td></tr>\n</table>\n\n</details>\n<br>\n\n<h2>Additional Features</h2>\n<ul>\n<li><strong>Building Collision</strong>: A buildings index is included, providing in-game collision geometry for all non-filtered buildings. Buildings have foundations ranging from -10 m to -80 m, calculated based on the building's height and footprint; the in-game foundations map layer visualizes these.</li>\n<li><strong>Water Depths</strong>: A water depth index is included, preventing tracks from being placed within the water.  GEBCO bathymetric data are used where available, and a flat -5 m depth is assumed everywhere else; the in-game ocean foundations map layer visualizes these.</li>\n<li><strong>Place Labels</strong>: The map includes city, suburb, and neighborhood labels extracted from selected OSM place tags.</li>\n</ul>\n<h2>Methodology</h2>\n<ul>\n<p>Population: WorldPop 100m gridded raster.</p>\n<p>Employment: OSM landuse, scaled to SHRUG/Economic Census (2013) totals.</p>\n<p>Base commute pairs: doubly-constrained gravity model, decay exponent calibrated against Census 2011 Table B-28 distance-band data for Tamil Nadu (state code 33).</p>\n<p>Coverage: trimmed from the Chennai Suburban Railway's full rural reach (which extends to Sullurupeta, Tiruttani, Arakkonam, and beyond) down to the dense urban core, immediate suburbs, and the Chennai Metropolitan Area's October 2022 expanded boundary, capturing all of Chennai Metro (operational Blue/Green lines plus Phase 2 Purple/Orange/Red lines under construction) and the inner, denser portions of the Suburban Railway's North/West/South lines.</p>\n<p>Special demand: Chennai International Airport (capacity from FY2025-26 annual passenger throughput), Anna University's Guindy main-campus cluster (NIRF 2024 enrollment, not the city-wide affiliated-college system), and IIT Madras (the institute's own approximate enrollment figure).</p>\n<p>Consolidation: nearby low-volume commute flows spatially merged within a tiered distance threshold to keep total population count performant in-game, while preserving the variety of distinct commute destinations per origin point.</p>\n<p>Routing and consolidation tooling: <a href=\"https://github.com/Subway-Builder-Modded/depot\">Depot</a>.</p>\n</ul>\n\n<h2>Data Sources</h2>\n<ul>\n<p><a href=\"https://hub.worldpop.org/\">WorldPop</a></p>\n<p><a href=\"https://www.devdatalab.org/shrug\">SHRUG</a></p>\n<p><a href=\"https://censusindia.gov.in/nada/index.php/catalog/13954\">Census of India 2011, Table B-28</a></p>\n<p><a href=\"https://www.openstreetmap.org/\">OpenStreetMap</a> / <a href=\"https://overturemaps.org/\">Overture Maps</a>\n</p>\n</ul>\n<h2>License</h2>\n<p>This map data is released under the <a href=\"https://www.gnu.org/licenses/gpl-3.0.html\">GNU General Public License v3.0</a>.</p>\n<h2>Credits</h2>\n© OpenMapTiles © OpenStreetMap contributors\n<p>Map authored by rdicicco</p>",
+  "tags": [
+    "south-asia",
+    "airports",
+    "universities"
+  ],
+  "gallery": [
+    "gallery/screenshot1.webp",
+    "gallery/screenshot2.webp",
+    "gallery/screenshot3.webp"
+  ],
+  "is_test": false,
+  "source": "https://github.com/ryandicicco/Subway-Builder-Maps",
+  "update": {
+    "type": "custom",
+    "url": "https://raw.githubusercontent.com/ryandicicco/Subway-Builder-Maps/main/releases/MAA.json"
+  },
+  "city_code": "MAA",
+  "country": "IN",
+  "population": 1655324,
+  "residents_total": 1655324,
+  "points_count": 5789,
+  "population_count": 196909,
+  "initial_view_state": {
+    "latitude": 12.975,
+    "longitude": 80.125,
+    "zoom": 12,
+    "bearing": 0
+  },
+  "data_source": "WorldPop, SHRUG, Census 2011 B-28, OSM",
+  "source_quality": "low-quality",
+  "level_of_detail": "low-detail",
+  "data_quality": {
+    "tier": "unknown",
+    "rubric_version": 1
+  },
+  "location": "south-asia",
+  "special_demand": [
+    "airports",
+    "universities"
+  ],
+  "file_sizes": {},
+  "included_cities": [
+    "Madhavaram",
+    "Poonamallee",
+    "Sholinganallur",
+    "Chengalpattu"
+  ]
+}
