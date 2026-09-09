@@ -1,25 +1,25 @@
 {
   "schema_version": 1,
   "repo": "Subway-Builder-Modded/railyard",
-  "generated_at": "2026-09-09T12:06:50.115Z",
-  "latest_snapshot": "2026-09-09T12:00:00.000Z",
+  "generated_at": "2026-09-09T13:02:48.405Z",
+  "latest_snapshot": "2026-09-09T13:00:00.000Z",
   "versions": {
     "0.2.10": {
-      "total_downloads": 4810,
-      "last_1d_downloads": 111,
-      "last_3d_downloads": 398,
-      "last_7d_downloads": 1144,
+      "total_downloads": 4813,
+      "last_1d_downloads": 112,
+      "last_3d_downloads": 396,
+      "last_7d_downloads": 1139,
       "assets": {
         "railyard-v0.2.10-current-linux-amd64.flatpak": {
           "total_downloads": 159,
           "last_1d_downloads": 5,
           "last_3d_downloads": 16,
-          "last_7d_downloads": 44
+          "last_7d_downloads": 43
         },
         "railyard-v0.2.10-macos-universal.dmg": {
-          "total_downloads": 1398,
-          "last_1d_downloads": 32,
-          "last_3d_downloads": 121,
+          "total_downloads": 1399,
+          "last_1d_downloads": 33,
+          "last_3d_downloads": 120,
           "last_7d_downloads": 351
         },
         "railyard-v0.2.10-macos-universal.zip": {
@@ -29,16 +29,16 @@
           "last_7d_downloads": 31
         },
         "railyard-v0.2.10-windows-amd64-installer.exe": {
-          "total_downloads": 2965,
-          "last_1d_downloads": 64,
-          "last_3d_downloads": 231,
-          "last_7d_downloads": 663
+          "total_downloads": 2966,
+          "last_1d_downloads": 63,
+          "last_3d_downloads": 229,
+          "last_7d_downloads": 658
         },
         "railyard-v0.2.10-windows-amd64-portable.zip": {
-          "total_downloads": 118,
-          "last_1d_downloads": 4,
-          "last_3d_downloads": 12,
-          "last_7d_downloads": 38
+          "total_downloads": 119,
+          "last_1d_downloads": 5,
+          "last_3d_downloads": 13,
+          "last_7d_downloads": 39
         },
         "railyard-v0.2.10-windows-arm64-installer.exe": {
           "total_downloads": 46,
