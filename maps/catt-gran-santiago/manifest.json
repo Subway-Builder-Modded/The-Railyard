@@ -35,8 +35,8 @@
   "level_of_detail": "low-detail",
   "data_quality": {
     "tier": "medium",
-    "raw_score": 0.37,
-    "weighted_score": 0.57,
+    "raw_score": 0.3,
+    "weighted_score": 0.49,
     "rubric_version": 1,
     "provenance": "reviewed"
   },
