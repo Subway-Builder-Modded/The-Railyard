@@ -1,0 +1,57 @@
+{
+  "schema_version": 1,
+  "id": "moscow-and-oblast",
+  "name": "Moscow",
+  "author": "akospanov",
+  "github_id": 142262464,
+  "description": "Map of Moscow and the surrounding cities that can be considered a part of Moscow agglomeration. Data from Overture Maps, OSM and Rosstat employment and population estimate from the 2020 census,.\n\n<img width=\"1280\" height=\"1521\" alt=\"Image\" src=\"https://github.com/user-attachments/assets/15b42d46-bd95-4227-a2f8-7625f5b61532\" />",
+  "tags": [
+    "east-europe",
+    "airports",
+    "entertainment",
+    "hospitals",
+    "schools",
+    "universities"
+  ],
+  "gallery": [
+    "gallery/screenshot1.webp",
+    "gallery/screenshot2.webp"
+  ],
+  "is_test": false,
+  "source": "https://github.com/akospanov/subwaybuildermaps-russia/",
+  "update": {
+    "type": "github",
+    "repo": "akospanov/subwaybuildermaps-russia"
+  },
+  "city_code": "MOW",
+  "country": "RU",
+  "population": 12656409,
+  "residents_total": 12656409,
+  "points_count": 120626,
+  "population_count": 248212,
+  "initial_view_state": {
+    "latitude": 55.7558,
+    "longitude": 37.6173,
+    "zoom": 11,
+    "bearing": 0
+  },
+  "data_source": "OSM, Overture Maps, Rosstat",
+  "source_quality": "low-quality",
+  "level_of_detail": "low-detail",
+  "data_quality": {
+    "tier": "very-low",
+    "raw_score": 0.11,
+    "weighted_score": 0.27,
+    "rubric_version": 1,
+    "provenance": "reviewed"
+  },
+  "location": "east-europe",
+  "special_demand": [
+    "airports",
+    "entertainment",
+    "hospitals",
+    "schools",
+    "universities"
+  ],
+  "file_sizes": {}
+}
