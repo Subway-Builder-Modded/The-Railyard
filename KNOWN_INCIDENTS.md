@@ -389,6 +389,31 @@ restore, the next run re-inspects and the cycle repeats.
 
 ---
 
+## 2026-03-14 → 2026-06-29 — GitHub cron throttling left hourly download runs sparse (fixed by Cloudflare Worker scheduler)
+
+**What happened:** `regenerate-downloads-hourly.yml` relied on GitHub Actions'
+native `schedule` trigger, which GitHub throttles under load: only ~6–10 of
+the 24 hourly runs actually fired per day (e.g. 2026-06-25 saw commits in just
+8 distinct hours). `downloads.json` still converged — every run reads the live
+release counters — but sub-daily movement collapsed into whichever hours
+happened to run.
+
+**Fix:** the Cloudflare Worker scheduler (`workers/scheduler`, deployed
+2026-06-29 firing on the hour; retuned 2026-07-07 to fire twice hourly with
+top-of-hour gating) now dispatches the scheduled workflows directly; the GH
+`schedule` triggers remain only as a late, idempotent fallback. From
+**2026-06-30** every UTC hour has a committed hourly run.
+
+**Residual effect:** git history holds at most ~6–10 counter snapshots per day
+before 2026-06-30, so any backfill of the hourly download series
+(`analytics/hourly/downloads.csv`) from committed `downloads.json` states is
+faithful at hour grain only from **2026-06-30** onward — treat that as the
+hard cutoff when extending the series' retention or backfilling it. Earlier
+movement is recoverable only at the sparse run times (daily grain is
+unaffected).
+
+---
+
 ## 2026-04-07 → 2026-04-10 — App-side download inflation + integrity invalidation (corrected)
 
 Two related problems, corrected as of 2026-04-11.
