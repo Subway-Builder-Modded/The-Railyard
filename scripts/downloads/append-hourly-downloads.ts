@@ -5,10 +5,8 @@ import {
   computeListingDeltas,
   getHourlyShardMonth,
   getHourlyShardRelativePath,
-  HOURLY_DOWNLOADS_CSV_RELATIVE_PATH,
   mergeHourlyRows,
   parseHourlyDownloadsCsv,
-  pruneHourlyRows,
   serializeHourlyDownloadsCsv,
   truncateToHourBucketUtc,
   type DownloadsFile,
@@ -26,10 +24,7 @@ import { appendGitHubOutput, resolveRepoRoot, runAndExitOnError } from "../lib/s
 // baseline skips the listing type rather than booking the whole cumulative
 // counter as one hour.
 //
-// Shards are never pruned — a month's file freezes once the month ends. The
-// legacy un-suffixed downloads.csv (trailing 14-day view over the newest
-// shards) is regenerated alongside for the deployed website until it reads
-// the shards directly.
+// Shards are never pruned — a month's file freezes once the month ends.
 
 interface TypeSpec {
   listingType: HourlyListingType;
@@ -75,17 +70,9 @@ function writeCsvIfChanged(path: string, rows: HourlyDownloadRow[]): boolean {
   return true;
 }
 
-/** The previous UTC month of a "YYYY-MM" key. */
-function previousMonth(month: string): string {
-  const year = Number.parseInt(month.slice(0, 4), 10);
-  const monthIndex = Number.parseInt(month.slice(5, 7), 10) - 1;
-  return new Date(Date.UTC(year, monthIndex - 1, 1)).toISOString().slice(0, 7);
-}
-
 async function run(): Promise<void> {
   const repoRoot = process.env.RAILYARD_REPO_ROOT ?? resolveRepoRoot(import.meta.dirname);
-  const nowMs = Date.now();
-  const bucket = truncateToHourBucketUtc(new Date(nowMs).toISOString());
+  const bucket = truncateToHourBucketUtc(new Date().toISOString());
   const month = getHourlyShardMonth(bucket);
 
   const additions: HourlyDownloadRow[] = [];
@@ -105,27 +92,15 @@ async function run(): Promise<void> {
   const mergedShard = mergeHourlyRows(readCsvRows(shardPath), additions);
   const shardChanged = writeCsvIfChanged(shardPath, mergedShard);
 
-  // Legacy trailing-window view: the current + previous shard always cover it.
-  const previousShardPath = resolve(
-    repoRoot,
-    ...getHourlyShardRelativePath(previousMonth(month)).split("/"),
-  );
-  const legacyRows = pruneHourlyRows(
-    [...readCsvRows(previousShardPath), ...mergedShard],
-    nowMs,
-  );
-  const legacyPath = resolve(repoRoot, ...HOURLY_DOWNLOADS_CSV_RELATIVE_PATH.split("/"));
-  const legacyChanged = writeCsvIfChanged(legacyPath, legacyRows);
-
-  if (!shardChanged && !legacyChanged) {
-    console.log(`[hourly-downloads] bucket=${bucket} no changes (deltas=0, nothing pruned)`);
+  if (!shardChanged) {
+    console.log(`[hourly-downloads] bucket=${bucket} no changes (deltas=0)`);
     appendGitHubOutput(["hourly_downloads_changed=false"]);
     return;
   }
 
   const totalNew = additions.reduce((sum, row) => sum + row.downloads, 0);
   console.log(
-    `[hourly-downloads] bucket=${bucket} listings=${additions.length} downloads=${totalNew} shard=${month} rows=${mergedShard.length} legacy_rows=${legacyRows.length}`,
+    `[hourly-downloads] bucket=${bucket} listings=${additions.length} downloads=${totalNew} shard=${month} rows=${mergedShard.length}`,
   );
   appendGitHubOutput([
     "hourly_downloads_changed=true",
