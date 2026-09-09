@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
   "zone_tag": "436c0657e9f4ae2256e5ffb96122273a",
-  "updated_at": "2026-09-09T02:00:46.936Z",
+  "updated_at": "2026-09-09T03:00:53.717Z",
   "valid_paths": [
     "/",
     "/404.html",
@@ -84175,6 +84175,29 @@
       "browsers": {},
       "operating_systems": {},
       "devices": {}
+    },
+    "2026-09-09T03:00:00.000Z": {
+      "captured_at": "2026-09-09T03:00:53.717Z",
+      "window_start": "2026-09-09T03:00:00.000Z",
+      "window_end": "2026-09-09T04:00:00.000Z",
+      "totals": {
+        "visits": 1
+      },
+      "pages": {
+        "/registry/maps/yukina-mito-hitachi/versions/0.1.0": 1
+      },
+      "countries": {
+        "US": 1
+      },
+      "browsers": {
+        "GoogleBot": 1
+      },
+      "operating_systems": {
+        "Android": 1
+      },
+      "devices": {
+        "mobile": 1
+      }
     }
   },
   "daily_snapshots": {
@@ -105997,11 +106020,11 @@
       }
     },
     "2026-09-09": {
-      "captured_at": "2026-09-09T02:00:46.936Z",
+      "captured_at": "2026-09-09T03:00:53.717Z",
       "window_start": "2026-09-09T00:00:00.000Z",
-      "window_end": "2026-09-09T03:00:00.000Z",
+      "window_end": "2026-09-09T04:00:00.000Z",
       "totals": {
-        "visits": 53
+        "visits": 54
       },
       "pages": {
         "/": 31,
@@ -106017,6 +106040,7 @@
         "/registry/maps/vancouver": 1,
         "/registry/maps/yukina-hachinohe": 1,
         "/registry/maps/yukina-maebashi": 1,
+        "/registry/maps/yukina-mito-hitachi/versions/0.1.0": 1,
         "/registry/maps/yukina-nagoya/versions/0.2.3": 1,
         "/registry/maps/yukina-tw-chiayi/versions/0.2.1": 1,
         "/registry/mods": 1,
@@ -106030,7 +106054,7 @@
         "FI": 1,
         "SE": 1,
         "SG": 1,
-        "US": 44,
+        "US": 45,
         "VN": 1
       },
       "browsers": {
@@ -106038,13 +106062,13 @@
         "ChromeMobile": 2,
         "Edge": 1,
         "Firefox": 1,
-        "GoogleBot": 10,
+        "GoogleBot": 11,
         "MobileSafari": 2,
         "Safari": 2,
         "Unknown": 26
       },
       "operating_systems": {
-        "Android": 12,
+        "Android": 13,
         "MacOSX": 2,
         "Unknown": 26,
         "Windows": 11,
@@ -106052,7 +106076,7 @@
       },
       "devices": {
         "desktop": 39,
-        "mobile": 14
+        "mobile": 15
       }
     }
   }

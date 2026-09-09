@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
   "zone_tag": "436c0657e9f4ae2256e5ffb96122273a",
-  "generated_at": "2026-09-09T02:00:49.223Z",
+  "generated_at": "2026-09-09T03:00:56.850Z",
   "valid_paths": [
     "/",
     "/404.html",
@@ -2223,11 +2223,11 @@
   "path_aliases": {},
   "summary": {
     "latest_day": "2026-09-09",
-    "latest_hour": "2026-09-09T02:00:00.000Z",
+    "latest_hour": "2026-09-09T03:00:00.000Z",
     "total_days": 146,
-    "total_hours": 2464,
-    "latest_day_visits": 53,
-    "latest_hour_visits": 0
+    "total_hours": 2465,
+    "latest_day_visits": 54,
+    "latest_hour_visits": 1
   },
   "time_series": {
     "by_day": [
@@ -2813,7 +2813,7 @@
       },
       {
         "date": "2026-09-09",
-        "visits": 53
+        "visits": 54
       }
     ],
     "by_hour": [
@@ -12672,6 +12672,10 @@
       {
         "hour": "2026-09-09T02:00:00.000Z",
         "visits": 0
+      },
+      {
+        "hour": "2026-09-09T03:00:00.000Z",
+        "visits": 1
       }
     ]
   },
@@ -34495,11 +34499,11 @@
       }
     },
     "2026-09-09": {
-      "captured_at": "2026-09-09T02:00:46.936Z",
+      "captured_at": "2026-09-09T03:00:53.717Z",
       "window_start": "2026-09-09T00:00:00.000Z",
-      "window_end": "2026-09-09T03:00:00.000Z",
+      "window_end": "2026-09-09T04:00:00.000Z",
       "totals": {
-        "visits": 53
+        "visits": 54
       },
       "pages": {
         "/": 31,
@@ -34515,6 +34519,7 @@
         "/registry/maps/vancouver": 1,
         "/registry/maps/yukina-hachinohe": 1,
         "/registry/maps/yukina-maebashi": 1,
+        "/registry/maps/yukina-mito-hitachi/versions/0.1.0": 1,
         "/registry/maps/yukina-nagoya/versions/0.2.3": 1,
         "/registry/maps/yukina-tw-chiayi/versions/0.2.1": 1,
         "/registry/mods": 1,
@@ -34528,7 +34533,7 @@
         "FI": 1,
         "SE": 1,
         "SG": 1,
-        "US": 44,
+        "US": 45,
         "VN": 1
       },
       "browsers": {
@@ -34536,13 +34541,13 @@
         "ChromeMobile": 2,
         "Edge": 1,
         "Firefox": 1,
-        "GoogleBot": 10,
+        "GoogleBot": 11,
         "MobileSafari": 2,
         "Safari": 2,
         "Unknown": 26
       },
       "operating_systems": {
-        "Android": 12,
+        "Android": 13,
         "MacOSX": 2,
         "Unknown": 26,
         "Windows": 11,
@@ -34550,7 +34555,7 @@
       },
       "devices": {
         "desktop": 39,
-        "mobile": 14
+        "mobile": 15
       }
     }
   }
