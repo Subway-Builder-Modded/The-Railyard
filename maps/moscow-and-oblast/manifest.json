@@ -39,8 +39,11 @@
   "source_quality": "low-quality",
   "level_of_detail": "low-detail",
   "data_quality": {
-    "tier": "unknown",
-    "rubric_version": 1
+    "tier": "very-low",
+    "raw_score": 0.11,
+    "weighted_score": 0.27,
+    "rubric_version": 1,
+    "provenance": "reviewed"
   },
   "location": "east-europe",
   "special_demand": [
