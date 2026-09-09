@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "generated_at": "2026-09-09T04:14:34.759Z",
+  "generated_at": "2026-09-09T08:00:55.172Z",
   "listings": {
     "aachen": {
       "has_complete_version": true,
@@ -3947,20 +3947,22 @@
       }
     },
     "busan-3": {
-      "has_complete_version": true,
+      "has_complete_version": false,
       "latest_semver_version": "0.2.0",
-      "latest_semver_complete": true,
-      "complete_versions": [
-        "0.2.0",
+      "latest_semver_complete": false,
+      "complete_versions": [],
+      "incomplete_versions": [
+        "0.1.0",
         "0.1.1",
-        "0.1.0"
+        "0.2.0"
       ],
-      "incomplete_versions": [],
       "last_updated": 1776902400,
       "versions": {
         "0.1.0": {
-          "is_complete": true,
-          "errors": [],
+          "is_complete": false,
+          "errors": [
+            "listing_deprecated"
+          ],
           "required_checks": {
             "config_json": true,
             "demand_data": true,
@@ -4005,8 +4007,10 @@
           "released_at": "2026-04-12T00:00:00.000Z"
         },
         "0.1.1": {
-          "is_complete": true,
-          "errors": [],
+          "is_complete": false,
+          "errors": [
+            "listing_deprecated"
+          ],
           "required_checks": {
             "config_json": true,
             "demand_data": true,
@@ -4051,8 +4055,10 @@
           "released_at": "2026-04-14T00:00:00.000Z"
         },
         "0.2.0": {
-          "is_complete": true,
-          "errors": [],
+          "is_complete": false,
+          "errors": [
+            "listing_deprecated"
+          ],
           "required_checks": {
             "config_json": true,
             "demand_data": true,
@@ -6590,20 +6596,22 @@
       }
     },
     "daegu-3": {
-      "has_complete_version": true,
+      "has_complete_version": false,
       "latest_semver_version": "0.2.0",
-      "latest_semver_complete": true,
-      "complete_versions": [
-        "0.2.0",
+      "latest_semver_complete": false,
+      "complete_versions": [],
+      "incomplete_versions": [
+        "0.1.0",
         "0.1.1",
-        "0.1.0"
+        "0.2.0"
       ],
-      "incomplete_versions": [],
       "last_updated": 1776902400,
       "versions": {
         "0.1.0": {
-          "is_complete": true,
-          "errors": [],
+          "is_complete": false,
+          "errors": [
+            "listing_deprecated"
+          ],
           "required_checks": {
             "config_json": true,
             "demand_data": true,
@@ -6649,8 +6657,10 @@
           "released_at": "2026-04-12T00:00:00.000Z"
         },
         "0.1.1": {
-          "is_complete": true,
-          "errors": [],
+          "is_complete": false,
+          "errors": [
+            "listing_deprecated"
+          ],
           "required_checks": {
             "config_json": true,
             "demand_data": true,
@@ -6696,8 +6706,10 @@
           "released_at": "2026-04-14T00:00:00.000Z"
         },
         "0.2.0": {
-          "is_complete": true,
-          "errors": [],
+          "is_complete": false,
+          "errors": [
+            "listing_deprecated"
+          ],
           "required_checks": {
             "config_json": true,
             "demand_data": true,
@@ -6900,20 +6912,22 @@
       }
     },
     "daejeon-3": {
-      "has_complete_version": true,
+      "has_complete_version": false,
       "latest_semver_version": "0.2.0",
-      "latest_semver_complete": true,
-      "complete_versions": [
-        "0.2.0",
+      "latest_semver_complete": false,
+      "complete_versions": [],
+      "incomplete_versions": [
+        "0.1.0",
         "0.1.1",
-        "0.1.0"
+        "0.2.0"
       ],
-      "incomplete_versions": [],
       "last_updated": 1776902400,
       "versions": {
         "0.1.0": {
-          "is_complete": true,
-          "errors": [],
+          "is_complete": false,
+          "errors": [
+            "listing_deprecated"
+          ],
           "required_checks": {
             "config_json": true,
             "demand_data": true,
@@ -6959,8 +6973,10 @@
           "released_at": "2026-04-12T00:00:00.000Z"
         },
         "0.1.1": {
-          "is_complete": true,
-          "errors": [],
+          "is_complete": false,
+          "errors": [
+            "listing_deprecated"
+          ],
           "required_checks": {
             "config_json": true,
             "demand_data": true,
@@ -7006,8 +7022,10 @@
           "released_at": "2026-04-14T00:00:00.000Z"
         },
         "0.2.0": {
-          "is_complete": true,
-          "errors": [],
+          "is_complete": false,
+          "errors": [
+            "listing_deprecated"
+          ],
           "required_checks": {
             "config_json": true,
             "demand_data": true,
@@ -10957,20 +10975,22 @@
       }
     },
     "gwangju-3": {
-      "has_complete_version": true,
+      "has_complete_version": false,
       "latest_semver_version": "0.2.0",
-      "latest_semver_complete": true,
-      "complete_versions": [
-        "0.2.0",
+      "latest_semver_complete": false,
+      "complete_versions": [],
+      "incomplete_versions": [
+        "0.1.0",
         "0.1.1",
-        "0.1.0"
+        "0.2.0"
       ],
-      "incomplete_versions": [],
       "last_updated": 1776902400,
       "versions": {
         "0.1.0": {
-          "is_complete": true,
-          "errors": [],
+          "is_complete": false,
+          "errors": [
+            "listing_deprecated"
+          ],
           "required_checks": {
             "config_json": true,
             "demand_data": true,
@@ -11016,8 +11036,10 @@
           "released_at": "2026-04-12T00:00:00.000Z"
         },
         "0.1.1": {
-          "is_complete": true,
-          "errors": [],
+          "is_complete": false,
+          "errors": [
+            "listing_deprecated"
+          ],
           "required_checks": {
             "config_json": true,
             "demand_data": true,
@@ -11063,8 +11085,10 @@
           "released_at": "2026-04-14T00:00:00.000Z"
         },
         "0.2.0": {
-          "is_complete": true,
-          "errors": [],
+          "is_complete": false,
+          "errors": [
+            "listing_deprecated"
+          ],
           "required_checks": {
             "config_json": true,
             "demand_data": true,
@@ -11936,20 +11960,22 @@
       }
     },
     "incheon-3": {
-      "has_complete_version": true,
+      "has_complete_version": false,
       "latest_semver_version": "0.2.0",
-      "latest_semver_complete": true,
-      "complete_versions": [
-        "0.2.0",
+      "latest_semver_complete": false,
+      "complete_versions": [],
+      "incomplete_versions": [
+        "0.1.0",
         "0.1.1",
-        "0.1.0"
+        "0.2.0"
       ],
-      "incomplete_versions": [],
       "last_updated": 1776902400,
       "versions": {
         "0.1.0": {
-          "is_complete": true,
-          "errors": [],
+          "is_complete": false,
+          "errors": [
+            "listing_deprecated"
+          ],
           "required_checks": {
             "config_json": true,
             "demand_data": true,
@@ -11995,8 +12021,10 @@
           "released_at": "2026-04-12T00:00:00.000Z"
         },
         "0.1.1": {
-          "is_complete": true,
-          "errors": [],
+          "is_complete": false,
+          "errors": [
+            "listing_deprecated"
+          ],
           "required_checks": {
             "config_json": true,
             "demand_data": true,
@@ -12042,8 +12070,10 @@
           "released_at": "2026-04-14T00:00:00.000Z"
         },
         "0.2.0": {
-          "is_complete": true,
-          "errors": [],
+          "is_complete": false,
+          "errors": [
+            "listing_deprecated"
+          ],
           "required_checks": {
             "config_json": true,
             "demand_data": true,
@@ -12606,20 +12636,22 @@
       }
     },
     "jeju-3": {
-      "has_complete_version": true,
+      "has_complete_version": false,
       "latest_semver_version": "0.2.0",
-      "latest_semver_complete": true,
-      "complete_versions": [
-        "0.2.0",
+      "latest_semver_complete": false,
+      "complete_versions": [],
+      "incomplete_versions": [
+        "0.1.0",
         "0.1.1",
-        "0.1.0"
+        "0.2.0"
       ],
-      "incomplete_versions": [],
       "last_updated": 1776902400,
       "versions": {
         "0.1.0": {
-          "is_complete": true,
-          "errors": [],
+          "is_complete": false,
+          "errors": [
+            "listing_deprecated"
+          ],
           "required_checks": {
             "config_json": true,
             "demand_data": true,
@@ -12665,8 +12697,10 @@
           "released_at": "2026-04-12T00:00:00.000Z"
         },
         "0.1.1": {
-          "is_complete": true,
-          "errors": [],
+          "is_complete": false,
+          "errors": [
+            "listing_deprecated"
+          ],
           "required_checks": {
             "config_json": true,
             "demand_data": true,
@@ -12712,8 +12746,10 @@
           "released_at": "2026-04-14T00:00:00.000Z"
         },
         "0.2.0": {
-          "is_complete": true,
-          "errors": [],
+          "is_complete": false,
+          "errors": [
+            "listing_deprecated"
+          ],
           "required_checks": {
             "config_json": true,
             "demand_data": true,
@@ -12761,20 +12797,22 @@
       }
     },
     "jeju-4": {
-      "has_complete_version": true,
+      "has_complete_version": false,
       "latest_semver_version": "0.2.0",
-      "latest_semver_complete": true,
-      "complete_versions": [
-        "0.2.0",
+      "latest_semver_complete": false,
+      "complete_versions": [],
+      "incomplete_versions": [
+        "0.1.0",
         "0.1.1",
-        "0.1.0"
+        "0.2.0"
       ],
-      "incomplete_versions": [],
       "last_updated": 1776902400,
       "versions": {
         "0.1.0": {
-          "is_complete": true,
-          "errors": [],
+          "is_complete": false,
+          "errors": [
+            "listing_deprecated"
+          ],
           "required_checks": {
             "config_json": true,
             "demand_data": true,
@@ -12823,8 +12861,10 @@
           "released_at": "2026-04-12T00:00:00.000Z"
         },
         "0.1.1": {
-          "is_complete": true,
-          "errors": [],
+          "is_complete": false,
+          "errors": [
+            "listing_deprecated"
+          ],
           "required_checks": {
             "config_json": true,
             "demand_data": true,
@@ -12873,8 +12913,10 @@
           "released_at": "2026-04-14T00:00:00.000Z"
         },
         "0.2.0": {
-          "is_complete": true,
-          "errors": [],
+          "is_complete": false,
+          "errors": [
+            "listing_deprecated"
+          ],
           "required_checks": {
             "config_json": true,
             "demand_data": true,
@@ -16489,18 +16531,20 @@
       }
     },
     "mfn-msy": {
-      "has_complete_version": true,
+      "has_complete_version": false,
       "latest_semver_version": "1.0.0",
-      "latest_semver_complete": true,
-      "complete_versions": [
+      "latest_semver_complete": false,
+      "complete_versions": [],
+      "incomplete_versions": [
         "1.0.0"
       ],
-      "incomplete_versions": [],
       "last_updated": 1781672750,
       "versions": {
         "1.0.0": {
-          "is_complete": true,
-          "errors": [],
+          "is_complete": false,
+          "errors": [
+            "listing_deprecated"
+          ],
           "required_checks": {
             "config_json": true,
             "demand_data": true,
@@ -16606,18 +16650,20 @@
       }
     },
     "mfn-rdu": {
-      "has_complete_version": true,
+      "has_complete_version": false,
       "latest_semver_version": "1.0.0",
-      "latest_semver_complete": true,
-      "complete_versions": [
+      "latest_semver_complete": false,
+      "complete_versions": [],
+      "incomplete_versions": [
         "1.0.0"
       ],
-      "incomplete_versions": [],
       "last_updated": 1776389138,
       "versions": {
         "1.0.0": {
-          "is_complete": true,
-          "errors": [],
+          "is_complete": false,
+          "errors": [
+            "listing_deprecated"
+          ],
           "required_checks": {
             "config_json": true,
             "demand_data": true,
@@ -23470,20 +23516,22 @@
       }
     },
     "sejong-3": {
-      "has_complete_version": true,
+      "has_complete_version": false,
       "latest_semver_version": "0.2.0",
-      "latest_semver_complete": true,
-      "complete_versions": [
-        "0.2.0",
+      "latest_semver_complete": false,
+      "complete_versions": [],
+      "incomplete_versions": [
+        "0.1.0",
         "0.1.1",
-        "0.1.0"
+        "0.2.0"
       ],
-      "incomplete_versions": [],
       "last_updated": 1776902400,
       "versions": {
         "0.1.0": {
-          "is_complete": true,
-          "errors": [],
+          "is_complete": false,
+          "errors": [
+            "listing_deprecated"
+          ],
           "required_checks": {
             "config_json": true,
             "demand_data": true,
@@ -23529,8 +23577,10 @@
           "released_at": "2026-04-12T00:00:00.000Z"
         },
         "0.1.1": {
-          "is_complete": true,
-          "errors": [],
+          "is_complete": false,
+          "errors": [
+            "listing_deprecated"
+          ],
           "required_checks": {
             "config_json": true,
             "demand_data": true,
@@ -23576,8 +23626,10 @@
           "released_at": "2026-04-14T00:00:00.000Z"
         },
         "0.2.0": {
-          "is_complete": true,
-          "errors": [],
+          "is_complete": false,
+          "errors": [
+            "listing_deprecated"
+          ],
           "required_checks": {
             "config_json": true,
             "demand_data": true,
@@ -23899,20 +23951,22 @@
       }
     },
     "seoul-3": {
-      "has_complete_version": true,
+      "has_complete_version": false,
       "latest_semver_version": "0.2.0",
-      "latest_semver_complete": true,
-      "complete_versions": [
-        "0.2.0",
+      "latest_semver_complete": false,
+      "complete_versions": [],
+      "incomplete_versions": [
+        "0.1.0",
         "0.1.1",
-        "0.1.0"
+        "0.2.0"
       ],
-      "incomplete_versions": [],
       "last_updated": 1776902400,
       "versions": {
         "0.1.0": {
-          "is_complete": true,
-          "errors": [],
+          "is_complete": false,
+          "errors": [
+            "listing_deprecated"
+          ],
           "required_checks": {
             "config_json": true,
             "demand_data": true,
@@ -23962,8 +24016,10 @@
           "released_at": "2026-04-12T00:00:00.000Z"
         },
         "0.1.1": {
-          "is_complete": true,
-          "errors": [],
+          "is_complete": false,
+          "errors": [
+            "listing_deprecated"
+          ],
           "required_checks": {
             "config_json": true,
             "demand_data": true,
@@ -24013,8 +24069,10 @@
           "released_at": "2026-04-14T00:00:00.000Z"
         },
         "0.2.0": {
-          "is_complete": true,
-          "errors": [],
+          "is_complete": false,
+          "errors": [
+            "listing_deprecated"
+          ],
           "required_checks": {
             "config_json": true,
             "demand_data": true,
@@ -28044,20 +28102,22 @@
       }
     },
     "ulsan-3": {
-      "has_complete_version": true,
+      "has_complete_version": false,
       "latest_semver_version": "0.2.0",
-      "latest_semver_complete": true,
-      "complete_versions": [
-        "0.2.0",
+      "latest_semver_complete": false,
+      "complete_versions": [],
+      "incomplete_versions": [
+        "0.1.0",
         "0.1.1",
-        "0.1.0"
+        "0.2.0"
       ],
-      "incomplete_versions": [],
       "last_updated": 1776902400,
       "versions": {
         "0.1.0": {
-          "is_complete": true,
-          "errors": [],
+          "is_complete": false,
+          "errors": [
+            "listing_deprecated"
+          ],
           "required_checks": {
             "config_json": true,
             "demand_data": true,
@@ -28103,8 +28163,10 @@
           "released_at": "2026-04-12T00:00:00.000Z"
         },
         "0.1.1": {
-          "is_complete": true,
-          "errors": [],
+          "is_complete": false,
+          "errors": [
+            "listing_deprecated"
+          ],
           "required_checks": {
             "config_json": true,
             "demand_data": true,
@@ -28150,8 +28212,10 @@
           "released_at": "2026-04-14T00:00:00.000Z"
         },
         "0.2.0": {
-          "is_complete": true,
-          "errors": [],
+          "is_complete": false,
+          "errors": [
+            "listing_deprecated"
+          ],
           "required_checks": {
             "config_json": true,
             "demand_data": true,
