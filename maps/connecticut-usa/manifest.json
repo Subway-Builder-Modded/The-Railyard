@@ -49,19 +49,7 @@
     "ferries",
     "universities"
   ],
-  "file_sizes": {
-    "CT.pmtiles": 179.43,
-    "__MACOSX/._buildings_index.json": 0,
-    "__MACOSX/._config.json": 0,
-    "__MACOSX/._demand_data.json": 0,
-    "__MACOSX/._roads.geojson": 0,
-    "__MACOSX/._runways_taxiways.geojson": 0,
-    "buildings_index.json": 265.23,
-    "config.json": 0,
-    "demand_data.json": 16.53,
-    "roads.geojson": 51.89,
-    "runways_taxiways.geojson": 1.05
-  },
+  "file_sizes": {},
   "grid_statistics": {
     "residentWeightedNearestNeighborKm": {
       "p10": 0.34591675457385435,

@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "generated_at": "2026-09-09T16:01:10.064Z",
+  "generated_at": "2026-09-09T19:18:56.639Z",
   "listings": {
     "aachen": {
       "has_complete_version": true,
@@ -3888,18 +3888,20 @@
       }
     },
     "buffalo-ny": {
-      "has_complete_version": true,
+      "has_complete_version": false,
       "latest_semver_version": "1.0.0",
-      "latest_semver_complete": true,
-      "complete_versions": [
+      "latest_semver_complete": false,
+      "complete_versions": [],
+      "incomplete_versions": [
         "1.0.0"
       ],
-      "incomplete_versions": [],
       "last_updated": 1776090177,
       "versions": {
         "1.0.0": {
-          "is_complete": true,
-          "errors": [],
+          "is_complete": false,
+          "errors": [
+            "listing_deprecated"
+          ],
           "required_checks": {
             "config_json": true,
             "demand_data": true,
@@ -4895,6 +4897,62 @@
         }
       }
     },
+    "cancun-riviera-maya": {
+      "has_complete_version": false,
+      "latest_semver_version": "v1.0.0",
+      "latest_semver_complete": false,
+      "complete_versions": [],
+      "incomplete_versions": [
+        "v1.0.0"
+      ],
+      "last_updated": 1788939098,
+      "versions": {
+        "v1.0.0": {
+          "is_complete": false,
+          "errors": [
+            "asset 'CUR.zip': config.json version '7.1.0' does not match release tag 'v1.0.0' (expected '1.0.0')"
+          ],
+          "required_checks": {
+            "config_json": true,
+            "demand_data": true,
+            "demand_point_spacing": true,
+            "demand_phantom_points": true,
+            "demand_residents_match": true,
+            "buildings_index": true,
+            "roads_geojson": true,
+            "runways_taxiways_geojson": true,
+            "city_pmtiles": true,
+            "config_version_matches_tag": false
+          },
+          "matched_files": {
+            "config_json": "config.json",
+            "demand_data": "demand_data.json",
+            "demand_point_spacing": "demand_data.json",
+            "demand_phantom_points": "demand_data.json",
+            "demand_residents_match": "demand_data.json",
+            "buildings_index": "buildings_index.bin.gz",
+            "buildings_index_json": null,
+            "buildings_index_bin": "buildings_index.bin.gz",
+            "roads_geojson": "roads.geojson",
+            "runways_taxiways_geojson": "runways_taxiways.geojson",
+            "city_pmtiles": "CUR.pmtiles",
+            "config_version_matches_tag": null
+          },
+          "release_size": 56.79,
+          "game_version": ">=1.0.0",
+          "source": {
+            "update_type": "github",
+            "repo": "meszier83/subway-builder-mexico-maps",
+            "tag": "v1.0.0",
+            "asset_name": "CUR.zip",
+            "download_url": "https://github.com/Meszier83/subway-builder-mexico-maps/releases/download/v1.0.0/CUR.zip"
+          },
+          "fingerprint": "rules:v6:github:meszier83/subway-builder-mexico-maps:v1.0.0:CUR.zip",
+          "checked_at": "2026-09-09T19:18:56.639Z",
+          "released_at": "2026-09-09T07:31:38.000Z"
+        }
+      }
+    },
     "cape-town": {
       "has_complete_version": true,
       "latest_semver_version": "v1.0.1",
@@ -5382,18 +5440,20 @@
       }
     },
     "charleston-huntington-wv": {
-      "has_complete_version": true,
+      "has_complete_version": false,
       "latest_semver_version": "1.0.0",
-      "latest_semver_complete": true,
-      "complete_versions": [
+      "latest_semver_complete": false,
+      "complete_versions": [],
+      "incomplete_versions": [
         "1.0.0"
       ],
-      "incomplete_versions": [],
       "last_updated": 1775249896,
       "versions": {
         "1.0.0": {
-          "is_complete": true,
-          "errors": [],
+          "is_complete": false,
+          "errors": [
+            "listing_deprecated"
+          ],
           "required_checks": {
             "config_json": true,
             "demand_data": true,
@@ -5441,18 +5501,20 @@
       }
     },
     "charleston-sc": {
-      "has_complete_version": true,
+      "has_complete_version": false,
       "latest_semver_version": "1.0.0",
-      "latest_semver_complete": true,
-      "complete_versions": [
+      "latest_semver_complete": false,
+      "complete_versions": [],
+      "incomplete_versions": [
         "1.0.0"
       ],
-      "incomplete_versions": [],
       "last_updated": 1775677563,
       "versions": {
         "1.0.0": {
-          "is_complete": true,
-          "errors": [],
+          "is_complete": false,
+          "errors": [
+            "listing_deprecated"
+          ],
           "required_checks": {
             "config_json": true,
             "demand_data": true,
@@ -6410,18 +6472,20 @@
       }
     },
     "connecticut-usa": {
-      "has_complete_version": true,
+      "has_complete_version": false,
       "latest_semver_version": "1.0.0",
-      "latest_semver_complete": true,
-      "complete_versions": [
+      "latest_semver_complete": false,
+      "complete_versions": [],
+      "incomplete_versions": [
         "1.0.0"
       ],
-      "incomplete_versions": [],
       "last_updated": 1779113278,
       "versions": {
         "1.0.0": {
-          "is_complete": true,
-          "errors": [],
+          "is_complete": false,
+          "errors": [
+            "listing_deprecated"
+          ],
           "required_checks": {
             "config_json": true,
             "demand_data": true,
@@ -17775,6 +17839,32 @@
         }
       }
     },
+    "moscow-and-oblast": {
+      "has_complete_version": false,
+      "latest_semver_version": null,
+      "latest_semver_complete": null,
+      "complete_versions": [],
+      "incomplete_versions": [],
+      "last_updated": 1788711843,
+      "versions": {
+        "mow-v0.1.1": {
+          "is_complete": false,
+          "errors": [
+            "non-semver release tag 'mow-v0.1.1'"
+          ],
+          "required_checks": {},
+          "matched_files": {},
+          "source": {
+            "update_type": "github",
+            "repo": "akospanov/subwaybuildermaps-russia",
+            "tag": "mow-v0.1.1"
+          },
+          "fingerprint": "rules:v6:github:akospanov/subwaybuildermaps-russia:mow-v0.1.1:MOW.zip",
+          "checked_at": "2026-09-09T19:18:56.639Z",
+          "released_at": "2026-09-06T16:24:03.000Z"
+        }
+      }
+    },
     "mosul": {
       "has_complete_version": true,
       "latest_semver_version": "1.0.0",
@@ -21256,18 +21346,20 @@
       }
     },
     "pyongyang-nk": {
-      "has_complete_version": true,
+      "has_complete_version": false,
       "latest_semver_version": "1.0.0",
-      "latest_semver_complete": true,
-      "complete_versions": [
+      "latest_semver_complete": false,
+      "complete_versions": [],
+      "incomplete_versions": [
         "1.0.0"
       ],
-      "incomplete_versions": [],
       "last_updated": 1775093379,
       "versions": {
         "1.0.0": {
-          "is_complete": true,
-          "errors": [],
+          "is_complete": false,
+          "errors": [
+            "listing_deprecated"
+          ],
           "required_checks": {
             "config_json": true,
             "demand_data": true,
@@ -25820,18 +25912,20 @@
       }
     },
     "syracuse-ny": {
-      "has_complete_version": true,
+      "has_complete_version": false,
       "latest_semver_version": "1.0.0",
-      "latest_semver_complete": true,
-      "complete_versions": [
+      "latest_semver_complete": false,
+      "complete_versions": [],
+      "incomplete_versions": [
         "1.0.0"
       ],
-      "incomplete_versions": [],
       "last_updated": 1777488271,
       "versions": {
         "1.0.0": {
-          "is_complete": true,
-          "errors": [],
+          "is_complete": false,
+          "errors": [
+            "listing_deprecated"
+          ],
           "required_checks": {
             "config_json": true,
             "demand_data": true,

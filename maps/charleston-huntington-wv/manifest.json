@@ -45,16 +45,7 @@
     "entertainment",
     "universities"
   ],
-  "file_sizes": {
-    "CHA.pmtiles": 27.46,
-    "__MACOSX/._config.json": 0,
-    "buildings_index.json": 30.02,
-    "config.json": 0,
-    "demand_data.json": 5.1,
-    "ocean_depth_index.json": 1.09,
-    "roads.geojson": 12.88,
-    "runways_taxiways.geojson": 0.16
-  },
+  "file_sizes": {},
   "grid_statistics": {
     "residentWeightedNearestNeighborKm": {
       "p10": 0.38704718425484896,
