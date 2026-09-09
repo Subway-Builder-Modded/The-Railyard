@@ -7,12 +7,10 @@ import {
   getHourlyShardRelativePath,
   groupHourlyRowsByMonth,
   HOURLY_DOWNLOADS_BACKFILL_FLOOR,
-  HOURLY_DOWNLOADS_CSV_RELATIVE_PATH,
   HOURLY_DOWNLOADS_DIR_RELATIVE_PATH,
   HOURLY_SUPPRESSIONS_RELATIVE_PATH,
   mergeHourlyRows,
   parseHourlySuppressions,
-  pruneHourlyRows,
   serializeHourlyDownloadsCsv,
   truncateToHourBucketUtc,
   type DownloadsFile,
@@ -28,8 +26,7 @@ import { resolveRepoRoot, runAndExitOnError } from "../lib/script-runtime.js";
 // the hourly series. Deterministic and idempotent — the monthly shards
 // (downloads-YYYY-MM.csv) are regenerated wholesale for the window, so this is
 // both the initial backfill and the disaster-recovery path (re-run after any
-// history rewrite). The legacy trailing-window downloads.csv is regenerated
-// alongside.
+// history rewrite).
 //
 //   pnpm --dir scripts run backfill-hourly-downloads [-- --days 30]
 //
@@ -174,16 +171,10 @@ async function run(): Promise<void> {
     }
   }
 
-  // Legacy trailing-window view for the deployed website.
-  const legacyPath = resolve(repoRoot, ...HOURLY_DOWNLOADS_CSV_RELATIVE_PATH.split("/"));
-  mkdirSync(dirname(legacyPath), { recursive: true });
-  const legacyRows = pruneHourlyRows(rows, nowMs);
-  writeFileSync(legacyPath, serializeHourlyDownloadsCsv(legacyRows), "utf-8");
-
   const total = rows.reduce((sum, row) => sum + row.downloads, 0);
   const buckets = new Set(rows.map((row) => row.bucket_utc)).size;
   console.log(
-    `[backfill-hourly-downloads] wrote ${rows.length} rows across ${buckets} hour buckets in ${byMonth.size} shard(s) (${total} downloads, window ${windowDays}d from ${windowStart}) + legacy view ${legacyRows.length} rows`,
+    `[backfill-hourly-downloads] wrote ${rows.length} rows across ${buckets} hour buckets in ${byMonth.size} shard(s) (${total} downloads, window ${windowDays}d from ${windowStart})`,
   );
 }
 

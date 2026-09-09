@@ -12,7 +12,6 @@ import {
   mergeHourlyRows,
   parseHourlyDownloadsCsv,
   parseHourlySuppressions,
-  pruneHourlyRows,
   serializeHourlyDownloadsCsv,
   truncateToHourBucketUtc,
   type HourlyDownloadRow,
@@ -88,16 +87,6 @@ test("mergeHourlyRows sums same bucket+listing entries", () => {
   assert.equal(byKey.get("map:lyon"), 5);
   assert.equal(byKey.get("mod:lyon"), 1);
   assert.equal(merged.length, 2);
-});
-
-test("pruneHourlyRows drops buckets outside the retention window", () => {
-  const nowMs = Date.parse("2026-08-15T12:30:00Z");
-  const rows: HourlyDownloadRow[] = [
-    { bucket_utc: "2026-08-01T11:00Z", listing_type: "map", id: "old", downloads: 1 },
-    { bucket_utc: "2026-08-01T13:00Z", listing_type: "map", id: "kept", downloads: 1 },
-  ];
-  // 14-day cutoff from 2026-08-15T12:30Z is 2026-08-01T12:00Z.
-  assert.deepEqual(pruneHourlyRows(rows, nowMs).map((row) => row.id), ["kept"]);
 });
 
 test("parseHourlySuppressions keeps valid entries and drops malformed ones", () => {

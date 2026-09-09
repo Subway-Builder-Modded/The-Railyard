@@ -36,8 +36,8 @@ when these lived at the top level), e.g. `pnpm --dir scripts run audit-download-
 - `backfill-website-analytics.ts` — refetch missed hourly Cloudflare snapshots
   (worker/capture outage gap-filler).
 - `backfill-hourly-downloads.ts` — deterministically rebuilds the hourly
-  download series (`analytics/hourly/downloads-YYYY-MM.csv` monthly shards plus
-  the legacy trailing-window `downloads.csv`) from the git history of
+  download series (`analytics/hourly/downloads-YYYY-MM.csv` monthly shards)
+  from the git history of
   `downloads.json`; initial backfill and the recovery path if the hourly
   appender's series is ever lost or corrupted. The window defaults to the
   full span back to `HOURLY_DOWNLOADS_BACKFILL_FLOOR` (2026-07-01 — hourly
