@@ -1,0 +1,29 @@
+{
+  "schema_version": 1,
+  "id": "cancun-riviera-maya",
+  "answers": {
+    "workplace_count": "size_bands",
+    "workplace_granularity": "adm5",
+    "workplace_resolution": "mesh_125_or_adm5",
+    "workplace_intensity": "measured_per_unit",
+    "resident_count": "employed_residents",
+    "resident_granularity": "adm5",
+    "resident_resolution": "mesh_125_or_adm5",
+    "resident_intensity": "measured_per_unit",
+    "od_metric": "synthetic_measured_marginals",
+    "od_granularity": null
+  },
+  "notes": "Pipeline & Methodology\n1. **Residence Data (Origins)**:\n   - Microdata from INEGI's *Censo de Población y Vivienda 2020* (`RESAGEBURB`) at the census block (*manzana*, ADM5) level.\n   - Non-urban / unbounded records without geometry are strictly discarded; zero centroid imputation is performed to avoid artificial mega-clusters.\n   - Census figures are projected to current demographic levels using official municipal growth factors derived from CONAPO (*Consejo Nacional de Población*) population projections.\n   - Economically active population (PEA) is calibrated using ENOE (*Encuesta Nacional de Ocupación y Empleo*) state participation rates.\n\n2. **Workplace & Informality Adjustment (Destinations)**:\n   - Base workplace data sourced from INEGI's contemporary *Directorio Estadístico Nacional de Unidades Económicas* (DENUE), providing geocoded establishment records classified by employee size brackets (*estratos de personal ocupado*).\n   - **Informal Labor Modeling**: To account for uncatalogued employment, the pipeline incorporates the official Labor Informality Rate (ENOE *Tasa de Informalidad Laboral* - `TIL1` ~45% for Quintana Roo), blending formal DENUE units with calibrated informal employment opportunities proportionally distributed across commercial corridors and mixed-use urban blocks.\n   - Cross-referenced and constrained against INEGI *Censos Económicos* (CE) macro-totals.\n\n3. **Commute Flows & Balancing**:\n   - Double-constrained origin-destination matrix generated via a bounded gravity model ($\\beta = 0.12$) with Furness iterative proportional fitting to strictly enforce mass conservation: $\\sum_{i,j} T_{ij} \\equiv \\sum_i \\text{PEA}_i$.\n   - Network impedances (`drivingDistance` and `drivingSeconds`) are calculated using standard OSRM (*Open Source Routing Machine*) automobile free-flow profiles over the OpenStreetMap highway network.\n\n4. **Special Demand POIs**:\n   - Discrete POIs with dedicated capture radiuses and mode boosts: Cancún International Airport, Cozumel International Airport, and regional higher-education campuses.",
+  "sources": [
+    "https://www.inegi.org.mx/programas/ccpv/2020/",
+    "https://www.inegi.org.mx/app/descarga/",
+    "https://www.inegi.org.mx/programas/enoe/15ymas/",
+    "https://www.gob.mx/conapo/documentos/bases-de-datos-de-las-proyecciones-de-la-poblacion-de-mexico-y-de-las-entidades-federativas-2020-2070"
+  ],
+  "provenance": {
+    "method": "self-reported",
+    "submitted_by": "Meszier83",
+    "reviewed_by": null,
+    "date": "2026-09-09"
+  }
+}
