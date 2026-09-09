@@ -9193,3 +9193,13 @@ bucket_utc,listing_type,id,downloads
 2026-09-09T21:00Z,mod,station-dots,1
 2026-09-09T21:00Z,mod,subway-builder-performance,2
 2026-09-09T21:00Z,mod,subwaybuilder-regions,1
+2026-09-09T22:00Z,map,berlin-val,1
+2026-09-09T22:00Z,map,calgary,1
+2026-09-09T22:00Z,map,catt-chile-central,1
+2026-09-09T22:00Z,map,edmonton,1
+2026-09-09T22:00Z,map,montreal,2
+2026-09-09T22:00Z,map,toronto,2
+2026-09-09T22:00Z,map,vancouver,1
+2026-09-09T22:00Z,map,yukina-ee-tartu,1
+2026-09-09T22:00Z,mod,demand-clusters,1
+2026-09-09T22:00Z,mod,intercity-hsr-trains,1
