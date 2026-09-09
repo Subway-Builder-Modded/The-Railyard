@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
   "zone_tag": "436c0657e9f4ae2256e5ffb96122273a",
-  "updated_at": "2026-09-09T22:00:55.512Z",
+  "updated_at": "2026-09-09T23:01:35.473Z",
   "valid_paths": [
     "/",
     "/404.html",
@@ -84630,6 +84630,31 @@
       "browsers": {},
       "operating_systems": {},
       "devices": {}
+    },
+    "2026-09-09T23:00:00.000Z": {
+      "captured_at": "2026-09-09T23:01:35.473Z",
+      "window_start": "2026-09-09T23:00:00.000Z",
+      "window_end": "2026-09-10T00:00:00.000Z",
+      "totals": {
+        "visits": 1
+      },
+      "pages": {
+        "/": 1,
+        "/registry/authors/Gio1112": 1
+      },
+      "countries": {
+        "US": 1
+      },
+      "browsers": {
+        "Opera": 1,
+        "Unknown": 1
+      },
+      "operating_systems": {
+        "Windows": 1
+      },
+      "devices": {
+        "desktop": 2
+      }
     }
   },
   "daily_snapshots": {
@@ -106452,18 +106477,19 @@
       }
     },
     "2026-09-09": {
-      "captured_at": "2026-09-09T22:00:55.512Z",
+      "captured_at": "2026-09-09T23:01:35.473Z",
       "window_start": "2026-09-09T00:00:00.000Z",
-      "window_end": "2026-09-09T23:00:00.000Z",
+      "window_end": "2026-09-10T00:00:00.000Z",
       "totals": {
-        "visits": 236
+        "visits": 237
       },
       "pages": {
-        "/": 151,
+        "/": 152,
         "/credits": 1,
         "/depot/updates/v1.1.2": 1,
         "/railyard": 21,
         "/railyard/docs/v0.2/troubleshooting-railyard": 1,
+        "/registry/authors/Gio1112": 1,
         "/registry/authors/rslurry/subwaybuilder-maps": 1,
         "/registry/authors/subway-builder-modded-admin": 1,
         "/registry/maps": 2,
@@ -106540,7 +106566,7 @@
         "SE": 5,
         "SG": 8,
         "UA": 1,
-        "US": 170,
+        "US": 171,
         "VN": 1
       },
       "browsers": {
@@ -106552,21 +106578,21 @@
         "Firefox": 2,
         "GoogleBot": 34,
         "MobileSafari": 6,
-        "Opera": 1,
+        "Opera": 2,
         "Safari": 4,
         "TwitterBot": 1,
-        "Unknown": 146
+        "Unknown": 147
       },
       "operating_systems": {
         "Android": 40,
         "Linux": 1,
         "MacOSX": 8,
         "Unknown": 153,
-        "Windows": 28,
+        "Windows": 29,
         "iOS": 6
       },
       "devices": {
-        "desktop": 189,
+        "desktop": 191,
         "mobile": 47
       }
     }
