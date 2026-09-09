@@ -1,5 +1,14 @@
 {
   "schema_version": 2,
-  "updated_at": "2026-09-09T19:00:39.482Z",
-  "sources": {}
+  "updated_at": "2026-09-09T20:00:51.875Z",
+  "sources": {
+    "listing:unrusted-detroit": {
+      "kind": "listing",
+      "first_unreachable_at": "2026-09-09T20:00:51.875Z",
+      "last_checked_at": "2026-09-09T20:00:51.875Z",
+      "listings": [
+        "unrusted-detroit"
+      ]
+    }
+  }
 }
