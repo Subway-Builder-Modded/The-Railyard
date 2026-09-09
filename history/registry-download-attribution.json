@@ -1,6 +1,6 @@
 {
   "schema_version": 2,
-  "updated_at": "2026-09-09T00:03:46.695Z",
+  "updated_at": "2026-09-09T01:31:20.791Z",
   "assets": {
     "ahkimn/subwaybuilder-eu-maps@0.1.0/brq.zip": {
       "count": 1,
@@ -9475,10 +9475,10 @@
       }
     },
     "barkuperman/jerusalem-sb-map@v0.3.2/jer.zip": {
-      "count": 184,
-      "updated_at": "2026-09-06T09:39:17.849Z",
+      "count": 195,
+      "updated_at": "2026-09-09T01:31:20.791Z",
       "by_source": {
-        "manual-correction/metronome-fetch-2026-07": 184
+        "manual-correction/metronome-fetch-2026-07": 195
       }
     },
     "barkuperman/jerusalem-sb-map@v0.3.2/jer.zip#RA_kwDORfHNf84Xd0qb": {
@@ -9761,10 +9761,10 @@
       }
     },
     "bean1322/akron-oh-map@v1.0.0/akron.zip": {
-      "count": 181,
-      "updated_at": "2026-09-06T09:39:17.849Z",
+      "count": 192,
+      "updated_at": "2026-09-09T01:31:20.791Z",
       "by_source": {
-        "manual-correction/metronome-fetch-2026-07": 181
+        "manual-correction/metronome-fetch-2026-07": 192
       }
     },
     "bean1322/akron-oh-map@v1.0.0/akron.zip#RA_kwDOR8HDms4XYy9s": {
@@ -9776,10 +9776,10 @@
       }
     },
     "bean1322/toledo-oh-map@1.0.0/toledo.zip": {
-      "count": 182,
-      "updated_at": "2026-09-06T09:39:17.849Z",
+      "count": 193,
+      "updated_at": "2026-09-09T01:31:20.791Z",
       "by_source": {
-        "manual-correction/metronome-fetch-2026-07": 182
+        "manual-correction/metronome-fetch-2026-07": 193
       }
     },
     "bean1322/toledo-oh-map@1.0.0/toledo.zip#RA_kwDOSCx1VM4Xohpr": {
@@ -10095,11 +10095,11 @@
       }
     },
     "crumpetime/sb-maps-msn@3.0.0/msn.zip": {
-      "count": 220,
-      "updated_at": "2026-09-06T09:39:17.849Z",
+      "count": 225,
+      "updated_at": "2026-09-09T01:31:20.791Z",
       "by_source": {
         "backfill:regenerate-registry-analytics": 33,
-        "manual-correction/metronome-fetch-2026-07": 183,
+        "manual-correction/metronome-fetch-2026-07": 188,
         "workflow:Regenerate Registry Analytics (Full):map-demand-stats": 4
       }
     },
@@ -10111,10 +10111,10 @@
       }
     },
     "crumpetime/sb-maps-msy@1.0.0/msy.zip": {
-      "count": 104,
-      "updated_at": "2026-09-06T09:39:17.849Z",
+      "count": 109,
+      "updated_at": "2026-09-09T01:31:20.791Z",
       "by_source": {
-        "manual-correction/metronome-fetch-2026-07": 104
+        "manual-correction/metronome-fetch-2026-07": 109
       }
     },
     "crumpetime/sb-maps-msy@1.0.0/msy.zip#RA_kwDOSr5sTc4a0Ovs": {
@@ -10173,10 +10173,10 @@
       }
     },
     "crumpetime/sb-maps-rdu@1.0.0/rdu.zip": {
-      "count": 181,
-      "updated_at": "2026-09-06T09:39:17.849Z",
+      "count": 192,
+      "updated_at": "2026-09-09T01:31:20.791Z",
       "by_source": {
-        "manual-correction/metronome-fetch-2026-07": 181
+        "manual-correction/metronome-fetch-2026-07": 192
       }
     },
     "crumpetime/sb-maps-rdu@1.0.0/rdu.zip#RA_kwDOSE1j2s4XvDfO": {
@@ -10196,11 +10196,11 @@
       }
     },
     "crumpetime/sb-maps-xna@1.0.0/xna.zip": {
-      "count": 216,
-      "updated_at": "2026-09-06T09:39:17.849Z",
+      "count": 220,
+      "updated_at": "2026-09-09T01:31:20.791Z",
       "by_source": {
         "backfill:regenerate-registry-analytics": 32,
-        "manual-correction/metronome-fetch-2026-07": 180,
+        "manual-correction/metronome-fetch-2026-07": 184,
         "workflow:Regenerate Registry Analytics (Full):map-demand-stats": 4
       }
     },
@@ -14513,10 +14513,10 @@
       }
     },
     "nzh0172/sb-malaysia-map-pack-2@v1.0.0/jhb.zip": {
-      "count": 187,
-      "updated_at": "2026-09-06T09:39:17.849Z",
+      "count": 198,
+      "updated_at": "2026-09-09T01:31:20.791Z",
       "by_source": {
-        "manual-correction/metronome-fetch-2026-07": 181,
+        "manual-correction/metronome-fetch-2026-07": 192,
         "manual:incident-2026-05-23-hourly-spike": 5,
         "workflow:Regenerate Registry Analytics (Full):map-demand-stats": 1
       }
@@ -14529,10 +14529,10 @@
       }
     },
     "nzh0172/sb-malaysia-map-pack-2@v1.0.0/pen.zip": {
-      "count": 185,
-      "updated_at": "2026-09-06T09:39:17.849Z",
+      "count": 196,
+      "updated_at": "2026-09-09T01:31:20.791Z",
       "by_source": {
-        "manual-correction/metronome-fetch-2026-07": 182,
+        "manual-correction/metronome-fetch-2026-07": 193,
         "manual:incident-2026-05-23-hourly-spike": 2,
         "workflow:Regenerate Registry Analytics (Full):map-demand-stats": 1
       }
@@ -14695,10 +14695,10 @@
       }
     },
     "phineapoo/willamette-valley-or@1.0.0/wmv.zip": {
-      "count": 179,
-      "updated_at": "2026-09-06T09:39:17.849Z",
+      "count": 190,
+      "updated_at": "2026-09-09T01:31:20.791Z",
       "by_source": {
-        "manual-correction/metronome-fetch-2026-07": 179
+        "manual-correction/metronome-fetch-2026-07": 190
       }
     },
     "phineapoo/willamette-valley-or@1.0.0/wmv.zip#RA_kwDOR-s6M84Xi7Kf": {
@@ -15997,10 +15997,10 @@
       }
     },
     "pswbsf/anchorage-ak@1.0.0/anchorage.zip": {
-      "count": 188,
-      "updated_at": "2026-09-06T09:39:17.849Z",
+      "count": 192,
+      "updated_at": "2026-09-09T01:31:20.791Z",
       "by_source": {
-        "manual-correction/metronome-fetch-2026-07": 186,
+        "manual-correction/metronome-fetch-2026-07": 190,
         "workflow:Regenerate Registry Analytics (Full):map-demand-stats": 1,
         "workflow:Regenerate Registry Analytics (Full):map:full": 1
       }
@@ -16029,10 +16029,10 @@
       }
     },
     "pswbsf/buffalo-ny@1.0.0/buffalo.zip": {
-      "count": 193,
-      "updated_at": "2026-09-06T09:39:17.849Z",
+      "count": 209,
+      "updated_at": "2026-09-09T01:31:20.791Z",
       "by_source": {
-        "manual-correction/metronome-fetch-2026-07": 193
+        "manual-correction/metronome-fetch-2026-07": 209
       }
     },
     "pswbsf/buffalo-ny@1.0.0/buffalo.zip#RA_kwDOSBgHr84XkjzX": {
@@ -16083,10 +16083,10 @@
       }
     },
     "pswbsf/charleston-sc@1.0.0/charleston.zip": {
-      "count": 184,
-      "updated_at": "2026-09-06T09:39:17.849Z",
+      "count": 195,
+      "updated_at": "2026-09-09T01:31:20.791Z",
       "by_source": {
-        "manual-correction/metronome-fetch-2026-07": 184
+        "manual-correction/metronome-fetch-2026-07": 195
       }
     },
     "pswbsf/charleston-sc@1.0.0/charleston.zip#RA_kwDOR9bKns4XWnxf": {
@@ -16114,10 +16114,10 @@
       }
     },
     "pswbsf/connecticut-usa@1.0.0/connecticut.zip": {
-      "count": 188,
-      "updated_at": "2026-09-06T09:39:17.849Z",
+      "count": 199,
+      "updated_at": "2026-09-09T01:31:20.791Z",
       "by_source": {
-        "manual-correction/metronome-fetch-2026-07": 188
+        "manual-correction/metronome-fetch-2026-07": 199
       }
     },
     "pswbsf/connecticut-usa@1.0.0/connecticut.zip#RA_kwDOSg9pxc4ZUHoK": {
@@ -16151,11 +16151,11 @@
       }
     },
     "pswbsf/dayton-oh@1.1.0/dayton.zip": {
-      "count": 183,
-      "updated_at": "2026-09-06T09:39:17.849Z",
+      "count": 187,
+      "updated_at": "2026-09-09T01:31:20.791Z",
       "by_source": {
         "backfill:update-metadata": 1,
-        "manual-correction/metronome-fetch-2026-07": 180,
+        "manual-correction/metronome-fetch-2026-07": 184,
         "workflow:Regenerate Registry Analytics (Full):map-demand-stats": 1,
         "workflow:Regenerate Registry Analytics (Full):map:full": 1
       }
@@ -16168,10 +16168,10 @@
       }
     },
     "pswbsf/piedmont-triad@1.0.0/piedmont.zip": {
-      "count": 180,
-      "updated_at": "2026-09-06T09:39:17.849Z",
+      "count": 184,
+      "updated_at": "2026-09-09T01:31:20.791Z",
       "by_source": {
-        "manual-correction/metronome-fetch-2026-07": 180
+        "manual-correction/metronome-fetch-2026-07": 184
       }
     },
     "pswbsf/piedmont-triad@1.0.0/piedmont.zip#RA_kwDORxyNh84XdC7H": {
@@ -16229,10 +16229,10 @@
       }
     },
     "pswbsf/syracuse-ny@1.0.0/syracuse.zip": {
-      "count": 184,
-      "updated_at": "2026-09-06T09:39:17.849Z",
+      "count": 195,
+      "updated_at": "2026-09-09T01:31:20.791Z",
       "by_source": {
-        "manual-correction/metronome-fetch-2026-07": 184
+        "manual-correction/metronome-fetch-2026-07": 195
       }
     },
     "pswbsf/syracuse-ny@1.0.0/syracuse.zip#RA_kwDOSQKIts4YV_t3": {
@@ -16244,10 +16244,10 @@
       }
     },
     "pswbsf/wilmington-nc@1.0.0/wilmington.zip": {
-      "count": 181,
-      "updated_at": "2026-09-06T09:39:17.849Z",
+      "count": 185,
+      "updated_at": "2026-09-09T01:31:20.791Z",
       "by_source": {
-        "manual-correction/metronome-fetch-2026-07": 181
+        "manual-correction/metronome-fetch-2026-07": 185
       }
     },
     "pswbsf/wilmington-nc@1.0.0/wilmington.zip#RA_kwDOR0Otdc4XdDFh": {
@@ -18787,11 +18787,11 @@
       }
     },
     "soccerjonj/albany@1.0.0/albany-railway.zip": {
-      "count": 213,
-      "updated_at": "2026-09-06T09:39:17.849Z",
+      "count": 221,
+      "updated_at": "2026-09-09T01:31:20.791Z",
       "by_source": {
         "backfill:regenerate-registry-analytics": 24,
-        "manual-correction/metronome-fetch-2026-07": 185,
+        "manual-correction/metronome-fetch-2026-07": 193,
         "workflow:Regenerate Registry Analytics (Full):map-demand-stats": 4
       }
     },
@@ -18803,11 +18803,11 @@
       }
     },
     "soccerjonj/colorado-ski-country@1.0.0/colorado-ski-country-railway.zip": {
-      "count": 218,
-      "updated_at": "2026-09-06T09:39:17.849Z",
+      "count": 222,
+      "updated_at": "2026-09-09T01:31:20.791Z",
       "by_source": {
         "backfill:regenerate-registry-analytics": 32,
-        "manual-correction/metronome-fetch-2026-07": 182,
+        "manual-correction/metronome-fetch-2026-07": 186,
         "workflow:Regenerate Registry Analytics (Full):map-demand-stats": 4
       }
     },
@@ -18819,10 +18819,10 @@
       }
     },
     "soccerjonj/daytonatti@1.0.0/daytonnati-railway.zip": {
-      "count": 182,
-      "updated_at": "2026-09-06T09:39:17.849Z",
+      "count": 186,
+      "updated_at": "2026-09-09T01:31:20.791Z",
       "by_source": {
-        "manual-correction/metronome-fetch-2026-07": 180,
+        "manual-correction/metronome-fetch-2026-07": 184,
         "workflow:Regenerate Registry Analytics (Full):map-demand-stats": 1,
         "workflow:Regenerate Registry Analytics (Full):map:full": 1
       }
@@ -18835,11 +18835,11 @@
       }
     },
     "soccerjonj/louisville@1.0.0/louisville-railyard.zip": {
-      "count": 219,
-      "updated_at": "2026-09-06T09:39:17.849Z",
+      "count": 223,
+      "updated_at": "2026-09-09T01:31:20.791Z",
       "by_source": {
         "backfill:regenerate-registry-analytics": 32,
-        "manual-correction/metronome-fetch-2026-07": 183,
+        "manual-correction/metronome-fetch-2026-07": 187,
         "workflow:Regenerate Registry Analytics (Full):map-demand-stats": 4
       }
     },
@@ -18851,11 +18851,11 @@
       }
     },
     "soccerjonj/nashville@2.0.0/nashville-railway.zip": {
-      "count": 215,
-      "updated_at": "2026-09-06T09:39:17.849Z",
+      "count": 219,
+      "updated_at": "2026-09-09T01:31:20.791Z",
       "by_source": {
         "backfill:regenerate-registry-analytics": 32,
-        "manual-correction/metronome-fetch-2026-07": 179,
+        "manual-correction/metronome-fetch-2026-07": 183,
         "workflow:Regenerate Registry Analytics (Full):map-demand-stats": 4
       }
     },
@@ -18867,11 +18867,11 @@
       }
     },
     "soccerjonj/providence@1.0.0/providence-railyard.zip": {
-      "count": 214,
-      "updated_at": "2026-09-06T09:39:17.849Z",
+      "count": 218,
+      "updated_at": "2026-09-09T01:31:20.791Z",
       "by_source": {
         "backfill:regenerate-registry-analytics": 32,
-        "manual-correction/metronome-fetch-2026-07": 178,
+        "manual-correction/metronome-fetch-2026-07": 182,
         "workflow:Regenerate Registry Analytics (Full):map-demand-stats": 4
       }
     },
@@ -18883,11 +18883,11 @@
       }
     },
     "soccerjonj/sacramento@1.0.0/sacramento-railyard.zip": {
-      "count": 218,
-      "updated_at": "2026-09-06T09:39:17.849Z",
+      "count": 222,
+      "updated_at": "2026-09-09T01:31:20.791Z",
       "by_source": {
         "backfill:regenerate-registry-analytics": 32,
-        "manual-correction/metronome-fetch-2026-07": 182,
+        "manual-correction/metronome-fetch-2026-07": 186,
         "workflow:Regenerate Registry Analytics (Full):map-demand-stats": 4
       }
     },
@@ -23849,6 +23849,8 @@
     "manual-loop-repair:metronome-fetch-2026-07-list-b:akron-oh@v1.0.0:2026-09-04": "2026-09-06T09:39:17.849Z",
     "manual-loop-repair:metronome-fetch-2026-07-list-b:akron-oh@v1.0.0:2026-09-05": "2026-09-06T09:39:17.849Z",
     "manual-loop-repair:metronome-fetch-2026-07-list-b:akron-oh@v1.0.0:2026-09-06": "2026-09-06T09:39:17.849Z",
+    "manual-loop-repair:metronome-fetch-2026-07-list-b:akron-oh@v1.0.0:2026-09-07": "2026-09-09T01:31:20.791Z",
+    "manual-loop-repair:metronome-fetch-2026-07-list-b:akron-oh@v1.0.0:2026-09-08": "2026-09-09T01:31:20.791Z",
     "manual-loop-repair:metronome-fetch-2026-07-list-b:albany@1.0.0:2026-07-27": "2026-08-31T04:45:18.399Z",
     "manual-loop-repair:metronome-fetch-2026-07-list-b:albany@1.0.0:2026-07-28": "2026-08-31T04:45:18.399Z",
     "manual-loop-repair:metronome-fetch-2026-07-list-b:albany@1.0.0:2026-07-29": "2026-08-31T04:45:18.399Z",
@@ -23890,6 +23892,7 @@
     "manual-loop-repair:metronome-fetch-2026-07-list-b:albany@1.0.0:2026-09-04": "2026-09-06T09:39:17.849Z",
     "manual-loop-repair:metronome-fetch-2026-07-list-b:albany@1.0.0:2026-09-05": "2026-09-06T09:39:17.849Z",
     "manual-loop-repair:metronome-fetch-2026-07-list-b:albany@1.0.0:2026-09-06": "2026-09-06T09:39:17.849Z",
+    "manual-loop-repair:metronome-fetch-2026-07-list-b:albany@1.0.0:2026-09-07": "2026-09-09T01:31:20.791Z",
     "manual-loop-repair:metronome-fetch-2026-07-list-b:anchorage-ak@1.0.0:2026-07-27": "2026-08-31T04:45:18.399Z",
     "manual-loop-repair:metronome-fetch-2026-07-list-b:anchorage-ak@1.0.0:2026-07-28": "2026-08-31T04:45:18.399Z",
     "manual-loop-repair:metronome-fetch-2026-07-list-b:anchorage-ak@1.0.0:2026-07-29": "2026-08-31T04:45:18.399Z",
@@ -23931,6 +23934,7 @@
     "manual-loop-repair:metronome-fetch-2026-07-list-b:anchorage-ak@1.0.0:2026-09-04": "2026-09-06T09:39:17.849Z",
     "manual-loop-repair:metronome-fetch-2026-07-list-b:anchorage-ak@1.0.0:2026-09-05": "2026-09-06T09:39:17.849Z",
     "manual-loop-repair:metronome-fetch-2026-07-list-b:anchorage-ak@1.0.0:2026-09-06": "2026-09-06T09:39:17.849Z",
+    "manual-loop-repair:metronome-fetch-2026-07-list-b:anchorage-ak@1.0.0:2026-09-07": "2026-09-09T01:31:20.791Z",
     "manual-loop-repair:metronome-fetch-2026-07-list-b:buffalo-ny@1.0.0:2026-07-27": "2026-08-31T04:45:18.399Z",
     "manual-loop-repair:metronome-fetch-2026-07-list-b:buffalo-ny@1.0.0:2026-07-28": "2026-08-31T04:45:18.399Z",
     "manual-loop-repair:metronome-fetch-2026-07-list-b:buffalo-ny@1.0.0:2026-07-29": "2026-08-31T04:45:18.399Z",
@@ -23972,6 +23976,8 @@
     "manual-loop-repair:metronome-fetch-2026-07-list-b:buffalo-ny@1.0.0:2026-09-04": "2026-09-06T09:39:17.849Z",
     "manual-loop-repair:metronome-fetch-2026-07-list-b:buffalo-ny@1.0.0:2026-09-05": "2026-09-06T09:39:17.849Z",
     "manual-loop-repair:metronome-fetch-2026-07-list-b:buffalo-ny@1.0.0:2026-09-06": "2026-09-06T09:39:17.849Z",
+    "manual-loop-repair:metronome-fetch-2026-07-list-b:buffalo-ny@1.0.0:2026-09-07": "2026-09-09T01:31:20.791Z",
+    "manual-loop-repair:metronome-fetch-2026-07-list-b:buffalo-ny@1.0.0:2026-09-08": "2026-09-09T01:31:20.791Z",
     "manual-loop-repair:metronome-fetch-2026-07-list-b:charleston-sc@1.0.0:2026-07-27": "2026-08-31T04:45:18.399Z",
     "manual-loop-repair:metronome-fetch-2026-07-list-b:charleston-sc@1.0.0:2026-07-28": "2026-08-31T04:45:18.399Z",
     "manual-loop-repair:metronome-fetch-2026-07-list-b:charleston-sc@1.0.0:2026-07-29": "2026-08-31T04:45:18.399Z",
@@ -24013,6 +24019,8 @@
     "manual-loop-repair:metronome-fetch-2026-07-list-b:charleston-sc@1.0.0:2026-09-04": "2026-09-06T09:39:17.849Z",
     "manual-loop-repair:metronome-fetch-2026-07-list-b:charleston-sc@1.0.0:2026-09-05": "2026-09-06T09:39:17.849Z",
     "manual-loop-repair:metronome-fetch-2026-07-list-b:charleston-sc@1.0.0:2026-09-06": "2026-09-06T09:39:17.849Z",
+    "manual-loop-repair:metronome-fetch-2026-07-list-b:charleston-sc@1.0.0:2026-09-07": "2026-09-09T01:31:20.791Z",
+    "manual-loop-repair:metronome-fetch-2026-07-list-b:charleston-sc@1.0.0:2026-09-08": "2026-09-09T01:31:20.791Z",
     "manual-loop-repair:metronome-fetch-2026-07-list-b:colorado-ski-country@1.0.0:2026-07-27": "2026-08-31T04:45:18.399Z",
     "manual-loop-repair:metronome-fetch-2026-07-list-b:colorado-ski-country@1.0.0:2026-07-28": "2026-08-31T04:45:18.399Z",
     "manual-loop-repair:metronome-fetch-2026-07-list-b:colorado-ski-country@1.0.0:2026-07-29": "2026-08-31T04:45:18.399Z",
@@ -24054,6 +24062,7 @@
     "manual-loop-repair:metronome-fetch-2026-07-list-b:colorado-ski-country@1.0.0:2026-09-04": "2026-09-06T09:39:17.849Z",
     "manual-loop-repair:metronome-fetch-2026-07-list-b:colorado-ski-country@1.0.0:2026-09-05": "2026-09-06T09:39:17.849Z",
     "manual-loop-repair:metronome-fetch-2026-07-list-b:colorado-ski-country@1.0.0:2026-09-06": "2026-09-06T09:39:17.849Z",
+    "manual-loop-repair:metronome-fetch-2026-07-list-b:colorado-ski-country@1.0.0:2026-09-07": "2026-09-09T01:31:20.791Z",
     "manual-loop-repair:metronome-fetch-2026-07-list-b:connecticut-usa@1.0.0:2026-07-27": "2026-08-31T04:45:18.399Z",
     "manual-loop-repair:metronome-fetch-2026-07-list-b:connecticut-usa@1.0.0:2026-07-28": "2026-08-31T04:45:18.399Z",
     "manual-loop-repair:metronome-fetch-2026-07-list-b:connecticut-usa@1.0.0:2026-07-29": "2026-08-31T04:45:18.399Z",
@@ -24095,6 +24104,8 @@
     "manual-loop-repair:metronome-fetch-2026-07-list-b:connecticut-usa@1.0.0:2026-09-04": "2026-09-06T09:39:17.849Z",
     "manual-loop-repair:metronome-fetch-2026-07-list-b:connecticut-usa@1.0.0:2026-09-05": "2026-09-06T09:39:17.849Z",
     "manual-loop-repair:metronome-fetch-2026-07-list-b:connecticut-usa@1.0.0:2026-09-06": "2026-09-06T09:39:17.849Z",
+    "manual-loop-repair:metronome-fetch-2026-07-list-b:connecticut-usa@1.0.0:2026-09-07": "2026-09-09T01:31:20.791Z",
+    "manual-loop-repair:metronome-fetch-2026-07-list-b:connecticut-usa@1.0.0:2026-09-08": "2026-09-09T01:31:20.791Z",
     "manual-loop-repair:metronome-fetch-2026-07-list-b:dayton-oh@1.1.0:2026-07-27": "2026-08-31T04:45:18.399Z",
     "manual-loop-repair:metronome-fetch-2026-07-list-b:dayton-oh@1.1.0:2026-07-28": "2026-08-31T04:45:18.399Z",
     "manual-loop-repair:metronome-fetch-2026-07-list-b:dayton-oh@1.1.0:2026-07-29": "2026-08-31T04:45:18.399Z",
@@ -24136,6 +24147,7 @@
     "manual-loop-repair:metronome-fetch-2026-07-list-b:dayton-oh@1.1.0:2026-09-04": "2026-09-06T09:39:17.849Z",
     "manual-loop-repair:metronome-fetch-2026-07-list-b:dayton-oh@1.1.0:2026-09-05": "2026-09-06T09:39:17.849Z",
     "manual-loop-repair:metronome-fetch-2026-07-list-b:dayton-oh@1.1.0:2026-09-06": "2026-09-06T09:39:17.849Z",
+    "manual-loop-repair:metronome-fetch-2026-07-list-b:dayton-oh@1.1.0:2026-09-07": "2026-09-09T01:31:20.791Z",
     "manual-loop-repair:metronome-fetch-2026-07-list-b:daytonatti@1.0.0:2026-07-27": "2026-08-31T04:45:18.399Z",
     "manual-loop-repair:metronome-fetch-2026-07-list-b:daytonatti@1.0.0:2026-07-28": "2026-08-31T04:45:18.399Z",
     "manual-loop-repair:metronome-fetch-2026-07-list-b:daytonatti@1.0.0:2026-07-29": "2026-08-31T04:45:18.399Z",
@@ -24177,6 +24189,7 @@
     "manual-loop-repair:metronome-fetch-2026-07-list-b:daytonatti@1.0.0:2026-09-04": "2026-09-06T09:39:17.849Z",
     "manual-loop-repair:metronome-fetch-2026-07-list-b:daytonatti@1.0.0:2026-09-05": "2026-09-06T09:39:17.849Z",
     "manual-loop-repair:metronome-fetch-2026-07-list-b:daytonatti@1.0.0:2026-09-06": "2026-09-06T09:39:17.849Z",
+    "manual-loop-repair:metronome-fetch-2026-07-list-b:daytonatti@1.0.0:2026-09-07": "2026-09-09T01:31:20.791Z",
     "manual-loop-repair:metronome-fetch-2026-07-list-b:jerusalem@v0.3.2:2026-07-27": "2026-08-31T04:45:18.399Z",
     "manual-loop-repair:metronome-fetch-2026-07-list-b:jerusalem@v0.3.2:2026-07-28": "2026-08-31T04:45:18.399Z",
     "manual-loop-repair:metronome-fetch-2026-07-list-b:jerusalem@v0.3.2:2026-07-29": "2026-08-31T04:45:18.399Z",
@@ -24218,6 +24231,8 @@
     "manual-loop-repair:metronome-fetch-2026-07-list-b:jerusalem@v0.3.2:2026-09-04": "2026-09-06T09:39:17.849Z",
     "manual-loop-repair:metronome-fetch-2026-07-list-b:jerusalem@v0.3.2:2026-09-05": "2026-09-06T09:39:17.849Z",
     "manual-loop-repair:metronome-fetch-2026-07-list-b:jerusalem@v0.3.2:2026-09-06": "2026-09-06T09:39:17.849Z",
+    "manual-loop-repair:metronome-fetch-2026-07-list-b:jerusalem@v0.3.2:2026-09-07": "2026-09-09T01:31:20.791Z",
+    "manual-loop-repair:metronome-fetch-2026-07-list-b:jerusalem@v0.3.2:2026-09-08": "2026-09-09T01:31:20.791Z",
     "manual-loop-repair:metronome-fetch-2026-07-list-b:johor-bahru@1.0.0:2026-07-27": "2026-08-31T04:45:18.399Z",
     "manual-loop-repair:metronome-fetch-2026-07-list-b:johor-bahru@1.0.0:2026-07-28": "2026-08-31T04:45:18.399Z",
     "manual-loop-repair:metronome-fetch-2026-07-list-b:johor-bahru@1.0.0:2026-07-29": "2026-08-31T04:45:18.399Z",
@@ -24259,6 +24274,8 @@
     "manual-loop-repair:metronome-fetch-2026-07-list-b:johor-bahru@1.0.0:2026-09-04": "2026-09-06T09:39:17.849Z",
     "manual-loop-repair:metronome-fetch-2026-07-list-b:johor-bahru@1.0.0:2026-09-05": "2026-09-06T09:39:17.849Z",
     "manual-loop-repair:metronome-fetch-2026-07-list-b:johor-bahru@1.0.0:2026-09-06": "2026-09-06T09:39:17.849Z",
+    "manual-loop-repair:metronome-fetch-2026-07-list-b:johor-bahru@1.0.0:2026-09-07": "2026-09-09T01:31:20.791Z",
+    "manual-loop-repair:metronome-fetch-2026-07-list-b:johor-bahru@1.0.0:2026-09-08": "2026-09-09T01:31:20.791Z",
     "manual-loop-repair:metronome-fetch-2026-07-list-b:louisville@1.0.0:2026-07-27": "2026-08-31T04:45:18.399Z",
     "manual-loop-repair:metronome-fetch-2026-07-list-b:louisville@1.0.0:2026-07-28": "2026-08-31T04:45:18.399Z",
     "manual-loop-repair:metronome-fetch-2026-07-list-b:louisville@1.0.0:2026-07-29": "2026-08-31T04:45:18.399Z",
@@ -24300,6 +24317,7 @@
     "manual-loop-repair:metronome-fetch-2026-07-list-b:louisville@1.0.0:2026-09-04": "2026-09-06T09:39:17.849Z",
     "manual-loop-repair:metronome-fetch-2026-07-list-b:louisville@1.0.0:2026-09-05": "2026-09-06T09:39:17.849Z",
     "manual-loop-repair:metronome-fetch-2026-07-list-b:louisville@1.0.0:2026-09-06": "2026-09-06T09:39:17.849Z",
+    "manual-loop-repair:metronome-fetch-2026-07-list-b:louisville@1.0.0:2026-09-07": "2026-09-09T01:31:20.791Z",
     "manual-loop-repair:metronome-fetch-2026-07-list-b:mfn-madisonwi@3.0.0:2026-07-27": "2026-08-31T04:45:18.399Z",
     "manual-loop-repair:metronome-fetch-2026-07-list-b:mfn-madisonwi@3.0.0:2026-07-28": "2026-08-31T04:45:18.399Z",
     "manual-loop-repair:metronome-fetch-2026-07-list-b:mfn-madisonwi@3.0.0:2026-07-29": "2026-08-31T04:45:18.399Z",
@@ -24341,6 +24359,7 @@
     "manual-loop-repair:metronome-fetch-2026-07-list-b:mfn-madisonwi@3.0.0:2026-09-04": "2026-09-06T09:39:17.849Z",
     "manual-loop-repair:metronome-fetch-2026-07-list-b:mfn-madisonwi@3.0.0:2026-09-05": "2026-09-06T09:39:17.849Z",
     "manual-loop-repair:metronome-fetch-2026-07-list-b:mfn-madisonwi@3.0.0:2026-09-06": "2026-09-06T09:39:17.849Z",
+    "manual-loop-repair:metronome-fetch-2026-07-list-b:mfn-madisonwi@3.0.0:2026-09-07": "2026-09-09T01:31:20.791Z",
     "manual-loop-repair:metronome-fetch-2026-07-list-b:mfn-msy@1.0.0:2026-07-27": "2026-08-31T04:45:18.399Z",
     "manual-loop-repair:metronome-fetch-2026-07-list-b:mfn-msy@1.0.0:2026-07-28": "2026-08-31T04:45:18.399Z",
     "manual-loop-repair:metronome-fetch-2026-07-list-b:mfn-msy@1.0.0:2026-07-30": "2026-08-31T04:45:18.399Z",
@@ -24379,6 +24398,8 @@
     "manual-loop-repair:metronome-fetch-2026-07-list-b:mfn-msy@1.0.0:2026-09-04": "2026-09-06T09:39:17.849Z",
     "manual-loop-repair:metronome-fetch-2026-07-list-b:mfn-msy@1.0.0:2026-09-05": "2026-09-06T09:39:17.849Z",
     "manual-loop-repair:metronome-fetch-2026-07-list-b:mfn-msy@1.0.0:2026-09-06": "2026-09-06T09:39:17.849Z",
+    "manual-loop-repair:metronome-fetch-2026-07-list-b:mfn-msy@1.0.0:2026-09-07": "2026-09-09T01:31:20.791Z",
+    "manual-loop-repair:metronome-fetch-2026-07-list-b:mfn-msy@1.0.0:2026-09-08": "2026-09-09T01:31:20.791Z",
     "manual-loop-repair:metronome-fetch-2026-07-list-b:mfn-northwestar@1.0.0:2026-07-27": "2026-08-31T04:45:18.399Z",
     "manual-loop-repair:metronome-fetch-2026-07-list-b:mfn-northwestar@1.0.0:2026-07-28": "2026-08-31T04:45:18.399Z",
     "manual-loop-repair:metronome-fetch-2026-07-list-b:mfn-northwestar@1.0.0:2026-07-29": "2026-08-31T04:45:18.399Z",
@@ -24420,6 +24441,7 @@
     "manual-loop-repair:metronome-fetch-2026-07-list-b:mfn-northwestar@1.0.0:2026-09-04": "2026-09-06T09:39:17.849Z",
     "manual-loop-repair:metronome-fetch-2026-07-list-b:mfn-northwestar@1.0.0:2026-09-05": "2026-09-06T09:39:17.849Z",
     "manual-loop-repair:metronome-fetch-2026-07-list-b:mfn-northwestar@1.0.0:2026-09-06": "2026-09-06T09:39:17.849Z",
+    "manual-loop-repair:metronome-fetch-2026-07-list-b:mfn-northwestar@1.0.0:2026-09-07": "2026-09-09T01:31:20.791Z",
     "manual-loop-repair:metronome-fetch-2026-07-list-b:mfn-rdu@1.0.0:2026-07-27": "2026-08-31T04:45:18.399Z",
     "manual-loop-repair:metronome-fetch-2026-07-list-b:mfn-rdu@1.0.0:2026-07-28": "2026-08-31T04:45:18.399Z",
     "manual-loop-repair:metronome-fetch-2026-07-list-b:mfn-rdu@1.0.0:2026-07-29": "2026-08-31T04:45:18.399Z",
@@ -24461,6 +24483,8 @@
     "manual-loop-repair:metronome-fetch-2026-07-list-b:mfn-rdu@1.0.0:2026-09-04": "2026-09-06T09:39:17.849Z",
     "manual-loop-repair:metronome-fetch-2026-07-list-b:mfn-rdu@1.0.0:2026-09-05": "2026-09-06T09:39:17.849Z",
     "manual-loop-repair:metronome-fetch-2026-07-list-b:mfn-rdu@1.0.0:2026-09-06": "2026-09-06T09:39:17.849Z",
+    "manual-loop-repair:metronome-fetch-2026-07-list-b:mfn-rdu@1.0.0:2026-09-07": "2026-09-09T01:31:20.791Z",
+    "manual-loop-repair:metronome-fetch-2026-07-list-b:mfn-rdu@1.0.0:2026-09-08": "2026-09-09T01:31:20.791Z",
     "manual-loop-repair:metronome-fetch-2026-07-list-b:nashville@2.0.0:2026-07-27": "2026-08-31T04:45:18.399Z",
     "manual-loop-repair:metronome-fetch-2026-07-list-b:nashville@2.0.0:2026-07-28": "2026-08-31T04:45:18.399Z",
     "manual-loop-repair:metronome-fetch-2026-07-list-b:nashville@2.0.0:2026-07-29": "2026-08-31T04:45:18.399Z",
@@ -24502,6 +24526,7 @@
     "manual-loop-repair:metronome-fetch-2026-07-list-b:nashville@2.0.0:2026-09-04": "2026-09-06T09:39:17.849Z",
     "manual-loop-repair:metronome-fetch-2026-07-list-b:nashville@2.0.0:2026-09-05": "2026-09-06T09:39:17.849Z",
     "manual-loop-repair:metronome-fetch-2026-07-list-b:nashville@2.0.0:2026-09-06": "2026-09-06T09:39:17.849Z",
+    "manual-loop-repair:metronome-fetch-2026-07-list-b:nashville@2.0.0:2026-09-07": "2026-09-09T01:31:20.791Z",
     "manual-loop-repair:metronome-fetch-2026-07-list-b:piedmont-triad@1.0.0:2026-07-27": "2026-08-31T04:45:18.399Z",
     "manual-loop-repair:metronome-fetch-2026-07-list-b:piedmont-triad@1.0.0:2026-07-28": "2026-08-31T04:45:18.399Z",
     "manual-loop-repair:metronome-fetch-2026-07-list-b:piedmont-triad@1.0.0:2026-07-29": "2026-08-31T04:45:18.399Z",
@@ -24543,6 +24568,7 @@
     "manual-loop-repair:metronome-fetch-2026-07-list-b:piedmont-triad@1.0.0:2026-09-04": "2026-09-06T09:39:17.849Z",
     "manual-loop-repair:metronome-fetch-2026-07-list-b:piedmont-triad@1.0.0:2026-09-05": "2026-09-06T09:39:17.849Z",
     "manual-loop-repair:metronome-fetch-2026-07-list-b:piedmont-triad@1.0.0:2026-09-06": "2026-09-06T09:39:17.849Z",
+    "manual-loop-repair:metronome-fetch-2026-07-list-b:piedmont-triad@1.0.0:2026-09-07": "2026-09-09T01:31:20.791Z",
     "manual-loop-repair:metronome-fetch-2026-07-list-b:providence@1.0.0:2026-07-27": "2026-08-31T04:45:18.399Z",
     "manual-loop-repair:metronome-fetch-2026-07-list-b:providence@1.0.0:2026-07-28": "2026-08-31T04:45:18.399Z",
     "manual-loop-repair:metronome-fetch-2026-07-list-b:providence@1.0.0:2026-07-29": "2026-08-31T04:45:18.399Z",
@@ -24584,6 +24610,7 @@
     "manual-loop-repair:metronome-fetch-2026-07-list-b:providence@1.0.0:2026-09-04": "2026-09-06T09:39:17.849Z",
     "manual-loop-repair:metronome-fetch-2026-07-list-b:providence@1.0.0:2026-09-05": "2026-09-06T09:39:17.849Z",
     "manual-loop-repair:metronome-fetch-2026-07-list-b:providence@1.0.0:2026-09-06": "2026-09-06T09:39:17.849Z",
+    "manual-loop-repair:metronome-fetch-2026-07-list-b:providence@1.0.0:2026-09-07": "2026-09-09T01:31:20.791Z",
     "manual-loop-repair:metronome-fetch-2026-07-list-b:pulau-pinang@1.0.0:2026-07-27": "2026-08-31T04:45:18.399Z",
     "manual-loop-repair:metronome-fetch-2026-07-list-b:pulau-pinang@1.0.0:2026-07-28": "2026-08-31T04:45:18.399Z",
     "manual-loop-repair:metronome-fetch-2026-07-list-b:pulau-pinang@1.0.0:2026-07-29": "2026-08-31T04:45:18.399Z",
@@ -24625,6 +24652,8 @@
     "manual-loop-repair:metronome-fetch-2026-07-list-b:pulau-pinang@1.0.0:2026-09-04": "2026-09-06T09:39:17.849Z",
     "manual-loop-repair:metronome-fetch-2026-07-list-b:pulau-pinang@1.0.0:2026-09-05": "2026-09-06T09:39:17.849Z",
     "manual-loop-repair:metronome-fetch-2026-07-list-b:pulau-pinang@1.0.0:2026-09-06": "2026-09-06T09:39:17.849Z",
+    "manual-loop-repair:metronome-fetch-2026-07-list-b:pulau-pinang@1.0.0:2026-09-07": "2026-09-09T01:31:20.791Z",
+    "manual-loop-repair:metronome-fetch-2026-07-list-b:pulau-pinang@1.0.0:2026-09-08": "2026-09-09T01:31:20.791Z",
     "manual-loop-repair:metronome-fetch-2026-07-list-b:sacramento@1.0.0:2026-07-27": "2026-08-31T04:45:18.399Z",
     "manual-loop-repair:metronome-fetch-2026-07-list-b:sacramento@1.0.0:2026-07-28": "2026-08-31T04:45:18.399Z",
     "manual-loop-repair:metronome-fetch-2026-07-list-b:sacramento@1.0.0:2026-07-29": "2026-08-31T04:45:18.399Z",
@@ -24666,6 +24695,7 @@
     "manual-loop-repair:metronome-fetch-2026-07-list-b:sacramento@1.0.0:2026-09-04": "2026-09-06T09:39:17.849Z",
     "manual-loop-repair:metronome-fetch-2026-07-list-b:sacramento@1.0.0:2026-09-05": "2026-09-06T09:39:17.849Z",
     "manual-loop-repair:metronome-fetch-2026-07-list-b:sacramento@1.0.0:2026-09-06": "2026-09-06T09:39:17.849Z",
+    "manual-loop-repair:metronome-fetch-2026-07-list-b:sacramento@1.0.0:2026-09-07": "2026-09-09T01:31:20.791Z",
     "manual-loop-repair:metronome-fetch-2026-07-list-b:syracuse-ny@1.0.0:2026-07-27": "2026-08-31T04:45:18.399Z",
     "manual-loop-repair:metronome-fetch-2026-07-list-b:syracuse-ny@1.0.0:2026-07-28": "2026-08-31T04:45:18.399Z",
     "manual-loop-repair:metronome-fetch-2026-07-list-b:syracuse-ny@1.0.0:2026-07-29": "2026-08-31T04:45:18.399Z",
@@ -24707,6 +24737,8 @@
     "manual-loop-repair:metronome-fetch-2026-07-list-b:syracuse-ny@1.0.0:2026-09-04": "2026-09-06T09:39:17.849Z",
     "manual-loop-repair:metronome-fetch-2026-07-list-b:syracuse-ny@1.0.0:2026-09-05": "2026-09-06T09:39:17.849Z",
     "manual-loop-repair:metronome-fetch-2026-07-list-b:syracuse-ny@1.0.0:2026-09-06": "2026-09-06T09:39:17.849Z",
+    "manual-loop-repair:metronome-fetch-2026-07-list-b:syracuse-ny@1.0.0:2026-09-07": "2026-09-09T01:31:20.791Z",
+    "manual-loop-repair:metronome-fetch-2026-07-list-b:syracuse-ny@1.0.0:2026-09-08": "2026-09-09T01:31:20.791Z",
     "manual-loop-repair:metronome-fetch-2026-07-list-b:toledo-oh@1.0.0:2026-07-27": "2026-08-31T04:45:18.399Z",
     "manual-loop-repair:metronome-fetch-2026-07-list-b:toledo-oh@1.0.0:2026-07-28": "2026-08-31T04:45:18.399Z",
     "manual-loop-repair:metronome-fetch-2026-07-list-b:toledo-oh@1.0.0:2026-07-29": "2026-08-31T04:45:18.399Z",
@@ -24748,6 +24780,8 @@
     "manual-loop-repair:metronome-fetch-2026-07-list-b:toledo-oh@1.0.0:2026-09-04": "2026-09-06T09:39:17.849Z",
     "manual-loop-repair:metronome-fetch-2026-07-list-b:toledo-oh@1.0.0:2026-09-05": "2026-09-06T09:39:17.849Z",
     "manual-loop-repair:metronome-fetch-2026-07-list-b:toledo-oh@1.0.0:2026-09-06": "2026-09-06T09:39:17.849Z",
+    "manual-loop-repair:metronome-fetch-2026-07-list-b:toledo-oh@1.0.0:2026-09-07": "2026-09-09T01:31:20.791Z",
+    "manual-loop-repair:metronome-fetch-2026-07-list-b:toledo-oh@1.0.0:2026-09-08": "2026-09-09T01:31:20.791Z",
     "manual-loop-repair:metronome-fetch-2026-07-list-b:willamette-valley@1.0.0:2026-07-27": "2026-08-31T04:45:18.399Z",
     "manual-loop-repair:metronome-fetch-2026-07-list-b:willamette-valley@1.0.0:2026-07-28": "2026-08-31T04:45:18.399Z",
     "manual-loop-repair:metronome-fetch-2026-07-list-b:willamette-valley@1.0.0:2026-07-29": "2026-08-31T04:45:18.399Z",
@@ -24789,6 +24823,8 @@
     "manual-loop-repair:metronome-fetch-2026-07-list-b:willamette-valley@1.0.0:2026-09-04": "2026-09-06T09:39:17.849Z",
     "manual-loop-repair:metronome-fetch-2026-07-list-b:willamette-valley@1.0.0:2026-09-05": "2026-09-06T09:39:17.849Z",
     "manual-loop-repair:metronome-fetch-2026-07-list-b:willamette-valley@1.0.0:2026-09-06": "2026-09-06T09:39:17.849Z",
+    "manual-loop-repair:metronome-fetch-2026-07-list-b:willamette-valley@1.0.0:2026-09-07": "2026-09-09T01:31:20.791Z",
+    "manual-loop-repair:metronome-fetch-2026-07-list-b:willamette-valley@1.0.0:2026-09-08": "2026-09-09T01:31:20.791Z",
     "manual-loop-repair:metronome-fetch-2026-07-list-b:wilmington-nc@1.0.0:2026-07-27": "2026-08-31T04:45:18.399Z",
     "manual-loop-repair:metronome-fetch-2026-07-list-b:wilmington-nc@1.0.0:2026-07-28": "2026-08-31T04:45:18.399Z",
     "manual-loop-repair:metronome-fetch-2026-07-list-b:wilmington-nc@1.0.0:2026-07-29": "2026-08-31T04:45:18.399Z",
@@ -24830,6 +24866,7 @@
     "manual-loop-repair:metronome-fetch-2026-07-list-b:wilmington-nc@1.0.0:2026-09-04": "2026-09-06T09:39:17.849Z",
     "manual-loop-repair:metronome-fetch-2026-07-list-b:wilmington-nc@1.0.0:2026-09-05": "2026-09-06T09:39:17.849Z",
     "manual-loop-repair:metronome-fetch-2026-07-list-b:wilmington-nc@1.0.0:2026-09-06": "2026-09-06T09:39:17.849Z",
+    "manual-loop-repair:metronome-fetch-2026-07-list-b:wilmington-nc@1.0.0:2026-09-07": "2026-09-09T01:31:20.791Z",
     "manual:dry-run-version-tag-check:2026-04-07": "2026-04-07T07:18:55.275Z",
     "manual:incident-2026-05-23-hourly-spike:whole-hour-v1": "2026-05-24T02:54:12.621Z"
   },
@@ -34533,14 +34570,51 @@
       }
     },
     "2026_09_07": {
-      "total": 8,
+      "total": 162,
       "assets": {
+        "barkuperman/jerusalem-sb-map@v0.3.2/jer.zip": 8,
+        "bean1322/akron-oh-map@v1.0.0/akron.zip": 8,
+        "bean1322/toledo-oh-map@1.0.0/toledo.zip": 8,
+        "crumpetime/sb-maps-msn@3.0.0/msn.zip": 5,
+        "crumpetime/sb-maps-msy@1.0.0/msy.zip": 4,
+        "crumpetime/sb-maps-rdu@1.0.0/rdu.zip": 8,
+        "crumpetime/sb-maps-xna@1.0.0/xna.zip": 4,
+        "nzh0172/sb-malaysia-map-pack-2@v1.0.0/jhb.zip": 8,
+        "nzh0172/sb-malaysia-map-pack-2@v1.0.0/pen.zip": 8,
+        "phineapoo/willamette-valley-or@1.0.0/wmv.zip": 8,
+        "pswbsf/anchorage-ak@1.0.0/anchorage.zip": 4,
+        "pswbsf/buffalo-ny@1.0.0/buffalo.zip": 13,
+        "pswbsf/charleston-sc@1.0.0/charleston.zip": 8,
+        "pswbsf/connecticut-usa@1.0.0/connecticut.zip": 8,
+        "pswbsf/dayton-oh@1.1.0/dayton.zip": 4,
+        "pswbsf/piedmont-triad@1.0.0/piedmont.zip": 4,
+        "pswbsf/syracuse-ny@1.0.0/syracuse.zip": 8,
+        "pswbsf/wilmington-nc@1.0.0/wilmington.zip": 4,
+        "soccerjonj/albany@1.0.0/albany-railway.zip": 8,
+        "soccerjonj/colorado-ski-country@1.0.0/colorado-ski-country-railway.zip": 4,
+        "soccerjonj/daytonatti@1.0.0/daytonnati-railway.zip": 4,
+        "soccerjonj/louisville@1.0.0/louisville-railyard.zip": 4,
+        "soccerjonj/nashville@2.0.0/nashville-railway.zip": 4,
+        "soccerjonj/providence@1.0.0/providence-railyard.zip": 4,
+        "soccerjonj/sacramento@1.0.0/sacramento-railyard.zip": 4,
         "worstboyinaustral1a/subway-builder-za@cpt-1.0.2/cpt_v1.0.2.zip#RA_kwDOTRwM6c4dF0ps": 8
       }
     },
     "2026_09_08": {
-      "total": 9,
+      "total": 43,
       "assets": {
+        "barkuperman/jerusalem-sb-map@v0.3.2/jer.zip": 3,
+        "bean1322/akron-oh-map@v1.0.0/akron.zip": 3,
+        "bean1322/toledo-oh-map@1.0.0/toledo.zip": 3,
+        "crumpetime/sb-maps-msy@1.0.0/msy.zip": 1,
+        "crumpetime/sb-maps-rdu@1.0.0/rdu.zip": 3,
+        "nzh0172/sb-malaysia-map-pack-2@v1.0.0/jhb.zip": 3,
+        "nzh0172/sb-malaysia-map-pack-2@v1.0.0/pen.zip": 3,
+        "phineapoo/willamette-valley-or@1.0.0/wmv.zip": 3,
+        "pswbsf/buffalo-ny@1.0.0/buffalo.zip": 3,
+        "pswbsf/charleston-sc@1.0.0/charleston.zip": 3,
+        "pswbsf/connecticut-usa@1.0.0/connecticut.zip": 3,
+        "pswbsf/syracuse-ny@1.0.0/syracuse.zip": 3,
         "worstboyinaustral1a/subway-builder-za@cpt-1.0.2/cpt_v1.0.2.zip#RA_kwDOTRwM6c4dF0ps": 9
       }
     },
@@ -55448,6 +55522,36 @@
         "worstboyinaustral1a/subway-builder-za@cpt-1.0.2/cpt_v1.0.2.zip#RA_kwDOTRwM6c4dF0ps": 1
       }
     },
+    "2026-09-07T12:00:00.000Z": {
+      "total": 154,
+      "assets": {
+        "barkuperman/jerusalem-sb-map@v0.3.2/jer.zip": 8,
+        "bean1322/akron-oh-map@v1.0.0/akron.zip": 8,
+        "bean1322/toledo-oh-map@1.0.0/toledo.zip": 8,
+        "crumpetime/sb-maps-msn@3.0.0/msn.zip": 5,
+        "crumpetime/sb-maps-msy@1.0.0/msy.zip": 4,
+        "crumpetime/sb-maps-rdu@1.0.0/rdu.zip": 8,
+        "crumpetime/sb-maps-xna@1.0.0/xna.zip": 4,
+        "nzh0172/sb-malaysia-map-pack-2@v1.0.0/jhb.zip": 8,
+        "nzh0172/sb-malaysia-map-pack-2@v1.0.0/pen.zip": 8,
+        "phineapoo/willamette-valley-or@1.0.0/wmv.zip": 8,
+        "pswbsf/anchorage-ak@1.0.0/anchorage.zip": 4,
+        "pswbsf/buffalo-ny@1.0.0/buffalo.zip": 13,
+        "pswbsf/charleston-sc@1.0.0/charleston.zip": 8,
+        "pswbsf/connecticut-usa@1.0.0/connecticut.zip": 8,
+        "pswbsf/dayton-oh@1.1.0/dayton.zip": 4,
+        "pswbsf/piedmont-triad@1.0.0/piedmont.zip": 4,
+        "pswbsf/syracuse-ny@1.0.0/syracuse.zip": 8,
+        "pswbsf/wilmington-nc@1.0.0/wilmington.zip": 4,
+        "soccerjonj/albany@1.0.0/albany-railway.zip": 8,
+        "soccerjonj/colorado-ski-country@1.0.0/colorado-ski-country-railway.zip": 4,
+        "soccerjonj/daytonatti@1.0.0/daytonnati-railway.zip": 4,
+        "soccerjonj/louisville@1.0.0/louisville-railyard.zip": 4,
+        "soccerjonj/nashville@2.0.0/nashville-railway.zip": 4,
+        "soccerjonj/providence@1.0.0/providence-railyard.zip": 4,
+        "soccerjonj/sacramento@1.0.0/sacramento-railyard.zip": 4
+      }
+    },
     "2026-09-07T12:01:21.329Z": {
       "total": 1,
       "assets": {
@@ -55494,6 +55598,23 @@
       "total": 1,
       "assets": {
         "worstboyinaustral1a/subway-builder-za@cpt-1.0.2/cpt_v1.0.2.zip#RA_kwDOTRwM6c4dF0ps": 1
+      }
+    },
+    "2026-09-08T12:00:00.000Z": {
+      "total": 34,
+      "assets": {
+        "barkuperman/jerusalem-sb-map@v0.3.2/jer.zip": 3,
+        "bean1322/akron-oh-map@v1.0.0/akron.zip": 3,
+        "bean1322/toledo-oh-map@1.0.0/toledo.zip": 3,
+        "crumpetime/sb-maps-msy@1.0.0/msy.zip": 1,
+        "crumpetime/sb-maps-rdu@1.0.0/rdu.zip": 3,
+        "nzh0172/sb-malaysia-map-pack-2@v1.0.0/jhb.zip": 3,
+        "nzh0172/sb-malaysia-map-pack-2@v1.0.0/pen.zip": 3,
+        "phineapoo/willamette-valley-or@1.0.0/wmv.zip": 3,
+        "pswbsf/buffalo-ny@1.0.0/buffalo.zip": 3,
+        "pswbsf/charleston-sc@1.0.0/charleston.zip": 3,
+        "pswbsf/connecticut-usa@1.0.0/connecticut.zip": 3,
+        "pswbsf/syracuse-ny@1.0.0/syracuse.zip": 3
       }
     },
     "2026-09-08T12:01:27.705Z": {
