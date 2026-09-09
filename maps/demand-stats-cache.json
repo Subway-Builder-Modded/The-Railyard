@@ -919,6 +919,42 @@
         "schema_version": 3
       }
     },
+    "catt-chile-central": {
+      "source_fingerprint": "github:v1.0.0|CLC.zip",
+      "last_checked_at": "2026-09-09T04:14:54.880Z",
+      "stats": {
+        "residents_total": 3979002,
+        "points_count": 4009,
+        "population_count": 40173,
+        "initial_view_state": {
+          "latitude": -33.65,
+          "longitude": -71,
+          "zoom": 9.2,
+          "bearing": 0
+        }
+      },
+      "grid": {
+        "schema_version": 3
+      }
+    },
+    "catt-gran-santiago": {
+      "source_fingerprint": "github:v1.0.0|GSC.zip",
+      "last_checked_at": "2026-09-09T04:14:54.880Z",
+      "stats": {
+        "residents_total": 3118834,
+        "points_count": 2267,
+        "population_count": 18073,
+        "initial_view_state": {
+          "latitude": -33.46,
+          "longitude": -70.66,
+          "zoom": 11,
+          "bearing": 0
+        }
+      },
+      "grid": {
+        "schema_version": 3
+      }
+    },
     "cdmx-core": {
       "source_fingerprint": "sha256:ac2b7bb91ee1628a3b2a35a0efcc8f6517b864342ce516fc67887d4b03c9fb98",
       "last_checked_at": "2026-07-13T07:43:33.785Z",
