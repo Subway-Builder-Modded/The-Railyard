@@ -1,0 +1,65 @@
+{
+  "schema_version": 1,
+  "id": "cbrock126-pwm",
+  "name": "Portland, Maine (Midcoast Maine)",
+  "author": "cbrock126",
+  "github_id": 46033466,
+  "description": "Maine's coastal rail corridor from Wells through the Midcoast to Rockland/Camden, plus Lewiston/Auburn inland -- five separate urban cores (the York County beach towns, Portland/South Portland, Brunswick/Bath, Rockland/Camden, and Lewiston/Auburn) tied together by one network, built on real Census LODES commuting data.",
+  "tags": [
+    "north-america",
+    "airports",
+    "entertainment",
+    "universities"
+  ],
+  "gallery": [
+    "gallery/screenshot1.webp"
+  ],
+  "is_test": false,
+  "source": "https://github.com/cbrock126/subway-builder-pwm",
+  "update": {
+    "type": "github",
+    "repo": "cbrock126/subway-builder-pwm"
+  },
+  "city_code": "PWM",
+  "country": "US",
+  "population": 302823,
+  "residents_total": 302823,
+  "points_count": 2392,
+  "population_count": 44774,
+  "initial_view_state": {
+    "latitude": 43.6591,
+    "longitude": -70.2568,
+    "zoom": 9,
+    "bearing": 0
+  },
+  "data_source": "LODES, OpenStreetMap, Overture Maps",
+  "source_quality": "low-quality",
+  "level_of_detail": "low-detail",
+  "data_quality": {
+    "tier": "unknown",
+    "rubric_version": 1
+  },
+  "location": "north-america",
+  "special_demand": [
+    "airports",
+    "entertainment",
+    "universities"
+  ],
+  "file_sizes": {},
+  "included_cities": [
+    "South Portland",
+    "Westbrook",
+    "Biddeford",
+    "Saco",
+    "Scarborough",
+    "Brunswick",
+    "Bath",
+    "Freeport",
+    "Wells",
+    "Kennebunk",
+    "Rockland",
+    "Camden",
+    "Lewiston",
+    "Auburn"
+  ]
+}
