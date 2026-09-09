@@ -1,0 +1,55 @@
+{
+  "schema_version": 1,
+  "id": "bengaluru",
+  "name": "Bengaluru",
+  "author": "ryandicicco",
+  "github_id": 215120742,
+  "description": "<h1>Bengaluru</h1>\nHighly-detailed map of India's \"Garden City\" and tech capital, spread across the rolling Deccan Plateau at ~900m elevation, its IT corridors and colonial-era core threaded together by Namma Metro and the emerging K-RIDE Bengaluru Suburban Rail network. Coverage stretches from Nelamangala and Kempegowda International Airport in the north, east through Whitefield's tech parks, and south to Bidadi and Heelalige, the reach of the city's operating and under-construction rail lines.\n<h2>Coverage</h2>\n<table style=\"width: auto\">\n<tr><td><strong>Bounding box</strong></td><td>77.35, 12.72, 77.78, 13.3</td></tr>\n<tr><td><strong>Bounding Box Area</strong></td><td>3004 km²</td></tr>\n</table>\n\n<h2>Population Summary</h2>\n<table style=\"width: auto\">\n<tr><td><strong>Total Modeled Demand</strong></td><td align=\"right\">1,818,296</td></tr>\n<tr><td><strong>Modeled Normal Demand</strong></td><td align=\"right\">1,692,646</td></tr>\n<tr><td><strong>Modeled Special Demand</strong></td><td align=\"right\">125,650</td></tr>\n</table>\n\n<h2>Map Statistics</h2>\n<table style=\"width: auto\">\n<tr><td><strong>Demand Points</strong></td><td align=\"right\">6,018</td></tr>\n<tr><td><strong>Populations</strong></td><td align=\"right\">170,054</td></tr>\n<tr><td><strong>Median Point Size</strong></td><td align=\"right\">269</td></tr>\n<tr><td><strong>Mean Point Size</strong></td><td align=\"right\">604.3</td></tr>\n<tr><td><strong>Median Population Size</strong></td><td align=\"right\">4</td></tr>\n<tr><td><strong>Mean Population Size</strong></td><td align=\"right\">10.7</td></tr>\n<tr><td><strong>Median Commute Distance (km)</strong></td><td align=\"right\">24.94</td></tr>\n<tr><td><strong>Mean Commute Distance (km)</strong></td><td align=\"right\">27.06</td></tr>\n<tr><td><strong>Median Commute Time (min)</strong></td><td align=\"right\">28.6</td></tr>\n<tr><td><strong>Mean Commute Time (min)</strong></td><td align=\"right\">30.1</td></tr>\n</table>\n\n<h2>Special Demand</h2>\n<details>\n<summary>Airports: 120,000</summary>\n\n<table style=\"width: auto\">\n<tr><th align=\"left\">Name</th><th align=\"right\">Modeled Demand</th></tr>\n<tr><td align=\"left\">&nbsp;&nbsp;Kempegowda International Airport&nbsp;&nbsp;</td><td align=\"right\">&nbsp;&nbsp;120,000&nbsp;&nbsp;</td></tr>\n</table>\n\n</details>\n\n<details>\n<summary>Universities: 5,650</summary>\n\n<table style=\"width: auto\">\n<tr><th align=\"left\">Name</th><th align=\"right\">Modeled Demand</th></tr>\n<tr><td align=\"left\">&nbsp;&nbsp;Indian Institute of Science&nbsp;&nbsp;</td><td align=\"right\">&nbsp;&nbsp;5,650&nbsp;&nbsp;</td></tr>\n</table>\n\n</details>\n<br>\n\n<h2>Additional Features</h2>\n<ul>\n<li><strong>Building Collision</strong>: A buildings index is included, providing in-game collision geometry for all non-filtered buildings. Buildings have foundations ranging from -10 m to -80 m, calculated based on the building's height and footprint; the in-game foundations map layer visualizes these.</li>\n<li><strong>Water Depths</strong>: A water depth index is included, preventing tracks from being placed within the water.  GEBCO bathymetric data are used where available, and a flat -5 m depth is assumed everywhere else; the in-game ocean foundations map layer visualizes these.</li>\n<li><strong>Place Labels</strong>: The map includes city, suburb, and neighborhood labels extracted from selected OSM place tags.</li>\n</ul>\n<h2>Methodology</h2>\n<ul>\n<p>Population: WorldPop 100m gridded raster.</p>\n<p>Employment: OSM landuse, scaled to SHRUG/Economic Census (2013) totals.</p>\n<p>Base commute pairs: doubly-constrained gravity model, decay exponent calibrated against Census 2011 Table B-28 distance-band data for Karnataka (this bbox sits entirely within Karnataka, same clean situation as Mumbai's Maharashtra-only bbox, unlike Delhi's NCR bbox which had to borrow NCT Delhi's row for its Haryana/UP slices).</p>\n<p>Special demand: Kempegowda International Airport (capacity from 2025 annual passenger throughput) and the Indian Institute of Science, using its own officially reported enrollment.</p>\n<p>Consolidation: nearby low-volume commute flows spatially merged within a tiered distance threshold to keep total population count performant in-game, while preserving the variety of distinct commute destinations per origin point.</p>\n<p>Routing and consolidation tooling: <a href=\"https://github.com/Subway-Builder-Modded/depot\">Depot</a>.</p>\n</ul>\n<h2>Data Sources</h2>\n<ul>\n<p><a href=\"https://hub.worldpop.org/\">WorldPop</a></p>\n<p><a href=\"https://www.devdatalab.org/shrug\">SHRUG</a></p>\n<p><a href=\"https://censusindia.gov.in/nada/index.php/catalog/13954\">Census of India 2011, Table B-28</a></p>\n<p><a href=\"https://www.openstreetmap.org/\">OpenStreetMap</a> / <a href=\"https://overturemaps.org/\">Overture Maps</a>\n</p>\n</ul>\n<h2>License</h2>\n<p>This map data is released under the <a href=\"https://www.gnu.org/licenses/gpl-3.0.html\">GNU General Public License v3.0</a>.</p>\n<h2>Credits</h2>\n© OpenMapTiles © OpenStreetMap contributors\n<p>Map authored by rdicicco</p>",
+  "tags": [
+    "south-asia",
+    "airports",
+    "universities"
+  ],
+  "gallery": [
+    "gallery/screenshot1.webp",
+    "gallery/screenshot2.webp",
+    "gallery/screenshot3.webp"
+  ],
+  "is_test": false,
+  "source": "https://github.com/ryandicicco/Subway-Builder-Maps",
+  "update": {
+    "type": "custom",
+    "url": "https://raw.githubusercontent.com/ryandicicco/Subway-Builder-Maps/main/releases/BLR.json"
+  },
+  "city_code": "BLR",
+  "country": "IN",
+  "population": 1818296,
+  "residents_total": 1818296,
+  "points_count": 6018,
+  "population_count": 170054,
+  "initial_view_state": {
+    "latitude": 13.01,
+    "longitude": 77.565,
+    "zoom": 12,
+    "bearing": 0
+  },
+  "data_source": "WorldPop, SHRUG, Census 2011 B-28, OSM",
+  "source_quality": "low-quality",
+  "level_of_detail": "low-detail",
+  "data_quality": {
+    "tier": "unknown",
+    "rubric_version": 1
+  },
+  "location": "south-asia",
+  "special_demand": [
+    "airports",
+    "universities"
+  ],
+  "file_sizes": {},
+  "included_cities": [
+    "Nelamangala",
+    "Whitefield",
+    "Bidadi",
+    "Heelalige"
+  ]
+}
