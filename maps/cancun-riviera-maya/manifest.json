@@ -1,0 +1,60 @@
+{
+  "schema_version": 1,
+  "id": "cancun-riviera-maya",
+  "name": "Cancun / Riviera Maya",
+  "author": "Meszier83",
+  "github_id": 323052829,
+  "description": "Residential population anchored at the census block level (manzanas, ADM5) from INEGI Censo CPV 2020 RESAGEBURB, adjusted with official CONAPO municipal demographic growth factors. Workplace demand derived from INEGI DENUE economic census establishments with employee size bands. Origin-destination commute matrix computed using a bounded gravity model and routed via OSRM road profiles. Special demand POIs integrated for Cancún International Airport, Cozumel International Airport and regional universities.",
+  "tags": [
+    "north-america",
+    "airports",
+    "universities"
+  ],
+  "gallery": [
+    "gallery/screenshot1.webp",
+    "gallery/screenshot2.webp",
+    "gallery/screenshot3.webp",
+    "gallery/screenshot4.webp"
+  ],
+  "is_test": false,
+  "source": "https://github.com/Meszier83/subway-builder-mexico-maps",
+  "update": {
+    "type": "github",
+    "repo": "Meszier83/subway-builder-mexico-maps"
+  },
+  "city_code": "CUR",
+  "country": "MX",
+  "population": 775627,
+  "residents_total": 775627,
+  "points_count": 1906,
+  "population_count": 6284,
+  "initial_view_state": {
+    "latitude": 20.96418,
+    "longitude": -86.92919,
+    "zoom": 10,
+    "bearing": 0
+  },
+  "data_source": "INEGI (CPV 2020, DENUE), CONAPO, SEP, OpenStreetMap",
+  "source_quality": "low-quality",
+  "level_of_detail": "low-detail",
+  "data_quality": {
+    "tier": "medium",
+    "raw_score": 0.35,
+    "weighted_score": 0.52,
+    "rubric_version": 1,
+    "provenance": "reviewed"
+  },
+  "location": "north-america",
+  "special_demand": [
+    "airports",
+    "universities"
+  ],
+  "file_sizes": {},
+  "included_cities": [
+    "Playa del Carmen",
+    "Cozumel",
+    "Puerto Morelos",
+    "Tulum",
+    "Isla Mujeres"
+  ]
+}
