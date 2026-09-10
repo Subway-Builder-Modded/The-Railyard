@@ -131,6 +131,7 @@ map,yukina-tw-taichung,臺中 (Taichung),ahkimn/subwaybuilder-tw-maps,subwaybuil
 map,yukina-tw-tainan,臺南 (Tainan),ahkimn/subwaybuilder-tw-maps,subwaybuilder-tw-maps
 map,yukina-tw-taipei,臺北 (Taipei),ahkimn/subwaybuilder-tw-maps,subwaybuilder-tw-maps
 map,yukina-tw-yilan,宜蘭 (Yilan),ahkimn/subwaybuilder-tw-maps,subwaybuilder-tw-maps
+map,moscow-and-oblast,Moscow,akospanov/subwaybuildermaps-russia,subwaybuildermaps-russia
 mod,basedgoat-trains,BasedGoat Trains,arniber21/dantrains-abridged,dantrains-abridged
 mod,anysave,AnySave,barkuperman/anysave,AnySave
 map,jerusalem,Jerusalem,barkuperman/jerusalem-sb-map,jerusalem-sb-map
@@ -176,6 +177,8 @@ map,winnipeg,Winnipeg,devenperez/subway-builder-canadian-maps,subway-builder-can
 map,sofia-bulgaria,Sofia,giannons46/sofia-subway-builder-map,sofia-subway-builder-map
 mod,citymapper,Citymapper,gio1112/subway-builder-citymapper,subway-builder-citymapper
 map,amba,Buenos Aires,hernang87/amba-buenos-aires-metropolitan-area-for-subway-builder,AMBA-Buenos-Aires-Metropolitan-Area-for-Subway-Builder
+map,catt-chile-central,Chile Central,holapapie-png/subwaybuilder-chile-central,subwaybuilder-chile-central
+map,catt-gran-santiago,Gran Santiago,holapapie-png/subwaybuilder-gran-santiago,subwaybuilder-gran-santiago
 mod,tod,Transit-Oriented Development[beta],hsullivan1201/sb-tod,sb-tod
 mod,imb11-moveit,Move It!,imb11/move-it,move-it
 mod,imb11-subwaycine,SubwayCine,imb11/subwaycine,SubwayCine
@@ -196,24 +199,24 @@ map,piura,Piura,kaicardenas0618/subway-builder-peru,subway-builder-peru
 map,trujillo,Trujillo,kaicardenas0618/subway-builder-peru,subway-builder-peru
 map,south-florida,South Florida,kaicardenas0618/subway-builder-sfl,subway-builder-sfl
 map,busan-3,Busan (30km×30km),kimth9/sb_korean_map_pack,sb_korean_map_pack
-map,busan-4,Busan (40km×40km),kimth9/sb_korean_map_pack,sb_korean_map_pack
+map,busan-4,Busan,kimth9/sb_korean_map_pack,sb_korean_map_pack
 map,daegu-3,Daegu (30km×30km),kimth9/sb_korean_map_pack,sb_korean_map_pack
-map,daegu-4,Daegu (40km×40km),kimth9/sb_korean_map_pack,sb_korean_map_pack
+map,daegu-4,Daegu,kimth9/sb_korean_map_pack,sb_korean_map_pack
 map,daejeon-3,Daejeon (30km×30km),kimth9/sb_korean_map_pack,sb_korean_map_pack
-map,daejeon-4,Daejeon (40km×40km),kimth9/sb_korean_map_pack,sb_korean_map_pack
+map,daejeon-4,Daejeon,kimth9/sb_korean_map_pack,sb_korean_map_pack
 map,gwangju-3,Gwangju (30km×30km),kimth9/sb_korean_map_pack,sb_korean_map_pack
-map,gwangju-4,Gwangju (40km×40km),kimth9/sb_korean_map_pack,sb_korean_map_pack
+map,gwangju-4,Gwangju,kimth9/sb_korean_map_pack,sb_korean_map_pack
 map,incheon-3,Incheon (30km×30km),kimth9/sb_korean_map_pack,sb_korean_map_pack
-map,incheon-4,Incheon (40km×40km),kimth9/sb_korean_map_pack,sb_korean_map_pack
+map,incheon-4,Incheon,kimth9/sb_korean_map_pack,sb_korean_map_pack
 map,jeju-3,Jeju (30km×30km),kimth9/sb_korean_map_pack,sb_korean_map_pack
 map,jeju-4,Jeju (40km×40km),kimth9/sb_korean_map_pack,sb_korean_map_pack
-map,jeju-f,Jeju (Full Island),kimth9/sb_korean_map_pack,sb_korean_map_pack
+map,jeju-f,Jeju,kimth9/sb_korean_map_pack,sb_korean_map_pack
 map,sejong-3,Sejong (30km×30km),kimth9/sb_korean_map_pack,sb_korean_map_pack
-map,sejong-4,Sejong (40km×40km),kimth9/sb_korean_map_pack,sb_korean_map_pack
+map,sejong-4,Sejong,kimth9/sb_korean_map_pack,sb_korean_map_pack
 map,seoul-3,Seoul (30km×30km),kimth9/sb_korean_map_pack,sb_korean_map_pack
-map,seoul-4,Seoul (40km×40km),kimth9/sb_korean_map_pack,sb_korean_map_pack
+map,seoul-4,Seoul,kimth9/sb_korean_map_pack,sb_korean_map_pack
 map,ulsan-3,Ulsan (30km×30km),kimth9/sb_korean_map_pack,sb_korean_map_pack
-map,ulsan-4,Ulsan (40km×40km),kimth9/sb_korean_map_pack,sb_korean_map_pack
+map,ulsan-4,Ulsan,kimth9/sb_korean_map_pack,sb_korean_map_pack
 mod,kr-ktp,Korean Transit Pack,kimth9/sb_korean_transit_pack_v2,sb_korean_transit_pack_v2
 map,beijing,Beijing,kronifer/sb-chinese-maps,sb-chinese-maps
 map,chongqing,Chongqing,kronifer/sb-chinese-maps,sb-chinese-maps
@@ -252,12 +255,14 @@ map,pianura-veneta,Pianura Veneta,maximilian284/subwaybuilder-it-maps,subwaybuil
 map,riviera-romagnola,Riviera Romagnola,maximilian284/subwaybuilder-it-maps,subwaybuilder-it-maps
 map,rome,Rome,maximilian284/subwaybuilder-it-maps,subwaybuilder-it-maps
 map,turin,Turin,maximilian284/subwaybuilder-it-maps,subwaybuilder-it-maps
+map,cancun-riviera-maya,Cancun / Riviera Maya,meszier83/subway-builder-mexico-maps,subway-builder-mexico-maps
 map,bucharest-medium,Bucharest,metatablestudios/subwaybuilder-romania,subwaybuilder-romania
 mod,mode-manager,Mode Manager,mpfk/subway-builder-mode-manager,subway-builder-mode-manager
 map,greater-chicagoland,Greater Chicagoland,nerdiesanders/subway-builder-gchi,subway-builder-gchi
 map,springfield-il,"Springfield, IL",nerdiesanders/subway-builder-spi,subway-builder-spi
 mod,noah-great-society,Great Society Metro Train,noahgarrf/great-society-subway-train,Great-Society-Subway-Train
 mod,la-metro-trainpack,LA Metro Trainpack,noahgarrf/la-metro-trainpack,la-metro-trainpack
+mod,unrusted-detroit,Unrusted: Detroit - A Denser Detroit,noahgarrf/unrusted-detroit,unrusted-detroit
 mod,any-money,anyMoney,nzh0172/sb-anymoney,sb-anymoney
 map,bangkok,Bangkok,nzh0172/sb-bangkok,sb-bangkok
 mod,hide-and-seek,Hide+Seek: The Mod [beta],nzh0172/sb-hideandseek,sb-hideandseek

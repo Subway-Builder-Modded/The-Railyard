@@ -67,6 +67,7 @@ map,bucharest-medium,v1.1.1,metatablestudios
 map,bucharest-medium,1.1.3,metatablestudios
 map,buffalo-ny,1.0.0,PSWBSF
 map,busan-3,0.1.0,kimth9
+map,busan-3,v0.1.0,kimth9
 map,busan-3,0.1.1,kimth9
 map,busan-3,0.2.0,kimth9
 map,busan-4,0.1.0,kimth9
@@ -86,6 +87,8 @@ map,calgary,2.1.0,devenperez
 map,cape-town,v1.0.1,worstboyinaustral1a
 map,catania,1.0.0,Maximilian284
 map,catania,1.1.0,Maximilian284
+map,catt-chile-central,v1.0.0,holapapie-png
+map,catt-gran-santiago,v1.0.0,holapapie-png
 map,cdmx-core,1.0.0,rslurry
 map,cdmx-core,1.1.0,rslurry
 map,charleston-huntington-wv,1.0.0,PSWBSF
@@ -1358,6 +1361,7 @@ mod,transit-overlay,v1.5.2,BarKuperman
 mod,transit-overlay,v1.5.3,BarKuperman
 mod,transit-overlay,v1.5.4,BarKuperman
 mod,transit-overlay,v1.5.5,BarKuperman
+mod,unrusted-detroit,1.0.1,NoahGarrf
 mod,valdotoriums-trains,v0.1.3,Valdotorium
 mod,valdotoriums-trains,v0.1.4,Valdotorium
 mod,valdotoriums-trains,v0.1.5,Valdotorium
