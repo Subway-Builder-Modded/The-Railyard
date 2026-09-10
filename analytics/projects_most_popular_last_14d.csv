@@ -1,8 +1,8 @@
 rank,project_key,project_name,author,author_alias,attribution_link,listing_count,download_change,adjusted_download_change,current_total,adjusted_current_total,baseline_total,adjusted_baseline_total,latest_snapshot,baseline_snapshot,map_download_change,adjusted_map_download_change,mod_download_change,adjusted_mod_download_change
-1,ahkimn/subwaybuilder-eu-maps,subwaybuilder-eu-maps,ahkimn,Yukina-,https://subwaybuildermodded.com/credits,74,3225,3225,19430,19430,16205,16205,snapshot_2026_09_10.json,snapshot_2026_08_27.json,3225,3225,0,0
+1,ahkimn/subwaybuilder-eu-maps,subwaybuilder-eu-maps,ahkimn,Yukina-,https://subwaybuildermodded.com/credits,74,3231,3231,19436,19436,16205,16205,snapshot_2026_09_10.json,snapshot_2026_08_27.json,3231,3231,0,0
 2,pierreggt/subwaybuilder-maps-deutschland,subwaybuilder-maps-deutschland,pierreggt,pierreggt,https://github.com/pierreggt,20,1422,1422,1422,1422,0,0,snapshot_2026_09_10.json,snapshot_2026_08_27.json,1422,1422,0,0
 3,ahkimn/subwaybuilder-jp-maps,subwaybuilder-jp-maps,ahkimn,Yukina-,https://subwaybuildermodded.com/credits,48,1118,1118,22648,22648,21530,21530,snapshot_2026_09_10.json,snapshot_2026_08_27.json,1118,1118,0,0
-4,pierreggt/subwaybuilder-maps-france,subwaybuilder-maps-france,pierreggt,pierreggt,https://github.com/pierreggt,35,705,705,4047,4047,3342,3342,snapshot_2026_09_10.json,snapshot_2026_08_27.json,705,705,0,0
+4,pierreggt/subwaybuilder-maps-france,subwaybuilder-maps-france,pierreggt,pierreggt,https://github.com/pierreggt,35,706,706,4048,4048,3342,3342,snapshot_2026_09_10.json,snapshot_2026_08_27.json,706,706,0,0
 5,devenperez/subway-builder-canadian-maps,subway-builder-canadian-maps,subway-builder-modded-admin,Subway Builder Modded,https://subwaybuildermodded.com,8,566,566,11097,11097,10531,10531,snapshot_2026_09_10.json,snapshot_2026_08_27.json,566,566,0,0
 6,rslurry/subwaybuilder-maps,subwaybuilder-maps,rslurry,slurry,https://github.com/rslurry,33,491,491,20012,20012,19521,19521,snapshot_2026_09_10.json,snapshot_2026_08_27.json,491,491,0,0
 7,crumpetime/subway_builder_distance_circles,subway_builder_distance_circles,crumpetime,muffintime,https://github.com/crumpetime,1,448,448,8182,8182,7734,7734,snapshot_2026_09_10.json,snapshot_2026_08_27.json,0,0,448,448
@@ -11,7 +11,7 @@ rank,project_key,project_name,author,author_alias,attribution_link,listing_count
 10,barkuperman/transit-overlay-subway-builder-mod,transit-overlay-subway-builder-mod,BarKuperman,BarKuperman,https://github.com/BarKuperman,1,391,391,5442,5442,5051,5051,snapshot_2026_09_10.json,snapshot_2026_08_27.json,0,0,391,391
 11,barkuperman/subwaybuilder-au-nz-maps,subwaybuilder-au-nz-maps,subway-builder-modded-admin,Subway Builder Modded,https://subwaybuildermodded.com,9,387,387,2463,2463,2076,2076,snapshot_2026_09_10.json,snapshot_2026_08_27.json,387,387,0,0
 12,rexmhall09/subway-builder-performance-mod,Subway-Builder-Performance-Mod,rexmhall09,rexmhall09,https://github.com/rexmhall09,1,380,380,1224,1224,844,844,snapshot_2026_09_10.json,snapshot_2026_08_27.json,0,0,380,380
-13,kronifer/sb-chinese-maps,sb-chinese-maps,Kronifer,Kronifer,https://github.com/Kronifer,6,365,365,6445,6445,6080,6080,snapshot_2026_09_10.json,snapshot_2026_08_27.json,365,365,0,0
+13,kronifer/sb-chinese-maps,sb-chinese-maps,Kronifer,Kronifer,https://github.com/Kronifer,6,367,367,6447,6447,6080,6080,snapshot_2026_09_10.json,snapshot_2026_08_27.json,367,367,0,0
 14,maximilian284/subwaybuilder-es-maps,subwaybuilder-es-maps,Maximilian284,max02,https://github.com/Maximilian284,7,342,342,4875,4875,4533,4533,snapshot_2026_09_10.json,snapshot_2026_08_27.json,342,342,0,0
 15,rmerr1/sb-vienna-map,sb-vienna-map,Rmerr1,Rmerr1,https://github.com/Rmerr1,1,335,335,506,506,171,171,snapshot_2026_09_10.json,snapshot_2026_08_27.json,335,335,0,0
 16,valdotorium/railyard-maps-2,Railyard-Maps-2,Valdotorium,Valdotorium,https://github.com/Valdotorium,4,323,323,5224,5224,4901,4901,snapshot_2026_09_10.json,snapshot_2026_08_27.json,323,323,0,0
@@ -30,8 +30,8 @@ rank,project_key,project_name,author,author_alias,attribution_link,listing_count
 29,barkuperman/orbital-surveyor,orbital-surveyor,BarKuperman,BarKuperman,https://github.com/BarKuperman,1,173,173,2332,2332,2159,2159,snapshot_2026_09_10.json,snapshot_2026_08_27.json,0,0,173,173
 30,ryandicicco/subway-builder-maps,Subway-Builder-Maps,ryandicicco,ryandicicco,https://github.com/ryandicicco,7,169,169,4456,4456,4287,4287,snapshot_2026_09_10.json,snapshot_2026_08_27.json,169,169,0,0
 31,bobby-047/some-new-trains,Some-new-Trains,Bobby-047,Bobby-047,https://github.com/Bobby-047,1,161,161,3717,3717,3556,3556,snapshot_2026_09_10.json,snapshot_2026_08_27.json,0,0,161,161
-32,seanyushoumori/track-anarchy,track-anarchy,seanyushoumori,seanyushoumori,https://github.com/seanyushoumori,1,161,161,1873,1873,1712,1712,snapshot_2026_09_10.json,snapshot_2026_08_27.json,0,0,161,161
-33,rslurry/subwaybuilder-missedconnections,subwaybuilder-missedConnections,rslurry,slurry,https://github.com/rslurry,1,160,160,1896,1896,1736,1736,snapshot_2026_09_10.json,snapshot_2026_08_27.json,0,0,160,160
+32,rslurry/subwaybuilder-missedconnections,subwaybuilder-missedConnections,rslurry,slurry,https://github.com/rslurry,1,161,161,1897,1897,1736,1736,snapshot_2026_09_10.json,snapshot_2026_08_27.json,0,0,161,161
+33,seanyushoumori/track-anarchy,track-anarchy,seanyushoumori,seanyushoumori,https://github.com/seanyushoumori,1,161,161,1873,1873,1712,1712,snapshot_2026_09_10.json,snapshot_2026_08_27.json,0,0,161,161
 34,danielloong714/intercity-hsr-trains,intercity-hsr-trains,danielloong714,danielloong714,https://github.com/danielloong714,1,156,156,267,267,111,111,snapshot_2026_09_10.json,snapshot_2026_08_27.json,0,0,156,156
 35,seanyushoumori/track-visualizer,track-visualizer,seanyushoumori,seanyushoumori,https://github.com/seanyushoumori,1,138,138,2567,2567,2429,2429,snapshot_2026_09_10.json,snapshot_2026_08_27.json,0,0,138,138
 36,seanyushoumori/scrollable-dropdowns,scrollable-dropdowns,seanyushoumori,seanyushoumori,https://github.com/seanyushoumori,1,128,128,1728,1728,1600,1600,snapshot_2026_09_10.json,snapshot_2026_08_27.json,0,0,128,128
@@ -40,12 +40,12 @@ rank,project_key,project_name,author,author_alias,attribution_link,listing_count
 39,crumpetime/sb-maps-hkg,sb-maps-hkg,crumpetime,muffintime,https://github.com/crumpetime,1,115,115,3052,3052,2937,2937,snapshot_2026_09_10.json,snapshot_2026_08_27.json,115,115,0,0
 40,gio1112/subway-builder-citymapper,subway-builder-citymapper,Gio1112,giorgiodabest,https://giorgio.is-a.dev/,1,115,115,2797,2797,2682,2682,snapshot_2026_09_10.json,snapshot_2026_08_27.json,0,0,115,115
 41,kimth9/sb_korean_map_pack,sb_korean_map_pack,kimth9,kimth9,https://github.com/kimth9,19,109,109,8164,8164,8055,8055,snapshot_2026_09_10.json,snapshot_2026_08_27.json,109,109,0,0
-42,hsullivan1201/sb-tod,sb-tod,hsullivan1201,hsullivan1201,https://github.com/hsullivan1201,1,107,107,2613,2613,2506,2506,snapshot_2026_09_10.json,snapshot_2026_08_27.json,0,0,107,107
+42,hsullivan1201/sb-tod,sb-tod,hsullivan1201,hsullivan1201,https://github.com/hsullivan1201,1,109,109,2615,2615,2506,2506,snapshot_2026_09_10.json,snapshot_2026_08_27.json,0,0,109,109
 43,xoaninc/madrid-transit-pack,madrid-transit-pack,xoaninc,xoaninc,https://github.com/xoaninc,1,107,107,177,177,70,70,snapshot_2026_09_10.json,snapshot_2026_08_27.json,0,0,107,107
 44,jelegend/subwaybuilder,subwaybuilder,jelegend,jelegend,https://github.com/jelegend,1,91,91,3769,3769,3678,3678,snapshot_2026_09_10.json,snapshot_2026_08_27.json,91,91,0,0
-45,mpfk/subway-builder-mode-manager,subway-builder-mode-manager,Mpfk,Mpfk,https://github.com/Mpfk,1,90,90,1893,1893,1803,1803,snapshot_2026_09_10.json,snapshot_2026_08_27.json,0,0,90,90
-46,roquerodrigo/subway-builder-map-markers,subway-builder-map-markers,roquerodrigo,roquerodrigo,https://github.com/roquerodrigo,1,88,88,1170,1170,1082,1082,snapshot_2026_09_10.json,snapshot_2026_08_27.json,0,0,88,88
-47,cromstar/subwaybuilder-seoul-map,subwaybuilder-seoul-map,cromstar,cromstar,https://github.com/cromstar,1,88,88,374,374,286,286,snapshot_2026_09_10.json,snapshot_2026_08_27.json,88,88,0,0
+45,mpfk/subway-builder-mode-manager,subway-builder-mode-manager,Mpfk,Mpfk,https://github.com/Mpfk,1,91,91,1894,1894,1803,1803,snapshot_2026_09_10.json,snapshot_2026_08_27.json,0,0,91,91
+46,cromstar/subwaybuilder-seoul-map,subwaybuilder-seoul-map,cromstar,cromstar,https://github.com/cromstar,1,89,89,375,375,286,286,snapshot_2026_09_10.json,snapshot_2026_08_27.json,89,89,0,0
+47,roquerodrigo/subway-builder-map-markers,subway-builder-map-markers,roquerodrigo,roquerodrigo,https://github.com/roquerodrigo,1,88,88,1170,1170,1082,1082,snapshot_2026_09_10.json,snapshot_2026_08_27.json,0,0,88,88
 48,pierreggt/subway-builder-istanbul,subway-builder-istanbul,pierreggt,pierreggt,https://github.com/pierreggt,1,87,87,507,507,420,420,snapshot_2026_09_10.json,snapshot_2026_08_27.json,87,87,0,0
 49,noahgarrf/great-society-subway-train,Great-Society-Subway-Train,NoahGarrf,NoahGarrf,https://github.com/NoahGarrf,1,84,84,84,84,0,0,snapshot_2026_09_10.json,snapshot_2026_08_27.json,0,0,84,84
 50,kronifer/sb-zurich-map,sb-zurich-map,Kronifer,Kronifer,https://github.com/Kronifer,1,71,71,2195,2195,2124,2124,snapshot_2026_09_10.json,snapshot_2026_08_27.json,71,71,0,0
@@ -69,7 +69,7 @@ rank,project_key,project_name,author,author_alias,attribution_link,listing_count
 68,holapapie-png/subwaybuilder-gran-santiago,subwaybuilder-gran-santiago,holapapie-png,holapapie-png,https://github.com/holapapie-png,1,29,29,29,29,0,0,snapshot_2026_09_10.json,snapshot_2026_08_27.json,29,29,0,0
 69,nzh0172/sb-malaysia-map-pack-2,sb-malaysia-map-pack-2,nzh0172,naz,https://github.com/nzh0172,3,28,28,228,228,200,200,snapshot_2026_09_10.json,snapshot_2026_08_27.json,28,28,0,0
 70,giannons46/sofia-subway-builder-map,sofia-subway-builder-map,giannons46,giannons46,https://github.com/giannons46,1,26,26,173,173,147,147,snapshot_2026_09_10.json,snapshot_2026_08_27.json,26,26,0,0
-71,holapapie-png/subwaybuilder-chile-central,subwaybuilder-chile-central,holapapie-png,holapapie-png,https://github.com/holapapie-png,1,21,21,21,21,0,0,snapshot_2026_09_10.json,snapshot_2026_08_27.json,21,21,0,0
+71,holapapie-png/subwaybuilder-chile-central,subwaybuilder-chile-central,holapapie-png,holapapie-png,https://github.com/holapapie-png,1,25,25,25,25,0,0,snapshot_2026_09_10.json,snapshot_2026_08_27.json,25,25,0,0
 72,kaicardenas0618/chinese-trains,chinese-trains,kaicardenas0618,kaicardenas0618,https://github.com/kaicardenas0618,1,19,19,521,521,502,502,snapshot_2026_09_10.json,snapshot_2026_08_27.json,0,0,19,19
 73,worstboyinaustral1a/subway-builder-za,subway-builder-za,worstboyinaustral1a,worstboyinaustral1a,https://github.com/worstboyinaustral1a,1,19,19,371,371,352,352,snapshot_2026_09_10.json,snapshot_2026_08_27.json,19,19,0,0
 74,pierreggt/subway-builder-ankara,subway-builder-ankara,pierreggt,pierreggt,https://github.com/pierreggt,1,19,19,140,140,121,121,snapshot_2026_09_10.json,snapshot_2026_08_27.json,19,19,0,0
@@ -114,9 +114,9 @@ rank,project_key,project_name,author,author_alias,attribution_link,listing_count
 113,crumpetime/sb-maps-rsw,sb-maps-rsw,crumpetime,muffintime,https://github.com/crumpetime,1,7,7,74,74,67,67,snapshot_2026_09_10.json,snapshot_2026_08_27.json,7,7,0,0
 114,nzh0172/sb-bangkok,sb-bangkok,nzh0172,naz,https://github.com/nzh0172,1,5,5,383,383,378,378,snapshot_2026_09_10.json,snapshot_2026_08_27.json,5,5,0,0
 115,tathandev/tathancasino,TathanCasino,TathanDev,TathanDev,https://github.com/TathanDev,1,4,4,213,213,209,209,snapshot_2026_09_10.json,snapshot_2026_08_27.json,0,0,4,4
-116,metatablestudios/subwaybuilder-romania,subwaybuilder-romania,metatablestudios,metatablestudios,https://github.com/metatablestudios,1,3,3,314,314,311,311,snapshot_2026_09_10.json,snapshot_2026_08_27.json,3,3,0,0
-117,rslurry/subwaybuilder-pauseonstart,subwaybuilder-pauseOnStart,rslurry,slurry,https://github.com/rslurry,1,3,3,226,226,223,223,snapshot_2026_09_10.json,snapshot_2026_08_27.json,0,0,3,3
-118,noahgarrf/unrusted-detroit,unrusted-detroit,NoahGarrf,NoahGarrf,https://github.com/NoahGarrf,1,3,3,3,3,0,0,snapshot_2026_09_10.json,snapshot_2026_08_27.json,0,0,3,3
+116,noahgarrf/unrusted-detroit,unrusted-detroit,NoahGarrf,NoahGarrf,https://github.com/NoahGarrf,1,4,4,4,4,0,0,snapshot_2026_09_10.json,snapshot_2026_08_27.json,0,0,4,4
+117,metatablestudios/subwaybuilder-romania,subwaybuilder-romania,metatablestudios,metatablestudios,https://github.com/metatablestudios,1,3,3,314,314,311,311,snapshot_2026_09_10.json,snapshot_2026_08_27.json,3,3,0,0
+118,rslurry/subwaybuilder-pauseonstart,subwaybuilder-pauseOnStart,rslurry,slurry,https://github.com/rslurry,1,3,3,226,226,223,223,snapshot_2026_09_10.json,snapshot_2026_08_27.json,0,0,3,3
 119,pswbsf/pyongyang-nk,pyongyang-nk,PSWBSF,Potato Spaghetti Water Balloon Space Federation,https://youtu.be/dQw4w9WgXcQ?t=0,1,2,2,158,158,156,156,snapshot_2026_09_10.json,snapshot_2026_08_27.json,2,2,0,0
 120,lechicken-nyc/greater-new-york,greater-new-york,chasemanning040911-afk,lechicken,https://github.com/chasemanning040911-afk,1,1,1,380,380,379,379,snapshot_2026_09_10.json,snapshot_2026_08_27.json,1,1,0,0
 121,stefanorigano/advanced_analytics,advanced_analytics,stefanorigano,Steno,https://github.com/stefanorigano,1,0,0,13939,13939,13939,13939,snapshot_2026_09_10.json,snapshot_2026_08_27.json,0,0,0,0

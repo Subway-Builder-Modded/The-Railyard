@@ -1,7 +1,7 @@
 {
   "schema_version": 4,
   "guild_id": "1476290196139147376",
-  "updated_at": "2026-09-10T04:02:50.488Z",
+  "updated_at": "2026-09-10T06:09:01.426Z",
   "snapshots": {
     "2026-04-16T03:00:00.000Z": {
       "captured_at": "2026-04-16T03:00:00.000Z",
@@ -1191,6 +1191,14 @@
       "captured_at": "2026-09-10T04:00:00.000Z",
       "total_users": 2015,
       "online_users": 240,
+      "total_messages": null,
+      "public_total_messages": null,
+      "private_total_messages": null
+    },
+    "2026-09-10T06:00:00.000Z": {
+      "captured_at": "2026-09-10T06:00:00.000Z",
+      "total_users": 2015,
+      "online_users": 196,
       "total_messages": null,
       "public_total_messages": null,
       "private_total_messages": null
