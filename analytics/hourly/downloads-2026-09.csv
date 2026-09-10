@@ -9554,3 +9554,17 @@ bucket_utc,listing_type,id,downloads
 2026-09-10T09:00Z,mod,madrid-transit-pack,1
 2026-09-10T09:00Z,mod,neighborhood-station-names,1
 2026-09-10T09:00Z,mod,network-status,1
+2026-09-10T10:00Z,map,beijing,1
+2026-09-10T10:00Z,map,catt-chile-central,2
+2026-09-10T10:00Z,map,catt-gran-santiago,2
+2026-09-10T10:00Z,map,chongqing,1
+2026-09-10T10:00Z,map,guangzhou,2
+2026-09-10T10:00Z,map,mfn-hong-kong,2
+2026-09-10T10:00Z,map,milan,1
+2026-09-10T10:00Z,map,rhein-main-neckar,1
+2026-09-10T10:00Z,map,rome,1
+2026-09-10T10:00Z,map,shanghai,3
+2026-09-10T10:00Z,map,singapore-val,1
+2026-09-10T10:00Z,mod,lrt-trains,1
+2026-09-10T10:00Z,mod,scrollable-dropdowns,1
+2026-09-10T10:00Z,mod,track-anarchy,1
