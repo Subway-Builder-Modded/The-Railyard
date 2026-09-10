@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
   "zone_tag": "436c0657e9f4ae2256e5ffb96122273a",
-  "generated_at": "2026-09-10T09:01:24.760Z",
+  "generated_at": "2026-09-10T10:01:20.595Z",
   "valid_paths": [
     "/",
     "/404.html",
@@ -2235,11 +2235,11 @@
   "path_aliases": {},
   "summary": {
     "latest_day": "2026-09-10",
-    "latest_hour": "2026-09-10T09:00:00.000Z",
+    "latest_hour": "2026-09-10T10:00:00.000Z",
     "total_days": 147,
-    "total_hours": 2495,
-    "latest_day_visits": 25,
-    "latest_hour_visits": 0
+    "total_hours": 2496,
+    "latest_day_visits": 26,
+    "latest_hour_visits": 1
   },
   "time_series": {
     "by_day": [
@@ -2829,7 +2829,7 @@
       },
       {
         "date": "2026-09-10",
-        "visits": 25
+        "visits": 26
       }
     ],
     "by_hour": [
@@ -12812,6 +12812,10 @@
       {
         "hour": "2026-09-10T09:00:00.000Z",
         "visits": 0
+      },
+      {
+        "hour": "2026-09-10T10:00:00.000Z",
+        "visits": 1
       }
     ]
   },
@@ -34755,14 +34759,14 @@
       }
     },
     "2026-09-10": {
-      "captured_at": "2026-09-10T09:01:22.430Z",
+      "captured_at": "2026-09-10T10:01:18.479Z",
       "window_start": "2026-09-10T00:00:00.000Z",
-      "window_end": "2026-09-10T10:00:00.000Z",
+      "window_end": "2026-09-10T11:00:00.000Z",
       "totals": {
-        "visits": 25
+        "visits": 26
       },
       "pages": {
-        "/": 9,
+        "/": 10,
         "/railyard": 3,
         "/registry/maps/opo-pt-metropolitan": 1,
         "/registry/maps/toronto": 1,
@@ -34781,6 +34785,7 @@
       "countries": {
         "CA": 1,
         "LT": 1,
+        "SG": 1,
         "US": 22
       },
       "browsers": {
@@ -34790,17 +34795,17 @@
         "GoogleBot": 7,
         "MobileSafari": 1,
         "Opera": 1,
-        "Unknown": 11
+        "Unknown": 12
       },
       "operating_systems": {
         "Android": 8,
         "Linux": 1,
-        "Unknown": 13,
+        "Unknown": 14,
         "Windows": 1,
         "iOS": 1
       },
       "devices": {
-        "desktop": 16,
+        "desktop": 17,
         "mobile": 9
       }
     }
