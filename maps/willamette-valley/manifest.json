@@ -41,14 +41,7 @@
     "airports",
     "universities"
   ],
-  "file_sizes": {
-    "WMV.pmtiles": 192.63,
-    "buildings_index.json": 401.57,
-    "config.json": 0,
-    "demand_data.json": 34.27,
-    "roads.geojson": 63.63,
-    "runways_taxiways.geojson": 2.95
-  },
+  "file_sizes": {},
   "grid_statistics": {
     "residentWeightedNearestNeighborKm": {
       "p10": 0.33226084951486334,

@@ -35,15 +35,7 @@
   "level_of_detail": "low-detail",
   "location": "southeast-asia",
   "special_demand": [],
-  "file_sizes": {
-    "PEN.pmtiles": 14.91,
-    "buildings_index.json": 15.79,
-    "config.json": 0,
-    "demand_data.json": 1.47,
-    "ocean_depth_index.json": 1.6,
-    "roads.geojson": 19.63,
-    "runways_taxiways.geojson": 0.24
-  },
+  "file_sizes": {},
   "grid_statistics": {
     "residentWeightedNearestNeighborKm": {
       "p10": 0.16032748774302732,
