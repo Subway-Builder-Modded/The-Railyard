@@ -1,11 +1,11 @@
 {
   "schema_version": 2,
-  "updated_at": "2026-09-10T05:09:13.429Z",
+  "updated_at": "2026-09-10T05:12:08.223Z",
   "sources": {
     "repo:ahkimn/subwaybuilder-eu-maps": {
       "kind": "repo",
-      "first_unreachable_at": "2026-09-10T05:09:13.429Z",
-      "last_checked_at": "2026-09-10T05:09:13.429Z",
+      "first_unreachable_at": "2026-09-10T05:12:08.223Z",
+      "last_checked_at": "2026-09-10T05:12:08.223Z",
       "listings": [
         "yukina-bydgoszcz-torun",
         "yukina-cz-brno",
@@ -85,8 +85,8 @@
     },
     "repo:ahkimn/subwaybuilder-jp-maps": {
       "kind": "repo",
-      "first_unreachable_at": "2026-09-10T05:09:13.429Z",
-      "last_checked_at": "2026-09-10T05:09:13.429Z",
+      "first_unreachable_at": "2026-09-10T05:12:08.223Z",
+      "last_checked_at": "2026-09-10T05:12:08.223Z",
       "listings": [
         "yukina-akita",
         "yukina-asahikawa",
@@ -140,8 +140,8 @@
     },
     "repo:ahkimn/subwaybuilder-tw-maps": {
       "kind": "repo",
-      "first_unreachable_at": "2026-09-10T05:09:13.429Z",
-      "last_checked_at": "2026-09-10T05:09:13.429Z",
+      "first_unreachable_at": "2026-09-10T05:12:08.223Z",
+      "last_checked_at": "2026-09-10T05:12:08.223Z",
       "listings": [
         "yukina-tw-chiayi",
         "yukina-tw-hsinchu",
@@ -156,24 +156,24 @@
     },
     "repo:akospanov/subwaybuildermaps-russia": {
       "kind": "repo",
-      "first_unreachable_at": "2026-09-10T05:09:13.429Z",
-      "last_checked_at": "2026-09-10T05:09:13.429Z",
+      "first_unreachable_at": "2026-09-10T05:12:08.223Z",
+      "last_checked_at": "2026-09-10T05:12:08.223Z",
       "listings": [
         "moscow-and-oblast"
       ]
     },
     "repo:barkuperman/jerusalem-sb-map": {
       "kind": "repo",
-      "first_unreachable_at": "2026-09-10T05:09:13.429Z",
-      "last_checked_at": "2026-09-10T05:09:13.429Z",
+      "first_unreachable_at": "2026-09-10T05:12:08.223Z",
+      "last_checked_at": "2026-09-10T05:12:08.223Z",
       "listings": [
         "jerusalem"
       ]
     },
     "repo:barkuperman/subwaybuilder-au-nz-maps": {
       "kind": "repo",
-      "first_unreachable_at": "2026-09-10T05:09:13.429Z",
-      "last_checked_at": "2026-09-10T05:09:13.429Z",
+      "first_unreachable_at": "2026-09-10T05:12:08.223Z",
+      "last_checked_at": "2026-09-10T05:12:08.223Z",
       "listings": [
         "au-adelaide",
         "au-brisbane",
@@ -188,72 +188,72 @@
     },
     "repo:barkuperman/tlv-mod": {
       "kind": "repo",
-      "first_unreachable_at": "2026-09-10T05:09:13.429Z",
-      "last_checked_at": "2026-09-10T05:09:13.429Z",
+      "first_unreachable_at": "2026-09-10T05:12:08.223Z",
+      "last_checked_at": "2026-09-10T05:12:08.223Z",
       "listings": [
         "tel-aviv"
       ]
     },
     "repo:bquelhas/subwaybuilder-map-opo": {
       "kind": "repo",
-      "first_unreachable_at": "2026-09-10T05:09:13.429Z",
-      "last_checked_at": "2026-09-10T05:09:13.429Z",
+      "first_unreachable_at": "2026-09-10T05:12:08.223Z",
+      "last_checked_at": "2026-09-10T05:12:08.223Z",
       "listings": [
         "opo-pt-metropolitan"
       ]
     },
     "repo:cromstar/subwaybuilder-seoul-map": {
       "kind": "repo",
-      "first_unreachable_at": "2026-09-10T05:09:13.429Z",
-      "last_checked_at": "2026-09-10T05:09:13.429Z",
+      "first_unreachable_at": "2026-09-10T05:12:08.223Z",
+      "last_checked_at": "2026-09-10T05:12:08.223Z",
       "listings": [
         "seoul"
       ]
     },
     "repo:crumpetime/sb-maps-hkg": {
       "kind": "repo",
-      "first_unreachable_at": "2026-09-10T05:09:13.429Z",
-      "last_checked_at": "2026-09-10T05:09:13.429Z",
+      "first_unreachable_at": "2026-09-10T05:12:08.223Z",
+      "last_checked_at": "2026-09-10T05:12:08.223Z",
       "listings": [
         "mfn-hong-kong"
       ]
     },
     "repo:crumpetime/sb-maps-las": {
       "kind": "repo",
-      "first_unreachable_at": "2026-09-10T05:09:13.429Z",
-      "last_checked_at": "2026-09-10T05:09:13.429Z",
+      "first_unreachable_at": "2026-09-10T05:12:08.223Z",
+      "last_checked_at": "2026-09-10T05:12:08.223Z",
       "listings": [
         "mfn-lasvegas"
       ]
     },
     "repo:crumpetime/sb-maps-orf": {
       "kind": "repo",
-      "first_unreachable_at": "2026-09-10T05:09:13.429Z",
-      "last_checked_at": "2026-09-10T05:09:13.429Z",
+      "first_unreachable_at": "2026-09-10T05:12:08.223Z",
+      "last_checked_at": "2026-09-10T05:12:08.223Z",
       "listings": [
         "mfn-hamptonroads"
       ]
     },
     "repo:crumpetime/sb-maps-rsw": {
       "kind": "repo",
-      "first_unreachable_at": "2026-09-10T05:09:13.429Z",
-      "last_checked_at": "2026-09-10T05:09:13.429Z",
+      "first_unreachable_at": "2026-09-10T05:12:08.223Z",
+      "last_checked_at": "2026-09-10T05:12:08.223Z",
       "listings": [
         "mfn-rsw"
       ]
     },
     "repo:danield1909/improvedtwincities": {
       "kind": "repo",
-      "first_unreachable_at": "2026-09-10T05:09:13.429Z",
-      "last_checked_at": "2026-09-10T05:09:13.429Z",
+      "first_unreachable_at": "2026-09-10T05:12:08.223Z",
+      "last_checked_at": "2026-09-10T05:12:08.223Z",
       "listings": [
         "greatertwincities"
       ]
     },
     "repo:devenperez/subway-builder-canadian-maps": {
       "kind": "repo",
-      "first_unreachable_at": "2026-09-10T05:09:13.429Z",
-      "last_checked_at": "2026-09-10T05:09:13.429Z",
+      "first_unreachable_at": "2026-09-10T05:12:08.223Z",
+      "last_checked_at": "2026-09-10T05:12:08.223Z",
       "listings": [
         "calgary",
         "edmonton",
@@ -267,72 +267,72 @@
     },
     "repo:giannons46/sofia-subway-builder-map": {
       "kind": "repo",
-      "first_unreachable_at": "2026-09-10T05:09:13.429Z",
-      "last_checked_at": "2026-09-10T05:09:13.429Z",
+      "first_unreachable_at": "2026-09-10T05:12:08.223Z",
+      "last_checked_at": "2026-09-10T05:12:08.223Z",
       "listings": [
         "sofia-bulgaria"
       ]
     },
     "repo:hernang87/amba-buenos-aires-metropolitan-area-for-subway-builder": {
       "kind": "repo",
-      "first_unreachable_at": "2026-09-10T05:09:13.429Z",
-      "last_checked_at": "2026-09-10T05:09:13.429Z",
+      "first_unreachable_at": "2026-09-10T05:12:08.223Z",
+      "last_checked_at": "2026-09-10T05:12:08.223Z",
       "listings": [
         "amba"
       ]
     },
     "repo:holapapie-png/subwaybuilder-chile-central": {
       "kind": "repo",
-      "first_unreachable_at": "2026-09-10T05:09:13.429Z",
-      "last_checked_at": "2026-09-10T05:09:13.429Z",
+      "first_unreachable_at": "2026-09-10T05:12:08.223Z",
+      "last_checked_at": "2026-09-10T05:12:08.223Z",
       "listings": [
         "catt-chile-central"
       ]
     },
     "repo:holapapie-png/subwaybuilder-gran-santiago": {
       "kind": "repo",
-      "first_unreachable_at": "2026-09-10T05:09:13.429Z",
-      "last_checked_at": "2026-09-10T05:09:13.429Z",
+      "first_unreachable_at": "2026-09-10T05:12:08.223Z",
+      "last_checked_at": "2026-09-10T05:12:08.223Z",
       "listings": [
         "catt-gran-santiago"
       ]
     },
     "repo:jaytotheay/subwaybuilder-map": {
       "kind": "repo",
-      "first_unreachable_at": "2026-09-10T05:09:13.429Z",
-      "last_checked_at": "2026-09-10T05:09:13.429Z",
+      "first_unreachable_at": "2026-09-10T05:12:08.223Z",
+      "last_checked_at": "2026-09-10T05:12:08.223Z",
       "listings": [
         "mississippi"
       ]
     },
     "repo:jcpires/subway-builder-idf": {
       "kind": "repo",
-      "first_unreachable_at": "2026-09-10T05:09:13.429Z",
-      "last_checked_at": "2026-09-10T05:09:13.429Z",
+      "first_unreachable_at": "2026-09-10T05:12:08.223Z",
+      "last_checked_at": "2026-09-10T05:12:08.223Z",
       "listings": [
         "ile-de-france"
       ]
     },
     "repo:jelegend/subwaybuilder": {
       "kind": "repo",
-      "first_unreachable_at": "2026-09-10T05:09:13.429Z",
-      "last_checked_at": "2026-09-10T05:09:13.429Z",
+      "first_unreachable_at": "2026-09-10T05:12:08.223Z",
+      "last_checked_at": "2026-09-10T05:12:08.223Z",
       "listings": [
         "jelegend-tokyo"
       ]
     },
     "repo:kaicardenas0618/subway-builder-sfl": {
       "kind": "repo",
-      "first_unreachable_at": "2026-09-10T05:09:13.429Z",
-      "last_checked_at": "2026-09-10T05:09:13.429Z",
+      "first_unreachable_at": "2026-09-10T05:12:08.223Z",
+      "last_checked_at": "2026-09-10T05:12:08.223Z",
       "listings": [
         "south-florida"
       ]
     },
     "repo:kimth9/sb_korean_map_pack": {
       "kind": "repo",
-      "first_unreachable_at": "2026-09-10T05:09:13.429Z",
-      "last_checked_at": "2026-09-10T05:09:13.429Z",
+      "first_unreachable_at": "2026-09-10T05:12:08.223Z",
+      "last_checked_at": "2026-09-10T05:12:08.223Z",
       "listings": [
         "busan-4",
         "daegu-4",
@@ -347,8 +347,8 @@
     },
     "repo:kronifer/sb-chinese-maps": {
       "kind": "repo",
-      "first_unreachable_at": "2026-09-10T05:09:13.429Z",
-      "last_checked_at": "2026-09-10T05:09:13.429Z",
+      "first_unreachable_at": "2026-09-10T05:12:08.223Z",
+      "last_checked_at": "2026-09-10T05:12:08.223Z",
       "listings": [
         "beijing",
         "chongqing",
@@ -360,32 +360,32 @@
     },
     "repo:kronifer/sb-zurich-map": {
       "kind": "repo",
-      "first_unreachable_at": "2026-09-10T05:09:13.429Z",
-      "last_checked_at": "2026-09-10T05:09:13.429Z",
+      "first_unreachable_at": "2026-09-10T05:12:08.223Z",
+      "last_checked_at": "2026-09-10T05:12:08.223Z",
       "listings": [
         "zurich"
       ]
     },
     "repo:lechicken-nyc/greater-new-york": {
       "kind": "repo",
-      "first_unreachable_at": "2026-09-10T05:09:13.429Z",
-      "last_checked_at": "2026-09-10T05:09:13.429Z",
+      "first_unreachable_at": "2026-09-10T05:12:08.223Z",
+      "last_checked_at": "2026-09-10T05:12:08.223Z",
       "listings": [
         "greater-newyork"
       ]
     },
     "repo:lexenygma/sb-brussels": {
       "kind": "repo",
-      "first_unreachable_at": "2026-09-10T05:09:13.429Z",
-      "last_checked_at": "2026-09-10T05:09:13.429Z",
+      "first_unreachable_at": "2026-09-10T05:12:08.223Z",
+      "last_checked_at": "2026-09-10T05:12:08.223Z",
       "listings": [
         "brussels"
       ]
     },
     "repo:maximilian284/subwaybuilder-es-maps": {
       "kind": "repo",
-      "first_unreachable_at": "2026-09-10T05:09:13.429Z",
-      "last_checked_at": "2026-09-10T05:09:13.429Z",
+      "first_unreachable_at": "2026-09-10T05:12:08.223Z",
+      "last_checked_at": "2026-09-10T05:12:08.223Z",
       "listings": [
         "alicante",
         "barcelona",
@@ -398,8 +398,8 @@
     },
     "repo:maximilian284/subwaybuilder-it-maps": {
       "kind": "repo",
-      "first_unreachable_at": "2026-09-10T05:09:13.429Z",
-      "last_checked_at": "2026-09-10T05:09:13.429Z",
+      "first_unreachable_at": "2026-09-10T05:12:08.223Z",
+      "last_checked_at": "2026-09-10T05:12:08.223Z",
       "listings": [
         "bari",
         "bologna",
@@ -419,104 +419,104 @@
     },
     "repo:meszier83/subway-builder-mexico-maps": {
       "kind": "repo",
-      "first_unreachable_at": "2026-09-10T05:09:13.429Z",
-      "last_checked_at": "2026-09-10T05:09:13.429Z",
+      "first_unreachable_at": "2026-09-10T05:12:08.223Z",
+      "last_checked_at": "2026-09-10T05:12:08.223Z",
       "listings": [
         "cancun-riviera-maya"
       ]
     },
     "repo:metatablestudios/subwaybuilder-romania": {
       "kind": "repo",
-      "first_unreachable_at": "2026-09-10T05:09:13.429Z",
-      "last_checked_at": "2026-09-10T05:09:13.429Z",
+      "first_unreachable_at": "2026-09-10T05:12:08.223Z",
+      "last_checked_at": "2026-09-10T05:12:08.223Z",
       "listings": [
         "bucharest-medium"
       ]
     },
     "repo:nerdiesanders/subway-builder-gchi": {
       "kind": "repo",
-      "first_unreachable_at": "2026-09-10T05:09:13.429Z",
-      "last_checked_at": "2026-09-10T05:09:13.429Z",
+      "first_unreachable_at": "2026-09-10T05:12:08.223Z",
+      "last_checked_at": "2026-09-10T05:12:08.223Z",
       "listings": [
         "greater-chicagoland"
       ]
     },
     "repo:nerdiesanders/subway-builder-spi": {
       "kind": "repo",
-      "first_unreachable_at": "2026-09-10T05:09:13.429Z",
-      "last_checked_at": "2026-09-10T05:09:13.429Z",
+      "first_unreachable_at": "2026-09-10T05:12:08.223Z",
+      "last_checked_at": "2026-09-10T05:12:08.223Z",
       "listings": [
         "springfield-il"
       ]
     },
     "repo:nzh0172/sb-bangkok": {
       "kind": "repo",
-      "first_unreachable_at": "2026-09-10T05:09:13.429Z",
-      "last_checked_at": "2026-09-10T05:09:13.429Z",
+      "first_unreachable_at": "2026-09-10T05:12:08.223Z",
+      "last_checked_at": "2026-09-10T05:12:08.223Z",
       "listings": [
         "bangkok"
       ]
     },
     "repo:nzh0172/sb-malaysia-map-pack": {
       "kind": "repo",
-      "first_unreachable_at": "2026-09-10T05:09:13.429Z",
-      "last_checked_at": "2026-09-10T05:09:13.429Z",
+      "first_unreachable_at": "2026-09-10T05:12:08.223Z",
+      "last_checked_at": "2026-09-10T05:12:08.223Z",
       "listings": [
         "greater-kuala-lumpur"
       ]
     },
     "repo:nzh0172/sb-malaysia-map-pack-2": {
       "kind": "repo",
-      "first_unreachable_at": "2026-09-10T05:09:13.429Z",
-      "last_checked_at": "2026-09-10T05:09:13.429Z",
+      "first_unreachable_at": "2026-09-10T05:12:08.223Z",
+      "last_checked_at": "2026-09-10T05:12:08.223Z",
       "listings": [
         "ipoh"
       ]
     },
     "repo:pierreggt/subway-builder-ankara": {
       "kind": "repo",
-      "first_unreachable_at": "2026-09-10T05:09:13.429Z",
-      "last_checked_at": "2026-09-10T05:09:13.429Z",
+      "first_unreachable_at": "2026-09-10T05:12:08.223Z",
+      "last_checked_at": "2026-09-10T05:12:08.223Z",
       "listings": [
         "ankara"
       ]
     },
     "repo:pierreggt/subway-builder-antalya": {
       "kind": "repo",
-      "first_unreachable_at": "2026-09-10T05:09:13.429Z",
-      "last_checked_at": "2026-09-10T05:09:13.429Z",
+      "first_unreachable_at": "2026-09-10T05:12:08.223Z",
+      "last_checked_at": "2026-09-10T05:12:08.223Z",
       "listings": [
         "antalya"
       ]
     },
     "repo:pierreggt/subway-builder-bordeaux": {
       "kind": "repo",
-      "first_unreachable_at": "2026-09-10T05:09:13.429Z",
-      "last_checked_at": "2026-09-10T05:09:13.429Z",
+      "first_unreachable_at": "2026-09-10T05:12:08.223Z",
+      "last_checked_at": "2026-09-10T05:12:08.223Z",
       "listings": [
         "bordeaux-arcachon-libourne"
       ]
     },
     "repo:pierreggt/subway-builder-istanbul": {
       "kind": "repo",
-      "first_unreachable_at": "2026-09-10T05:09:13.429Z",
-      "last_checked_at": "2026-09-10T05:09:13.429Z",
+      "first_unreachable_at": "2026-09-10T05:12:08.223Z",
+      "last_checked_at": "2026-09-10T05:12:08.223Z",
       "listings": [
         "istanbul"
       ]
     },
     "repo:pierreggt/subway-builder-nice": {
       "kind": "repo",
-      "first_unreachable_at": "2026-09-10T05:09:13.429Z",
-      "last_checked_at": "2026-09-10T05:09:13.429Z",
+      "first_unreachable_at": "2026-09-10T05:12:08.223Z",
+      "last_checked_at": "2026-09-10T05:12:08.223Z",
       "listings": [
         "nice-cote-d-azur"
       ]
     },
     "repo:pierreggt/subwaybuilder-maps": {
       "kind": "repo",
-      "first_unreachable_at": "2026-09-10T05:09:13.429Z",
-      "last_checked_at": "2026-09-10T05:09:13.429Z",
+      "first_unreachable_at": "2026-09-10T05:12:08.223Z",
+      "last_checked_at": "2026-09-10T05:12:08.223Z",
       "listings": [
         "abu-dhabi",
         "aleppo",
@@ -538,8 +538,8 @@
     },
     "repo:pierreggt/subwaybuilder-maps-deutschland": {
       "kind": "repo",
-      "first_unreachable_at": "2026-09-10T05:09:13.429Z",
-      "last_checked_at": "2026-09-10T05:09:13.429Z",
+      "first_unreachable_at": "2026-09-10T05:12:08.223Z",
+      "last_checked_at": "2026-09-10T05:12:08.223Z",
       "listings": [
         "aachen",
         "augsburg",
@@ -565,8 +565,8 @@
     },
     "repo:pierreggt/subwaybuilder-maps-france": {
       "kind": "repo",
-      "first_unreachable_at": "2026-09-10T05:09:13.429Z",
-      "last_checked_at": "2026-09-10T05:09:13.429Z",
+      "first_unreachable_at": "2026-09-10T05:12:08.223Z",
+      "last_checked_at": "2026-09-10T05:12:08.223Z",
       "listings": [
         "amiens",
         "angers",
@@ -607,16 +607,16 @@
     },
     "repo:rmerr1/sb-vienna-map": {
       "kind": "repo",
-      "first_unreachable_at": "2026-09-10T05:09:13.429Z",
-      "last_checked_at": "2026-09-10T05:09:13.429Z",
+      "first_unreachable_at": "2026-09-10T05:12:08.223Z",
+      "last_checked_at": "2026-09-10T05:12:08.223Z",
       "listings": [
         "vienna"
       ]
     },
     "repo:rslurry/subwaybuilder-maps": {
       "kind": "repo",
-      "first_unreachable_at": "2026-09-10T05:09:13.429Z",
-      "last_checked_at": "2026-09-10T05:09:13.429Z",
+      "first_unreachable_at": "2026-09-10T05:12:08.223Z",
+      "last_checked_at": "2026-09-10T05:12:08.223Z",
       "listings": [
         "baltimore-dc-corridor",
         "bergen-stavanger-no",
@@ -655,8 +655,8 @@
     },
     "repo:ryandicicco/subway-builder-maps": {
       "kind": "repo",
-      "first_unreachable_at": "2026-09-10T05:09:13.429Z",
-      "last_checked_at": "2026-09-10T05:09:13.429Z",
+      "first_unreachable_at": "2026-09-10T05:12:08.223Z",
+      "last_checked_at": "2026-09-10T05:12:08.223Z",
       "listings": [
         "amsterdam",
         "cairo",
@@ -669,8 +669,8 @@
     },
     "repo:valdotorium/railyard-maps-2": {
       "kind": "repo",
-      "first_unreachable_at": "2026-09-10T05:09:13.429Z",
-      "last_checked_at": "2026-09-10T05:09:13.429Z",
+      "first_unreachable_at": "2026-09-10T05:12:08.223Z",
+      "last_checked_at": "2026-09-10T05:12:08.223Z",
       "listings": [
         "berlin-val",
         "singapore-val",
@@ -680,16 +680,16 @@
     },
     "repo:willbarouch/subwaybuilder-sydney": {
       "kind": "repo",
-      "first_unreachable_at": "2026-09-10T05:09:13.429Z",
-      "last_checked_at": "2026-09-10T05:09:13.429Z",
+      "first_unreachable_at": "2026-09-10T05:12:08.223Z",
+      "last_checked_at": "2026-09-10T05:12:08.223Z",
       "listings": [
         "sydney"
       ]
     },
     "repo:worstboyinaustral1a/subway-builder-za": {
       "kind": "repo",
-      "first_unreachable_at": "2026-09-10T05:09:13.429Z",
-      "last_checked_at": "2026-09-10T05:09:13.429Z",
+      "first_unreachable_at": "2026-09-10T05:12:08.223Z",
+      "last_checked_at": "2026-09-10T05:12:08.223Z",
       "listings": [
         "cape-town"
       ]
