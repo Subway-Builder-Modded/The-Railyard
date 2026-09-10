@@ -1,0 +1,12 @@
+{
+  "schema_version": 1,
+  "snapshot_date": "2026_09_10",
+  "generated_at": "2026-09-10T04:02:49.759Z",
+  "source_ledger_updated_at": "2026-09-10T00:17:30.205Z",
+  "total_attributed_fetches": 21616,
+  "net_attributed_fetches": 92,
+  "daily_attributed_fetches": 1,
+  "assets_daily": {
+    "worstboyinaustral1a/subway-builder-za@cpt-1.0.2/cpt_v1.0.2.zip#RA_kwDOTRwM6c4dF0ps": 1
+  }
+}
