@@ -9526,3 +9526,16 @@ bucket_utc,listing_type,id,downloads
 2026-09-10T07:00Z,map,ciudad-de-mexico,1
 2026-09-10T07:00Z,map,vancouver,1
 2026-09-10T07:00Z,map,yukina-cz-praha,1
+2026-09-10T08:00Z,map,au-adelaide,1
+2026-09-10T08:00Z,map,bonn-koeln,1
+2026-09-10T08:00Z,map,hamburg,1
+2026-09-10T08:00Z,map,magdeburg,1
+2026-09-10T08:00Z,map,muenchen,1
+2026-09-10T08:00Z,map,rhein-main-neckar,1
+2026-09-10T08:00Z,map,ruhrgebiet,1
+2026-09-10T08:00Z,map,yukina-ua-odesa,1
+2026-09-10T08:00Z,mod,auto-lines,1
+2026-09-10T08:00Z,mod,cinematic-camera,1
+2026-09-10T08:00Z,mod,network-status,1
+2026-09-10T08:00Z,mod,tod,2
+2026-09-10T08:00Z,mod,track-visualizer,2
