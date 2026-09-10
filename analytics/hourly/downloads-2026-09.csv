@@ -9449,9 +9449,9 @@ bucket_utc,listing_type,id,downloads
 2026-09-10T04:00Z,mod,citymapper,1
 2026-09-10T04:00Z,mod,copy-paste,1
 2026-09-10T04:00Z,mod,danield1909-realism-pathfinding,1
-2026-09-10T04:00Z,mod,dantrains-abridged,1
+2026-09-10T04:00Z,mod,dantrains-abridged,2
 2026-09-10T04:00Z,mod,demand-clusters,1
-2026-09-10T04:00Z,mod,distance-circles,1
+2026-09-10T04:00Z,mod,distance-circles,2
 2026-09-10T04:00Z,mod,game-speedup,1
 2026-09-10T04:00Z,mod,hide-and-seek,1
 2026-09-10T04:00Z,mod,improved-schematics,1
@@ -9481,7 +9481,7 @@ bucket_utc,listing_type,id,downloads
 2026-09-10T04:00Z,mod,tathan-casino,1
 2026-09-10T04:00Z,mod,tod,1
 2026-09-10T04:00Z,mod,track-anarchy,1
-2026-09-10T04:00Z,mod,track-visualizer,1
+2026-09-10T04:00Z,mod,track-visualizer,2
 2026-09-10T04:00Z,mod,train-anarchy,1
 2026-09-10T04:00Z,mod,transit-overlay,1
 2026-09-10T04:00Z,mod,unrusted-detroit,1
