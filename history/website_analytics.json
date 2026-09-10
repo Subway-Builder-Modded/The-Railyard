@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
   "zone_tag": "436c0657e9f4ae2256e5ffb96122273a",
-  "updated_at": "2026-09-10T07:01:24.500Z",
+  "updated_at": "2026-09-10T08:01:12.391Z",
   "valid_paths": [
     "/",
     "/404.html",
@@ -84821,6 +84821,19 @@
       "devices": {
         "desktop": 1
       }
+    },
+    "2026-09-10T08:00:00.000Z": {
+      "captured_at": "2026-09-10T08:01:12.391Z",
+      "window_start": "2026-09-10T08:00:00.000Z",
+      "window_end": "2026-09-10T09:00:00.000Z",
+      "totals": {
+        "visits": 0
+      },
+      "pages": {},
+      "countries": {},
+      "browsers": {},
+      "operating_systems": {},
+      "devices": {}
     }
   },
   "daily_snapshots": {
@@ -106763,9 +106776,9 @@
       }
     },
     "2026-09-10": {
-      "captured_at": "2026-09-10T07:01:24.500Z",
+      "captured_at": "2026-09-10T08:01:12.391Z",
       "window_start": "2026-09-10T00:00:00.000Z",
-      "window_end": "2026-09-10T08:00:00.000Z",
+      "window_end": "2026-09-10T09:00:00.000Z",
       "totals": {
         "visits": 25
       },
