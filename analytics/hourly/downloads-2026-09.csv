@@ -9423,3 +9423,14 @@ bucket_utc,listing_type,id,downloads
 2026-09-10T02:00Z,mod,mode-manager,1
 2026-09-10T02:00Z,mod,track-visualizer,1
 2026-09-10T02:00Z,mod,transit-overlay,1
+2026-09-10T03:00Z,map,greater-kuala-lumpur,1
+2026-09-10T03:00Z,map,montreal,1
+2026-09-10T03:00Z,map,muenchen,1
+2026-09-10T03:00Z,map,paris-ile-de-france,1
+2026-09-10T03:00Z,map,toronto,2
+2026-09-10T03:00Z,map,yukina-okinawa,1
+2026-09-10T03:00Z,map,yukina-tw-chiayi,4
+2026-09-10T03:00Z,map,yukina-tw-southern-taiwan,2
+2026-09-10T03:00Z,mod,dantrains-abridged,1
+2026-09-10T03:00Z,mod,neighborhood-station-names,1
+2026-09-10T03:00Z,mod,transit-overlay,1
