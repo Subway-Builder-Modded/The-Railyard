@@ -40,14 +40,7 @@
   "special_demand": [
     "universities"
   ],
-  "file_sizes": {
-    "GLED.pmtiles": 124.5,
-    "buildings_index.json": 236.96,
-    "config.json": 0,
-    "demand_data.json": 11.11,
-    "roads.geojson": 36.74,
-    "runways_taxiways.geojson": 0.44
-  },
+  "file_sizes": {},
   "grid_statistics": {
     "residentWeightedNearestNeighborKm": {
       "p10": 0.08969811740426523,

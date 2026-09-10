@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "generated_at": "2026-09-10T00:01:18.620Z",
+  "generated_at": "2026-09-10T04:01:26.195Z",
   "listings": {
     "aachen": {
       "has_complete_version": true,
@@ -131,18 +131,20 @@
       }
     },
     "akron-oh": {
-      "has_complete_version": true,
+      "has_complete_version": false,
       "latest_semver_version": "v1.0.0",
-      "latest_semver_complete": true,
-      "complete_versions": [
+      "latest_semver_complete": false,
+      "complete_versions": [],
+      "incomplete_versions": [
         "v1.0.0"
       ],
-      "incomplete_versions": [],
       "last_updated": 1775737732,
       "versions": {
         "v1.0.0": {
-          "is_complete": true,
-          "errors": [],
+          "is_complete": false,
+          "errors": [
+            "listing_deprecated"
+          ],
           "required_checks": {
             "config_json": true,
             "demand_data": true,
@@ -8911,18 +8913,20 @@
       }
     },
     "glasgow-edinburgh": {
-      "has_complete_version": true,
+      "has_complete_version": false,
       "latest_semver_version": "v1.0.0",
-      "latest_semver_complete": true,
-      "complete_versions": [
+      "latest_semver_complete": false,
+      "complete_versions": [],
+      "incomplete_versions": [
         "v1.0.0"
       ],
-      "incomplete_versions": [],
       "last_updated": 1774487752,
       "versions": {
         "v1.0.0": {
-          "is_complete": true,
-          "errors": [],
+          "is_complete": false,
+          "errors": [
+            "listing_deprecated"
+          ],
           "required_checks": {
             "config_json": true,
             "demand_data": true,
@@ -13716,18 +13720,20 @@
       }
     },
     "johor-bahru": {
-      "has_complete_version": true,
+      "has_complete_version": false,
       "latest_semver_version": "1.0.0",
-      "latest_semver_complete": true,
-      "complete_versions": [
+      "latest_semver_complete": false,
+      "complete_versions": [],
+      "incomplete_versions": [
         "1.0.0"
       ],
-      "incomplete_versions": [],
       "last_updated": 1775865600,
       "versions": {
         "1.0.0": {
-          "is_complete": true,
-          "errors": [],
+          "is_complete": false,
+          "errors": [
+            "listing_deprecated"
+          ],
           "required_checks": {
             "config_json": true,
             "demand_data": true,
@@ -21288,18 +21294,20 @@
       }
     },
     "pulau-pinang": {
-      "has_complete_version": true,
+      "has_complete_version": false,
       "latest_semver_version": "1.0.0",
-      "latest_semver_complete": true,
-      "complete_versions": [
+      "latest_semver_complete": false,
+      "complete_versions": [],
+      "incomplete_versions": [
         "1.0.0"
       ],
-      "incomplete_versions": [],
       "last_updated": 1775865600,
       "versions": {
         "1.0.0": {
-          "is_complete": true,
-          "errors": [],
+          "is_complete": false,
+          "errors": [
+            "listing_deprecated"
+          ],
           "required_checks": {
             "config_json": true,
             "demand_data": true,
@@ -26854,18 +26862,20 @@
       }
     },
     "toledo-oh": {
-      "has_complete_version": true,
+      "has_complete_version": false,
       "latest_semver_version": "1.0.0",
-      "latest_semver_complete": true,
-      "complete_versions": [
+      "latest_semver_complete": false,
+      "complete_versions": [],
+      "incomplete_versions": [
         "1.0.0"
       ],
-      "incomplete_versions": [],
       "last_updated": 1776201653,
       "versions": {
         "1.0.0": {
-          "is_complete": true,
-          "errors": [],
+          "is_complete": false,
+          "errors": [
+            "listing_deprecated"
+          ],
           "required_checks": {
             "config_json": true,
             "demand_data": true,
@@ -29406,18 +29416,20 @@
       }
     },
     "willamette-valley": {
-      "has_complete_version": true,
+      "has_complete_version": false,
       "latest_semver_version": "1.0.0",
-      "latest_semver_complete": true,
-      "complete_versions": [
+      "latest_semver_complete": false,
+      "complete_versions": [],
+      "incomplete_versions": [
         "1.0.0"
       ],
-      "incomplete_versions": [],
       "last_updated": 1776041168,
       "versions": {
         "1.0.0": {
-          "is_complete": true,
-          "errors": [],
+          "is_complete": false,
+          "errors": [
+            "listing_deprecated"
+          ],
           "required_checks": {
             "config_json": true,
             "demand_data": true,
