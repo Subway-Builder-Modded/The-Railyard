@@ -190,17 +190,26 @@ test("delete-listing escalation keeps since, takes over by_github_id, keeps reas
   assert.equal(deprecation.deleted, true);
 });
 
-test("delete-listing freezes ledger counts into grandfathered-downloads.json", (t) => {
+test("delete-listing freezes published counts into grandfathered-downloads.json", (t) => {
   const root = makeFixtureRepo({ "fixture-mod": baseModManifest("fixture-mod") });
   t.after(() => rmSync(root, { recursive: true, force: true }));
 
+  // Published state: downloads.json carries v1.0.0 at 77. The bucket ledger
+  // additionally remembers a never-surfaced old-tag asset (v0.9.0 at 343) and
+  // a pre-correction high for v1.0.0 (90) — neither may be frozen: the freeze
+  // preserves the listing's PUBLISHED state only, or deprecation day shows a
+  // phantom download spike (advanced-analytics 2026-08-22, busan-3 2026-09-10).
+  writeFileSync(join(root, "mods", "downloads.json"), JSON.stringify({
+    "fixture-mod": { "v1.0.0": 77 },
+  }) + "\n", "utf-8");
   writeFileSync(join(root, "mods", "download-version-buckets.json"), JSON.stringify({
     schema_version: 1,
     updated_at: "2026-08-01T00:00:00.000Z",
     listings: {
       "fixture-mod": {
         versions: {
-          "v1.0.0": { max_total_downloads: 77, buckets: {}, updated_at: "2026-08-01T00:00:00.000Z" },
+          "v0.9.0": { max_total_downloads: 343, buckets: {}, updated_at: "2026-08-01T00:00:00.000Z" },
+          "v1.0.0": { max_total_downloads: 90, buckets: {}, updated_at: "2026-08-01T00:00:00.000Z" },
         },
       },
     },
