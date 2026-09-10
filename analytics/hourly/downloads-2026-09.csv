@@ -9288,6 +9288,7 @@ bucket_utc,listing_type,id,downloads
 2026-09-10T00:00Z,map,orange-county,1
 2026-09-10T00:00Z,map,orlando,1
 2026-09-10T00:00Z,map,palermo,1
+2026-09-10T00:00Z,map,rhein-main-neckar,1
 2026-09-10T00:00Z,map,richmond,1
 2026-09-10T00:00Z,map,rochester,1
 2026-09-10T00:00Z,map,rome,1
@@ -9341,6 +9342,7 @@ bucket_utc,listing_type,id,downloads
 2026-09-10T00:00Z,map,yukina-ua-zaporizhzhia,2
 2026-09-10T00:00Z,map,yukina-yamagata,1
 2026-09-10T00:00Z,map,zurich,1
+2026-09-10T00:00Z,mod,auto-lines,1
 2026-09-10T00:00Z,mod,chinese-trains,2
 2026-09-10T00:00Z,mod,demand-clusters,1
 2026-09-10T00:00Z,mod,improved-schematics,1
