@@ -5,379 +5,383 @@ rank,id,name,author,author_alias,attribution_link,city_code,country,population,p
 4,guangzhou,Guangzhou,Kronifer,Kronifer,https://github.com/Kronifer,CAN,CN,15562720,220997,15458,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
 5,beijing,Beijing,Kronifer,Kronifer,https://github.com/Kronifer,PEK,CN,14311785,209639,18770,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
 6,shanghai,Shanghai,Kronifer,Kronifer,https://github.com/Kronifer,SHA,CN,13625076,231449,22944,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
-7,seoul-4,Seoul (40km×40km),kimth9,kimth9,https://github.com/kimth9,SEL4,KR,11769102,129417,4072,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
-8,ciudad-de-mexico,Ciudad de México,rslurry,slurry,https://github.com/rslurry,CDMX,MX,10969834,127012,19241,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
-9,seoul,Seoul,cromstar,cromstar,https://github.com/cromstar,SEL,KR,10452230,147975,15119,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
-10,yukina-keihanshin,京阪神 (Keihanshin),ahkimn,Yukina-,https://subwaybuildermodded.com/credits,KHS,JP,10201297,151024,41088,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
-11,seoul-3,Seoul (30km×30km),kimth9,kimth9,https://github.com/kimth9,SEL3,KR,9102941,100550,2650,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
-12,lima,Lima,kaicardenas0618,kaicardenas0618,https://github.com/kaicardenas0618,LIM,PE,8999705,90875,14035,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
-13,chongqing,Chongqing,Kronifer,Kronifer,https://github.com/Kronifer,CKG,CN,8597215,150607,36134,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
-14,istanbul,Istanbul,pierreggt,pierreggt,https://github.com/pierreggt,IST,TR,8148850,78934,65040,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
-15,tehran,Tehran,pierreggt,pierreggt,https://github.com/pierreggt,THR,IR,7962850,78818,32818,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
-16,amba,Buenos Aires,hernang87,hernang87,https://github.com/hernang87,BUE,AR,7794695,92190,6000,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
-17,ile-de-france,Paris (IDF),JcPires,JcPires,https://github.com/JcPires,IDF,FR,7019451,202085,53694,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
-18,yukina-nagoya,名古屋 (Nagoya),ahkimn,Yukina-,https://subwaybuildermodded.com/credits,NGO,JP,6998121,128224,53735,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
-19,cdmx-core,CDMX Core,rslurry,slurry,https://github.com/rslurry,CDMC,MX,6752085,106735,8364,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
-20,incheon-4,Incheon (40km×40km),kimth9,kimth9,https://github.com/kimth9,ICN4,KR,6718676,88336,2533,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
-21,paris-ile-de-france,Paris - Ile de France,pierreggt,pierreggt,https://github.com/pierreggt,PRS,FR,6650825,215781,108933,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
-22,yukina-osaka,大阪 (Ōsaka),ahkimn,Yukina-,https://subwaybuildermodded.com/credits,ITM,JP,6548563,84565,19902,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
-23,xiamen,Xiamen,Kronifer,Kronifer,https://github.com/Kronifer,XMN,CN,6544537,101341,11310,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
-24,greater-kuala-lumpur,Greater Kuala Lumpur,nzh0172,naz,https://github.com/nzh0172,KUL,MY,6249021,41536,2337,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
-25,yukina-tw-taipei,臺北 (Taipei),ahkimn,Yukina-,https://subwaybuildermodded.com/credits,TPE,TW,6079451,71991,13592,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
-26,bangkok,Bangkok,nzh0172,naz,https://github.com/nzh0172,BKK,TH,6033126,40981,13860,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
-27,greater-los-angeles,Greater Los Angeles,rslurry,slurry,https://github.com/rslurry,LAX,US,5519727,171398,6976,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
-28,madrid,Madrid,Maximilian284,max02,https://github.com/Maximilian284,ESMD,ES,4801093,144717,5610,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
-29,incheon-3,Incheon (30km×30km),kimth9,kimth9,https://github.com/kimth9,ICN3,KR,4749878,65173,1623,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
-30,south-florida,South Florida,kaicardenas0618,kaicardenas0618,https://github.com/kaicardenas0618,SFL,US,4627711,179115,16324,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
-31,greater-chicagoland,Greater Chicagoland,NerdieSanders,NerdieSanders,https://github.com/NerdieSanders,GCHI,US,4499051,75825,14866,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
-32,singapore-val,Singapore,Valdotorium,Valdotorium,https://github.com/Valdotorium,SIN,SG,4204500,31692,1076,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
-33,barcelona,Barcelona,Maximilian284,max02,https://github.com/Maximilian284,ESBC,ES,4073925,124371,6117,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
-34,toronto,Toronto,subway-builder-modded-admin,Subway Builder Modded,https://subwaybuildermodded.com,YYZ,CA,4039647,33650,11203,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
-35,mfn-hong-kong,Hong Kong,crumpetime,muffintime,https://github.com/crumpetime,HKG,HK,4038323,236084,1965,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
-36,berlin-val,Berlin,Valdotorium,Valdotorium,https://github.com/Valdotorium,BER,DE,3926141,39805,921,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
-37,yukina-northern-kyushu,福北 (Fukuoka & Kitakyūshū),ahkimn,Yukina-,https://subwaybuildermodded.com/credits,FOKK,JP,3791749,84405,32900,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
-38,ruhrgebiet,Ruhrgebiet,pierreggt,pierreggt,https://github.com/pierreggt,RHR,DE,3781300,36940,36704,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
-39,busan-4,Busan (40km×40km),kimth9,kimth9,https://github.com/kimth9,PUS4,KR,3762661,44668,1153,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
-40,greater-newyork,Greater NYC,chasemanning040911-afk,lechicken,https://github.com/chasemanning040911-afk,GNYC,US,3735824,269793,5151,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
-41,busan-3,Busan (30km×30km),kimth9,kimth9,https://github.com/kimth9,PUS3,KR,3602364,43343,1060,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
-42,riyadh,Riyadh,pierreggt,pierreggt,https://github.com/pierreggt,RUH,SA,3552550,34403,15020,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
-43,rhein-main-neckar,Frankfurt (Rhein-Main-Neckar),pierreggt,pierreggt,https://github.com/pierreggt,WFK,DE,3458550,33923,34685,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
-44,jeddah-mecca,Jeddah & Mecca,pierreggt,pierreggt,https://github.com/pierreggt,MKJ,SA,3380200,28989,14613,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
-45,yukina-tw-southern-taiwan,南臺灣 (Southern Taiwan),ahkimn,Yukina-,https://subwaybuildermodded.com/credits,NTW,TW,3322046,66549,21407,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
-46,los-angeles-county,Los Angeles County,rslurry,slurry,https://github.com/rslurry,LAXM,US,3202061,76804,4034,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
-47,sydney,Sydney,WillBarouch,WillBarouch,https://github.com/WillBarouch,SYD,AU,3176499,25580,9687,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
-48,sejong-4,Sejong (40km×40km),kimth9,kimth9,https://github.com/kimth9,SEJ4,KR,3144215,46497,1259,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
-49,dubai,Dubai,ryandicicco,ryandicicco,https://github.com/ryandicicco,DXB,AE,3105983,195806,11715,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
-50,baghdad,Baghdad,pierreggt,pierreggt,https://github.com/pierreggt,BGW,IQ,3088300,30461,13567,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
-51,glasgow-edinburgh,Glasgow-Edinburgh,Kronifer,Kronifer,https://github.com/Kronifer,GLED,GB,3069560,47377,12148,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
-52,tijuana-san-diego,Tijuana-San Diego,rslurry,slurry,https://github.com/rslurry,TIJ,MX,3069230,133992,6022,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
-53,monterrey,Monterrey,rslurry,slurry,https://github.com/rslurry,MTY,MX,3002098,62388,6558,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
-54,ankara,Ankara,pierreggt,pierreggt,https://github.com/pierreggt,ANK,TR,2854650,27325,15702,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
-55,guadalajara,Guadalajara,rslurry,slurry,https://github.com/rslurry,GDL,MX,2824978,59632,5838,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
-56,lyon,Lyon - Vallée du Rhône & Alpes,pierreggt,pierreggt,https://github.com/pierreggt,LSY,FR,2719487,95084,57566,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
-57,milan,Milan,Maximilian284,max02,https://github.com/Maximilian284,MIL,IT,2677197,23484,10146,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
-58,yukina-tw-taichung,臺中 (Taichung),ahkimn,Yukina-,https://subwaybuildermodded.com/credits,RMQ,TW,2605338,50392,17151,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
-59,bucharest-medium,Bucharest,metatablestudios,metatablestudios,https://github.com/metatablestudios,BUC,RO,2583210,64703,1852,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
-60,daegu-4,Daegu (40km×40km),kimth9,kimth9,https://github.com/kimth9,TAE4,KR,2539651,39266,1238,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
-61,daegu-3,Daegu (30km×30km),kimth9,kimth9,https://github.com/kimth9,TAE3,KR,2539106,38216,1092,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
-62,daejeon-4,Daejeon (40km×40km),kimth9,kimth9,https://github.com/kimth9,DAJ4,KR,2530016,36115,1061,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
-63,montreal,Montreal,subway-builder-modded-admin,Subway Builder Modded,https://subwaybuildermodded.com,YUL,CA,2523330,21051,8214,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
-64,yukina-ua-kyiv,Київ / Kyiv,ahkimn,Yukina-,https://subwaybuildermodded.com/credits,KBP,UA,2513143,70347,29373,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
-65,puebla,Puebla,rslurry,slurry,https://github.com/rslurry,PBC,MX,2506293,73695,8438,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
-66,tel-aviv,Tel Aviv,BarKuperman,BarKuperman,https://github.com/BarKuperman,TLV,IL,2497200,12486,1301,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
-67,baltimore-dc-corridor,Baltimore-DC Corridor,rslurry,slurry,https://github.com/rslurry,DCA,US,2440998,106957,6641,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
-68,yukina-pl-warszawa,Warszawa,ahkimn,Yukina-,https://subwaybuildermodded.com/credits,WAR,PL,2322738,75539,38011,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
-69,yukina-kobe-akashi,神戸・姫路 (Kōbe & Himeji),ahkimn,Yukina-,https://subwaybuildermodded.com/credits,UKB,JP,2287760,49898,20725,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
-70,au-melbourne,Melbourne,subway-builder-modded-admin,Subway Builder Modded,https://subwaybuildermodded.com,MEL,AU,2266389,18045,9542,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
-71,au-syd2,Sydney,subway-builder-modded-admin,Subway Builder Modded,https://subwaybuildermodded.com,SYD2,AU,2253174,18109,8268,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
-72,daejeon-3,Daejeon (30km×30km),kimth9,kimth9,https://github.com/kimth9,DAJ3,KR,2201895,32378,863,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
-73,alexandria,Alexandria,pierreggt,pierreggt,https://github.com/pierreggt,HBE,EG,2169100,21174,7796,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
-74,oklahoma-city,Oklahoma City,ryandicicco,ryandicicco,https://github.com/ryandicicco,OKC,US,2163635,71065,1886,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
-75,yukina-kyoto,京都 (Kyōto),ahkimn,Yukina-,https://subwaybuildermodded.com/credits,UKY,JP,2162459,43766,15697,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
-76,zurich,Zurich,Kronifer,Kronifer,https://github.com/Kronifer,ZRH,CH,2147370,98878,39672,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
-77,gwangju-4,Gwangju (40km×40km),kimth9,kimth9,https://github.com/kimth9,KWJ4,KR,2140345,32755,951,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
-78,gwangju-3,Gwangju (30km×30km),kimth9,kimth9,https://github.com/kimth9,KWJ3,KR,2134804,32341,848,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
-79,warsaw-val,Warsaw,Valdotorium,Valdotorium,https://github.com/Valdotorium,WAW,PL,2115324,19327,622,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
-80,greatertwincities,Greater Twin Cities,DanielD1909,DanielD1909,https://github.com/DanielD1909,KMSP,US,2071369,40632,5807,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
-81,vienna,Vienna,Rmerr1,Rmerr1,https://github.com/Rmerr1,VIEN,AT,1959635,45426,6339,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
-82,rome,Rome,Maximilian284,max02,https://github.com/Maximilian284,ROM,IT,1920000,28808,10725,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
-83,kuwait-city,Kuwait City,pierreggt,pierreggt,https://github.com/pierreggt,KWI,KW,1913950,18525,5682,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
-84,yukina-fukuoka,福岡 (Fukuoka),ahkimn,Yukina-,https://subwaybuildermodded.com/credits,FUK,JP,1849024,31658,8852,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
-85,yukina-tw-kaohsiung,高雄 (Kaohsiung),ahkimn,Yukina-,https://subwaybuildermodded.com/credits,KHH,TW,1830440,33576,10263,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
-86,yukina-sapporo-chitose,札幌 (Sapporo),ahkimn,Yukina-,https://subwaybuildermodded.com/credits,SPK,JP,1821360,38051,14966,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
-87,valencia,Valencia,Maximilian284,max02,https://github.com/Maximilian284,ESVA,ES,1813405,53429,3127,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
-88,cape-town,Cape Town,worstboyinaustral1a,worstboyinaustral1a,https://github.com/worstboyinaustral1a,CPT,ZA,1781374,36150,24313,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
-89,yukina-cz-praha,Praha,ahkimn,Yukina-,https://subwaybuildermodded.com/credits,PRG,CZ,1714024,87093,26567,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
-90,naples,Naples,Maximilian284,max02,https://github.com/Maximilian284,NAP,IT,1695981,21250,10998,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
-91,orlando,Orlando,rslurry,slurry,https://github.com/rslurry,MCO,US,1686299,100949,2316,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
-92,damascus,Damascus,pierreggt,pierreggt,https://github.com/pierreggt,DAM,SY,1684750,15988,5699,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
-93,vancouver,Vancouver,subway-builder-modded-admin,Subway Builder Modded,https://subwaybuildermodded.com,YVR,CA,1677021,13943,5598,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
-94,oslo-no,Oslo,rslurry,slurry,https://github.com/rslurry,OSL,NO,1651196,73636,25220,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
-95,mashhad,Mashhad,pierreggt,pierreggt,https://github.com/pierreggt,MHD,IR,1644000,15625,6302,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
-96,tampa-bay,Tampa Bay,rslurry,slurry,https://github.com/rslurry,TPA,US,1609875,60755,3266,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
-97,yukina-shizuoka-hamamatsu,静岡・浜松 (Shizuoka/Hamamatsu),ahkimn,Yukina-,https://subwaybuildermodded.com/credits,FSZ,JP,1577894,34377,15003,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
-98,greater-portland,Greater Portland,rslurry,slurry,https://github.com/rslurry,GPDX,US,1571997,77003,4541,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
-99,willamette-valley,"Willamette Valley, OR",Phineapoo,Phineapoo,https://github.com/Phineapoo,WMV,US,1527957,206527,10166,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
-100,sejong-3,Sejong (30km×30km),kimth9,kimth9,https://github.com/kimth9,SEJ3,KR,1514790,20944,677,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
-101,yukina-pl-katowice-gzm,Katowice - GZM,ahkimn,Yukina-,https://subwaybuildermodded.com/credits,KTW,PL,1510462,49044,25881,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
-102,cairo,Cairo,ryandicicco,ryandicicco,https://github.com/ryandicicco,CAI,EG,1509805,14487,1248,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
-103,au-brisbane,Brisbane,subway-builder-modded-admin,Subway Builder Modded,https://subwaybuildermodded.com,BNE,AU,1495268,11805,6484,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
-104,connecticut-usa,Connecticut,PSWBSF,Potato Spaghetti Water Balloon Space Federation,https://youtu.be/dQw4w9WgXcQ?t=0,CT,US,1483718,99514,6597,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
-105,arc-mediterraneen,L'Arc Méditerranéen,pierreggt,pierreggt,https://github.com/pierreggt,NAR,FR,1475594,42630,35930,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
-106,ulsan-4,Ulsan (40km×40km),kimth9,kimth9,https://github.com/kimth9,USN4,KR,1460625,21551,612,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
-107,grand-geneve,Grand Genève,pierreggt,pierreggt,https://github.com/pierreggt,GVA,CH,1453033,26258,17570,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
-108,trujillo,Trujillo,kaicardenas0618,kaicardenas0618,https://github.com/kaicardenas0618,TRU,PE,1442464,12600,8501,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
-109,puerto-rico,Puerto Rico,rslurry,slurry,https://github.com/rslurry,PR,PR,1434290,30194,8016,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
-110,yukina-maebashi,前橋 (Maebashi),ahkimn,Yukina-,https://subwaybuildermodded.com/credits,MBS,JP,1434237,37584,18919,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
-111,orange-county,Orange County,rslurry,slurry,https://github.com/rslurry,OC,US,1429155,137792,2701,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
-112,ulsan-3,Ulsan (30km×30km),kimth9,kimth9,https://github.com/kimth9,USN3,KR,1401126,20231,507,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
-113,muenchen,München,pierreggt,pierreggt,https://github.com/pierreggt,MUC,DE,1388950,13314,11790,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
-114,alicante,Alicante,Maximilian284,max02,https://github.com/Maximilian284,ESAL,ES,1386953,40710,3129,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
-115,sevilla,Sevilla,Maximilian284,max02,https://github.com/Maximilian284,ESSV,ES,1370173,40160,1832,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
-116,yukina-hiroshima-kure,広島 (Hiroshima),ahkimn,Yukina-,https://subwaybuildermodded.com/credits,HIJ,JP,1355217,26560,9815,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
-117,ciudad-juarez-el-paso,Ciudad Juárez-El Paso,rslurry,slurry,https://github.com/rslurry,CJS,MX,1342726,47927,2766,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
-118,piura,Piura,kaicardenas0618,kaicardenas0618,https://github.com/kaicardenas0618,PIU,PE,1303512,11909,17239,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
-119,mfn-lasvegas,Las Vegas,crumpetime,muffintime,https://github.com/crumpetime,LAS,US,1296870,79319,2373,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
-120,brussels,Brussels,lexenygma,lexenygma,https://github.com/lexenygma,BRU,BE,1265512,8847,725,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
-121,yukina-pl-krakow,Kraków,ahkimn,Yukina-,https://subwaybuildermodded.com/credits,KRK,PL,1264077,46654,28394,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
-122,hamburg,Hamburg,pierreggt,pierreggt,https://github.com/pierreggt,HAM,DE,1263050,12369,11608,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
-123,yukina-ua-kharkiv,Харків / Kharkiv,ahkimn,Yukina-,https://subwaybuildermodded.com/credits,HRK,UA,1259058,37480,18375,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
-124,sofia-bulgaria,Sofia,giannons46,giannons46,https://github.com/giannons46,SOF,BG,1229754,436879,2793,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
-125,daytonatti,Daytonatti,soccerjonj,soccerjonj,https://github.com/soccerjonj,DAY,US,1226849,123534,5835,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
-126,pyongyang-nk,Pyongyang,PSWBSF,Potato Spaghetti Water Balloon Space Federation,https://youtu.be/dQw4w9WgXcQ?t=0,PYO,KP,1210086,7078,267,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
-127,opo-pt-metropolitan,"Porto, Portugal",bquelhas,bquelhas,https://github.com/bquelhas,OPO,PT,1189520,59476,46542,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
-128,bonn-koeln,Bonn-Köln,pierreggt,pierreggt,https://github.com/pierreggt,BNC,DE,1188400,11523,10285,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
-129,rhode-island,Rhode Island,rslurry,slurry,https://github.com/rslurry,GPVD,US,1177616,127986,3914,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
-130,arequipa,Arequipa,kaicardenas0618,kaicardenas0618,https://github.com/kaicardenas0618,AQP,PE,1172562,11751,10656,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
-131,mississippi,Mississippi,JayToTheAy,JayToTheAy,https://github.com/JayToTheAy,MS,US,1171983,234670,21243,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
-132,abu-dhabi,Abu Dhabi,pierreggt,pierreggt,https://github.com/pierreggt,AUH,AE,1170100,11514,5043,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
-133,pianura-veneta,Pianura Veneta,Maximilian284,max02,https://github.com/Maximilian284,VPT,IT,1165753,12448,8150,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
-134,yukina-ua-lviv,Львів / Lviv,ahkimn,Yukina-,https://subwaybuildermodded.com/credits,LWO,UA,1164926,39744,22478,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
-135,marseille,Marseille - Provence,pierreggt,pierreggt,https://github.com/pierreggt,MRS,FR,1146909,21990,15374,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
-136,yukina-sendai,仙台 (Sendai),ahkimn,Yukina-,https://subwaybuildermodded.com/credits,SDJ,JP,1130636,23038,8605,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
-137,yukina-kitakyushu-shimonoseki,北九州・下関 (Kitakyūshū & Shimonoseki),ahkimn,Yukina-,https://subwaybuildermodded.com/credits,KKJ,JP,1128866,30868,12715,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
-138,yukina-niigata,新潟 (Niigata),ahkimn,Yukina-,https://subwaybuildermodded.com/credits,KIJ,JP,1077385,33596,16113,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
-139,lille,Lille - Flandre & Hainaut,pierreggt,pierreggt,https://github.com/pierreggt,LIL,FR,1060367,32230,18546,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
-140,yukina-pl-poznan,Poznań,ahkimn,Yukina-,https://subwaybuildermodded.com/credits,POZ,PL,1058569,37725,21532,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
-141,yukina-tw-tainan,臺南 (Tainan),ahkimn,Yukina-,https://subwaybuildermodded.com/credits,TNN,TW,1050235,18997,6423,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
-142,yukina-utsunomiya,宇都宮 (Utsunomiya),ahkimn,Yukina-,https://subwaybuildermodded.com/credits,QUT,JP,1027638,36078,18938,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
-143,johor-bahru,Johor Bahru,nzh0172,naz,https://github.com/nzh0172,JHB,MY,1026080,11110,877,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
-144,yukina-ua-dnipro,Дніпро / Dnipro,ahkimn,Yukina-,https://subwaybuildermodded.com/credits,DNK,UA,1007876,32893,17997,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
-145,au-perth,Perth,subway-builder-modded-admin,Subway Builder Modded,https://subwaybuildermodded.com,PER,AU,1006991,8027,4655,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
-146,yukina-okayama,岡山 (Okayama),ahkimn,Yukina-,https://subwaybuildermodded.com/credits,OKJ,JP,986836,28442,12478,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
-147,aleppo,Aleppo,pierreggt,pierreggt,https://github.com/pierreggt,ALP,SY,981800,9613,3951,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
-148,greater-baltimore,Greater Baltimore,rslurry,slurry,https://github.com/rslurry,BWI,US,972032,75010,2914,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
-149,garda-lake,Garda Lake,Maximilian284,max02,https://github.com/Maximilian284,GRD,IT,959863,12896,7994,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
-150,yukina-pl-lodz,Łódź,ahkimn,Yukina-,https://subwaybuildermodded.com/credits,LCJ,PL,952470,37601,21639,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
-151,yukina-pl-gdansk,Gdańsk,ahkimn,Yukina-,https://subwaybuildermodded.com/credits,GDN,PL,948319,30779,16864,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
-152,san-antonio,San Antonio,rslurry,slurry,https://github.com/rslurry,SAT,US,946870,106855,4348,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
-153,helsinki,Helsinki,rslurry,slurry,https://github.com/rslurry,HEL,FI,940971,13981,2835,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
-154,yukina-pl-wroclaw,Wrocław,ahkimn,Yukina-,https://subwaybuildermodded.com/credits,WRO,PL,940793,30572,16194,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
-155,yukina-ua-odesa,Одеса / Odesa,ahkimn,Yukina-,https://subwaybuildermodded.com/credits,ODS,UA,938521,28712,13134,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
-156,mfn-msy,New Orleans,crumpetime,muffintime,https://github.com/crumpetime,MSY,US,938027,175265,5125,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
-157,yukina-kumamoto,熊本 (Kumamoto),ahkimn,Yukina-,https://subwaybuildermodded.com/credits,KMJ,JP,936540,29444,12964,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
-158,chiclayo,Chiclayo,kaicardenas0618,kaicardenas0618,https://github.com/kaicardenas0618,CIX,PE,919138,8351,14943,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
-159,turin,Turin,Maximilian284,max02,https://github.com/Maximilian284,TOR,IT,910203,14127,5885,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
-160,calgary,Calgary,subway-builder-modded-admin,Subway Builder Modded,https://subwaybuildermodded.com,YYC,CA,890139,7422,3512,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
-161,beirut,Beirut,pierreggt,pierreggt,https://github.com/pierreggt,BEY,LB,882100,8724,3740,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
-162,yukina-okinawa,沖縄 (Okinawa),ahkimn,Yukina-,https://subwaybuildermodded.com/credits,OKA,JP,876167,20698,5744,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
-163,yukina-tw-hsinchu,新竹 (Hsinchu),ahkimn,Yukina-,https://subwaybuildermodded.com/credits,HSZ,TW,872639,19387,6189,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
-164,jacksonville,Jacksonville,rslurry,slurry,https://github.com/rslurry,JAX,US,869636,52907,2667,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
-165,eurodistrict-bale,Eurodistrict of Basel,pierreggt,pierreggt,https://github.com/pierreggt,BSL,CH,864924,15447,10038,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
-166,doha,Doha,pierreggt,pierreggt,https://github.com/pierreggt,DOH,QA,853150,8297,4134,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
-167,pulau-pinang,Pulau Pinang,nzh0172,naz,https://github.com/nzh0172,PEN,MY,852976,6708,933,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
-168,yukina-sk-bratislava,Bratislava,ahkimn,Yukina-,https://subwaybuildermodded.com/credits,BTS,SK,851355,35758,11286,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
-169,pianura-emiliana,Pianura Emiliana,Maximilian284,max02,https://github.com/Maximilian284,PRM,IT,841395,9437,5915,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
-170,antalya,Antalya,pierreggt,pierreggt,https://github.com/pierreggt,ANT,TR,841300,7532,5129,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
-171,nashville,Nashville,soccerjonj,soccerjonj,https://github.com/soccerjonj,BNA,US,838863,60682,2807,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
-172,hannover-braunschweig,Hannover-Braunschweig,pierreggt,pierreggt,https://github.com/pierreggt,HBS,DE,825950,8068,8344,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
-173,amsterdam,Amsterdam,ryandicicco,ryandicicco,https://github.com/ryandicicco,AMS,NL,821203,11092,373,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
-174,shiraz,Shiraz,pierreggt,pierreggt,https://github.com/pierreggt,SYZ,IR,819100,8061,4158,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
-175,yukina-tw-chiayi,嘉義 (Chiayi),ahkimn,Yukina-,https://subwaybuildermodded.com/credits,CYI,TW,814154,22795,10693,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
-176,huancayo-jauja,Huancayo/Jauja,kaicardenas0618,kaicardenas0618,https://github.com/kaicardenas0618,JAU,PE,813602,7366,20943,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
-177,stuttgart,Stuttgart,pierreggt,pierreggt,https://github.com/pierreggt,STU,DE,808700,7932,7020,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
-178,bilbao,Bilbao,Maximilian284,max02,https://github.com/Maximilian284,ESBI,ES,804134,23063,1411,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
-179,edmonton,Edmonton,subway-builder-modded-admin,Subway Builder Modded,https://subwaybuildermodded.com,YEG,CA,798307,6612,3374,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
-180,jeju-f,Jeju (Full Island),kimth9,kimth9,https://github.com/kimth9,CJUF,KR,795684,12281,740,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
-181,mexicali,Mexicali-Imperial Valley-Yuma,rslurry,slurry,https://github.com/rslurry,MXL,MX,794931,37482,2624,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
-182,nz-auckland,Auckland,subway-builder-modded-admin,Subway Builder Modded,https://subwaybuildermodded.com,AKL,NZ,790941,6672,4317,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
-183,cusco,Cusco,kaicardenas0618,kaicardenas0618,https://github.com/kaicardenas0618,CUZ,PE,786360,7086,23619,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
-184,yukina-ua-mykolaiv-kherson,Миколаїв - Херсон / Mykolaiv & Kherson,ahkimn,Yukina-,https://subwaybuildermodded.com/credits,NLV,UA,780623,28256,17212,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
-185,san-juan,San Juan,rslurry,slurry,https://github.com/rslurry,SJU,PR,773862,9703,2686,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
-186,jeju-4,Jeju (40km×40km),kimth9,kimth9,https://github.com/kimth9,CJU4,KR,770019,11188,503,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
-187,mfn-hamptonroads,Norfolk,crumpetime,muffintime,https://github.com/crumpetime,ORF,US,760585,61472,2270,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
-188,sacramento,Sacramento,soccerjonj,soccerjonj,https://github.com/soccerjonj,SMF,US,755810,55081,2539,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
-189,montpellier-mediterranee,Montpellier,pierreggt,pierreggt,https://github.com/pierreggt,MTP,FR,754524,37845,6671,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
-190,yukina-kagoshima-kirishima,鹿児島 (Kagoshima),ahkimn,Yukina-,https://subwaybuildermodded.com/credits,KOJ,JP,752140,23103,10185,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
-191,memphis,Memphis,rslurry,slurry,https://github.com/rslurry,MEM,US,739736,39229,1454,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
-192,ottawa,Ottawa,subway-builder-modded-admin,Subway Builder Modded,https://subwaybuildermodded.com,YOW,CA,739120,6239,3348,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
-193,bergen-stavanger-no,Bergen-Stavanger,rslurry,slurry,https://github.com/rslurry,BGSV,NO,735675,36543,14696,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
-194,dublin,Dublin,Kronifer,Kronifer,https://github.com/Kronifer,DUB,IE,732172,3391,3265,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
-195,yukina-bydgoszcz-torun,Bydgoszcz - Toruń,ahkimn,Yukina-,https://subwaybuildermodded.com/credits,BZG,PL,726633,36022,20685,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
-196,bordeaux-arcachon-libourne,Bordeaux,pierreggt,pierreggt,https://github.com/pierreggt,BOD,FR,722159,42528,7599,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
-197,yukina-fuji-numazu,富士・沼津 (Fuji & Numazu),ahkimn,Yukina-,https://subwaybuildermodded.com/credits,FJN,JP,720484,21399,9481,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
-198,yukina-ua-zaporizhzhia,Запоріжжя / Zaporizhzhia,ahkimn,Yukina-,https://subwaybuildermodded.com/credits,OZH,UA,713557,23705,12824,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
-199,yukina-cz-brno,Brno,ahkimn,Yukina-,https://subwaybuildermodded.com/credits,BRQ,CZ,713163,42377,15975,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
-200,rotterdam-the-hague,Rotterdam-The Hague,ryandicicco,ryandicicco,https://github.com/ryandicicco,RTM,NL,712179,10723,415,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
-201,yukina-kanazawa,金沢 (Kanazawa),ahkimn,Yukina-,https://subwaybuildermodded.com/credits,KMQ,JP,711278,20614,9199,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
-202,yukina-matsuyama,松山 (Matsuyama),ahkimn,Yukina-,https://subwaybuildermodded.com/credits,MYJ,JP,709738,20658,9201,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
-203,yukina-toyama,富山 (Toyama),ahkimn,Yukina-,https://subwaybuildermodded.com/credits,TOY,JP,707097,23129,12127,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
-204,yukina-lv-riga,Rīga,ahkimn,Yukina-,https://subwaybuildermodded.com/credits,RIX,LV,703330,30858,16654,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
-205,yukina-nakadoori,中通り (Nakadōri),ahkimn,Yukina-,https://subwaybuildermodded.com/credits,FKS,JP,685331,24742,13070,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
-206,au-adelaide,Adelaide,subway-builder-modded-admin,Subway Builder Modded,https://subwaybuildermodded.com,ADL,AU,661340,5225,3098,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
-207,bari,Bari,Maximilian284,max02,https://github.com/Maximilian284,BAR,IT,660455,7869,3875,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
-208,jeju-3,Jeju (30km×30km),kimth9,kimth9,https://github.com/kimth9,CJU3,KR,654905,9400,398,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
-209,yukina-mito-hitachi,水戸・日立 (Mito & Hitachi),ahkimn,Yukina-,https://subwaybuildermodded.com/credits,QIS,JP,630392,21793,11408,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
-210,riviera-romagnola,Riviera Romagnola,Maximilian284,max02,https://github.com/Maximilian284,RIV,IT,630314,7433,4349,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
-211,palma-de-mallorca,Palma de Mallorca,Maximilian284,max02,https://github.com/Maximilian284,ESPM,ES,629588,18163,1598,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
-212,florence,Florence,Maximilian284,max02,https://github.com/Maximilian284,FIR,IT,626808,8434,3697,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
-213,yukina-nagano,長野 (Nagano),ahkimn,Yukina-,https://subwaybuildermodded.com/credits,QNG,JP,624892,21616,11038,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
-214,yukina-takamatsu,高松 (Takamatsu),ahkimn,Yukina-,https://subwaybuildermodded.com/credits,TAK,JP,624171,19567,9207,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
-215,mfn-rdu,Raleigh,crumpetime,muffintime,https://github.com/crumpetime,RDU,US,618227,73872,1938,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
-216,saltillo,Saltillo,rslurry,slurry,https://github.com/rslurry,SLW,MX,612580,19716,1348,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
-217,yukina-cz-ostrava,Ostrava,ahkimn,Yukina-,https://subwaybuildermodded.com/credits,OSR,CZ,607028,36252,13681,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
-218,muscat,Muscat,pierreggt,pierreggt,https://github.com/pierreggt,MCT,OM,592400,5765,3005,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
-219,yukina-lt-vilnius,Vilnius,ahkimn,Yukina-,https://subwaybuildermodded.com/credits,VNO,LT,584172,22814,11304,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
-220,yukina-ua-ivano-frankivsk,Івано-Франківськ / Ivano-Frankivsk,ahkimn,Yukina-,https://subwaybuildermodded.com/credits,IFO,UA,583382,24799,15418,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
-221,yukina-ua-rivne-lutsk,Рівне - Луцьк / Rivne & Lutsk,ahkimn,Yukina-,https://subwaybuildermodded.com/credits,RWN,UA,582799,23537,14625,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
-222,yukina-morioka,盛岡 (Morioka),ahkimn,Yukina-,https://subwaybuildermodded.com/credits,HNA,JP,579655,30327,16445,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
-223,yukina-cz-hradec-pardubice,Hradec Králové - Pardubice,ahkimn,Yukina-,https://subwaybuildermodded.com/credits,HKP,CZ,579090,41771,19446,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
-224,palermo,Palermo,Maximilian284,max02,https://github.com/Maximilian284,PAL,IT,566901,8946,3264,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
-225,yukina-akita,秋田 (Akita),ahkimn,Yukina-,https://subwaybuildermodded.com/credits,AXT,JP,562394,30688,17079,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
-226,yukina-nagasaki,長崎 (Nagasaki),ahkimn,Yukina-,https://subwaybuildermodded.com/credits,NGS,JP,557246,16510,7499,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
-227,toulouse,Toulouse,pierreggt,pierreggt,https://github.com/pierreggt,TLS,FR,554668,9397,4158,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
-228,iquitos,Iquitos,kaicardenas0618,kaicardenas0618,https://github.com/kaicardenas0618,IQT,PE,540098,4622,10769,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
-229,yukina-yamaguchi,山口 (Yamaguchi),ahkimn,Yukina-,https://subwaybuildermodded.com/credits,UBJ,JP,532953,16727,8589,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
-230,chimbote,Chimbote,kaicardenas0618,kaicardenas0618,https://github.com/kaicardenas0618,CHM,PE,532539,5297,4674,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
-231,yukina-oita,大分 (Ōita),ahkimn,Yukina-,https://subwaybuildermodded.com/credits,OIT,JP,530914,23228,9756,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
-232,louisville,Louisville,soccerjonj,soccerjonj,https://github.com/soccerjonj,SDF,US,530833,48045,3488,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
-233,catania,Catania,Maximilian284,max02,https://github.com/Maximilian284,CAT,IT,530181,7992,3552,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
-234,yukina-pl-lublin,Lublin,ahkimn,Yukina-,https://subwaybuildermodded.com/credits,LUZ,PL,524547,28896,18090,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
-235,yukina-ua-vinnytsia,Вінниця / Vinnytsia,ahkimn,Yukina-,https://subwaybuildermodded.com/credits,VIN,UA,522171,21464,14127,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
-236,yukina-miyazaki,宮崎 (Miyazaki),ahkimn,Yukina-,https://subwaybuildermodded.com/credits,KMI,JP,517905,24155,11609,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
-237,nuernberg,Nürnberg,pierreggt,pierreggt,https://github.com/pierreggt,NUE,DE,516600,4992,4662,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
-238,yukina-fukuyama,福山 (Fukuyama),ahkimn,Yukina-,https://subwaybuildermodded.com/credits,QFY,JP,506680,16029,7973,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
-239,yukina-pl-szczecin,Szczecin,ahkimn,Yukina-,https://subwaybuildermodded.com/credits,SZZ,PL,505610,22480,11972,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
-240,winnipeg,Winnipeg,subway-builder-modded-admin,Subway Builder Modded,https://subwaybuildermodded.com,YWG,CA,502477,4154,2119,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
-241,knoxville,Knoxville,rslurry,slurry,https://github.com/rslurry,KNOX,US,499081,46078,1491,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
-242,quebec-city,Quebec City,subway-builder-modded-admin,Subway Builder Modded,https://subwaybuildermodded.com,YQB,CA,497019,4131,2147,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
-243,yukina-yamagata,山形 (Yamagata),ahkimn,Yukina-,https://subwaybuildermodded.com/credits,GAJ,JP,495795,22153,10468,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
-244,yukina-kofu,甲府 (Kōfu),ahkimn,Yukina-,https://subwaybuildermodded.com/credits,KFU,JP,491651,22342,10276,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
-245,yukina-nakaumi,中海 (Nakaumi),ahkimn,Yukina-,https://subwaybuildermodded.com/credits,IZO,JP,484395,22130,10256,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
-246,nice-cote-d-azur,Nice,pierreggt,pierreggt,https://github.com/pierreggt,NCE,FR,478024,8676,6538,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
-247,santa-barbara,Santa Barbara,rslurry,slurry,https://github.com/rslurry,SBA,US,475304,30058,1181,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
-248,jerusalem,Jerusalem,BarKuperman,BarKuperman,https://github.com/BarKuperman,JER,IL,473200,2366,650,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
-249,yukina-sk-kosice-presov,Košice - Prešov,ahkimn,Yukina-,https://subwaybuildermodded.com/credits,KSC,SK,471949,33713,11398,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
-250,yukina-pl-rzeszow,Rzeszów,ahkimn,Yukina-,https://subwaybuildermodded.com/credits,RZE,PL,466856,26280,18410,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
-251,genoa,Genoa,Maximilian284,max02,https://github.com/Maximilian284,GEN,IT,456057,6547,1881,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
-252,yukina-pl-kielce,Kielce,ahkimn,Yukina-,https://subwaybuildermodded.com/credits,KIE,PL,455428,26757,18167,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
-253,bologna,Bologna,Maximilian284,max02,https://github.com/Maximilian284,BOL,IT,454179,5584,2714,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
-254,richmond,Richmond,rslurry,slurry,https://github.com/rslurry,RIC,US,452742,63651,1751,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
-255,piedmont-triad,Piedmont Triad,PSWBSF,Potato Spaghetti Water Balloon Space Federation,https://youtu.be/dQw4w9WgXcQ?t=0,WGH,US,452333,49019,2580,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
-256,nantes,Nantes,pierreggt,pierreggt,https://github.com/pierreggt,NTE,FR,447121,7263,3214,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
-257,yukina-matsumoto,松本 (Matsumoto),ahkimn,Yukina-,https://subwaybuildermodded.com/credits,MMJ,JP,446451,19933,9585,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
-258,buffalo-ny,Buffalo,PSWBSF,Potato Spaghetti Water Balloon Space Federation,https://youtu.be/dQw4w9WgXcQ?t=0,BUF,US,445021,31196,1559,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
-259,yukina-ua-kryvyi-rih,Кривий Ріг / Kryvyi Rih,ahkimn,Yukina-,https://subwaybuildermodded.com/credits,KWG,UA,443495,16943,10301,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
-260,waterloo,Region of Waterloo,Kronifer,Kronifer,https://github.com/Kronifer,YKF,CA,437817,3001,881,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
-261,yukina-ee-tallinn,Tallinn,ahkimn,Yukina-,https://subwaybuildermodded.com/credits,TLL,EE,436683,18159,9965,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
-262,yukina-tokushima,徳島 (Tokushima),ahkimn,Yukina-,https://subwaybuildermodded.com/credits,TKS,JP,430866,20295,9842,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
-263,yukina-tsugaru,津軽 (Tsugaru),ahkimn,Yukina-,https://subwaybuildermodded.com/credits,AOJ,JP,426081,19237,9246,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
-264,akron-oh,"Akron, OH",bean1322,bean1322,https://github.com/bean1322,AKR,US,421326,45142,2292,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
-265,yukina-lt-kaunas,Kaunas,ahkimn,Yukina-,https://subwaybuildermodded.com/credits,KUN,LT,421239,22841,12847,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
-266,yukina-fukui,福井 (Fukui),ahkimn,Yukina-,https://subwaybuildermodded.com/credits,FKJ,JP,419876,18303,8632,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
-267,yukina-ua-ternopil,Тернопіль / Ternopil,ahkimn,Yukina-,https://subwaybuildermodded.com/credits,TNL,UA,418646,18462,12265,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
-268,yukina-ua-cherkasy,Черкаси / Cherkasy,ahkimn,Yukina-,https://subwaybuildermodded.com/credits,CKC,UA,408157,16274,10647,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
-269,dresden,Dresden,pierreggt,pierreggt,https://github.com/pierreggt,DRE,DE,407950,3975,4086,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
-270,yukina-ua-chernivtsi,Чернівці / Chernivtsi,ahkimn,Yukina-,https://subwaybuildermodded.com/credits,CWC,UA,405624,18710,13331,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
-271,bremen,Bremen,pierreggt,pierreggt,https://github.com/pierreggt,HB,DE,402600,3950,4180,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
-272,yukina-ua-zhytomyr,Житомир / Zhytomyr,ahkimn,Yukina-,https://subwaybuildermodded.com/credits,ZTR,UA,399447,15518,10696,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
-273,erfurt,Erfurt,pierreggt,pierreggt,https://github.com/pierreggt,ERF,DE,398200,3964,4712,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
-274,yukina-wakayama,和歌山 (Wakayama),ahkimn,Yukina-,https://subwaybuildermodded.com/credits,WKY,JP,395639,16427,6898,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
-275,mosul,Mosul,pierreggt,pierreggt,https://github.com/pierreggt,MOS,IQ,393800,3749,2943,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
-276,erbil,Erbil,pierreggt,pierreggt,https://github.com/pierreggt,ERB,IQ,389800,3776,3297,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
-277,yukina-ua-uzhhorod-mukachevo,Закарпаття / Transcarpathia,ahkimn,Yukina-,https://subwaybuildermodded.com/credits,UDJ,UA,377339,20671,13783,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
-278,strasbourg,Strasbourg,pierreggt,pierreggt,https://github.com/pierreggt,STR,FR,372018,5510,1968,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
-279,rochester,Rochester,rslurry,slurry,https://github.com/rslurry,ROC,US,359848,26202,5062,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
-280,yukina-cz-ustecko-chomutov,Ústí nad Labem - Chomutov,ahkimn,Yukina-,https://subwaybuildermodded.com/credits,UCH,CZ,353928,24931,7893,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
-281,yukina-kochi,高知 (Kōchi),ahkimn,Yukina-,https://subwaybuildermodded.com/credits,KCZ,JP,353708,15195,6639,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
-282,tri-cities,Tri-Cities,ryandicicco,ryandicicco,https://github.com/ryandicicco,PSC,US,353565,6403,327,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
-283,yukina-ua-khmelnytskyi,Хмельницький / Khmelnytskyi,ahkimn,Yukina-,https://subwaybuildermodded.com/credits,HMJ,UA,353052,14128,9270,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
-284,yukina-sk-zilina,Žilina,ahkimn,Yukina-,https://subwaybuildermodded.com/credits,ILZ,SK,348505,20478,8590,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
-285,yukina-hachinohe,八戸 (Hachinohe),ahkimn,Yukina-,https://subwaybuildermodded.com/credits,HHE,JP,345739,18380,10018,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
-286,metz-nancy,Metz - Nancy,pierreggt,pierreggt,https://github.com/pierreggt,MNC,FR,339768,7213,4522,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
-287,bielefeld,Bielefeld,pierreggt,pierreggt,https://github.com/pierreggt,BIE,DE,338700,3305,3264,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
-288,yukina-cz-ceske-budejovice,České Budějovice,ahkimn,Yukina-,https://subwaybuildermodded.com/credits,CBS,CZ,338181,24334,11208,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
-289,freiburg,Freiburg im Breisgau,pierreggt,pierreggt,https://github.com/pierreggt,FRB,DE,335050,3269,3268,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
-290,pays-basque,Euskal Herria,pierreggt,pierreggt,https://github.com/pierreggt,PYB,FR,330535,6232,7390,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
-291,yukina-cz-plzen,Plzeň,ahkimn,Yukina-,https://subwaybuildermodded.com/credits,PLZ,CZ,328864,23403,10295,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
-292,albany,Albany,soccerjonj,soccerjonj,https://github.com/soccerjonj,ALB,US,328703,26823,1694,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
-293,mfn-madisonwi,Madison,crumpetime,muffintime,https://github.com/crumpetime,MSN,US,327350,48129,2101,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
-294,charleston-sc,"Charleston, SC",PSWBSF,Potato Spaghetti Water Balloon Space Federation,https://youtu.be/dQw4w9WgXcQ?t=0,CHS,US,323867,19301,1185,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
-295,yukina-cz-olomouc,Olomouc,ahkimn,Yukina-,https://subwaybuildermodded.com/credits,OLO,CZ,323163,22704,9594,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
-296,yukina-asahikawa,旭川 (Asahikawa),ahkimn,Yukina-,https://subwaybuildermodded.com/credits,AKJ,JP,318077,15096,6937,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
-297,yukina-ua-poltava,Полтава / Poltava,ahkimn,Yukina-,https://subwaybuildermodded.com/credits,PLV,UA,317278,17184,11674,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
-298,yukina-pl-bialystok,Białystok,ahkimn,Yukina-,https://subwaybuildermodded.com/credits,BTK,PL,317271,15561,9531,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
-299,yukina-pl-opole,Opole,ahkimn,Yukina-,https://subwaybuildermodded.com/credits,OPL,PL,314966,17682,11778,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
-300,yukina-ua-chernihiv,Чернігів / Chernihiv,ahkimn,Yukina-,https://subwaybuildermodded.com/credits,CEJ,UA,312603,16595,10548,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
-301,kiel,Kiel,pierreggt,pierreggt,https://github.com/pierreggt,KIL,DE,310000,3019,3273,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
-302,chemnitz,Chemnitz,pierreggt,pierreggt,https://github.com/pierreggt,CHZ,DE,309350,3066,3801,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
-303,yukina-ua-sumy,Суми / Sumy,ahkimn,Yukina-,https://subwaybuildermodded.com/credits,UMY,UA,307184,16042,10818,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
-304,reunion,La Réunion,pierreggt,pierreggt,https://github.com/pierreggt,RUN,FR,307056,4986,5453,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
-305,yukina-cz-zlin,Zlín,ahkimn,Yukina-,https://subwaybuildermodded.com/credits,ZLN,CZ,302810,20863,9744,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
-306,dayton-oh,Dayton,PSWBSF,Potato Spaghetti Water Balloon Space Federation,https://youtu.be/dQw4w9WgXcQ?t=0,DAY,US,302604,25947,1567,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
-307,rennes,Rennes,pierreggt,pierreggt,https://github.com/pierreggt,RNS,FR,297940,4870,2056,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
-308,yukina-pl-czestochowa,Częstochowa,ahkimn,Yukina-,https://subwaybuildermodded.com/credits,CZE,PL,297120,17443,11762,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
-309,trondheim-no,Trondheim,rslurry,slurry,https://github.com/rslurry,GTRD,NO,294397,16645,9218,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
-310,rouen,Rouen,pierreggt,pierreggt,https://github.com/pierreggt,ROU,FR,293606,9204,6664,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
-311,yukina-pl-plock-wloclawek,Płock - Włocławek,ahkimn,Yukina-,https://subwaybuildermodded.com/credits,PLW,PL,287508,18181,12120,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
-312,yukina-sk-trencin,Trenčín,ahkimn,Yukina-,https://subwaybuildermodded.com/credits,TRC,SK,285283,18651,7098,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
-313,yukina-pl-central-pomerania,Pomorze Środkowe,ahkimn,Yukina-,https://subwaybuildermodded.com/credits,OSZ,PL,279981,14184,8948,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
-314,yukina-ua-kremenchuk,Кременчук / Kremenchuk,ahkimn,Yukina-,https://subwaybuildermodded.com/credits,KHU,UA,279020,15476,11072,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
-315,au-canberra,Canberra,subway-builder-modded-admin,Subway Builder Modded,https://subwaybuildermodded.com,CBR,AU,276209,2173,1202,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
-316,yukina-pl-zielona-gora,Zielona Góra,ahkimn,Yukina-,https://subwaybuildermodded.com/credits,IEG,PL,268021,13651,8609,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
-317,toledo-oh,Toledo,bean1322,bean1322,https://github.com/bean1322,TOL,US,264059,27347,2253,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
-318,yukina-pl-legnica,Legnica - LGOM,ahkimn,Yukina-,https://subwaybuildermodded.com/credits,LEG,PL,264016,13204,7888,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
-319,yukina-sk-nitra,Nitra,ahkimn,Yukina-,https://subwaybuildermodded.com/credits,NIT,SK,262950,18952,7410,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
-320,magdeburg,Magdeburg,pierreggt,pierreggt,https://github.com/pierreggt,MAG,DE,262800,2585,2902,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
-321,mfn-northwestar,Northwest Arkansas,crumpetime,muffintime,https://github.com/crumpetime,XNA,US,261959,38101,3064,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
-322,nz-christchurch,Christchurch,subway-builder-modded-admin,Subway Builder Modded,https://subwaybuildermodded.com,CHC,NZ,261486,2254,1695,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
-323,yukina-pl-radom,Radom,ahkimn,Yukina-,https://subwaybuildermodded.com/credits,RDO,PL,260851,15993,11076,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
-324,yukina-pl-olsztyn,Olsztyn,ahkimn,Yukina-,https://subwaybuildermodded.com/credits,SZY,PL,260211,12700,7867,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
-325,yukina-cz-jihlava,Jihlava,ahkimn,Yukina-,https://subwaybuildermodded.com/credits,JIH,CZ,259160,19220,9633,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
-326,yukina-tw-hualien-taitung,花蓮・臺東 (Hualien & Taitung),ahkimn,Yukina-,https://subwaybuildermodded.com/credits,TTT,TW,258883,10278,4499,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
-327,yukina-ua-kropyvnytskyi,Кропивницький / Kropyvnytskyi,ahkimn,Yukina-,https://subwaybuildermodded.com/credits,KGO,UA,252898,14471,9793,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
-328,nz-wellington,Wellington,subway-builder-modded-admin,Subway Builder Modded,https://subwaybuildermodded.com,WEL,NZ,250788,2136,1534,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
-329,augsburg,Augsburg,pierreggt,pierreggt,https://github.com/pierreggt,AUG,DE,245200,2393,2358,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
-330,yukina-hakodate,函館 (Hakodate),ahkimn,Yukina-,https://subwaybuildermodded.com/credits,HKD,JP,237047,10372,4299,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
-331,yukina-cz-liberec-jablonec,Liberec - Jablonec nad Nisou,ahkimn,Yukina-,https://subwaybuildermodded.com/credits,LBC,CZ,236833,17181,6321,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
-332,providence,Providence,soccerjonj,soccerjonj,https://github.com/soccerjonj,PVD,US,233115,13933,683,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
-333,mfn-rsw,Fort Myers,crumpetime,muffintime,https://github.com/crumpetime,RSW,US,229673,27726,918,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
-334,moenchengladbach,Mönchengladbach,pierreggt,pierreggt,https://github.com/pierreggt,MGL,DE,228000,2280,2501,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
-335,yukina-tottori,鳥取 (Tottori),ahkimn,Yukina-,https://subwaybuildermodded.com/credits,TTJ,JP,227423,11093,5496,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
-336,aachen,Aachen,pierreggt,pierreggt,https://github.com/pierreggt,AAC,DE,217200,2029,2031,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
-337,angers,Angers,pierreggt,pierreggt,https://github.com/pierreggt,ANG,FR,211758,4032,3364,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
-338,yukina-tw-yilan,宜蘭 (Yilan),ahkimn,Yukina-,https://subwaybuildermodded.com/credits,YIL,TW,204606,7489,3316,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
-339,yukina-lt-klaipeda,Klaipėda,ahkimn,Yukina-,https://subwaybuildermodded.com/credits,PLQ,LT,204012,16510,8365,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
-340,yukina-sk-banska-bystrica,Banská Bystrica,ahkimn,Yukina-,https://subwaybuildermodded.com/credits,BAN,SK,194565,16370,6240,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
-341,trondheim-val,Trondheim,Valdotorium,Valdotorium,https://github.com/Valdotorium,TRD,NO,194310,1764,123,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
-342,anchorage-ak,Anchorage,PSWBSF,Potato Spaghetti Water Balloon Space Federation,https://youtu.be/dQw4w9WgXcQ?t=0,ANC,US,189506,10546,742,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
-343,tours,Tours,pierreggt,pierreggt,https://github.com/pierreggt,TOU,FR,188817,3479,2725,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
-344,caen,Caen,pierreggt,pierreggt,https://github.com/pierreggt,CAE,FR,185885,5044,3413,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
-345,kristiansand-no,Kristiansand,rslurry,slurry,https://github.com/rslurry,KRS,NO,183459,12405,6748,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
-346,dijon,Dijon,pierreggt,pierreggt,https://github.com/pierreggt,DIJ,FR,181380,3464,2216,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
-347,orleans,Orléans,pierreggt,pierreggt,https://github.com/pierreggt,ORL,FR,173480,3428,2785,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
-348,brest,Brest,pierreggt,pierreggt,https://github.com/pierreggt,BRE,FR,171425,3461,3314,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
-349,corse,Corse,pierreggt,pierreggt,https://github.com/pierreggt,COR,FR,167762,6897,6537,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
-350,colorado-ski-country,Colorado Ski Country,soccerjonj,soccerjonj,https://github.com/soccerjonj,EGE,US,167071,8868,2140,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
-351,calais-dunkerque,Calais - Dunkerque,pierreggt,pierreggt,https://github.com/pierreggt,CDK,FR,164220,4645,4132,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
-352,guadeloupe,Guadeloupe,pierreggt,pierreggt,https://github.com/pierreggt,PTP,FR,158545,2609,3002,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
-353,spokane,Spokane,ryandicicco,ryandicicco,https://github.com/ryandicicco,GEG,US,157109,16695,519,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
-354,yukina-sk-poprad-spisska-nova-ves,Poprad - Spišská Nová Ves,ahkimn,Yukina-,https://subwaybuildermodded.com/credits,TAT,SK,156685,13341,4639,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
-355,syracuse-ny,"Syracuse, NY",PSWBSF,Potato Spaghetti Water Balloon Space Federation,https://youtu.be/dQw4w9WgXcQ?t=0,SYR,US,156483,10188,769,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
-356,amiens,Amiens,pierreggt,pierreggt,https://github.com/pierreggt,AMI,FR,155171,4047,3222,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
-357,charleston-huntington-wv,Charleston-Huntington,PSWBSF,Potato Spaghetti Water Balloon Space Federation,https://youtu.be/dQw4w9WgXcQ?t=0,CHA,US,151225,16547,1595,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
-358,martinique,Martinique,pierreggt,pierreggt,https://github.com/pierreggt,FDF,FR,144261,2605,3046,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
-359,reims,Reims,pierreggt,pierreggt,https://github.com/pierreggt,RMS,FR,143108,2758,1811,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
-360,yukina-cz-karlovy-vary,Karlovy Vary,ahkimn,Yukina-,https://subwaybuildermodded.com/credits,KVY,CZ,142726,9697,3889,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
-361,luebeck,Lübeck,pierreggt,pierreggt,https://github.com/pierreggt,LUB,DE,130000,1281,1348,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
-362,besancon,Besançon,pierreggt,pierreggt,https://github.com/pierreggt,BES,FR,129356,3075,2526,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
-363,le-mans,Le Mans,pierreggt,pierreggt,https://github.com/pierreggt,LEM,FR,124256,2447,2012,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
-364,yukina-lt-siauliai,Šiauliai,ahkimn,Yukina-,https://subwaybuildermodded.com/credits,SQQ,LT,121208,11243,7128,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
-365,limoges,Limoges,pierreggt,pierreggt,https://github.com/pierreggt,LMG,FR,118045,2132,2389,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
-366,le-havre,Le Havre,pierreggt,pierreggt,https://github.com/pierreggt,LHA,FR,117868,2024,1490,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
-367,yukina-ee-tartu,Tartu,ahkimn,Yukina-,https://subwaybuildermodded.com/credits,TAY,EE,115585,9571,5566,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
-368,la-rochelle,La Rochelle,pierreggt,pierreggt,https://github.com/pierreggt,LRO,FR,109625,2384,2086,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
-369,springfield-il,"Springfield, IL",NerdieSanders,NerdieSanders,https://github.com/NerdieSanders,SPI,US,107135,5666,1964,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
-370,ipoh,Ipoh,nzh0172,naz,https://github.com/nzh0172,IPH,MY,89318,1477,710,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
-371,guyane,Guyane,pierreggt,pierreggt,https://github.com/pierreggt,CAY,FR,83747,1309,1427,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
-372,wilmington-nc,"Wilmington, NC",PSWBSF,Potato Spaghetti Water Balloon Space Federation,https://youtu.be/dQw4w9WgXcQ?t=0,WIL,US,83410,3737,333,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
-373,yukina-lt-panevezys,Panevėžys,ahkimn,Yukina-,https://subwaybuildermodded.com/credits,PNV,LT,80584,7930,5330,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
-374,tromso-no,Tromsø,rslurry,slurry,https://github.com/rslurry,TOS,NO,79068,2479,692,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
-375,pau,Pau,pierreggt,pierreggt,https://github.com/pierreggt,PAU,FR,76062,1369,1301,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
-376,troyes,Troyes,pierreggt,pierreggt,https://github.com/pierreggt,TRO,FR,68585,1168,825,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
-377,yukina-lv-daugavpils,Daugavpils,ahkimn,Yukina-,https://subwaybuildermodded.com/credits,DGV,LV,61112,5072,2872,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
-378,yukina-ee-ida-viru,Ida-Viru,ahkimn,Yukina-,https://subwaybuildermodded.com/credits,IDV,EE,56460,4275,2234,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
-379,yukina-lv-liepaja,Liepāja,ahkimn,Yukina-,https://subwaybuildermodded.com/credits,LPX,LV,54532,4644,2557,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
-380,yukina-nemuro,根室 (Nemuro),ahkimn,Yukina-,https://subwaybuildermodded.com/credits,SHB,JP,47862,4642,2339,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
-381,yukina-ee-parnu,Pärnu,ahkimn,Yukina-,https://subwaybuildermodded.com/credits,EPU,EE,42339,4176,2995,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
-382,yukina-wakkanai,稚内 (Wakkanai),ahkimn,Yukina-,https://subwaybuildermodded.com/credits,WKJ,JP,40712,3236,1436,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+7,moscow-and-oblast,Moscow,akospanov,akospanov,https://github.com/akospanov,MOW,RU,12656409,248212,120626,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+8,seoul-4,Seoul,kimth9,kimth9,https://github.com/kimth9,SEL4,KR,11769102,129417,4072,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+9,ciudad-de-mexico,Ciudad de México,rslurry,slurry,https://github.com/rslurry,CDMX,MX,10969834,127012,19241,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+10,seoul,Seoul,cromstar,cromstar,https://github.com/cromstar,SEL,KR,10452230,147975,15119,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+11,yukina-keihanshin,京阪神 (Keihanshin),ahkimn,Yukina-,https://subwaybuildermodded.com/credits,KHS,JP,10201297,151024,41088,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+12,seoul-3,Seoul (30km×30km),kimth9,kimth9,https://github.com/kimth9,SEL3,KR,9102941,100550,2650,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+13,lima,Lima,kaicardenas0618,kaicardenas0618,https://github.com/kaicardenas0618,LIM,PE,8999705,90875,14035,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+14,chongqing,Chongqing,Kronifer,Kronifer,https://github.com/Kronifer,CKG,CN,8597215,150607,36134,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+15,istanbul,Istanbul,pierreggt,pierreggt,https://github.com/pierreggt,IST,TR,8148850,78934,65040,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+16,tehran,Tehran,pierreggt,pierreggt,https://github.com/pierreggt,THR,IR,7962850,78818,32818,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+17,amba,Buenos Aires,hernang87,hernang87,https://github.com/hernang87,BUE,AR,7794695,92190,6000,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+18,ile-de-france,Paris (IDF),JcPires,JcPires,https://github.com/JcPires,IDF,FR,7019451,202085,53694,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+19,yukina-nagoya,名古屋 (Nagoya),ahkimn,Yukina-,https://subwaybuildermodded.com/credits,NGO,JP,6998121,128224,53735,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+20,cdmx-core,CDMX Core,rslurry,slurry,https://github.com/rslurry,CDMC,MX,6752085,106735,8364,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+21,incheon-4,Incheon,kimth9,kimth9,https://github.com/kimth9,ICN,KR,6718676,88336,2533,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+22,paris-ile-de-france,Paris - Ile de France,pierreggt,pierreggt,https://github.com/pierreggt,PRS,FR,6650825,215781,108933,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+23,yukina-osaka,大阪 (Ōsaka),ahkimn,Yukina-,https://subwaybuildermodded.com/credits,ITM,JP,6548563,84565,19902,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+24,xiamen,Xiamen,Kronifer,Kronifer,https://github.com/Kronifer,XMN,CN,6544537,101341,11310,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+25,greater-kuala-lumpur,Greater Kuala Lumpur,nzh0172,naz,https://github.com/nzh0172,KUL,MY,6249021,41536,2337,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+26,yukina-tw-taipei,臺北 (Taipei),ahkimn,Yukina-,https://subwaybuildermodded.com/credits,TPE,TW,6079451,71991,13592,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+27,bangkok,Bangkok,nzh0172,naz,https://github.com/nzh0172,BKK,TH,6033126,40981,13860,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+28,greater-los-angeles,Greater Los Angeles,rslurry,slurry,https://github.com/rslurry,LAX,US,5519727,171398,6976,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+29,madrid,Madrid,Maximilian284,max02,https://github.com/Maximilian284,ESMD,ES,4801093,144717,5610,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+30,incheon-3,Incheon (30km×30km),kimth9,kimth9,https://github.com/kimth9,ICN3,KR,4749878,65173,1623,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+31,south-florida,South Florida,kaicardenas0618,kaicardenas0618,https://github.com/kaicardenas0618,SFL,US,4627711,179115,16324,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+32,greater-chicagoland,Greater Chicagoland,NerdieSanders,NerdieSanders,https://github.com/NerdieSanders,GCHI,US,4499051,75825,14866,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+33,singapore-val,Singapore,Valdotorium,Valdotorium,https://github.com/Valdotorium,SIN,SG,4204500,31692,1076,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+34,barcelona,Barcelona,Maximilian284,max02,https://github.com/Maximilian284,ESBC,ES,4073925,124371,6117,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+35,toronto,Toronto,subway-builder-modded-admin,Subway Builder Modded,https://subwaybuildermodded.com,YYZ,CA,4039647,33650,11203,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+36,mfn-hong-kong,Hong Kong,crumpetime,muffintime,https://github.com/crumpetime,HKG,HK,4038323,236084,1965,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+37,catt-chile-central,Chile Central,holapapie-png,holapapie-png,https://github.com/holapapie-png,CLC,CL,3979002,40173,4009,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+38,berlin-val,Berlin,Valdotorium,Valdotorium,https://github.com/Valdotorium,BER,DE,3926141,39805,921,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+39,yukina-northern-kyushu,福北 (Fukuoka & Kitakyūshū),ahkimn,Yukina-,https://subwaybuildermodded.com/credits,FOKK,JP,3791749,84405,32900,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+40,ruhrgebiet,Ruhrgebiet,pierreggt,pierreggt,https://github.com/pierreggt,RHR,DE,3781300,36940,36704,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+41,busan-4,Busan,kimth9,kimth9,https://github.com/kimth9,PUS,KR,3762661,44668,1153,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+42,greater-newyork,Greater NYC,chasemanning040911-afk,lechicken,https://github.com/chasemanning040911-afk,GNYC,US,3735824,269793,5151,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+43,busan-3,Busan (30km×30km),kimth9,kimth9,https://github.com/kimth9,PUS3,KR,3602364,43343,1060,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+44,riyadh,Riyadh,pierreggt,pierreggt,https://github.com/pierreggt,RUH,SA,3552550,34403,15020,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+45,rhein-main-neckar,Frankfurt (Rhein-Main-Neckar),pierreggt,pierreggt,https://github.com/pierreggt,WFK,DE,3458550,33923,34685,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+46,jeddah-mecca,Jeddah & Mecca,pierreggt,pierreggt,https://github.com/pierreggt,MKJ,SA,3380200,28989,14613,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+47,yukina-tw-southern-taiwan,南臺灣 (Southern Taiwan),ahkimn,Yukina-,https://subwaybuildermodded.com/credits,NTW,TW,3322046,66549,21407,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+48,los-angeles-county,Los Angeles County,rslurry,slurry,https://github.com/rslurry,LAXM,US,3202061,76804,4034,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+49,sydney,Sydney,WillBarouch,WillBarouch,https://github.com/WillBarouch,SYD,AU,3176499,25580,9687,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+50,sejong-4,Sejong,kimth9,kimth9,https://github.com/kimth9,SEJ,KR,3144215,46497,1259,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+51,catt-gran-santiago,Gran Santiago,holapapie-png,holapapie-png,https://github.com/holapapie-png,GSC,CL,3118834,18073,2267,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+52,dubai,Dubai,ryandicicco,ryandicicco,https://github.com/ryandicicco,DXB,AE,3105983,195806,11715,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+53,baghdad,Baghdad,pierreggt,pierreggt,https://github.com/pierreggt,BGW,IQ,3088300,30461,13567,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+54,glasgow-edinburgh,Glasgow-Edinburgh,Kronifer,Kronifer,https://github.com/Kronifer,GLED,GB,3069560,47377,12148,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+55,tijuana-san-diego,Tijuana-San Diego,rslurry,slurry,https://github.com/rslurry,TIJ,MX,3069230,133992,6022,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+56,monterrey,Monterrey,rslurry,slurry,https://github.com/rslurry,MTY,MX,3002098,62388,6558,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+57,ankara,Ankara,pierreggt,pierreggt,https://github.com/pierreggt,ANK,TR,2854650,27325,15702,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+58,guadalajara,Guadalajara,rslurry,slurry,https://github.com/rslurry,GDL,MX,2824978,59632,5838,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+59,lyon,Lyon - Vallée du Rhône & Alpes,pierreggt,pierreggt,https://github.com/pierreggt,LSY,FR,2719487,95084,57566,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+60,milan,Milan,Maximilian284,max02,https://github.com/Maximilian284,MIL,IT,2677197,23484,10146,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+61,yukina-tw-taichung,臺中 (Taichung),ahkimn,Yukina-,https://subwaybuildermodded.com/credits,RMQ,TW,2605338,50392,17151,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+62,bucharest-medium,Bucharest,metatablestudios,metatablestudios,https://github.com/metatablestudios,BUC,RO,2583210,64703,1852,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+63,daegu-4,Daegu,kimth9,kimth9,https://github.com/kimth9,TAE,KR,2539651,39266,1238,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+64,daegu-3,Daegu (30km×30km),kimth9,kimth9,https://github.com/kimth9,TAE3,KR,2539106,38216,1092,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+65,daejeon-4,Daejeon,kimth9,kimth9,https://github.com/kimth9,DAJ,KR,2530016,36115,1061,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+66,montreal,Montreal,subway-builder-modded-admin,Subway Builder Modded,https://subwaybuildermodded.com,YUL,CA,2523330,21051,8214,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+67,yukina-ua-kyiv,Київ / Kyiv,ahkimn,Yukina-,https://subwaybuildermodded.com/credits,KBP,UA,2513143,70347,29373,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+68,puebla,Puebla,rslurry,slurry,https://github.com/rslurry,PBC,MX,2506293,73695,8438,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+69,tel-aviv,Tel Aviv,BarKuperman,BarKuperman,https://github.com/BarKuperman,TLV,IL,2497200,12486,1301,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+70,baltimore-dc-corridor,Baltimore-DC Corridor,rslurry,slurry,https://github.com/rslurry,DCA,US,2440998,106957,6641,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+71,yukina-pl-warszawa,Warszawa,ahkimn,Yukina-,https://subwaybuildermodded.com/credits,WAR,PL,2322738,75539,38011,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+72,yukina-kobe-akashi,神戸・姫路 (Kōbe & Himeji),ahkimn,Yukina-,https://subwaybuildermodded.com/credits,UKB,JP,2287760,49898,20725,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+73,au-melbourne,Melbourne,subway-builder-modded-admin,Subway Builder Modded,https://subwaybuildermodded.com,MEL,AU,2266389,18045,9542,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+74,au-syd2,Sydney,subway-builder-modded-admin,Subway Builder Modded,https://subwaybuildermodded.com,SYD2,AU,2253174,18109,8268,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+75,daejeon-3,Daejeon (30km×30km),kimth9,kimth9,https://github.com/kimth9,DAJ3,KR,2201895,32378,863,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+76,alexandria,Alexandria,pierreggt,pierreggt,https://github.com/pierreggt,HBE,EG,2169100,21174,7796,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+77,oklahoma-city,Oklahoma City,ryandicicco,ryandicicco,https://github.com/ryandicicco,OKC,US,2163635,71065,1886,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+78,yukina-kyoto,京都 (Kyōto),ahkimn,Yukina-,https://subwaybuildermodded.com/credits,UKY,JP,2162459,43766,15697,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+79,zurich,Zurich,Kronifer,Kronifer,https://github.com/Kronifer,ZRH,CH,2147370,98878,39672,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+80,gwangju-4,Gwangju,kimth9,kimth9,https://github.com/kimth9,KWJ,KR,2140345,32755,951,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+81,gwangju-3,Gwangju (30km×30km),kimth9,kimth9,https://github.com/kimth9,KWJ3,KR,2134804,32341,848,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+82,warsaw-val,Warsaw,Valdotorium,Valdotorium,https://github.com/Valdotorium,WAW,PL,2115324,19327,622,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+83,greatertwincities,Greater Twin Cities,DanielD1909,DanielD1909,https://github.com/DanielD1909,KMSP,US,2071369,40632,5807,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+84,vienna,Vienna,Rmerr1,Rmerr1,https://github.com/Rmerr1,VIEN,AT,1959635,45426,6339,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+85,rome,Rome,Maximilian284,max02,https://github.com/Maximilian284,ROM,IT,1920000,28808,10725,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+86,kuwait-city,Kuwait City,pierreggt,pierreggt,https://github.com/pierreggt,KWI,KW,1913950,18525,5682,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+87,yukina-fukuoka,福岡 (Fukuoka),ahkimn,Yukina-,https://subwaybuildermodded.com/credits,FUK,JP,1849024,31658,8852,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+88,yukina-tw-kaohsiung,高雄 (Kaohsiung),ahkimn,Yukina-,https://subwaybuildermodded.com/credits,KHH,TW,1830440,33576,10263,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+89,yukina-sapporo-chitose,札幌 (Sapporo),ahkimn,Yukina-,https://subwaybuildermodded.com/credits,SPK,JP,1821360,38051,14966,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+90,valencia,Valencia,Maximilian284,max02,https://github.com/Maximilian284,ESVA,ES,1813405,53429,3127,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+91,cape-town,Cape Town,worstboyinaustral1a,worstboyinaustral1a,https://github.com/worstboyinaustral1a,CPT,ZA,1781374,36150,24313,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+92,yukina-cz-praha,Praha,ahkimn,Yukina-,https://subwaybuildermodded.com/credits,PRG,CZ,1714024,87093,26567,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+93,naples,Naples,Maximilian284,max02,https://github.com/Maximilian284,NAP,IT,1695981,21250,10998,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+94,orlando,Orlando,rslurry,slurry,https://github.com/rslurry,MCO,US,1686299,100949,2316,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+95,damascus,Damascus,pierreggt,pierreggt,https://github.com/pierreggt,DAM,SY,1684750,15988,5699,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+96,vancouver,Vancouver,subway-builder-modded-admin,Subway Builder Modded,https://subwaybuildermodded.com,YVR,CA,1677021,13943,5598,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+97,oslo-no,Oslo,rslurry,slurry,https://github.com/rslurry,OSL,NO,1651196,73636,25220,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+98,mashhad,Mashhad,pierreggt,pierreggt,https://github.com/pierreggt,MHD,IR,1644000,15625,6302,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+99,tampa-bay,Tampa Bay,rslurry,slurry,https://github.com/rslurry,TPA,US,1609875,60755,3266,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+100,yukina-shizuoka-hamamatsu,静岡・浜松 (Shizuoka/Hamamatsu),ahkimn,Yukina-,https://subwaybuildermodded.com/credits,FSZ,JP,1577894,34377,15003,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+101,greater-portland,Greater Portland,rslurry,slurry,https://github.com/rslurry,GPDX,US,1571997,77003,4541,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+102,willamette-valley,"Willamette Valley, OR",Phineapoo,Phineapoo,https://github.com/Phineapoo,WMV,US,1527957,206527,10166,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+103,sejong-3,Sejong (30km×30km),kimth9,kimth9,https://github.com/kimth9,SEJ3,KR,1514790,20944,677,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+104,yukina-pl-katowice-gzm,Katowice - GZM,ahkimn,Yukina-,https://subwaybuildermodded.com/credits,KTW,PL,1510462,49044,25881,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+105,cairo,Cairo,ryandicicco,ryandicicco,https://github.com/ryandicicco,CAI,EG,1509805,14487,1248,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+106,au-brisbane,Brisbane,subway-builder-modded-admin,Subway Builder Modded,https://subwaybuildermodded.com,BNE,AU,1495268,11805,6484,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+107,connecticut-usa,Connecticut,PSWBSF,Potato Spaghetti Water Balloon Space Federation,https://youtu.be/dQw4w9WgXcQ?t=0,CT,US,1483718,99514,6597,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+108,arc-mediterraneen,L'Arc Méditerranéen,pierreggt,pierreggt,https://github.com/pierreggt,NAR,FR,1475594,42630,35930,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+109,ulsan-4,Ulsan,kimth9,kimth9,https://github.com/kimth9,USN4,KR,1460625,21551,612,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+110,grand-geneve,Grand Genève,pierreggt,pierreggt,https://github.com/pierreggt,GVA,CH,1453033,26258,17570,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+111,trujillo,Trujillo,kaicardenas0618,kaicardenas0618,https://github.com/kaicardenas0618,TRU,PE,1442464,12600,8501,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+112,puerto-rico,Puerto Rico,rslurry,slurry,https://github.com/rslurry,PR,PR,1434290,30194,8016,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+113,yukina-maebashi,前橋 (Maebashi),ahkimn,Yukina-,https://subwaybuildermodded.com/credits,MBS,JP,1434237,37584,18919,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+114,orange-county,Orange County,rslurry,slurry,https://github.com/rslurry,OC,US,1429155,137792,2701,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+115,ulsan-3,Ulsan (30km×30km),kimth9,kimth9,https://github.com/kimth9,USN3,KR,1401126,20231,507,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+116,muenchen,München,pierreggt,pierreggt,https://github.com/pierreggt,MUC,DE,1388950,13314,11790,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+117,alicante,Alicante,Maximilian284,max02,https://github.com/Maximilian284,ESAL,ES,1386953,40710,3129,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+118,sevilla,Sevilla,Maximilian284,max02,https://github.com/Maximilian284,ESSV,ES,1370173,40160,1832,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+119,yukina-hiroshima-kure,広島 (Hiroshima),ahkimn,Yukina-,https://subwaybuildermodded.com/credits,HIJ,JP,1355217,26560,9815,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+120,ciudad-juarez-el-paso,Ciudad Juárez-El Paso,rslurry,slurry,https://github.com/rslurry,CJS,MX,1342726,47927,2766,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+121,piura,Piura,kaicardenas0618,kaicardenas0618,https://github.com/kaicardenas0618,PIU,PE,1303512,11909,17239,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+122,mfn-lasvegas,Las Vegas,crumpetime,muffintime,https://github.com/crumpetime,LAS,US,1296870,79319,2373,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+123,brussels,Brussels,lexenygma,lexenygma,https://github.com/lexenygma,BRU,BE,1265512,8847,725,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+124,yukina-pl-krakow,Kraków,ahkimn,Yukina-,https://subwaybuildermodded.com/credits,KRK,PL,1264077,46654,28394,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+125,hamburg,Hamburg,pierreggt,pierreggt,https://github.com/pierreggt,HAM,DE,1263050,12369,11608,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+126,yukina-ua-kharkiv,Харків / Kharkiv,ahkimn,Yukina-,https://subwaybuildermodded.com/credits,HRK,UA,1259058,37480,18375,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+127,sofia-bulgaria,Sofia,giannons46,giannons46,https://github.com/giannons46,SOF,BG,1229754,436879,2793,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+128,daytonatti,Daytonatti,soccerjonj,soccerjonj,https://github.com/soccerjonj,DAY,US,1226849,123534,5835,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+129,pyongyang-nk,Pyongyang,PSWBSF,Potato Spaghetti Water Balloon Space Federation,https://youtu.be/dQw4w9WgXcQ?t=0,PYO,KP,1210086,7078,267,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+130,opo-pt-metropolitan,"Porto, Portugal",bquelhas,bquelhas,https://github.com/bquelhas,OPO,PT,1189520,59476,46542,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+131,bonn-koeln,Bonn-Köln,pierreggt,pierreggt,https://github.com/pierreggt,BNC,DE,1188400,11523,10285,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+132,rhode-island,Rhode Island,rslurry,slurry,https://github.com/rslurry,GPVD,US,1177616,127986,3914,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+133,arequipa,Arequipa,kaicardenas0618,kaicardenas0618,https://github.com/kaicardenas0618,AQP,PE,1172562,11751,10656,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+134,mississippi,Mississippi,JayToTheAy,JayToTheAy,https://github.com/JayToTheAy,MS,US,1171983,234670,21243,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+135,abu-dhabi,Abu Dhabi,pierreggt,pierreggt,https://github.com/pierreggt,AUH,AE,1170100,11514,5043,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+136,pianura-veneta,Pianura Veneta,Maximilian284,max02,https://github.com/Maximilian284,VPT,IT,1165753,12448,8150,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+137,yukina-ua-lviv,Львів / Lviv,ahkimn,Yukina-,https://subwaybuildermodded.com/credits,LWO,UA,1164926,39744,22478,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+138,marseille,Marseille - Provence,pierreggt,pierreggt,https://github.com/pierreggt,MRS,FR,1146909,21990,15374,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+139,yukina-sendai,仙台 (Sendai),ahkimn,Yukina-,https://subwaybuildermodded.com/credits,SDJ,JP,1130636,23038,8605,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+140,yukina-kitakyushu-shimonoseki,北九州・下関 (Kitakyūshū & Shimonoseki),ahkimn,Yukina-,https://subwaybuildermodded.com/credits,KKJ,JP,1128866,30868,12715,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+141,yukina-niigata,新潟 (Niigata),ahkimn,Yukina-,https://subwaybuildermodded.com/credits,KIJ,JP,1077385,33596,16113,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+142,lille,Lille - Flandre & Hainaut,pierreggt,pierreggt,https://github.com/pierreggt,LIL,FR,1060367,32230,18546,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+143,yukina-pl-poznan,Poznań,ahkimn,Yukina-,https://subwaybuildermodded.com/credits,POZ,PL,1058569,37725,21532,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+144,yukina-tw-tainan,臺南 (Tainan),ahkimn,Yukina-,https://subwaybuildermodded.com/credits,TNN,TW,1050235,18997,6423,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+145,yukina-utsunomiya,宇都宮 (Utsunomiya),ahkimn,Yukina-,https://subwaybuildermodded.com/credits,QUT,JP,1027638,36078,18938,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+146,johor-bahru,Johor Bahru,nzh0172,naz,https://github.com/nzh0172,JHB,MY,1026080,11110,877,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+147,yukina-ua-dnipro,Дніпро / Dnipro,ahkimn,Yukina-,https://subwaybuildermodded.com/credits,DNK,UA,1007876,32893,17997,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+148,au-perth,Perth,subway-builder-modded-admin,Subway Builder Modded,https://subwaybuildermodded.com,PER,AU,1006991,8027,4655,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+149,yukina-okayama,岡山 (Okayama),ahkimn,Yukina-,https://subwaybuildermodded.com/credits,OKJ,JP,986836,28442,12478,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+150,aleppo,Aleppo,pierreggt,pierreggt,https://github.com/pierreggt,ALP,SY,981800,9613,3951,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+151,greater-baltimore,Greater Baltimore,rslurry,slurry,https://github.com/rslurry,BWI,US,972032,75010,2914,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+152,garda-lake,Garda Lake,Maximilian284,max02,https://github.com/Maximilian284,GRD,IT,959863,12896,7994,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+153,yukina-pl-lodz,Łódź,ahkimn,Yukina-,https://subwaybuildermodded.com/credits,LCJ,PL,952470,37601,21639,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+154,yukina-pl-gdansk,Gdańsk,ahkimn,Yukina-,https://subwaybuildermodded.com/credits,GDN,PL,948319,30779,16864,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+155,san-antonio,San Antonio,rslurry,slurry,https://github.com/rslurry,SAT,US,946870,106855,4348,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+156,helsinki,Helsinki,rslurry,slurry,https://github.com/rslurry,HEL,FI,940971,13981,2835,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+157,yukina-pl-wroclaw,Wrocław,ahkimn,Yukina-,https://subwaybuildermodded.com/credits,WRO,PL,940793,30572,16194,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+158,yukina-ua-odesa,Одеса / Odesa,ahkimn,Yukina-,https://subwaybuildermodded.com/credits,ODS,UA,938521,28712,13134,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+159,mfn-msy,New Orleans,crumpetime,muffintime,https://github.com/crumpetime,MSY,US,938027,175265,5125,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+160,yukina-kumamoto,熊本 (Kumamoto),ahkimn,Yukina-,https://subwaybuildermodded.com/credits,KMJ,JP,936540,29444,12964,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+161,chiclayo,Chiclayo,kaicardenas0618,kaicardenas0618,https://github.com/kaicardenas0618,CIX,PE,919138,8351,14943,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+162,turin,Turin,Maximilian284,max02,https://github.com/Maximilian284,TOR,IT,910203,14127,5885,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+163,calgary,Calgary,subway-builder-modded-admin,Subway Builder Modded,https://subwaybuildermodded.com,YYC,CA,890139,7422,3512,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+164,beirut,Beirut,pierreggt,pierreggt,https://github.com/pierreggt,BEY,LB,882100,8724,3740,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+165,yukina-okinawa,沖縄 (Okinawa),ahkimn,Yukina-,https://subwaybuildermodded.com/credits,OKA,JP,876167,20698,5744,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+166,yukina-tw-hsinchu,新竹 (Hsinchu),ahkimn,Yukina-,https://subwaybuildermodded.com/credits,HSZ,TW,872639,19387,6189,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+167,jacksonville,Jacksonville,rslurry,slurry,https://github.com/rslurry,JAX,US,869636,52907,2667,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+168,eurodistrict-bale,Eurodistrict of Basel,pierreggt,pierreggt,https://github.com/pierreggt,BSL,CH,864924,15447,10038,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+169,doha,Doha,pierreggt,pierreggt,https://github.com/pierreggt,DOH,QA,853150,8297,4134,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+170,pulau-pinang,Pulau Pinang,nzh0172,naz,https://github.com/nzh0172,PEN,MY,852976,6708,933,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+171,yukina-sk-bratislava,Bratislava,ahkimn,Yukina-,https://subwaybuildermodded.com/credits,BTS,SK,851355,35758,11286,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+172,pianura-emiliana,Pianura Emiliana,Maximilian284,max02,https://github.com/Maximilian284,PRM,IT,841395,9437,5915,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+173,antalya,Antalya,pierreggt,pierreggt,https://github.com/pierreggt,ANT,TR,841300,7532,5129,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+174,nashville,Nashville,soccerjonj,soccerjonj,https://github.com/soccerjonj,BNA,US,838863,60682,2807,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+175,hannover-braunschweig,Hannover-Braunschweig,pierreggt,pierreggt,https://github.com/pierreggt,HBS,DE,825950,8068,8344,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+176,amsterdam,Amsterdam,ryandicicco,ryandicicco,https://github.com/ryandicicco,AMS,NL,821203,11092,373,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+177,shiraz,Shiraz,pierreggt,pierreggt,https://github.com/pierreggt,SYZ,IR,819100,8061,4158,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+178,yukina-tw-chiayi,嘉義 (Chiayi),ahkimn,Yukina-,https://subwaybuildermodded.com/credits,CYI,TW,814154,22795,10693,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+179,huancayo-jauja,Huancayo/Jauja,kaicardenas0618,kaicardenas0618,https://github.com/kaicardenas0618,JAU,PE,813602,7366,20943,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+180,stuttgart,Stuttgart,pierreggt,pierreggt,https://github.com/pierreggt,STU,DE,808700,7932,7020,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+181,bilbao,Bilbao,Maximilian284,max02,https://github.com/Maximilian284,ESBI,ES,804134,23063,1411,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+182,edmonton,Edmonton,subway-builder-modded-admin,Subway Builder Modded,https://subwaybuildermodded.com,YEG,CA,798307,6612,3374,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+183,jeju-f,Jeju,kimth9,kimth9,https://github.com/kimth9,CJU,KR,795684,12281,740,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+184,mexicali,Mexicali-Imperial Valley-Yuma,rslurry,slurry,https://github.com/rslurry,MXL,MX,794931,37482,2624,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+185,nz-auckland,Auckland,subway-builder-modded-admin,Subway Builder Modded,https://subwaybuildermodded.com,AKL,NZ,790941,6672,4317,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+186,cusco,Cusco,kaicardenas0618,kaicardenas0618,https://github.com/kaicardenas0618,CUZ,PE,786360,7086,23619,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+187,yukina-ua-mykolaiv-kherson,Миколаїв - Херсон / Mykolaiv & Kherson,ahkimn,Yukina-,https://subwaybuildermodded.com/credits,NLV,UA,780623,28256,17212,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+188,cancun-riviera-maya,Cancun / Riviera Maya,Meszier83,Meszier83,https://github.com/Meszier83,CUR,MX,775627,6284,1906,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+189,san-juan,San Juan,rslurry,slurry,https://github.com/rslurry,SJU,PR,773862,9703,2686,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+190,jeju-4,Jeju (40km×40km),kimth9,kimth9,https://github.com/kimth9,CJU4,KR,770019,11188,503,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+191,mfn-hamptonroads,Norfolk,crumpetime,muffintime,https://github.com/crumpetime,ORF,US,760585,61472,2270,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+192,sacramento,Sacramento,soccerjonj,soccerjonj,https://github.com/soccerjonj,SMF,US,755810,55081,2539,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+193,montpellier-mediterranee,Montpellier,pierreggt,pierreggt,https://github.com/pierreggt,MTP,FR,754524,37845,6671,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+194,yukina-kagoshima-kirishima,鹿児島 (Kagoshima),ahkimn,Yukina-,https://subwaybuildermodded.com/credits,KOJ,JP,752140,23103,10185,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+195,memphis,Memphis,rslurry,slurry,https://github.com/rslurry,MEM,US,739736,39229,1454,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+196,ottawa,Ottawa,subway-builder-modded-admin,Subway Builder Modded,https://subwaybuildermodded.com,YOW,CA,739120,6239,3348,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+197,bergen-stavanger-no,Bergen-Stavanger,rslurry,slurry,https://github.com/rslurry,BGSV,NO,735675,36543,14696,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+198,dublin,Dublin,Kronifer,Kronifer,https://github.com/Kronifer,DUB,IE,732172,3391,3265,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+199,yukina-bydgoszcz-torun,Bydgoszcz - Toruń,ahkimn,Yukina-,https://subwaybuildermodded.com/credits,BZG,PL,726633,36022,20685,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+200,bordeaux-arcachon-libourne,Bordeaux,pierreggt,pierreggt,https://github.com/pierreggt,BOD,FR,722159,42528,7599,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+201,yukina-fuji-numazu,富士・沼津 (Fuji & Numazu),ahkimn,Yukina-,https://subwaybuildermodded.com/credits,FJN,JP,720484,21399,9481,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+202,yukina-ua-zaporizhzhia,Запоріжжя / Zaporizhzhia,ahkimn,Yukina-,https://subwaybuildermodded.com/credits,OZH,UA,713557,23705,12824,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+203,yukina-cz-brno,Brno,ahkimn,Yukina-,https://subwaybuildermodded.com/credits,BRQ,CZ,713163,42377,15975,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+204,rotterdam-the-hague,Rotterdam-The Hague,ryandicicco,ryandicicco,https://github.com/ryandicicco,RTM,NL,712179,10723,415,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+205,yukina-kanazawa,金沢 (Kanazawa),ahkimn,Yukina-,https://subwaybuildermodded.com/credits,KMQ,JP,711278,20614,9199,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+206,yukina-matsuyama,松山 (Matsuyama),ahkimn,Yukina-,https://subwaybuildermodded.com/credits,MYJ,JP,709738,20658,9201,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+207,yukina-toyama,富山 (Toyama),ahkimn,Yukina-,https://subwaybuildermodded.com/credits,TOY,JP,707097,23129,12127,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+208,yukina-lv-riga,Rīga,ahkimn,Yukina-,https://subwaybuildermodded.com/credits,RIX,LV,703330,30858,16654,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+209,yukina-nakadoori,中通り (Nakadōri),ahkimn,Yukina-,https://subwaybuildermodded.com/credits,FKS,JP,685331,24742,13070,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+210,au-adelaide,Adelaide,subway-builder-modded-admin,Subway Builder Modded,https://subwaybuildermodded.com,ADL,AU,661340,5225,3098,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+211,bari,Bari,Maximilian284,max02,https://github.com/Maximilian284,BAR,IT,660455,7869,3875,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+212,jeju-3,Jeju (30km×30km),kimth9,kimth9,https://github.com/kimth9,CJU3,KR,654905,9400,398,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+213,yukina-mito-hitachi,水戸・日立 (Mito & Hitachi),ahkimn,Yukina-,https://subwaybuildermodded.com/credits,QIS,JP,630392,21793,11408,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+214,riviera-romagnola,Riviera Romagnola,Maximilian284,max02,https://github.com/Maximilian284,RIV,IT,630314,7433,4349,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+215,palma-de-mallorca,Palma de Mallorca,Maximilian284,max02,https://github.com/Maximilian284,ESPM,ES,629588,18163,1598,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+216,florence,Florence,Maximilian284,max02,https://github.com/Maximilian284,FIR,IT,626808,8434,3697,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+217,yukina-nagano,長野 (Nagano),ahkimn,Yukina-,https://subwaybuildermodded.com/credits,QNG,JP,624892,21616,11038,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+218,yukina-takamatsu,高松 (Takamatsu),ahkimn,Yukina-,https://subwaybuildermodded.com/credits,TAK,JP,624171,19567,9207,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+219,mfn-rdu,Raleigh,crumpetime,muffintime,https://github.com/crumpetime,RDU,US,618227,73872,1938,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+220,saltillo,Saltillo,rslurry,slurry,https://github.com/rslurry,SLW,MX,612580,19716,1348,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+221,yukina-cz-ostrava,Ostrava,ahkimn,Yukina-,https://subwaybuildermodded.com/credits,OSR,CZ,607028,36252,13681,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+222,muscat,Muscat,pierreggt,pierreggt,https://github.com/pierreggt,MCT,OM,592400,5765,3005,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+223,yukina-lt-vilnius,Vilnius,ahkimn,Yukina-,https://subwaybuildermodded.com/credits,VNO,LT,584172,22814,11304,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+224,yukina-ua-ivano-frankivsk,Івано-Франківськ / Ivano-Frankivsk,ahkimn,Yukina-,https://subwaybuildermodded.com/credits,IFO,UA,583382,24799,15418,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+225,yukina-ua-rivne-lutsk,Рівне - Луцьк / Rivne & Lutsk,ahkimn,Yukina-,https://subwaybuildermodded.com/credits,RWN,UA,582799,23537,14625,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+226,yukina-morioka,盛岡 (Morioka),ahkimn,Yukina-,https://subwaybuildermodded.com/credits,HNA,JP,579655,30327,16445,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+227,yukina-cz-hradec-pardubice,Hradec Králové - Pardubice,ahkimn,Yukina-,https://subwaybuildermodded.com/credits,HKP,CZ,579090,41771,19446,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+228,palermo,Palermo,Maximilian284,max02,https://github.com/Maximilian284,PAL,IT,566901,8946,3264,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+229,yukina-akita,秋田 (Akita),ahkimn,Yukina-,https://subwaybuildermodded.com/credits,AXT,JP,562394,30688,17079,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+230,yukina-nagasaki,長崎 (Nagasaki),ahkimn,Yukina-,https://subwaybuildermodded.com/credits,NGS,JP,557246,16510,7499,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+231,toulouse,Toulouse,pierreggt,pierreggt,https://github.com/pierreggt,TLS,FR,554668,9397,4158,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+232,iquitos,Iquitos,kaicardenas0618,kaicardenas0618,https://github.com/kaicardenas0618,IQT,PE,540098,4622,10769,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+233,yukina-yamaguchi,山口 (Yamaguchi),ahkimn,Yukina-,https://subwaybuildermodded.com/credits,UBJ,JP,532953,16727,8589,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+234,chimbote,Chimbote,kaicardenas0618,kaicardenas0618,https://github.com/kaicardenas0618,CHM,PE,532539,5297,4674,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+235,yukina-oita,大分 (Ōita),ahkimn,Yukina-,https://subwaybuildermodded.com/credits,OIT,JP,530914,23228,9756,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+236,louisville,Louisville,soccerjonj,soccerjonj,https://github.com/soccerjonj,SDF,US,530833,48045,3488,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+237,catania,Catania,Maximilian284,max02,https://github.com/Maximilian284,CAT,IT,530181,7992,3552,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+238,yukina-pl-lublin,Lublin,ahkimn,Yukina-,https://subwaybuildermodded.com/credits,LUZ,PL,524547,28896,18090,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+239,yukina-ua-vinnytsia,Вінниця / Vinnytsia,ahkimn,Yukina-,https://subwaybuildermodded.com/credits,VIN,UA,522171,21464,14127,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+240,yukina-miyazaki,宮崎 (Miyazaki),ahkimn,Yukina-,https://subwaybuildermodded.com/credits,KMI,JP,517905,24155,11609,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+241,nuernberg,Nürnberg,pierreggt,pierreggt,https://github.com/pierreggt,NUE,DE,516600,4992,4662,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+242,yukina-fukuyama,福山 (Fukuyama),ahkimn,Yukina-,https://subwaybuildermodded.com/credits,QFY,JP,506680,16029,7973,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+243,yukina-pl-szczecin,Szczecin,ahkimn,Yukina-,https://subwaybuildermodded.com/credits,SZZ,PL,505610,22480,11972,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+244,winnipeg,Winnipeg,subway-builder-modded-admin,Subway Builder Modded,https://subwaybuildermodded.com,YWG,CA,502477,4154,2119,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+245,knoxville,Knoxville,rslurry,slurry,https://github.com/rslurry,KNOX,US,499081,46078,1491,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+246,quebec-city,Quebec City,subway-builder-modded-admin,Subway Builder Modded,https://subwaybuildermodded.com,YQB,CA,497019,4131,2147,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+247,yukina-yamagata,山形 (Yamagata),ahkimn,Yukina-,https://subwaybuildermodded.com/credits,GAJ,JP,495795,22153,10468,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+248,yukina-kofu,甲府 (Kōfu),ahkimn,Yukina-,https://subwaybuildermodded.com/credits,KFU,JP,491651,22342,10276,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+249,yukina-nakaumi,中海 (Nakaumi),ahkimn,Yukina-,https://subwaybuildermodded.com/credits,IZO,JP,484395,22130,10256,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+250,nice-cote-d-azur,Nice,pierreggt,pierreggt,https://github.com/pierreggt,NCE,FR,478024,8676,6538,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+251,santa-barbara,Santa Barbara,rslurry,slurry,https://github.com/rslurry,SBA,US,475304,30058,1181,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+252,jerusalem,Jerusalem,BarKuperman,BarKuperman,https://github.com/BarKuperman,JER,IL,473200,2366,650,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+253,yukina-sk-kosice-presov,Košice - Prešov,ahkimn,Yukina-,https://subwaybuildermodded.com/credits,KSC,SK,471949,33713,11398,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+254,yukina-pl-rzeszow,Rzeszów,ahkimn,Yukina-,https://subwaybuildermodded.com/credits,RZE,PL,466856,26280,18410,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+255,genoa,Genoa,Maximilian284,max02,https://github.com/Maximilian284,GEN,IT,456057,6547,1881,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+256,yukina-pl-kielce,Kielce,ahkimn,Yukina-,https://subwaybuildermodded.com/credits,KIE,PL,455428,26757,18167,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+257,bologna,Bologna,Maximilian284,max02,https://github.com/Maximilian284,BOL,IT,454179,5584,2714,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+258,richmond,Richmond,rslurry,slurry,https://github.com/rslurry,RIC,US,452742,63651,1751,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+259,piedmont-triad,Piedmont Triad,PSWBSF,Potato Spaghetti Water Balloon Space Federation,https://youtu.be/dQw4w9WgXcQ?t=0,WGH,US,452333,49019,2580,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+260,nantes,Nantes,pierreggt,pierreggt,https://github.com/pierreggt,NTE,FR,447121,7263,3214,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+261,yukina-matsumoto,松本 (Matsumoto),ahkimn,Yukina-,https://subwaybuildermodded.com/credits,MMJ,JP,446451,19933,9585,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+262,buffalo-ny,Buffalo,PSWBSF,Potato Spaghetti Water Balloon Space Federation,https://youtu.be/dQw4w9WgXcQ?t=0,BUF,US,445021,31196,1559,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+263,yukina-ua-kryvyi-rih,Кривий Ріг / Kryvyi Rih,ahkimn,Yukina-,https://subwaybuildermodded.com/credits,KWG,UA,443495,16943,10301,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+264,waterloo,Region of Waterloo,Kronifer,Kronifer,https://github.com/Kronifer,YKF,CA,437817,3001,881,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+265,yukina-ee-tallinn,Tallinn,ahkimn,Yukina-,https://subwaybuildermodded.com/credits,TLL,EE,436683,18159,9965,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+266,yukina-tokushima,徳島 (Tokushima),ahkimn,Yukina-,https://subwaybuildermodded.com/credits,TKS,JP,430866,20295,9842,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+267,yukina-tsugaru,津軽 (Tsugaru),ahkimn,Yukina-,https://subwaybuildermodded.com/credits,AOJ,JP,426081,19237,9246,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+268,akron-oh,"Akron, OH",bean1322,bean1322,https://github.com/bean1322,AKR,US,421326,45142,2292,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+269,yukina-lt-kaunas,Kaunas,ahkimn,Yukina-,https://subwaybuildermodded.com/credits,KUN,LT,421239,22841,12847,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+270,yukina-fukui,福井 (Fukui),ahkimn,Yukina-,https://subwaybuildermodded.com/credits,FKJ,JP,419876,18303,8632,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+271,yukina-ua-ternopil,Тернопіль / Ternopil,ahkimn,Yukina-,https://subwaybuildermodded.com/credits,TNL,UA,418646,18462,12265,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+272,yukina-ua-cherkasy,Черкаси / Cherkasy,ahkimn,Yukina-,https://subwaybuildermodded.com/credits,CKC,UA,408157,16274,10647,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+273,dresden,Dresden,pierreggt,pierreggt,https://github.com/pierreggt,DRE,DE,407950,3975,4086,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+274,yukina-ua-chernivtsi,Чернівці / Chernivtsi,ahkimn,Yukina-,https://subwaybuildermodded.com/credits,CWC,UA,405624,18710,13331,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+275,bremen,Bremen,pierreggt,pierreggt,https://github.com/pierreggt,HB,DE,402600,3950,4180,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+276,yukina-ua-zhytomyr,Житомир / Zhytomyr,ahkimn,Yukina-,https://subwaybuildermodded.com/credits,ZTR,UA,399447,15518,10696,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+277,erfurt,Erfurt,pierreggt,pierreggt,https://github.com/pierreggt,ERF,DE,398200,3964,4712,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+278,yukina-wakayama,和歌山 (Wakayama),ahkimn,Yukina-,https://subwaybuildermodded.com/credits,WKY,JP,395639,16427,6898,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+279,mosul,Mosul,pierreggt,pierreggt,https://github.com/pierreggt,MOS,IQ,393800,3749,2943,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+280,erbil,Erbil,pierreggt,pierreggt,https://github.com/pierreggt,ERB,IQ,389800,3776,3297,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+281,yukina-ua-uzhhorod-mukachevo,Закарпаття / Transcarpathia,ahkimn,Yukina-,https://subwaybuildermodded.com/credits,UDJ,UA,377339,20671,13783,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+282,strasbourg,Strasbourg,pierreggt,pierreggt,https://github.com/pierreggt,STR,FR,372018,5510,1968,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+283,rochester,Rochester,rslurry,slurry,https://github.com/rslurry,ROC,US,359848,26202,5062,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+284,yukina-cz-ustecko-chomutov,Ústí nad Labem - Chomutov,ahkimn,Yukina-,https://subwaybuildermodded.com/credits,UCH,CZ,353928,24931,7893,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+285,yukina-kochi,高知 (Kōchi),ahkimn,Yukina-,https://subwaybuildermodded.com/credits,KCZ,JP,353708,15195,6639,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+286,tri-cities,Tri-Cities,ryandicicco,ryandicicco,https://github.com/ryandicicco,PSC,US,353565,6403,327,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+287,yukina-ua-khmelnytskyi,Хмельницький / Khmelnytskyi,ahkimn,Yukina-,https://subwaybuildermodded.com/credits,HMJ,UA,353052,14128,9270,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+288,yukina-sk-zilina,Žilina,ahkimn,Yukina-,https://subwaybuildermodded.com/credits,ILZ,SK,348505,20478,8590,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+289,yukina-hachinohe,八戸 (Hachinohe),ahkimn,Yukina-,https://subwaybuildermodded.com/credits,HHE,JP,345739,18380,10018,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+290,metz-nancy,Metz - Nancy,pierreggt,pierreggt,https://github.com/pierreggt,MNC,FR,339768,7213,4522,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+291,bielefeld,Bielefeld,pierreggt,pierreggt,https://github.com/pierreggt,BIE,DE,338700,3305,3264,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+292,yukina-cz-ceske-budejovice,České Budějovice,ahkimn,Yukina-,https://subwaybuildermodded.com/credits,CBS,CZ,338181,24334,11208,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+293,freiburg,Freiburg im Breisgau,pierreggt,pierreggt,https://github.com/pierreggt,FRB,DE,335050,3269,3268,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+294,pays-basque,Euskal Herria,pierreggt,pierreggt,https://github.com/pierreggt,PYB,FR,330535,6232,7390,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+295,yukina-cz-plzen,Plzeň,ahkimn,Yukina-,https://subwaybuildermodded.com/credits,PLZ,CZ,328864,23403,10295,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+296,albany,Albany,soccerjonj,soccerjonj,https://github.com/soccerjonj,ALB,US,328703,26823,1694,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+297,mfn-madisonwi,Madison,crumpetime,muffintime,https://github.com/crumpetime,MSN,US,327350,48129,2101,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+298,charleston-sc,"Charleston, SC",PSWBSF,Potato Spaghetti Water Balloon Space Federation,https://youtu.be/dQw4w9WgXcQ?t=0,CHS,US,323867,19301,1185,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+299,yukina-cz-olomouc,Olomouc,ahkimn,Yukina-,https://subwaybuildermodded.com/credits,OLO,CZ,323163,22704,9594,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+300,yukina-asahikawa,旭川 (Asahikawa),ahkimn,Yukina-,https://subwaybuildermodded.com/credits,AKJ,JP,318077,15096,6937,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+301,yukina-ua-poltava,Полтава / Poltava,ahkimn,Yukina-,https://subwaybuildermodded.com/credits,PLV,UA,317278,17184,11674,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+302,yukina-pl-bialystok,Białystok,ahkimn,Yukina-,https://subwaybuildermodded.com/credits,BTK,PL,317271,15561,9531,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+303,yukina-pl-opole,Opole,ahkimn,Yukina-,https://subwaybuildermodded.com/credits,OPL,PL,314966,17682,11778,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+304,yukina-ua-chernihiv,Чернігів / Chernihiv,ahkimn,Yukina-,https://subwaybuildermodded.com/credits,CEJ,UA,312603,16595,10548,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+305,kiel,Kiel,pierreggt,pierreggt,https://github.com/pierreggt,KIL,DE,310000,3019,3273,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+306,chemnitz,Chemnitz,pierreggt,pierreggt,https://github.com/pierreggt,CHZ,DE,309350,3066,3801,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+307,yukina-ua-sumy,Суми / Sumy,ahkimn,Yukina-,https://subwaybuildermodded.com/credits,UMY,UA,307184,16042,10818,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+308,reunion,La Réunion,pierreggt,pierreggt,https://github.com/pierreggt,RUN,FR,307056,4986,5453,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+309,yukina-cz-zlin,Zlín,ahkimn,Yukina-,https://subwaybuildermodded.com/credits,ZLN,CZ,302810,20863,9744,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+310,dayton-oh,Dayton,PSWBSF,Potato Spaghetti Water Balloon Space Federation,https://youtu.be/dQw4w9WgXcQ?t=0,DAY,US,302604,25947,1567,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+311,rennes,Rennes,pierreggt,pierreggt,https://github.com/pierreggt,RNS,FR,297940,4870,2056,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+312,yukina-pl-czestochowa,Częstochowa,ahkimn,Yukina-,https://subwaybuildermodded.com/credits,CZE,PL,297120,17443,11762,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+313,trondheim-no,Trondheim,rslurry,slurry,https://github.com/rslurry,GTRD,NO,294397,16645,9218,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+314,rouen,Rouen,pierreggt,pierreggt,https://github.com/pierreggt,ROU,FR,293606,9204,6664,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+315,yukina-pl-plock-wloclawek,Płock - Włocławek,ahkimn,Yukina-,https://subwaybuildermodded.com/credits,PLW,PL,287508,18181,12120,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+316,yukina-sk-trencin,Trenčín,ahkimn,Yukina-,https://subwaybuildermodded.com/credits,TRC,SK,285283,18651,7098,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+317,yukina-pl-central-pomerania,Pomorze Środkowe,ahkimn,Yukina-,https://subwaybuildermodded.com/credits,OSZ,PL,279981,14184,8948,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+318,yukina-ua-kremenchuk,Кременчук / Kremenchuk,ahkimn,Yukina-,https://subwaybuildermodded.com/credits,KHU,UA,279020,15476,11072,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+319,au-canberra,Canberra,subway-builder-modded-admin,Subway Builder Modded,https://subwaybuildermodded.com,CBR,AU,276209,2173,1202,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+320,yukina-pl-zielona-gora,Zielona Góra,ahkimn,Yukina-,https://subwaybuildermodded.com/credits,IEG,PL,268021,13651,8609,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+321,toledo-oh,Toledo,bean1322,bean1322,https://github.com/bean1322,TOL,US,264059,27347,2253,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+322,yukina-pl-legnica,Legnica - LGOM,ahkimn,Yukina-,https://subwaybuildermodded.com/credits,LEG,PL,264016,13204,7888,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+323,yukina-sk-nitra,Nitra,ahkimn,Yukina-,https://subwaybuildermodded.com/credits,NIT,SK,262950,18952,7410,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+324,magdeburg,Magdeburg,pierreggt,pierreggt,https://github.com/pierreggt,MAG,DE,262800,2585,2902,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+325,mfn-northwestar,Northwest Arkansas,crumpetime,muffintime,https://github.com/crumpetime,XNA,US,261959,38101,3064,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+326,nz-christchurch,Christchurch,subway-builder-modded-admin,Subway Builder Modded,https://subwaybuildermodded.com,CHC,NZ,261486,2254,1695,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+327,yukina-pl-radom,Radom,ahkimn,Yukina-,https://subwaybuildermodded.com/credits,RDO,PL,260851,15993,11076,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+328,yukina-pl-olsztyn,Olsztyn,ahkimn,Yukina-,https://subwaybuildermodded.com/credits,SZY,PL,260211,12700,7867,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+329,yukina-cz-jihlava,Jihlava,ahkimn,Yukina-,https://subwaybuildermodded.com/credits,JIH,CZ,259160,19220,9633,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+330,yukina-tw-hualien-taitung,花蓮・臺東 (Hualien & Taitung),ahkimn,Yukina-,https://subwaybuildermodded.com/credits,TTT,TW,258883,10278,4499,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+331,yukina-ua-kropyvnytskyi,Кропивницький / Kropyvnytskyi,ahkimn,Yukina-,https://subwaybuildermodded.com/credits,KGO,UA,252898,14471,9793,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+332,nz-wellington,Wellington,subway-builder-modded-admin,Subway Builder Modded,https://subwaybuildermodded.com,WEL,NZ,250788,2136,1534,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+333,augsburg,Augsburg,pierreggt,pierreggt,https://github.com/pierreggt,AUG,DE,245200,2393,2358,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+334,yukina-hakodate,函館 (Hakodate),ahkimn,Yukina-,https://subwaybuildermodded.com/credits,HKD,JP,237047,10372,4299,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+335,yukina-cz-liberec-jablonec,Liberec - Jablonec nad Nisou,ahkimn,Yukina-,https://subwaybuildermodded.com/credits,LBC,CZ,236833,17181,6321,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+336,providence,Providence,soccerjonj,soccerjonj,https://github.com/soccerjonj,PVD,US,233115,13933,683,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+337,mfn-rsw,Fort Myers,crumpetime,muffintime,https://github.com/crumpetime,RSW,US,229673,27726,918,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+338,moenchengladbach,Mönchengladbach,pierreggt,pierreggt,https://github.com/pierreggt,MGL,DE,228000,2280,2501,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+339,yukina-tottori,鳥取 (Tottori),ahkimn,Yukina-,https://subwaybuildermodded.com/credits,TTJ,JP,227423,11093,5496,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+340,aachen,Aachen,pierreggt,pierreggt,https://github.com/pierreggt,AAC,DE,217200,2029,2031,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+341,angers,Angers,pierreggt,pierreggt,https://github.com/pierreggt,ANG,FR,211758,4032,3364,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+342,yukina-tw-yilan,宜蘭 (Yilan),ahkimn,Yukina-,https://subwaybuildermodded.com/credits,YIL,TW,204606,7489,3316,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+343,yukina-lt-klaipeda,Klaipėda,ahkimn,Yukina-,https://subwaybuildermodded.com/credits,PLQ,LT,204012,16510,8365,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+344,yukina-sk-banska-bystrica,Banská Bystrica,ahkimn,Yukina-,https://subwaybuildermodded.com/credits,BAN,SK,194565,16370,6240,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+345,trondheim-val,Trondheim,Valdotorium,Valdotorium,https://github.com/Valdotorium,TRD,NO,194310,1764,123,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+346,anchorage-ak,Anchorage,PSWBSF,Potato Spaghetti Water Balloon Space Federation,https://youtu.be/dQw4w9WgXcQ?t=0,ANC,US,189506,10546,742,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+347,tours,Tours,pierreggt,pierreggt,https://github.com/pierreggt,TOU,FR,188817,3479,2725,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+348,caen,Caen,pierreggt,pierreggt,https://github.com/pierreggt,CAE,FR,185885,5044,3413,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+349,kristiansand-no,Kristiansand,rslurry,slurry,https://github.com/rslurry,KRS,NO,183459,12405,6748,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+350,dijon,Dijon,pierreggt,pierreggt,https://github.com/pierreggt,DIJ,FR,181380,3464,2216,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+351,orleans,Orléans,pierreggt,pierreggt,https://github.com/pierreggt,ORL,FR,173480,3428,2785,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+352,brest,Brest,pierreggt,pierreggt,https://github.com/pierreggt,BRE,FR,171425,3461,3314,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+353,corse,Corse,pierreggt,pierreggt,https://github.com/pierreggt,COR,FR,167762,6897,6537,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+354,colorado-ski-country,Colorado Ski Country,soccerjonj,soccerjonj,https://github.com/soccerjonj,EGE,US,167071,8868,2140,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+355,calais-dunkerque,Calais - Dunkerque,pierreggt,pierreggt,https://github.com/pierreggt,CDK,FR,164220,4645,4132,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+356,guadeloupe,Guadeloupe,pierreggt,pierreggt,https://github.com/pierreggt,PTP,FR,158545,2609,3002,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+357,spokane,Spokane,ryandicicco,ryandicicco,https://github.com/ryandicicco,GEG,US,157109,16695,519,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+358,yukina-sk-poprad-spisska-nova-ves,Poprad - Spišská Nová Ves,ahkimn,Yukina-,https://subwaybuildermodded.com/credits,TAT,SK,156685,13341,4639,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+359,syracuse-ny,"Syracuse, NY",PSWBSF,Potato Spaghetti Water Balloon Space Federation,https://youtu.be/dQw4w9WgXcQ?t=0,SYR,US,156483,10188,769,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+360,amiens,Amiens,pierreggt,pierreggt,https://github.com/pierreggt,AMI,FR,155171,4047,3222,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+361,charleston-huntington-wv,Charleston-Huntington,PSWBSF,Potato Spaghetti Water Balloon Space Federation,https://youtu.be/dQw4w9WgXcQ?t=0,CHA,US,151225,16547,1595,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+362,martinique,Martinique,pierreggt,pierreggt,https://github.com/pierreggt,FDF,FR,144261,2605,3046,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+363,reims,Reims,pierreggt,pierreggt,https://github.com/pierreggt,RMS,FR,143108,2758,1811,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+364,yukina-cz-karlovy-vary,Karlovy Vary,ahkimn,Yukina-,https://subwaybuildermodded.com/credits,KVY,CZ,142726,9697,3889,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+365,luebeck,Lübeck,pierreggt,pierreggt,https://github.com/pierreggt,LUB,DE,130000,1281,1348,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+366,besancon,Besançon,pierreggt,pierreggt,https://github.com/pierreggt,BES,FR,129356,3075,2526,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+367,le-mans,Le Mans,pierreggt,pierreggt,https://github.com/pierreggt,LEM,FR,124256,2447,2012,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+368,yukina-lt-siauliai,Šiauliai,ahkimn,Yukina-,https://subwaybuildermodded.com/credits,SQQ,LT,121208,11243,7128,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+369,limoges,Limoges,pierreggt,pierreggt,https://github.com/pierreggt,LMG,FR,118045,2132,2389,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+370,le-havre,Le Havre,pierreggt,pierreggt,https://github.com/pierreggt,LHA,FR,117868,2024,1490,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+371,yukina-ee-tartu,Tartu,ahkimn,Yukina-,https://subwaybuildermodded.com/credits,TAY,EE,115585,9571,5566,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+372,la-rochelle,La Rochelle,pierreggt,pierreggt,https://github.com/pierreggt,LRO,FR,109625,2384,2086,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+373,springfield-il,"Springfield, IL",NerdieSanders,NerdieSanders,https://github.com/NerdieSanders,SPI,US,107135,5666,1964,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+374,ipoh,Ipoh,nzh0172,naz,https://github.com/nzh0172,IPH,MY,89318,1477,710,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+375,guyane,Guyane,pierreggt,pierreggt,https://github.com/pierreggt,CAY,FR,83747,1309,1427,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+376,wilmington-nc,"Wilmington, NC",PSWBSF,Potato Spaghetti Water Balloon Space Federation,https://youtu.be/dQw4w9WgXcQ?t=0,WIL,US,83410,3737,333,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+377,yukina-lt-panevezys,Panevėžys,ahkimn,Yukina-,https://subwaybuildermodded.com/credits,PNV,LT,80584,7930,5330,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+378,tromso-no,Tromsø,rslurry,slurry,https://github.com/rslurry,TOS,NO,79068,2479,692,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+379,pau,Pau,pierreggt,pierreggt,https://github.com/pierreggt,PAU,FR,76062,1369,1301,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+380,troyes,Troyes,pierreggt,pierreggt,https://github.com/pierreggt,TRO,FR,68585,1168,825,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+381,yukina-lv-daugavpils,Daugavpils,ahkimn,Yukina-,https://subwaybuildermodded.com/credits,DGV,LV,61112,5072,2872,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+382,yukina-ee-ida-viru,Ida-Viru,ahkimn,Yukina-,https://subwaybuildermodded.com/credits,IDV,EE,56460,4275,2234,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+383,yukina-lv-liepaja,Liepāja,ahkimn,Yukina-,https://subwaybuildermodded.com/credits,LPX,LV,54532,4644,2557,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+384,yukina-nemuro,根室 (Nemuro),ahkimn,Yukina-,https://subwaybuildermodded.com/credits,SHB,JP,47862,4642,2339,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+385,yukina-ee-parnu,Pärnu,ahkimn,Yukina-,https://subwaybuildermodded.com/credits,EPU,EE,42339,4176,2995,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+386,yukina-wakkanai,稚内 (Wakkanai),ahkimn,Yukina-,https://subwaybuildermodded.com/credits,WKJ,JP,40712,3236,1436,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
