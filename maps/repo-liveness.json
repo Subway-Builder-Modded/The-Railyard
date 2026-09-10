@@ -1,11 +1,11 @@
 {
   "schema_version": 2,
-  "updated_at": "2026-09-10T07:01:22.139Z",
+  "updated_at": "2026-09-10T08:01:18.138Z",
   "sources": {
     "listing:cancun-riviera-maya": {
       "kind": "listing",
       "first_unreachable_at": "2026-09-10T06:01:14.818Z",
-      "last_checked_at": "2026-09-10T07:01:22.139Z",
+      "last_checked_at": "2026-09-10T08:01:18.138Z",
       "listings": [
         "cancun-riviera-maya"
       ]
@@ -13,7 +13,7 @@
     "listing:moscow-and-oblast": {
       "kind": "listing",
       "first_unreachable_at": "2026-09-10T06:01:14.818Z",
-      "last_checked_at": "2026-09-10T07:01:22.139Z",
+      "last_checked_at": "2026-09-10T08:01:18.138Z",
       "listings": [
         "moscow-and-oblast"
       ]
