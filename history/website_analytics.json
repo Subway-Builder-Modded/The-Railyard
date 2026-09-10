@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
   "zone_tag": "436c0657e9f4ae2256e5ffb96122273a",
-  "updated_at": "2026-09-10T10:01:18.479Z",
+  "updated_at": "2026-09-10T11:01:17.797Z",
   "valid_paths": [
     "/",
     "/404.html",
@@ -84870,6 +84870,29 @@
       "devices": {
         "desktop": 1
       }
+    },
+    "2026-09-10T11:00:00.000Z": {
+      "captured_at": "2026-09-10T11:01:17.797Z",
+      "window_start": "2026-09-10T11:00:00.000Z",
+      "window_end": "2026-09-10T12:00:00.000Z",
+      "totals": {
+        "visits": 1
+      },
+      "pages": {
+        "/": 1
+      },
+      "countries": {
+        "US": 1
+      },
+      "browsers": {
+        "Unknown": 1
+      },
+      "operating_systems": {
+        "Unknown": 1
+      },
+      "devices": {
+        "desktop": 1
+      }
     }
   },
   "daily_snapshots": {
@@ -106812,14 +106835,14 @@
       }
     },
     "2026-09-10": {
-      "captured_at": "2026-09-10T10:01:18.479Z",
+      "captured_at": "2026-09-10T11:01:17.797Z",
       "window_start": "2026-09-10T00:00:00.000Z",
-      "window_end": "2026-09-10T11:00:00.000Z",
+      "window_end": "2026-09-10T12:00:00.000Z",
       "totals": {
-        "visits": 26
+        "visits": 27
       },
       "pages": {
-        "/": 10,
+        "/": 11,
         "/railyard": 3,
         "/registry/maps/opo-pt-metropolitan": 1,
         "/registry/maps/toronto": 1,
@@ -106839,7 +106862,7 @@
         "CA": 1,
         "LT": 1,
         "SG": 1,
-        "US": 22
+        "US": 23
       },
       "browsers": {
         "BingBot": 2,
@@ -106848,17 +106871,17 @@
         "GoogleBot": 7,
         "MobileSafari": 1,
         "Opera": 1,
-        "Unknown": 12
+        "Unknown": 13
       },
       "operating_systems": {
         "Android": 8,
         "Linux": 1,
-        "Unknown": 14,
+        "Unknown": 15,
         "Windows": 1,
         "iOS": 1
       },
       "devices": {
-        "desktop": 17,
+        "desktop": 18,
         "mobile": 9
       }
     }
