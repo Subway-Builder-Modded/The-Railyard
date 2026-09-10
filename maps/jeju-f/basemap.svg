@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" width="2048" height="2048" viewBox="0 0 2048 2048" role="img" aria-label="Road basemap for jeju-f">
+<metadata>{&quot;generated_at&quot;:&quot;2026-05-28T22:55:48.501Z&quot;,&quot;listing_id&quot;:&quot;jeju-f&quot;,&quot;original_bbox&quot;:{&quot;minLon&quot;:126.17802185451019,&quot;minLat&quot;:33.21462913089234,&quot;maxLon&quot;:126.89747814548987,&quot;maxLat&quot;:33.55637086910769},&quot;square_bbox&quot;:{&quot;minLon&quot;:126.17802185451019,&quot;minLat&quot;:33.08478203449834,&quot;maxLon&quot;:126.89747814548988,&quot;maxLat&quot;:33.68551607433869},&quot;source_attribution&quot;:&quot;Contains OpenStreetMap data (c) OpenStreetMap contributors&quot;,&quot;overpass_url&quot;:&quot;https://overpass-api.de/api/interpreter&quot;,&quot;road_count&quot;:6}</metadata>
+<g id="roads">
+<path id="road-primary-274779560" class="road primary" d="M1899.72 1176.06 L1899.81 1176.38" stroke="#7a7a7a" stroke-width="5" stroke-linecap="round" stroke-linejoin="round" fill="none"/>
+<path id="road-primary-288759088" class="road primary" d="M906.57 682.88 L906.23 682.87" stroke="#7a7a7a" stroke-width="5" stroke-linecap="round" stroke-linejoin="round" fill="none"/>
+<path id="road-primary-392357186" class="road primary" d="M488.23 794.02 L488.38 793.99 L488.68 793.93 L488.90 793.88 L489.63 793.77 L490.39 793.63" stroke="#7a7a7a" stroke-width="5" stroke-linecap="round" stroke-linejoin="round" fill="none"/>
+<path id="road-primary-864061163" class="road primary" d="M362.42 1514.82 L362.45 1515.08" stroke="#7a7a7a" stroke-width="5" stroke-linecap="round" stroke-linejoin="round" fill="none"/>
+<path id="road-trunk-1152587913" class="road trunk" d="M915.64 1485.85 L915.83 1485.85" stroke="#7a7a7a" stroke-width="8" stroke-linecap="round" stroke-linejoin="round" fill="none"/>
+<path id="road-trunk-1152587915" class="road trunk" d="M915.82 1485.42 L915.62 1485.43" stroke="#7a7a7a" stroke-width="8" stroke-linecap="round" stroke-linejoin="round" fill="none"/>
+</g>
+</svg>

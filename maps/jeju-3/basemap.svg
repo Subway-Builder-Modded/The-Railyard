@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" width="2048" height="2048" viewBox="0 0 2048 2048" role="img" aria-label="Road basemap for jeju-3">
+<metadata>{&quot;generated_at&quot;:&quot;2026-05-28T22:55:42.964Z&quot;,&quot;listing_id&quot;:&quot;jeju-3&quot;,&quot;original_bbox&quot;:{&quot;minLon&quot;:126.34541553816683,&quot;minLat&quot;:33.392307769083416,&quot;maxLon&quot;:126.6511844618332,&quot;maxLat&quot;:33.5451922309166},&quot;square_bbox&quot;:{&quot;minLon&quot;:126.34541553816682,&quot;minLat&quot;:33.341155795298,&quot;maxLon&quot;:126.6511844618332,&quot;maxLat&quot;:33.59622395698051},&quot;source_attribution&quot;:&quot;Contains OpenStreetMap data (c) OpenStreetMap contributors&quot;,&quot;overpass_url&quot;:&quot;https://overpass-api.de/api/interpreter&quot;,&quot;road_count&quot;:2}</metadata>
+<g id="roads">
+<path id="road-primary-288759088" class="road primary" d="M1011.93 888.39 L1011.13 888.37" stroke="#7a7a7a" stroke-width="5" stroke-linecap="round" stroke-linejoin="round" fill="none"/>
+<path id="road-primary-392357186" class="road primary" d="M27.59 1149.91 L27.95 1149.83 L28.66 1149.69 L29.17 1149.58 L30.88 1149.31 L32.68 1148.99" stroke="#7a7a7a" stroke-width="5" stroke-linecap="round" stroke-linejoin="round" fill="none"/>
+</g>
+</svg>
