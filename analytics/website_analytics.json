@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
   "zone_tag": "436c0657e9f4ae2256e5ffb96122273a",
-  "generated_at": "2026-09-10T02:01:39.133Z",
+  "generated_at": "2026-09-10T03:01:15.298Z",
   "valid_paths": [
     "/",
     "/404.html",
@@ -2235,11 +2235,11 @@
   "path_aliases": {},
   "summary": {
     "latest_day": "2026-09-10",
-    "latest_hour": "2026-09-10T02:00:00.000Z",
+    "latest_hour": "2026-09-10T03:00:00.000Z",
     "total_days": 147,
-    "total_hours": 2488,
-    "latest_day_visits": 22,
-    "latest_hour_visits": 0
+    "total_hours": 2489,
+    "latest_day_visits": 23,
+    "latest_hour_visits": 1
   },
   "time_series": {
     "by_day": [
@@ -2829,7 +2829,7 @@
       },
       {
         "date": "2026-09-10",
-        "visits": 22
+        "visits": 23
       }
     ],
     "by_hour": [
@@ -12784,6 +12784,10 @@
       {
         "hour": "2026-09-10T02:00:00.000Z",
         "visits": 0
+      },
+      {
+        "hour": "2026-09-10T03:00:00.000Z",
+        "visits": 1
       }
     ]
   },
@@ -34727,15 +34731,16 @@
       }
     },
     "2026-09-10": {
-      "captured_at": "2026-09-10T02:01:36.521Z",
+      "captured_at": "2026-09-10T03:01:13.039Z",
       "window_start": "2026-09-10T00:00:00.000Z",
-      "window_end": "2026-09-10T03:00:00.000Z",
+      "window_end": "2026-09-10T04:00:00.000Z",
       "totals": {
-        "visits": 22
+        "visits": 23
       },
       "pages": {
         "/": 8,
         "/railyard": 2,
+        "/registry/maps/opo-pt-metropolitan": 1,
         "/registry/maps/toronto": 1,
         "/registry/maps/yukina-nagoya/versions/0.2.3": 1,
         "/registry/maps/yukina-pl-gdansk": 1,
@@ -34752,10 +34757,10 @@
       "countries": {
         "CA": 1,
         "LT": 1,
-        "US": 20
+        "US": 21
       },
       "browsers": {
-        "BingBot": 1,
+        "BingBot": 2,
         "Chrome": 1,
         "ChromeMobile": 1,
         "GoogleBot": 7,
@@ -34766,12 +34771,12 @@
       "operating_systems": {
         "Android": 8,
         "Linux": 1,
-        "Unknown": 11,
+        "Unknown": 12,
         "Windows": 1,
         "iOS": 1
       },
       "devices": {
-        "desktop": 13,
+        "desktop": 14,
         "mobile": 9
       }
     }
