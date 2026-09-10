@@ -7,8 +7,8 @@
   "peers": [],
   "adoption_targets": [],
   "adoption_peers": [],
-  "note": "Same automated client signature as list A (same 2026-07-27/28 onset, same ~6/day cadence, same synchronized wobbles including the shared 5-3-1-4-4 slowdown of 2026-08-27 onward), against a fixed 25-listing library of small US metros plus johor-bahru, pulau-pinang, and jerusalem. STILL ACTIVE as of 2026-08-31 — re-run this spec (preview, then --apply) every day or two until the list goes quiet, then set incident_end and run one final --apply. Allowance = pre-incident baseline rate (2026-06-25 -> 2026-07-26).",
-  "incident_end": null,
+  "note": "Same automated client signature as list A (same 2026-07-27/28 onset, same ~6/day cadence, same synchronized wobbles including the shared 5-3-1-4-4 slowdown of 2026-08-27 onward), against a fixed 25-listing library of small US metros plus johor-bahru, pulau-pinang, and jerusalem. CLOSED 2026-09-10: the loop was extinguished by deprecating its library in waves (13 on 09-06 via #10064 - members died within one day; mfn-rdu/mfn-msy 09-09 via #10319; PSWBSF four 09-09 via #10358; akron-oh/toledo-oh/johor-bahru/pulau-pinang/willamette-valley alongside this closure). Total attributed: 4,746 fetches across list B. jerusalem remains LIVE (upgrade pending) - if its ~3/day residual persists after the other 24 die, reopen with a jerusalem-only spec. Allowance = pre-incident baseline rate (2026-06-25 -> 2026-07-26).",
+  "incident_end": "2026-09-09",
   "targets": [
     {
       "listing_type": "map",

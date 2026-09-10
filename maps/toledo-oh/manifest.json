@@ -165,5 +165,10 @@
     "weighted_score": 0.87,
     "rubric_version": 1,
     "provenance": "backfill"
+  },
+  "deprecation": {
+    "since": "2026-09-10T00:18:42.195Z",
+    "by_github_id": 19807509,
+    "reason": "Built before game version 1.4 and no longer compatible; not updated since. Deprecated by the maintainer."
   }
 }

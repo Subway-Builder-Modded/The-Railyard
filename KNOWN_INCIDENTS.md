@@ -21,8 +21,15 @@ signature, at 8x the scale. Two lists, same 2026-07-27/28 onset:
   buffalo-ny, syracuse-ny, anchorage-ak, charleston-sc, wilmington-nc,
   piedmont-triad, connecticut-usa, colorado-ski-country, willamette-valley,
   mfn-northwestar/-madisonwi/-rdu/-msy) plus johor-bahru, pulau-pinang, and
-  jerusalem. Still active as of 2026-08-31 (rate recently decayed to ~4/day,
-  still synchronized). **4,036 spurious fetches** attributed so far.
+  jerusalem. **CLOSED 2026-09-10** (`incident_end` 2026-09-09): the loop was
+  extinguished by deprecating its library in waves — 13 stale members on
+  2026-09-06 (#10064; their fetches stopped within one day), mfn-rdu/mfn-msy
+  (#10319) and PSWBSF's four (#10358) on 2026-09-09, and
+  akron-oh/toledo-oh/johor-bahru/pulau-pinang/willamette-valley with the
+  closure PR. **4,746 spurious fetches** attributed to list B in total
+  (5,798 across both lists). jerusalem remains live pending its announced
+  upgrade — if a ~3/day synchronized residual persists there after the rest
+  of the library died, reopen with a jerusalem-only spec.
 
 The list shapes (one author's national set + one small-metro collection)
 suggest broken client subscription libraries re-downloading on an update-check
@@ -33,14 +40,15 @@ cycle rather than a scraper; the registry's own pipeline is ruled out
 **Correction:** two committed specs sharing the loop-repair engine —
 `history/loop-repair-specs/2026_08_31_metronome_fetch_list_a.json` (closed,
 `incident_end` 2026-08-19) and `2026_08_31_metronome_fetch_list_b.json`
-(open). Allowance is the pre-incident baseline rate (2026-06-25 → 2026-07-26;
-near zero for most members). Idempotent per-day deltas, version-bucket
-ceilings lowered, 36 snapshots clamped per spec.
+(closed, `incident_end` 2026-09-09). Allowance is the pre-incident baseline
+rate (2026-06-25 → 2026-07-26; near zero for most members). Idempotent
+per-day deltas, version-bucket ceilings lowered, snapshots clamped per spec.
 
-**While list B is open:** re-run the B spec (preview, then `--apply`) every
-day or two; when the list goes quiet in lockstep, set `incident_end`, run one
-final `--apply`, and mark this entry closed. After any attribution-ledger
-rebuild, re-apply both specs like the other manual-attribution specs.
+**Both specs closed.** After any attribution-ledger rebuild, re-apply both
+specs like the other manual-attribution specs. The deferred residual decision
+(the `Math.ceil` 1/day allowance floor left ~1,300 loop downloads counted as
+organic across both lists) is documented here as accepted — the engine's
+`daily-ceil` allowance mode is unchanged.
 
 **Detection:** found by a registry-wide correlation sweep (day-delta vectors
 with ≥90% ±1 agreement across listings) — the run-length screen alone missed
