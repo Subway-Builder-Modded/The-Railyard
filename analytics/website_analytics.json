@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
   "zone_tag": "436c0657e9f4ae2256e5ffb96122273a",
-  "generated_at": "2026-09-10T12:01:17.138Z",
+  "generated_at": "2026-09-10T13:01:23.626Z",
   "valid_paths": [
     "/",
     "/404.html",
@@ -2235,11 +2235,11 @@
   "path_aliases": {},
   "summary": {
     "latest_day": "2026-09-10",
-    "latest_hour": "2026-09-10T12:00:00.000Z",
+    "latest_hour": "2026-09-10T13:00:00.000Z",
     "total_days": 147,
-    "total_hours": 2498,
-    "latest_day_visits": 30,
-    "latest_hour_visits": 3
+    "total_hours": 2499,
+    "latest_day_visits": 32,
+    "latest_hour_visits": 2
   },
   "time_series": {
     "by_day": [
@@ -2829,7 +2829,7 @@
       },
       {
         "date": "2026-09-10",
-        "visits": 30
+        "visits": 32
       }
     ],
     "by_hour": [
@@ -12824,6 +12824,10 @@
       {
         "hour": "2026-09-10T12:00:00.000Z",
         "visits": 3
+      },
+      {
+        "hour": "2026-09-10T13:00:00.000Z",
+        "visits": 2
       }
     ]
   },
@@ -34767,14 +34771,14 @@
       }
     },
     "2026-09-10": {
-      "captured_at": "2026-09-10T12:01:14.820Z",
+      "captured_at": "2026-09-10T13:01:21.562Z",
       "window_start": "2026-09-10T00:00:00.000Z",
-      "window_end": "2026-09-10T13:00:00.000Z",
+      "window_end": "2026-09-10T14:00:00.000Z",
       "totals": {
-        "visits": 30
+        "visits": 32
       },
       "pages": {
-        "/": 13,
+        "/": 15,
         "/railyard": 3,
         "/registry/maps/opo-pt-metropolitan": 1,
         "/registry/maps/toronto": 1,
@@ -34795,7 +34799,7 @@
         "CA": 1,
         "LT": 1,
         "SG": 1,
-        "US": 26
+        "US": 28
       },
       "browsers": {
         "BingBot": 2,
@@ -34804,17 +34808,17 @@
         "GoogleBot": 7,
         "MobileSafari": 1,
         "Opera": 1,
-        "Unknown": 16
+        "Unknown": 18
       },
       "operating_systems": {
         "Android": 8,
         "Linux": 1,
-        "Unknown": 18,
+        "Unknown": 20,
         "Windows": 1,
         "iOS": 1
       },
       "devices": {
-        "desktop": 21,
+        "desktop": 23,
         "mobile": 9
       }
     }
