@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
   "zone_tag": "436c0657e9f4ae2256e5ffb96122273a",
-  "updated_at": "2026-09-10T00:01:15.156Z",
+  "updated_at": "2026-09-10T00:33:55.836Z",
   "valid_paths": [
     "/",
     "/404.html",
@@ -84657,17 +84657,53 @@
       }
     },
     "2026-09-10T00:00:00.000Z": {
-      "captured_at": "2026-09-10T00:01:15.156Z",
+      "captured_at": "2026-09-10T00:33:55.836Z",
       "window_start": "2026-09-10T00:00:00.000Z",
       "window_end": "2026-09-10T01:00:00.000Z",
       "totals": {
-        "visits": 0
+        "visits": 22
       },
-      "pages": {},
-      "countries": {},
-      "browsers": {},
-      "operating_systems": {},
-      "devices": {}
+      "pages": {
+        "/": 8,
+        "/railyard": 2,
+        "/registry/maps/toronto": 1,
+        "/registry/maps/yukina-nagoya/versions/0.2.3": 1,
+        "/registry/maps/yukina-pl-gdansk": 1,
+        "/registry/mods/auto-lines/versions/v1.3.0": 1,
+        "/registry/mods/induced-demand": 1,
+        "/registry/mods/japanese-trains": 1,
+        "/registry/mods/kr-ktp": 1,
+        "/registry/mods/mode-manager/versions": 1,
+        "/registry/mods/station-dots": 1,
+        "/registry/mods/subwaybuilder-regions/versions": 1,
+        "/registry/mods/transit-overlay/versions/1.5.1": 1,
+        "/template-mod/docs/v1.0/debugging": 1
+      },
+      "countries": {
+        "CA": 1,
+        "LT": 1,
+        "US": 20
+      },
+      "browsers": {
+        "BingBot": 1,
+        "Chrome": 1,
+        "ChromeMobile": 1,
+        "GoogleBot": 7,
+        "MobileSafari": 1,
+        "Opera": 1,
+        "Unknown": 10
+      },
+      "operating_systems": {
+        "Android": 8,
+        "Linux": 1,
+        "Unknown": 11,
+        "Windows": 1,
+        "iOS": 1
+      },
+      "devices": {
+        "desktop": 13,
+        "mobile": 9
+      }
     }
   },
   "daily_snapshots": {
@@ -106610,17 +106646,53 @@
       }
     },
     "2026-09-10": {
-      "captured_at": "2026-09-10T00:01:15.156Z",
+      "captured_at": "2026-09-10T00:33:55.836Z",
       "window_start": "2026-09-10T00:00:00.000Z",
       "window_end": "2026-09-10T01:00:00.000Z",
       "totals": {
-        "visits": 0
+        "visits": 22
       },
-      "pages": {},
-      "countries": {},
-      "browsers": {},
-      "operating_systems": {},
-      "devices": {}
+      "pages": {
+        "/": 8,
+        "/railyard": 2,
+        "/registry/maps/toronto": 1,
+        "/registry/maps/yukina-nagoya/versions/0.2.3": 1,
+        "/registry/maps/yukina-pl-gdansk": 1,
+        "/registry/mods/auto-lines/versions/v1.3.0": 1,
+        "/registry/mods/induced-demand": 1,
+        "/registry/mods/japanese-trains": 1,
+        "/registry/mods/kr-ktp": 1,
+        "/registry/mods/mode-manager/versions": 1,
+        "/registry/mods/station-dots": 1,
+        "/registry/mods/subwaybuilder-regions/versions": 1,
+        "/registry/mods/transit-overlay/versions/1.5.1": 1,
+        "/template-mod/docs/v1.0/debugging": 1
+      },
+      "countries": {
+        "CA": 1,
+        "LT": 1,
+        "US": 20
+      },
+      "browsers": {
+        "BingBot": 1,
+        "Chrome": 1,
+        "ChromeMobile": 1,
+        "GoogleBot": 7,
+        "MobileSafari": 1,
+        "Opera": 1,
+        "Unknown": 10
+      },
+      "operating_systems": {
+        "Android": 8,
+        "Linux": 1,
+        "Unknown": 11,
+        "Windows": 1,
+        "iOS": 1
+      },
+      "devices": {
+        "desktop": 13,
+        "mobile": 9
+      }
     }
   }
 }
